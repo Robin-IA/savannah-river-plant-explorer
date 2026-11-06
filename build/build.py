@@ -253,8 +253,8 @@ def build_sources(items):
         '<label><input type="checkbox" name="tag" value="%s" checked> '
         '<span class="tag tag-%s">%s</span> %s <span class="n">(%d)</span></label>'
         % (t, t.lower(), t, html.escape(TAGS[t]), counts[t]) for t in TAGS)
-    actopts = "".join('<option value="%d">%s</option>' % (a, html.escape(l))
-                      for a, l in ACTS.items())
+    actopts = "".join('<option value="%d">%s</option>' % (a, html.escape(name))
+                      for a, name in ACTS.items())
     page = head("Sources · " + TITLE, "sources.html") + """<main id="main" class="wrap">
 <div class="intro">
   <h1>Sources</h1>
