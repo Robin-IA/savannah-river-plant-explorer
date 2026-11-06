@@ -30,7 +30,7 @@ logos:
   labelled milestones. Each mark's shape and colour say where its source is
   held, and the marks can be filtered by holder. The same events follow as a
   list, by chapter.
-- **Sources** (`sources.html`): all 352 sources behind the story, filterable
+- **Sources** (`sources.html`): all 355 sources behind the story, filterable
   by where they are held, by chapter and by word. The filters are kept in the
   URL, for example `sources.html?tag=WB&chapter=3&q=DWPF`.
 - **About** (`about.html`), including the controversies, the documentary
@@ -39,10 +39,11 @@ logos:
 **Facts:**
 
 - **Source of materials:** archive.org items (Democracy's Library and
-  others), Wayback Machine captures, Archive-It seeds, and outside holders,
-  chiefly DOE's OSTI.
+  others), Wayback Machine captures, Archive-It seeds, and a few outside
+  holders. Wherever an outside page has a working Wayback capture, the
+  capture is cited instead of the live page.
 - **Years covered:** 1950 to 2026.
-- **Size:** 352 sources: 56 DL, 114 IA, 3 OL, 90 WB, 1 AIT, 88 EXT. Counted
+- **Size:** 355 sources: 57 DL, 157 WB, 114 IA, 3 OL, 1 AIT, 23 EXT. Counted
   6 November 2026.
 - **Not included:** sources still being sought, such as the rest of the
   *New York Times* 1988 series and the "thirty incidents" report, are tracked as

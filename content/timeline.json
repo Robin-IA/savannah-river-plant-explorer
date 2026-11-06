@@ -99,7 +99,7 @@
       "date": "20 Oct 1950",
       "lane": "production",
       "text": "Truman writes to Du Pont asking it to build and run the plant",
-      "tag": "EXT",
+      "tag": "WB",
       "ref": "doe-history",
       "section": "A site for the hydrogen bomb"
     },
@@ -218,7 +218,7 @@
       "date": "1969",
       "lane": "science",
       "text": "Thermal ecology research on the reactors' cooling water begins",
-      "tag": "EXT",
+      "tag": "WB",
       "ref": "esa-thermal",
       "section": "A plant that measured itself"
     },
@@ -237,7 +237,7 @@
       "date": "2 May 1974",
       "lane": "science",
       "text": "479,000 curies of tritium gas escape from a stack",
-      "tag": "EXT",
+      "tag": "WB",
       "ref": "osti-1974",
       "section": "A plant that measured itself",
       "label": "Tritium release"
@@ -331,7 +331,7 @@
       "date": "Summer 1991",
       "lane": "cleanup",
       "text": "Par Pond is lowered 19 feet after a dam scare, exposing 1,300 acres of cesium-contaminated sediment",
-      "tag": "EXT",
+      "tag": "WB",
       "ref": "osti-parpond",
       "section": "Plant to Site"
     },
@@ -340,7 +340,7 @@
       "date": "Dec 1991",
       "lane": "science",
       "text": "Tritium from K reactor reaches the Savannah River",
-      "tag": "EXT",
+      "tag": "WB",
       "ref": "osti-k-tritium",
       "section": "Plant to Site"
     },
@@ -424,7 +424,7 @@
       "date": "2004",
       "lane": "oversight",
       "text": "Section 3116 settles what tank waste may stay in the ground",
-      "tag": "EXT",
+      "tag": "WB",
       "ref": "pl-108-375",
       "section": "The tanks"
     },
@@ -451,7 +451,7 @@
       "date": "Sep 2011",
       "lane": "cleanup",
       "text": "P and R reactors sealed in place with Recovery Act money",
-      "tag": "EXT",
+      "tag": "WB",
       "ref": "osti-isd",
       "section": "Sealing the reactors",
       "label": "P and R sealed"
@@ -506,7 +506,7 @@
       "date": "8 Jan 2019",
       "lane": "oversight",
       "text": "The Fourth Circuit lifts the injunction keeping MOX alive",
-      "tag": "EXT",
+      "tag": "WB",
       "ref": "ca4-mox",
       "section": "Plutonium: MOX and pits",
       "label": "MOX ends"
@@ -516,7 +516,7 @@
       "date": "Sep 2019",
       "lane": "oversight",
       "text": "DOE rejects the safety board's warning on the tritium facilities",
-      "tag": "EXT",
+      "tag": "WB",
       "ref": "fr-dnfsb-reply",
       "section": "Plutonium: MOX and pits"
     },
@@ -525,7 +525,7 @@
       "date": "Nov 2020",
       "lane": "production",
       "text": "DOE decides to make plutonium pits at Savannah River",
-      "tag": "EXT",
+      "tag": "WB",
       "ref": "fr-pits",
       "section": "Plutonium: MOX and pits",
       "label": "Pits decided"
@@ -534,7 +534,7 @@
       "when": 2023.5,
       "date": "Jul 2023",
       "lane": "people",
-      "text": "SRS.GOV and SRNL.GOV become Archive-It seeds",
+      "text": "SRS.GOV and SRNL.GOV archived via Archive-It",
       "tag": "AIT",
       "ref": "ait-21601",
       "section": "The laboratories"
