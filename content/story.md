@@ -70,6 +70,16 @@ government was acquiring 265 tracts in Ellenton alone
 An information meeting in Ellenton drew more than 500 people, and the
 photograph of it suggests it was segregated ([WB: ch. 8][fifty-8]).
 
+Owners objected to how their land was bought. A congressional staff report in
+late 1951 found Ellenton residents told to be gone by February 1952 while
+their property was still unappraised, each owner given a single offer at the
+appraised value, and those who took the first offer as much as 20 percent
+worse off than those who held out; about a hundred owners met twice to
+protest the prices. The Atomic Energy Commission answered that most
+condemnations came from defects in title rather than price, though it
+conceded that juries in seven contested cases had awarded substantially more
+than the government's appraisal ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1951-11-27)).
+
 *The Reporter* told the national story in March 1951 as the quiet doom of
 Ellenton ([IA](https://archive.org/details/sim_reporter_1951-03-06_4_5)).
 *Jet* told a different part of it that December: Black families moving
@@ -103,6 +113,28 @@ Labor Statistics followed the work force in a four-part study in 1952
 It records Black tenant farmers arriving in Augusta looking for jobs in May
 1951, and an NAACP meeting in Aiken that September charging Du Pont over its
 hiring.
+
+Getting hired was a fight of its own. In November 1951 a House labor
+subcommittee under Graham Barden held five days of hearings in Augusta on
+charges that union membership had become a condition of work
+([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_november-5-9-1951_13)). Its report the next year found that Du Pont hired manual
+labor through a verbal understanding with the AFL building-trades unions,
+turning job seekers away at the gate, and that Atomic Energy Commission
+officials had either approved or failed to find out
+([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1952_14)). In November 1952 pickets from an AFL engineers' union
+nearly stopped construction, with about 25,000 other workers honoring the
+line ([IA](https://archive.org/details/sim_business-week_1952-11-15_1211)).
+
+The same system kept Black workers out of the skilled trades. The National
+Urban League's field notes, filed with the Barden hearings, record that it
+pressed Du Pont in August 1951 over its failure to hire Black electricians,
+mechanics, plumbers, welders and ironworkers, and that company officials
+replied they would use no source but the unions while the unions could
+supply the labor, and would give no figures for Black employment beyond
+carpenters ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_november-5-9-1951_13)). When Truman created a committee on government
+contract compliance that December, *Jet* expected the Savannah River
+contractors to be among its first targets
+([IA](https://archive.org/details/sim_jet_1951-12-13_1_7)).
 
 Housing the workers was its own crisis. Congress held a hearing in Aiken in
 February 1951 that expected the construction peak around the start of 1953
@@ -156,6 +188,37 @@ Carlisle and Zenzen's *Supplying the Nuclear Arsenal*
 ([IA](https://archive.org/details/supplyingnuclear0000carl)), and the South
 Carolina State Historic Preservation Office holds a long illustrated study of
 the five reactor areas ([EXT: SC SHPO][shpo-reactors]).
+
+### What it released
+
+The plant's own figures understated its early releases. The CDC's dose
+reconstruction found that the iodine-131 released to the air in the 1950s,
+mainly from the separations plants, was about four times what the site had
+reported, largely because its samplers caught only one chemical form of the
+iodine ([WB: CDC dose reconstruction, Phase II ch. 1][cdc-ch1]). The largest
+tritium releases to the air came in 1957–59 from the H Area tritium
+facilities ([WB][cdc-ch1]). A fuel failure in R reactor in November 1957 sent
+more than 1,900 curies into a seepage basin dug only that year, and in 1958
+three high-level waste tanks in H Area leaked through their steel walls
+([WB: CDC Phase II ch. 5][cdc-ch5]). The final report judged the doses to
+people living nearby small, but found that a child born in 1955 received
+much of a lifetime dose from the site in its first years, from those early
+iodine releases ([WB: CDC Phase III][cdc-phase3]).
+
+On 14 March 1955, after a light rain, contamination across the plant set off
+the shoe monitors of workers coming in from outside. The plant blamed
+fallout from a bomb test in Nevada two days before. In 1985 Bernd Franke and
+Robert Alvarez argued that a reactor accident was the likelier source, since
+the contamination centred on the K, L and P reactors; a Senate inquiry the
+next year found no accident. The CDC's contractor judged Nevada fallout
+highly probable, while noting that the full extent of the deposit would
+never be known ([WB: CDC Phase II ch. 6][cdc-ch6]).
+
+The workers' side of the reckoning came later still. In 2012 the government
+added everyone who had worked at the site for at least 250 days between 1953
+and 1972 to the Special Exposure Cohort under the federal occupational
+illness compensation program, so that their cancer claims no longer turn on
+reconstructing each worker's dose ([WB: NIOSH][niosh-srs]).
 
 ### The ecologists arrive first
 
@@ -464,3 +527,8 @@ reactors, in 107 photographs and 123 data pages
 [nyt-881001]: https://web.archive.org/web/20240427052753/https://www.nytimes.com/1988/10/01/us/severe-accidents-at-nuclear-plant-were-kept-secret-up-to-31-years.html
 [nyt-881128]: https://web.archive.org/web/20180130152713/https://www.nytimes.com/1988/11/28/us/trouble-at-atomic-bomb-plants-how-lawmakers-missed-the-signs.html
 [haer-sc43]: https://web.archive.org/web/20250203072742/https://www.loc.gov/item/sc1142/
+[cdc-ch1]: https://web.archive.org/web/20260407174524/https://stacks.cdc.gov/view/cdc/142594/cdc_142594_DS1.pdf
+[cdc-ch5]: https://web.archive.org/web/20260407174550/https://stacks.cdc.gov/view/cdc/142605/cdc_142605_DS1.pdf
+[cdc-ch6]: https://web.archive.org/web/20260407174553/https://stacks.cdc.gov/view/cdc/142606/cdc_142606_DS1.pdf
+[cdc-phase3]: https://web.archive.org/web/20060422134628/http://www.cdc.gov/nceh/radiation/savannah/srs_phs3/SRS_PhaseIII_ExecSummary.pdf
+[niosh-srs]: https://web.archive.org/web/20160220075250/http://www.cdc.gov:80/niosh/ocas/srs.html
