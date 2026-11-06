@@ -9,7 +9,7 @@
   <li><span class="tag tag-ia">IA</span> <strong>Internet Archive.</strong> An archive.org item outside Democracy's Library: books in the <a href="https://archive.org/details/inlibrary">lending library</a>, magazines and newspapers, and government documents in collections such as the <a href="https://archive.org/details/dticarchive">DTIC archive</a> and the <a href="https://archive.org/details/ciareadingroom">CIA Reading Room</a>.</li>
   <li><span class="tag tag-ol">OL</span> <strong>Open Library.</strong> A book with a record in <a href="https://openlibrary.org/">Open Library</a>, the Internet Archive&rsquo;s catalogue of books. The story says whether a copy can be read or borrowed there; for the books cited so far it cannot yet.</li>
   <li><span class="tag tag-ait">AIT</span> <strong>Archive-It.</strong> Web collections built by libraries and archives with <a href="https://archive-it.org/">Archive-It</a>.</li>
-  <li><span class="tag tag-ext">EXT</span> <strong>Held elsewhere.</strong> Outside the Internet Archive; the holder is named, most often the Department of Energy's <a href="https://www.osti.gov/">OSTI</a>.</li>
+  <li><span class="tag tag-ext">EXT</span> <strong>Held elsewhere.</strong> Outside the Internet Archive, with no working Wayback capture; the holder is named, often the Department of Energy&rsquo;s <a href="https://www.osti.gov/">OSTI</a>.</li>
 </ul>
 
 <h2>Dates covered</h2>
