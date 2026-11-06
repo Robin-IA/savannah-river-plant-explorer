@@ -1,11 +1,11 @@
 # Security and accessibility checks
 
-**Status: passing.** All three checks passed on 2026-11-06 at commit `82ea414b4f`. Nothing is open. Advisory items below are optional.
+**Status: passing.** All three checks passed on 2026-11-06 at commit `a2ce89630b`. Nothing is open. Advisory items below are optional.
 
 | | |
 |---|---|
 | Explorer | https://github.com/Robin-IA/savannah-river-plant-explorer |
-| Commit | `82ea414b4f` on `design` |
+| Commit | `a2ce89630b` on `images` |
 | Date | 2026-11-06 |
 | Pages checked | `./`, `./?q=tritium`, `timeline.html`, `sources.html`, `sources.html?tag=DL&act=2&q=reactor`, `about.html` |
 | Served from | repository root, served locally |
@@ -26,7 +26,7 @@
 
 ## Standards met
 
-Checked 6 November 2026 at commit `82ea414b4f`, on the pages listed above:
+Checked 6 November 2026 at commit `a2ce89630b`, on the pages listed above:
 
 - **WCAG 2.2 Level AA**: every Level A and AA success criterion, by automated tests and a manual review of each criterion (checklists under each check below).
 - **WCAG 2.1 Level AA** and **WCAG 2.0 Level AA**, which WCAG 2.2 includes. 4.1.1 Parsing, dropped from 2.2 but still in 2.0 and 2.1, is covered by the code validity check (no HTML parse errors, no duplicate ids).
@@ -80,7 +80,7 @@ No open items.
 
 | Item | Result | Note |
 |---|---|---|
-| 1.1.1 Non-text content | pass | Logos have alt naming their destination; the banner illustration is aria-hidden; the holder chart has a title and a visually hidden data table; the timeline's marks are links whose names give date, event and holder, and the same events follow as a list with a reactor table. |
+| 1.1.1 Non-text content | pass | Logos have alt naming their destination; the banner illustration is aria-hidden; the holder chart has a title and a visually hidden data table; the timeline's marks are links whose names give date, event and holder, and the same events follow as a list with a reactor table. The four photographs and  |
 | 1.3.1 Info and relationships | pass | h1 in the banner, then h2 and h3 in order; legends are lists; the sources and reactor tables have th scope; filters are a fieldset with legend; the timeline filters are a labelled group of toggle buttons. |
 | 1.3.2 Meaningful sequence | pass | DOM order is header, intro, contents, article; the grid does not reorder. |
 | 1.4.1 Use of color | pass | Holder tags carry text; timeline marks differ in shape (circle, square, diamond, triangle, ring) as well as colour; story citations are underlined. |
@@ -123,4 +123,4 @@ Optional. These items never block a pass.
 |---|---|---|---|---|---|
 | `S-9a6baa` | security | No x-content-type-options header | `https://robin-ia.github.io/savannah-river-plant-explorer/` | A02:2025 · ASVS V3 | Set it; it stops browsers guessing content types. It has no <meta> form, so on a host that cannot set headers (GitHub Pages) it stays open; the explorer's owners decide whether that matters enough to change host. |
 
-<!-- explorer-checks:state {"passing": true, "date": "2026-11-06", "commit": "82ea414b4f394c3e0c88c6c3f52cb2d5af53c862", "open": [], "titles": {}} -->
+<!-- explorer-checks:state {"passing": true, "date": "2026-11-06", "commit": "a2ce89630b4cea14c40e4d4b88e97a5b5b0812c8", "open": [], "titles": {}} -->
