@@ -35,21 +35,22 @@ img { max-width: 100%; }
 
 /* Banner */
 .banner { position: relative; overflow: hidden; background: var(--night); color: #fff; }
-.banner-art { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.banner-map { position: absolute; top: 0; right: 0; width: 72%; height: 100%; object-fit: cover; object-position: 100% 50%; display: block; }
+.banner-veil { position: absolute; inset: 0; background: linear-gradient(90deg, var(--night) 0%, var(--night) 34%, rgba(12,31,46,.88) 48%, rgba(12,31,46,.4) 64%, rgba(12,31,46,.08) 82%, rgba(12,31,46,0) 100%); }
 .banner-inner { position: relative; padding-top: 22px; padding-bottom: 30px; min-height: 230px; }
 .banner.big .banner-inner { padding-top: 30px; padding-bottom: 56px; min-height: 380px; }
-.banner-logos { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 18px; }
+.banner-logos { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 18px; max-width: 46vw; }
 .banner-logos a { display: inline-flex; line-height: 0; border-radius: 6px; }
-.banner-logos img { width: 48px; height: 48px; }
-.banner.big .banner-logos img { width: 60px; height: 60px; }
-.banner-logos .logo-dl img { background: #fff; border-radius: 6px; padding: 3px; }
+.banner-logos img { width: auto; height: 48px; }
+.banner.big .banner-logos img { height: 60px; }
+.banner-logos .logo-dl img { background: #fff; border-radius: 6px; }
 .banner-kicker { font-size: .85rem; letter-spacing: .06em; text-transform: uppercase; color: #e9dcc6; margin-left: 4px; }
-.banner h1 { font: 700 clamp(1.7rem, 3.6vw, 3.2rem)/1.08 var(--serif); margin: 0 0 12px; max-width: 18em; text-shadow: 0 1px 12px rgba(0,0,0,.35); }
-.banner .lede { font-size: clamp(1rem, 1.3vw, 1.18rem); max-width: 44em; margin: 0 0 18px; color: #f1ede6; }
+.banner h1 { font: 700 clamp(1.7rem, 3.6vw, 3.2rem)/1.08 var(--serif); margin: 0 0 12px; max-width: min(13em, 46vw); text-shadow: 0 1px 12px rgba(0,0,0,.35); }
+.banner .lede { font-size: clamp(1rem, 1.3vw, 1.18rem); max-width: min(36em, 44vw); margin: 0 0 18px; color: #f1ede6; }
 .banner .lede a { color: #fff; }
 
 /* Search in the banner */
-.search { max-width: 760px; }
+.search { max-width: min(760px, 44vw); }
 .search label { display: block; font-weight: 600; margin-bottom: 6px; color: #f1ede6; }
 .search-row { display: flex; gap: 8px; }
 .search input { flex: 1; min-width: 0; font: inherit; font-size: 1.05rem; padding: 12px 14px; border: 2px solid #fff; border-radius: 6px; color: var(--ink); background: #fff; }
@@ -251,4 +252,7 @@ table.reactors th[scope=row] { font-weight: 700; width: 5em; }
   table.sources td { display: block; border: 0; padding: 4px 12px; width: auto; }
   .filters input[type=search] { min-width: 0; width: 100%; }
   .banner-kicker { flex-basis: 100%; margin-left: 0; }
+  .banner-map { width: 100%; }
+  .banner h1, .banner .lede, .search, .banner-logos { max-width: none; }
+  .banner-veil { background: rgba(12,31,46,.86); }
 }

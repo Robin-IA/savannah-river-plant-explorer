@@ -34,6 +34,11 @@ enough to hold an exclusion zone around the reactors
 ([WB: ch. 7][fifty-7]). DOE's own timeline dates President Truman's letter to
 Du Pont to 20 October 1950 ([EXT: DOE, energy.gov/srs][doe-history]).
 
+<figure class="fig">
+<img src="img/srs-map-2012.png" width="755" height="874" alt="Map of the Savannah River Site, shaded orange, on the South Carolina side of the Savannah River across from Georgia. Lettered operating areas are marked inside it, among them the reactor areas C, K, L, P and R, with L Lake and Par Pond. Around it are Jackson, New Ellenton, Aiken, North Augusta, Augusta, Williston, Snelling and Barnwell." loading="lazy">
+<figcaption>The site and the towns around it, among them Jackson and New Ellenton at its northern edge. The letters mark operating areas, including the five reactor areas C, K, L, P and R. Department of Energy map from the site&rsquo;s environmental report for 2012, now <a href="https://web.archive.org/web/20250416061356/https://www.srs.gov/general/pubs/ERsum/er12/12erpdfs/SRSMaps.pdf">preserved in Wayback</a>. <span class="credit">Public domain, via <a href="https://commons.wikimedia.org/wiki/File:Savannah_River_Site_and_surrounding_area.png">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 The announcement came at noon on 28 November 1950: about 250,000 acres in
 Aiken and Barnwell counties, to be called the Savannah River Plant, designed,
 built and operated by Du Pont ([WB: *SRS at Fifty* ch. 8][fifty-8]). The next
@@ -269,6 +274,11 @@ reached the Savannah River ([EXT: OSTI 5281815][osti-k-tritium];
 [EXT: OSTI 10179303][osti-k-dose]). In 1992 K went critical for a test run
 and was then shut down permanently ([WB: srs.gov 1990s][srs-1990]). Bomb
 making at Savannah River was over.
+
+<figure class="fig">
+<img src="img/srp-plutonium-production.png" width="600" height="450" alt="Bar chart titled Savannah River Plutonium Production, in kilograms by fiscal year from 1955 to 1988, with a total of 36.1 metric tons. Output rises from about 550 kilograms in 1955 to a peak of about 2,100 kilograms in 1963 and 1964, varies between about 450 and 1,400 kilograms a year from 1965 to 1987, and falls below 200 kilograms in 1988." loading="lazy">
+<figcaption>Plutonium produced at Savannah River each fiscal year, 1955&ndash;1988: 36.1 metric tons in all. From the Department of Energy&rsquo;s <em>Plutonium: The First 50 Years</em> (1996), held by <a href="https://www.osti.gov/biblio/219368">OSTI</a> and <a href="https://web.archive.org/web/20250227063902/https://www.osti.gov/servlets/purl/219368">preserved in Wayback</a>; not in the Internet Archive&rsquo;s collections. <span class="credit">Public domain, via <a href="https://commons.wikimedia.org/wiki/File:Savannah_River_plutonium_production.gif">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 What it had released was reconstructed later. The CDC's dose reconstruction
 counted about 3,000 release incidents involving tritium between 1954 and 1992

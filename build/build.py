@@ -160,51 +160,17 @@ ACT_SPANS = ((1, 1950, 1970, "Building the bomb plant"),
 
 
 def banner_art():
-    """The banner's picture: dusk over a pine horizon, five reactor
-    buildings, and the river in front. Decorative, drawn here."""
-    trees = []
-    x = -10
-    k = 0
-    while x < 1620:
-        h = 26 + (k * 37 % 23)
-        w = 14 + (k * 13 % 9)
-        trees.append("M%d %d L%d %d L%d %d Z" % (x, 268, x + w / 2, 268 - h, x + w, 268))
-        x += w * 0.62
-        k += 1
-    reactors = []
-    for i, (x, w, h) in enumerate(((1010, 70, 58), (1100, 84, 66), (1205, 76, 60),
-                                    (1300, 90, 70), (1410, 72, 56))):
-        top = 262 - h
-        reactors.append('<rect x="%d" y="%d" width="%d" height="%d"/>' % (x, top, w, h))
-        reactors.append('<rect x="%d" y="%d" width="%d" height="%d"/>' % (x + w * 0.6, top - 34 - i % 2 * 10, 9, 36 + i % 2 * 10))
-    return """<svg class="banner-art" viewBox="0 0 1600 360" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
-  <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#0c1f2e"/><stop offset=".55" stop-color="#1d4a5c"/><stop offset=".9" stop-color="#c98a4b"/>
-    </linearGradient>
-    <linearGradient id="river" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2f6577"/><stop offset=".6" stop-color="#8fb9c2"/><stop offset="1" stop-color="#d9a466"/>
-    </linearGradient>
-    <linearGradient id="veil" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0c1f2e" stop-opacity=".92"/><stop offset=".55" stop-color="#0c1f2e" stop-opacity=".8"/><stop offset="1" stop-color="#0c1f2e" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-  <rect width="1600" height="360" fill="url(#sky)"/>
-  <circle cx="1250" cy="236" r="70" fill="#f1c27d" opacity=".35"/>
-  <circle cx="1250" cy="236" r="34" fill="#f6d39a" opacity=".8"/>
-  <path d="M0 250 Q300 225 600 246 T1200 238 T1600 244 V360 H0 Z" fill="#183a49"/>
-  <g fill="#0f2633">%s<rect x="1525" y="196" width="10" height="66"/><circle cx="1530" cy="190" r="16"/></g>
-  <path d="%s" fill="#0a1a24"/>
-  <rect y="266" width="1600" height="94" fill="#0a1a24"/>
-  <path d="M0 312 C260 280 420 334 700 300 S1180 284 1600 300 V330 C1200 318 900 346 640 330 S240 318 0 340 Z" fill="url(#river)" opacity=".85"/>
-  <rect width="1600" height="360" fill="url(#veil)"/>
-</svg>""" % ("".join(reactors), " ".join(trees))
+    """The banner's picture: a detail of the Department of Energy's map of
+    the site and the towns around it (credited on the About page), behind a
+    veil that keeps the title side dark."""
+    return ('<img class="banner-map" src="img/banner-map.jpg" alt="" width="1120" height="696">'
+            '<div class="banner-veil"></div>')
 
 
 def logos():
     return """<div class="banner-logos">
       <a class="logo-ia" href="https://archive.org/"><img src="img/internet-archive.png" alt="Internet Archive" width="56" height="56"></a>
-      <a class="logo-dl" href="https://archive.org/details/democracys-library"><img src="img/democracys-library.png" alt="Democracy's Library" width="56" height="56"></a>
+      <a class="logo-dl" href="https://archive.org/details/democracys-library"><img src="img/democracys-library-crop.png" alt="Democracy's Library" width="99" height="60"></a>
       <span class="banner-kicker">A Democracy's Library story from the Internet Archive</span>
     </div>"""
 
