@@ -18,7 +18,7 @@ Every claim carries a tag saying where its source lives:
 The full source lists, with every identifier, URL and verification note, are
 in [sources-act1.md](sources-act1.md), [sources-act2.md](sources-act2.md) and
 [sources-act3.md](sources-act3.md). Where sources disagree, the story says so
-rather than choosing; the disagreements are gathered at the end.
+rather than choosing.
 
 ---
 
@@ -345,37 +345,6 @@ The SRS Museum opened in Aiken after a 2014 ribbon-cutting
 preservation program work with it ([WB][preserve-2020]) — the same program
 that collected Ellenton's memories in 1990.
 
----
-
-## Where the record sources disagree
-
-- **How many people were displaced:** 5,000 (SRARP), 6,000 in 1,500 families
-  (AEC), up to 8,000 farmers (early reports). Quote each with its source.
-- **First plutonium shipment:** 28 December 1954 (*SRS at Fifty* ch. 11) or
-  1955 (srs.gov History Highlights, energy.gov).
-- **SREL's founding:** 1951, the start of Odum's survey (SREL), or 1961, the
-  permanent laboratory (srs.gov 1960s).
-- **Why the reactors stopped in 1988:** emergency cooling and loss-of-coolant
-  concerns in the official history; the aftermath of Chernobyl and
-  concealment in the investigator's memoir.
-- **P reactor's final shutdown:** 1988 (SRS, 2008) or 1991 (OSTI, 2012).
-
-## Not yet found or not yet read
-
-- The *New York Times* 1988 series on the weapons plants. No article was
-  verified.
-- The "thirty incidents" report itself.
-- *SRS at Fifty* chapters 16 and 18 (1964–79 and the rise of
-  environmentalism): no captures. Chapters 4–6, 9 and 10 survive only inside
-  the full-book PDF.
-- Kari Frederickson's *Cold War Dixie* (2013) and Cassels's *The Unexpected
-  Exodus*: not in the Archive.
-- Hagley, the Library of Congress (HAER) and NARA refused or were not
-  checked. Archive-It captures could not be listed (bot check); only seeds
-  are confirmed.
-- Unsourced, and kept out of the story: the 1952 construction peak, Ellenton's
-  final evacuation date, Du Pont's nominal fee, the MOX termination notice and
-  the 2020 plutonium settlement.
 
 [fifty-7]: https://web.archive.org/web/20161222003153/http://www.srs.gov/general/about/50anniv/Chapter%2007.pdf
 [fifty-8]: https://web.archive.org/web/20070928081912/http://www.srs.gov/general/about/50anniv/Chapter%2008.pdf

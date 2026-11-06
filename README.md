@@ -9,19 +9,27 @@ is held.**
 
 ## What it does
 
-Three pages:
+Four pages, under a banner with the Internet Archive and Democracy's Library
+logos:
 
 - **Story** (`index.html`): the history in three acts, with a tag on every
   citation: **DL** Democracy's Library, **IA** the Internet Archive outside
   Democracy's Library, **WB** the Wayback Machine, **AIT** Archive-It, **EXT**
   held elsewhere. Each tag links to its source. The acts cover building the
   plant (1950–1969), the reactors under scrutiny (1970–1992) and the years
-  after bomb making (1992 to now). The end of the story sets out where
-  sources disagree.
+  after bomb making (1992 to now). A search box in the banner finds passages
+  in the story, events on the timeline and matching sources; a side panel
+  charts where each act's sources are held.
+- **Timeline** (`timeline.html`): 36 events from the story in five lanes
+  (land and people, production, environment and science, oversight and law,
+  cleanup and legacy), the working lives of the five production reactors, and
+  labelled milestones. Each mark's shape and colour say where its source is
+  held, and the marks can be filtered by holder. The same events follow as a
+  list, by act.
 - **Sources** (`sources.html`): all 294 sources behind the story, filterable
   by where they are held, by act and by word. The filters are kept in the URL,
   for example `sources.html?tag=WB&act=3&q=DWPF`.
-- **About** (`about.html`).
+- **About** (`about.html`), including where the sources disagree.
 
 **Facts:**
 
@@ -31,9 +39,11 @@ Three pages:
 - **Years covered:** 1950 to 2026.
 - **Size:** 294 sources: 47 DL, 102 IA, 71 WB, 1 AIT, 73 EXT. Counted
   6 November 2026.
-- **Not included:** the *New York Times* 1988 series, the Hagley Du Pont
-  records and the Library of Congress HAER survey were not reached; Archive-It
-  captures could not be listed. Unsourced facts are kept out of the story.
+- **Not included:** sources still being sought, such as the *New York Times*
+  1988 series, the Hagley Du Pont records and the Library of Congress HAER
+  survey, are tracked as
+  [issues labelled `source-gap`](https://github.com/Robin-IA/savannah-river-plant-explorer/issues?q=label%3Asource-gap).
+  Unsourced facts are kept out of the story.
 
 ## How it was built
 
@@ -51,13 +61,23 @@ The notes for each source, including what was and was not read, are in
 
 ### The code
 
-- `content/` holds the story and the three source lists in Markdown. They
-  are the source of truth; the HTML is generated from them.
-- `build/build.py` turns them into `index.html`, `sources.html` and
-  `data/sources.json` (every source with its act, theme, label and link).
-  It needs Python 3 and the `markdown` package, pinned in `requirements.txt`. It refuses to write a page with a link that is not http(s), `mailto:`, an anchor or one of the explorer's own files.
-- `about.html`, `style.css` and `app.js` are written by hand. `app.js` only
-  filters the sources table; both pages are complete without it.
+- `content/` is the source of truth; every page is generated from it:
+  `story.md` and `sources-act1.md` to `sources-act3.md` (Markdown),
+  `timeline.json` (each event and reactor span, with the same source as in
+  the story), `about.html` (the About page's body) and `disagree.md` (where
+  sources disagree, shown on the About page).
+- `build/build.py` writes `index.html`, `timeline.html`, `sources.html`,
+  `about.html`, `data/sources.json` and `data/timeline.json`. It needs
+  Python 3 and the `markdown` package, pinned in `requirements.txt`. It
+  refuses to write a page with a link that is not http(s), `mailto:`, an
+  anchor or one of the explorer's own files. The banner picture, the holder
+  chart and the timeline are SVG drawn by the script.
+- `style.css` and three small scripts are written by hand: `search.js` (the
+  story page's search), `timeline.js` (tooltips and holder filters) and
+  `app.js` (the sources filters). Every page reads completely without them.
+- Holder colours come from a validated categorical palette (blue, green,
+  amber, magenta, and gray for "held elsewhere"); shapes and text labels
+  carry the same information, so nothing depends on colour alone.
 - Published with GitHub Pages from the `main` branch, root folder.
 
 To rebuild after editing anything in `content/`:

@@ -3,9 +3,9 @@
 
     python3 build/build.py
 
-Reads content/story.md and content/sources-act{1,2,3}.md and writes
-index.html (the story), sources.html (every source, filterable) and
-data/sources.json. about.html is written by hand and not touched.
+Reads content/ (story.md, sources-act{1,2,3}.md, timeline.json,
+about.html, disagree.md) and writes index.html (the story), timeline.html,
+sources.html, about.html, data/sources.json and data/timeline.json.
 
 Needs the `markdown` package (pip install markdown).
 """
@@ -16,6 +16,7 @@ import pathlib
 import re
 
 import markdown
+import markdown.extensions.toc
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
@@ -149,12 +150,68 @@ def sources(path, act):
 
 
 # --------------------------------------------------------------------------
-# Page furniture shared by all three pages.
+# Page furniture shared by every page.
 
-def head(title, here):
+PAGES = (("index.html", "Story"), ("timeline.html", "Timeline"),
+         ("sources.html", "Sources"), ("about.html", "About"))
+ACT_SPANS = ((1, 1950, 1970, "Building the bomb plant"),
+             (2, 1970, 1992.5, "The reactors under scrutiny"),
+             (3, 1992.5, 2027, "After the bombs"))
+
+
+def banner_art():
+    """The banner's picture: dusk over a pine horizon, five reactor
+    buildings, and the river in front. Decorative, drawn here."""
+    trees = []
+    x = -10
+    k = 0
+    while x < 1620:
+        h = 26 + (k * 37 % 23)
+        w = 14 + (k * 13 % 9)
+        trees.append("M%d %d L%d %d L%d %d Z" % (x, 268, x + w / 2, 268 - h, x + w, 268))
+        x += w * 0.62
+        k += 1
+    reactors = []
+    for i, (x, w, h) in enumerate(((1010, 70, 58), (1100, 84, 66), (1205, 76, 60),
+                                    (1300, 90, 70), (1410, 72, 56))):
+        top = 262 - h
+        reactors.append('<rect x="%d" y="%d" width="%d" height="%d"/>' % (x, top, w, h))
+        reactors.append('<rect x="%d" y="%d" width="%d" height="%d"/>' % (x + w * 0.6, top - 34 - i % 2 * 10, 9, 36 + i % 2 * 10))
+    return """<svg class="banner-art" viewBox="0 0 1600 360" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0c1f2e"/><stop offset=".55" stop-color="#1d4a5c"/><stop offset=".9" stop-color="#c98a4b"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2f6577"/><stop offset=".6" stop-color="#8fb9c2"/><stop offset="1" stop-color="#d9a466"/>
+    </linearGradient>
+    <linearGradient id="veil" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0c1f2e" stop-opacity=".92"/><stop offset=".55" stop-color="#0c1f2e" stop-opacity=".55"/><stop offset="1" stop-color="#0c1f2e" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="360" fill="url(#sky)"/>
+  <circle cx="1250" cy="236" r="70" fill="#f1c27d" opacity=".35"/>
+  <circle cx="1250" cy="236" r="34" fill="#f6d39a" opacity=".8"/>
+  <path d="M0 250 Q300 225 600 246 T1200 238 T1600 244 V360 H0 Z" fill="#183a49"/>
+  <g fill="#0f2633">%s<rect x="1525" y="196" width="10" height="66"/><circle cx="1530" cy="190" r="16"/></g>
+  <path d="%s" fill="#0a1a24"/>
+  <rect y="266" width="1600" height="94" fill="#0a1a24"/>
+  <path d="M0 312 C260 280 420 334 700 300 S1180 284 1600 300 V330 C1200 318 900 346 640 330 S240 318 0 340 Z" fill="url(#river)" opacity=".85"/>
+  <rect width="1600" height="360" fill="url(#veil)"/>
+</svg>""" % ("".join(reactors), " ".join(trees))
+
+
+def logos():
+    return """<div class="banner-logos">
+      <a class="logo-ia" href="https://archive.org/"><img src="img/internet-archive.png" alt="Internet Archive" width="56" height="56"></a>
+      <a class="logo-dl" href="https://archive.org/details/democracys-library"><img src="img/democracys-library.png" alt="Democracy's Library" width="56" height="56"></a>
+      <span class="banner-kicker">A Democracy's Library story from the Internet Archive</span>
+    </div>"""
+
+
+def head(title, here, h1, lede, extra="", big=False):
     nav = []
-    for href, label in (("index.html", "Story"), ("sources.html", "Sources"),
-                        ("about.html", "About")):
+    for href, label in PAGES:
         cur = ' aria-current="page"' if href == here else ""
         nav.append('<a href="%s"%s>%s</a>' % (href, cur, label))
     return """<!doctype html>
@@ -171,17 +228,26 @@ def head(title, here):
 <a class="skip" href="#main">Skip to content</a>
 <header class="bar">
   <div class="wrap">
-    <a class="logo" href="https://archive.org/"><img src="img/internet-archive.png" alt="Internet Archive" width="36" height="36"></a>
-    <a class="logo dl" href="https://archive.org/details/democracys-library"><img src="img/democracys-library.png" alt="Democracy's Library" width="36" height="36"></a>
+    <a class="home" href="index.html">Bomb Making</a>
     <nav aria-label="Pages">%s</nav>
   </div>
 </header>
-""" % (CSP, html.escape(title), html.escape(DESCRIPTION, quote=True), "".join(nav))
+<div class="banner%s">
+  %s
+  <div class="wrap banner-inner">
+    %s
+    <h1>%s</h1>
+    <p class="lede">%s</p>
+    %s
+  </div>
+</div>
+""" % (CSP, html.escape(title), html.escape(DESCRIPTION, quote=True), "".join(nav),
+       " big" if big else "", banner_art(), logos(), html.escape(h1), lede, extra)
 
 
 # The explorer-checks passing note. The pages are generated, so the note
 # lives here, not in the pages: when a later run of the checker re-dates it
-# or takes it down, make the same change here (and in about.html).
+# or takes it down, make the same change here.
 CHECKS_NOTE = """<!-- explorer-checks:note -->
 <p class="explorer-checks-note">
   Meets WCAG 2.2 Level AA accessibility (and WCAG 2.1 AA and 2.0 AA), checked
@@ -192,7 +258,8 @@ CHECKS_NOTE = """<!-- explorer-checks:note -->
 <!-- /explorer-checks:note -->"""
 
 
-def foot():
+def foot(scripts=()):
+    tags = "".join('<script src="%s"></script>\n' % s for s in scripts)
     return """<footer class="foot">
   <div class="wrap">
     <p>Sources checked live on %s. Code and source notes on
@@ -201,15 +268,45 @@ def foot():
     %s
   </div>
 </footer>
-</body>
+%s</body>
 </html>
-""" % (CHECKED, FEEDBACK, CHECKS_NOTE)
+""" % (CHECKED, FEEDBACK, CHECKS_NOTE, tags)
 
 
-def legend():
+def legend(cls="legend"):
     rows = "".join('<li><span class="tag tag-%s">%s</span> %s</li>'
                    % (t.lower(), t, html.escape(n)) for t, n in TAGS.items())
-    return '<ul class="legend" aria-label="Where each source is held">%s</ul>' % rows
+    return '<ul class="%s" aria-label="Where each source is held">%s</ul>' % (cls, rows)
+
+
+def holder_chart(items):
+    """Stacked bars, one per act: how many sources each holder supplies."""
+    rows, table = [], []
+    w, x0, bar = 300, 0, 18
+    for n, act in enumerate((1, 2, 3)):
+        mine = [s for s in items if s["act"] == act]
+        total = len(mine)
+        y = n * 52 + 22
+        rows.append('<text class="ch-label" x="0" y="%d">Act %d · %d sources</text>' % (y - 6, act, total))
+        x = x0
+        cells = []
+        for t in TAGS:
+            c = sum(1 for s in mine if s["tag"] == t)
+            cells.append(str(c))
+            if not c:
+                continue
+            seg = w * c / total
+            rows.append('<rect class="seg seg-%s" x="%.1f" y="%d" width="%.1f" height="%d" rx="3"><title>Act %d: %d %s</title></rect>'
+                        % (t.lower(), x, y, max(seg - 2, 1), bar, act, c, html.escape(TAGS[t])))
+            if seg >= 24:
+                rows.append('<text class="seg-n seg-n-%s" x="%.1f" y="%d">%d</text>' % (t.lower(), x + seg / 2 - 1, y + 13, c))
+            x += seg
+        table.append("<tr><th scope=\"row\">Act %d</th>%s<td>%d</td></tr>" % (act, "".join("<td>%s</td>" % c for c in cells), total))
+    svg = ('<svg class="holder-chart" viewBox="0 0 %d 158" role="img" aria-labelledby="hc-t">'
+           '<title id="hc-t">Sources by where they are held, for each act</title>%s</svg>' % (w, "".join(rows)))
+    tbl = ('<div class="sr"><table><caption>Sources by holder and act</caption><tr><th scope="col">Act</th>%s<th scope="col">Total</th></tr>%s</table></div>'
+           % ("".join('<th scope="col">%s</th>' % html.escape(TAGS[t]) for t in TAGS), "".join(table)))
+    return svg + tbl
 
 
 # --------------------------------------------------------------------------
@@ -223,33 +320,64 @@ def tag_links(body):
     return re.sub(r"<a([^>]*)>(DL|IA|WB|AIT|EXT)\b(.*?)</a>", repl, body, flags=re.S)
 
 
-def build_story():
+def story_refs():
     text = (CONTENT / "story.md").read_text(encoding="utf-8")
-    # The title and the "how to read" section become the page's own header.
+    return dict(re.findall(r"^\[([\w-]+)\]:\s*(\S+)", text, re.M))
+
+
+SEARCH_FORM = """<form class="search" action="sources.html" method="get" role="search" aria-label="Search the story and its sources">
+      <label for="site-q">Search the story, the timeline and %d sources</label>
+      <div class="search-row">
+        <input id="site-q" name="q" type="search" placeholder="Ellenton, tritium, glass, MOX…" autocomplete="off">
+        <button type="submit">Search</button>
+      </div>
+    </form>"""
+
+
+def build_story(items):
+    text = (CONTENT / "story.md").read_text(encoding="utf-8")
     text = re.sub(r"\A# .*?\n", "", text)
     text = re.sub(r"## How to read the sources.*?\n---\n", "", text, flags=re.S)
-    text = re.sub(r"\[(sources-act\d\.md)\]\(\1\)", "[the source lists](sources.html)", text)
+    text = re.sub(r"\A\s*\*A draft.*?\*\n", "", text, flags=re.S)
     md = markdown.Markdown(extensions=["tables", "toc"],
-                           extension_configs={"toc": {"toc_depth": "2-2"}})
+                           extension_configs={"toc": {"toc_depth": "2-3"}})
     body = tag_links(md.convert(text))
-    body = body.replace("<table>", '<div class="scroll"><table>').replace("</table>", "</table></div>")
-    toc = md.toc  # <div class="toc"><ul>…</ul></div>
-    toc = toc.replace('<div class="toc">', '<nav class="toc" aria-label="Contents"><h2>Contents</h2>').replace("</div>", "</nav>")
-    page = head(TITLE, "index.html") + """<main id="main" class="wrap story">
-<div class="intro">
-  <h1>%s</h1>
-  <p class="lede">%s</p>
-  <p>Every claim carries a tag saying where its source is held. Click a tag to open the source.</p>
-  %s
+    body = re.sub(r'<h2 id="(act-(\d)[^"]*)">Act \d\. (.*?)</h2>',
+                  r'<h2 id="\1" class="act act-\2"><span class="act-n">Act \2</span> \3</h2>', body)
+    body = re.sub(r"<hr />\s*", "", body)
+    n = [0]
+
+    def pid(m):
+        n[0] += 1
+        return '<%s id="s%d">' % (m.group(1), n[0])
+    body = re.sub(r"<(p|li)>", pid, body)
+    toc = md.toc.replace('<div class="toc">', '<nav class="toc" aria-label="Contents"><h2>Contents</h2>').replace("</div>", "</nav>")
+    lede = html.escape(DESCRIPTION)
+    page = head(TITLE, "index.html", TITLE, lede, SEARCH_FORM % len(items), big=True) + """<div id="results" class="wrap results" hidden>
+  <div class="results-head"><h2 id="results-h">Search results</h2><button type="button" id="results-close">Clear search</button></div>
+  <p id="results-count" role="status" aria-live="polite"></p>
+  <div class="results-cols">
+    <section aria-labelledby="rs-story"><h3 id="rs-story">In the story</h3><ol id="results-story"></ol></section>
+    <section aria-labelledby="rs-time"><h3 id="rs-time">On the timeline</h3><ol id="results-time"></ol></section>
+  </div>
 </div>
+<main id="main" class="wrap story">
 <div class="cols">
 %s
 <article>
 %s
 </article>
+<aside class="rail" aria-label="Where the record lives">
+  <h2>Where the record lives</h2>
+  <p>Each claim is tagged with where its source is held.</p>
+  %s
+  %s
+  <a class="card" href="timeline.html"><strong>Timeline</strong><span>Seventy-six years in one view: the reactors, the people moved, the oversight and the cleanup.</span></a>
+  <a class="card" href="sources.html"><strong>All %d sources</strong><span>Filter by holder, act and word.</span></a>
+</aside>
 </div>
 </main>
-""" % (html.escape(TITLE), html.escape(DESCRIPTION), legend(), toc, body) + foot()
+""" % (toc, body, legend("legend stacked"), holder_chart(items), len(items)) + foot(["search.js"])
     write(ROOT / "index.html", page)
 
 
@@ -273,11 +401,10 @@ def build_sources(items):
         % (t, t.lower(), t, html.escape(TAGS[t]), counts[t]) for t in TAGS)
     actopts = "".join('<option value="%d">%s</option>' % (a, html.escape(name))
                       for a, name in ACTS.items())
-    page = head("Sources · " + TITLE, "sources.html") + """<main id="main" class="wrap">
-<div class="intro">
-  <h1>Sources</h1>
-  <p class="lede">All %d sources behind <a href="index.html">the story</a>, with where each is held and what it contributes. Checked live on %s, except where a note says otherwise.</p>
-</div>
+    lede = ('All %d sources behind <a href="index.html">the story</a>, with where each is held and what it contributes. '
+            'Checked live on %s, except where a note says otherwise.' % (len(items), CHECKED))
+    page = head("Sources · " + TITLE, "sources.html", "Sources", lede) + """<main id="main" class="wrap">
+<div class="sources-top">
 <form class="filters" role="search" aria-label="Filter sources">
   <fieldset><legend>Held in</legend>%s</fieldset>
   <div class="row">
@@ -287,6 +414,8 @@ def build_sources(items):
     <input id="q" name="q" type="search" placeholder="Ellenton, tritium, DWPF…">
   </div>
 </form>
+<div class="chart-box">%s</div>
+</div>
 <p id="count" class="count" role="status" aria-live="polite">%d sources</p>
 <div class="scroll">
 <table class="sources">
@@ -298,11 +427,165 @@ def build_sources(items):
 </table>
 </div>
 </main>
-<script src="app.js"></script>
-""" % (len(items), CHECKED, tagbtns, actopts, len(items), "\n".join(rows)) + foot()
+""" % (tagbtns, actopts, holder_chart(items), len(items), "\n".join(rows)) + foot(["app.js"])
     write(ROOT / "sources.html", page)
 
-LOCAL = re.compile(r"^(index|sources|about)\.html$|^(style\.css|app\.js)$|^img/[\w.-]+\.png$")
+
+def build_about():
+    body = (CONTENT / "about.html").read_text(encoding="utf-8")
+    disagree = markdown.markdown((CONTENT / "disagree.md").read_text(encoding="utf-8"))
+    body = body.replace("<!-- DISAGREE -->", disagree.replace("<ul>", '<ul class="disagree">'))
+    lede = ("A history of the Savannah River Plant told from the record, with every source "
+            "labelled by where it is held, so a reader can open it and check.")
+    page = head("About · " + TITLE, "about.html", "About this explorer", lede) + \
+        '<main id="main" class="wrap about">\n%s\n</main>\n' % body + foot()
+    write(ROOT / "about.html", page)
+
+
+# --------------------------------------------------------------------------
+# The timeline: reactor spans and events, drawn as an SVG at build time,
+# with the same events as a list underneath for reading and for screens
+# too narrow for the chart.
+
+TL_X0, TL_X1, TL_Y0, TL_Y1 = 190, 1180, 1950, 2027
+SHAPES = {
+    "DL": '<circle r="7"/>',
+    "IA": '<rect x="-6.5" y="-6.5" width="13" height="13" rx="2"/>',
+    "WB": '<path d="M0 -8.5 L8.5 0 L0 8.5 L-8.5 0 Z"/>',
+    "AIT": '<path d="M0 -8 L8 6.5 L-8 6.5 Z"/>',
+    "EXT": '<circle r="5.5"/>',
+}
+
+
+def tx(year):
+    return TL_X0 + (year - TL_Y0) / (TL_Y1 - TL_Y0) * (TL_X1 - TL_X0)
+
+
+def shape_svg(tag, size=20):
+    return ('<svg class="shape" width="%d" height="%d" viewBox="-10 -10 20 20" aria-hidden="true">'
+            '<g class="mk mk-%s">%s</g></svg>' % (size, size, tag.lower(), SHAPES[tag]))
+
+
+def build_timeline(tl):
+    refs = story_refs()
+    slug = lambda t: markdown.extensions.toc.slugify(t, "-")  # noqa: E731
+    lanes = tl["lanes"]
+    for i, e in enumerate(tl["events"]):
+        e["i"] = i
+        e["url"] = e.get("href") or refs[e["ref"]]
+        e["anchor"] = slug(e["section"])
+    for r in tl["reactors"]:
+        r["url"] = r.get("href") or refs[r["ref"]]
+
+    parts = []
+    top = 112
+    react_h = 18 * len(tl["reactors"]) + 26
+    lane_h = 74
+    height = top + react_h + lane_h * len(lanes) + 34
+    # act bands and labels
+    for a, y0, y1, name in ACT_SPANS:
+        parts.append('<rect class="band band-%d" x="%.1f" y="0" width="%.1f" height="%d"/>'
+                     % (a, tx(y0), tx(min(y1, TL_Y1)) - tx(y0), height - 26))
+        parts.append('<text class="band-label band-label-%d" x="%.1f" y="18">Act %d</text>'
+                     '<text class="band-sub" x="%.1f" y="34">%s</text>'
+                     % (a, tx(y0) + 8, a, tx(y0) + 8, html.escape(name)))
+    # decade grid and axis
+    for y in range(1950, 2030, 10):
+        parts.append('<line class="grid" x1="%.1f" x2="%.1f" y1="%d" y2="%d"/>' % (tx(y), tx(y), top, height - 26))
+        parts.append('<text class="axis" x="%.1f" y="%d">%d</text>' % (tx(y), height - 8, y))
+    # milestone strip: the labelled events, in up to three rows
+    ends = [-1e9, -1e9, -1e9]
+    for e in sorted((e for e in tl["events"] if e.get("label")), key=lambda e: e["when"]):
+        x = tx(e["when"])
+        width = 6.4 * len(e["label"]) + 10
+        row = next((k for k in range(3) if x >= ends[k] + 10), min(range(3), key=lambda k: ends[k]))
+        ends[row] = x + width
+        ty = 58 + row * 17
+        parts.append('<g class="milestone" aria-hidden="true"><line x1="%.1f" x2="%.1f" y1="%d" y2="%d"/>'
+                     '<text x="%.1f" y="%d">%s</text></g>'
+                     % (x, x, ty + 3, top - 4, x + 4, ty, html.escape(e["label"])))
+    # reactors
+    y = top + 16
+    parts.append('<text class="lane-label" x="12" y="%d">Reactors running</text>' % y)
+    for r in tl["reactors"]:
+        y += 18
+        parts.append('<g class="reactor"><title>%s reactor: %s</title>' % (r["name"], html.escape(r["note"])))
+        parts.append('<text class="reactor-name" x="%d" y="%d">%s</text>' % (TL_X0 - 14, y + 4, r["name"]))
+        for a, b in r["spans"]:
+            parts.append('<rect class="run" x="%.1f" y="%d" width="%.1f" height="9" rx="4.5"/>' % (tx(a), y - 4, tx(b) - tx(a)))
+        if r.get("disputed"):
+            a, b = r["disputed"]
+            parts.append('<line class="disputed" x1="%.1f" x2="%.1f" y1="%.1f" y2="%.1f"/>' % (tx(a) + 3, tx(b), y + .5, y + .5))
+        if r.get("test"):
+            parts.append('<circle class="test" cx="%.1f" cy="%.1f" r="4"/>' % (tx(r["test"]), y + .5))
+        parts.append("</g>")
+    # lanes of events
+    y_lane = top + react_h
+    for li, lane in enumerate(lanes):
+        cy = y_lane + li * lane_h + lane_h / 2
+        parts.append('<line class="lane-rule" x1="0" x2="%d" y1="%.1f" y2="%.1f"/>' % (TL_X1 + 10, cy - lane_h / 2, cy - lane_h / 2))
+        parts.append('<text class="lane-label" x="12" y="%.1f">%s</text>' % (cy + 4, html.escape(lane["label"])))
+        last = [-99, -99, -99]
+        offs = [0, -20, 20]
+        for e in sorted((e for e in tl["events"] if e["lane"] == lane["id"]), key=lambda e: e["when"]):
+            x = tx(e["when"])
+            row = next((k for k in range(3) if x - last[k] >= 17), min(range(3), key=lambda k: last[k]))
+            last[row] = x
+            label = "%s: %s. Source held in %s." % (e["date"], e["text"], TAGS[e["tag"]])
+            parts.append('<a class="ev" href="index.html#%s" data-tag="%s" data-i="%d" aria-label="%s">'
+                         '<title>%s</title><g class="mk mk-%s" transform="translate(%.1f %.1f)">%s</g>'
+                         % (e["anchor"], e["tag"], e["i"], html.escape(label, quote=True),
+                            html.escape(label), e["tag"].lower(), x, cy + offs[row], SHAPES[e["tag"]]))
+            parts.append("</a>")
+    svg = ('<svg class="timeline" viewBox="0 0 %d %d" role="group" aria-label="Timeline, 1950 to 2026">%s</svg>'
+           % (TL_X1 + 20, height, "".join(parts)))
+
+    filters = "".join(
+        '<button type="button" class="tl-filter" data-tag="%s" aria-pressed="true">%s<span>%s</span> <span class="n">%d</span></button>'
+        % (t, shape_svg(t, 16), html.escape(TAGS[t]), sum(1 for e in tl["events"] if e["tag"] == t)) for t in TAGS)
+
+    lists = []
+    for a, y0, y1, name in ACT_SPANS:
+        evs = [e for e in tl["events"] if y0 <= e["when"] < y1]
+        lis = []
+        for e in evs:
+            lane = next(ln["label"] for ln in lanes if ln["id"] == e["lane"])
+            lis.append(
+                '<li id="ev-%d" data-tag="%s"><span class="tl-dot">%s</span><time>%s</time>'
+                '<div><p>%s</p><p class="tl-meta">%s · <a class="cite" href="%s"><span class="tag tag-%s">%s</span>source</a> · '
+                '<a href="index.html#%s">in the story</a></p></div></li>'
+                % (e["i"], e["tag"], shape_svg(e["tag"], 18), html.escape(e["date"]), html.escape(e["text"]),
+                   html.escape(lane), html.escape(e["url"], quote=True), e["tag"].lower(), e["tag"], e["anchor"]))
+        lists.append('<section class="tl-act tl-act-%d"><h2 class="act act-%d"><span class="act-n">Act %d</span> %s</h2><ol class="tl-list">%s</ol></section>'
+                     % (a, a, a, html.escape(name), "".join(lis)))
+
+    rrows = "".join(
+        '<tr><th scope="row">%s</th><td>%s</td><td><a class="cite" href="%s"><span class="tag tag-%s">%s</span>source</a></td></tr>'
+        % (r["name"], html.escape(r["note"]), html.escape(r["url"], quote=True), r["tag"].lower(), r["tag"])
+        for r in tl["reactors"])
+
+    lede = ("From the land taken in 1950 to the tanks still being emptied: %d events from the story, "
+            "and the five production reactors' working lives. Each mark is shaped and coloured by where "
+            "its source is held; select one to read it in the story." % len(tl["events"]))
+    page = head("Timeline · " + TITLE, "timeline.html", "Timeline", lede) + """<main id="main" class="wrap">
+<div class="tl-controls" role="group" aria-label="Show events whose source is held in">
+  <span class="tl-controls-label">Show sources held in</span>%s
+</div>
+<figure class="tl-figure">
+  <div class="tl-scroll">%s</div>
+  <div id="tl-tip" class="tl-tip" hidden></div>
+  <figcaption>Reactor bars show when each production reactor ran; the dashed line is the span the sources dispute for P reactor, and the ring marks K reactor's 1992 test run. <a href="#tl-reactors">Reactor dates as a table</a>.</figcaption>
+</figure>
+<div class="tl-lists">%s</div>
+<h2 id="tl-reactors">The reactors</h2>
+<div class="scroll"><table class="reactors"><thead><tr><th scope="col">Reactor</th><th scope="col">Working life</th><th scope="col">Source</th></tr></thead><tbody>%s</tbody></table></div>
+</main>
+""" % (filters, svg, "".join(lists), rrows) + foot(["timeline.js"])
+    write(ROOT / "timeline.html", page)
+    return tl["events"]
+
+
+LOCAL = re.compile(r"^(index|sources|about|timeline)\.html(#[\w-]+)?$|^(style\.css|app\.js|search\.js|timeline\.js)$|^img/[\w.-]+\.png$")
 IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
 
 
@@ -337,25 +620,25 @@ def main():
     items = []
     for act in (1, 2, 3):
         items += sources(CONTENT / ("sources-act%d.md" % act), act)
-    data = [{k: s[k] for k in ("act", "section", "tag", "qual", "ident", "href")}
-            for s in items]
     (ROOT / "data").mkdir(exist_ok=True)
+    data = [{k: s[k] for k in ("act", "section", "tag", "qual", "ident", "href", "search")}
+            for s in items]
     write(ROOT / "data" / "sources.json",
           json.dumps(data, ensure_ascii=False, separators=(",", ":")))
-    build_story()
+    tl = json.loads((CONTENT / "timeline.json").read_text(encoding="utf-8"))
+    build_story(items)
+    events = build_timeline(tl)
+    write(ROOT / "data" / "timeline.json", json.dumps(
+        [{k: e[k] for k in ("i", "date", "text", "tag", "anchor")} for e in events],
+        ensure_ascii=False, separators=(",", ":")))
     build_sources(items)
-    check_links("about.html", (ROOT / "about.html").read_text(encoding="utf-8"))
+    build_about()
     by = {}
     for s in items:
-        by.setdefault((s["act"], s["tag"]), 0)
-        by[(s["act"], s["tag"])] += 1
-    print(len(items), "sources")
+        by[(s["act"], s["tag"])] = by.get((s["act"], s["tag"]), 0) + 1
+    print(len(items), "sources,", len(events), "timeline events")
     for act in (1, 2, 3):
         print("  act", act, {t: by.get((act, t), 0) for t in TAGS})
-    missing = [s for s in items if not s["href"]]
-    print(len(missing), "without a link")
-    for s in missing:
-        print("   ", s["act"], s["tag"], s["search"][:90])
 
 
 if __name__ == "__main__":

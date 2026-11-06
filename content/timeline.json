@@ -1,0 +1,432 @@
+{
+  "_about": "Events and reactor spans for timeline.html. Every entry comes from content/story.md and carries the same source: 'ref' names a reference link defined in story.md, 'href' is a direct link. 'section' is the story heading the event is told under. 'when' is a decimal year used only for placement; 'date' is what is shown. 'label' is a short caption drawn beside the mark.",
+  "lanes": [
+    {
+      "id": "people",
+      "label": "Land and people"
+    },
+    {
+      "id": "production",
+      "label": "Production"
+    },
+    {
+      "id": "science",
+      "label": "Environment and science"
+    },
+    {
+      "id": "oversight",
+      "label": "Oversight and law"
+    },
+    {
+      "id": "cleanup",
+      "label": "Cleanup and legacy"
+    }
+  ],
+  "reactors": [
+    {
+      "name": "R",
+      "spans": [
+        [
+          1953.92,
+          1964.5
+        ]
+      ],
+      "note": "Critical December 1953; shut down 1964.",
+      "tag": "WB",
+      "ref": "fifty-11"
+    },
+    {
+      "name": "P",
+      "spans": [
+        [
+          1954.13,
+          1988.6
+        ]
+      ],
+      "disputed": [
+        1988.6,
+        1991.5
+      ],
+      "note": "Critical 20 February 1954; down August 1988. Its final shutdown is dated 1988 by SRS and 1991 by OSTI.",
+      "tag": "WB",
+      "ref": "fifty-19"
+    },
+    {
+      "name": "L",
+      "spans": [
+        [
+          1955.2,
+          1968.5
+        ],
+        [
+          1985.5,
+          1988.45
+        ]
+      ],
+      "note": "Running by March 1955; idle from 1968; restarted 1985; down June 1988.",
+      "tag": "WB",
+      "ref": "srs-1980"
+    },
+    {
+      "name": "K",
+      "spans": [
+        [
+          1955.2,
+          1988.3
+        ]
+      ],
+      "test": 1992.5,
+      "note": "Running by March 1955; down April 1988; a test run in 1992, then shut down for good.",
+      "tag": "WB",
+      "ref": "srs-1990"
+    },
+    {
+      "name": "C",
+      "spans": [
+        [
+          1955.2,
+          1985.5
+        ]
+      ],
+      "note": "Running by March 1955; shut down 1985, permanently from 1986.",
+      "tag": "WB",
+      "ref": "srs-1980"
+    }
+  ],
+  "events": [
+    {
+      "when": 1950.8,
+      "date": "20 Oct 1950",
+      "lane": "production",
+      "text": "Truman writes to Du Pont asking it to build and run the plant",
+      "tag": "EXT",
+      "ref": "doe-history",
+      "section": "A site for the hydrogen bomb"
+    },
+    {
+      "when": 1950.91,
+      "date": "28 Nov 1950",
+      "lane": "people",
+      "text": "The Savannah River Plant is announced: 250,000 acres, about 1,500 families to move",
+      "tag": "WB",
+      "ref": "fifty-8",
+      "section": "A site for the hydrogen bomb",
+      "label": "Plant announced"
+    },
+    {
+      "when": 1951.2,
+      "date": "15 Mar 1951",
+      "lane": "people",
+      "text": "Deadline for residents of the first area to leave",
+      "tag": "WB",
+      "ref": "fifty-8",
+      "section": "The towns inside the fence"
+    },
+    {
+      "when": 1951.4,
+      "date": "1951",
+      "lane": "science",
+      "text": "Ruth Patrick's baseline survey of the river; the AEC approaches Eugene Odum",
+      "tag": "WB",
+      "ref": "srs-1950",
+      "section": "The ecologists arrive first"
+    },
+    {
+      "when": 1951.96,
+      "date": "Dec 1951",
+      "lane": "people",
+      "text": "Jet reports Black families moving whole houses to New Ellenton",
+      "tag": "IA",
+      "href": "https://archive.org/details/sim_jet_1951-12-20_1_8",
+      "section": "The towns inside the fence",
+      "label": "Houses moved"
+    },
+    {
+      "when": 1952.5,
+      "date": "1952",
+      "lane": "production",
+      "text": "The 305-M test pile goes critical; heavy-water production begins",
+      "tag": "WB",
+      "ref": "srs-1950",
+      "section": "Running it"
+    },
+    {
+      "when": 1953.5,
+      "date": "1953",
+      "lane": "people",
+      "text": "Congress hears that New Ellenton was left out of aid",
+      "tag": "DL",
+      "href": "https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_june-16-17-22-and-23-1953",
+      "section": "The towns inside the fence"
+    },
+    {
+      "when": 1954.99,
+      "date": "Dec 1954 or 1955",
+      "lane": "production",
+      "text": "First shipment of plutonium; the sources disagree on the year",
+      "tag": "WB",
+      "ref": "fifty-11",
+      "section": "Running it"
+    },
+    {
+      "when": 1956.5,
+      "date": "1956",
+      "lane": "science",
+      "text": "The neutrino is confirmed at P reactor",
+      "tag": "WB",
+      "ref": "srs-1960",
+      "section": "Running it"
+    },
+    {
+      "when": 1961.5,
+      "date": "1961",
+      "lane": "science",
+      "text": "Odum's survey becomes a permanent laboratory, the Savannah River Ecology Laboratory",
+      "tag": "WB",
+      "ref": "srs-1960",
+      "section": "The ecologists arrive first"
+    },
+    {
+      "when": 1969.5,
+      "date": "1969",
+      "lane": "science",
+      "text": "Thermal ecology research on the reactors' cooling water begins",
+      "tag": "EXT",
+      "ref": "esa-thermal",
+      "section": "A plant that measured itself"
+    },
+    {
+      "when": 1972.5,
+      "date": "1972",
+      "lane": "science",
+      "text": "The first National Environmental Research Park",
+      "tag": "WB",
+      "ref": "srs-1970",
+      "section": "A plant that measured itself",
+      "label": "First research park"
+    },
+    {
+      "when": 1979.5,
+      "date": "1979",
+      "lane": "oversight",
+      "text": "The first anti-nuclear protest on the site",
+      "tag": "WB",
+      "ref": "srs-1970",
+      "section": "A plant that measured itself"
+    },
+    {
+      "when": 1982.5,
+      "date": "1982",
+      "lane": "production",
+      "text": "Plutonium made lower in Pu-240 to blend with Hanford's, for the buildup",
+      "tag": "WB",
+      "ref": "fifty-19",
+      "section": "L-Reactor comes back"
+    },
+    {
+      "when": 1983.54,
+      "date": "15 Jul 1983",
+      "lane": "oversight",
+      "text": "Court rules the L reactor restart needs an environmental impact statement",
+      "tag": "EXT",
+      "ref": "nrdc-vaughn",
+      "section": "L-Reactor comes back",
+      "label": "Court: L needs an EIS"
+    },
+    {
+      "when": 1987.5,
+      "date": "1987",
+      "lane": "oversight",
+      "text": "A National Academy of Sciences panel reviews reactor safety; Du Pont says it will leave",
+      "tag": "IA",
+      "href": "https://archive.org/details/ERIC_ED299108",
+      "section": "1987–1988: the reactors stop"
+    },
+    {
+      "when": 1988.75,
+      "date": "30 Sep 1988",
+      "lane": "oversight",
+      "text": "GAO tells Congress how P reactor's start-up went ahead despite a reactivity shortfall",
+      "tag": "DL",
+      "href": "https://archive.org/details/micro_IA41152603_0340",
+      "section": "1987–1988: the reactors stop",
+      "label": "GAO on P start-up"
+    },
+    {
+      "when": 1989.3,
+      "date": "Apr 1989",
+      "lane": "production",
+      "text": "Westinghouse takes over from Du Pont; the Plant becomes the Savannah River Site",
+      "tag": "WB",
+      "ref": "fifty-19",
+      "section": "Plant to Site"
+    },
+    {
+      "when": 1989.6,
+      "date": "1989",
+      "lane": "oversight",
+      "text": "The site goes on the National Priorities List",
+      "tag": "WB",
+      "ref": "srs-1980",
+      "section": "Plant to Site"
+    },
+    {
+      "when": 1991.95,
+      "date": "Dec 1991",
+      "lane": "science",
+      "text": "Tritium from K reactor reaches the Savannah River",
+      "tag": "EXT",
+      "ref": "osti-k-tritium",
+      "section": "Plant to Site"
+    },
+    {
+      "when": 1992.5,
+      "date": "1992",
+      "lane": "production",
+      "text": "K reactor's test run, then permanent shutdown: bomb making is over",
+      "tag": "WB",
+      "ref": "srs-1990",
+      "section": "Plant to Site",
+      "label": "Bomb making ends"
+    },
+    {
+      "when": 1996.2,
+      "date": "12 Mar 1996",
+      "lane": "cleanup",
+      "text": "The Defense Waste Processing Facility begins turning tank waste into glass",
+      "tag": "WB",
+      "ref": "dwpf-30",
+      "section": "The tanks",
+      "label": "Waste into glass"
+    },
+    {
+      "when": 1997.5,
+      "date": "1997",
+      "lane": "cleanup",
+      "text": "Tanks 17 and 20 closed, the first in the nation",
+      "tag": "WB",
+      "ref": "tanks-18-19",
+      "section": "The tanks"
+    },
+    {
+      "when": 2003.8,
+      "date": "Oct 2003",
+      "lane": "cleanup",
+      "text": "The last spent fuel leaves the receiving basin, closing a forty-year era",
+      "tag": "WB",
+      "ref": "rbof",
+      "section": "A cleanup site"
+    },
+    {
+      "when": 2004.5,
+      "date": "2004",
+      "lane": "science",
+      "text": "The site's laboratory is named the newest national laboratory",
+      "tag": "WB",
+      "ref": "srnl-2004",
+      "section": "The laboratories"
+    },
+    {
+      "when": 2004.9,
+      "date": "2004",
+      "lane": "oversight",
+      "text": "Section 3116 settles what tank waste may stay in the ground",
+      "tag": "EXT",
+      "ref": "pl-108-375",
+      "section": "The tanks"
+    },
+    {
+      "when": 2007.55,
+      "date": "Jul 2007",
+      "lane": "science",
+      "text": "House Science Committee hearing on the ecology laboratory's funding cut",
+      "tag": "DL",
+      "href": "https://archive.org/details/gov.gpo.fdsys.CHRG-110hhrg36143",
+      "section": "The laboratories"
+    },
+    {
+      "when": 2008.2,
+      "date": "Mar 2008",
+      "lane": "people",
+      "text": "Historic markers for P and R, the first inside the fence",
+      "tag": "WB",
+      "ref": "pr-markers",
+      "section": "Sealing the reactors"
+    },
+    {
+      "when": 2011.7,
+      "date": "Sep 2011",
+      "lane": "cleanup",
+      "text": "P and R reactors sealed in place with Recovery Act money",
+      "tag": "EXT",
+      "ref": "osti-isd",
+      "section": "Sealing the reactors",
+      "label": "P and R sealed"
+    },
+    {
+      "when": 2014.5,
+      "date": "2014",
+      "lane": "people",
+      "text": "Ribbon-cutting for the SRS Museum in Aiken",
+      "tag": "WB",
+      "ref": "museum-2014",
+      "section": "Remembering it"
+    },
+    {
+      "when": 2015.99,
+      "date": "31 Dec 2015",
+      "lane": "cleanup",
+      "text": "The 4,000th canister of glass, of about 8,000 expected",
+      "tag": "WB",
+      "ref": "dwpf-20",
+      "section": "The tanks"
+    },
+    {
+      "when": 2016.5,
+      "date": "2016",
+      "lane": "production",
+      "text": "DOE puts the MOX plant at $17.17 billion, finished in 2048",
+      "tag": "WB",
+      "ref": "mox-baseline",
+      "section": "Plutonium: MOX and pits"
+    },
+    {
+      "when": 2019.02,
+      "date": "8 Jan 2019",
+      "lane": "oversight",
+      "text": "The Fourth Circuit lifts the injunction keeping MOX alive",
+      "tag": "EXT",
+      "ref": "ca4-mox",
+      "section": "Plutonium: MOX and pits",
+      "label": "MOX ends"
+    },
+    {
+      "when": 2020.87,
+      "date": "Nov 2020",
+      "lane": "production",
+      "text": "DOE decides to make plutonium pits at Savannah River",
+      "tag": "EXT",
+      "ref": "fr-pits",
+      "section": "Plutonium: MOX and pits",
+      "label": "Pits decided"
+    },
+    {
+      "when": 2023.5,
+      "date": "Jul 2023",
+      "lane": "people",
+      "text": "SRS.GOV and SRNL.GOV become Archive-It seeds",
+      "tag": "AIT",
+      "ref": "ait-21601",
+      "section": "The laboratories"
+    },
+    {
+      "when": 2026.37,
+      "date": "May 2026",
+      "lane": "cleanup",
+      "text": "Tank 14 becomes the eighth old-style tank to finish waste removal in under two years",
+      "tag": "WB",
+      "ref": "tank-14",
+      "section": "The tanks"
+    }
+  ]
+}
