@@ -1,5 +1,5 @@
-// Search on the story page: matching passages in the story, matching
-// timeline events, and a count of matching sources. Without this script
+// Search on the home page: matching passages in the three chapters,
+// matching timeline events, and a count of matching sources. Without this script
 // the form goes to the sources page, which filters on the same words.
 // Nothing here writes markup: results are built from text nodes.
 (function () {
@@ -11,14 +11,13 @@
   var countEl = document.getElementById("results-count");
   var storyEl = document.getElementById("results-story");
   var timeEl = document.getElementById("results-time");
-  var passages = Array.prototype.slice.call(document.querySelectorAll("article p[id], article li[id]"));
-  var sources = null, events = null;
+  var passages = null, sources = null, events = null;
 
   function load(url) {
     return fetch(url).then(function (r) { return r.ok ? r.json() : []; }).catch(function () { return []; });
   }
-  var ready = Promise.all([load("data/sources.json"), load("data/timeline.json")]).then(function (d) {
-    sources = d[0]; events = d[1];
+  var ready = Promise.all([load("data/passages.json"), load("data/sources.json"), load("data/timeline.json")]).then(function (d) {
+    passages = d[0]; sources = d[1]; events = d[2];
   });
 
   function el(tag, text, cls) {
@@ -50,29 +49,20 @@
     return (start > 0 ? "…" : "") + text.slice(start, end).trim() + (end < text.length ? "…" : "");
   }
 
-  function sectionOf(p) {
-    var n = p;
-    while (n && n.parentElement && n.parentElement.tagName !== "ARTICLE") n = n.parentElement;
-    for (; n; n = n.previousElementSibling) {
-      if (/^H[23]$/.test(n.tagName)) return n.textContent.trim();
-    }
-    return "";
-  }
-
   function run(q) {
     var words = q.toLowerCase().split(/\s+/).filter(Boolean);
     storyEl.textContent = ""; timeEl.textContent = "";
     if (!words.length) { panel.hidden = true; return; }
-    var hits = passages.filter(function (p) {
-      var t = p.textContent.toLowerCase();
+    var hits = (passages || []).filter(function (p) {
+      var t = p.t.toLowerCase();
       return words.every(function (w) { return t.indexOf(w) >= 0; });
     });
     hits.slice(0, 12).forEach(function (p) {
       var li = el("li"), a = el("a");
-      a.href = "#" + p.id;
-      a.appendChild(el("span", sectionOf(p), "res-section"));
+      a.href = p.p + "#" + p.id;
+      a.appendChild(el("span", "Chapter " + p.c + " · " + p.s, "res-section"));
       var s = el("span", null, "res-text");
-      marked(s, snippet(p.textContent.replace(/\s+/g, " "), words), words);
+      marked(s, snippet(p.t, words), words);
       a.appendChild(s);
       li.appendChild(a);
       storyEl.appendChild(li);

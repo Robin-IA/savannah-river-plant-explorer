@@ -1,4 +1,4 @@
-# Bomb Making, Act 2 (c. 1970–1992): sources
+# Bomb Making, Chapter 2 (c. 1970–1992): sources
 
 > Research notes behind [README.md](README.md), compiled 6 November 2026.
 > Every identifier and URL was checked live that day. Every archive.org
@@ -92,6 +92,11 @@ Every archive.org identifier below returned a `metadata` object on 2026-11-06. E
 - **EXT:OSTI** https://www.osti.gov/biblio/5975848. "US defense reactors: Exaggerations vs. reality", 1989-02. A defence of the reactors' record against the 1988 coverage. Verified 2026-11-06 (API).
 - **EXT:Alvarez/ANA** https://ananuclear.org/savannah-river-vignette-by-robert-alvarez/. Robert Alvarez, "Savannah River vignette", March 2022. A memoir by the Glenn committee investigator who obtained the "thirty incidents" report. Secondary and partisan; see the conflicts under Key facts. Verified 2026-11-06.
 
+- **IA** `AV_466-NO_NUKES_IS_GOOD_NUKES`. *Alternative Views* #466, "No Nukes Is Good Nukes", recorded April 1992. alternative_views. Presents the documentary *Building Bombs* (Mark Mori and Susan Robinson, 1989) with an interview with its co-director; the description says the film was nominated for an Academy Award in 1991 and that PBS refused to show it. Verified 2026-11-06.
+- **WB** https://web.archive.org/web/20261011042140/https://www.oscars.org/oscars/ceremonies/1991. The 63rd Academy Awards (1991): *Building Bombs*, Mark Mori and Susan Robinson, producers, a nominee for Documentary (Feature). oscars.org returns 403 to automated requests. Verified 2026-11-06.
+- **WB** https://web.archive.org/web/20190913183311/http://www.pbs.org/pov/watch/buildingbombs/. PBS *POV*, *Building Bombs*: "an updated, point-of-view investigation… of the environmental legacy and social impact" of the plant. Verified 2026-11-06.
+- **EXT:Los Angeles Times** https://www.latimes.com/archives/la-xpm-1993-08-10-ca-22486-story.html. "'Building Bombs': Television", 1993-08-10. After three years and a campaign organized by Mori, an edited version retitled *Building Bombs: The Legacy* airs that night on *POV*. Verified 2026-11-06.
+
 ## 5. Du Pont to Westinghouse (1987–1989); renamed Savannah River Site
 
 - **WB** https://web.archive.org/web/20251030232444/https://www.srs.gov/general/about/srs-1980.htm. SRS official timeline for the 1980s. Lists: 1985 L Reactor restart; C Reactor shut down 1985 (permanent 1986); 1987 DuPont announces its intent to end its tenure; 1988 remaining reactors shut down; 1989 DuPont contract ends and Westinghouse begins; 1989 rename to SRS; 1989 National Priorities List. Verified 2026-11-06.
@@ -139,6 +144,28 @@ Every archive.org identifier below returned a `metadata` object on 2026-11-06. E
 - **IA** `cia-readingroom-document-cia-rdp90-00552r000202160012-9`. UPI wire, "FBI Arrests Spy Near Nuclear Plant", Augusta, GA, 1982-04-19, in the CIA Reading Room. Reports the arrest of Hungarian-born Otto Attila Gilbert, 58. Federal authorities *refused to say* whether the case involved Fort Gordon or SRP; Fort Gordon saw no sign it was connected to the base, and SRP's external affairs director denied knowledge of the case. Verified 2026-11-06.
 
 ---
+
+## 8. Controversies and concerns
+
+Added 6 November 2026 from a second research pass; every item was checked live that day.
+
+- **DL** `micro_IA41152617_0148`. *Environmental Issues at Department of Energy Nuclear Facilities*, S. Hrg. 100-311, Senate Governmental Affairs Committee, 1987-03-17. us-gpo. South Carolina DHEC's account of the 1981 permit review, the 1983 contaminated employee drinking-water well, and plant staff's early reluctance to accept state authority; DOE on the M-Area basin. Read in full text. Verified 2026-11-06.
+- **IA** `micro_IA41152607_0232`. GAO, *Nuclear Energy: Environmental Issues at DOE's Nuclear Defense Facilities*, GAO/RCED-86-192, 1986-09. M-Area solvents over 30,000 times proposed drinking-water standards; tritium over 2,500 times; DOE's no-threat position. Read in full text. Verified 2026-11-06.
+- **IA** `micro_IA41152645_0571`. GAO, *Nuclear Health and Safety: Better Earthquake Protection Needed at DOE's Savannah River Site*, GAO/RCED-90-24, 1989-12-26. Seismic weaknesses; P reactor's 1988 review used less stringent standards than the NRC's. Read in full text. Verified 2026-11-06.
+- **IA** `micro_IA41152852_0132`. OTA, *Long-Lived Legacy: Managing High-Level and Transuranic Waste at the DOE Nuclear Weapons Complex*, OTA-BP-O-83, 1991-05. Tank leakage acknowledged by DOE; the 1987 exchange with Du Pont after *Deadly Crop*; DWPF two years behind schedule. Read in full text. Verified 2026-11-06.
+- **IA** `micro_IA41152837_0739`. *Department of Energy's Radiation Health Effects Research Program and Working Conditions at DOE Sites*, S. Hrg. 101-400, hearing 1989-08-02 (printed 1990). Glenn and Kohl on DOE controlling its own worker-health research; staff bibliography summarising the 1988 Cragle–Wilkinson leukemia finding. Read in full text. Verified 2026-11-06.
+- **IA** `nuclearimperativ0000cart`. Luther J. Carter, *Nuclear Imperatives and Public Trust: Dealing with Radioactive Waste*, 1987. internetarchivebooks (lending). South Carolina and Georgia opposed bedrock disposal under the plant because of the Tuscaloosa aquifer. Full-text highlight only. Verified 2026-11-06.
+- **DL** `sim_radiation-data-and-reports_1974-02_15_2`. *Radiation Data and Reports* vol. 15 no. 2, 1974-02. Monthly tritium tests of Beaufort-Jasper and Port Wentworth drinking water; 865 deer and 8 hogs from the 1971 hunt screened for cesium-137. Read in full text. Verified 2026-11-06.
+- **DL** `sim_federal-register-find_1998-01-28_63_18`. *Federal Register* 63:18, 1998-01-28, p. 4240. DOE dates the Par Pond dam leak to 1992 (the site reports say 1991). Read in full text. Verified 2026-11-06.
+- **IA** `avianresearchats0000unse`. *Avian Research at the Savannah River Site* (2000). Par Pond drawn down about 6 m in 1991 to repair the dam. Full-text highlight only. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/6206385. Murphy & Pendergast, DP-MS-78-25, 1978. Routine atmospheric tritium averaged 5.12 × 10^5 Ci a year, 1974–77. Abstract read. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/7100365. Watts & Murphy, DP-MS-76-89, 1977. The 2 May 1974 release of 479,000 Ci of tritium gas. Abstract read. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/7282426. Dickerson, *Savannah River release: test of the new ARAC capability*, UCRL-52307, 1977-07-13. Calls the 1974 release a small quantity, not dangerous to the public. Abstract read. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/6417935. Hoel, Kurzeja & Evans, WSRC-RP-90-814, 1990-09-28. The September 1984 release of 43,800 Ci, mostly tritium oxide, toward New Ellenton and Aiken. Abstract read. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/7130595. Kurzeja et al., DP-1758, 1987-10. The 31 July 1987 release of 172,000 Ci. Abstract read. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/7247383. *Summary of radiological impacts of Par Pond drawdown*, SRL-ETS-910579, 1991-12-09. The March 1991 dam depression; the 19-foot drawdown; 160 Ci of tritium and 0.21 Ci of Cs-137 to the river; about 1,300 acres of sediment exposed. Abstract read. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/10192315. *CERCLA interim action at the Par Pond unit*, WSRC-MS-93-371, 1993-11. More than 1,300 acres of contaminated sediment; CERCLA interim action. Abstract read. Verified 2026-11-06.
+- **WB** https://web.archive.org/web/20061022015436/http://www.cdc.gov/nceh/radiation/savannah/default.htm. CDC, Savannah River Site dose reconstruction project page, 2006. Shows CDC ran the later dose reconstruction. Verified 2026-11-06.
 
 ## Key facts (each with its source)
 

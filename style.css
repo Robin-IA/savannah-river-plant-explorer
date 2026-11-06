@@ -1,6 +1,6 @@
-/* Holder colours: the dataviz reference palette's blue, green, violet,
-   amber and magenta, with gray for "held elsewhere". Validated in this
-   order (adjacent pairs, light surface): CVD and normal-vision separation
+/* Holder colours: the dataviz reference palette's blue, amber, green,
+   violet and magenta, with gray for "held elsewhere". Validated in this
+   order, DL WB IA OL AIT EXT (adjacent pairs, light surface): CVD and normal-vision separation
    pass; gray is a deliberate neutral. The timeline's five holders also pass
    all pairs. Shapes and text labels carry identity too. */
 :root {
@@ -115,6 +115,40 @@ a.cite .tag { margin-right: 3px; }
 .tl-reactors { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 420px); gap: 24px; align-items: start; }
 .tl-reactors .fig { margin: 0; float: none; width: auto; max-width: 420px; }
 
+
+/* Chapter pages: the chapter list, section headings, previous and next */
+.ch-list { list-style: none; margin: 0; padding: 0; }
+.ch-list > li { margin: 0 0 10px; padding-left: 10px; border-left: 4px solid var(--hair); }
+.ch-list > li.ch-1 { border-color: var(--act1); } .ch-list > li.ch-2 { border-color: var(--act2); } .ch-list > li.ch-3 { border-color: var(--act3); }
+.ch-list > li > a { display: block; font-weight: 600; color: var(--ink); }
+.ch-list > li > a[aria-current="page"] { color: var(--link); }
+.ch-list .ch-n { display: block; font: 700 .72rem/1.2 var(--font); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.ch-list ul { list-style: none; margin: 8px 0 4px; padding: 0 0 0 4px; }
+.ch-list ul li { margin: 0 0 6px; font-size: .86rem; }
+.story article > h2 { font: 700 1.3rem/1.3 var(--serif); margin: 34px 0 8px; padding-top: 10px; border-top: 1px solid var(--hair); clear: both; }
+.story article > h2:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
+.chapter-1 article > h2 { border-top-color: var(--act1-bg); } .chapter-2 article > h2 { border-top-color: var(--act2-bg); } .chapter-3 article > h2 { border-top-color: var(--act3-bg); }
+.prev-next { clear: both; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--hair); font-family: var(--font); }
+.pn { display: block; padding: 12px 14px; border: 1px solid var(--hair); border-radius: 8px; background: var(--panel); text-decoration: none; font-weight: 600; }
+.pn span { display: block; font-size: .75rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); font-weight: 700; }
+.pn.next { grid-column: 2; text-align: right; }
+.banner .kicker-ch { display: inline-block; }
+
+/* Home page: chapter cards beside the holder panel */
+.home-cols { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: clamp(24px, 3vw, 48px); align-items: start; }
+.chapters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.ch-card { background: var(--panel); border: 1px solid var(--hair); border-top: 6px solid; border-radius: 8px; padding: 16px 18px 18px; }
+.ch-card.ch-1 { border-top-color: var(--act1); } .ch-card.ch-2 { border-top-color: var(--act2); } .ch-card.ch-3 { border-top-color: var(--act3); }
+.ch-card .ch-n { font: 700 .78rem/1 var(--font); text-transform: uppercase; letter-spacing: .1em; margin: 0 0 8px; }
+.ch-card.ch-1 .ch-n { color: var(--act1); } .ch-card.ch-2 .ch-n { color: var(--act2); } .ch-card.ch-3 .ch-n { color: var(--act3); }
+.ch-card h2 { font: 700 1.35rem/1.2 var(--serif); margin: 0 0 8px; }
+.ch-card h2 a { color: var(--ink); text-decoration: none; }
+.ch-card h2 a:hover { text-decoration: underline; }
+.ch-card p { margin: 0 0 10px; font-size: .95rem; }
+.ch-secs { margin: 0 0 12px; padding-left: 18px; font-size: .88rem; }
+.ch-secs li { margin-bottom: 4px; }
+.ch-count { color: var(--muted); font-size: .85rem; }
+
 /* Act headings */
 h2.act { font: 700 clamp(1.4rem, 2.2vw, 1.9rem)/1.2 var(--serif); margin: 44px 0 10px; padding: 18px 20px; border-radius: 8px; border-left: 8px solid; }
 .story article h2.act:first-child { margin-top: 0; }
@@ -228,7 +262,8 @@ table.reactors th[scope=row] { font-weight: 700; width: 5em; }
 .about h2 { font: 700 1.35rem/1.3 var(--serif); margin: 32px 0 8px; }
 .about h2:first-child { margin-top: 0; }
 .about .legend.stacked li { padding: 6px 0; }
-.disagree { padding-left: 20px; }
+.disagree, .controversies { padding-left: 20px; }
+.controversies li { margin-bottom: 10px; }
 .disagree li { margin-bottom: 8px; }
 
 .foot { border-top: 1px solid var(--hair); background: var(--night); color: #dfe7ea; font-size: .92rem; padding: 22px 0; }
@@ -237,6 +272,8 @@ table.reactors th[scope=row] { font-weight: 700; width: 5em; }
 .foot p.explorer-checks-note { font-size: clamp(0.8333rem, 0.875em, 1rem); margin: 1em 0 0; }
 
 @media (max-width: 1240px) {
+  .home-cols { grid-template-columns: minmax(0, 1fr); }
+  .home-cols .rail { grid-row: auto; }
   .cols { grid-template-columns: 200px minmax(0, 1fr); }
   .rail { position: static; grid-column: 1 / -1; grid-row: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 0 28px; }
   .rail > * { grid-column: 1; }
@@ -244,7 +281,8 @@ table.reactors th[scope=row] { font-weight: 700; width: 5em; }
   .tl-lists { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 860px) {
-  .cols, .sources-top, .results-cols, .tl-lists, .tl-reactors { grid-template-columns: minmax(0, 1fr); }
+  .cols, .sources-top, .results-cols, .tl-lists, .tl-reactors, .chapters, .prev-next { grid-template-columns: minmax(0, 1fr); }
+  .pn.next { grid-column: 1; text-align: left; }
   .rail { display: block; }
   .fig, .fig.wide { float: none; width: auto; max-width: 420px; margin: 16px 0 20px; }
   .toc { position: static; max-height: none; margin-bottom: 8px; }

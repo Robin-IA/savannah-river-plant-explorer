@@ -3,9 +3,11 @@
 
     python3 build/build.py
 
-Reads content/ (story.md, sources-act{1,2,3}.md, timeline.json,
-about.md, disagree.md) and writes index.html (the story), timeline.html,
-sources.html, about.html, data/sources.json and data/timeline.json.
+Reads content/ (story.md, sources-chapter{1,2,3}.md, timeline.json,
+about.md, disagree.md) and writes index.html (the home page),
+chapter-1.html to chapter-3.html (the story), timeline.html,
+sources.html, about.html, data/sources.json, data/timeline.json and
+data/passages.json (the story's paragraphs, for search).
 
 Needs the `markdown` package (pip install markdown).
 """
@@ -37,16 +39,22 @@ CSP = ("default-src 'self'; script-src 'self'; style-src 'self'; "
 
 TAGS = {
     "DL": "Democracy's Library",
+    "WB": "Wayback Machine",
     "IA": "Internet Archive",
     "OL": "Open Library",
-    "WB": "Wayback Machine",
     "AIT": "Archive-It",
     "EXT": "Held elsewhere",
 }
 ACTS = {
-    1: "Act 1. Building the bomb plant, 1950–1969",
-    2: "Act 2. The reactors under scrutiny, 1970–1992",
-    3: "Act 3. After the bombs, 1992 to now",
+    1: "Chapter 1. Building the bomb plant, 1950–1969",
+    2: "Chapter 2. The reactors under scrutiny, 1970–1992",
+    3: "Chapter 3. After the bombs, 1992 to now",
+}
+CHAPTER_PAGE = {1: "chapter-1.html", 2: "chapter-2.html", 3: "chapter-3.html"}
+CHAPTER_BLURB = {
+    1: "The site chosen, the towns moved off it, the plant built and its reactors running, who was hired, and what it released.",
+    2: "Releases and monitoring, the L reactor restart, contaminated groundwater, the secret accidents and the 1988 shutdowns, and the end of production.",
+    3: "The turn to cleanup: the waste tanks, sealing the reactors, fights over plutonium, sick workers, the laboratories and how the site is remembered.",
 }
 TAG_RE = re.compile(r"^(DL|IA|OL|WB|AIT|EXT)\b\s*:?\s*(.*)$", re.S)
 
@@ -249,14 +257,14 @@ def legend(cls="legend"):
 
 
 def holder_chart(items):
-    """Stacked bars, one per act: how many sources each holder supplies."""
+    """Stacked bars, one per chapter: how many sources each holder supplies."""
     rows, table = [], []
     w, x0, bar = 300, 0, 18
     for n, act in enumerate((1, 2, 3)):
         mine = [s for s in items if s["act"] == act]
         total = len(mine)
         y = n * 52 + 22
-        rows.append('<text class="ch-label" x="0" y="%d">Act %d · %d sources</text>' % (y - 6, act, total))
+        rows.append('<text class="ch-label" x="0" y="%d">Chapter %d · %d sources</text>' % (y - 6, act, total))
         x = x0
         cells = []
         for t in TAGS:
@@ -265,15 +273,15 @@ def holder_chart(items):
             if not c:
                 continue
             seg = w * c / total
-            rows.append('<rect class="seg seg-%s" x="%.1f" y="%d" width="%.1f" height="%d" rx="3"><title>Act %d: %d %s</title></rect>'
+            rows.append('<rect class="seg seg-%s" x="%.1f" y="%d" width="%.1f" height="%d" rx="3"><title>Chapter %d: %d %s</title></rect>'
                         % (t.lower(), x, y, max(seg - 2, 1), bar, act, c, html.escape(TAGS[t])))
             if seg >= 24:
                 rows.append('<text class="seg-n seg-n-%s" x="%.1f" y="%d">%d</text>' % (t.lower(), x + seg / 2 - 1, y + 13, c))
             x += seg
-        table.append("<tr><th scope=\"row\">Act %d</th>%s<td>%d</td></tr>" % (act, "".join("<td>%s</td>" % c for c in cells), total))
+        table.append("<tr><th scope=\"row\">Chapter %d</th>%s<td>%d</td></tr>" % (act, "".join("<td>%s</td>" % c for c in cells), total))
     svg = ('<svg class="holder-chart" viewBox="0 0 %d 158" role="img" aria-labelledby="hc-t">'
-           '<title id="hc-t">Sources by where they are held, for each act</title>%s</svg>' % (w, "".join(rows)))
-    tbl = ('<div class="sr"><table><caption>Sources by holder and act</caption><tr><th scope="col">Act</th>%s<th scope="col">Total</th></tr>%s</table></div>'
+           '<title id="hc-t">Sources by where they are held, for each chapter</title>%s</svg>' % (w, "".join(rows)))
+    tbl = ('<div class="sr"><table><caption>Sources by holder and chapter</caption><tr><th scope="col">Chapter</th>%s<th scope="col">Total</th></tr>%s</table></div>'
            % ("".join('<th scope="col">%s</th>' % html.escape(TAGS[t]) for t in TAGS), "".join(table)))
     return svg + tbl
 
@@ -303,24 +311,112 @@ SEARCH_FORM = """<form class="search" action="sources.html" method="get" role="s
     </form>"""
 
 
-def build_story(items):
+def story_chapters():
+    """The story's chapters as (number, title, markdown), and its link definitions."""
     text = (CONTENT / "story.md").read_text(encoding="utf-8")
     text = re.sub(r"\A# .*?\n", "", text)
     text = re.sub(r"## How to read the sources.*?\n---\n", "", text, flags=re.S)
-    text = re.sub(r"\A\s*\*A draft.*?\*\n", "", text, flags=re.S)
-    md = markdown.Markdown(extensions=["tables", "toc"],
-                           extension_configs={"toc": {"toc_depth": "2-3"}})
-    body = tag_links(md.convert(text))
-    body = re.sub(r'<h2 id="(act-(\d)[^"]*)">Act \d\. (.*?)</h2>',
-                  r'<h2 id="\1" class="act act-\2"><span class="act-n">Act \2</span> \3</h2>', body)
-    body = re.sub(r"<hr />\s*", "", body)
-    n = [0]
+    defs = "\n".join(m.group(0) for m in re.finditer(r"^\[[\w-]+\]:\s*\S+.*$", text, re.M))
+    body = re.sub(r"^\[[\w-]+\]:\s*\S+.*$\n?", "", text, flags=re.M)
+    parts = re.split(r"^## Chapter (\d)\. (.*)$", body, flags=re.M)
+    chapters = []
+    for i in range(1, len(parts), 3):
+        md_text = re.sub(r"^### ", "## ", parts[i + 2], flags=re.M)
+        md_text = re.sub(r"^---\s*$", "", md_text, flags=re.M)
+        chapters.append((int(parts[i]), parts[i + 1].strip(), md_text))
+    return chapters, defs
 
-    def pid(m):
-        n[0] += 1
-        return '<%s id="s%d">' % (m.group(1), n[0])
-    body = re.sub(r"<(p|li)>", pid, body)
-    toc = md.toc.replace('<div class="toc">', '<nav class="toc" aria-label="Contents"><h2>Contents</h2>').replace("</div>", "</nav>")
+
+def chapter_nav(current, toc=""):
+    items = []
+    for n, page in CHAPTER_PAGE.items():
+        name = ACTS[n].split(". ", 1)[1]
+        cur = ' aria-current="page"' if n == current else ""
+        sub = toc if n == current else ""
+        items.append('<li class="ch-%d"><a href="%s"%s><span class="ch-n">Chapter %d</span> %s</a>%s</li>'
+                     % (n, page, cur, n, html.escape(name), sub))
+    return ('<nav class="toc" aria-label="Chapters"><h2>Chapters</h2><ol class="ch-list">%s</ol></nav>'
+            % "".join(items))
+
+
+def rail(items):
+    return """<aside class="rail" aria-label="Where the record lives">
+  <h2>Where the record lives</h2>
+  %s
+  %s
+  <a class="card" href="timeline.html"><strong>Timeline</strong><span>Seventy-six years in one view: the reactors, the people moved, the oversight and the cleanup.</span></a>
+  <a class="card" href="sources.html"><strong>All %d sources</strong><span>Filter by holder, chapter and word.</span></a>
+</aside>""" % (legend("legend stacked"), holder_chart(items), len(items))
+
+
+def build_chapters(items):
+    """Write chapter-1.html to chapter-3.html; return heading slug -> page,
+    the passages for search, and each chapter's section titles."""
+    chapters, defs = story_chapters()
+    pages, passages, sections = {}, [], {}
+    for n, title, md_text in chapters:
+        page = CHAPTER_PAGE[n]
+        md = markdown.Markdown(extensions=["tables", "toc"],
+                               extension_configs={"toc": {"toc_depth": "2-2"}})
+        body = tag_links(md.convert(md_text + "\n\n" + defs))
+        body = re.sub(r"<hr />\s*", "", body)
+        k = [0]
+
+        def pid(m):
+            k[0] += 1
+            return '<%s id="c%d-%d">' % (m.group(1), n, k[0])
+        body = re.sub(r"<(p|li)>", pid, body)
+        sections[n] = []
+        for hid, htext in re.findall(r'<h2 id="([^"]+)">(.*?)</h2>', body):
+            pages[hid] = page
+            sections[n].append((hid, re.sub("<[^>]+>", "", htext)))
+        # passages for search: each paragraph with the section it sits in
+        current = ""
+        for m in re.finditer(r'<h2 id="[^"]+">(.*?)</h2>|<(p|li) id="(c\d-\d+)">(.*?)</\2>', body, re.S):
+            if m.group(1) is not None:
+                current = html.unescape(re.sub("<[^>]+>", "", m.group(1)))
+            else:
+                t = html.unescape(re.sub(r"\s+", " ", re.sub("<[^>]+>", "", m.group(4)))).strip()
+                if t:
+                    passages.append({"p": page, "id": m.group(3), "c": n, "s": current, "t": t})
+        sub = md.toc.replace('<div class="toc">', "").replace("</div>", "")
+        nav = chapter_nav(n, sub)
+        prev_next = []
+        if n > 1:
+            prev_next.append('<a class="pn prev" href="%s"><span>Previous</span> %s</a>' % (CHAPTER_PAGE[n - 1], html.escape(ACTS[n - 1])))
+        if n < 3:
+            prev_next.append('<a class="pn next" href="%s"><span>Next</span> %s</a>' % (CHAPTER_PAGE[n + 1], html.escape(ACTS[n + 1])))
+        else:
+            prev_next.append('<a class="pn next" href="about.html#where-the-sources-disagree"><span>Next</span> Where the sources disagree</a>')
+        h1 = "Chapter %d. %s" % (n, title)
+        page_html = head("%s · %s" % (h1, TITLE), page, h1, html.escape(CHAPTER_BLURB[n])) + """<main id="main" class="wrap story chapter chapter-%d">
+<div class="cols">
+%s
+<article>
+%s
+<nav class="prev-next" aria-label="Previous and next chapter">%s</nav>
+</article>
+%s
+</div>
+</main>
+""" % (n, nav, body, "".join(prev_next), rail(items)) + foot()
+        write(ROOT / page, page_html)
+    return pages, passages, sections
+
+
+def build_home(items, sections):
+    counts = {n: sum(1 for s in items if s["act"] == n) for n in (1, 2, 3)}
+    cards = []
+    for n, page in CHAPTER_PAGE.items():
+        name = ACTS[n].split(". ", 1)[1]
+        secs = "".join('<li><a href="%s#%s">%s</a></li>' % (page, hid, html.escape(t)) for hid, t in sections[n])
+        cards.append("""<section class="ch-card ch-%d" aria-labelledby="ch%d-h">
+  <p class="ch-n">Chapter %d</p>
+  <h2 id="ch%d-h"><a href="%s">%s</a></h2>
+  <p>%s</p>
+  <ul class="ch-secs">%s</ul>
+  <p class="ch-count">%d sources · <a href="sources.html?chapter=%d">see them</a></p>
+</section>""" % (n, n, n, n, page, html.escape(name), html.escape(CHAPTER_BLURB[n]), secs, counts[n], n))
     lede = html.escape(DESCRIPTION)
     page = head(TITLE, "index.html", TITLE, lede, SEARCH_FORM % len(items), big=True) + """<section id="results" class="wrap results" aria-labelledby="results-h" hidden>
   <div class="results-head"><h2 id="results-h">Search results</h2><button type="button" id="results-close">Clear search</button></div>
@@ -330,22 +426,15 @@ def build_story(items):
     <section aria-labelledby="rs-time"><h3 id="rs-time">On the timeline</h3><ol id="results-time"></ol></section>
   </div>
 </section>
-<main id="main" class="wrap story">
-<div class="cols">
+<main id="main" class="wrap home">
+<div class="home-cols">
+<div class="chapters">
 %s
-<article>
+</div>
 %s
-</article>
-<aside class="rail" aria-label="Where the record lives">
-  <h2>Where the record lives</h2>
-  %s
-  %s
-  <a class="card" href="timeline.html"><strong>Timeline</strong><span>Seventy-six years in one view: the reactors, the people moved, the oversight and the cleanup.</span></a>
-  <a class="card" href="sources.html"><strong>All %d sources</strong><span>Filter by holder, act and word.</span></a>
-</aside>
 </div>
 </main>
-""" % (toc, body, legend("legend stacked"), holder_chart(items), len(items)) + foot(["search.js"])
+""" % ("\n".join(cards), rail(items)) + foot(["search.js"])
     write(ROOT / "index.html", page)
 
 
@@ -358,9 +447,9 @@ def build_sources(items):
                 if s["href"] else "")
         qual = ('<span class="qual">%s</span>' % md_inline(s["qual"])) if s["qual"] else ""
         rows.append(
-            '<tr data-tag="%s" data-act="%d"><td><span class="tag tag-%s">%s</span>%s</td>'
+            '<tr data-tag="%s" data-chapter="%d"><td><span class="tag tag-%s">%s</span>%s</td>'
             '<td><div class="src">%s</div><div class="note">%s</div></td>'
-            '<td class="where">Act %d<br><span>%s</span></td></tr>'
+            '<td class="where">Chapter %d<br><span>%s</span></td></tr>'
             % (s["tag"], s["act"], s["tag"].lower(), s["tag"], qual, link, s["body"], s["act"],
                html.escape(s["section"])))
     tagbtns = "".join(
@@ -376,8 +465,8 @@ def build_sources(items):
 <form class="filters" role="search" aria-label="Filter sources">
   <fieldset><legend>Held in</legend>%s</fieldset>
   <div class="row">
-    <label for="act">Act</label>
-    <select id="act" name="act"><option value="">All acts</option>%s</select>
+    <label for="chapter">Chapter</label>
+    <select id="chapter" name="chapter"><option value="">All chapters</option>%s</select>
     <label for="q">Search</label>
     <input id="q" name="q" type="search" placeholder="Ellenton, tritium, DWPF…">
   </div>
@@ -387,8 +476,8 @@ def build_sources(items):
 <p id="count" class="count" role="status" aria-live="polite">%d sources</p>
 <div class="scroll">
 <table class="sources">
-<caption class="sr">Sources, with where each is held, what it is, and the act and theme it belongs to</caption>
-<thead><tr><th scope="col">Held in</th><th scope="col">Source</th><th scope="col">Act and theme</th></tr></thead>
+<caption class="sr">Sources, with where each is held, what it is, and the chapter and theme it belongs to</caption>
+<thead><tr><th scope="col">Held in</th><th scope="col">Source</th><th scope="col">Chapter and theme</th></tr></thead>
 <tbody>
 %s
 </tbody>
@@ -399,8 +488,9 @@ def build_sources(items):
     write(ROOT / "sources.html", page)
 
 
-def build_about():
+def build_about(pages):
     body = markdown.markdown((CONTENT / "about.md").read_text(encoding="utf-8"))
+    body = re.sub(r'href="index\.html#([\w-]+)"', lambda m: 'href="%s#%s"' % (pages[m.group(1)], m.group(1)), body)
     disagree = markdown.markdown((CONTENT / "disagree.md").read_text(encoding="utf-8"))
     body = body.replace("<!-- DISAGREE -->", disagree.replace("<ul>", '<ul class="disagree">'))
     lede = ("A history of the Savannah River Plant told from the record, with every source "
@@ -435,7 +525,7 @@ def shape_svg(tag, size=20):
             '<g class="mk mk-%s">%s</g></svg>' % (size, size, tag.lower(), SHAPES[tag]))
 
 
-def build_timeline(tl):
+def build_timeline(tl, pages):
     refs = story_refs()
     slug = lambda t: markdown.extensions.toc.slugify(t, "-")  # noqa: E731
     lanes = tl["lanes"]
@@ -443,6 +533,7 @@ def build_timeline(tl):
         e["i"] = i
         e["url"] = e.get("href") or refs[e["ref"]]
         e["anchor"] = slug(e["section"])
+        e["page"] = pages[e["anchor"]]
     for r in tl["reactors"]:
         r["url"] = r.get("href") or refs[r["ref"]]
 
@@ -455,7 +546,7 @@ def build_timeline(tl):
     for a, y0, y1, name in ACT_SPANS:
         parts.append('<rect class="band band-%d" x="%.1f" y="0" width="%.1f" height="%d"/>'
                      % (a, tx(y0), tx(min(y1, TL_Y1)) - tx(y0), height - 26))
-        parts.append('<text class="band-label band-label-%d" x="%.1f" y="18">Act %d</text>'
+        parts.append('<text class="band-label band-label-%d" x="%.1f" y="18">Chapter %d</text>'
                      '<text class="band-sub" x="%.1f" y="34">%s</text>'
                      % (a, tx(y0) + 8, a, tx(y0) + 8, html.escape(name)))
     # decade grid and axis
@@ -501,9 +592,9 @@ def build_timeline(tl):
             row = next((k for k in range(3) if x - last[k] >= 17), min(range(3), key=lambda k: last[k]))
             last[row] = x
             label = "%s: %s. Source held in %s." % (e["date"], e["text"], TAGS[e["tag"]])
-            parts.append('<a class="ev" href="index.html#%s" data-tag="%s" data-i="%d" aria-label="%s">'
+            parts.append('<a class="ev" href="%s#%s" data-tag="%s" data-i="%d" aria-label="%s">'
                          '<title>%s</title><g class="mk mk-%s" transform="translate(%.1f %.1f)">%s</g>'
-                         % (e["anchor"], e["tag"], e["i"], html.escape(label, quote=True),
+                         % (e["page"], e["anchor"], e["tag"], e["i"], html.escape(label, quote=True),
                             html.escape(label), e["tag"].lower(), x, cy + offs[row], SHAPES[e["tag"]]))
             parts.append("</a>")
     svg = ('<svg class="timeline" viewBox="0 0 %d %d" role="group" aria-label="Timeline, 1950 to 2026">%s</svg>'
@@ -523,10 +614,10 @@ def build_timeline(tl):
             lis.append(
                 '<li id="ev-%d" data-tag="%s"><span class="tl-dot">%s</span><time>%s</time>'
                 '<div><p>%s</p><p class="tl-meta">%s · <a class="cite" href="%s"><span class="tag tag-%s">%s</span>source</a> · '
-                '<a href="index.html#%s">in the story</a></p></div></li>'
+                '<a href="%s#%s">in the story</a></p></div></li>'
                 % (e["i"], e["tag"], shape_svg(e["tag"], 18), html.escape(e["date"]), html.escape(e["text"]),
-                   html.escape(lane), html.escape(e["url"], quote=True), e["tag"].lower(), e["tag"], e["anchor"]))
-        lists.append('<section class="tl-act tl-act-%d"><h2 class="act act-%d"><span class="act-n">Act %d</span> %s</h2><ol class="tl-list">%s</ol></section>'
+                   html.escape(lane), html.escape(e["url"], quote=True), e["tag"].lower(), e["tag"], e["page"], e["anchor"]))
+        lists.append('<section class="tl-act tl-act-%d"><h2 class="act act-%d"><span class="act-n">Chapter %d</span> %s</h2><ol class="tl-list">%s</ol></section>'
                      % (a, a, a, html.escape(name), "".join(lis)))
 
     rrows = "".join(
@@ -561,7 +652,7 @@ def build_timeline(tl):
     return tl["events"]
 
 
-LOCAL = re.compile(r"^(index|sources|about|timeline)\.html(#[\w-]+)?$|^(style\.css|app\.js|search\.js|timeline\.js)$|^img/[\w.-]+\.(png|jpg)$")
+LOCAL = re.compile(r"^sources\.html\?chapter=[123]$|^(index|sources|about|timeline|chapter-[123])\.html(#[\w-]+)?$|^(style\.css|app\.js|search\.js|timeline\.js)$|^img/[\w.-]+\.(png|jpg)$")
 IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
 
 
@@ -595,26 +686,29 @@ def check_links(name, page):
 def main():
     items = []
     for act in (1, 2, 3):
-        items += sources(CONTENT / ("sources-act%d.md" % act), act)
+        items += sources(CONTENT / ("sources-chapter%d.md" % act), act)
     (ROOT / "data").mkdir(exist_ok=True)
-    data = [{k: s[k] for k in ("act", "section", "tag", "qual", "ident", "href", "search")}
+    data = [dict({k: s[k] for k in ("section", "tag", "qual", "ident", "href", "search")}, chapter=s["act"])
             for s in items]
     write(ROOT / "data" / "sources.json",
           json.dumps(data, ensure_ascii=False, separators=(",", ":")))
     tl = json.loads((CONTENT / "timeline.json").read_text(encoding="utf-8"))
-    build_story(items)
-    events = build_timeline(tl)
+    pages, passages, sections = build_chapters(items)
+    build_home(items, sections)
+    write(ROOT / "data" / "passages.json",
+          json.dumps(passages, ensure_ascii=False, separators=(",", ":")))
+    events = build_timeline(tl, pages)
     write(ROOT / "data" / "timeline.json", json.dumps(
-        [{k: e[k] for k in ("i", "date", "text", "tag", "anchor")} for e in events],
+        [{k: e[k] for k in ("i", "date", "text", "tag", "page", "anchor")} for e in events],
         ensure_ascii=False, separators=(",", ":")))
     build_sources(items)
-    build_about()
+    build_about(pages)
     by = {}
     for s in items:
         by[(s["act"], s["tag"])] = by.get((s["act"], s["tag"]), 0) + 1
     print(len(items), "sources,", len(events), "timeline events")
     for act in (1, 2, 3):
-        print("  act", act, {t: by.get((act, t), 0) for t in TAGS})
+        print("  chapter", act, {t: by.get((act, t), 0) for t in TAGS})
 
 
 if __name__ == "__main__":

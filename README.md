@@ -9,28 +9,32 @@ is held.**
 
 ## What it does
 
-Four pages, under a banner with the Internet Archive and Democracy's Library
+Six pages, under a banner with the Internet Archive and Democracy's Library
 logos:
 
-- **Story** (`index.html`): the history in three acts, with a tag on every
-  citation: **DL** Democracy's Library, **IA** the Internet Archive outside
-  Democracy's Library, **OL** a book catalogued in Open Library, **WB** the
-  Wayback Machine, **AIT** Archive-It, **EXT**
-  held elsewhere. Each tag links to its source. The acts cover building the
-  plant (1950–1969), the reactors under scrutiny (1970–1992) and the years
-  after bomb making (1992 to now). A search box in the banner finds passages
-  in the story, events on the timeline and matching sources; a side panel
-  charts where each act's sources are held.
-- **Timeline** (`timeline.html`): 37 events from the story in five lanes
+- **Home** (`index.html`): the three chapters, each with its sections and
+  source count; a search box that finds passages in all three chapters,
+  events on the timeline and matching sources; and a panel charting where
+  each chapter's sources are held.
+- **Chapters 1–3** (`chapter-1.html`, `chapter-2.html`, `chapter-3.html`):
+  the history, with a tag on every citation: **DL** Democracy's Library,
+  **WB** the Wayback Machine, **IA** the Internet Archive outside Democracy's
+  Library, **OL** a book catalogued in Open Library, **AIT** Archive-It,
+  **EXT** held elsewhere. Each tag links to its source. Chapter 1 covers
+  building the plant (1950–1969), Chapter 2 the reactors under scrutiny
+  (1970–1992) and Chapter 3 the years after bomb making (1992 to now),
+  including the controversies of each period.
+- **Timeline** (`timeline.html`): 49 events from the story in five lanes
   (land and people, production, environment and science, oversight and law,
   cleanup and legacy), the working lives of the five production reactors, and
   labelled milestones. Each mark's shape and colour say where its source is
   held, and the marks can be filtered by holder. The same events follow as a
-  list, by act.
-- **Sources** (`sources.html`): all 297 sources behind the story, filterable
-  by where they are held, by act and by word. The filters are kept in the URL,
-  for example `sources.html?tag=WB&act=3&q=DWPF`.
-- **About** (`about.html`), including where the sources disagree.
+  list, by chapter.
+- **Sources** (`sources.html`): all 352 sources behind the story, filterable
+  by where they are held, by chapter and by word. The filters are kept in the
+  URL, for example `sources.html?tag=WB&chapter=3&q=DWPF`.
+- **About** (`about.html`), including the controversies, the documentary
+  *Building Bombs*, and where the sources disagree.
 
 **Facts:**
 
@@ -38,7 +42,7 @@ logos:
   others), Wayback Machine captures, Archive-It seeds, and outside holders,
   chiefly DOE's OSTI.
 - **Years covered:** 1950 to 2026.
-- **Size:** 297 sources: 47 DL, 102 IA, 3 OL, 76 WB, 1 AIT, 68 EXT. Counted
+- **Size:** 352 sources: 56 DL, 114 IA, 3 OL, 90 WB, 1 AIT, 88 EXT. Counted
   6 November 2026.
 - **Not included:** sources still being sought, such as the rest of the
   *New York Times* 1988 series and the "thirty incidents" report, are tracked as
@@ -57,32 +61,34 @@ Democracy's Library's `search_collection` scope expression; every DL and IA
 label was re-tested in a second, independent pass, which moved two items from
 DL to IA. Each Wayback capture was replayed and each outside link opened.
 The notes for each source, including what was and was not read, are in
-`content/sources-act1.md`, `sources-act2.md` and `sources-act3.md`.
+`content/sources-chapter1.md`, `sources-chapter2.md` and `sources-chapter3.md`.
 
 ### The code
 
 - `content/` is the source of truth; every page is generated from it:
-  `story.md` and `sources-act1.md` to `sources-act3.md` (Markdown),
+  `story.md` and `sources-chapter1.md` to `sources-chapter3.md` (Markdown),
   `timeline.json` (each event and reactor span, with the same source as in
   the story), `about.html` (the About page's body) and `disagree.md` (where
   sources disagree, shown on the About page).
-- `build/build.py` writes `index.html`, `timeline.html`, `sources.html`,
-  `about.html`, `data/sources.json` and `data/timeline.json`. It needs
+- `build/build.py` writes `index.html`, `chapter-1.html` to `chapter-3.html`,
+  `timeline.html`, `sources.html`, `about.html`, `data/sources.json`,
+  `data/timeline.json` and `data/passages.json` (the chapters' paragraphs, for
+  search). It needs
   Python 3 and the `markdown` package, pinned in `requirements.txt`. It
   refuses to write a page with a link that is not http(s), `mailto:`, an
   anchor or one of the explorer's own files. The holder chart and the timeline
   are SVG drawn by the script; the banner is a detail of the DOE site map
   (`img/banner-map.jpg`).
 - `style.css` and three small scripts are written by hand: `search.js` (the
-  story page's search), `timeline.js` (tooltips and holder filters) and
+  home page's search), `timeline.js` (tooltips and holder filters) and
   `app.js` (the sources filters). Every page reads completely without them.
 - `img/` holds the two logos and six public-domain images from Wikimedia
   Commons (a Department of Energy map of the site, a DOE reactor diagram, a
   DOE chart of plutonium production by year, two DOE photographs from about
   1970 and 1972, and a 2006 NASA photograph of the site from the ISS),
   resized for the web. Each is credited in its caption and on the About page.
-- Holder colours come from a validated categorical palette (blue, green,
-  violet, amber, magenta, and gray for "held elsewhere"); shapes and text labels
+- Holder colours come from a validated categorical palette (blue, amber,
+  green, violet, magenta, and gray for "held elsewhere"); shapes and text labels
   carry the same information, so nothing depends on colour alone.
 - Published with GitHub Pages from the `main` branch, root folder.
 
