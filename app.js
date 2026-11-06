@@ -44,6 +44,7 @@
     }
   }
 
+  form.addEventListener("submit", function (e) { e.preventDefault(); });
   read();
   apply(false);
   form.addEventListener("input", function () { apply(true); });

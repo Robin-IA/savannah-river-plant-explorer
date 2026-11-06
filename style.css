@@ -41,6 +41,7 @@ h1 { font: 700 2rem/1.2 var(--serif); margin: 0 0 12px; }
 .tag-wb { color: var(--wb); background: var(--wb-bg); box-shadow: inset 0 0 0 1px var(--wb); }
 .tag-ait { color: var(--ait); background: var(--ait-bg); box-shadow: inset 0 0 0 1px var(--ait); }
 .tag-ext { color: var(--ext); background: var(--ext-bg); box-shadow: inset 0 0 0 1px var(--ext); }
+.legend.stacked { flex-direction: column; }
 .legend { list-style: none; padding: 0; margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: .92rem; }
 
 /* Story */
