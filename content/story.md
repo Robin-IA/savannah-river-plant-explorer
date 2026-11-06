@@ -383,8 +383,8 @@ web page from that summer links to a statement on its budget crisis
 ### Remembering it
 
 The SRS Museum opened in Aiken after a 2014 ribbon-cutting
-([WB][museum-2014]); its website no longer resolves, and Wayback is its record
-([WB][museum-web]). The site's archaeologists and its Cold War historic
+([WB][museum-2014]); its website is dead but the Wayback Machine has the
+record ([WB][museum-web]). The site's archaeologists and its Cold War historic
 preservation program work with it ([WB][preserve-2020]) — the same program
 that collected Ellenton's memories in 1990.
 

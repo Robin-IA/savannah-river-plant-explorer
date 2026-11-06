@@ -92,6 +92,11 @@ Every archive.org identifier below returned a `metadata` object on 2026-11-06. E
 - **EXT:OSTI** https://www.osti.gov/biblio/5975848. "US defense reactors: Exaggerations vs. reality", 1989-02. A defence of the reactors' record against the 1988 coverage. Verified 2026-11-06 (API).
 - **EXT:Alvarez/ANA** https://ananuclear.org/savannah-river-vignette-by-robert-alvarez/. Robert Alvarez, "Savannah River vignette", March 2022. A memoir by the Glenn committee investigator who obtained the "thirty incidents" report. Secondary and partisan; see the conflicts under Key facts. Verified 2026-11-06.
 
+- **IA** `AV_466-NO_NUKES_IS_GOOD_NUKES`. *Alternative Views* #466, "No Nukes Is Good Nukes", recorded April 1992. alternative_views. Presents the documentary *Building Bombs* (Mark Mori and Susan Robinson, 1989) with an interview with its co-director; the description says the film was nominated for an Academy Award in 1991 and that PBS refused to show it. Verified 2026-11-06.
+- **WB** https://web.archive.org/web/20261011042140/https://www.oscars.org/oscars/ceremonies/1991. The 63rd Academy Awards (1991): *Building Bombs*, Mark Mori and Susan Robinson, producers, a nominee for Documentary (Feature). oscars.org returns 403 to automated requests. Verified 2026-11-06.
+- **WB** https://web.archive.org/web/20190913183311/http://www.pbs.org/pov/watch/buildingbombs/. PBS *POV*, *Building Bombs*: "an updated, point-of-view investigation… of the environmental legacy and social impact" of the plant. Verified 2026-11-06.
+- **EXT:Los Angeles Times** https://www.latimes.com/archives/la-xpm-1993-08-10-ca-22486-story.html. "'Building Bombs': Television", 1993-08-10. After three years and a campaign organized by Mori, an edited version retitled *Building Bombs: The Legacy* airs that night on *POV*. Verified 2026-11-06.
+
 ## 5. Du Pont to Westinghouse (1987–1989); renamed Savannah River Site
 
 - **WB** https://web.archive.org/web/20251030232444/https://www.srs.gov/general/about/srs-1980.htm. SRS official timeline for the 1980s. Lists: 1985 L Reactor restart; C Reactor shut down 1985 (permanent 1986); 1987 DuPont announces its intent to end its tenure; 1988 remaining reactors shut down; 1989 DuPont contract ends and Westinghouse begins; 1989 rename to SRS; 1989 National Priorities List. Verified 2026-11-06.

@@ -27,10 +27,11 @@ logos:
   labelled milestones. Each mark's shape and colour say where its source is
   held, and the marks can be filtered by holder. The same events follow as a
   list, by act.
-- **Sources** (`sources.html`): all 297 sources behind the story, filterable
+- **Sources** (`sources.html`): all 301 sources behind the story, filterable
   by where they are held, by act and by word. The filters are kept in the URL,
   for example `sources.html?tag=WB&act=3&q=DWPF`.
-- **About** (`about.html`), including where the sources disagree.
+- **About** (`about.html`), including the controversies, the documentary
+  *Building Bombs*, and where the sources disagree.
 
 **Facts:**
 
@@ -38,7 +39,7 @@ logos:
   others), Wayback Machine captures, Archive-It seeds, and outside holders,
   chiefly DOE's OSTI.
 - **Years covered:** 1950 to 2026.
-- **Size:** 297 sources: 47 DL, 102 IA, 3 OL, 76 WB, 1 AIT, 68 EXT. Counted
+- **Size:** 301 sources: 47 DL, 103 IA, 3 OL, 78 WB, 1 AIT, 69 EXT. Counted
   6 November 2026.
 - **Not included:** sources still being sought, such as the rest of the
   *New York Times* 1988 series and the "thirty incidents" report, are tracked as
