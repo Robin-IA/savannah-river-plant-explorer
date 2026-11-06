@@ -31,6 +31,9 @@ FEEDBACK = ("mailto:robin.fay@archive.org?subject=Feedback%20about%20Explorers"
             "%3A%20Bomb%20Making%3A%20A%20History%20of%20the%20Savannah%20River"
             "%20Plant")
 
+CSP = ("default-src 'self'; script-src 'self'; style-src 'self'; "
+       "img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'")
+
 TAGS = {
     "DL": "Democracy's Library",
     "IA": "Internet Archive",
@@ -159,6 +162,7 @@ def head(title, here):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="%s">
 <title>%s</title>
 <meta name="description" content="%s">
 <link rel="stylesheet" href="style.css">
@@ -172,7 +176,20 @@ def head(title, here):
     <nav aria-label="Pages">%s</nav>
   </div>
 </header>
-""" % (html.escape(title), html.escape(DESCRIPTION, quote=True), "".join(nav))
+""" % (CSP, html.escape(title), html.escape(DESCRIPTION, quote=True), "".join(nav))
+
+
+# The explorer-checks passing note. The pages are generated, so the note
+# lives here, not in the pages: when a later run of the checker re-dates it
+# or takes it down, make the same change here (and in about.html).
+CHECKS_NOTE = """<!-- explorer-checks:note -->
+<p class="explorer-checks-note">
+  Meets WCAG 2.2 Level AA accessibility (and WCAG 2.1 AA and 2.0 AA), checked
+  <time datetime="2026-11-06">6 November 2026</time> by automated tests and manual review.
+  Also passes security and code validity checks.
+  <a href="https://github.com/Robin-IA/savannah-river-plant-explorer/blob/main/security-accessibility-checks.md">Read the report</a>.
+</p>
+<!-- /explorer-checks:note -->"""
 
 
 def foot():
@@ -181,11 +198,12 @@ def foot():
     <p>Sources checked live on %s. Code and source notes on
       <a href="https://github.com/Robin-IA/savannah-river-plant-explorer">GitHub</a>.</p>
     <p>Feedback? <a href="%s">Email us</a></p>
+    %s
   </div>
 </footer>
 </body>
 </html>
-""" % (CHECKED, FEEDBACK)
+""" % (CHECKED, FEEDBACK, CHECKS_NOTE)
 
 
 def legend():
@@ -232,7 +250,7 @@ def build_story():
 </div>
 </main>
 """ % (html.escape(TITLE), html.escape(DESCRIPTION), legend(), toc, body) + foot()
-    (ROOT / "index.html").write_text(page, encoding="utf-8")
+    write(ROOT / "index.html", page)
 
 
 def build_sources(items):
@@ -253,14 +271,14 @@ def build_sources(items):
         '<label><input type="checkbox" name="tag" value="%s" checked> '
         '<span class="tag tag-%s">%s</span> %s <span class="n">(%d)</span></label>'
         % (t, t.lower(), t, html.escape(TAGS[t]), counts[t]) for t in TAGS)
-    actopts = "".join('<option value="%d">%s</option>' % (a, html.escape(l))
-                      for a, l in ACTS.items())
+    actopts = "".join('<option value="%d">%s</option>' % (a, html.escape(name))
+                      for a, name in ACTS.items())
     page = head("Sources · " + TITLE, "sources.html") + """<main id="main" class="wrap">
 <div class="intro">
   <h1>Sources</h1>
   <p class="lede">All %d sources behind <a href="index.html">the story</a>, with where each is held and what it contributes. Checked live on %s, except where a note says otherwise.</p>
 </div>
-<form class="filters" role="search" aria-label="Filter sources" onsubmit="return false">
+<form class="filters" role="search" aria-label="Filter sources">
   <fieldset><legend>Held in</legend>%s</fieldset>
   <div class="row">
     <label for="act">Act</label>
@@ -282,7 +300,37 @@ def build_sources(items):
 </main>
 <script src="app.js"></script>
 """ % (len(items), CHECKED, tagbtns, actopts, len(items), "\n".join(rows)) + foot()
-    (ROOT / "sources.html").write_text(page, encoding="utf-8")
+    write(ROOT / "sources.html", page)
+
+LOCAL = re.compile(r"^(index|sources|about)\.html$|^(style\.css|app\.js)$|^img/[\w.-]+\.png$")
+IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
+
+
+def write(path, text):
+    """Write UTF-8 with LF line endings on every platform. A page is
+    written only if its links pass check_links."""
+    if path.suffix == ".html":
+        check_links(path.name, text)
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write(text)
+
+
+def check_links(name, page):
+    """Refuse any href or src that is not http(s), mailto, an anchor or one
+    of the explorer's own files, so nothing like javascript: is published."""
+    bad = []
+    for m in re.finditer(r'\b(?:href|src)="([^"]*)"', page):
+        url = html.unescape(m.group(1)).strip()
+        if url.startswith("https://archive.org/details/"):
+            ok = IDENT.match(url.split("#")[0].split("?")[0])
+        else:
+            ok = (re.match(r"^https?://[^\s<>\"']+$", url)
+                  or url.startswith(("mailto:", "#")) or LOCAL.match(url))
+        if not ok:
+            line = page.count("\n", 0, m.start()) + 1
+            bad.append("%s:%d %s" % (name, line, url))
+    if bad:
+        raise SystemExit("Refusing to publish these links:\n  " + "\n  ".join(bad))
 
 
 def main():
@@ -292,10 +340,11 @@ def main():
     data = [{k: s[k] for k in ("act", "section", "tag", "qual", "ident", "href")}
             for s in items]
     (ROOT / "data").mkdir(exist_ok=True)
-    (ROOT / "data" / "sources.json").write_text(
-        json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    write(ROOT / "data" / "sources.json",
+          json.dumps(data, ensure_ascii=False, separators=(",", ":")))
     build_story()
     build_sources(items)
+    check_links("about.html", (ROOT / "about.html").read_text(encoding="utf-8"))
     by = {}
     for s in items:
         by.setdefault((s["act"], s["tag"]), 0)

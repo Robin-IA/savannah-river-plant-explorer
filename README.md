@@ -1,9 +1,11 @@
 # Bomb Making: A History of the Savannah River Plant
 
+**Live explorer: [robin-ia.github.io/savannah-river-plant-explorer](https://robin-ia.github.io/savannah-river-plant-explorer/)**
+
 **A history of the Savannah River Plant in South Carolina, from 1950 to now,
 told from records held in Democracy's Library, the wider Internet Archive,
 the Wayback Machine and elsewhere, with every source labelled by where it
-is held.** Live at **https://robin-ia.github.io/savannah-river-plant-explorer/**.
+is held.**
 
 ## What it does
 
@@ -53,7 +55,7 @@ The notes for each source, including what was and was not read, are in
   are the source of truth; the HTML is generated from them.
 - `build/build.py` turns them into `index.html`, `sources.html` and
   `data/sources.json` (every source with its act, theme, label and link).
-  It needs Python 3 and the `markdown` package.
+  It needs Python 3 and the `markdown` package, pinned in `requirements.txt`. It refuses to write a page with a link that is not http(s), `mailto:`, an anchor or one of the explorer's own files.
 - `about.html`, `style.css` and `app.js` are written by hand. `app.js` only
   filters the sources table; both pages are complete without it.
 - Published with GitHub Pages from the `main` branch, root folder.
@@ -61,7 +63,7 @@ The notes for each source, including what was and was not read, are in
 To rebuild after editing anything in `content/`:
 
 ```bash
-pip3 install markdown
+pip3 install -r requirements.txt
 python3 build/build.py
 ```
 
