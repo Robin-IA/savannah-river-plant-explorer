@@ -1,13 +1,13 @@
 # Security and accessibility checks
 
-**Status: passing.** All three checks passed on 2026-11-06 at commit `e008e29a78`. Nothing is open. Advisory items below are optional.
+**Status: passing.** All three checks passed on 2026-11-06 at commit `4725ec1c88`. Nothing is open. Advisory items below are optional.
 
 | | |
 |---|---|
 | Explorer | https://github.com/Robin-IA/savannah-river-plant-explorer |
-| Commit | `e008e29a78` on `open-library` |
+| Commit | `4725ec1c88` on `chapters` |
 | Date | 2026-11-06 |
-| Pages checked | `./`, `./?q=tritium`, `timeline.html`, `sources.html`, `sources.html?tag=DL&act=2&q=reactor`, `about.html` |
+| Pages checked | `./`, `./?q=tritium`, `chapter-1.html`, `chapter-2.html`, `chapter-3.html`, `timeline.html`, `sources.html`, `sources.html?tag=DL&chapter=2&q=reactor`, `about.html` |
 | Served from | repository root, served locally |
 | Live site (headers) | https://robin-ia.github.io/savannah-river-plant-explorer/ |
 | Standard | WCAG 2.2 Level AA |
@@ -26,7 +26,7 @@
 
 ## Standards met
 
-Checked 6 November 2026 at commit `e008e29a78`, on the pages listed above:
+Checked 6 November 2026 at commit `4725ec1c88`, on the pages listed above:
 
 - **WCAG 2.2 Level AA**: every Level A and AA success criterion, by automated tests and a manual review of each criterion (checklists under each check below).
 - **WCAG 2.1 Level AA** and **WCAG 2.0 Level AA**, which WCAG 2.2 includes. 4.1.1 Parsing, dropped from 2.2 but still in 2.0 and 2.1, is covered by the code validity check (no HTML parse errors, no duplicate ids).
@@ -86,12 +86,12 @@ No open items.
 | 1.4.1 Use of color | pass | Holder tags carry text; timeline marks differ in shape (circle, square, diamond, triangle, ring) as well as colour; story citations are underlined. |
 | 1.4.11 Non-text contrast | pass | Inputs have #8a8a8a borders on white (3.5:1); focus ring is 3px #4b64ff. |
 | 1.4.4 Resize text / 1.4.12 Text spacing | pass | Sizes in rem and em; every page reflows at 320 px with no sideways page scroll. The timeline chart scrolls inside its own box at narrow widths (a two-dimensional graphic, allowed by 1.4.10), and the same events follow as a list that reflows. Figures float beside the text on wide screens and stack be |
-| 2.4.4 Link purpose | pass | Citation links read as holder tag plus title (for example 'WB: SRS at Fifty ch. 7'); bare DL or IA citations take their purpose from the sentence they close, which 2.4.4 allows. |
-| 2.4.6 Headings and labels | pass | Headings name their acts and sections; Act and Search labels are visible. |
+| 2.4.4 Link purpose | pass | Citation links read as holder tag plus title (for example 'WB: SRS at Fifty ch. 7'); bare DL or IA citations take their purpose from the sentence they close, which 2.4.4 allows. Chapter cards and the chapter list link with the chapter's full title; previous/next links name the chapter they lead to. |
+| 2.4.6 Headings and labels | pass | Each page has one h1 in the banner; chapter pages use h2 for their sections; the home page's chapter cards are h2 sections; Chapter and Search labels are visible on the sources page. |
 | 3.1.1 Language of page | pass | lang=en on all three pages; content is English. |
 | 2.1.1 Keyboard | pass | Native links, buttons, checkboxes, select and inputs only. Timeline marks are SVG links in the tab order; the holder filters are buttons. |
 | 2.1.2 No keyboard trap | pass | No widgets that hold focus. |
-| 2.4.1 Bypass blocks | pass | Skip link to #main on every page, plus header, nav, main and footer landmarks. |
+| 2.4.1 Bypass blocks | pass | Skip link to #main on every page; header, nav, main and footer landmarks; on chapter pages the chapter list and the previous/next links are separately named navigation landmarks. |
 | 2.4.3 Focus order | pass | Follows reading order; filtering does not move focus. |
 | 2.4.7 Focus visible | pass | A 3px :focus-visible outline everywhere; timeline marks get an outline and a blue stroke, checked by tabbing in the browser. |
 | 2.4.11 Focus not obscured | pass | No sticky header; the sticky contents and side panel sit beside the story, not over it; the timeline tooltip sits above the focused mark, not on it. |
@@ -100,15 +100,18 @@ No open items.
 | 3.2.2 On input | pass | Filters and search update results in place; submitting the search scrolls to the results panel, which the user asked for by submitting. |
 | 3.3.2 Labels or instructions | pass | The Held in legend and the Act and Search labels are visible text, not placeholders. |
 | 4.1.2 Name, role, value | pass | Timeline filters are buttons with aria-pressed that follows their state; nav uses aria-current=page; filtered-out marks leave the tab order. |
-| 4.1.3 Status messages | pass | The sources count and the story search's result count are role=status with aria-live=polite; search does not move focus while typing. |
+| 4.1.3 Status messages | pass | The sources count and the home page search's result count are role=status with aria-live=polite; search does not move focus while typing. |
 
 </details>
 
-<details><summary>Cleared on review (4)</summary>
+<details><summary>Cleared on review (7)</summary>
 
 | Id | Item | Where | Why cleared |
 |---|---|---|---|
 | `A-6c64c1` | Elements must meet minimum color contrast ratio thresholds | `/ color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
+| `A-1ac6d2` | Elements must meet minimum color contrast ratio thresholds | `/chapter-1.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
+| `A-83beea` | Elements must meet minimum color contrast ratio thresholds | `/chapter-2.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
+| `A-8e2348` | Elements must meet minimum color contrast ratio thresholds | `/chapter-3.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
 | `A-fcf340` | Elements must meet minimum color contrast ratio thresholds | `/timeline.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
 | `A-2d464c` | Elements must meet minimum color contrast ratio thresholds | `/sources.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
 | `A-2c8611` | Elements must meet minimum color contrast ratio thresholds | `/about.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
@@ -123,4 +126,4 @@ Optional. These items never block a pass.
 |---|---|---|---|---|---|
 | `S-9a6baa` | security | No x-content-type-options header | `https://robin-ia.github.io/savannah-river-plant-explorer/` | A02:2025 · ASVS V3 | Set it; it stops browsers guessing content types. It has no <meta> form, so on a host that cannot set headers (GitHub Pages) it stays open; the explorer's owners decide whether that matters enough to change host. |
 
-<!-- explorer-checks:state {"passing": true, "date": "2026-11-06", "commit": "e008e29a78e993709de7adb2a001704098456af3", "open": [], "titles": {}} -->
+<!-- explorer-checks:state {"passing": true, "date": "2026-11-06", "commit": "4725ec1c88e2c6a33f27b1da981b02e131fec1ee", "open": [], "titles": {}} -->
