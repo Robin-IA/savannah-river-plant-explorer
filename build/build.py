@@ -337,7 +337,6 @@ def build_story(items):
 </article>
 <aside class="rail" aria-label="Where the record lives">
   <h2>Where the record lives</h2>
-  <p>Each claim is tagged with where its source is held.</p>
   %s
   %s
   <a class="card" href="timeline.html"><strong>Timeline</strong><span>Seventy-six years in one view: the reactors, the people moved, the oversight and the cleanup.</span></a>
