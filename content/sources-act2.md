@@ -73,6 +73,8 @@ Every archive.org identifier below returned a `metadata` object on 2026-11-06. E
 
 ## 4. The 1987–88 crisis: incidents revealed, Glenn, GAO, shutdown
 
+- **WB** https://web.archive.org/web/20240427052753/https://www.nytimes.com/1988/10/01/us/severe-accidents-at-nuclear-plant-were-kept-secret-up-to-31-years.html. Keith Schneider, "Severe Accidents at Nuclear Plant Were Kept Secret Up to 31 Years", *New York Times*, 1988-10-01, page 1. The capture stops at the paywall; it shows accidents at all five reactors documented in a 19-page memorandum from a plant supervisor to his superiors at Du Pont. nytimes.com returns 403 to automated requests. Verified 2026-11-06.
+- **WB** https://web.archive.org/web/20180130152713/https://www.nytimes.com/1988/11/28/us/trouble-at-atomic-bomb-plants-how-lawmakers-missed-the-signs.html. Fox Butterfield, "Trouble at Atomic Bomb Plants: How Lawmakers Missed the Signs", *New York Times*, 1988-11-28. On the Armed Services committees overlooking the warnings. Verified 2026-11-06.
 - **DL** `micro_IA41152617_0145`. *Reactor Safety Issues at Department of Energy Facilities*, hearing, 1987-03-12. us-gpo. Testimony from the Chernobyl aftermath. Verified 2026-11-06.
 - **IA** `ERIC_ED299108` (also `micro_IA41153431_0562`, ERIC microfiche). National Academy of Sciences, *Safety Issues at the Defense Production Reactors: A Report to the U.S. Department of Energy*, 1987. ericarchive. The NAS (Ahearne) review that found the oversight wanting. Verified 2026-11-06.
 - **DL** `micro_IA41152617_0167` and `micro_IA41152829_0777`. *Nuclear Protections and Safety Act of 1987*, hearings, 1987-11-20 / 1988. us-gpo. Glenn's bill, which led to the Defense Nuclear Facilities Safety Board. Verified 2026-11-06.

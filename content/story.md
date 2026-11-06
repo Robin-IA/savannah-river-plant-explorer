@@ -18,7 +18,7 @@ Every claim carries a tag saying where its source lives:
 The full source lists, with every identifier, URL and verification note, are
 in [sources-act1.md](sources-act1.md), [sources-act2.md](sources-act2.md) and
 [sources-act3.md](sources-act3.md). Where sources disagree, the story says so
-rather than choosing; the disagreements are gathered at the end.
+rather than choosing.
 
 ---
 
@@ -116,8 +116,14 @@ Du Pont wrote its own record of all this, volume by volume, in construction
 and design histories now on OSTI ([EXT: OSTI 10159481][osti-construction];
 [EXT: OSTI 10151705][osti-plantwide]). The company's administrative files are
 at the Hagley Museum and Library, by DOE's own finding aid
-([EXT: DOE OHRE][ohre-admin]); Hagley's catalogue could not be checked
-directly.
+([EXT: DOE OHRE][ohre-admin]). Hagley's guide to its Atomic Energy Division
+records, 80 linear feet from 1942 to 1989, describes a Savannah River Project
+series covering site selection, design and construction, environment and
+community impact, safety and waste disposal ([WB: Hagley finding aid][hagley-1957]).
+Its photograph collection for the plant, 1951 to 1984, holds 1,412 prints and
+388 lantern slides ([WB: Hagley finding aid][hagley-1989-335]). Hagley's own
+site turns away automated requests; the Wayback captures are how these guides
+were read.
 
 ### Running it
 
@@ -224,6 +230,12 @@ plant had seen ([DL](https://archive.org/details/micro_IA41152603_0340);
 [WB: gao.gov][gao-88-68]). Glenn's bill to put the weapons plants under
 outside safety oversight was already in hearings
 ([DL](https://archive.org/details/micro_IA41152617_0167)).
+The next day, 1 October, the *New York Times* put the story on its front
+page: severe accidents at the plant, kept secret for up to 31 years, at all
+five reactors, documented in a 19-page memorandum from a plant supervisor to
+his superiors at Du Pont ([WB: *New York Times*][nyt-881001]). By November
+the paper was asking how Congress had missed the signs
+([WB: *New York Times*][nyt-881128]).
 
 ### Plant to Site
 
@@ -345,37 +357,13 @@ The SRS Museum opened in Aiken after a 2014 ribbon-cutting
 preservation program work with it ([WB][preserve-2020]) — the same program
 that collected Ellenton's memories in 1990.
 
----
+The federal record of historic engineering holds one part of the plant in
+detail. The Historic American Engineering Record documented the Physics
+Assembly Laboratory in M Area, home of the zero-power Process Development
+Pile that set the physics for plutonium and tritium production in the five
+reactors, in 107 photographs and 123 data pages
+([WB: Library of Congress, HAER SC-43][haer-sc43]).
 
-## Where the record sources disagree
-
-- **How many people were displaced:** 5,000 (SRARP), 6,000 in 1,500 families
-  (AEC), up to 8,000 farmers (early reports). Quote each with its source.
-- **First plutonium shipment:** 28 December 1954 (*SRS at Fifty* ch. 11) or
-  1955 (srs.gov History Highlights, energy.gov).
-- **SREL's founding:** 1951, the start of Odum's survey (SREL), or 1961, the
-  permanent laboratory (srs.gov 1960s).
-- **Why the reactors stopped in 1988:** emergency cooling and loss-of-coolant
-  concerns in the official history; the aftermath of Chernobyl and
-  concealment in the investigator's memoir.
-- **P reactor's final shutdown:** 1988 (SRS, 2008) or 1991 (OSTI, 2012).
-
-## Not yet found or not yet read
-
-- The *New York Times* 1988 series on the weapons plants. No article was
-  verified.
-- The "thirty incidents" report itself.
-- *SRS at Fifty* chapters 16 and 18 (1964–79 and the rise of
-  environmentalism): no captures. Chapters 4–6, 9 and 10 survive only inside
-  the full-book PDF.
-- Kari Frederickson's *Cold War Dixie* (2013) and Cassels's *The Unexpected
-  Exodus*: not in the Archive.
-- Hagley, the Library of Congress (HAER) and NARA refused or were not
-  checked. Archive-It captures could not be listed (bot check); only seeds
-  are confirmed.
-- Unsourced, and kept out of the story: the 1952 construction peak, Ellenton's
-  final evacuation date, Du Pont's nominal fee, the MOX termination notice and
-  the 2020 plutonium settlement.
 
 [fifty-7]: https://web.archive.org/web/20161222003153/http://www.srs.gov/general/about/50anniv/Chapter%2007.pdf
 [fifty-8]: https://web.archive.org/web/20070928081912/http://www.srs.gov/general/about/50anniv/Chapter%2008.pdf
@@ -440,3 +428,8 @@ that collected Ellenton's memories in 1990.
 [museum-2014]: https://web.archive.org/web/20150930092227/http://www.srs.gov/general/news/releases/nr14_srns-heritage-foundation.pdf
 [museum-web]: https://web.archive.org/web/20170525214013/http://srsmuseum.org/
 [preserve-2020]: https://web.archive.org/web/20201126172828/https://www.srs.gov/general/news/releases/nr20_srs-preserving-srs-history.pdf
+[hagley-1957]: https://web.archive.org/web/20250917151711/https://findingaids.hagley.org/repositories/3/resources/1264
+[hagley-1989-335]: https://web.archive.org/web/20251216181520/https://findingaids.hagley.org/repositories/2/resources/224
+[nyt-881001]: https://web.archive.org/web/20240427052753/https://www.nytimes.com/1988/10/01/us/severe-accidents-at-nuclear-plant-were-kept-secret-up-to-31-years.html
+[nyt-881128]: https://web.archive.org/web/20180130152713/https://www.nytimes.com/1988/11/28/us/trouble-at-atomic-bomb-plants-how-lawmakers-missed-the-signs.html
+[haer-sc43]: https://web.archive.org/web/20250203072742/https://www.loc.gov/item/sc1142/
