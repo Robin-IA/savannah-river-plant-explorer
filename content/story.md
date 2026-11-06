@@ -260,6 +260,22 @@ satellite imagery had made the water temperatures impossible to keep secret
 ([IA](https://archive.org/details/thermalecologyii0000ther)). The first
 on-site anti-nuclear protest came in 1979 ([WB: srs.gov 1970s][srs-1970]).
 
+Tritium was the plant's largest routine release, averaging more than half a
+million curies a year to the air in 1974–77 ([EXT: OSTI 6206385][osti-tritium-routine]).
+Single accidents added to it. On 2 May 1974 some 479,000 curies of tritium
+gas escaped from a stack ([EXT: OSTI 7100365][osti-1974]), a release a
+Lawrence Livermore report on the national emergency-response system's
+tracking of it called a small quantity, not dangerous to the public
+([EXT: OSTI 7282426][osti-arac]). In September 1984 another 43,800 curies,
+mostly tritium oxide, drifted toward New Ellenton and Aiken
+([EXT: OSTI 6417935][osti-1984]), and on 31 July 1987 a further 172,000
+curies were released ([EXT: OSTI 7130595][osti-1987]). Downstream, the plant
+tested the tritium in the drinking water of the Beaufort-Jasper Water
+Authority in South Carolina and the Port Wentworth plant in Georgia every
+month, and screened the 865 deer and 8 hogs killed in its 1971 hunt for
+cesium-137 before releasing them to hunters
+([DL](https://archive.org/details/sim_radiation-data-and-reports_1974-02_15_2)).
+
 <figure class="fig">
 <img src="img/srl-californium-cask-c1970.jpg" width="1400" height="1136" alt="Three men around a large spherical shipping cask on a flatbed truck marked Radioactive; the man standing on the truck holds a radiation meter against the cask." loading="lazy">
 <figcaption>A health physicist makes a final radioactivity check on a shipping cask of californium-252 leaving the Savannah River Laboratory for Texaco&rsquo;s laboratory in Bellaire, Texas, about 1970. <span class="credit">US Department of Energy photograph HD.5A.047, public domain, via <a href="https://commons.wikimedia.org/wiki/File:HD.5A.047_(10348253655).jpg">Wikimedia Commons</a>.</span></figcaption>
@@ -276,7 +292,14 @@ Council sued. On 15 July 1983 the district court held that the restart needed
 an environmental impact statement but would not stop it
 ([EXT: Environmental Law Reporter][nrdc-vaughn]). The Senate Armed Services
 Committee had already held a field hearing in North Augusta that February
-([DL](https://archive.org/details/micro_IA41152659_0884)). The final EIS came
+([DL](https://archive.org/details/micro_IA41152659_0884)). There Georgia's Senator Mattingly, calling the
+Tuscaloosa aquifer under the site the main source of water for Georgia,
+won an assurance from DOE that burying the plant's high-level waste in the
+bedrock beneath it would not be brought up again, and the Natural Resources
+Defense Council's witness pointed to cesium contamination off the site, just
+downstream of where Steel Creek enters the river
+([DL](https://archive.org/details/micro_IA41152659_0884)). South Carolina and Georgia had both
+opposed bedrock disposal ([IA](https://archive.org/details/nuclearimperativ0000cart)). The final EIS came
 in May 1984 ([EXT: DOE][l-eis]); it and the other impact statements of the
 period are gathered in one archive.org upload
 ([IA](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
@@ -290,6 +313,25 @@ in the Tank Farm* (1986) assessed the high-level waste tanks
 aging reactors carrying the buildup, one down for a cracked vessel — a
 clipping that survives in the CIA's files
 ([IA](https://archive.org/details/cia-readingroom-document-cia-rdp88g01117r000401020009-5)).
+
+### Under the ground
+
+What the plant had poured into its seepage basins came back through the
+groundwater. Reviewing permit applications in 1981, South Carolina's health
+and environment department judged that the volumes sent to the basins
+strongly suggested groundwater problems; in 1983 the plant reported that a
+well supplying drinking water to its own employees was contaminated, and
+two more followed. The department's deputy commissioner told Senator
+Glenn's committee in 1987 that plant staff had at first been reluctant to
+accept the state's regulatory authority
+([DL](https://archive.org/details/micro_IA41152617_0148)). GAO found solvents in the groundwater
+under the M Area fuel plant at more than 30,000 times proposed drinking-water
+standards and tritium at the separations areas at more than 2,500 times;
+DOE answered that the contamination stayed under federal land and posed no
+threat to the public ([IA: GAO 1986](https://archive.org/details/micro_IA41152607_0232)). By 1991
+the Office of Technology Assessment reported an EPA finding that the pump-and-treat
+system meant to clean the M Area plume was not adequately designed to reach
+its goal ([DL](https://archive.org/details/micro_IA41152852_0090)).
 
 ### 1987–1988: the reactors stop
 
@@ -328,14 +370,30 @@ In April 1989 the Westinghouse Savannah River Company took over from Du Pont
 Savannah River Site and went on the National Priorities List
 ([WB: srs.gov 1980s][srs-1980]). GAO's 1989 testimony set the site inside a
 complex-wide picture of cleanup and modernization problems
-([DL](https://archive.org/details/micro_IA41152607_0169)).
+([DL](https://archive.org/details/micro_IA41152607_0169)). That August Senator Glenn argued that DOE's
+research on the health of its own workers had been subordinated to
+production, and Senator Kohl called for removing the apparent conflict of
+interest and said he was open to moving that research to Health and Human
+Services; the record included a 1988 study reporting a significant excess of
+leukemia deaths among hourly Savannah River workers hired before 1955 ([IA: Senate hearing, 1989](https://archive.org/details/micro_IA41152837_0739)).
+The later dose reconstruction was run by the CDC ([WB: CDC][cdc-srs-page]).
 
 DOE still meant to restart. In February 1991 it planned K for that summer
 and L for 1992, at $3.2 billion for restart and operations
 ([WB: GAO RCED-91-95][gao-91-95]), and issued safety evaluations for K
 ([EXT: OSTI 5625511][osti-k-ser]). In December 1991 tritium from K reactor
 reached the Savannah River ([EXT: OSTI 5281815][osti-k-tritium];
-[EXT: OSTI 10179303][osti-k-dose]). In 1992 K went critical for a test run
+[EXT: OSTI 10179303][osti-k-dose]). GAO had warned in 1989 that DOE had only begun to
+address earthquake weaknesses that had existed at the site for years, and
+that the seismic review behind P reactor's 1988 restart used a less stringent
+standard than the Nuclear Regulatory Commission's
+([IA: GAO 1989](https://archive.org/details/micro_IA41152645_0571)). In March 1991 a depression found
+on the downstream face of the Par Pond dam led the site to lower the
+reservoir about 19 feet that summer, exposing some 1,300 acres of
+cesium-contaminated sediment and sending tritium and cesium into the river
+([EXT: OSTI 7247383][osti-parpond]); the exposed bed became a Superfund
+interim action ([EXT: OSTI 10192315][osti-parpond-cercla]). A 1998 DOE notice
+dates the leak to 1992 ([DL](https://archive.org/details/sim_federal-register-find_1998-01-28_63_18)). In 1992 K went critical for a test run
 and was then shut down permanently ([WB: srs.gov 1990s][srs-1990]). Bomb
 making at Savannah River was over.
 
@@ -532,3 +590,11 @@ reactors, in 107 photographs and 123 data pages
 [cdc-ch6]: https://web.archive.org/web/20260407174553/https://stacks.cdc.gov/view/cdc/142606/cdc_142606_DS1.pdf
 [cdc-phase3]: https://web.archive.org/web/20060422134628/http://www.cdc.gov/nceh/radiation/savannah/srs_phs3/SRS_PhaseIII_ExecSummary.pdf
 [niosh-srs]: https://web.archive.org/web/20160220075250/http://www.cdc.gov:80/niosh/ocas/srs.html
+[osti-tritium-routine]: https://www.osti.gov/biblio/6206385
+[osti-1974]: https://www.osti.gov/biblio/7100365
+[osti-arac]: https://www.osti.gov/biblio/7282426
+[osti-1984]: https://www.osti.gov/biblio/6417935
+[osti-1987]: https://www.osti.gov/biblio/7130595
+[osti-parpond]: https://www.osti.gov/biblio/7247383
+[osti-parpond-cercla]: https://www.osti.gov/biblio/10192315
+[cdc-srs-page]: https://web.archive.org/web/20061022015436/http://www.cdc.gov/nceh/radiation/savannah/default.htm

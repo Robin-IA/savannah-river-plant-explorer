@@ -145,6 +145,28 @@ Every archive.org identifier below returned a `metadata` object on 2026-11-06. E
 
 ---
 
+## 8. Controversies and concerns
+
+Added 6 November 2026 from a second research pass; every item was checked live that day.
+
+- **DL** `micro_IA41152617_0148`. *Environmental Issues at Department of Energy Nuclear Facilities*, S. Hrg. 100-311, Senate Governmental Affairs Committee, 1987-03-17. us-gpo. South Carolina DHEC's account of the 1981 permit review, the 1983 contaminated employee drinking-water well, and plant staff's early reluctance to accept state authority; DOE on the M-Area basin. Read in full text. Verified 2026-11-06.
+- **IA** `micro_IA41152607_0232`. GAO, *Nuclear Energy: Environmental Issues at DOE's Nuclear Defense Facilities*, GAO/RCED-86-192, 1986-09. M-Area solvents over 30,000 times proposed drinking-water standards; tritium over 2,500 times; DOE's no-threat position. Read in full text. Verified 2026-11-06.
+- **IA** `micro_IA41152645_0571`. GAO, *Nuclear Health and Safety: Better Earthquake Protection Needed at DOE's Savannah River Site*, GAO/RCED-90-24, 1989-12-26. Seismic weaknesses; P reactor's 1988 review used less stringent standards than the NRC's. Read in full text. Verified 2026-11-06.
+- **IA** `micro_IA41152852_0132`. OTA, *Long-Lived Legacy: Managing High-Level and Transuranic Waste at the DOE Nuclear Weapons Complex*, OTA-BP-O-83, 1991-05. Tank leakage acknowledged by DOE; the 1987 exchange with Du Pont after *Deadly Crop*; DWPF two years behind schedule. Read in full text. Verified 2026-11-06.
+- **IA** `micro_IA41152837_0739`. *Department of Energy's Radiation Health Effects Research Program and Working Conditions at DOE Sites*, S. Hrg. 101-400, hearing 1989-08-02 (printed 1990). Glenn and Kohl on DOE controlling its own worker-health research; staff bibliography summarising the 1988 Cragle–Wilkinson leukemia finding. Read in full text. Verified 2026-11-06.
+- **IA** `nuclearimperativ0000cart`. Luther J. Carter, *Nuclear Imperatives and Public Trust: Dealing with Radioactive Waste*, 1987. internetarchivebooks (lending). South Carolina and Georgia opposed bedrock disposal under the plant because of the Tuscaloosa aquifer. Full-text highlight only. Verified 2026-11-06.
+- **DL** `sim_radiation-data-and-reports_1974-02_15_2`. *Radiation Data and Reports* vol. 15 no. 2, 1974-02. Monthly tritium tests of Beaufort-Jasper and Port Wentworth drinking water; 865 deer and 8 hogs from the 1971 hunt screened for cesium-137. Read in full text. Verified 2026-11-06.
+- **DL** `sim_federal-register-find_1998-01-28_63_18`. *Federal Register* 63:18, 1998-01-28, p. 4240. DOE dates the Par Pond dam leak to 1992 (the site reports say 1991). Read in full text. Verified 2026-11-06.
+- **IA** `avianresearchats0000unse`. *Avian Research at the Savannah River Site* (2000). Par Pond drawn down about 6 m in 1991 to repair the dam. Full-text highlight only. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/6206385. Murphy & Pendergast, DP-MS-78-25, 1978. Routine atmospheric tritium averaged 5.12 × 10^5 Ci a year, 1974–77. Abstract read. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/7100365. Watts & Murphy, DP-MS-76-89, 1977. The 2 May 1974 release of 479,000 Ci of tritium gas. Abstract read. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/7282426. Dickerson, *Savannah River release: test of the new ARAC capability*, UCRL-52307, 1977-07-13. Calls the 1974 release a small quantity, not dangerous to the public. Abstract read. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/6417935. Hoel, Kurzeja & Evans, WSRC-RP-90-814, 1990-09-28. The September 1984 release of 43,800 Ci, mostly tritium oxide, toward New Ellenton and Aiken. Abstract read. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/7130595. Kurzeja et al., DP-1758, 1987-10. The 31 July 1987 release of 172,000 Ci. Abstract read. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/7247383. *Summary of radiological impacts of Par Pond drawdown*, SRL-ETS-910579, 1991-12-09. The March 1991 dam depression; the 19-foot drawdown; 160 Ci of tritium and 0.21 Ci of Cs-137 to the river; about 1,300 acres of sediment exposed. Abstract read. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/10192315. *CERCLA interim action at the Par Pond unit*, WSRC-MS-93-371, 1993-11. More than 1,300 acres of contaminated sediment; CERCLA interim action. Abstract read. Verified 2026-11-06.
+- **WB** https://web.archive.org/web/20061022015436/http://www.cdc.gov/nceh/radiation/savannah/default.htm. CDC, Savannah River Site dose reconstruction project page, 2006. Shows CDC ran the later dose reconstruction. Verified 2026-11-06.
+
 ## Key facts (each with its source)
 
 - 1972: SRP becomes the first National Environmental Research Park. Source: srs.gov 1970s timeline (WB 20251028103524).
