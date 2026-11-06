@@ -411,14 +411,16 @@ def build_home(items, sections):
         name = ACTS[n].split(". ", 1)[1]
         secs = "".join('<li><a href="%s#%s">%s</a></li>' % (page, hid, html.escape(t)) for hid, t in sections[n])
         cards.append("""<section class="ch-card ch-%d" aria-labelledby="ch%d-h">
-  <p class="ch-n">Chapter %d</p>
+  <p class="ch-n"><a href="%s">Chapter %d</a></p>
   <h2 id="ch%d-h"><a href="%s">%s</a></h2>
   <p>%s</p>
-  <ul class="ch-secs">%s</ul>
+  <p><a class="read" href="%s">Read Chapter %d<span aria-hidden="true"> →</span></a></p>
+  <ul class="ch-secs" aria-label="Sections of Chapter %d">%s</ul>
   <p class="ch-count">%d sources · <a href="sources.html?chapter=%d">see them</a></p>
-</section>""" % (n, n, n, n, page, html.escape(name), html.escape(CHAPTER_BLURB[n]), secs, counts[n], n))
+</section>""" % (n, n, page, n, n, page, html.escape(name), html.escape(CHAPTER_BLURB[n]), page, n, n, secs, counts[n], n))
     lede = html.escape(DESCRIPTION)
-    page = head(TITLE, "index.html", TITLE, lede, SEARCH_FORM % len(items), big=True) + """<section id="results" class="wrap results" aria-labelledby="results-h" hidden>
+    start = '<p class="start"><a class="read big" href="chapter-1.html">Start reading: Chapter 1<span aria-hidden="true"> →</span></a></p>'
+    page = head(TITLE, "index.html", TITLE, lede, start + SEARCH_FORM % len(items), big=True) + """<section id="results" class="wrap results" aria-labelledby="results-h" hidden>
   <div class="results-head"><h2 id="results-h">Search results</h2><button type="button" id="results-close">Clear search</button></div>
   <p id="results-count" role="status" aria-live="polite"></p>
   <div class="results-cols">
