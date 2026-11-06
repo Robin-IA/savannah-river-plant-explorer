@@ -32,7 +32,7 @@ five in all ([WB: *SRS at Fifty* ch. 7][fifty-7]). Du Pont surveyed candidate
 sites and settled on the middle Savannah River in South Carolina, a tract big
 enough to hold an exclusion zone around the reactors
 ([WB: ch. 7][fifty-7]). DOE's own timeline dates President Truman's letter to
-Du Pont to 20 October 1950 ([EXT: DOE, energy.gov/srs][doe-history]).
+Du Pont to 20 October 1950 ([WB: DOE, energy.gov/srs][doe-history]).
 
 <figure class="fig">
 <img src="img/srs-map-2012.png" width="755" height="874" alt="Map of the Savannah River Site, shaded orange, on the South Carolina side of the Savannah River across from Georgia. Lettered operating areas are marked inside it, among them the reactor areas C, K, L, P and R, with L Lake and Par Pond. Around it are Jackson, New Ellenton, Aiken, North Augusta, Augusta, Williston, Snelling and Barnwell." loading="lazy">
@@ -93,8 +93,8 @@ it needed
 
 The displaced spoke for themselves decades later, in oral histories
 collected from 1990 and published as *Memories of Home* for Ellenton and for
-Dunbarton and Meyers Mill ([EXT: OSTI 272945][osti-ellenton];
-[EXT: OSTI 10171577][osti-dunbarton]). The program's web pages and the
+Dunbarton and Meyers Mill ([WB: OSTI 272945][osti-ellenton];
+[WB: OSTI 10171577][osti-dunbarton]). The program's web pages and the
 chapter PDFs survive in Wayback; srarp.org itself is gone
 ([WB][srarp-towns]; [WB: Ellenton volume][srarp-ellenton]). James
 McBride's life of James Brown touches on the Black sharecroppers forced out
@@ -151,10 +151,10 @@ government-owned, contractor-operated plant was in law
 ([DL](https://archive.org/details/micro_IA40385001_0003)).
 
 Du Pont wrote its own record of all this, volume by volume, in construction
-and design histories now on OSTI ([EXT: OSTI 10159481][osti-construction];
+and design histories now on OSTI ([WB: OSTI 10159481][osti-construction];
 [EXT: OSTI 10151705][osti-plantwide]). The company's administrative files are
 at the Hagley Museum and Library, by DOE's own finding aid
-([EXT: DOE OHRE][ohre-admin]). Hagley's guide to its Atomic Energy Division
+([WB: DOE OHRE][ohre-admin]). Hagley's guide to its Atomic Energy Division
 records, 80 linear feet from 1942 to 1989, describes a Savannah River Project
 series covering site selection, design and construction, environment and
 community impact, safety and waste disposal ([WB: Hagley finding aid][hagley-1957]).
@@ -187,7 +187,7 @@ components test reactor shut down in 1964, and L in 1968
 Carlisle and Zenzen's *Supplying the Nuclear Arsenal*
 ([IA](https://archive.org/details/supplyingnuclear0000carl)), and the South
 Carolina State Historic Preservation Office holds a long illustrated study of
-the five reactor areas ([EXT: SC SHPO][shpo-reactors]).
+the five reactor areas ([WB: SC SHPO][shpo-reactors]).
 
 ### What it released
 
@@ -251,25 +251,25 @@ Through the 1970s the plant reported its releases. Du Pont's semiannual
 monitoring summaries were reprinted in the federal *Radiation Data and
 Reports* ([DL](https://archive.org/details/sim_radiation-data-and-reports_1970-12_11_12)),
 and its annual environmental reports run from 1974 on OSTI
-([EXT: OSTI 4174736][osti-env-1974]). In 1972 the plant became the first
+([WB: OSTI 4174736][osti-env-1974]). In 1972 the plant became the first
 National Environmental Research Park ([WB: srs.gov 1970s][srs-1970]). The
 ecology laboratory's work on reactor cooling water began in 1969, once
 satellite imagery had made the water temperatures impossible to keep secret
-([EXT: Ecological Society of America][esa-thermal]), and became the
+([WB: Ecological Society of America][esa-thermal]), and became the
 *Thermal Ecology* symposia
 ([IA](https://archive.org/details/thermalecologyii0000ther)). The first
 on-site anti-nuclear protest came in 1979 ([WB: srs.gov 1970s][srs-1970]).
 
 Tritium was the plant's largest routine release, averaging more than half a
-million curies a year to the air in 1974–77 ([EXT: OSTI 6206385][osti-tritium-routine]).
+million curies a year to the air in 1974–77 ([WB: OSTI 6206385][osti-tritium-routine]).
 Single accidents added to it. On 2 May 1974 some 479,000 curies of tritium
-gas escaped from a stack ([EXT: OSTI 7100365][osti-1974]), a release a
+gas escaped from a stack ([WB: OSTI 7100365][osti-1974]), a release a
 Lawrence Livermore report on the national emergency-response system's
 tracking of it called a small quantity, not dangerous to the public
-([EXT: OSTI 7282426][osti-arac]). In September 1984 another 43,800 curies,
+([WB: OSTI 7282426][osti-arac]). In September 1984 another 43,800 curies,
 mostly tritium oxide, drifted toward New Ellenton and Aiken
-([EXT: OSTI 6417935][osti-1984]), and on 31 July 1987 a further 172,000
-curies were released ([EXT: OSTI 7130595][osti-1987]). Downstream, the plant
+([WB: OSTI 6417935][osti-1984]), and on 31 July 1987 a further 172,000
+curies were released ([WB: OSTI 7130595][osti-1987]). Downstream, the plant
 tested the tritium in the drinking water of the Beaufort-Jasper Water
 Authority in South Carolina and the Port Wentworth plant in Georgia every
 month, and screened the 865 deer and 8 hogs killed in its 1971 hunt for
@@ -287,7 +287,7 @@ The Reagan-era buildup needed more plutonium. In 1982 the plant lowered the
 Pu-240 content of its product to blend with Hanford's
 ([WB: *SRS at Fifty* ch. 19][fifty-19]), and DOE moved to restart L reactor,
 idle since 1968, on an environmental assessment rather than a full impact
-statement ([EXT: OSTI 5060401][osti-l-ea]). The Natural Resources Defense
+statement ([WB: OSTI 5060401][osti-l-ea]). The Natural Resources Defense
 Council sued. On 15 July 1983 the district court held that the restart needed
 an environmental impact statement but would not stop it
 ([EXT: Environmental Law Reporter][nrdc-vaughn]). The Senate Armed Services
@@ -300,7 +300,7 @@ Defense Council's witness pointed to cesium contamination off the site, just
 downstream of where Steel Creek enters the river
 ([DL](https://archive.org/details/micro_IA41152659_0884)). South Carolina and Georgia had both
 opposed bedrock disposal ([IA](https://archive.org/details/nuclearimperativ0000cart)). The final EIS came
-in May 1984 ([EXT: DOE][l-eis]); it and the other impact statements of the
+in May 1984 ([WB: DOE][l-eis]); it and the other impact statements of the
 period are gathered in one archive.org upload
 ([IA](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
 L restarted in 1985. C reactor shut down that year, permanently from 1986
@@ -308,8 +308,8 @@ L restarted in 1985. C reactor shut down that year, permanently from 1986
 
 Outside critics read the record differently from the operator. *Deadly Crop
 in the Tank Farm* (1986) assessed the high-level waste tanks
-([EXT: IEER][deadly-crop]); Du Pont published a rebuttal
-([EXT: OSTI 5881523][osti-dupont-reply]). The *Washington Post* described
+([WB: IEER][deadly-crop]); Du Pont published a rebuttal
+([WB: OSTI 5881523][osti-dupont-reply]). The *Washington Post* described
 aging reactors carrying the buildup, one down for a cracked vessel — a
 clipping that survives in the CIA's files
 ([IA](https://archive.org/details/cia-readingroom-document-cia-rdp88g01117r000401020009-5)).
@@ -346,7 +346,7 @@ Du Pont on why L reactor's power had been cut
 That year an internal list of thirty significant reactor incidents became
 public. The official history presents the report as meant to show safety
 improving ([WB: ch. 19][fifty-19]); the Senate investigator who obtained it
-remembers it as evidence of concealment ([EXT: Alliance for Nuclear
+remembers it as evidence of concealment ([WB: Alliance for Nuclear
 Accountability][alvarez]). The reactors went down one after another — K in
 April, L in June, P in August — over emergency cooling concerns
 ([WB: ch. 19][fifty-19]). On 30 September 1988 the General Accounting Office
@@ -381,9 +381,9 @@ The later dose reconstruction was run by the CDC ([WB: CDC][cdc-srs-page]).
 DOE still meant to restart. In February 1991 it planned K for that summer
 and L for 1992, at $3.2 billion for restart and operations
 ([WB: GAO RCED-91-95][gao-91-95]), and issued safety evaluations for K
-([EXT: OSTI 5625511][osti-k-ser]). In December 1991 tritium from K reactor
-reached the Savannah River ([EXT: OSTI 5281815][osti-k-tritium];
-[EXT: OSTI 10179303][osti-k-dose]). GAO had warned in 1989 that DOE had only begun to
+([WB: OSTI 5625511][osti-k-ser]). In December 1991 tritium from K reactor
+reached the Savannah River ([WB: OSTI 5281815][osti-k-tritium];
+[WB: OSTI 10179303][osti-k-dose]). GAO had warned in 1989 that DOE had only begun to
 address earthquake weaknesses that had existed at the site for years, and
 that the seismic review behind P reactor's 1988 restart used a less stringent
 standard than the Nuclear Regulatory Commission's
@@ -391,7 +391,7 @@ standard than the Nuclear Regulatory Commission's
 on the downstream face of the Par Pond dam led the site to lower the
 reservoir about 19 feet that summer, exposing some 1,300 acres of
 cesium-contaminated sediment and sending tritium and cesium into the river
-([EXT: OSTI 7247383][osti-parpond]); the exposed bed became a Superfund
+([WB: OSTI 7247383][osti-parpond]); the exposed bed became a Superfund
 interim action ([EXT: OSTI 10192315][osti-parpond-cercla]). A 1998 DOE notice
 dates the leak to 1992 ([DL](https://archive.org/details/sim_federal-register-find_1998-01-28_63_18)). In 1992 K went critical for a test run
 and was then shut down permanently ([WB: srs.gov 1990s][srs-1990]). Bomb
@@ -447,10 +447,10 @@ Getting the waste into the glass plant was harder. The process DOE chose in
 expected to cost $32 million and be finished by 1988; after about a decade and
 almost half a billion dollars it was abandoned in 1998 because it gave off
 large amounts of benzene ([DL: House hearing, 2000](https://archive.org/details/gov.gpo.fdsys.CHRG-106hhrg64703);
-[EXT: GAO][gao-itp]). Its replacement, the Salt Waste Processing Facility, was
+[WB: GAO][gao-itp]). Its replacement, the Salt Waste Processing Facility, was
 to be built by 2008 for $900 million; in 2015 DOE's Inspector General
 reported about $1.4 billion in cost growth and a start no earlier than
-December 2018 ([EXT: DOE Inspector General][oig-swpf]). It poured its
+December 2018 ([WB: DOE Inspector General][oig-swpf]). It poured its
 4,000th canister on 31 December 2015, of about 8,000 expected
 ([WB][dwpf-20]), and had passed 4,500 by its thirtieth anniversary in 2026
 ([WB][dwpf-30]).
@@ -458,7 +458,7 @@ December 2018 ([EXT: DOE Inspector General][oig-swpf]). It poured its
 Tanks 17 and 20 were closed in 1997, the first in the nation
 ([WB][tanks-18-19]). What could be left in the ground was settled by Section
 3116 of the 2005 defense authorization act
-([EXT: govinfo][pl-108-375]), which Senator Graham said he wrote and which
+([WB: govinfo][pl-108-375]), which Senator Graham said he wrote and which
 passed by a single vote ([WB][tanks-18-19]), and which the National Academies
 reviewed for Savannah River
 ([IA](https://archive.org/details/tankwastesplanne0000comm)). Tanks 18 and 19
@@ -472,7 +472,7 @@ after objections from the Nuclear Regulatory Commission, members of Congress
 and states. Savannah River was its first test: in 2020 DOE decided to send
 grouted wastewater from the glass plant to a commercial disposal site in
 Andrews, Texas, beginning with 8 gallons
-([EXT: *Federal Register*][fr-hlw-ea]; [EXT: *Federal Register*][fr-hlw-fonsi]).
+([WB: *Federal Register*][fr-hlw-ea]; [EXT: *Federal Register*][fr-hlw-fonsi]).
 
 ### Sealing the reactors
 
@@ -485,7 +485,7 @@ In March 2008 the site put up South Carolina historic markers for P and R,
 the first inside the fence ([WB][pr-markers]). Then Recovery Act money
 arrived. Deactivation of the R reactor building was cleared in March 2009
 ([WB][arra-r]); the reactors were sealed in place between October 2009 and
-September 2011 ([EXT: OSTI 1032952][osti-isd]), five years ahead of the
+September 2011 ([WB: OSTI 1032952][osti-isd]), five years ahead of the
 schedule without the stimulus ([WB][pr-closure]). The release marking the end
 of that work is gone from srs.gov; the Wayback capture is the copy
 ([WB][pr-closure]).
@@ -513,9 +513,9 @@ source documents on the fight are on archive.org
 In May 2018 DOE certified that diluting and disposing of the plutonium would
 cost less than half of finishing MOX; the Fourth Circuit lifted the
 injunction keeping the project alive on 8 January 2019
-([EXT: 4th Cir.][ca4-mox]). MOX workers had already been offered a job fair
+([WB: 4th Cir.][ca4-mox]). MOX workers had already been offered a job fair
 in December 2018 ([WB][mox-jobfair]). By August 2019 DOE reported a metric
-ton of plutonium removed from the state ([EXT: SC Attorney General][scag]).
+ton of plutonium removed from the state ([WB: SC Attorney General][scag]).
 Half of that ton had gone, secretly, to Nevada. DOE announced in August 2018
 that it planned to send up to a metric ton there; Nevada sued, and learned
 through the suit that DOE had already shipped half of it while seemingly
@@ -526,7 +526,7 @@ half ton from Nevada by the end of 2026 and to send no more
 The site was also offered other countries' material. In 2014 DOE began
 assessing whether to take Germany's spent pebble-bed reactor fuel, graphite
 spheres containing American-supplied highly enriched uranium
-([EXT: *Federal Register*][fr-german]); the site's own Citizens Advisory
+([WB: *Federal Register*][fr-german]); the site's own Citizens Advisory
 Board voted against it in 2017 ([WB: CAB][cab-350]), and by 2022 the German state
 concerned had chosen to store it at home instead ([WB: SRS Watch][srswatch-german]). Plutonium from a
 Japanese research assembly did come, through Charleston in 2016
@@ -535,15 +535,15 @@ send it on to New Mexico, deciding to process it at Savannah River and store
 it there until a geologic repository exists ([EXT: *Federal Register*][fr-japan]).
 
 The site's weapons work has not ended with it. DOE decided in November 2020
-to make plutonium pits at Savannah River ([EXT: Federal Register][fr-pits]),
+to make plutonium pits at Savannah River ([WB: Federal Register][fr-pits]),
 and SRS Watch and others are challenging the decision in federal court
 ([DL](https://archive.org/details/gov.uscourts.scd.265178)). Tritium work has
 continued throughout ([WB][tritium-2020]). In 2019 the Defense Nuclear Facilities
 Safety Board warned that a fire, crane drop or explosion in the tritium
 facilities could cause acute radiation sickness or death in a significant
-number of people ([EXT: *Federal Register*][fr-dnfsb]); NNSA's
+number of people ([WB: *Federal Register*][fr-dnfsb]); NNSA's
 administrator replied, "I do not accept Recommendation 2019-2"
-([EXT: *Federal Register*][fr-dnfsb-reply]).
+([WB: *Federal Register*][fr-dnfsb-reply]).
 
 ### Sick workers
 
@@ -555,7 +555,7 @@ treated unfairly under the program
 ([DL: House hearing, 2003](https://archive.org/details/gov.gpo.fdsys.CHRG-108hhrg90178)).
 The 2012 class that spared early workers individual dose reconstruction was
 extended in 2021 to subcontracted construction workers through 1990
-([EXT: *Federal Register*][fr-sec-2021]) and in 2026 through 1993
+([WB: *Federal Register*][fr-sec-2021]) and in 2026 through 1993
 ([EXT: *Federal Register*][fr-sec-2026]).
 
 ### The laboratories
@@ -566,9 +566,9 @@ The site's laboratory was named the country's newest national laboratory in
 since July 2023 ([AIT: collection 21601][ait-21601]).
 
 The ecology laboratory fared worse. Its grant was cut 47 percent for 2006,
-with layoffs that September ([EXT: UGA][uga-2005]); the next year's funding
+with layoffs that September ([WB: UGA][uga-2005]); the next year's funding
 fell to $1 million against an expected $4.5 million, which the site's own
-Citizens Advisory Board called reprehensible ([EXT: SRS CAB][cab-240]). The
+Citizens Advisory Board called reprehensible ([WB: SRS CAB][cab-240]). The
 House Science Committee held a hearing on it in July 2007
 ([DL](https://archive.org/details/gov.gpo.fdsys.CHRG-110hhrg36143); video
 [IA](https://archive.org/details/house.hbs.mars.hrs11SCI2318_070719)). SREL's
@@ -596,60 +596,60 @@ reactors, in 107 photographs and 123 data pages
 [fifty-11]: https://web.archive.org/web/20250804145026/https://www.srs.gov/general/about/50anniv/Chapter%2011.pdf
 [fifty-19]: https://web.archive.org/web/20170222195600/http://www.srs.gov/general/about/50anniv/Chapter%2019.pdf
 [fifty-20]: https://web.archive.org/web/20160327213711/http://www.srs.gov:80/general/about/50anniv/Chapter%2020.pdf
-[doe-history]: https://www.energy.gov/srs/history
+[doe-history]: https://web.archive.org/web/20261106223913/https://www.energy.gov/srs/history
 [srarp-towns]: https://web.archive.org/web/20141020061628/http://www.srarp.org:80/former-towns/
 [srarp-ellenton]: https://web.archive.org/web/20150920142228/http://www.srarp.org/pdf_documents/Memories%20of%20Home/Ellenton/00_Preface-1.pdf
-[osti-ellenton]: https://www.osti.gov/biblio/272945
-[osti-dunbarton]: https://www.osti.gov/biblio/10171577
+[osti-ellenton]: https://web.archive.org/web/20250309230646/https://www.osti.gov/biblio/272945
+[osti-dunbarton]: https://web.archive.org/web/20250515145513/https://www.osti.gov/biblio/10171577
 [cassels]: https://openlibrary.org/works/OL9858335W
-[osti-construction]: https://www.osti.gov/biblio/10159481
+[osti-construction]: https://web.archive.org/web/20261106212743/https://www.osti.gov/biblio/10159481
 [osti-plantwide]: https://www.osti.gov/biblio/10151705
-[ohre-admin]: https://ehss.energy.gov/ohre/new/findingaids/epidemiologic/savannah/admin/1.html
+[ohre-admin]: https://web.archive.org/web/20210615090444/https://ehss.energy.gov/ohre/new/findingaids/epidemiologic/savannah/admin/1.html
 [srs-1950]: https://web.archive.org/web/20210622195758/https://www.srs.gov/general/about/srs-1950.htm
 [srs-1960]: https://web.archive.org/web/20210622210711/https://www.srs.gov/general/about/srs-1960.htm
 [srs-1970]: https://web.archive.org/web/20251028103524/https://www.srs.gov/general/about/srs-1970.htm
 [srs-1980]: https://web.archive.org/web/20251030232444/https://www.srs.gov/general/about/srs-1980.htm
 [srs-1990]: https://web.archive.org/web/20251028103730/https://www.srs.gov/general/about/srs-1990.htm
 [history1]: https://web.archive.org/web/20051025030030/http://www.srs.gov:80/general/about/history1.htm
-[shpo-reactors]: https://scdah.sc.gov/sites/scdah/files/Documents/Historic%20Preservation%20(SHPO)/Research/Historic%20Contexts/SRS%20Reactor%20Areas.pdf
+[shpo-reactors]: https://web.archive.org/web/20260518145159/https://scdah.sc.gov/sites/scdah/files/Documents/Historic%20Preservation%20(SHPO)/Research/Historic%20Contexts/SRS%20Reactor%20Areas.pdf
 [srel-radioecology]: https://web.archive.org/web/20160620134206/http://srel.uga.edu:80/outreach/snapshots/history_radioecology.html
-[osti-env-1974]: https://www.osti.gov/biblio/4174736
-[esa-thermal]: https://esa.org/history/fifty-years-ago-the-development-of-thermal-ecology-at-srel
-[osti-l-ea]: https://www.osti.gov/biblio/5060401
+[osti-env-1974]: https://web.archive.org/web/20251230084004/https://www.osti.gov/biblio/4174736
+[esa-thermal]: https://web.archive.org/web/20250216113323/https://esa.org/history/fifty-years-ago-the-development-of-thermal-ecology-at-srel
+[osti-l-ea]: https://web.archive.org/web/20250403000018/https://www.osti.gov/biblio/5060401
 [nrdc-vaughn]: http://www.elr.info/litigation/natural-resources-defense-council-v-vaughn
-[l-eis]: https://www.energy.gov/sites/default/files/2021-05/final-eis-0108-vol1-1-l-reactor-srs-1984-05.pdf
-[deadly-crop]: https://ieer.org/wp/wp-content/uploads/1986/07/deadlycropSRS1986.pdf
-[osti-dupont-reply]: https://www.osti.gov/biblio/5881523
-[alvarez]: https://ananuclear.org/savannah-river-vignette-by-robert-alvarez/
+[l-eis]: https://web.archive.org/web/20250204092305/https://www.energy.gov/sites/default/files/2021-05/final-eis-0108-vol1-1-l-reactor-srs-1984-05.pdf
+[deadly-crop]: https://web.archive.org/web/20260708052425/https://ieer.org/wp/wp-content/uploads/1986/07/deadlycropSRS1986.pdf
+[osti-dupont-reply]: https://web.archive.org/web/20251228142221/https://www.osti.gov/biblio/5881523
+[alvarez]: https://web.archive.org/web/20260616030924/https://ananuclear.org/savannah-river-vignette-by-robert-alvarez/
 [gao-88-68]: https://web.archive.org/web/20250211153625/https://www.gao.gov/assets/t-rced-88-68.pdf
 [gao-91-95]: https://web.archive.org/web/20081001185926/http://www.gao.gov/products/RCED-91-95
-[osti-k-ser]: https://www.osti.gov/biblio/5625511
-[osti-k-tritium]: https://www.osti.gov/biblio/5281815
-[osti-k-dose]: https://www.osti.gov/biblio/10179303
+[osti-k-ser]: https://web.archive.org/web/20260910014323/https://www.osti.gov/biblio/5625511
+[osti-k-tritium]: https://web.archive.org/web/20251230111123/https://www.osti.gov/biblio/5281815
+[osti-k-dose]: https://web.archive.org/web/20251228035621/https://www.osti.gov/biblio/10179303
 [cdc-phase2]: https://web.archive.org/web/20041028062400/http://www.cdc.gov:80/nceh/radiation/savannah/Cover.pdf
 [rbof]: https://web.archive.org/web/20040825095226/http://www.srs.gov/general/news/newpub-rel/releases/40yearera.pdf
 [dwpf-fact]: https://web.archive.org/web/20060519104719/http://www.srs.gov:80/general/news/factsheets/dwpf.pdf
 [dwpf-20]: https://web.archive.org/web/20160528134356/http://www.srs.gov:80/general/news/releases/nr16_doe_20_years_dwpf_4000th_canister_8th_tank_srs_celebration.pdf
 [dwpf-30]: https://web.archive.org/web/20260421062638/https://www.srs.gov/general/news/releases/2026/nr26-SRS-SRMC-DWPF-at-30.pdf
 [tanks-18-19]: https://web.archive.org/web/20121006190145/http://www.srs.gov/general/news/releases/nr12_srs-closes-2tanks.pdf
-[pl-108-375]: https://www.govinfo.gov/content/pkg/PLAW-108publ375/pdf/PLAW-108publ375.pdf
+[pl-108-375]: https://web.archive.org/web/20261019115331/https://www.govinfo.gov/content/pkg/PLAW-108publ375/pdf/PLAW-108publ375.pdf
 [tank-14]: https://web.archive.org/web/20260513203646/https://www.srs.gov/general/news/releases/2026/nr26_SRS_Asst_Secretary_of_EM_marks_tank_closure_milestone.pdf
 [pr-markers]: https://web.archive.org/web/20080921164357/http://www.srs.gov/general/news/releases/NR2008_PandRHistory.pdf
 [arra-r]: https://web.archive.org/web/20100527231959/http://www.srs.gov/general/pubs/envbul/cx_docs/03-27-09%20ARRA-R-2009-003-R0%20CX%20Form.pdf
-[osti-isd]: https://www.osti.gov/biblio/1032952
+[osti-isd]: https://web.archive.org/web/20251231111130/https://www.osti.gov/biblio/1032952
 [pr-closure]: https://web.archive.org/web/20120113023529/http://www.srs.gov:80/general/news/releases/nr11_srns-p-r-celeb.pdf
 [mox-baseline]: https://web.archive.org/web/20170412105447/http://www.srswatch.org/uploads/2/7/5/8/27584045/2016_updated_performance_baseline_for_mox.pdf
 [sc-complaint]: https://web.archive.org/web/20170412105421/http://www.srswatch.org/uploads/2/7/5/8/27584045/federal_district_court_south_carolina_state_2016-02-09-mox-complaint-final.pdf
-[ca4-mox]: https://www.ca4.uscourts.gov/opinions/181684.P.pdf
+[ca4-mox]: https://web.archive.org/web/20260217004724/https://www.ca4.uscourts.gov/opinions/181684.P.pdf
 [mox-jobfair]: https://web.archive.org/web/20200924022122/https://www.srs.gov/general/news/releases/nr18_nnsa-mox-job-fair.pdf
-[scag]: https://www.scag.gov/about-the-office/news/federal-government-announces-it-has-removed-one-ton-of-plutonium-from-south-carolina/
-[fr-pits]: https://www.federalregister.gov/documents/2020/11/05/2020-24517/record-of-decision-for-the-final-environmental-impact-statement-eis-for-plutonium-pit-production-at
+[scag]: https://web.archive.org/web/20221108223538/https://www.scag.gov/about-the-office/news/federal-government-announces-it-has-removed-one-ton-of-plutonium-from-south-carolina/
+[fr-pits]: https://web.archive.org/web/20250217233003/https://www.federalregister.gov/documents/2020/11/05/2020-24517/record-of-decision-for-the-final-environmental-impact-statement-eis-for-plutonium-pit-production-at
 [tritium-2020]: https://web.archive.org/web/20200924003430/https://www.srs.gov/general/news/releases/nr20_srs-tritium-facility-milestone.pdf
 [srnl-2004]: https://web.archive.org/web/20041017194818/http://www.srs.gov/general/news/newpub-rel/releases/srnlinit.pdf
 [srnl-web]: https://web.archive.org/web/20040923233037/http://srnl.doe.gov:80/
 [ait-21601]: https://archive-it.org/collections/21601
-[uga-2005]: https://news.uga.edu/srel-budget-is-cut-employees-face-layoffs-in-october/
-[cab-240]: https://cab.srs.gov/library/recommendations/recommendation_240.pdf
+[uga-2005]: https://web.archive.org/web/20260312074558/https://news.uga.edu/srel-budget-is-cut-employees-face-layoffs-in-october/
+[cab-240]: https://web.archive.org/web/20250416052438/https://cab.srs.gov/library/recommendations/recommendation_240.pdf
 [srel-2007]: https://web.archive.org/web/20070715042708/http://www.uga.edu:80/srel/
 [museum-2014]: https://web.archive.org/web/20150930092227/http://www.srs.gov/general/news/releases/nr14_srns-heritage-foundation.pdf
 [museum-web]: https://web.archive.org/web/20170525214013/http://srsmuseum.org/
@@ -664,25 +664,25 @@ reactors, in 107 photographs and 123 data pages
 [cdc-ch6]: https://web.archive.org/web/20260407174553/https://stacks.cdc.gov/view/cdc/142606/cdc_142606_DS1.pdf
 [cdc-phase3]: https://web.archive.org/web/20060422134628/http://www.cdc.gov/nceh/radiation/savannah/srs_phs3/SRS_PhaseIII_ExecSummary.pdf
 [niosh-srs]: https://web.archive.org/web/20160220075250/http://www.cdc.gov:80/niosh/ocas/srs.html
-[osti-tritium-routine]: https://www.osti.gov/biblio/6206385
-[osti-1974]: https://www.osti.gov/biblio/7100365
-[osti-arac]: https://www.osti.gov/biblio/7282426
-[osti-1984]: https://www.osti.gov/biblio/6417935
-[osti-1987]: https://www.osti.gov/biblio/7130595
-[osti-parpond]: https://www.osti.gov/biblio/7247383
+[osti-tritium-routine]: https://web.archive.org/web/20250208085227/https://www.osti.gov/biblio/6206385
+[osti-1974]: https://web.archive.org/web/20251228174134/https://www.osti.gov/biblio/7100365
+[osti-arac]: https://web.archive.org/web/20180726092025/https://www.osti.gov/biblio/7282426
+[osti-1984]: https://web.archive.org/web/20251206194126/https://www.osti.gov/biblio/6417935
+[osti-1987]: https://web.archive.org/web/20251228160025/https://www.osti.gov/biblio/7130595
+[osti-parpond]: https://web.archive.org/web/20251228050711/https://www.osti.gov/biblio/7247383
 [osti-parpond-cercla]: https://www.osti.gov/biblio/10192315
 [cdc-srs-page]: https://web.archive.org/web/20061022015436/http://www.cdc.gov/nceh/radiation/savannah/default.htm
-[gao-itp]: https://www.govinfo.gov/content/pkg/GAOREPORTS-RCED-99-69/html/GAOREPORTS-RCED-99-69.htm
-[oig-swpf]: https://www.energy.gov/sites/default/files/2015/08/f25/OAS-L-15-09.pdf
-[fr-hlw-ea]: https://www.federalregister.gov/documents/2019/12/10/2019-26555/draft-environmental-assessment-for-the-commercial-disposal-of-defense-waste-processing-facility
+[gao-itp]: https://web.archive.org/web/20260720111820/https://www.govinfo.gov/content/pkg/GAOREPORTS-RCED-99-69/html/GAOREPORTS-RCED-99-69.htm
+[oig-swpf]: https://web.archive.org/web/20250223204809/https://www.energy.gov/sites/default/files/2015/08/f25/OAS-L-15-09.pdf
+[fr-hlw-ea]: https://web.archive.org/web/20250207160857/https://www.federalregister.gov/documents/2019/12/10/2019-26555/draft-environmental-assessment-for-the-commercial-disposal-of-defense-waste-processing-facility
 [fr-hlw-fonsi]: https://www.federalregister.gov/documents/2020/08/10/2020-17374/finding-of-no-significant-impact-for-the-commercial-disposal-of-defense-waste-processing-facility
 [nv-ag]: https://web.archive.org/web/20200917111504/http://ag.nv.gov/News/PR/2020/State_of_Nevada_Strikes_Settlement_With_Department_of_Energy_Over_Plutonium_Shipments/
-[fr-german]: https://www.federalregister.gov/documents/2014/06/04/2014-12933/environmental-assessment-for-the-acceptance-and-disposition-of-used-nuclear-fuel-containing
+[fr-german]: https://web.archive.org/web/20210505033247/https://www.federalregister.gov/documents/2014/06/04/2014-12933/environmental-assessment-for-the-acceptance-and-disposition-of-used-nuclear-fuel-containing
 [cab-350]: https://web.archive.org/web/20250416065922/https://www.srs.gov/general/outreach/srs-cab/library/recommendations/Rec_350_-_German_Fuel.pdf
 [srswatch-german]: https://web.archive.org/web/20221012205815/https://srswatch.org/public-interest-victories-at-srs-import-of-german-spent-fuel-off-the-table-h-canyon-reprocessing-plant-closure-set-on-track-for-2033/
 [fr-japan]: https://www.federalregister.gov/documents/2021/03/08/2021-04707/disposition-of-fast-critical-assembly-plutonium
-[fr-dnfsb]: https://www.federalregister.gov/documents/2019/06/19/2019-12918/recommendation-2019-02
-[fr-dnfsb-reply]: https://www.federalregister.gov/documents/2019/10/02/2019-21438/doe-response-to-recommendation-2019-2-of-the-defense-nuclear-facilities-safety-board-safety-of-the
-[fr-sec-2021]: https://www.federalregister.gov/documents/2021/09/07/2021-19167/designation-of-a-class-of-employees-for-addition-to-the-special-exposure-cohort
+[fr-dnfsb]: https://web.archive.org/web/20250204215942/https://www.federalregister.gov/documents/2019/06/19/2019-12918/recommendation-2019-02
+[fr-dnfsb-reply]: https://web.archive.org/web/20250204112020/https://www.federalregister.gov/documents/2019/10/02/2019-21438/doe-response-to-recommendation-2019-2-of-the-defense-nuclear-facilities-safety-board-safety-of-the
+[fr-sec-2021]: https://web.archive.org/web/20250213172044/https://www.federalregister.gov/documents/2021/09/07/2021-19167/designation-of-a-class-of-employees-for-addition-to-the-special-exposure-cohort
 [fr-sec-2026]: https://www.federalregister.gov/documents/2026/07/28/2026-15152/designation-of-a-class-of-employees-for-addition-to-the-special-exposure-cohort
 [srswatch-japan]: https://web.archive.org/web/20220111081001/https://srswatch.org/plutonium-proliferation-alert-plutonium-from-japan-to-srs/

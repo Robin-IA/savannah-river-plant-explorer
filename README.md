@@ -39,10 +39,11 @@ logos:
 **Facts:**
 
 - **Source of materials:** archive.org items (Democracy's Library and
-  others), Wayback Machine captures, Archive-It seeds, and outside holders,
-  chiefly DOE's OSTI.
+  others), Wayback Machine captures, Archive-It seeds, and a few outside
+  holders. Wherever an outside page has a working Wayback capture, the
+  capture is cited instead of the live page.
 - **Years covered:** 1950 to 2026.
-- **Size:** 352 sources: 56 DL, 114 IA, 3 OL, 90 WB, 1 AIT, 88 EXT. Counted
+- **Size:** 352 sources: 56 DL, 155 WB, 114 IA, 3 OL, 1 AIT, 23 EXT. Counted
   6 November 2026.
 - **Not included:** sources still being sought, such as the rest of the
   *New York Times* 1988 series and the "thirty incidents" report, are tracked as
