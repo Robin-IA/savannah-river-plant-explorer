@@ -1,0 +1,187 @@
+# Bomb Making, Act 2 (c. 1970–1992): sources
+
+> Research notes behind [README.md](README.md), compiled 6 November 2026.
+> Every identifier and URL was checked live that day. Every archive.org
+> identifier labelled DL or IA was re-tested against the Democracy's Library
+> scope expression in a second, independent pass; corrections from that pass
+> are marked in place. "The brief" means the research instructions.
+
+The Savannah River Plant's production years, the reactors under scrutiny, and the end of production.
+
+Labels:
+- **DL**: the item matches the Democracy's Library scope expression given in the brief. I tested each one with `identifier:X AND (<expression>)` on advancedsearch.
+- **IA**: on archive.org but not in DL.
+- **WB**: a Wayback capture.
+- **EXT:holder**: held outside the Internet Archive.
+
+Every archive.org identifier below returned a `metadata` object on 2026-11-06. Every EXT URL returned HTTP 200 on the same day, unless the entry says otherwise. gao.gov and cdc.gov/stacks.cdc.gov return **403 to automated requests**, so I cite their documents through Wayback captures instead. OSTI entries were checked through the OSTI records API, and several were also checked on their `/biblio/` pages, which returned 200.
+
+---
+
+## 1. Production (plutonium, tritium, the Reagan-era buildup)
+
+- **DL** `micro_IA41152844_0819`. *DOE FY1984 National Defense Programs Authorization*, hearing before the Senate Armed Services Subcommittee on Strategic and Theater Nuclear Forces, 1983-04-12. Microfiche, us-gpo / USGovernmentDocuments. Full-text hits for "L-Reactor"; covers the materials-production budget for the buildup. Verified 2026-11-06.
+- **DL** `micro_IA41152623_0934`. *DOE FY1985 National Security Programs Authorization*, hearing, 1984-03-27. us-gpo. The same series one year later, also with L-Reactor and production-reactor testimony. Verified 2026-11-06.
+- **DL** `micro_IA41152646_0454`. *Hearings on H.R. 1873 [H.R. 1872], DOE National Security Programs Authorization FY1986–87*, 1985. us-gpo. The House side of the mid-1980s production budget. Verified 2026-11-06.
+- **DL** `micro_IA41152815_0019`. *DOE FY1986 Authorization for Defense Programs*, Senate hearing, 1986. us-gpo. Verified 2026-11-06.
+- **IA** `micro_IA41152840_0845`. *DOE's Facilities for Defense Materials Production*, hearing before the Senate Energy Subcommittee on Energy R&D, 1987-07-17. us-gpo (not DL). Testimony on the state of the production reactors before the 1988 crisis. Verified 2026-11-06.
+- **DL** `micro_IA41152840_0894`. *DOE's Facilities for Defense Materials Production*, hearings, Senate Committee on Energy and Natural Resources, 1988. us-gpo. Verified 2026-11-06.
+- **IA** `cia-readingroom-document-cia-rdp88g01117r000401020009-5`. A clipping of Cass Peterson's *Washington Post* article "Aging U.S. Reactors Are Used in Buildup of Nuclear Weapons", 1986-05-02, in the CIA Reading Room. It describes four 1950s-era SRP reactors carrying the buildup and one shut down for a cracked vessel, and it quotes the L-Reactor EIS. Verified 2026-11-06.
+- **IA** `CIA-RDP85T00287R000900590001-0`. "Evolution of Production Reactors", 1983-03-29. cia-collection / nationalsecurityarchive. A CIA document on production-reactor history (only partly read). Verified 2026-11-06.
+- **IA** `usnuclearwarhead0002unse`. *U.S. Nuclear Warhead Production* (NRDC Nuclear Weapons Databook vol. II), 1987. internetarchivebooks (lending). The standard secondary source on SRP output; full-text hit for "L-Reactor". Verified 2026-11-06.
+- **IA** `supplyingnuclear0000carl`. Carlisle & Zenzen, *Supplying the Nuclear Arsenal: American Production Reactors, 1942–1992*, 1996. internetarchivebooks (lending). The main scholarly history of the reactors through shutdown, with hits for L-, K-Reactor, Glenn and Gilbert. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/3023073. *Savannah River Plant History: Reactor Areas, January 1976 through December 1987*, DPSP-77-454-1, Du Pont (E. F. Ruppe), 1988-10. Du Pont's own internal operating history of the reactor areas for exactly this period, and the key primary source. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/10151705. *Savannah River Plant History: Plantwide Activities, July 1954–December 1972*, DPSP-55-454-5. Gives the baseline at the start of the period. Verified 2026-11-06 (API).
+- **IA** `DTIC_ADA338687`. GAO, *Nuclear Materials: Plutonium Processing in the Nuclear Weapons Complex*, 1992-08. dticarchive. Covers the end-of-production status of F- and H-Area processing. Verified 2026-11-06.
+- **IA** `IB97002-crs`. CRS, *The Department of Energy's Tritium Production Program*, 1997-01-23. nationalsecurityarchive. A retrospective on tritium after SRS reactor production ended, with hits for "K-Reactor". Verified 2026-11-06.
+
+## 2. Releases, monitoring and environment (tritium, effluents, creeks, cooling water)
+
+- **DL** `sim_radiation-data-and-reports_1970-12_11_12`. *Radiation Data and Reports*, vol. 11 no. 12, 1970-12 (US PHS/EPA). sim_microfilm, in DL through `subject:"Government Documents"`. Contains the section "Savannah River Plant, July–December 1969", summarised from Du Pont's semiannual report DPST-10-30-1, with air, rain and water monitoring. The series carried SRP reports regularly: full-text search for "Savannah River Plant" within `pub_radiation-data-and-reports` returns 67 hits, among them issues dated 1970-05, 1971-07, 1971-08, 1972-03, 1973-03 and 1974-02. Verified 2026-11-06.
+- **IA** `micro_IA41159436_0161`. *Airborne Radioactive Effluent Study at the Savannah River Plant*, 1984. NTIS microfiche. Verified 2026-11-06.
+- **IA** `NASA_NTRS_Archive_19880001827`. *Airborne lidar experiments at the Savannah River Plant*, 1985-06. NASA_NTRS_Archive. Remote sensing of SRP plumes and effluents. Verified 2026-11-06.
+- **IA** `micro_IA41159405_0353`. *A Report on Pollution in the Middle Reach of the Savannah River, Georgia–South Carolina*, 1971. NTIS. Shows the state of the river at the start of the period; full-text hit for "Four Mile Creek". Verified 2026-11-06.
+- **IA** `micro_IA41159405_0674`. *Pollution of the Middle Reach of the Savannah River… Proceedings* (conference), 1972. NTIS. Federal water-pollution enforcement proceedings. Verified 2026-11-06.
+- **IA** `micro_IA41159414_0765`. *Description of the Savannah River Laboratory Meteorological Data Base for 1975 to 1979*, 1986. NTIS. The basis for dispersion and dose estimates. Verified 2026-11-06.
+- **DL** `micro_IA41152634_0750`. *Military Radioactive Emissions*, hearing on H.R. 2593 (EPA standards for DOE defense-facility emissions), House Energy and Commerce Subcommittee on Energy Conservation and Power, 1985-08-14. us-gpo. Shows Congress pushing outside regulation onto air releases from the defense plants. Verified 2026-11-06.
+- **DL** `micro_IA41152617_0148`. *Environmental Issues at Department of Energy Nuclear Facilities*, hearing, 1987-03-17. us-gpo. Full-text hit with Glenn and Savannah River. Verified 2026-11-06.
+- **IA** `waterlordstaskfo0000jame`. James Fallows (Nader task force), *The Water Lords: Task Force Report on the Savannah River*, 1971 (preliminary draft). internetarchivebooks. A contemporary critique of the river at the start of the period; I did not read how much it says about SRP. Verified 2026-11-06.
+- **EXT:IEER** https://ieer.org/wp/wp-content/uploads/1986/07/deadlycropSRS1986.pdf. Makhijani, Alvarez & Blackwelder, *Deadly Crop in the Tank Farm: An Assessment of the Management of High-Level Radioactive Wastes in the Savannah River Plant Tank Farm*, 1986 (Environmental Policy Institute; corrected January 2012). Contents include "Catastrophic Events", "Environmental Contamination" and "Worker Exposures". Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/5881523. Du Pont, *Response to Environmental Policy Institute Report on Savannah River Plant High-Level Waste Management*, DPSP-86-1164, 1986. The operator's rebuttal to *Deadly Crop*. Verified 2026-11-06 (API).
+- **EXT:OSTI** Annual SRP environmental monitoring series, Du Pont DPSPU-xx-302 and DPSPU-xx-30-1, 1974–1987. Examples: https://www.osti.gov/biblio/4174736 (1974), https://www.osti.gov/biblio/6606253 (1979), https://www.osti.gov/biblio/5181255 (1984), https://www.osti.gov/biblio/7072035 (1987). These are the primary release and monitoring record year by year. Verified 2026-11-06 (API).
+- **EXT:OSTI** https://www.osti.gov/biblio/6098327. C. Ashley, *Tritium in the Environment at the Savannah River Plant*, DPSPU-79-30-9, 1979-07. Verified 2026-11-06 (API).
+- **EXT:OSTI** https://www.osti.gov/biblio/5625838. C. E. Murphy Jr., *Tritium in the Savannah River Site Environment*, WSRC-RP-90-424-1 Rev. 1, 1991-05. A synthesis of the tritium record, written just before the K-Reactor leak. Verified 2026-11-06 (API).
+- **EXT:OSTI** https://www.osti.gov/biblio/5768014. *Tritium migration from the burial ground to Four Mile Creek: reappraisal of flow paths and travel times*, DPST-79-265, 1979-02. Verified 2026-11-06 (API).
+- **EXT:OSTI** https://www.osti.gov/biblio/5716897. *Analysis of soil and water at the Four Mile Creek seepline near the F/H Areas of SRS*, WSRC-RP-90-591, 1990-06. Covers contamination from the separations seepage basins. Verified 2026-11-06 (API).
+- **EXT:OSTI** https://www.osti.gov/biblio/7144224. *Comprehensive Cooling Water Study, Vol. 1: Summary of Environmental Effects, Savannah River Plant*, DP-1739-1, 1987-10. The main cooling-water and thermal-effects study. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/6534863. DOE, *Environmental Survey Preliminary Report, Savannah River Plant*, DOE/EH/OEV-10-P, 1987-08. DOE's own complex-wide environmental survey, done shortly before the 1988 crisis. Verified 2026-11-06.
+- **WB** https://web.archive.org/web/20041018213645/http://www.srs.gov/general/pubs/ERsum/2001_EnvRepTbls/RadSurv/SumSRSTritiumTransport19602001.xls. *Summary of SRS Tritium Transport, 1960–2001*, a table from the 2001 SRS environmental report. Gives quantitative annual tritium transport to the streams and the river across the whole period. Fetched (HTTP 200, 17 KB) on 2026-11-06; I did not parse it, because no .xls reader was available. Verified 2026-11-06.
+- **EXT:DOE OpenNet/OHRE** https://ehss.energy.gov/OHRE/new/findingaids/epidemiologic/savannah/incidents/6.html. DOE Human Radiation Experiments finding aid, "Savannah River Site: Incidents and Occurrances [sic]: Radioactive Release Monthly Reports, 1975, 1983". Describes a series of monthly release summaries, including releases over "prorated annual guides". It is a finding aid, not the records themselves. Verified 2026-11-06.
+- **WB (CDC Dose Reconstruction)** https://web.archive.org/web/20041028062400/http://www.cdc.gov:80/nceh/radiation/savannah/Cover.pdf. RAC Report No. 1-CDC-SRS-1999-Final, *SRS Environmental Dose Reconstruction Project, Phase II: Source Term Calculation and Ingestion Pathway Data Retrieval*, Risk Assessment Corporation (J. E. Till, PI), 2001-04-30, CDC contract 200-95-0904. Chapter files are captured too: `Chapter_01.pdf` (executive summary) at 20170215080708, plus Chapters 2–20 and Appendices A–K under `cdc.gov/nceh/radiation/savannah/`. **This is the key source on historical releases.** Live cdc.gov returns 403 to scripts. Verified 2026-11-06.
+- **WB (CDC Dose Reconstruction)** https://web.archive.org/web/20070824115304/http://www.cdc.gov/nceh/radiation/Savannah/docs/ExecSummary_083006.pdf. *SRS Dose Reconstruction Report* (Phase III), Executive Summary, August 2006. Estimates doses and risks for hypothetical offsite people across 1954–1992. Verified 2026-11-06.
+
+## 3. L-Reactor restart (1980–1985): EIS, hearings, litigation
+
+- **DL** `micro_IA41152659_0884`. *Environmental Consequences of the Proposed Restart of the L-Reactor at the Savannah River Plant, Aiken, S.C.*, Senate Armed Services Committee field hearing at North Augusta, S.C., 1983-02-09 (S. Hrg. 98-18). us-gpo. Witnesses included Thurmond, Mattingly, Rep. Derrick, DOE (Wade, Morgan), EPA Region IV, the SC attorney general, the SC Wildlife Federation, and Ruth Patrick. Verified 2026-11-06.
+- **IA** `SavannahRiverEnvironmentalImpactStatements`. *Savannah River environmental impact statements*, US DOE. Uploaded to folkscanomy_politics, so not DL. Contains DOE-EIS-0108 *L-Reactor Operation* (3 volumes), DOE-EIS-0121 *Alternative Cooling Water Systems*, DOE-EIS-0147 *Continued Operation of the K-, L-, and P-Reactors*, and DOE-EIS-0062 waste tanks, among others. A single place for the period's EISs. Verified 2026-11-06.
+- **EXT:DOE** https://www.energy.gov/node/363049 and https://www.energy.gov/sites/default/files/2021-05/final-eis-0108-vol1-1-l-reactor-srs-1984-05.pdf. DOE/EIS-0108, *Final EIS, L-Reactor Operation, Savannah River Plant*, May 1984. The official copy. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/5060401. *L-Reactor Operation, Savannah River Plant: Environmental Assessment*, DOE/EA-0195, 1982-08. The EA and FONSI that the litigation challenged. Verified 2026-11-06.
+- **EXT:ELR** http://www.elr.info/litigation/natural-resources-defense-council-v-vaughn (https://elr.info/... redirects here). *NRDC v. Vaughn*, No. 82-3173, D.D.C., decided 1983-07-15, 13 ELR 20903. Held that the reactor restart was a major federal action requiring an EIS, but denied a preliminary injunction. Verified 2026-11-06.
+- **EXT:Leagle** https://www.leagle.com/decision/19832038566fsupp147211807. The text of the 1983 memorandum and order, apparently *NRDC v. Vaughn*, 566 F. Supp. 1472 (D.D.C. 1983) judging by the URL; I did not open it to confirm the citation. Verified 2026-11-06 (HTTP 200).
+- **EXT:CSMonitor** https://www.csmonitor.com/1983/0209/020952.html. "South Carolina lawsuit could slow the buildup of US nuclear arsenal", *Christian Science Monitor*, 1983-02-09. Contemporary press coverage. Verified 2026-11-06.
+- **IA** `hiddendangersenv00ehrl`. *Hidden Dangers: Environmental Consequences of Preparing for War*, 1990. internetarchivebooks. A secondary account with L-Reactor hits. Verified 2026-11-06.
+
+## 4. The 1987–88 crisis: incidents revealed, Glenn, GAO, shutdown
+
+- **DL** `micro_IA41152617_0145`. *Reactor Safety Issues at Department of Energy Facilities*, hearing, 1987-03-12. us-gpo. Testimony from the Chernobyl aftermath. Verified 2026-11-06.
+- **IA** `ERIC_ED299108` (also `micro_IA41153431_0562`, ERIC microfiche). National Academy of Sciences, *Safety Issues at the Defense Production Reactors: A Report to the U.S. Department of Energy*, 1987. ericarchive. The NAS (Ahearne) review that found the oversight wanting. Verified 2026-11-06.
+- **DL** `micro_IA41152617_0167` and `micro_IA41152829_0777`. *Nuclear Protections and Safety Act of 1987*, hearings, 1987-11-20 / 1988. us-gpo. Glenn's bill, which led to the Defense Nuclear Facilities Safety Board. Verified 2026-11-06.
+- **IA** `micro_IA41152840_0671`. *Reactors at the Savannah River Plant*, hearing before the **Senate** Armed Services Subcommittee on Strategic Forces and Nuclear Deterrence (Exon, chair; Glenn and Thurmond present), 1988-02-29 (S. Hrg. 100-701). us-gpo, not DL. Witnesses were DOE's Paul Kaspar, SRP manager Robert Morgan, and Du Pont's Joseph Spencer. It concerns the cut in L-Reactor power, and it states that P and K were on tritium charges and L on plutonium. *The brief described this as a House hearing; it is a Senate hearing.* Verified 2026-11-06.
+- **DL** `micro_IA41152840_0665`. *Safety Oversight for Department of Energy Nuclear Facilities*, hearings, Senate Armed Services Subcommittee on Strategic Forces and Nuclear Deterrence, 1988. us-gpo. Verified 2026-11-06.
+- **DL** `micro_IA41152603_0340`. GAO testimony T-RCED-88-68, J. Dexter Peach, *Ineffective Management and Oversight of DOE's P-reactor at Savannah River, S.C., Raises Safety Concern*, 1988-09-30, before Glenn (Senate Governmental Affairs) and Synar (House Government Operations). us-gpo. Covers the P-Reactor start-up and its unaccounted-for reactivity of "$4". **The pivotal primary document of the 1988 crisis.** Verified 2026-11-06.
+- **WB** https://web.archive.org/web/20250211153625/https://www.gao.gov/assets/t-rced-88-68.pdf. The same GAO testimony from gao.gov (2.3 MB). The live site returns 403 to scripts. Verified 2026-11-06.
+- **DL** `micro_IA41152637_1174`. *New Production Reactor Acquisition Strategy*, 1988-10-05. us-gpo. The plan for a replacement reactor. Verified 2026-11-06.
+- **IA** `micro_IA41152832_0085`. *Cost and Management of Nuclear Safety and Cleanup and Compliance at DOE Defense Sites*, hearing, 1988-07-13. us-gpo. Originally listed as DL without a test; the scope test returned 0, so it is IA. Verified 2026-11-06.
+- **EXT:CSMonitor** https://www.csmonitor.com/1988/1012/esav.html. "Is this any way to run a bomb plant?", *Christian Science Monitor*, 1988-10-12. A contemporary editorial. Verified 2026-11-06.
+- **EXT:AIP** https://aip.brightspotcdn.com/PTO.v41.i11.51_1.online.pdf. *Physics Today* vol. 41 no. 11 (November 1988), news coverage of the withheld reactor-accident reports and the Glenn and Synar releases (per the search snippet; I confirmed the PDF loads but did not read it). Verified 2026-11-06.
+- **EXT:NYT**. *New York Times*, autumn 1988 front-page series on the weapons complex, including the reporting of roughly 30 serious SRP reactor incidents between 1957 and 1985. **No nytimes.com URL verified**: searches returned only secondary accounts of it. Unverified citation; the archive has to be checked by hand.
+- **IA** `micro_IA41152645_0571`. GAO, *Nuclear Health and Safety: Better Earthquake Protection Needed at DOE's Savannah River Site*, 1989-12. us-gpo, not DL. Says the reactors were "currently shut down for safety reviews and modifications", and that P was approved for restart in August 1988 before the restart was aborted. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/5872518 and https://www.osti.gov/biblio/6876564. Du Pont *Reactor Incident Status* reports, 1987 Q4 (RTR-2291-87-4, 1988-04-05) and 1985 annual (RTR-2291-85-4, 1986-03-31). The operator's internal incident tracking for the period at issue. Verified 2026-11-06 (API).
+- **EXT:OSTI** https://www.osti.gov/biblio/5975848. "US defense reactors: Exaggerations vs. reality", 1989-02. A defence of the reactors' record against the 1988 coverage. Verified 2026-11-06 (API).
+- **EXT:Alvarez/ANA** https://ananuclear.org/savannah-river-vignette-by-robert-alvarez/. Robert Alvarez, "Savannah River vignette", March 2022. A memoir by the Glenn committee investigator who obtained the "thirty incidents" report. Secondary and partisan; see the conflicts under Key facts. Verified 2026-11-06.
+
+## 5. Du Pont to Westinghouse (1987–1989); renamed Savannah River Site
+
+- **WB** https://web.archive.org/web/20251030232444/https://www.srs.gov/general/about/srs-1980.htm. SRS official timeline for the 1980s. Lists: 1985 L Reactor restart; C Reactor shut down 1985 (permanent 1986); 1987 DuPont announces its intent to end its tenure; 1988 remaining reactors shut down; 1989 DuPont contract ends and Westinghouse begins; 1989 rename to SRS; 1989 National Priorities List. Verified 2026-11-06.
+- **WB** https://web.archive.org/web/20170222195600/http://www.srs.gov/general/about/50anniv/Chapter%2019.pdf. Reed et al., *Savannah River Site at Fifty* (WSRC, 2002), Chapter 19, "Transition (1980–2000)". Covers the L restart, the 1983 hearings, the Steel Creek thermal issue, the 1985 "30 significant incidents" report, the 1988 shutdowns and Westinghouse's arrival in April 1989. The official history. Other chapters are captured under `www.srs.gov/general/about/50anniv/`, including CONTENTS.pdf at 20060909012514 and Chapters 2–3, 7–8, 10–14 and 20. **No captures were found for Chapter 16 ("The Middle Years 1964–1979") or Chapter 18 ("Rise of Environmentalism").** Verified 2026-11-06.
+- **EXT:UNT EOT** https://webarchive.library.unt.edu/eot2008/20090114192636/http://www.srs.gov/general/about/history1.htm. SRS "History Highlights" page as captured in the 2008 End of Term archive. Verified 2026-11-06.
+- **WB** https://web.archive.org/web/20081112082418/http://gao.gov/products/RCED-90-104. GAO, *Nuclear Safety: Concerns About Reactor Restart and Implications for DOE's Safety Culture*, RCED-90-104. Says the contractor's restart plan targeted September 1990, December 1990 and March 1991, and identifies safety-culture problems. Verified 2026-11-06.
+- **DL** `micro_IA41152637_1183`. *Safety, Modernization, and Environmental Cleanup of the U.S. Nuclear Weapons Complex*, hearings, Senate Armed Services / Energy, 1989. us-gpo. Verified 2026-11-06.
+- **DL** `micro_IA41152832_0122`. *Oversight of Cleanup and Modernization Proposals for DOE's Weapons Production Complex*, 1989-01. us-gpo. Verified 2026-11-06.
+- **DL** `micro_IA41152607_0168` (GAO statement by J. Dexter Peach, 1989-02-21), `micro_IA41152607_0169` (*Enormous Modernization and Cleanup Problems in the Nuclear Weapons Complex*, 1989-02-23), and `micro_IA41152604_0352` (*Environmental Problems at DOE's Nuclear Weapons Complex*, 1989-02-24). GAO's 1989 testimony set. Verified 2026-11-06.
+- **IA** `micro_IA41152604_0351`. GAO, *Dealing With Enormous Problems in the Nuclear Weapons Complex*, 1989-02-08. us-gpo, not DL. Verified 2026-11-06.
+- **IA** `nuclearweaponsco0000unse_a5d8` (also `bub_gb_WyMrAAAAYAAJ`). National Research Council, *The Nuclear Weapons Complex: Management for Health, Safety, and the Environment*, 1989. Verified 2026-11-06.
+- **IA** `micro_IA41152837_0114`. *Nomination of Victor Stello Jr. to be Assistant Secretary of Energy for Defense Programs*, 1990. us-gpo. Stello oversaw the restart program. Verified 2026-11-06.
+- **IA** `contractfinancia00unit`. *Contract and Financial Management at DOE*, Senate Governmental Affairs hearing, 1994. bplgovdocs. Westinghouse Savannah River Company contract oversight, looking back on the period. Verified 2026-11-06.
+
+## 6. K-Reactor restart, the 1991 tritium leak, end of production
+
+- **WB** https://web.archive.org/web/20081001185926/http://www.gao.gov/products/RCED-91-95. GAO, *Nuclear Safety: Status of Reactor Restart Efforts and Safety Culture Changes*, RCED-91-95. Reports that on 1991-02-04 DOE announced a K restart in summer 1991 and an L restart in early 1992, with P to go to cold standby, and that restart and operations would cost $3.2 billion over FY1989–93. Verified 2026-11-06.
+- **DL** `micro_IA41152852_0268` (*Energy and Water Development Appropriations FY1991*, 1990) and `micro_IA41152852_0310` (*… FY1992*, 1991). us-gpo. The FY1992 volume says the plan was to operate K Reactor and delay L, and mentions Westinghouse. Verified 2026-11-06.
+- **IA** `micro_IA41152832_0637`. *Energy and Water Development Appropriations for 1991*, House hearings, 1990. us-gpo, not DL. Mentions the Energy Research Foundation. Verified 2026-11-06.
+- **DL** `micro_IA41152837_0374`. *Department of Energy's Nuclear Facilities*, hearing, Senate Energy and Natural Resources, 1990. us-gpo. Verified 2026-11-06.
+- **IA** `micro_IA41152837_0116`. *Plans, Progress, and Experience to Date of the Defense Nuclear Facilities Safety Board*, hearings, 1990-03-28. us-gpo. Verified 2026-11-06.
+- **DL** `micro_IA41152852_0823`. *FY1992 Budget Request for DOE's Environment, Safety and Health Program*, hearing, 1991-03-07. us-gpo. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/5625511, https://www.osti.gov/biblio/5433380 and https://www.osti.gov/biblio/6017168. DOE *Safety Evaluation Report: Restart of K-Reactor, Savannah River Site*, DOE/DP-0084T (1991-04), DOE/DP-0090T (1991-08) and DOE/DP-0091T (1991-10). Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/5281815. *Tritium sample analyses in the Savannah River and associated waterways following the K-reactor release of December 1991*, WSRC-TR-92-24, 1992-02-05. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/10179303. W. H. Carlton, *Individual and population dose to users of the Savannah River following K-Reactor tritium release*, SRL-ETS-92-0061, 1992. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/7368801. *Environmental monitoring and dose assessment following the December 1991 K-reactor aqueous tritium release*, journal article, 1993-07. Verified 2026-11-06.
+- **EXT:OSTI** https://www.osti.gov/biblio/10172797. *Incident Investigation Team Report: K-Reactor D2O Spill*, WSRC-RP-90-1173, 1990. An earlier K-Reactor incident during the restart period. Verified 2026-11-06 (API).
+- **WB** https://web.archive.org/web/20251028103730/https://www.srs.gov/general/about/srs-1990.htm. SRS official timeline for the 1990s. Says that in 1992 K Reactor, restarted after the contract change, "goes critical for a test run before getting shut down permanently". Verified 2026-11-06.
+- **IA** `linkinglegaciesc00unit`. DOE, *Linking Legacies: Connecting the Cold War Nuclear Weapons Production Processes to Their Environmental Consequences*, 1997. Verified 2026-11-06.
+- **DL** `micro_IA41152852_0090`. OTA, *Complex Cleanup: The Environmental Legacy of Nuclear Weapons Production*, 1991. The book copy `complexcleanupen0000unse` is **IA**, not DL. Verified 2026-11-06.
+
+## 7. Ecology, SREL, NERP; worker health; espionage
+
+- **WB** https://web.archive.org/web/20251028103524/https://www.srs.gov/general/about/srs-1970.htm. SRS official timeline for the 1970s. Lists: 1972 "SRP is designated first National Environmental Research Park"; 1973 TLD dosimeters replace film badges; 1976 earthquake buttresses on the reactor "high hats" (except R); 1977 Plutonium Fuel Fabrication startup; 1978 Savannah River Archaeological Program; 1979 three-day anti-nuclear protest. Verified 2026-11-06.
+- **EXT:OSTI** SREL annual reports across the period. Examples: https://www.osti.gov/biblio/4698586 (1971, SRO-310-1), https://www.osti.gov/biblio/4290574 (Aug 1971–May 1974, SRO-819-1), https://www.osti.gov/biblio/7152024 (1976, SREL-6: ¹³⁷Cs, ²⁴¹Am, Pu), https://www.osti.gov/biblio/6219837 (1988), https://www.osti.gov/biblio/10120155 (1992). Verified 2026-11-06 (API).
+- **EXT:OSTI** https://www.osti.gov/biblio/10109487. *Mammals of the Savannah River Site*, SRO-NERP-21, 1991. One example of the NERP publication series. Verified 2026-11-06 (API).
+- **IA** `thermalecologyii0000ther`. *Thermal Ecology II: proceedings of a symposium held at Augusta, Georgia, April 2–5, 1975*, 1976. SREL's research on reactor cooling-water effects. Verified 2026-11-06.
+- **IA** `energyenvironmen00sava`. *Energy and Environmental Stress in Aquatic Systems*, symposium held at Augusta, Nov. 2–4, 1977, 1978. biodiversity / MBLWHOI (full view). Verified 2026-11-06.
+- **IA** `freshwaterwetlan0000unse_l5x9`. *Freshwater Wetlands and Wildlife*, symposium held at Charleston, 1986, published 1989 (DOE/SREL). Verified 2026-11-06.
+- **IA** `micro_IA41153525_0617` / `ERIC_ED156445`. Gibbons, *Snakes of the Savannah River Plant*, 1977. An example of SREL natural-history outreach. Verified 2026-11-06 (search listing only, not run through the metadata check).
+- **DL** `gov.gpo.fdsys.CHRG-110hhrg36143`. *The Department of Energy's Support for the Savannah River Ecology Laboratory (SREL), Parts I & II*, House Science hearing, 2007-07-19. A retrospective record of SREL's history. Verified 2026-11-06.
+- **EXT:ESA** https://esa.org/history/fifty-years-ago-the-development-of-thermal-ecology-at-srel. Sharon Kingsland, "Fifty Years Ago: The Development of Thermal Ecology at SREL", ESA Historical Records Committee, 2019. States that SREL's thermal ecology programme began in 1969, after satellite infrared imagery led to the declassification of water temperatures, with symposia in 1973 and 1975. Verified 2026-11-06.
+- **EXT:UNT/ORISE** https://webarchive.library.unt.edu/web/20121017172642/http://orise.orau.gov/files/oewh/MortalitySRNF-9-30-98.pdf. ORISE follow-up mortality study of SRS workers (Cragle et al., 1998). It builds on Cragle et al. 1988, *Am. J. Ind. Med.* 14:379–401, which I did not verify at its publisher. Verified 2026-11-06 (HTTP 200).
+- **IA** `micro_IA41152837_0739`. *DOE's Radiation Health Effects Research Program and Working Conditions at DOE Sites*, hearing, 1990. us-gpo, not DL. Covers the fight over worker epidemiology data. Verified 2026-11-06.
+- **IA** `cia-readingroom-document-cia-rdp90-00552r000202160012-9`. UPI wire, "FBI Arrests Spy Near Nuclear Plant", Augusta, GA, 1982-04-19, in the CIA Reading Room. Reports the arrest of Hungarian-born Otto Attila Gilbert, 58. Federal authorities *refused to say* whether the case involved Fort Gordon or SRP; Fort Gordon saw no sign it was connected to the base, and SRP's external affairs director denied knowledge of the case. Verified 2026-11-06.
+
+---
+
+## Key facts (each with its source)
+
+- 1972: SRP becomes the first National Environmental Research Park. Source: srs.gov 1970s timeline (WB 20251028103524).
+- 1976: earthquake buttresses were added to the reactor "high hats", except R. Source: the same page. (Its header for the 1970s also mentions buttresses, without a year.)
+- 1979: a three-day anti-nuclear protest on site begins "several years of anti-nuclear protests". Source: the same page.
+- 1982: SRP plutonium was lowered from 6% to 3% Pu-240 to blend with Hanford N-Reactor output, a level kept "until at least 1988". Source: *SRS at Fifty* ch. 19 (WB).
+- 1982 (August): DOE published the L-Reactor EA/FONSI. NRDC and others sued (*NRDC v. Vaughn*, D.D.C. No. 82-3173). Source: OSTI 5060401 (EA dated 1982-08); ELR summary. The 23 August 1982 FONSI date comes only from a search snippet, so it is unsourced as verified.
+- 1983-02-09: Senate Armed Services held a field hearing on the L restart at North Augusta. Source: `micro_IA41152659_0884`. Thurmond then recommended a 90-day comment period, and public meetings were held in May 1983. Source: *SRS at Fifty* ch. 19.
+- 1983-07-15: the D.D.C. ruled that restart required an EIS but declined a preliminary injunction. Source: ELR 13 ELR 20903.
+- L Reactor would discharge 250,000 gal/min into Steel Creek at about 200 °F, as stated at the 1983 hearing. Source: *SRS at Fifty* ch. 19, citing the hearing.
+- A state–DOE agreement covered thermal mitigation, a health study and other commitments before L startup. Source: *SRS at Fifty* ch. 19.
+- May 1984: final EIS DOE/EIS-0108. Source: energy.gov.
+- 1985: L Reactor restarted, "the first reactor to be rehabilitated and restarted after a long period of inactivity". C Reactor shut down in 1985, permanently from 1986. Source: srs.gov 1980s timeline.
+- 1986: the *Washington Post* reported that one SRP reactor was down to repair a crack in its vessel that had been leaking 100 lb of tritium a day [*sic*, as printed], and that a fifth reactor (R) had been mothballed in 1964 and cannibalised. Source: CIA RR clipping `cia-rdp88g01117r000401020009-5`. The leak figure is reported as printed and is unverified.
+- 1987: Du Pont announced it would not renew its contract. Sources: srs.gov 1980s timeline; *SRS at Fifty* ch. 19.
+- February 1988: P and K were on tritium charges and L on plutonium, and L's power level had just been cut. Source: Senate hearing `micro_IA41152840_0671`.
+- 1988: the internal report listing 30 significant reactor incidents was released, and the press received it as a cover-up. Sources: *SRS at Fifty* ch. 19 (the operator's view); Alvarez 2022 (the investigator's view).
+- 1988: the reactors shut down over emergency cooling system (ECS) and LOPA/LOCA concerns, K in April, L in June and P in August. Source: *SRS at Fifty* ch. 19.
+- 1988-09-30: GAO testified that during the P-Reactor start-up staff continued despite a "$4" unaccounted reactivity deficit, about 1.5 times any previous experience at SRP. Source: `micro_IA41152603_0340`; WB gao.gov T-RCED-88-68.
+- April 1989: Westinghouse Savannah River Company took over. All production reactors were then shut down, and the plant was renamed Savannah River Site in 1989. Sources: *SRS at Fifty* ch. 19; srs.gov 1980s timeline. Placement on the NPL in 1989: srs.gov.
+- 1991-02-04: DOE announced K restart for summer 1991 and L for early 1992, with P to cold standby, at $3.2 billion for restart and operations over FY1989–93. Source: GAO RCED-91-95 (WB).
+- December 1991: an aqueous tritium release from K Reactor reached the Savannah River. Source: OSTI 5281815, 10179303 and 7368801 (titles). The figure of about 570 L released on 22–25 Dec, first detected in the river on 26 Dec, comes from search-result snippets only, so it is **unsourced as verified**.
+- 1992: K Reactor went critical for a test run, then was shut down permanently. Source: srs.gov 1990s timeline.
+- Dose reconstruction: Phase II covers 1954–1992 releases. It counts "about 3000 release incidents involving tritium releases", and finds most tritium came from reactors and tritium facilities through routine operations. Source: CDC/RAC Phase II ch. 1 (WB).
+- Phase III (2006) puts the largest point-estimate offsite dose at 9.4 mSv over 39 years (Outdoor Family Child born 1955). Source: CDC Phase III Exec Summary (WB).
+- 1982-04-19: the FBI arrested Otto Attila Gilbert in Augusta. Officials would not say whether SRP was involved. Source: UPI wire in the CIA RR. No source seen ties the case to SRP; treat any SRP link as **unsourced**.
+- SREL thermal ecology began in 1969, after declassification of cooling-water temperature data. Source: ESA history (Kingsland 2019).
+- Worker leukemia: Cragle et al. (1988; 1998 follow-up) found non-significant excess leukemia. Source: ORISE 1998 report (UNT capture). I did not read the report; the summary comes from the search snippet.
+
+**Conflicts to resolve:**
+- Alvarez (2022) attributes the reactor shutdowns to the period after Chernobyl. *SRS at Fifty* and srs.gov date them April–August 1988 and give ECS and LOCA reasons.
+- The "30 incidents" span 1957–1985 in the press accounts. A secondary encyclopedia snippet gives 1975–1985 (not verified).
+- *SRS at Fifty* frames the 1988 report as intended to show improving safety. Alvarez and the NYT framed it as concealment.
+
+## Gaps
+
+- **NYT 1988 series**: no nytimes.com article URL or date verified. The NYT archive (or ProQuest) has to be checked by hand.
+- **GAO**: gao.gov refuses scripts (403). Only RCED-90-104, RCED-91-95 and T-RCED-88-68 were verified through Wayback, and no GAO product on the December 1991 K-Reactor leak was found.
+- **The "30 incidents" report itself** (the 1985 internal summary released in 1988) was not located as a document. The Du Pont *Reactor Incident Status* reports on OSTI are the closest primary records found.
+- ***SRS at Fifty* Chapters 16 and 18** (1964–1979, and the rise of environmentalism) have no Wayback captures under the URL pattern used for the others. The book is OCLC 50648911 per a search result (not verified).
+- **The Energy Research Foundation (Columbia SC)** produced no findable reports on IA or OSTI. It appears only as cited in hearings (for example `micro_IA41152832_0637`) and by Alvarez.
+- **CDC/NIOSH worker studies**: stacks.cdc.gov returns 403. Cragle 1988 was not verified at the journal.
+- **Hagley (Du Pont records) and Westinghouse corporate records**: not checked. **NARA** and the **Library of Congress**: not checked.
+- **Archive-It**: no captures were searched or found.
+- **`Supplying the Nuclear Arsenal`** and **`At Work in the Fields of the Bomb`** are lending-only. Their full text was not read, so no facts in this file are drawn from them.
+- **Radiation Data and Reports**: SRP sections were confirmed only for the 1970-12 issue. The other 1969–74 issues are listed from full-text hits and were not read.
+- **The tritium transport table** (srs.gov 2001 .xls) was fetched but not parsed.
