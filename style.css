@@ -1,13 +1,14 @@
-/* Holder colours: the dataviz reference palette's blue, green, amber and
-   magenta, with gray for "held elsewhere". Validated as a set (all pairs,
-   light surface): CVD and normal-vision separation pass; gray is a
-   deliberate neutral. Shapes and text labels carry identity too. */
+/* Holder colours: the dataviz reference palette's blue, green, violet,
+   amber and magenta, with gray for "held elsewhere". Validated in this
+   order (adjacent pairs, light surface): CVD and normal-vision separation
+   pass; gray is a deliberate neutral. The timeline's five holders also pass
+   all pairs. Shapes and text labels carry identity too. */
 :root {
   color-scheme: light;
   --page: #f6f4ef; --panel: #fff; --ink: #1f2328; --muted: #57595c; --hair: #e2ded5; --tint: #efece5;
   --link: #1a5c96; --night: #0c1f2e; --night-2: #16384a; --focus: #4b64ff;
-  --dl: #2a78d6; --ia: #008300; --wb: #eda100; --ait: #e87ba4; --ext: #6b6b6b;
-  --dl-bg: #e2edfa; --ia-bg: #dcefdc; --wb-bg: #fcefd0; --ait-bg: #fbe4ed; --ext-bg: #ebebeb;
+  --dl: #2a78d6; --ia: #008300; --ol: #6250d6; --wb: #eda100; --ait: #e87ba4; --ext: #6b6b6b;
+  --dl-bg: #e2edfa; --ia-bg: #dcefdc; --ol-bg: #e9e6fa; --wb-bg: #fcefd0; --ait-bg: #fbe4ed; --ext-bg: #ebebeb;
   --act1: #8a4f12; --act1-bg: #f6ead8; --act2: #9b2f2f; --act2-bg: #f6e1e0; --act3: #1d6b66; --act3-bg: #dcefec;
   --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --serif: Georgia, "Times New Roman", serif;
@@ -78,6 +79,7 @@ main { padding-top: 28px; padding-bottom: 56px; }
 .tag { display: inline-block; font: 700 .72rem/1 var(--font); letter-spacing: .03em; padding: 3px 5px; border-radius: 3px; vertical-align: 1px; margin-right: 4px; color: var(--ink); border: 1px solid; border-left-width: 4px; }
 .tag-dl { background: var(--dl-bg); border-color: var(--dl); }
 .tag-ia { background: var(--ia-bg); border-color: var(--ia); }
+.tag-ol { background: var(--ol-bg); border-color: var(--ol); }
 .tag-wb { background: var(--wb-bg); border-color: var(--wb); }
 .tag-ait { background: var(--ait-bg); border-color: var(--ait); }
 .tag-ext { background: var(--ext-bg); border-color: var(--ext); }
@@ -102,14 +104,16 @@ a.cite { text-decoration: underline; text-underline-offset: 2px; }
 a.cite:hover { text-decoration-thickness: 2px; }
 a.cite .tag { margin-right: 3px; }
 
-/* Figures */
-.fig { margin: 24px 0 28px; background: var(--panel); border: 1px solid var(--hair); border-radius: 8px; padding: 10px; max-width: 46rem; }
-.fig.wide { max-width: none; }
-.fig img { display: block; width: 100%; height: auto; border-radius: 4px; }
-.fig figcaption { font: .9rem/1.5 var(--font); color: var(--ink); margin: 10px 4px 2px; }
-.fig .credit { display: block; color: var(--muted); font-size: .82rem; margin-top: 4px; }
+/* Figures: never wider than the image itself, and kept small; on wide
+   screens they sit to the right of the text. */
+.fig { margin: 6px 0 20px 28px; float: right; clear: right; width: min(380px, 42%); background: var(--panel); border: 1px solid var(--hair); border-radius: 8px; padding: 8px; }
+.fig.wide { width: min(520px, 55%); }
+.fig img { display: block; width: 100%; max-width: 100%; height: auto; border-radius: 4px; }
+.fig figcaption { font: .82rem/1.45 var(--font); color: var(--ink); margin: 8px 2px 0; }
+.fig .credit { display: block; color: var(--muted); font-size: .76rem; margin-top: 3px; }
+.story article h2, .story article h3 { clear: both; }
 .tl-reactors { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 420px); gap: 24px; align-items: start; }
-.tl-reactors .fig { margin: 0; }
+.tl-reactors .fig { margin: 0; float: none; width: auto; max-width: 420px; }
 
 /* Act headings */
 h2.act { font: 700 clamp(1.4rem, 2.2vw, 1.9rem)/1.2 var(--serif); margin: 44px 0 10px; padding: 18px 20px; border-radius: 8px; border-left: 8px solid; }
@@ -135,9 +139,9 @@ h2.act-3 .act-n { color: var(--act3); }
 /* Holder chart */
 .holder-chart { width: 100%; height: auto; display: block; }
 .holder-chart .ch-label { font: 600 12.5px var(--font); fill: var(--ink); }
-.seg-dl { fill: var(--dl); } .seg-ia { fill: var(--ia); } .seg-wb { fill: var(--wb); } .seg-ait { fill: var(--ait); } .seg-ext { fill: var(--ext); }
+.seg-dl { fill: var(--dl); } .seg-ia { fill: var(--ia); } .seg-ol { fill: var(--ol); } .seg-wb { fill: var(--wb); } .seg-ait { fill: var(--ait); } .seg-ext { fill: var(--ext); }
 .seg-n { font: 700 11px var(--font); text-anchor: middle; }
-.seg-n-dl, .seg-n-ia, .seg-n-ext { fill: #fff; }
+.seg-n-dl, .seg-n-ia, .seg-n-ol, .seg-n-ext { fill: #fff; }
 .seg-n-wb, .seg-n-ait { fill: #1a1a1a; }
 
 /* Tables */
@@ -193,7 +197,7 @@ svg.timeline { display: block; width: 100%; min-width: 900px; height: auto; font
 .disputed { stroke: #3b3f44; stroke-width: 2.5; stroke-dasharray: 4 4; }
 .test { fill: #fff; stroke: #3b3f44; stroke-width: 2.5; }
 .mk { stroke: #fff; stroke-width: 2; }
-.mk-dl { fill: var(--dl); } .mk-ia { fill: var(--ia); } .mk-wb { fill: var(--wb); } .mk-ait { fill: var(--ait); }
+.mk-dl { fill: var(--dl); } .mk-ia { fill: var(--ia); } .mk-ol { fill: var(--ol); } .mk-wb { fill: var(--wb); } .mk-ait { fill: var(--ait); }
 .mk-ext { fill: #fff; stroke: var(--ext); stroke-width: 3; }
 a.ev { cursor: pointer; }
 .milestone text { font: 600 11.5px var(--font); fill: var(--ink); }
@@ -242,6 +246,7 @@ table.reactors th[scope=row] { font-weight: 700; width: 5em; }
 @media (max-width: 860px) {
   .cols, .sources-top, .results-cols, .tl-lists, .tl-reactors { grid-template-columns: minmax(0, 1fr); }
   .rail { display: block; }
+  .fig, .fig.wide { float: none; width: auto; max-width: 420px; margin: 16px 0 20px; }
   .toc { position: static; max-height: none; margin-bottom: 8px; }
   .search-row { flex-direction: column; }
   .search button { padding: 10px; }

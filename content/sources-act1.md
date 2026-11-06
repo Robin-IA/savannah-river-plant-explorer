@@ -16,7 +16,7 @@ Every source was checked on **2026-11-06**:
 
 Where an item is cited for what it says, the claim comes from the full-text-search highlight I saw. I did not read whole items unless noted.
 
-**Labels:** DL = Democracy's Library · IA = archive.org, not DL · WB = Wayback · AIT = Archive-It · EXT = held outside IA.
+**Labels:** DL = Democracy's Library · IA = archive.org, not DL · OL = Open Library · WB = Wayback · AIT = Archive-It · EXT = held outside IA.
 
 ---
 
@@ -43,7 +43,7 @@ Where an item is cited for what it says, the claim comes from the full-text-sear
 | IA (lending) | `bwb_T5-ANV-709` | Murray, Bowens & Hogrefe, *Group Work in Community Life* | 1954 | inlibrary | Has a section on New Ellenton, the replacement town, and names Dunbarton, "Meyers Hill" [sic] and Ellenton as the three villages enclosed. |
 | IA (lending) | `impactoflargeins0000unse` (also `_k9c5`, 1968 ed. `impactoflargeins0000unse_r4m1`) | *The Impact of Large Installations on Nearby Areas* (HHFA-sponsored) | 1965 | inlibrary | A Savannah River case study: "about 30 white families and 120 Negro families relocated near New Ellenton". Also housing tables and the Du Pont/AEC housing need. |
 | IA (lending) | `coontaillagoonce00cass` | Louis Cassels, *Coontail Lagoon: A Celebration of Life* | 1974 | inlibrary | An Ellenton-born UPI writer: "not even ruins to mark where my hometown, Ellenton, stood". |
-| EXT: book | Open Library OL9858335W | Louise Cassels, *The Unexpected Exodus* (Sand Hill Press 1971; USC Press 2007) | 1971 | not on IA | The classic Ellenton exodus memoir. `localfamilyhisto0000cote` (IA, printdisabled only) cites the 1971 edition. |
+| OL | Open Library OL9858335W | Louise Cassels, *The Unexpected Exodus* (Sand Hill Press 1971; USC Press 2007) | 1971 | Open Library catalogue record; no copy to read or borrow (checked 2026-11-06) | The classic Ellenton exodus memoir. `localfamilyhisto0000cote` (IA, printdisabled only) cites the 1971 edition. |
 | IA (lending) | `southcarolina00edwa` | Sally Edwards, *South Carolina* | 1968 | inlibrary | Popular-history framing: "Ellenton and Dunbarton … were evacuated". |
 | IA (printdisabled only) | `killemleavesearc0000mcbr` | James McBride, *Kill 'Em and Leave* | 2016 | internetarchivebooks | James Brown's kin among Black sharecroppers forced to evacuate Ellenton. A literary angle on Black displacement. |
 | IA (printdisabled only) | `isbn_9781941069042` | Don Bozeman, *Blackberries in the Summer* | 2014 | internetarchivebooks | A memoir: in 1952 "the entire property, along with the city of Ellenton … fell" to the plant. Covers local racial hierarchy. |
@@ -96,8 +96,8 @@ Where an item is cited for what it says, the claim comes from the full-text-sear
 | EXT: OSTI | https://www.osti.gov/biblio/10151705 | *SRP history: plantwide activities, July 1954–Dec 1972* (DPSP-55-454-5) | 1972 | OSTI, full text | A year-by-year account of personnel and plant-wide events. |
 | WB | https://web.archive.org/web/20250917151711/https://findingaids.hagley.org/repositories/3/resources/1264 | Hagley Museum and Library, *E. I. du Pont de Nemours & Company, Atomic Energy Division records*, 1942–1989 (Acc. 1957, 80 linear ft), finding aid | captured 2025 | Hagley (live site behind a bot check), Wayback | Series II, Savannah River Project administrative records: contracts, Manufacturing Division files, policy correspondence from 1950 (site selection, design and construction, environment and community impact, safety, waste disposal) and monthly reports. **Verified 2026-11-06 through the Wayback capture**; the live site returned HTTP 202 (a bot challenge). Also corroborated by the DOE OHRE finding aid. A PDF of the guide is at https://hagley-aspace-pdf.s3.amazonaws.com/1957.pdf (200). |
 | WB | https://web.archive.org/web/20251216181520/https://findingaids.hagley.org/repositories/2/resources/224 | Hagley, *DuPont Company Atomic Energy Division, Savannah River Plant photographs and films*, 1951–1984 (Acc. 1989-335, 20 linear ft), finding aid | captured 2025 | Hagley, Wayback | Construction and progress views and technical photographs: 1,412 8×10 prints and 388 lantern slides. Verified 2026-11-06 through the Wayback capture. PDF guide: https://hagley-aspace-pdf.s3.amazonaws.com/1989.335.pdf (200). |
-| EXT: book | Open Library OL19537992W | Kari Frederickson, *Cold War Dixie: Militarization and Modernization in the American South* (UGA Press) | 2013 | not on IA | The main scholarly study of SRP and the Aiken/Barnwell transformation. No IA copy; ISBN 9780820345192. |
-| EXT: book | Open Library OL4493022W | *History of Du Pont at the Savannah River Plant* (E. I. du Pont de Nemours, ISBN 0934870276) | 1990 | not on IA | The company's own history. |
+| OL | Open Library OL19537992W | Kari Frederickson, *Cold War Dixie: Militarization and Modernization in the American South* (UGA Press) | 2013 | Open Library catalogue record; no copy to read or borrow (checked 2026-11-06) | The main scholarly study of SRP and the Aiken/Barnwell transformation. No IA copy; ISBN 9780820345192. |
+| OL | Open Library OL4493022W | *History of Du Pont at the Savannah River Plant* (E. I. du Pont de Nemours, ISBN 0934870276) | 1990 | Open Library catalogue record; no copy to read or borrow (checked 2026-11-06) | The company's own history. |
 
 ## 3. Reactors, separations, heavy water and production
 

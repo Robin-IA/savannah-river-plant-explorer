@@ -14,7 +14,8 @@ logos:
 
 - **Story** (`index.html`): the history in three acts, with a tag on every
   citation: **DL** Democracy's Library, **IA** the Internet Archive outside
-  Democracy's Library, **WB** the Wayback Machine, **AIT** Archive-It, **EXT**
+  Democracy's Library, **OL** a book catalogued in Open Library, **WB** the
+  Wayback Machine, **AIT** Archive-It, **EXT**
   held elsewhere. Each tag links to its source. The acts cover building the
   plant (1950–1969), the reactors under scrutiny (1970–1992) and the years
   after bomb making (1992 to now). A search box in the banner finds passages
@@ -37,7 +38,7 @@ logos:
   others), Wayback Machine captures, Archive-It seeds, and outside holders,
   chiefly DOE's OSTI.
 - **Years covered:** 1950 to 2026.
-- **Size:** 297 sources: 47 DL, 102 IA, 76 WB, 1 AIT, 71 EXT. Counted
+- **Size:** 297 sources: 47 DL, 102 IA, 3 OL, 76 WB, 1 AIT, 68 EXT. Counted
   6 November 2026.
 - **Not included:** sources still being sought, such as the rest of the
   *New York Times* 1988 series and the "thirty incidents" report, are tracked as
@@ -81,7 +82,7 @@ The notes for each source, including what was and was not read, are in
   1970 and 1972, and a 2006 NASA photograph of the site from the ISS),
   resized for the web. Each is credited in its caption and on the About page.
 - Holder colours come from a validated categorical palette (blue, green,
-  amber, magenta, and gray for "held elsewhere"); shapes and text labels
+  violet, amber, magenta, and gray for "held elsewhere"); shapes and text labels
   carry the same information, so nothing depends on colour alone.
 - Published with GitHub Pages from the `main` branch, root folder.
 
