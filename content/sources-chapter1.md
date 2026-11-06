@@ -1,4 +1,4 @@
-# Bomb Making, Act 1 (1950–1969): sources
+# Bomb Making, Chapter 1 (1950–1969): sources
 
 > Research notes behind [README.md](README.md), compiled 6 November 2026.
 > Every identifier and URL was checked live that day. Every archive.org
@@ -236,7 +236,7 @@ Do not use any of these without a source.
 - **Hagley:** the finding-aid site sat behind a bot challenge (HTTP 202 with an empty body). The holdings are corroborated only by the DOE OHRE finding aid.
 - **NARA** (RG 326, Atlanta regional archives): not checked, because the catalog API needs a key and I did not attempt it.
 - **Archive-It:** the bot challenge blocked all listing. No AIT sources.
-- ***SRS at Fifty* chapters 4, 5, 6, 9 and 10** (the core Act 1 chapters) have no separate Wayback captures. They are available only inside the 55.9 MB full-book capture, which I verified by header only. Ch. 12 replay hit a 429 rate limit.
+- ***SRS at Fifty* chapters 4, 5, 6, 9 and 10** (the core Chapter 1 chapters of the book) have no separate Wayback captures. They are available only inside the 55.9 MB full-book capture, which I verified by header only. Ch. 12 replay hit a 429 rate limit.
 - ***Cold War Dixie*** (Frederickson) and ***The Unexpected Exodus*** (L. Cassels) are not on IA in any form found (metadata, full text or Open Library `ia`).
 - **SRARP *Dunbarton and Meyers Mill* PDFs:** the CDX lists 200 captures, but the replay of the preface returned 404 today. The Ellenton volume PDFs are image-only, so they are not searchable.
 - **SRS Heritage Foundation, the SRS Museum and the SRARP live site:** srarp.org and srsheritagefoundation.org did not resolve, and current SRS/SC pages 404.

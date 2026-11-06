@@ -1,4 +1,4 @@
-# Bomb Making, Act 2 (c. 1970–1992): sources
+# Bomb Making, Chapter 2 (c. 1970–1992): sources
 
 > Research notes behind [README.md](README.md), compiled 6 November 2026.
 > Every identifier and URL was checked live that day. Every archive.org

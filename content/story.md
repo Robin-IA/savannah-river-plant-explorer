@@ -16,13 +16,13 @@ Every claim carries a tag saying where its source lives:
 | **EXT** | Held outside the Internet Archive; the holder is named. |
 
 The full source lists, with every identifier, URL and verification note, are
-in [sources-act1.md](sources-act1.md), [sources-act2.md](sources-act2.md) and
-[sources-act3.md](sources-act3.md). Where sources disagree, the story says so
+in [sources-chapter1.md](sources-chapter1.md), [sources-chapter2.md](sources-chapter2.md) and
+[sources-chapter3.md](sources-chapter3.md). Where sources disagree, the story says so
 rather than choosing.
 
 ---
 
-## Act 1. Building the bomb plant, 1950–1969
+## Chapter 1. Building the bomb plant, 1950–1969
 
 ### A site for the hydrogen bomb
 
@@ -238,7 +238,7 @@ River Ecology Laboratory, which dates its own founding to 1951
 
 ---
 
-## Act 2. The reactors under scrutiny, 1970–1992
+## Chapter 2. The reactors under scrutiny, 1970–1992
 
 <figure class="fig">
 <img src="img/srp-glove-boxes-c1972.jpg" width="1400" height="1132" alt="A worker in white coveralls stands at a long row of steel glove boxes with round glove ports and windows." loading="lazy">
@@ -409,7 +409,7 @@ the reports are reachable in Wayback.
 
 ---
 
-## Act 3. After the bombs, 1992–
+## Chapter 3. After the bombs, 1992–
 
 ### A cleanup site
 
