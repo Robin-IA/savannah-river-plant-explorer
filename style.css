@@ -95,6 +95,7 @@ table.sources code { font-size: .88em; background: var(--tint); padding: 1px 3px
 
 .foot { border-top: 1px solid var(--hair); background: var(--panel); color: var(--muted); font-size: .92rem; padding: 20px 0; }
 .foot p { margin: 4px 0; }
+.foot p.explorer-checks-note { font-size: clamp(0.8333rem, 0.875em, 1rem); margin: 1em 0 0; }
 
 @media (max-width: 860px) {
   .cols { grid-template-columns: 1fr; gap: 0; }

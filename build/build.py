@@ -179,17 +179,31 @@ def head(title, here):
 """ % (CSP, html.escape(title), html.escape(DESCRIPTION, quote=True), "".join(nav))
 
 
+# The explorer-checks passing note. The pages are generated, so the note
+# lives here, not in the pages: when a later run of the checker re-dates it
+# or takes it down, make the same change here (and in about.html).
+CHECKS_NOTE = """<!-- explorer-checks:note -->
+<p class="explorer-checks-note">
+  Meets WCAG 2.2 Level AA accessibility (and WCAG 2.1 AA and 2.0 AA), checked
+  <time datetime="2026-11-06">6 November 2026</time> by automated tests and manual review.
+  Also passes security and code validity checks.
+  <a href="https://github.com/Robin-IA/savannah-river-plant-explorer/blob/main/security-accessibility-checks.md">Read the report</a>.
+</p>
+<!-- /explorer-checks:note -->"""
+
+
 def foot():
     return """<footer class="foot">
   <div class="wrap">
     <p>Sources checked live on %s. Code and source notes on
       <a href="https://github.com/Robin-IA/savannah-river-plant-explorer">GitHub</a>.</p>
     <p>Feedback? <a href="%s">Email us</a></p>
+    %s
   </div>
 </footer>
 </body>
 </html>
-""" % (CHECKED, FEEDBACK)
+""" % (CHECKED, FEEDBACK, CHECKS_NOTE)
 
 
 def legend():
