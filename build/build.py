@@ -50,6 +50,8 @@ ACTS = {
     2: "Chapter 2. The reactors under scrutiny, 1970–1992",
     3: "Chapter 3. After the bombs, 1992 to now",
 }
+HELD = {"DL": "in Democracy's Library", "WB": "in the Wayback Machine", "IA": "in the Internet Archive",
+        "OL": "in Open Library", "AIT": "in Archive-It", "EXT": "elsewhere"}
 CHAPTER_PAGE = {1: "chapter-1.html", 2: "chapter-2.html", 3: "chapter-3.html"}
 CHAPTER_BLURB = {
     1: "The site chosen, the towns moved off it, the plant built and its reactors running, who was hired, and what it released.",
@@ -250,6 +252,16 @@ def foot(scripts=()):
 """ % (CHECKED, FEEDBACK, CHECKS_NOTE, tags)
 
 
+def holder_index(items):
+    """The holders as buttons, each opening the sources page filtered to it."""
+    rows = "".join(
+        '<li><a class="holder-btn" href="sources.html?tag=%s"><span class="tag tag-%s">%s</span>'
+        '<span class="hb-name">%s</span><span class="hb-n">%d</span></a></li>'
+        % (t, t.lower(), t, html.escape(n), sum(1 for s in items if s["tag"] == t))
+        for t, n in TAGS.items())
+    return '<ul class="holder-index" aria-label="Sources by where they are held">%s</ul>' % rows
+
+
 def legend(cls="legend"):
     rows = "".join('<li><span class="tag tag-%s">%s</span> %s</li>'
                    % (t.lower(), t, html.escape(n)) for t, n in TAGS.items())
@@ -273,14 +285,17 @@ def holder_chart(items):
             if not c:
                 continue
             seg = w * c / total
-            rows.append('<rect class="seg seg-%s" x="%.1f" y="%d" width="%.1f" height="%d" rx="3"><title>Chapter %d: %d %s</title></rect>'
-                        % (t.lower(), x, y, max(seg - 2, 1), bar, act, c, html.escape(TAGS[t])))
+            label = "Chapter %d: %d %s held %s" % (act, c, "source" if c == 1 else "sources", HELD[t])
+            rows.append('<a class="seg-link" href="sources.html?tag=%s&amp;chapter=%d" aria-label="%s"><title>%s</title>'
+                        '<rect class="seg seg-%s" x="%.1f" y="%d" width="%.1f" height="%d" rx="3"/>'
+                        % (t, act, html.escape(label, quote=True), html.escape(label), t.lower(), x, y, max(seg - 2, 1), bar))
             if seg >= 24:
-                rows.append('<text class="seg-n seg-n-%s" x="%.1f" y="%d">%d</text>' % (t.lower(), x + seg / 2 - 1, y + 13, c))
+                rows.append('<text class="seg-n seg-n-%s" x="%.1f" y="%d" aria-hidden="true">%d</text>' % (t.lower(), x + seg / 2 - 1, y + 13, c))
+            rows.append('</a>')
             x += seg
         table.append("<tr><th scope=\"row\">Chapter %d</th>%s<td>%d</td></tr>" % (act, "".join("<td>%s</td>" % c for c in cells), total))
-    svg = ('<svg class="holder-chart" viewBox="0 0 %d 158" role="img" aria-labelledby="hc-t">'
-           '<title id="hc-t">Sources by where they are held, for each chapter</title>%s</svg>' % (w, "".join(rows)))
+    svg = ('<svg class="holder-chart" viewBox="0 0 %d 158" role="group" aria-labelledby="hc-t">'
+           '<title id="hc-t">Sources by where they are held, for each chapter; select a bar to see them</title>%s</svg>' % (w, "".join(rows)))
     tbl = ('<div class="sr"><table><caption>Sources by holder and chapter</caption><tr><th scope="col">Chapter</th>%s<th scope="col">Total</th></tr>%s</table></div>'
            % ("".join('<th scope="col">%s</th>' % html.escape(TAGS[t]) for t in TAGS), "".join(table)))
     return svg + tbl
@@ -346,7 +361,7 @@ def rail(items):
   %s
   <a class="card" href="timeline.html"><strong>Timeline</strong><span>Seventy-six years in one view: the reactors, the people moved, the oversight and the cleanup.</span></a>
   <a class="card" href="sources.html"><strong>All %d sources</strong><span>Filter by holder, chapter and word.</span></a>
-</aside>""" % (legend("legend stacked"), holder_chart(items), len(items))
+</aside>""" % (holder_index(items), holder_chart(items), len(items))
 
 
 def build_chapters(items):
@@ -654,7 +669,7 @@ def build_timeline(tl, pages):
     return tl["events"]
 
 
-LOCAL = re.compile(r"^sources\.html\?chapter=[123]$|^(index|sources|about|timeline|chapter-[123])\.html(#[\w-]+)?$|^(style\.css|app\.js|search\.js|timeline\.js)$|^img/[\w.-]+\.(png|jpg)$")
+LOCAL = re.compile(r"^sources\.html\?(chapter=[123]|tag=(DL|WB|IA|OL|AIT|EXT)(&chapter=[123])?)$|^(index|sources|about|timeline|chapter-[123])\.html(#[\w-]+)?$|^(style\.css|app\.js|search\.js|timeline\.js)$|^img/[\w.-]+\.(png|jpg)$")
 IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
 
 
