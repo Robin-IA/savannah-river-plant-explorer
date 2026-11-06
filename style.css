@@ -104,14 +104,16 @@ a.cite { text-decoration: underline; text-underline-offset: 2px; }
 a.cite:hover { text-decoration-thickness: 2px; }
 a.cite .tag { margin-right: 3px; }
 
-/* Figures */
-.fig { margin: 24px 0 28px; background: var(--panel); border: 1px solid var(--hair); border-radius: 8px; padding: 10px; max-width: 46rem; }
-.fig.wide { max-width: none; }
-.fig img { display: block; width: 100%; height: auto; border-radius: 4px; }
-.fig figcaption { font: .9rem/1.5 var(--font); color: var(--ink); margin: 10px 4px 2px; }
-.fig .credit { display: block; color: var(--muted); font-size: .82rem; margin-top: 4px; }
+/* Figures: never wider than the image itself, and kept small; on wide
+   screens they sit to the right of the text. */
+.fig { margin: 6px 0 20px 28px; float: right; clear: right; width: min(380px, 42%); background: var(--panel); border: 1px solid var(--hair); border-radius: 8px; padding: 8px; }
+.fig.wide { width: min(520px, 55%); }
+.fig img { display: block; width: 100%; max-width: 100%; height: auto; border-radius: 4px; }
+.fig figcaption { font: .82rem/1.45 var(--font); color: var(--ink); margin: 8px 2px 0; }
+.fig .credit { display: block; color: var(--muted); font-size: .76rem; margin-top: 3px; }
+.story article h2, .story article h3 { clear: both; }
 .tl-reactors { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 420px); gap: 24px; align-items: start; }
-.tl-reactors .fig { margin: 0; }
+.tl-reactors .fig { margin: 0; float: none; width: auto; max-width: 420px; }
 
 /* Act headings */
 h2.act { font: 700 clamp(1.4rem, 2.2vw, 1.9rem)/1.2 var(--serif); margin: 44px 0 10px; padding: 18px 20px; border-radius: 8px; border-left: 8px solid; }
@@ -244,6 +246,7 @@ table.reactors th[scope=row] { font-weight: 700; width: 5em; }
 @media (max-width: 860px) {
   .cols, .sources-top, .results-cols, .tl-lists, .tl-reactors { grid-template-columns: minmax(0, 1fr); }
   .rail { display: block; }
+  .fig, .fig.wide { float: none; width: auto; max-width: 420px; margin: 16px 0 20px; }
   .toc { position: static; max-height: none; margin-bottom: 8px; }
   .search-row { flex-direction: column; }
   .search button { padding: 10px; }
