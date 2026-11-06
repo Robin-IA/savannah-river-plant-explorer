@@ -1,11 +1,11 @@
 # Security and accessibility checks
 
-**Status: not passing.** 2 of 3 checks have open items. Each one below has a recommended fix. Make the fixes, then re-run the explorer-checks skill. This file is replaced on every run.
+**Status: passing.** All three checks passed on 2026-11-06 at commit `2ec21215dc`. Nothing is open. Advisory items below are optional.
 
 | | |
 |---|---|
 | Explorer | https://github.com/Robin-IA/savannah-river-plant-explorer |
-| Commit | `093b8c58d3` on `explorer-checks` |
+| Commit | `2ec21215dc` on `explorer-checks` |
 | Date | 2026-11-06 |
 | Pages checked | `./`, `sources.html`, `sources.html?tag=DL&act=2&q=reactor`, `about.html` |
 | Served from | repository root, served locally |
@@ -20,9 +20,18 @@
 
 | Check | Result | Must fix | Needs review | Advisory |
 |---|---|---:|---:|---:|
-| Code validity | Pass | 0 | 0 | 1 |
-| Code security | **Not passing** | 2 | 0 | 2 |
-| Accessibility (WCAG 2.2 AA) | **Not passing** | 3 | 0 | 0 |
+| Code validity | Pass | 0 | 0 | 0 |
+| Code security | Pass | 0 | 0 | 1 |
+| Accessibility (WCAG 2.2 AA) | Pass | 0 | 0 | 0 |
+
+## Standards met
+
+Checked 6 November 2026 at commit `2ec21215dc`, on the pages listed above:
+
+- **WCAG 2.2 Level AA**: every Level A and AA success criterion, by automated tests and a manual review of each criterion (checklists under each check below).
+- **WCAG 2.1 Level AA** and **WCAG 2.0 Level AA**, which WCAG 2.2 includes. 4.1.1 Parsing, dropped from 2.2 but still in 2.0 and 2.1, is covered by the code validity check (no HTML parse errors, no duplicate ids).
+- These are the web content requirements of **Section 508** (US federal; WCAG 2.0 AA) and **EN 301 549** clause 9 (WCAG 2.1 AA).
+- Security was checked against the OWASP Top 10:2025 risks and ASVS 5.0.0 chapters that apply to an explorer; each finding and checklist item names its category. That is not an ASVS verification at any level.
 
 ## What a pass means
 
@@ -34,39 +43,19 @@ No open items.
 
 ## Code security
 
-### `S-cdcc06` The build's one dependency is not pinned
+No open items.
 
-- **Must fix** · found by review · OWASP A03:2025 · ASVS V15
-- **Where:** `README.md (pip3 install markdown)`
-
-```text
-build/build.py needs the markdown package; no requirements file names a version.
-```
-
-**Recommended fix:** Add requirements.txt with markdown==3.11.3 (the version the pages were built with) and point the README at pip3 install -r requirements.txt.
-
-### `S-5ffaaf` Link addresses written into the pages are not checked for scheme
-
-- **Must fix** · found by review · OWASP A05:2025 · ASVS V1
-- **Where:** `build/build.py (first_link, build_story)`
-
-```text
-Story links go through Python-Markdown unchecked, and the build accepts any href; a javascript: URL typed into content/ would be published as a live link.
-```
-
-**Recommended fix:** In build/build.py, after rendering, check that every href in index.html and sources.html starts with https:// or http:// (or is a local page, mailto: or #anchor), and that every archive.org identifier matches [A-Za-z0-9._-]+; stop the build and name the offending link otherwise.
-
-<details><summary>Manual checklist (6 pass, 3 fail, 11 n/a)</summary>
+<details><summary>Manual checklist (9 pass, 0 fail, 11 n/a)</summary>
 
 | Item | Result | Note |
 |---|---|---|
 | No secrets | pass | One commit; a search of every file for token, password and key patterns found nothing; the only address is the Feedback mailto. |
 | Untrusted data is escaped | pass | No archive.org or Wayback data reaches the page at view time; build-time values from content/ go through html.escape() or Markdown. app.js writes only textContent. |
-| URLs from data are safe | fail | See the url-scheme finding: hrefs come from hand-written notes but are not scheme-checked. |
-| Harvested data is validated | fail | Nothing is harvested at build, but the build does not validate the identifiers and URLs it writes; same finding. |
+| URLs from data are safe | pass | build/build.py check_links() runs before any page is written and refuses an href or src that is not http(s), mailto:, an anchor or one of the explorer's own files; archive.org links must name a plain identifier. Tested by adding a javascript: link to content/story.md: the build refused it and wrote  |
+| Harvested data is validated | pass | Nothing is harvested at build; the identifiers and URLs written into the pages are validated by check_links() as above. |
 | Third-party code is pinned | n/a | No CDN or third-party scripts; app.js is the only script. |
-| No mixed content | pass | All assets are local; http: appears only in outbound links. |
-| Dependencies are pinned and maintained | fail | markdown is unpinned; see finding. |
+| No mixed content | pass | All assets are local; http: appears only in outbound links. A Content-Security-Policy meta limits every page to its own scripts, styles and images. |
+| Dependencies are pinned and maintained | pass | requirements.txt pins markdown==3.11.3; no CI workflows. |
 | Dependencies have no known vulnerabilities | pass | No front-end libraries; pip-audit reported nothing. |
 | Third parties a visitor's browser contacts | pass | None: images, CSS and JS are all served from the explorer. |
 | What Pages publishes | pass | Repository is public by design; Pages serves content/ (the story source and research notes, meant to be public), build/ and data/sources.json. No logs or dumps. |
@@ -87,62 +76,24 @@ Story links go through Python-Markdown unchecked, and the build accepts any href
 
 | Id | Item | Where | Why cleared |
 |---|---|---|---|
-| `S-d72901` | String rendered as markup or code (html) | `sources.html:104` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged row is generated from the hand-written research notes in content/; identifiers and hrefs pass through html.escape() in b |
+| `S-d72901` | String rendered as markup or code (html) | `sources.html:105` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged row is generated from the hand-written research notes in content/; identifiers and hrefs pass through html.escape() in b |
 
 </details>
 
 ## Accessibility (WCAG 2.2 AA)
 
-### `A-f437db` Links must be distinguishable without relying on color
+No open items.
 
-- **Must fix** · found by axe-core 4.14.0 · WCAG 1.4.1
-- **Where:** `/ link-in-text-block`
-
-```text
-65 element(s): p:nth-child(4) > .cite:nth-child(1); p:nth-child(4) > .cite:nth-child(2); p:nth-child(4) > .cite:nth-child(3); p:nth-child(5) > .cite:nth-child(1); p:nth-child(7) > .cite:nth-child(1)
-Fix any of the following:
-  The link has insufficient color contrast of 2.12:1 with the surrounding text. (Minimum contrast is 3:1, link text: #1f5f9e, surrounding text: #2c2c2c)
-  The link has no styling (such as underline) to distinguish it from the surrounding text
-```
-
-**Recommended fix:** Ensure links are distinguished from surrounding text in a way that does not rely on color See https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axeAPI
-
-### `A-14005b` Links must be distinguishable without relying on color
-
-- **Must fix** · found by axe-core 4.14.0 · WCAG 1.4.1
-- **Where:** `/ link-in-text-block`
-
-```text
-60 element(s): p:nth-child(5) > .cite:nth-child(3); p:nth-child(5) > .cite:nth-child(4); p:nth-child(9) > .cite:nth-child(2); p:nth-child(10) > .cite:nth-child(2); p:nth-child(10) > .cite:nth-child(4)
-Fix any of the following:
-  Element's contrast ratio could not be determined because of element overlap
-
-Review: Same links as A-f437db: story citations carry no underline, so they are told apart from body text by colour alone. Fixed by the same change.
-```
-
-**Recommended fix:** Ensure links are distinguished from surrounding text in a way that does not rely on color See https://dequeuniversity.com/rules/axe/4.14/link-in-text-block?application=axeAPI
-
-### `A-7ed2a8` Page scrolls sideways at 320 px wide
-
-- **Must fix** · found by explorer-checks · WCAG 1.4.10
-- **Where:** `/sources.html`
-
-```text
-79px wider than the viewport
-```
-
-**Recommended fix:** Let content wrap at narrow widths: max-width:100% on media and tables in a scrolling container, no fixed widths over 320px. Data tables may scroll inside their own container.
-
-<details><summary>Manual checklist (19 pass, 1 fail, 1 n/a)</summary>
+<details><summary>Manual checklist (20 pass, 0 fail, 1 n/a)</summary>
 
 | Item | Result | Note |
 |---|---|---|
 | 1.1.1 Non-text content | pass | Two logos, each with alt naming its link destination; no charts. |
 | 1.3.1 Info and relationships | pass | h1 then h2/h3 in order; the legend is a list; the sources table has th scope=col and a caption; holder filters are a fieldset with legend. |
 | 1.3.2 Meaningful sequence | pass | DOM order is header, intro, contents, article; the grid does not reorder. |
-| 1.4.1 Use of color | fail | Holder tags carry text, but story citation links have no underline (A-f437db). |
+| 1.4.1 Use of color | pass | Holder tags carry text, and story citation links are now underlined (style.css a.cite). |
 | 1.4.11 Non-text contrast | pass | Inputs have #8a8a8a borders on white (3.5:1); focus ring is 3px #4b64ff. |
-| 1.4.4 Resize text / 1.4.12 Text spacing | pass | Sizes in rem and em; story and About reflow at 320 px; the sources page fails reflow separately (A-7ed2a8). |
+| 1.4.4 Resize text / 1.4.12 Text spacing | pass | Sizes in rem and em; all three pages reflow at 320 px with no sideways scroll. |
 | 2.4.4 Link purpose | pass | Citation links read as holder tag plus title (for example 'WB: SRS at Fifty ch. 7'); bare DL or IA citations take their purpose from the sentence they close, which 2.4.4 allows. |
 | 2.4.6 Headings and labels | pass | Headings name their acts and sections; Act and Search labels are visible. |
 | 3.1.1 Language of page | pass | lang=en on all three pages; content is English. |
@@ -161,14 +112,20 @@ Review: Same links as A-f437db: story citations carry no underline, so they are 
 
 </details>
 
-## Advisory (3)
+## Fixed since the last run
+
+- `A-14005b` Links must be distinguishable without relying on color
+- `A-7ed2a8` Page scrolls sideways at 320 px wide
+- `A-f437db` Links must be distinguishable without relying on color
+- `S-5ffaaf` Link addresses written into the pages are not checked for scheme
+- `S-cdcc06` The build's one dependency is not pinned
+
+## Advisory (1)
 
 Optional. These items never block a pass.
 
 | Id | Check | Item | Where | Reference | Suggestion |
 |---|---|---|---|---|---|
-| `V-2a95c1` | validity | Ambiguous variable name: `l` | `build/build.py:257` |  | See https://docs.astral.sh/ruff/rules/ for this rule. |
-| `S-fb15c8` | security | No content-security-policy header | `https://robin-ia.github.io/savannah-river-plant-explorer/` | A02:2025 · ASVS V3 | Set it; it limits the damage of any XSS that gets through; a <meta http-equiv> CSP works on static hosts. |
 | `S-9a6baa` | security | No x-content-type-options header | `https://robin-ia.github.io/savannah-river-plant-explorer/` | A02:2025 · ASVS V3 | Set it; it stops browsers guessing content types. It has no <meta> form, so on a host that cannot set headers (GitHub Pages) it stays open; the explorer's owners decide whether that matters enough to change host. |
 
-<!-- explorer-checks:state {"passing": false, "date": "2026-11-06", "commit": "093b8c58d39b6e98f6cce2877868e553d79fe096", "open": ["A-14005b", "A-7ed2a8", "A-f437db", "S-5ffaaf", "S-cdcc06"], "titles": {"A-f437db": "Links must be distinguishable without relying on color", "A-14005b": "Links must be distinguishable without relying on color", "A-7ed2a8": "Page scrolls sideways at 320 px wide", "S-5ffaaf": "Link addresses written into the pages are not checked for scheme", "S-cdcc06": "The build's one dependency is not pinned"}} -->
+<!-- explorer-checks:state {"passing": true, "date": "2026-11-06", "commit": "2ec21215dc203850b4f6e57c5fb2ded72bf6a643", "open": [], "titles": {}} -->
