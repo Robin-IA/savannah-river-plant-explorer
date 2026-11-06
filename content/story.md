@@ -422,13 +422,35 @@ stream to the process that made it in *Linking Legacies*
 the last spent fuel left the receiving basin, closing what the site called a
 forty-year era ([WB][rbof]).
 
+Spent fuel kept arriving as well as leaving. When the United States moved
+to take back the fuel it had supplied to research reactors abroad, GAO
+reported in 1994 that delays had already led reactors in Belgium and
+Germany to reprocess theirs, and that DOE meant to store the first returns
+at Savannah River ([IA: GAO 1994](https://archive.org/details/DTIC_ADA344922)). DOE's 1996 decision
+accepted about 22,700 fuel elements from 41 countries over 13 years, most
+landing at the Charleston Naval Weapons Station, with the aluminum-based fuel
+all managed at Savannah River
+([DL: *Federal Register*, 1996](https://archive.org/details/sim_federal-register-find_1996-05-17_61_97)).
+South Carolina's governor took DOE to court over it
+([DL](https://archive.org/details/micro_IA40386015_0538)).
+
 ### The tanks
 
 The largest legacy was liquid: about 36 million gallons in 49 tanks, roughly
 421 million curies ([WB: DWPF fact sheet][dwpf-fact]). The Defense Waste
 Processing Facility, built from 1983 and troubled before it ran
 ([IA: GAO 1992](https://archive.org/details/DTIC_ADA298946)), began turning
-that waste into glass on 12 March 1996 ([WB][dwpf-30]). It poured its
+that waste into glass on 12 March 1996 ([WB][dwpf-30]).
+
+Getting the waste into the glass plant was harder. The process DOE chose in
+1983 to pull cesium out of the tanks' salt, In-Tank Precipitation, had been
+expected to cost $32 million and be finished by 1988; after about a decade and
+almost half a billion dollars it was abandoned in 1998 because it gave off
+large amounts of benzene ([DL: House hearing, 2000](https://archive.org/details/gov.gpo.fdsys.CHRG-106hhrg64703);
+[EXT: GAO][gao-itp]). Its replacement, the Salt Waste Processing Facility, was
+to be built by 2008 for $900 million; in 2015 DOE's Inspector General
+reported about $1.4 billion in cost growth and a start no earlier than
+December 2018 ([EXT: DOE Inspector General][oig-swpf]). It poured its
 4,000th canister on 31 December 2015, of about 8,000 expected
 ([WB][dwpf-20]), and had passed 4,500 by its thirtieth anniversary in 2026
 ([WB][dwpf-30]).
@@ -443,6 +465,14 @@ reviewed for Savannah River
 followed in 2012 ([WB][tanks-18-19]), and in May 2026 Tank 14 became the
 eighth old-style tank to reach the end of waste removal in under two years
 ([WB][tank-14]).
+
+In 2018 and 2019 DOE reinterpreted "high-level waste" to turn on how
+radioactive a waste is rather than where it came from, revising the change
+after objections from the Nuclear Regulatory Commission, members of Congress
+and states. Savannah River was its first test: in 2020 DOE decided to send
+grouted wastewater from the glass plant to a commercial disposal site in
+Andrews, Texas, beginning with 8 gallons
+([EXT: *Federal Register*][fr-hlw-ea]; [EXT: *Federal Register*][fr-hlw-fonsi]).
 
 ### Sealing the reactors
 
@@ -462,6 +492,15 @@ of that work is gone from srs.gov; the Wayback capture is the copy
 
 ### Plutonium: MOX and pits
 
+South Carolina's fight over plutonium began before MOX. In April 2002 DOE
+decided to store surplus plutonium from Rocky Flats at Savannah River.
+Governor Jim Hodges sued, then issued an executive order banning plutonium
+from the state's roads, and in June a federal court barred him from
+interfering with the shipments; the Fourth Circuit found that DOE had not
+broken environmental law ([DL: *Hodges v. Abraham*](https://archive.org/details/micro_IA40386015_0538)).
+He had vowed to lie in the road to stop them
+([IA](https://archive.org/details/nucleartoxicwast0000kall)).
+
 Congress spent a decade on turning surplus plutonium into reactor fuel at
 Savannah River ([DL](https://archive.org/details/gov.gpo.fdsys.CHRG-109hhrg33597);
 [DL](https://archive.org/details/gov.gpo.fdsys.CHRG-114hhrg97197)). DOE's
@@ -477,12 +516,47 @@ injunction keeping the project alive on 8 January 2019
 ([EXT: 4th Cir.][ca4-mox]). MOX workers had already been offered a job fair
 in December 2018 ([WB][mox-jobfair]). By August 2019 DOE reported a metric
 ton of plutonium removed from the state ([EXT: SC Attorney General][scag]).
+Half of that ton had gone, secretly, to Nevada. DOE announced in August 2018
+that it planned to send up to a metric ton there; Nevada sued, and learned
+through the suit that DOE had already shipped half of it while seemingly
+negotiating in good faith. In a 2020 settlement DOE agreed to remove that
+half ton from Nevada by the end of 2026 and to send no more
+([WB: Nevada Attorney General][nv-ag]).
+
+The site was also offered other countries' material. In 2014 DOE began
+assessing whether to take Germany's spent pebble-bed reactor fuel, graphite
+spheres containing American-supplied highly enriched uranium
+([EXT: *Federal Register*][fr-german]); the site's own Citizens Advisory
+Board voted against it in 2017 ([WB: CAB][cab-350]), and by 2022 the German state
+concerned had chosen to store it at home instead ([WB: SRS Watch][srswatch-german]). Plutonium from a
+Japanese research assembly did come, through Charleston in 2016
+([WB: SRS Watch][srswatch-japan]), and in 2021 NNSA dropped its plan to
+send it on to New Mexico, deciding to process it at Savannah River and store
+it there until a geologic repository exists ([EXT: *Federal Register*][fr-japan]).
 
 The site's weapons work has not ended with it. DOE decided in November 2020
 to make plutonium pits at Savannah River ([EXT: Federal Register][fr-pits]),
 and SRS Watch and others are challenging the decision in federal court
 ([DL](https://archive.org/details/gov.uscourts.scd.265178)). Tritium work has
-continued throughout ([WB][tritium-2020]).
+continued throughout ([WB][tritium-2020]). In 2019 the Defense Nuclear Facilities
+Safety Board warned that a fire, crane drop or explosion in the tritium
+facilities could cause acute radiation sickness or death in a significant
+number of people ([EXT: *Federal Register*][fr-dnfsb]); NNSA's
+administrator replied, "I do not accept Recommendation 2019-2"
+([EXT: *Federal Register*][fr-dnfsb-reply]).
+
+### Sick workers
+
+Compensation for the plant's sick workers came slowly. At a 2003 House
+hearing Representative Charlie Norwood of Georgia said more than 300 of his
+constituents had filed claims over work at the site and only a handful had a
+decision, and the building trades' statement called Savannah River workers
+treated unfairly under the program
+([DL: House hearing, 2003](https://archive.org/details/gov.gpo.fdsys.CHRG-108hhrg90178)).
+The 2012 class that spared early workers individual dose reconstruction was
+extended in 2021 to subcontracted construction workers through 1990
+([EXT: *Federal Register*][fr-sec-2021]) and in 2026 through 1993
+([EXT: *Federal Register*][fr-sec-2026]).
 
 ### The laboratories
 
@@ -598,3 +672,17 @@ reactors, in 107 photographs and 123 data pages
 [osti-parpond]: https://www.osti.gov/biblio/7247383
 [osti-parpond-cercla]: https://www.osti.gov/biblio/10192315
 [cdc-srs-page]: https://web.archive.org/web/20061022015436/http://www.cdc.gov/nceh/radiation/savannah/default.htm
+[gao-itp]: https://www.govinfo.gov/content/pkg/GAOREPORTS-RCED-99-69/html/GAOREPORTS-RCED-99-69.htm
+[oig-swpf]: https://www.energy.gov/sites/default/files/2015/08/f25/OAS-L-15-09.pdf
+[fr-hlw-ea]: https://www.federalregister.gov/documents/2019/12/10/2019-26555/draft-environmental-assessment-for-the-commercial-disposal-of-defense-waste-processing-facility
+[fr-hlw-fonsi]: https://www.federalregister.gov/documents/2020/08/10/2020-17374/finding-of-no-significant-impact-for-the-commercial-disposal-of-defense-waste-processing-facility
+[nv-ag]: https://web.archive.org/web/20200917111504/http://ag.nv.gov/News/PR/2020/State_of_Nevada_Strikes_Settlement_With_Department_of_Energy_Over_Plutonium_Shipments/
+[fr-german]: https://www.federalregister.gov/documents/2014/06/04/2014-12933/environmental-assessment-for-the-acceptance-and-disposition-of-used-nuclear-fuel-containing
+[cab-350]: https://web.archive.org/web/20250416065922/https://www.srs.gov/general/outreach/srs-cab/library/recommendations/Rec_350_-_German_Fuel.pdf
+[srswatch-german]: https://web.archive.org/web/20221012205815/https://srswatch.org/public-interest-victories-at-srs-import-of-german-spent-fuel-off-the-table-h-canyon-reprocessing-plant-closure-set-on-track-for-2033/
+[fr-japan]: https://www.federalregister.gov/documents/2021/03/08/2021-04707/disposition-of-fast-critical-assembly-plutonium
+[fr-dnfsb]: https://www.federalregister.gov/documents/2019/06/19/2019-12918/recommendation-2019-02
+[fr-dnfsb-reply]: https://www.federalregister.gov/documents/2019/10/02/2019-21438/doe-response-to-recommendation-2019-2-of-the-defense-nuclear-facilities-safety-board-safety-of-the
+[fr-sec-2021]: https://www.federalregister.gov/documents/2021/09/07/2021-19167/designation-of-a-class-of-employees-for-addition-to-the-special-exposure-cohort
+[fr-sec-2026]: https://www.federalregister.gov/documents/2026/07/28/2026-15152/designation-of-a-class-of-employees-for-addition-to-the-special-exposure-cohort
+[srswatch-japan]: https://web.archive.org/web/20220111081001/https://srswatch.org/plutonium-proliferation-alert-plutonium-from-japan-to-srs/

@@ -475,6 +475,103 @@ Sources for "Bomb Making: A History of the Savannah River Plant", Act 3. Compile
 
 ---
 
+## 11. Controversies and concerns
+
+Added 6 November 2026 from a second research pass; every item was checked live that day.
+
+95. **IA**: `DTIC_ADA344922`
+   - GAO, *Nuclear Nonproliferation: Concerns With U.S. Delays in Accepting Foreign Research Reactors' Spent Fuel* (B-256337), 1994-03. DTIC mirror.
+   - Belgium and Germany reprocessing because of the delays; DOE planned to store the first returns at SRS. Full text read.
+   - Verified 2026-11-06.
+96. **DL**: `sim_federal-register-find_1996-05-17_61_97`
+   - *Federal Register* 61:97, 1996-05-17: DOE's Record of Decision on foreign research reactor spent fuel.
+   - About 22,700 elements from 41 countries over 13 years; about 80% through Charleston; aluminum-based fuel to SRS. Full text read.
+   - Verified 2026-11-06.
+97. **DL**: `micro_IA40386015_0538`
+   - *Hodges v. Abraham*, No. 02-544, U.S. Supreme Court records (petition, briefs, and the Fourth Circuit and D.S.C. opinions).
+   - April 2002 Rocky Flats storage decision; the suit of 1 May 2002; Hodges's executive order banning plutonium on state roads; the 18 June 2002 injunction; the Fourth Circuit's holding. Also cites *South Carolina ex rel. Beasley v. O'Leary* (1996) over the foreign fuel. Full text read; the cert decision not read.
+   - Verified 2026-11-06.
+98. **IA**: `nucleartoxicwast0000kall`
+   - *Nuclear and Toxic Waste* (2005), lending library.
+   - Hodges vowed to lie in the road to keep plutonium shipments out. Full-text highlight only.
+   - Verified 2026-11-06.
+99. **DL**: `gov.gpo.fdsys.CHRG-106hhrg64703`
+   - *Waste, Fraud, Abuse, and Mismanagement*, House hearing, 2000-05-24.
+   - In-Tank Precipitation: $32 million and 1988 expected; almost half a billion dollars spent; benzene; abandoned 1998 (January per DOE, February per GAO). Text read.
+   - Verified 2026-11-06.
+100. **EXT:GAO via govinfo**: https://www.govinfo.gov/content/pkg/GAOREPORTS-RCED-99-69/html/GAOREPORTS-RCED-99-69.htm
+   - GAO/RCED-99-69, *Process to Remove Radioactive Waste From Savannah River Tanks Fails to Work*, 1999-04-30.
+   - GAO's findings on ITP and DOE oversight. Text read; gao.gov refuses automated requests.
+   - Verified 2026-11-06.
+101. **EXT:DOE Inspector General**: https://www.energy.gov/sites/default/files/2015/08/f25/OAS-L-15-09.pdf
+   - OAS-L-15-09, *Treatment of Salt Waste at the Savannah River Site*, 2015-08-06.
+   - SWPF planned for 2008 at $900 million; about $1.4 billion cost growth; start no earlier than December 2018; minimal waste treated. PDF read.
+   - Verified 2026-11-06.
+102. **WB**: https://web.archive.org/web/20210221064000/https://srswatch.org/safety-board-radiation-does-rates-high-as-a-nuclear-firecracker-in-new-srs-high-level-waste-facility/
+   - SRS Watch (advocacy), 2021-01-30.
+   - Quotes the safety board's report of high dose rates during SWPF startup. Not used in the story.
+   - Verified 2026-11-06.
+103. **EXT:Federal Register**: https://www.federalregister.gov/documents/2019/12/10/2019-26555/draft-environmental-assessment-for-the-commercial-disposal-of-defense-waste-processing-facility
+   - DOE draft EA-2115, 2019-12-10.
+   - Grouting DWPF recycle wastewater for commercial disposal under the reinterpreted definition of high-level waste. Text read.
+   - Verified 2026-11-06.
+104. **EXT:Federal Register**: https://www.federalregister.gov/documents/2020/08/10/2020-17374/finding-of-no-significant-impact-for-the-commercial-disposal-of-defense-waste-processing-facility
+   - DOE finding of no significant impact, 2020-08-10.
+   - Up to 8 gallons first, to Waste Control Specialists in Andrews, Texas; the reinterpretation revised after comments. Text read.
+   - Verified 2026-11-06.
+105. **WB**: https://web.archive.org/web/20200917111504/http://ag.nv.gov/News/PR/2020/State_of_Nevada_Strikes_Settlement_With_Department_of_Energy_Over_Plutonium_Shipments/
+   - Nevada Attorney General, press release, 2020-06-26.
+   - DOE's August 2018 plan; half the plutonium shipped secretly while seemingly negotiating in good faith; removal by the end of 2026 and no further shipments. Text read.
+   - Verified 2026-11-06.
+106. **WB**: https://web.archive.org/web/20220111020754/https://srswatch.org/doe-informs-nevada-court-that-weapon-grade-plutonium-shipment-from-does-savannah-river-site-to-nevada-has-taken-place-unknown-when-unjustified-shipment-occurred-but-before-november-2018/
+   - SRS Watch (advocacy), 2019-01-30.
+   - DOE told the Nevada court the shipment occurred before November 2018, from K Reactor storage. Not used in the story.
+   - Verified 2026-11-06.
+107. **EXT:Federal Register**: https://www.federalregister.gov/documents/2014/06/04/2014-12933/environmental-assessment-for-the-acceptance-and-disposition-of-used-nuclear-fuel-containing
+   - DOE notice of intent, EA-1977, 2014-06-04.
+   - Assessing acceptance of German spent fuel in graphite spheres. Text read.
+   - Verified 2026-11-06.
+108. **EXT:Federal Register**: https://www.federalregister.gov/documents/2016/01/25/2016-01371/environmental-assessment-for-the-acceptance-and-disposition-of-spent-nuclear-fuel-containing
+   - DOE draft EA-1977, 2016-01-25.
+   - AVR and THTR-300 fuel with US-origin HEU; Juelich to bear costs. Text read.
+   - Verified 2026-11-06.
+109. **WB**: https://web.archive.org/web/20250416065922/https://www.srs.gov/general/outreach/srs-cab/library/recommendations/Rec_350_-_German_Fuel.pdf
+   - SRS Citizens Advisory Board, Recommendation 350, 2017.
+   - The board's opposition to the German fuel import. PDF read.
+   - Verified 2026-11-06.
+110. **WB**: https://web.archive.org/web/20221012205815/https://srswatch.org/public-interest-victories-at-srs-import-of-german-spent-fuel-off-the-table-h-canyon-reprocessing-plant-closure-set-on-track-for-2033/
+   - SRS Watch (advocacy), 2022-07.
+   - North Rhine-Westphalia's government agrees to pursue new storage at Juelich; import off the table. Text read.
+   - Verified 2026-11-06.
+111. **WB**: https://web.archive.org/web/20220111081001/https://srswatch.org/plutonium-proliferation-alert-plutonium-from-japan-to-srs/
+   - SRS Watch (advocacy), 2016.
+   - Japanese Fast Critical Assembly plutonium arriving through Charleston, about June 2016. Not confirmed from a government source.
+   - Verified 2026-11-06.
+112. **EXT:Federal Register**: https://www.federalregister.gov/documents/2021/03/08/2021-04707/disposition-of-fast-critical-assembly-plutonium
+   - DOE amended Record of Decision, 2021-03-08.
+   - Gap Material plutonium moved from the WIPP path to H-Canyon, DWPF and storage at SRS until a geologic repository is available. Text read.
+   - Verified 2026-11-06.
+113. **EXT:Federal Register**: https://www.federalregister.gov/documents/2019/06/19/2019-12918/recommendation-2019-02
+   - Defense Nuclear Facilities Safety Board, Recommendation 2019-2, 2019-06-19.
+   - Tritium facility accidents could cause acute radiation sickness or fatality in a significant number of individuals. Text read.
+   - Verified 2026-11-06.
+114. **EXT:Federal Register**: https://www.federalregister.gov/documents/2019/10/02/2019-21438/doe-response-to-recommendation-2019-2-of-the-defense-nuclear-facilities-safety-board-safety-of-the
+   - DOE response to Recommendation 2019-2, 2019-10-02.
+   - "I do not accept Recommendation 2019-2"; further action "unnecessarily duplicative". Text read.
+   - Verified 2026-11-06.
+115. **DL**: `gov.gpo.fdsys.CHRG-108hhrg90178`
+   - *Energy Employees Workers' Compensation*, House hearing, 2003-10-30.
+   - Norwood's 300+ constituent claims with only a handful decided; the building trades' statement on unfair treatment of SRS workers. Text read.
+   - Verified 2026-11-06.
+116. **EXT:Federal Register**: https://www.federalregister.gov/documents/2021/09/07/2021-19167/designation-of-a-class-of-employees-for-addition-to-the-special-exposure-cohort
+   - HHS, Special Exposure Cohort designation, 2021-09-07.
+   - Subcontractor construction-trade employees, October 1972 to 1990. Text read.
+   - Verified 2026-11-06.
+117. **EXT:Federal Register**: https://www.federalregister.gov/documents/2026/07/28/2026-15152/designation-of-a-class-of-employees-for-addition-to-the-special-exposure-cohort
+   - HHS, Special Exposure Cohort designation, 2026-07-28.
+   - The same group, 1991 to 1993. Text read.
+   - Verified 2026-11-06.
+
 ## Key facts (each with its source)
 
 **Turn to cleanup**
