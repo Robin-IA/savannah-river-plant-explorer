@@ -116,8 +116,14 @@ Du Pont wrote its own record of all this, volume by volume, in construction
 and design histories now on OSTI ([EXT: OSTI 10159481][osti-construction];
 [EXT: OSTI 10151705][osti-plantwide]). The company's administrative files are
 at the Hagley Museum and Library, by DOE's own finding aid
-([EXT: DOE OHRE][ohre-admin]); Hagley's catalogue could not be checked
-directly.
+([EXT: DOE OHRE][ohre-admin]). Hagley's guide to its Atomic Energy Division
+records, 80 linear feet from 1942 to 1989, describes a Savannah River Project
+series covering site selection, design and construction, environment and
+community impact, safety and waste disposal ([WB: Hagley finding aid][hagley-1957]).
+Its photograph collection for the plant, 1951 to 1984, holds 1,412 prints and
+388 lantern slides ([WB: Hagley finding aid][hagley-1989-335]). Hagley's own
+site turns away automated requests; the Wayback captures are how these guides
+were read.
 
 ### Running it
 
@@ -224,6 +230,12 @@ plant had seen ([DL](https://archive.org/details/micro_IA41152603_0340);
 [WB: gao.gov][gao-88-68]). Glenn's bill to put the weapons plants under
 outside safety oversight was already in hearings
 ([DL](https://archive.org/details/micro_IA41152617_0167)).
+The next day, 1 October, the *New York Times* put the story on its front
+page: severe accidents at the plant, kept secret for up to 31 years, at all
+five reactors, documented in a 19-page memorandum from a plant supervisor to
+his superiors at Du Pont ([WB: *New York Times*][nyt-881001]). By November
+the paper was asking how Congress had missed the signs
+([WB: *New York Times*][nyt-881128]).
 
 ### Plant to Site
 
@@ -345,6 +357,13 @@ The SRS Museum opened in Aiken after a 2014 ribbon-cutting
 preservation program work with it ([WB][preserve-2020]) — the same program
 that collected Ellenton's memories in 1990.
 
+The federal record of historic engineering holds one part of the plant in
+detail. The Historic American Engineering Record documented the Physics
+Assembly Laboratory in M Area, home of the zero-power Process Development
+Pile that set the physics for plutonium and tritium production in the five
+reactors, in 107 photographs and 123 data pages
+([WB: Library of Congress, HAER SC-43][haer-sc43]).
+
 
 [fifty-7]: https://web.archive.org/web/20161222003153/http://www.srs.gov/general/about/50anniv/Chapter%2007.pdf
 [fifty-8]: https://web.archive.org/web/20070928081912/http://www.srs.gov/general/about/50anniv/Chapter%2008.pdf
@@ -409,3 +428,8 @@ that collected Ellenton's memories in 1990.
 [museum-2014]: https://web.archive.org/web/20150930092227/http://www.srs.gov/general/news/releases/nr14_srns-heritage-foundation.pdf
 [museum-web]: https://web.archive.org/web/20170525214013/http://srsmuseum.org/
 [preserve-2020]: https://web.archive.org/web/20201126172828/https://www.srs.gov/general/news/releases/nr20_srs-preserving-srs-history.pdf
+[hagley-1957]: https://web.archive.org/web/20250917151711/https://findingaids.hagley.org/repositories/3/resources/1264
+[hagley-1989-335]: https://web.archive.org/web/20251216181520/https://findingaids.hagley.org/repositories/2/resources/224
+[nyt-881001]: https://web.archive.org/web/20240427052753/https://www.nytimes.com/1988/10/01/us/severe-accidents-at-nuclear-plant-were-kept-secret-up-to-31-years.html
+[nyt-881128]: https://web.archive.org/web/20180130152713/https://www.nytimes.com/1988/11/28/us/trouble-at-atomic-bomb-plants-how-lawmakers-missed-the-signs.html
+[haer-sc43]: https://web.archive.org/web/20250203072742/https://www.loc.gov/item/sc1142/

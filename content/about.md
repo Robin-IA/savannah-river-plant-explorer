@@ -25,7 +25,7 @@
 <!-- DISAGREE -->
 
 <h2>What is left out</h2>
-<p>Sources the story still needs, such as the <em>New York Times</em> series of autumn 1988, the Hagley Library's Du Pont records and the Library of Congress engineering survey, are tracked as <a href="https://github.com/Robin-IA/savannah-river-plant-explorer/issues?q=is%3Aissue+label%3Asource-gap">open issues on GitHub</a>. Facts that could not be traced to a source are left out of the story until one is found.</p>
+<p>Sources the story still needs, such as the rest of the <em>New York Times</em> series of autumn 1988 and the &ldquo;thirty incidents&rdquo; report itself, are tracked as <a href="https://github.com/Robin-IA/savannah-river-plant-explorer/issues?q=is%3Aissue+label%3Asource-gap">open issues on GitHub</a>. Facts that could not be traced to a source are left out of the story until one is found.</p>
 
 <h2>How it was built</h2>
 <p>Researched from archive.org search and full-text search, the Wayback Machine's CDX server and the Archive-It and OSTI catalogues. The story and the source lists are written in Markdown, and a short Python script turns them into these pages. The timeline is drawn from the same story, event by event. The code and the source notes are on <a href="https://github.com/Robin-IA/savannah-river-plant-explorer">GitHub</a>.</p>

@@ -4,7 +4,7 @@
     python3 build/build.py
 
 Reads content/ (story.md, sources-act{1,2,3}.md, timeline.json,
-about.html, disagree.md) and writes index.html (the story), timeline.html,
+about.md, disagree.md) and writes index.html (the story), timeline.html,
 sources.html, about.html, data/sources.json and data/timeline.json.
 
 Needs the `markdown` package (pip install markdown).
@@ -186,7 +186,7 @@ def banner_art():
       <stop offset="0" stop-color="#2f6577"/><stop offset=".6" stop-color="#8fb9c2"/><stop offset="1" stop-color="#d9a466"/>
     </linearGradient>
     <linearGradient id="veil" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0c1f2e" stop-opacity=".92"/><stop offset=".55" stop-color="#0c1f2e" stop-opacity=".55"/><stop offset="1" stop-color="#0c1f2e" stop-opacity="0"/>
+      <stop offset="0" stop-color="#0c1f2e" stop-opacity=".92"/><stop offset=".55" stop-color="#0c1f2e" stop-opacity=".8"/><stop offset="1" stop-color="#0c1f2e" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <rect width="1600" height="360" fill="url(#sky)"/>
@@ -226,12 +226,13 @@ def head(title, here, h1, lede, extra="", big=False):
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="bar">
+<header class="site">
+<div class="bar">
   <div class="wrap">
     <a class="home" href="index.html">Bomb Making</a>
     <nav aria-label="Pages">%s</nav>
   </div>
-</header>
+</div>
 <div class="banner%s">
   %s
   <div class="wrap banner-inner">
@@ -241,6 +242,7 @@ def head(title, here, h1, lede, extra="", big=False):
     %s
   </div>
 </div>
+</header>
 """ % (CSP, html.escape(title), html.escape(DESCRIPTION, quote=True), "".join(nav),
        " big" if big else "", banner_art(), logos(), html.escape(h1), lede, extra)
 
@@ -353,14 +355,14 @@ def build_story(items):
     body = re.sub(r"<(p|li)>", pid, body)
     toc = md.toc.replace('<div class="toc">', '<nav class="toc" aria-label="Contents"><h2>Contents</h2>').replace("</div>", "</nav>")
     lede = html.escape(DESCRIPTION)
-    page = head(TITLE, "index.html", TITLE, lede, SEARCH_FORM % len(items), big=True) + """<div id="results" class="wrap results" hidden>
+    page = head(TITLE, "index.html", TITLE, lede, SEARCH_FORM % len(items), big=True) + """<section id="results" class="wrap results" aria-labelledby="results-h" hidden>
   <div class="results-head"><h2 id="results-h">Search results</h2><button type="button" id="results-close">Clear search</button></div>
   <p id="results-count" role="status" aria-live="polite"></p>
   <div class="results-cols">
     <section aria-labelledby="rs-story"><h3 id="rs-story">In the story</h3><ol id="results-story"></ol></section>
     <section aria-labelledby="rs-time"><h3 id="rs-time">On the timeline</h3><ol id="results-time"></ol></section>
   </div>
-</div>
+</section>
 <main id="main" class="wrap story">
 <div class="cols">
 %s
@@ -432,7 +434,7 @@ def build_sources(items):
 
 
 def build_about():
-    body = (CONTENT / "about.html").read_text(encoding="utf-8")
+    body = markdown.markdown((CONTENT / "about.md").read_text(encoding="utf-8"))
     disagree = markdown.markdown((CONTENT / "disagree.md").read_text(encoding="utf-8"))
     body = body.replace("<!-- DISAGREE -->", disagree.replace("<ul>", '<ul class="disagree">'))
     lede = ("A history of the Savannah River Plant told from the record, with every source "
@@ -478,7 +480,7 @@ def build_timeline(tl):
         r["url"] = r.get("href") or refs[r["ref"]]
 
     parts = []
-    top = 112
+    top = 122
     react_h = 18 * len(tl["reactors"]) + 26
     lane_h = 74
     height = top + react_h + lane_h * len(lanes) + 34
@@ -493,14 +495,14 @@ def build_timeline(tl):
     for y in range(1950, 2030, 10):
         parts.append('<line class="grid" x1="%.1f" x2="%.1f" y1="%d" y2="%d"/>' % (tx(y), tx(y), top, height - 26))
         parts.append('<text class="axis" x="%.1f" y="%d">%d</text>' % (tx(y), height - 8, y))
-    # milestone strip: the labelled events, in up to three rows
-    ends = [-1e9, -1e9, -1e9]
+    # milestone strip: the labelled events, in up to four rows
+    ends = [-1e9] * 4
     for e in sorted((e for e in tl["events"] if e.get("label")), key=lambda e: e["when"]):
         x = tx(e["when"])
-        width = 6.4 * len(e["label"]) + 10
-        row = next((k for k in range(3) if x >= ends[k] + 10), min(range(3), key=lambda k: ends[k]))
+        width = 6.9 * len(e["label"]) + 8
+        row = next((k for k in range(4) if x >= ends[k] + 8), min(range(4), key=lambda k: ends[k]))
         ends[row] = x + width
-        ty = 58 + row * 17
+        ty = 56 + row * 15
         parts.append('<g class="milestone" aria-hidden="true"><line x1="%.1f" x2="%.1f" y1="%d" y2="%d"/>'
                      '<text x="%.1f" y="%d">%s</text></g>'
                      % (x, x, ty + 3, top - 4, x + 4, ty, html.escape(e["label"])))

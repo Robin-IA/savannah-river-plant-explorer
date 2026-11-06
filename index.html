@@ -10,12 +10,13 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="bar">
+<header class="site">
+<div class="bar">
   <div class="wrap">
     <a class="home" href="index.html">Bomb Making</a>
     <nav aria-label="Pages"><a href="index.html" aria-current="page">Story</a><a href="timeline.html">Timeline</a><a href="sources.html">Sources</a><a href="about.html">About</a></nav>
   </div>
-</header>
+</div>
 <div class="banner big">
   <svg class="banner-art" viewBox="0 0 1600 360" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
   <defs>
@@ -26,7 +27,7 @@
       <stop offset="0" stop-color="#2f6577"/><stop offset=".6" stop-color="#8fb9c2"/><stop offset="1" stop-color="#d9a466"/>
     </linearGradient>
     <linearGradient id="veil" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0c1f2e" stop-opacity=".92"/><stop offset=".55" stop-color="#0c1f2e" stop-opacity=".55"/><stop offset="1" stop-color="#0c1f2e" stop-opacity="0"/>
+      <stop offset="0" stop-color="#0c1f2e" stop-opacity=".92"/><stop offset=".55" stop-color="#0c1f2e" stop-opacity=".8"/><stop offset="1" stop-color="#0c1f2e" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <rect width="1600" height="360" fill="url(#sky)"/>
@@ -48,7 +49,7 @@
     <h1>Bomb Making: A History of the Savannah River Plant</h1>
     <p class="lede">The Savannah River Plant in South Carolina made plutonium and tritium for American nuclear weapons from 1953 until 1988. This is its history, from the towns moved off the land to the clean-up, told from records held in Democracy&#x27;s Library, the wider Internet Archive, the Wayback Machine and elsewhere.</p>
     <form class="search" action="sources.html" method="get" role="search" aria-label="Search the story and its sources">
-      <label for="site-q">Search the story, the timeline and 294 sources</label>
+      <label for="site-q">Search the story, the timeline and 297 sources</label>
       <div class="search-row">
         <input id="site-q" name="q" type="search" placeholder="Ellenton, tritium, glass, MOX…" autocomplete="off">
         <button type="submit">Search</button>
@@ -56,14 +57,15 @@
     </form>
   </div>
 </div>
-<div id="results" class="wrap results" hidden>
+</header>
+<section id="results" class="wrap results" aria-labelledby="results-h" hidden>
   <div class="results-head"><h2 id="results-h">Search results</h2><button type="button" id="results-close">Clear search</button></div>
   <p id="results-count" role="status" aria-live="polite"></p>
   <div class="results-cols">
     <section aria-labelledby="rs-story"><h3 id="rs-story">In the story</h3><ol id="results-story"></ol></section>
     <section aria-labelledby="rs-time"><h3 id="rs-time">On the timeline</h3><ol id="results-time"></ol></section>
   </div>
-</div>
+</section>
 <main id="main" class="wrap story">
 <div class="cols">
 <nav class="toc" aria-label="Contents"><h2>Contents</h2>
@@ -177,8 +179,14 @@ government-owned, contractor-operated plant was in law
 and design histories now on OSTI (<a href="https://www.osti.gov/biblio/10159481" class="cite"><span class="tag tag-ext">EXT</span>: OSTI 10159481</a>;
 <a href="https://www.osti.gov/biblio/10151705" class="cite"><span class="tag tag-ext">EXT</span>: OSTI 10151705</a>). The company's administrative files are
 at the Hagley Museum and Library, by DOE's own finding aid
-(<a href="https://ehss.energy.gov/ohre/new/findingaids/epidemiologic/savannah/admin/1.html" class="cite"><span class="tag tag-ext">EXT</span>: DOE OHRE</a>); Hagley's catalogue could not be checked
-directly.</p>
+(<a href="https://ehss.energy.gov/ohre/new/findingaids/epidemiologic/savannah/admin/1.html" class="cite"><span class="tag tag-ext">EXT</span>: DOE OHRE</a>). Hagley's guide to its Atomic Energy Division
+records, 80 linear feet from 1942 to 1989, describes a Savannah River Project
+series covering site selection, design and construction, environment and
+community impact, safety and waste disposal (<a href="https://web.archive.org/web/20250917151711/https://findingaids.hagley.org/repositories/3/resources/1264" class="cite"><span class="tag tag-wb">WB</span>: Hagley finding aid</a>).
+Its photograph collection for the plant, 1951 to 1984, holds 1,412 prints and
+388 lantern slides (<a href="https://web.archive.org/web/20251216181520/https://findingaids.hagley.org/repositories/2/resources/224" class="cite"><span class="tag tag-wb">WB</span>: Hagley finding aid</a>). Hagley's own
+site turns away automated requests; the Wayback captures are how these guides
+were read.</p>
 <h3 id="running-it">Running it</h3>
 <p id="s11">The 305-M test pile was the first reactor to go critical on the site, in
 1952, the year heavy-water production began in D Area
@@ -268,7 +276,13 @@ start-up had gone ahead despite a reactivity shortfall larger than any the
 plant had seen (<a href="https://archive.org/details/micro_IA41152603_0340" class="cite"><span class="tag tag-dl">DL</span></a>;
 <a href="https://web.archive.org/web/20250211153625/https://www.gao.gov/assets/t-rced-88-68.pdf" class="cite"><span class="tag tag-wb">WB</span>: gao.gov</a>). Glenn's bill to put the weapons plants under
 outside safety oversight was already in hearings
-(<a href="https://archive.org/details/micro_IA41152617_0167" class="cite"><span class="tag tag-dl">DL</span></a>).</p>
+(<a href="https://archive.org/details/micro_IA41152617_0167" class="cite"><span class="tag tag-dl">DL</span></a>).
+The next day, 1 October, the <em>New York Times</em> put the story on its front
+page: severe accidents at the plant, kept secret for up to 31 years, at all
+five reactors, documented in a 19-page memorandum from a plant supervisor to
+his superiors at Du Pont (<a href="https://web.archive.org/web/20240427052753/https://www.nytimes.com/1988/10/01/us/severe-accidents-at-nuclear-plant-were-kept-secret-up-to-31-years.html" class="cite"><span class="tag tag-wb">WB</span>: <em>New York Times</em></a>). By November
+the paper was asking how Congress had missed the signs
+(<a href="https://web.archive.org/web/20180130152713/https://www.nytimes.com/1988/11/28/us/trouble-at-atomic-bomb-plants-how-lawmakers-missed-the-signs.html" class="cite"><span class="tag tag-wb">WB</span>: <em>New York Times</em></a>).</p>
 <h3 id="plant-to-site">Plant to Site</h3>
 <p id="s19">In April 1989 the Westinghouse Savannah River Company took over from Du Pont
 (<a href="https://web.archive.org/web/20170222195600/http://www.srs.gov/general/about/50anniv/Chapter%2019.pdf" class="cite"><span class="tag tag-wb">WB</span>: ch. 19</a>). The same year the Savannah River Plant became the
@@ -367,14 +381,20 @@ web page from that summer links to a statement on its budget crisis
 (<a href="https://web.archive.org/web/20170525214013/http://srsmuseum.org/" class="cite"><span class="tag tag-wb">WB</span></a>). The site's archaeologists and its Cold War historic
 preservation program work with it (<a href="https://web.archive.org/web/20201126172828/https://www.srs.gov/general/news/releases/nr20_srs-preserving-srs-history.pdf" class="cite"><span class="tag tag-wb">WB</span></a>) — the same program
 that collected Ellenton's memories in 1990.</p>
+<p id="s31">The federal record of historic engineering holds one part of the plant in
+detail. The Historic American Engineering Record documented the Physics
+Assembly Laboratory in M Area, home of the zero-power Process Development
+Pile that set the physics for plutonium and tritium production in the five
+reactors, in 107 photographs and 123 data pages
+(<a href="https://web.archive.org/web/20250203072742/https://www.loc.gov/item/sc1142/" class="cite"><span class="tag tag-wb">WB</span>: Library of Congress, HAER SC-43</a>).</p>
 </article>
 <aside class="rail" aria-label="Where the record lives">
   <h2>Where the record lives</h2>
   <p>Each claim is tagged with where its source is held.</p>
   <ul class="legend stacked" aria-label="Where each source is held"><li><span class="tag tag-dl">DL</span> Democracy&#x27;s Library</li><li><span class="tag tag-ia">IA</span> Internet Archive</li><li><span class="tag tag-wb">WB</span> Wayback Machine</li><li><span class="tag tag-ait">AIT</span> Archive-It</li><li><span class="tag tag-ext">EXT</span> Held elsewhere</li></ul>
-  <svg class="holder-chart" viewBox="0 0 300 158" role="img" aria-labelledby="hc-t"><title id="hc-t">Sources by where they are held, for each act</title><text class="ch-label" x="0" y="16">Act 1 · 103 sources</text><rect class="seg seg-dl" x="0.0" y="22" width="35.9" height="18" rx="3"><title>Act 1: 13 Democracy&#x27;s Library</title></rect><text class="seg-n seg-n-dl" x="17.9" y="35">13</text><rect class="seg seg-ia" x="37.9" y="22" width="155.3" height="18" rx="3"><title>Act 1: 54 Internet Archive</title></rect><text class="seg-n seg-n-ia" x="115.5" y="35">54</text><rect class="seg seg-wb" x="195.1" y="22" width="41.7" height="18" rx="3"><title>Act 1: 15 Wayback Machine</title></rect><text class="seg-n seg-n-wb" x="216.0" y="35">15</text><rect class="seg seg-ext" x="238.8" y="22" width="59.2" height="18" rx="3"><title>Act 1: 21 Held elsewhere</title></rect><text class="seg-n seg-n-ext" x="268.4" y="35">21</text><text class="ch-label" x="0" y="68">Act 2 · 97 sources</text><rect class="seg seg-dl" x="0.0" y="74" width="66.0" height="18" rx="3"><title>Act 2: 22 Democracy&#x27;s Library</title></rect><text class="seg-n seg-n-dl" x="33.0" y="87">22</text><rect class="seg seg-ia" x="68.0" y="74" width="97.0" height="18" rx="3"><title>Act 2: 32 Internet Archive</title></rect><text class="seg-n seg-n-ia" x="116.5" y="87">32</text><rect class="seg seg-wb" x="167.0" y="74" width="28.9" height="18" rx="3"><title>Act 2: 10 Wayback Machine</title></rect><text class="seg-n seg-n-wb" x="181.5" y="87">10</text><rect class="seg seg-ext" x="197.9" y="74" width="100.1" height="18" rx="3"><title>Act 2: 33 Held elsewhere</title></rect><text class="seg-n seg-n-ext" x="248.0" y="87">33</text><text class="ch-label" x="0" y="120">Act 3 · 94 sources</text><rect class="seg seg-dl" x="0.0" y="126" width="36.3" height="18" rx="3"><title>Act 3: 12 Democracy&#x27;s Library</title></rect><text class="seg-n seg-n-dl" x="18.1" y="139">12</text><rect class="seg seg-ia" x="38.3" y="126" width="49.1" height="18" rx="3"><title>Act 3: 16 Internet Archive</title></rect><text class="seg-n seg-n-ia" x="62.8" y="139">16</text><rect class="seg seg-wb" x="89.4" y="126" width="144.8" height="18" rx="3"><title>Act 3: 46 Wayback Machine</title></rect><text class="seg-n seg-n-wb" x="161.8" y="139">46</text><rect class="seg seg-ait" x="236.2" y="126" width="1.2" height="18" rx="3"><title>Act 3: 1 Archive-It</title></rect><rect class="seg seg-ext" x="239.4" y="126" width="58.6" height="18" rx="3"><title>Act 3: 19 Held elsewhere</title></rect><text class="seg-n seg-n-ext" x="268.7" y="139">19</text></svg><div class="sr"><table><caption>Sources by holder and act</caption><tr><th scope="col">Act</th><th scope="col">Democracy&#x27;s Library</th><th scope="col">Internet Archive</th><th scope="col">Wayback Machine</th><th scope="col">Archive-It</th><th scope="col">Held elsewhere</th><th scope="col">Total</th></tr><tr><th scope="row">Act 1</th><td>13</td><td>54</td><td>15</td><td>0</td><td>21</td><td>103</td></tr><tr><th scope="row">Act 2</th><td>22</td><td>32</td><td>10</td><td>0</td><td>33</td><td>97</td></tr><tr><th scope="row">Act 3</th><td>12</td><td>16</td><td>46</td><td>1</td><td>19</td><td>94</td></tr></table></div>
+  <svg class="holder-chart" viewBox="0 0 300 158" role="img" aria-labelledby="hc-t"><title id="hc-t">Sources by where they are held, for each act</title><text class="ch-label" x="0" y="16">Act 1 · 104 sources</text><rect class="seg seg-dl" x="0.0" y="22" width="35.5" height="18" rx="3"><title>Act 1: 13 Democracy&#x27;s Library</title></rect><text class="seg-n seg-n-dl" x="17.8" y="35">13</text><rect class="seg seg-ia" x="37.5" y="22" width="153.8" height="18" rx="3"><title>Act 1: 54 Internet Archive</title></rect><text class="seg-n seg-n-ia" x="114.4" y="35">54</text><rect class="seg seg-wb" x="193.3" y="22" width="49.9" height="18" rx="3"><title>Act 1: 18 Wayback Machine</title></rect><text class="seg-n seg-n-wb" x="218.2" y="35">18</text><rect class="seg seg-ext" x="245.2" y="22" width="52.8" height="18" rx="3"><title>Act 1: 19 Held elsewhere</title></rect><text class="seg-n seg-n-ext" x="271.6" y="35">19</text><text class="ch-label" x="0" y="68">Act 2 · 99 sources</text><rect class="seg seg-dl" x="0.0" y="74" width="64.7" height="18" rx="3"><title>Act 2: 22 Democracy&#x27;s Library</title></rect><text class="seg-n seg-n-dl" x="32.3" y="87">22</text><rect class="seg seg-ia" x="66.7" y="74" width="95.0" height="18" rx="3"><title>Act 2: 32 Internet Archive</title></rect><text class="seg-n seg-n-ia" x="114.2" y="87">32</text><rect class="seg seg-wb" x="163.6" y="74" width="34.4" height="18" rx="3"><title>Act 2: 12 Wayback Machine</title></rect><text class="seg-n seg-n-wb" x="180.8" y="87">12</text><rect class="seg seg-ext" x="200.0" y="74" width="98.0" height="18" rx="3"><title>Act 2: 33 Held elsewhere</title></rect><text class="seg-n seg-n-ext" x="249.0" y="87">33</text><text class="ch-label" x="0" y="120">Act 3 · 94 sources</text><rect class="seg seg-dl" x="0.0" y="126" width="36.3" height="18" rx="3"><title>Act 3: 12 Democracy&#x27;s Library</title></rect><text class="seg-n seg-n-dl" x="18.1" y="139">12</text><rect class="seg seg-ia" x="38.3" y="126" width="49.1" height="18" rx="3"><title>Act 3: 16 Internet Archive</title></rect><text class="seg-n seg-n-ia" x="62.8" y="139">16</text><rect class="seg seg-wb" x="89.4" y="126" width="144.8" height="18" rx="3"><title>Act 3: 46 Wayback Machine</title></rect><text class="seg-n seg-n-wb" x="161.8" y="139">46</text><rect class="seg seg-ait" x="236.2" y="126" width="1.2" height="18" rx="3"><title>Act 3: 1 Archive-It</title></rect><rect class="seg seg-ext" x="239.4" y="126" width="58.6" height="18" rx="3"><title>Act 3: 19 Held elsewhere</title></rect><text class="seg-n seg-n-ext" x="268.7" y="139">19</text></svg><div class="sr"><table><caption>Sources by holder and act</caption><tr><th scope="col">Act</th><th scope="col">Democracy&#x27;s Library</th><th scope="col">Internet Archive</th><th scope="col">Wayback Machine</th><th scope="col">Archive-It</th><th scope="col">Held elsewhere</th><th scope="col">Total</th></tr><tr><th scope="row">Act 1</th><td>13</td><td>54</td><td>18</td><td>0</td><td>19</td><td>104</td></tr><tr><th scope="row">Act 2</th><td>22</td><td>32</td><td>12</td><td>0</td><td>33</td><td>99</td></tr><tr><th scope="row">Act 3</th><td>12</td><td>16</td><td>46</td><td>1</td><td>19</td><td>94</td></tr></table></div>
   <a class="card" href="timeline.html"><strong>Timeline</strong><span>Seventy-six years in one view: the reactors, the people moved, the oversight and the cleanup.</span></a>
-  <a class="card" href="sources.html"><strong>All 294 sources</strong><span>Filter by holder, act and word.</span></a>
+  <a class="card" href="sources.html"><strong>All 297 sources</strong><span>Filter by holder, act and word.</span></a>
 </aside>
 </div>
 </main>

@@ -20,13 +20,13 @@ logos:
   after bomb making (1992 to now). A search box in the banner finds passages
   in the story, events on the timeline and matching sources; a side panel
   charts where each act's sources are held.
-- **Timeline** (`timeline.html`): 36 events from the story in five lanes
+- **Timeline** (`timeline.html`): 37 events from the story in five lanes
   (land and people, production, environment and science, oversight and law,
   cleanup and legacy), the working lives of the five production reactors, and
   labelled milestones. Each mark's shape and colour say where its source is
   held, and the marks can be filtered by holder. The same events follow as a
   list, by act.
-- **Sources** (`sources.html`): all 294 sources behind the story, filterable
+- **Sources** (`sources.html`): all 297 sources behind the story, filterable
   by where they are held, by act and by word. The filters are kept in the URL,
   for example `sources.html?tag=WB&act=3&q=DWPF`.
 - **About** (`about.html`), including where the sources disagree.
@@ -37,11 +37,10 @@ logos:
   others), Wayback Machine captures, Archive-It seeds, and outside holders,
   chiefly DOE's OSTI.
 - **Years covered:** 1950 to 2026.
-- **Size:** 294 sources: 47 DL, 102 IA, 71 WB, 1 AIT, 73 EXT. Counted
+- **Size:** 297 sources: 47 DL, 102 IA, 76 WB, 1 AIT, 71 EXT. Counted
   6 November 2026.
-- **Not included:** sources still being sought, such as the *New York Times*
-  1988 series, the Hagley Du Pont records and the Library of Congress HAER
-  survey, are tracked as
+- **Not included:** sources still being sought, such as the rest of the
+  *New York Times* 1988 series and the "thirty incidents" report, are tracked as
   [issues labelled `source-gap`](https://github.com/Robin-IA/savannah-river-plant-explorer/issues?q=label%3Asource-gap).
   Unsourced facts are kept out of the story.
 

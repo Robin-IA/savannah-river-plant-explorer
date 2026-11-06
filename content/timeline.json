@@ -253,6 +253,16 @@
       "label": "GAO on P start-up"
     },
     {
+      "when": 1988.76,
+      "date": "1 Oct 1988",
+      "lane": "oversight",
+      "text": "The New York Times reports on its front page that severe accidents were kept secret for up to 31 years",
+      "tag": "WB",
+      "ref": "nyt-881001",
+      "section": "1987–1988: the reactors stop",
+      "label": "Secrets on page one"
+    },
+    {
       "when": 1989.3,
       "date": "Apr 1989",
       "lane": "production",

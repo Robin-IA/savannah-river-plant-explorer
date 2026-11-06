@@ -10,12 +10,13 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="bar">
+<header class="site">
+<div class="bar">
   <div class="wrap">
     <a class="home" href="index.html">Bomb Making</a>
     <nav aria-label="Pages"><a href="index.html">Story</a><a href="timeline.html">Timeline</a><a href="sources.html">Sources</a><a href="about.html" aria-current="page">About</a></nav>
   </div>
-</header>
+</div>
 <div class="banner">
   <svg class="banner-art" viewBox="0 0 1600 360" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
   <defs>
@@ -26,7 +27,7 @@
       <stop offset="0" stop-color="#2f6577"/><stop offset=".6" stop-color="#8fb9c2"/><stop offset="1" stop-color="#d9a466"/>
     </linearGradient>
     <linearGradient id="veil" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#0c1f2e" stop-opacity=".92"/><stop offset=".55" stop-color="#0c1f2e" stop-opacity=".55"/><stop offset="1" stop-color="#0c1f2e" stop-opacity="0"/>
+      <stop offset="0" stop-color="#0c1f2e" stop-opacity=".92"/><stop offset=".55" stop-color="#0c1f2e" stop-opacity=".8"/><stop offset="1" stop-color="#0c1f2e" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <rect width="1600" height="360" fill="url(#sky)"/>
@@ -50,6 +51,7 @@
     
   </div>
 </div>
+</header>
 <main id="main" class="wrap about">
 <h2>The project</h2>
 <p>The Savannah River Plant was built by Du Pont for the Atomic Energy Commission from 1950 on land in Aiken and Barnwell counties, South Carolina, and made plutonium and tritium for nuclear weapons until its reactors were shut down in 1988. Renamed the Savannah River Site in 1989, it has since been a place of clean-up, waste treatment, research and, again, plutonium work.</p>
@@ -89,12 +91,11 @@
 </ul>
 
 <h2>What is left out</h2>
-<p>Sources the story still needs, such as the <em>New York Times</em> series of autumn 1988, the Hagley Library's Du Pont records and the Library of Congress engineering survey, are tracked as <a href="https://github.com/Robin-IA/savannah-river-plant-explorer/issues?q=is%3Aissue+label%3Asource-gap">open issues on GitHub</a>. Facts that could not be traced to a source are left out of the story until one is found.</p>
+<p>Sources the story still needs, such as the rest of the <em>New York Times</em> series of autumn 1988 and the &ldquo;thirty incidents&rdquo; report itself, are tracked as <a href="https://github.com/Robin-IA/savannah-river-plant-explorer/issues?q=is%3Aissue+label%3Asource-gap">open issues on GitHub</a>. Facts that could not be traced to a source are left out of the story until one is found.</p>
 
 <h2>How it was built</h2>
 <p>Researched from archive.org search and full-text search, the Wayback Machine's CDX server and the Archive-It and OSTI catalogues. The story and the source lists are written in Markdown, and a short Python script turns them into these pages. The timeline is drawn from the same story, event by event. The code and the source notes are on <a href="https://github.com/Robin-IA/savannah-river-plant-explorer">GitHub</a>.</p>
 <p>Made by Robin Fay, Democracy's Library, with <a href="https://claude.com/claude-code">Claude Code</a>.</p>
-
 </main>
 <footer class="foot">
   <div class="wrap">

@@ -25,13 +25,13 @@ img { max-width: 100%; }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
 /* Header bar */
-header.bar { background: var(--night); color: #fff; border-bottom: 1px solid rgba(255,255,255,.12); }
-header.bar .wrap { display: flex; align-items: center; gap: 12px; min-height: 52px; flex-wrap: wrap; }
-header.bar .home { color: #fff; text-decoration: none; font: 700 1.05rem/1 var(--serif); letter-spacing: .01em; }
-header.bar nav { margin-left: auto; display: flex; gap: 2px; flex-wrap: wrap; }
-header.bar nav a { color: #fff; text-decoration: none; padding: 8px 12px; border-radius: 4px; }
-header.bar nav a:hover { background: rgba(255,255,255,.12); }
-header.bar nav a[aria-current="page"] { background: rgba(255,255,255,.2); font-weight: 600; }
+.bar { background: var(--night); color: #fff; border-bottom: 1px solid rgba(255,255,255,.12); }
+.bar .wrap { display: flex; align-items: center; gap: 12px; min-height: 52px; flex-wrap: wrap; }
+.bar .home { color: #fff; text-decoration: none; font: 700 1.05rem/1 var(--serif); letter-spacing: .01em; }
+.bar nav { margin-left: auto; display: flex; gap: 2px; flex-wrap: wrap; }
+.bar nav a { color: #fff; text-decoration: none; padding: 8px 12px; border-radius: 4px; }
+.bar nav a:hover { background: rgba(255,255,255,.12); }
+.bar nav a[aria-current="page"] { background: rgba(255,255,255,.2); font-weight: 600; }
 
 /* Banner */
 .banner { position: relative; overflow: hidden; background: var(--night); color: #fff; }
@@ -189,8 +189,8 @@ a.ev { cursor: pointer; }
 .milestone text { font: 600 11.5px var(--font); fill: var(--ink); }
 .milestone line { stroke: var(--ink); stroke-width: 1; stroke-dasharray: 2 3; opacity: .55; }
 a.ev:hover .mk, a.ev:focus .mk { stroke: var(--ink); stroke-width: 2.5; }
-a.ev:focus { outline: none; }
-a.ev:focus-visible .mk { stroke: var(--focus); stroke-width: 3.5; }
+a.ev:focus { outline: 3px solid var(--focus); outline-offset: 2px; }
+a.ev:focus .mk { stroke: var(--focus); stroke-width: 3.5; }
 a.ev.off { opacity: .12; pointer-events: none; }
 .shape { vertical-align: middle; flex: none; overflow: visible; }
 .tl-tip { position: absolute; z-index: 5; max-width: 300px; background: var(--night); color: #fff; padding: 8px 10px; border-radius: 6px; font-size: .88rem; line-height: 1.4; pointer-events: none; box-shadow: 0 4px 14px rgba(0,0,0,.25); }
