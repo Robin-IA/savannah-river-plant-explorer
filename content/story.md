@@ -138,6 +138,11 @@ basic plant was complete in 1956 ([WB: srs.gov 1950s][srs-1950];
 dated December 1954 by one official source and 1955 by others
 ([WB: ch. 11][fifty-11]; [WB][history1]).
 
+<figure class="fig wide">
+<img src="img/srp-reactor-operation.png" width="959" height="514" alt="Diagram of a Savannah River production reactor. Fuel and targets from the 300 Area are put together in an assembly area and loaded into the reactor inside a containment building. Heavy water circulates through the reactor and through heat exchangers cooled by river water. Irradiated assemblies go to a disassembly basin of deionized water and then to the separations areas. Monitors check the exhaust stack, the hot water returned to the river and the purge water." loading="lazy">
+<figcaption>How a production reactor worked: heavy water moderated and cooled the reactor, river water cooled the heavy water, and irradiated fuel and targets went from the disassembly basin to the separations areas. Diagram from <em>The Savannah River Site at Fifty</em> (2002), p. 331. <span class="credit">US Department of Energy, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Savannah_River_Plant_reactor_design.png">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 In 1956 the neutrino was confirmed at P reactor. R and the heavy-water
 components test reactor shut down in 1964, and L in 1968
 ([WB: srs.gov 1960s][srs-1960]). The standard history of the reactors is
@@ -166,6 +171,11 @@ River Ecology Laboratory, which dates its own founding to 1951
 
 ## Act 2. The reactors under scrutiny, 1970–1992
 
+<figure class="fig">
+<img src="img/srp-glove-boxes-c1972.jpg" width="1400" height="1132" alt="A worker in white coveralls stands at a long row of steel glove boxes with round glove ports and windows." loading="lazy">
+<figcaption>Plutonium production at the Atomic Energy Commission&rsquo;s Savannah River Plant, about 1972. <span class="credit">US Department of Energy photograph HD.6D.918, public domain, via <a href="https://commons.wikimedia.org/wiki/File:HD.6D.918_(10405627974).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 ### A plant that measured itself
 
 Through the 1970s the plant reported its releases. Du Pont's semiannual
@@ -180,6 +190,11 @@ satellite imagery had made the water temperatures impossible to keep secret
 *Thermal Ecology* symposia
 ([IA](https://archive.org/details/thermalecologyii0000ther)). The first
 on-site anti-nuclear protest came in 1979 ([WB: srs.gov 1970s][srs-1970]).
+
+<figure class="fig">
+<img src="img/srl-californium-cask-c1970.jpg" width="1400" height="1136" alt="Three men around a large spherical shipping cask on a flatbed truck marked Radioactive; the man standing on the truck holds a radiation meter against the cask." loading="lazy">
+<figcaption>A health physicist makes a final radioactivity check on a shipping cask of californium-252 leaving the Savannah River Laboratory for Texaco&rsquo;s laboratory in Bellaire, Texas, about 1970. <span class="credit">US Department of Energy photograph HD.5A.047, public domain, via <a href="https://commons.wikimedia.org/wiki/File:HD.5A.047_(10348253655).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 ### L-Reactor comes back
 
@@ -298,6 +313,11 @@ eighth old-style tank to reach the end of waste removal in under two years
 ([WB][tank-14]).
 
 ### Sealing the reactors
+
+<figure class="fig">
+<img src="img/srs-from-iss-2006.jpg" width="540" height="405" alt="Photograph from orbit of forested land crossed by straight roads. Five cleared reactor areas are labelled; the Savannah River runs along the left edge, and L Lake and Par Pond lie to the south." loading="lazy">
+<figcaption>The five reactor areas from the International Space Station, 28 January 2006, with L Lake and Par Pond, the reactors&rsquo; cooling reservoirs. <span class="credit">NASA astronaut photograph ISS012-E-16633, labels by NASA Earth Observatory; public domain, via <a href="https://commons.wikimedia.org/wiki/File:SavannahRiverSite_ISS012-E-16633.jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 In March 2008 the site put up South Carolina historic markers for P and R,
 the first inside the fence ([WB][pr-markers]). Then Recovery Act money

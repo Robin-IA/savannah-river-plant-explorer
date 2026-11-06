@@ -74,6 +74,10 @@ The notes for each source, including what was and was not read, are in
 - `style.css` and three small scripts are written by hand: `search.js` (the
   story page's search), `timeline.js` (tooltips and holder filters) and
   `app.js` (the sources filters). Every page reads completely without them.
+- `img/` holds the two logos and four public-domain images from Wikimedia
+  Commons (a Department of Energy reactor diagram, two DOE photographs from
+  about 1970 and 1972, and a 2006 NASA photograph of the site from the ISS),
+  resized for the web. Each is credited in its caption and on the About page.
 - Holder colours come from a validated categorical palette (blue, green,
   amber, magenta, and gray for "held elsewhere"); shapes and text labels
   carry the same information, so nothing depends on colour alone.

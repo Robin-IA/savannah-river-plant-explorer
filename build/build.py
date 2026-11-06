@@ -580,14 +580,20 @@ def build_timeline(tl):
 </figure>
 <div class="tl-lists">%s</div>
 <h2 id="tl-reactors">The reactors</h2>
+<div class="tl-reactors">
 <div class="scroll"><table class="reactors"><thead><tr><th scope="col">Reactor</th><th scope="col">Working life</th><th scope="col">Source</th></tr></thead><tbody>%s</tbody></table></div>
+<figure class="fig">
+<img src="img/srs-from-iss-2006.jpg" width="540" height="405" alt="Photograph from orbit of forested land crossed by straight roads. Five cleared reactor areas are labelled; the Savannah River runs along the left edge, and L Lake and Par Pond lie to the south." loading="lazy">
+<figcaption>The five reactor areas from the International Space Station, 28 January 2006. <span class="credit">NASA astronaut photograph ISS012-E-16633, labels by NASA Earth Observatory; public domain, via <a href="https://commons.wikimedia.org/wiki/File:SavannahRiverSite_ISS012-E-16633.jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+</div>
 </main>
 """ % (filters, svg, "".join(lists), rrows) + foot(["timeline.js"])
     write(ROOT / "timeline.html", page)
     return tl["events"]
 
 
-LOCAL = re.compile(r"^(index|sources|about|timeline)\.html(#[\w-]+)?$|^(style\.css|app\.js|search\.js|timeline\.js)$|^img/[\w.-]+\.png$")
+LOCAL = re.compile(r"^(index|sources|about|timeline)\.html(#[\w-]+)?$|^(style\.css|app\.js|search\.js|timeline\.js)$|^img/[\w.-]+\.(png|jpg)$")
 IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
 
 
