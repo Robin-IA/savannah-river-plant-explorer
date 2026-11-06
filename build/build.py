@@ -38,6 +38,7 @@ CSP = ("default-src 'self'; script-src 'self'; style-src 'self'; "
 TAGS = {
     "DL": "Democracy's Library",
     "IA": "Internet Archive",
+    "OL": "Open Library",
     "WB": "Wayback Machine",
     "AIT": "Archive-It",
     "EXT": "Held elsewhere",
@@ -47,7 +48,7 @@ ACTS = {
     2: "Act 2. The reactors under scrutiny, 1970–1992",
     3: "Act 3. After the bombs, 1992 to now",
 }
-TAG_RE = re.compile(r"^(DL|IA|WB|AIT|EXT)\b\s*:?\s*(.*)$", re.S)
+TAG_RE = re.compile(r"^(DL|IA|OL|WB|AIT|EXT)\b\s*:?\s*(.*)$", re.S)
 
 
 def md_inline(text):
@@ -285,7 +286,7 @@ def tag_links(body):
         attrs, tag, rest = m.group(1), m.group(2), m.group(3)
         return ('<a%s class="cite"><span class="tag tag-%s">%s</span>%s</a>'
                 % (attrs, tag.lower(), tag, rest))
-    return re.sub(r"<a([^>]*)>(DL|IA|WB|AIT|EXT)\b(.*?)</a>", repl, body, flags=re.S)
+    return re.sub(r"<a([^>]*)>(DL|IA|OL|WB|AIT|EXT)\b(.*?)</a>", repl, body, flags=re.S)
 
 
 def story_refs():
@@ -418,6 +419,7 @@ TL_X0, TL_X1, TL_Y0, TL_Y1 = 190, 1180, 1950, 2027
 SHAPES = {
     "DL": '<circle r="7"/>',
     "IA": '<rect x="-6.5" y="-6.5" width="13" height="13" rx="2"/>',
+    "OL": '<path d="M-7 -4 L0 -8 L7 -4 L7 4 L0 8 L-7 4 Z"/>',
     "WB": '<path d="M0 -8.5 L8.5 0 L0 8.5 L-8.5 0 Z"/>',
     "AIT": '<path d="M0 -8 L8 6.5 L-8 6.5 Z"/>',
     "EXT": '<circle r="5.5"/>',
@@ -509,7 +511,8 @@ def build_timeline(tl):
 
     filters = "".join(
         '<button type="button" class="tl-filter" data-tag="%s" aria-pressed="true">%s<span>%s</span> <span class="n">%d</span></button>'
-        % (t, shape_svg(t, 16), html.escape(TAGS[t]), sum(1 for e in tl["events"] if e["tag"] == t)) for t in TAGS)
+        % (t, shape_svg(t, 16), html.escape(TAGS[t]), sum(1 for e in tl["events"] if e["tag"] == t))
+        for t in TAGS if any(e["tag"] == t for e in tl["events"]))
 
     lists = []
     for a, y0, y1, name in ACT_SPANS:

@@ -90,7 +90,8 @@ chapter PDFs survive in Wayback; srarp.org itself is gone
 McBride's life of James Brown touches on the Black sharecroppers forced out
 of Ellenton ([IA](https://archive.org/details/killemleavesearc0000mcbr)).
 Louise Cassels's *The Unexpected Exodus* (1971), the classic memoir of the
-leaving, is not in the Archive ([EXT: Open Library][cassels]).
+leaving, is catalogued in Open Library, though it has no copy to read or
+borrow yet ([OL: Open Library][cassels]).
 
 ### Building it
 
