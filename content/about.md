@@ -42,15 +42,9 @@
 <p><em>Building Bombs</em> (1989), made by Mark Mori and Susan Robinson, is a film about the environmental legacy and social impact of the Savannah River Plant, &ldquo;the nation&rsquo;s largest manufacturer of hydrogen bomb materials during the Cold War&rdquo;, in the words of PBS&rsquo;s <em>POV</em> <a class="cite" href="https://web.archive.org/web/20190913183311/http://www.pbs.org/pov/watch/buildingbombs/"><span class="tag tag-wb">WB</span></a>. It was nominated for the Academy Award for Best Documentary Feature at the 63rd Academy Awards in March 1991 <a class="cite" href="https://web.archive.org/web/20261011042140/https://www.oscars.org/oscars/ceremonies/1991"><span class="tag tag-wb">WB</span>: oscars.org</a>.</p>
 <p>Public television did not show it at first. In 1992 the cable series <em>Alternative Views</em> presented the film with an interview with its co-director, saying PBS had refused to broadcast it <a class="cite" href="https://archive.org/details/AV_466-NO_NUKES_IS_GOOD_NUKES"><span class="tag tag-ia">IA</span>: <em>Alternative Views</em> #466</a>. After three years of argument and a campaign Mori organized, an edited version, retitled <em>Building Bombs: The Legacy</em>, aired on <em>POV</em> on 10 August 1993 <a class="cite" href="https://web.archive.org/web/20250108131242/https://www.latimes.com/archives/la-xpm-1993-08-10-ca-22486-story.html"><span class="tag tag-wb">WB</span>: <em>Los Angeles Times</em></a>.</p>
 
-<h2>When the numbers were taken</h2>
-<p>Every source was checked live on 6 November 2026: each archive.org item was fetched, each Democracy's Library label was re-tested against the collection's scope, and each Wayback capture and outside link was opened. The archives keep growing, so a source labelled IA today may be in Democracy's Library later.</p>
-
 <h2>Where the sources disagree</h2>
 <p>Where sources disagree, the story gives each version with its source rather than choosing. These are the disagreements.</p>
 <!-- DISAGREE -->
-
-<h2>What is left out</h2>
-<p>Sources the story still needs, such as the rest of the <em>New York Times</em> series of autumn 1988 and the &ldquo;thirty incidents&rdquo; report itself, are tracked as <a href="https://github.com/Robin-IA/savannah-river-plant-explorer/issues?q=is%3Aissue+label%3Asource-gap">open issues on GitHub</a>. Facts that could not be traced to a source are left out of the story until one is found.</p>
 
 <h2>Images</h2>
 <p>All six images are in the public domain and were found on Wikimedia Commons; the copies here are resized.</p>

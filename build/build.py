@@ -232,7 +232,6 @@ CHECKS_NOTE = """<!-- explorer-checks:note -->
   Meets WCAG 2.2 Level AA accessibility (and WCAG 2.1 AA and 2.0 AA), checked
   <time datetime="2026-11-06">6 November 2026</time> by automated tests and manual review.
   Also passes security and code validity checks.
-  <a href="https://github.com/Robin-IA/savannah-river-plant-explorer/blob/main/security-accessibility-checks.md">Read the report</a>.
 </p>
 <!-- /explorer-checks:note -->"""
 

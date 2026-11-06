@@ -1,11 +1,11 @@
 # Security and accessibility checks
 
-**Status: passing.** All three checks passed on 2026-11-06 at commit `95928cabfd`. Nothing is open. Advisory items below are optional.
+**Status: passing.** All three checks passed on 2026-11-06 at commit `9fdbe6ea62`. Nothing is open. Advisory items below are optional.
 
 | | |
 |---|---|
 | Explorer | https://github.com/Robin-IA/savannah-river-plant-explorer |
-| Commit | `95928cabfd` on `read-like-a-book` |
+| Commit | `9fdbe6ea62` on `read-like-a-book` |
 | Date | 2026-11-06 |
 | Pages checked | `./`, `./?q=tritium`, `chapter-1.html`, `chapter-2.html`, `chapter-3.html`, `timeline.html`, `sources.html`, `sources.html?tag=DL&chapter=2&q=reactor`, `about.html` |
 | Served from | repository root, served locally |
@@ -26,7 +26,7 @@
 
 ## Standards met
 
-Checked 6 November 2026 at commit `95928cabfd`, on the pages listed above:
+Checked 6 November 2026 at commit `9fdbe6ea62`, on the pages listed above:
 
 - **WCAG 2.2 Level AA**: every Level A and AA success criterion, by automated tests and a manual review of each criterion (checklists under each check below).
 - **WCAG 2.1 Level AA** and **WCAG 2.0 Level AA**, which WCAG 2.2 includes. 4.1.1 Parsing, dropped from 2.2 but still in 2.0 and 2.1, is covered by the code validity check (no HTML parse errors, no duplicate ids).
@@ -72,6 +72,16 @@ No open items.
 
 </details>
 
+<details><summary>Cleared on review (3)</summary>
+
+| Id | Item | Where | Why cleared |
+|---|---|---|---|
+| `S-d1a00b` | String rendered as markup or code (html) | `sources.html:201` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
+| `S-f296f3` | String rendered as markup or code (html) | `sources.html:210` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
+| `S-1cd70a` | String rendered as markup or code (html) | `sources.html:233` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
+
+</details>
+
 ## Accessibility (WCAG 2.2 AA)
 
 No open items.
@@ -89,11 +99,11 @@ No open items.
 | 2.4.4 Link purpose | pass | Citation links read as holder tag plus title (for example 'WB: SRS at Fifty ch. 7'); bare DL or IA citations take their purpose from the sentence they close, which 2.4.4 allows. Chapter cards and the chapter list link with the chapter's full title; previous/next links name the chapter they lead to. |
 | 2.4.6 Headings and labels | pass | Each page has one h1 in the banner; chapter pages use h2 for their sections; the home page's chapter cards are h2 sections; Chapter and Search labels are visible on the sources page. |
 | 3.1.1 Language of page | pass | lang=en on all three pages; content is English. |
-| 2.1.1 Keyboard | pass | Native links, buttons, checkboxes, select and inputs only. Timeline marks are SVG links in the tab order; the holder filters are buttons. |
+| 2.1.1 Keyboard | pass | Native links, buttons, checkboxes, select and inputs only. Timeline marks are SVG links in the tab order; the holder filters are buttons. The holder index buttons and the chart's segment links are ordinary links in the tab order. |
 | 2.1.2 No keyboard trap | pass | No widgets that hold focus. |
 | 2.4.1 Bypass blocks | pass | Skip link to #main on every page; header, nav, main and footer landmarks; on chapter pages the chapter list and the previous/next links are separately named navigation landmarks. |
 | 2.4.3 Focus order | pass | Follows reading order; filtering does not move focus. |
-| 2.4.7 Focus visible | pass | A 3px :focus-visible outline everywhere; timeline marks get an outline and a blue stroke, checked by tabbing in the browser. |
+| 2.4.7 Focus visible | pass | A 3px :focus-visible outline everywhere; timeline marks and the holder chart's segment links get an outline and a blue stroke on focus; the holder index buttons use the default outline. |
 | 2.4.11 Focus not obscured | pass | No sticky header; the sticky contents and side panel sit beside the story, not over it; the timeline tooltip sits above the focused mark, not on it. |
 | 2.5.8 Target size | pass | Checkboxes sit inside labels whose whole text is the target, well over 24 px wide and spaced apart. |
 | 2.2.2 Pause, stop, hide | n/a | Nothing moves. |
@@ -126,4 +136,4 @@ Optional. These items never block a pass.
 |---|---|---|---|---|---|
 | `S-9a6baa` | security | No x-content-type-options header | `https://robin-ia.github.io/savannah-river-plant-explorer/` | A02:2025 · ASVS V3 | Set it; it stops browsers guessing content types. It has no <meta> form, so on a host that cannot set headers (GitHub Pages) it stays open; the explorer's owners decide whether that matters enough to change host. |
 
-<!-- explorer-checks:state {"passing": true, "date": "2026-11-06", "commit": "95928cabfd1303a63d18e442d63ad630e4308bb8", "open": [], "titles": {}} -->
+<!-- explorer-checks:state {"passing": true, "date": "2026-11-06", "commit": "9fdbe6ea6262861a452ed29febcd7598968c35af", "open": [], "titles": {}} -->

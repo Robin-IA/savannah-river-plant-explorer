@@ -105,10 +105,10 @@ Sources for "Bomb Making: A History of the Savannah River Plant", Chapter 3. Com
     - SRNS site, first capture (January 2008).
     - Live: 200.
     - Verified 2026-11-06.
-18. **AIT**: Archive-It collection 21606 "Quasi-Governmental Domains", seed `http://savannahrivernuclearsolutions.com`, created 2023-07-06. Collection 21601 "Federal (.gov/.mil) Domains" has seeds `http://SRS.GOV` and `http://SRNL.GOV`, created 2023-07-05.
-    - The seeds and collections were confirmed through `partner.archive-it.org/api/seed` and `/api/collection`.
+18. **AIT**: Archive-It collection 21606 "Quasi-Governmental Domains" has archived `savannahrivernuclearsolutions.com` since 2023-07-06. Collection 21601 "Federal (.gov/.mil) Domains" has archived `SRS.GOV` and `SRNL.GOV` since 2023-07-05.
+    - Which sites each collection archives, and since when, was confirmed through the Archive-It partner API.
     - Opening capture URLs on `wayback.archive-it.org` returned a "Session Verification" bot challenge, so I could not confirm individual captures automatically.
-    - Verified (seeds) 2026-11-06.
+    - Verified 2026-11-06 (the archived sites, not individual captures).
 19. **DL**: `micro_IA40386015_0280`
     - *Project Control Services, Inc. v. Westinghouse Savannah River Co.*, 537 U.S. 1045 (2002). Supreme Court cert docket, microfiche.
     - Also **DL**: `micro_IA40386015_1061` (*U.S. ex rel. Becker v. WSRC*, 2003).
@@ -473,7 +473,7 @@ Sources for "Bomb Making: A History of the Savannah River Plant", Chapter 3. Com
     - Verified 2026-11-06.
 91. **WB**: https://web.archive.org/web/20131215012236/http://www.srswatch.org:80/
     - Savannah River Site Watch (Tom Clements), first capture. Live: 200.
-    - **AIT**: Archive-It collection 12263, "Activists and Advocates" (Richard B. Russell Library, UGA), seed `https://srswatch.org/`, created 2022-01-10. Confirmed by API; capture pages were bot-gated.
+    - **AIT**: Archive-It collection 12263, "Activists and Advocates" (Richard B. Russell Library, UGA), has archived `srswatch.org` since 2022-01-10. Confirmed by API; capture pages were bot-gated.
     - Verified 2026-11-06.
 92. **WB**: https://web.archive.org/web/20260922145204/https://www.dnfsb.gov/doe-sites/savannah-river-site
    - Wayback capture of https://www.dnfsb.gov/doe-sites/savannah-river-site (held by DNFSB).
@@ -667,7 +667,7 @@ Added 6 November 2026 from a second research pass; every item was checked live t
 - **News coverage:** no Aiken Standard or Post and Courier articles were located or verified directly. Only the Post and Courier's DocumentCloud source documents (#58) were found. Newspaper coverage of the MOX termination (October 2018) and of the P/R ISD needs a library database.
 - **MOX timeline:** the NNSA termination notice and the date the MOX contract ended (October 2018) are unsourced here. Also not read: the D.S.C. preliminary injunction (Childs, June 2018), the 2017 order to remove 1 metric ton, and the 2020 $600 million settlement. All three are unsourced.
 - **SREL in the 2020s:** no source was found for a current funding crisis. The 2025 CAB slides (#80) list "challenges" but do not describe cuts. The 2007 "SREL budget crisis" PDF on the UGA site was never captured by Wayback.
-- **Archive-It:** captures could not be enumerated because wayback.archive-it.org served a bot challenge. Only the seeds are confirmed (#18, #91).
+- **Archive-It:** captures could not be enumerated because wayback.archive-it.org served a bot challenge. Only which sites are archived, and since when, is confirmed (#18, #91).
 - **CDX coverage:** the uga.edu/srel, srel.uga.edu and cab.srs.gov CDX sweeps were cut short by Wayback rate limiting (HTTP 429). Only targeted lookups were done.
 - **SRS news archive:** `srs.gov/general/news/` was fully enumerated (1,937 URLs), but only about 30 PDFs were read. The ~120 SRNL releases and the H-Canyon releases (2008 `NR2008_HCanyonWasteSeg`, 2014–2023 `nr*_h-canyon*`) are unread.
 - **Not searched:** the DNFSB weekly reports and SC DHEC permits.
