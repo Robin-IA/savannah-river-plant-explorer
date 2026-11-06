@@ -1,11 +1,11 @@
 # Security and accessibility checks
 
-**Status: passing.** All three checks passed on 2026-11-06 at commit `9a32a360db`. Nothing is open. Advisory items below are optional.
+**Status: passing.** All three checks passed on 2026-11-06 at commit `e008e29a78`. Nothing is open. Advisory items below are optional.
 
 | | |
 |---|---|
 | Explorer | https://github.com/Robin-IA/savannah-river-plant-explorer |
-| Commit | `9a32a360db` on `images` |
+| Commit | `e008e29a78` on `open-library` |
 | Date | 2026-11-06 |
 | Pages checked | `./`, `./?q=tritium`, `timeline.html`, `sources.html`, `sources.html?tag=DL&act=2&q=reactor`, `about.html` |
 | Served from | repository root, served locally |
@@ -26,7 +26,7 @@
 
 ## Standards met
 
-Checked 6 November 2026 at commit `9a32a360db`, on the pages listed above:
+Checked 6 November 2026 at commit `e008e29a78`, on the pages listed above:
 
 - **WCAG 2.2 Level AA**: every Level A and AA success criterion, by automated tests and a manual review of each criterion (checklists under each check below).
 - **WCAG 2.1 Level AA** and **WCAG 2.0 Level AA**, which WCAG 2.2 includes. 4.1.1 Parsing, dropped from 2.2 but still in 2.0 and 2.1, is covered by the code validity check (no HTML parse errors, no duplicate ids).
@@ -81,11 +81,11 @@ No open items.
 | Item | Result | Note |
 |---|---|---|
 | 1.1.1 Non-text content | pass | Logos have alt naming their destination; the banner map is decorative (alt="") and the same map appears in the story with full alt text; the holder chart has a title and a visually hidden data table; timeline marks are links whose names give date, event and holder, with the same events as a list. Th |
-| 1.3.1 Info and relationships | pass | h1 in the banner, then h2 and h3 in order; legends are lists; the sources and reactor tables have th scope; filters are a fieldset with legend; the timeline filters are a labelled group of toggle buttons. |
+| 1.3.1 Info and relationships | pass | h1 in the banner, then h2 and h3 in order; legends are lists; the sources and reactor tables have th scope; filters are a fieldset with legend; the timeline filters are a labelled group of toggle buttons. Holder tags include OL (Open Library) with its own text label. |
 | 1.3.2 Meaningful sequence | pass | DOM order is header, intro, contents, article; the grid does not reorder. |
 | 1.4.1 Use of color | pass | Holder tags carry text; timeline marks differ in shape (circle, square, diamond, triangle, ring) as well as colour; story citations are underlined. |
 | 1.4.11 Non-text contrast | pass | Inputs have #8a8a8a borders on white (3.5:1); focus ring is 3px #4b64ff. |
-| 1.4.4 Resize text / 1.4.12 Text spacing | pass | Sizes in rem and em; every page reflows at 320 px with no sideways page scroll. The timeline chart scrolls inside its own box at narrow widths (a two-dimensional graphic, allowed by 1.4.10), and the same events follow as a list that reflows. |
+| 1.4.4 Resize text / 1.4.12 Text spacing | pass | Sizes in rem and em; every page reflows at 320 px with no sideways page scroll. The timeline chart scrolls inside its own box at narrow widths (a two-dimensional graphic, allowed by 1.4.10), and the same events follow as a list that reflows. Figures float beside the text on wide screens and stack be |
 | 2.4.4 Link purpose | pass | Citation links read as holder tag plus title (for example 'WB: SRS at Fifty ch. 7'); bare DL or IA citations take their purpose from the sentence they close, which 2.4.4 allows. |
 | 2.4.6 Headings and labels | pass | Headings name their acts and sections; Act and Search labels are visible. |
 | 3.1.1 Language of page | pass | lang=en on all three pages; content is English. |
@@ -123,4 +123,4 @@ Optional. These items never block a pass.
 |---|---|---|---|---|---|
 | `S-9a6baa` | security | No x-content-type-options header | `https://robin-ia.github.io/savannah-river-plant-explorer/` | A02:2025 · ASVS V3 | Set it; it stops browsers guessing content types. It has no <meta> form, so on a host that cannot set headers (GitHub Pages) it stays open; the explorer's owners decide whether that matters enough to change host. |
 
-<!-- explorer-checks:state {"passing": true, "date": "2026-11-06", "commit": "9a32a360dbd3c081f4a36aa106267e6cd17af6fe", "open": [], "titles": {}} -->
+<!-- explorer-checks:state {"passing": true, "date": "2026-11-06", "commit": "e008e29a78e993709de7adb2a001704098456af3", "open": [], "titles": {}} -->
