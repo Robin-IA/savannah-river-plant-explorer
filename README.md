@@ -1,9 +1,11 @@
 # Bomb Making: A History of the Savannah River Plant
 
+**Live explorer: [robin-ia.github.io/savannah-river-plant-explorer](https://robin-ia.github.io/savannah-river-plant-explorer/)**
+
 **A history of the Savannah River Plant in South Carolina, from 1950 to now,
 told from records held in Democracy's Library, the wider Internet Archive,
 the Wayback Machine and elsewhere, with every source labelled by where it
-is held.** Live at **https://robin-ia.github.io/savannah-river-plant-explorer/**.
+is held.**
 
 ## What it does
 
