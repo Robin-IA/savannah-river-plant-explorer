@@ -187,8 +187,8 @@ h2.act-3 .act-n { color: var(--act3); }
 .hb-name { flex: 1; }
 .hb-n { font-weight: 700; font-variant-numeric: tabular-nums; color: var(--muted); }
 a.seg-link:hover .seg, a.seg-link:focus .seg { stroke: var(--ink); stroke-width: 1.5; }
-a.seg-link:focus { outline: none; }
-a.seg-link:focus-visible .seg { stroke: var(--focus); stroke-width: 3; }
+a.seg-link:focus { outline: 3px solid var(--focus); outline-offset: 1px; }
+a.seg-link:focus .seg { stroke: var(--focus); stroke-width: 3; }
 
 /* Holder chart */
 .holder-chart { width: 100%; height: auto; display: block; }
