@@ -394,7 +394,7 @@ def build_chapters(items):
 %s
 <article>
 %s
-<nav class="prev-next" aria-label="Chapters">%s</nav>
+<nav class="prev-next" aria-label="Previous and next chapter">%s</nav>
 </article>
 %s
 </div>
