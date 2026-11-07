@@ -38,7 +38,7 @@ logos:
   by where they are held, by chapter and by word. The filters are kept in the
   URL, for example `sources.html?tag=WB&chapter=3&q=DWPF`.
 - **Glossary** (`glossary.html`): the technical words, agencies and places in
-  the story, in plain English.
+  the story.
 - **About** (`about.html`), including the controversies, the documentary
   *Building Bombs*, and where the sources disagree.
 

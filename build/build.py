@@ -573,7 +573,7 @@ def build_about(pages):
 
 def build_glossary():
     body = (CONTENT / "glossary.md").read_text(encoding="utf-8")
-    lede = "The technical words, agencies and places in the story, in plain English."
+    lede = "The technical words, agencies and places in the story."
     page = head("Glossary · " + TITLE, "glossary.html", "Glossary", lede) + \
         '<main id="main" class="wrap about">\n%s\n</main>\n' % body + foot()
     write(ROOT / "glossary.html", page)
