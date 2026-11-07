@@ -236,7 +236,7 @@
       "when": 1974.33,
       "date": "May 2, 1974",
       "lane": "science",
-      "text": "479,000 curies of tritium gas escape from a stack",
+      "text": "479,000 curies of radioactive tritium gas escape from a stack",
       "tag": "WB",
       "ref": "osti-1974",
       "section": "A plant that measured itself",
@@ -330,7 +330,7 @@
       "when": 1991.5,
       "date": "Summer 1991",
       "lane": "cleanup",
-      "text": "Par Pond is lowered 19 feet after a dam scare, exposing 1,300 acres of cesium-contaminated sediment",
+      "text": "Par Pond is lowered 19 feet after a dam scare, exposing 1,300 acres of radioactive cesium-contaminated sediment",
       "tag": "WB",
       "ref": "osti-parpond",
       "section": "Plant to Site"
@@ -339,7 +339,7 @@
       "when": 1991.95,
       "date": "Dec 1991",
       "lane": "science",
-      "text": "Tritium from K reactor reaches the Savannah River",
+      "text": "Radioactive tritium from K reactor reaches the Savannah River",
       "tag": "WB",
       "ref": "osti-k-tritium",
       "section": "Plant to Site"
@@ -615,7 +615,7 @@
       "when": 2026.76,
       "date": "Oct 2026",
       "lane": "people",
-      "text": "The 2026 deer hunts begin: dog hunts only, every animal checked for cesium-137",
+      "text": "The 2026 deer hunts begin: dog hunts only, every animal checked for radioactive cesium-137",
       "tag": "WB",
       "ref": "srs-hunt-2026",
       "section": "The hunts go on"
