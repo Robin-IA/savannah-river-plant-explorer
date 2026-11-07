@@ -959,7 +959,8 @@ not known" ([WB: ATSDR][atsdr-2012]).
 
 ### Living with the Plant
 
-Then came the cuts. The site employed 23,351 people in 1992, about 10 percent
+Then budget cuts came, hitting the plant and, through it, the local economy
+and community. The site employed 23,351 people in 1992, about 10 percent
 of all jobs in six surrounding counties, with a payroll above $1.1 billion,
 and a 1995 DOE (Department of Energy) study warned that budget cuts could remove up to 4,200 more
 jobs ([IA: DOE, 1995](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
