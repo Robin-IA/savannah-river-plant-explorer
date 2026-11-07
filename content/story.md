@@ -220,11 +220,7 @@ by others ([WB: ch. 11][fifty-11]; [WB][history1]).
 
 In 1956 the neutrino was confirmed at P reactor. R and the heavy-water
 components test reactor shut down in 1964, and L in 1968
-([WB: srs.gov 1960s][srs-1960]). The standard history of the reactors is
-Carlisle and Zenzen's *Supplying the Nuclear Arsenal*
-([IA](https://archive.org/details/supplyingnuclear0000carl)), and the South
-Carolina State Historic Preservation Office holds a long illustrated study of
-the five reactor areas ([WB: SC SHPO][shpo-reactors]).
+([WB: srs.gov 1960s][srs-1960]).
 
 ### What it released
 
@@ -250,7 +246,8 @@ On March 14, 1955, after a light rain, contamination across the plant set off
 the shoe monitors of workers coming in from outside. The plant blamed
 fallout from a bomb test in Nevada two days before. In 1985 Bernd Franke and
 Robert Alvarez argued that a reactor accident was the likelier source, since
-the contamination centered on the K, L and P reactors.
+the contamination centered on the K, L and P reactors ([WB: CDC Phase II
+ch. 6][cdc-ch6]).
 
 At Senator Thurmond's request, the staff of the Senate Armed Services
 Committee investigated and reported in July 1986 that their case was "merely
@@ -1014,7 +1011,6 @@ copies.
 [srs-1980]: https://web.archive.org/web/20251030232444/https://www.srs.gov/general/about/srs-1980.htm
 [srs-1990]: https://web.archive.org/web/20251028103730/https://www.srs.gov/general/about/srs-1990.htm
 [history1]: https://web.archive.org/web/20051025030030/http://www.srs.gov:80/general/about/history1.htm
-[shpo-reactors]: https://web.archive.org/web/20260518145159/https://scdah.sc.gov/sites/scdah/files/Documents/Historic%20Preservation%20(SHPO)/Research/Historic%20Contexts/SRS%20Reactor%20Areas.pdf
 [srel-radioecology]: https://web.archive.org/web/20160620134206/http://srel.uga.edu:80/outreach/snapshots/history_radioecology.html
 [osti-env-1974]: https://web.archive.org/web/20251230084004/https://www.osti.gov/biblio/4174736
 [esa-thermal]: https://web.archive.org/web/20250216113323/https://esa.org/history/fifty-years-ago-the-development-of-thermal-ecology-at-srel
