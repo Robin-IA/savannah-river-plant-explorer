@@ -362,6 +362,11 @@ permanent laboratory in 1961 ([WB: srs.gov 1960s][srs-1960]) — the Savannah
 River Ecology Laboratory, which dates its own founding to 1951 ([WB:
 SREL][srel-radioecology]).
 
+<figure class="fig wide">
+<img src="img/srs60-srel.jpg" width="1400" height="560" alt="Two photographs side by side: a black-and-white view of a small low laboratory building among pines, and a color view of a larger modern laboratory building with a lawn." loading="lazy">
+<figcaption>The Savannah River Ecology Laboratory, early and about 2010. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_Savannah_River_Ecology_Lab_(5227688055).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 Much of the land had been worked hard. When the government took it, about
 two-thirds was forest, most of it already logged, and a third was cropland or
 pasture ([IA: SREL scientists, 2002](https://archive.org/details/DTIC_ADA400802)). In 1952 the AEC and
@@ -369,9 +374,20 @@ the U.S. Forest Service agreed to manage the land together, and the Forest
 Service's first job was planting trees "by the thousands" on old farms
 ([DL: Forest Service, 1995](https://archive.org/details/savannahriverfor51unit)).
 
+<figure class="fig wide">
+<img src="img/srs60-woods.jpg" width="1400" height="560" alt="Two photographs side by side: a black-and-white view of open, cleared farmland with a few young trees, and a color view of a tall pine forest." loading="lazy">
+<figcaption>Replanting the land: open ground in the early years and the pine forest that grew on it, about 2010. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_The_Woods_at_SRS_(5228291996).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 The site and its reactors changed the local streams and watershed. Lower Three Runs Creek was dammed in 1958
 to make Par Pond, a cooling reservoir, and the reactors sent hot water down
 creeks such as Steel Creek ([IA: L-Reactor environmental impact statement, 1984](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
+
+<figure class="fig">
+<img src="img/par-pond-2020.jpg" width="1400" height="1050" alt="A metal walkway with railings leads out over a wide lake ringed by pine forest under a blue sky with white clouds." loading="lazy">
+<figcaption>Par Pond, the cooling reservoir built for P and R reactors, in 2020. <span class="credit">Photograph by Dustin Lalonde, Savannah River National Laboratory, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Par_Pond_(50327020507).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 
 By the end of the 1960s the plant had done what it was built for. Its
 reactors had made plutonium and tritium for more than a decade, and two of
@@ -490,10 +506,22 @@ separations areas was more than 2,500 times the standard. DOE answered that
 the contamination stayed under federal land and posed no threat to the public
 ([IA: GAO 1986](https://archive.org/details/micro_IA41152607_0232)).
 
+<figure class="fig wide">
+<img src="img/srs60-m-area.jpg" width="1400" height="560" alt="Two photographs side by side: a black-and-white aerial view of a group of large industrial buildings, and a color view of the same ground cleared to grass." loading="lazy">
+<figcaption>M Area, where the plant made its fuel and targets, in production and about 2010 after its buildings were torn down. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_M_Area_(5228271816).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
+
 By 1991 the Office of Technology Assessment reported an EPA finding that the
 pump-and-treat system meant to clean the M Area plume was not adequately
 designed to reach its goal
 ([DL](https://archive.org/details/micro_IA41152852_0090)).
+
+<figure class="fig tall">
+<img src="img/m1-air-stripper-2009.jpg" width="683" height="919" alt="A tall steel tower with ladders and pipes stands on a grassy site under a blue sky." loading="lazy">
+<figcaption>The M-1 air stripper, which by 2009 had pumped and treated more than five billion gallons of groundwater from A and M Areas. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Five_Billion_Gallons_M-1_Air_Stripper_(7409143760).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 
 ### 1987–1988: the reactors stop
 
@@ -519,6 +547,12 @@ despite a reactivity shortfall larger than any the plant had seen
 ([DL](https://archive.org/details/micro_IA41152603_0340); [WB:
 gao.gov][gao-88-68]).
 
+<figure class="fig wide">
+<img src="img/k-area-2025.jpg" width="1400" height="933" alt="Aerial color photograph of a large concrete reactor building with a tall stack, surrounded by smaller buildings, roads, a water tank and pine woods." loading="lazy">
+<figcaption>K reactor, one of the three that stopped in 1988, from the air in 2025. The building is now the K Area Complex. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:211486_K_Area_Aerials_11-11-21_002_(54439533593).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
+
 Glenn's bill to put the weapons plants under outside safety oversight was
 already in hearings
 ([DL](https://archive.org/details/micro_IA41152617_0167)). The next day,
@@ -529,7 +563,7 @@ superiors at Du Pont ([WB: *New York Times*][nyt-881001]). By November the
 paper was asking how Congress had missed the signs ([WB: *New York
 Times*][nyt-881128]).
 
-### Plant to Site
+### A Name Change
 
 In April 1989 the Westinghouse Savannah River Company took over from Du Pont
 ([WB: ch. 19][fifty-19]). The same year the Savannah River Plant became the
@@ -542,22 +576,6 @@ picture of cleanup and modernization problems
 <img src="img/srp-plutonium-production.png" width="600" height="450" alt="Bar chart titled Savannah River Plutonium Production, in kilograms by fiscal year from 1955 to 1988, with a total of 36.1 metric tons. Output rises from about 550 kilograms in 1955 to a peak of about 2,100 kilograms in 1963 and 1964, varies between about 450 and 1,400 kilograms a year from 1965 to 1987, and falls below 200 kilograms in 1988." loading="lazy">
 <figcaption>Plutonium produced at Savannah River each fiscal year, 1955&ndash;1988: 36.1 metric tons in all. From the Department of Energy&rsquo;s <em>Plutonium: The First 50 Years</em> (1996), held by <a href="https://www.osti.gov/biblio/219368">OSTI</a> and <a href="https://web.archive.org/web/20250227063902/https://www.osti.gov/servlets/purl/219368">preserved in Wayback</a>; not in the Internet Archive&rsquo;s collections. <span class="credit">Public domain, via <a href="https://commons.wikimedia.org/wiki/File:Savannah_River_plutonium_production.gif">Wikimedia Commons</a>.</span></figcaption>
 </figure>
-
-That August Senator Glenn argued that DOE's research on the health of its
-own workers had been subordinated to production. Senator Kohl called for
-removing the apparent conflict of interest, and said he was open to moving
-that research to Health and Human Services. The record included a 1988 study
-that reported a significant excess of leukemia deaths among hourly Savannah
-River workers hired before 1955 ([IA: Senate hearing,
-1989](https://archive.org/details/micro_IA41152837_0739)). The later dose
-reconstruction was run by the CDC ([WB: CDC][cdc-srs-page]).
-
-Studies of the neighbors began at the same time. A July 1990 National
-Institutes of Health survey compared cancer deaths in Aiken and Barnwell
-counties and Georgia's Burke County with similar counties elsewhere. It found
-no excess among children, more leukemia at ages 20 to 39 and slightly more
-lung cancer in older adults, and said it did not show cancer excesses tied to
-the plant ([DL](https://archive.org/details/cancerinpopulati00jabl_1); [DL](https://archive.org/details/cancerinpopulati00jabl_0)).
 
 DOE still meant to restart. In February 1991 it planned K for that summer
 and L for 1992, at $3.2 billion for restart and operations ([WB: GAO
@@ -605,6 +623,23 @@ DOE study said shutting the K, L and P reactors would cost about 9,600 jobs
 Savannah River, with 23,000 workers, as its largest manufacturing employer,
 and noted that federal cutbacks had begun
 ([IA: South Carolina Economic Report, 1993](https://archive.org/details/micro_IA40706946_0199)).
+
+The plant's neighbors and workers also raised questions about their health.
+In August 1989 Senator Glenn argued that DOE's research on the health of its
+own workers had been subordinated to production. Senator Kohl called for
+removing the apparent conflict of interest, and said he was open to moving
+that research to Health and Human Services. The record included a 1988 study
+that reported a significant excess of leukemia deaths among hourly Savannah
+River workers hired before 1955 ([IA: Senate hearing,
+1989](https://archive.org/details/micro_IA41152837_0739)). The later dose
+reconstruction was run by the CDC ([WB: CDC][cdc-srs-page]).
+
+Studies of the neighbors began at the same time. A July 1990 National
+Institutes of Health survey compared cancer deaths in Aiken and Barnwell
+counties and Georgia's Burke County with similar counties elsewhere. It found
+no excess among children, more leukemia at ages 20 to 39 and slightly more
+lung cancer in older adults, and said it did not show cancer excesses tied to
+the plant ([DL](https://archive.org/details/cancerinpopulati00jabl_1); [DL](https://archive.org/details/cancerinpopulati00jabl_0)).
 
 ### Protests
 
