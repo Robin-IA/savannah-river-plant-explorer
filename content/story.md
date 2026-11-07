@@ -270,11 +270,6 @@ radioactivity into a seepage basin dug only that year. In 1958 three
 high-level waste tanks in H Area leaked through their steel walls ([WB: CDC
 Phase II ch. 5][cdc-ch5]).
 
-<figure class="fig tall">
-<img src="img/f-seepage-basin-wells-2013.jpg" width="1400" height="2104" alt="A man in a cap tests water from a white plastic well pipe in a grassy field, with sampling equipment, buckets and a large plastic tank behind him." loading="lazy">
-<figcaption>Site geologists sampling a groundwater well below the capped F Area seepage basin in 2013, where a treatment had been injected into the groundwater. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Geoscience_at_Work_(9317344120).jpg">Wikimedia Commons</a>.</span></figcaption>
-</figure>
-
 The final report judged the doses to people living nearby small, but found
 that a child born in 1955 received much of a lifetime dose from the site in
 its first years, from those early iodine releases ([WB: CDC Phase
@@ -496,6 +491,11 @@ strongly suggested groundwater problems; in 1983 the plant reported that a
 well supplying drinking water to its own employees was contaminated, and two
 more followed
 ([DL](https://archive.org/details/micro_IA41152617_0148)).
+
+<figure class="fig tall">
+<img src="img/f-seepage-basin-wells-2013.jpg" width="1400" height="2104" alt="A man in a cap tests water from a white plastic well pipe in a grassy field, with sampling equipment, buckets and a large plastic tank behind him." loading="lazy">
+<figcaption>Site geologists sampling a groundwater well below the capped F Area seepage basin in 2013, where a treatment had been injected into the groundwater. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Geoscience_at_Work_(9317344120).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 The department's deputy commissioner told Senator Glenn's committee in 1987
 that plant staff had at first been reluctant to accept the state's
