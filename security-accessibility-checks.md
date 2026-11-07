@@ -1,11 +1,13 @@
 # Security and accessibility checks
 
-**Status: passing.** All three checks passed on 2026-11-07 at commit `02a09b08cb`. Nothing is open. Advisory items below are optional.
+**Status: passing.** All three checks passed on 2026-11-07 at commit `bd99040e1a`. Nothing is open. Advisory items below are optional.
+
+> The checkout had uncommitted changes when this ran, so it describes a working tree, not a commit.
 
 | | |
 |---|---|
 | Explorer | https://github.com/Robin-IA/savannah-river-plant-explorer |
-| Commit | `02a09b08cb` on `health-river` |
+| Commit | `bd99040e1a` on `fix-source-links` |
 | Date | 2026-11-07 |
 | Pages checked | `./`, `./?q=tritium`, `chapter-1.html`, `chapter-2.html`, `chapter-3.html`, `chapter-4.html`, `timeline.html`, `sources.html`, `sources.html?tag=DL&chapter=2&q=reactor`, `about.html` |
 | Served from | repository root, served locally |
@@ -26,7 +28,7 @@
 
 ## Standards met
 
-Checked 7 November 2026 at commit `02a09b08cb`, on the pages listed above:
+Checked 7 November 2026 at commit `bd99040e1a`, on the pages listed above:
 
 - **WCAG 2.2 Level AA**: every Level A and AA success criterion, by automated tests and a manual review of each criterion (checklists under each check below).
 - **WCAG 2.1 Level AA** and **WCAG 2.0 Level AA**, which WCAG 2.2 includes. 4.1.1 Parsing, dropped from 2.2 but still in 2.0 and 2.1, is covered by the code validity check (no HTML parse errors, no duplicate ids).
@@ -76,10 +78,10 @@ No open items.
 
 | Id | Item | Where | Why cleared |
 |---|---|---|---|
-| `S-d1a00b` | String rendered as markup or code (html) | `sources.html:202` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
-| `S-f296f3` | String rendered as markup or code (html) | `sources.html:211` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
-| `S-b18eba` | String rendered as markup or code (html) | `sources.html:224` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
-| `S-1cd70a` | String rendered as markup or code (html) | `sources.html:234` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
+| `S-d1a00b` | String rendered as markup or code (html) | `sources.html:206` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
+| `S-f296f3` | String rendered as markup or code (html) | `sources.html:215` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
+| `S-b18eba` | String rendered as markup or code (html) | `sources.html:228` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
+| `S-1cd70a` | String rendered as markup or code (html) | `sources.html:238` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
 
 </details>
 
@@ -138,4 +140,4 @@ Optional. These items never block a pass.
 |---|---|---|---|---|---|
 | `S-9a6baa` | security | No x-content-type-options header | `https://robin-ia.github.io/savannah-river-plant-explorer/` | A02:2025 · ASVS V3 | Set it; it stops browsers guessing content types. It has no <meta> form, so on a host that cannot set headers (GitHub Pages) it stays open; the explorer's owners decide whether that matters enough to change host. |
 
-<!-- explorer-checks:state {"passing": true, "date": "2026-11-07", "commit": "02a09b08cb33d9d6e82e2e80388844bd5b8a9354", "open": [], "titles": {}} -->
+<!-- explorer-checks:state {"passing": true, "date": "2026-11-07", "commit": "bd99040e1a19a656b77e5bbe7618c6bb85c79b58", "open": [], "titles": {}} -->

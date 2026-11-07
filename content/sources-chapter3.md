@@ -105,7 +105,7 @@ Sources for "Bomb Making in South Carolina: The Savannah River Plant", Chapter 3
     - SRNS site, first capture (January 2008).
     - Live: 200.
     - Verified 2026-11-06.
-18. **AIT**: Archive-It collection 21606 "Quasi-Governmental Domains" has archived `savannahrivernuclearsolutions.com` since 2023-07-06. Collection 21601 "Federal (.gov/.mil) Domains" has archived `SRS.GOV` and `SRNL.GOV` since 2023-07-05.
+18. **AIT**: https://archive-it.org/collections/21606 Archive-It collection 21606 "Quasi-Governmental Domains" has archived `savannahrivernuclearsolutions.com` since 2023-07-06. Collection 21601 "Federal (.gov/.mil) Domains" has archived `SRS.GOV` and `SRNL.GOV` since 2023-07-05.
     - Which sites each collection archives, and since when, was confirmed through the Archive-It partner API.
     - Opening capture URLs on `wayback.archive-it.org` returned a "Session Verification" bot challenge, so I could not confirm individual captures automatically.
     - Verified 2026-11-06 (the archived sites, not individual captures).
@@ -632,6 +632,16 @@ Added November 7, 2026; every item checked live that day.
    - ATSDR public health assessment, *Evaluation of Exposures to Contaminants in Biota Originating from the Savannah River Site*, February 29, 2012.
    - No harmful radiation from local crops, livestock or game; mercury risk from heavy eating of bass, bowfin and catfish; the site's share of mercury 'is not known'; the 1997 survey of 258 people fishing the river; fishing on the site barred. PDF read.
    - Verified 2026-11-07.
+
+## 13. Living with the Plant; SRS and Ecology
+
+Added November 7, 2026; every item checked live that day.
+
+125. **WB**: https://web.archive.org/web/20201018100023/https://www.gao.gov/assets/710/705841.pdf
+   - GAO-20-122, *Payments in Lieu of Taxes*, October 2019.
+   - Barnwell County about $4.5 million of $6.2 million in fiscal 2013; per-acre values set in 1988. PDF read.
+   - Verified 2026-11-07.
+
 
 ## Key facts (each with its source)
 

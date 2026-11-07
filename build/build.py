@@ -399,7 +399,7 @@ def build_chapters(items):
         body = re.sub(r"<(p|li)>", pid, body)
         sections[n] = []
         for hid, htext in re.findall(r'<h2 id="([^"]+)">(.*?)</h2>', body):
-            pages[hid] = page
+            pages.setdefault(hid, []).append(page)
             sections[n].append((hid, re.sub("<[^>]+>", "", htext)))
         # passages for search: each paragraph with the section it sits in
         current = ""
@@ -524,7 +524,7 @@ def build_sources(items):
 
 def build_about(pages):
     body = markdown.markdown((CONTENT / "about.md").read_text(encoding="utf-8"))
-    body = re.sub(r'href="index\.html#([\w-]+)"', lambda m: 'href="%s#%s"' % (pages[m.group(1)], m.group(1)), body)
+    body = re.sub(r'href="index\.html#([\w-]+)"', lambda m: 'href="%s#%s"' % (pages[m.group(1)][0], m.group(1)), body)
     disagree = markdown.markdown((CONTENT / "disagree.md").read_text(encoding="utf-8"))
     body = body.replace("<!-- DISAGREE -->", disagree.replace("<ul>", '<ul class="disagree">'))
     lede = ("A history of the Savannah River Plant told from the record, with every source "
@@ -567,7 +567,11 @@ def build_timeline(tl, pages):
         e["i"] = i
         e["url"] = e.get("href") or refs[e["ref"]]
         e["anchor"] = slug(e["section"])
-        e["page"] = pages[e["anchor"]]
+        # A heading such as "SRS and Ecology" appears in every chapter: pick
+        # the chapter the event's date falls in.
+        options = pages[e["anchor"]]
+        by_date = next((CHAPTER_PAGE[a] for a, y0, y1, _ in ACT_SPANS if y0 <= e["when"] < y1), options[0])
+        e["page"] = by_date if by_date in options else options[0]
     for r in tl["reactors"]:
         r["url"] = r.get("href") or refs[r["ref"]]
 

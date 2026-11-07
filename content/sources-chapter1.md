@@ -64,7 +64,7 @@ Where an item is cited for what it says, the claim comes from the full-text-sear
 
 | Label | Identifier / URL | Title | Date | Holder / collection | Contribution |
 |---|---|---|---|---|---|
-| WB | (ch. 4–6, 9, 10 are in `SRSat50.pdf` above; no separate captures exist) | *SRS at Fifty* ch. 4 "Large-Scale Gamble", ch. 5 "Like Picking Babe Ruth in His Prime", ch. 6 "Boomers, Boosters, and Economic Statesmen", ch. 9 "One Mighty Force" | 2002 | Wayback | Du Pont's selection, the boom towns and construction. |
+| WB | https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf (ch. 4–6, 9, 10 are in the full book above; no separate captures exist) | *SRS at Fifty* ch. 4 "Large-Scale Gamble", ch. 5 "Like Picking Babe Ruth in His Prime", ch. 6 "Boomers, Boosters, and Economic Statesmen", ch. 9 "One Mighty Force" | 2002 | Wayback | Du Pont's selection, the boom towns and construction. |
 | IA | `sim_atomic-energy-newsletter_1950-12-05_4_8` | *Atomic Energy Newsletter*, Dec 5, 1950 | 1950-12-05 | sim_microfilm | A contemporary trade report: 18 miles of river frontage, the "Savannah River Plant" name and the first Du Pont officials on the scene. |
 | IA (lending) | `atomicshield19470000hewl` | Hewlett & Duncan, *Atomic Shield, 1947/1952* (official AEC history) | 1990 repr. | inlibrary | The AEC–Du Pont negotiation and Du Pont's terms for the Savannah River assignment. |
 | IA (lending) | `nylonbombsdupont0000ndia` | Pap Ndiaye, *Nylon and Bombs: DuPont and the March of Modern America* | 2007 | inlibrary | Corporate history of Du Pont's nuclear role. |
@@ -162,6 +162,17 @@ Added November 6, 2026, from a second research pass; every item was checked live
 | WB | https://web.archive.org/web/20160220075250/http://www.cdc.gov:80/niosh/ocas/srs.html | NIOSH, Savannah River Site, Special Exposure Cohort | 2015-11 | cdc.gov, Wayback | The 2012 SEC class: workers with 250 days at the site between January 1, 1953, and September 30, 1972. Page read. |
 | DL | `micro_IA41152637_1174` | *New Production Reactor Acquisition Strategy*, hearing, Senate Armed Services Committee, with the committee staff's report of July 22, 1986, on the March 1955 incident | 1988-10-05 | us-gpo, DL | The staff investigation requested by Senator Thurmond found Franke and Alvarez's case "merely speculative", attributed the contamination to the Teapot Hornet test, and found no release in the plant's monitoring. Read in full text. |
 | WB | https://web.archive.org/web/20250413191632/https://www.osti.gov/biblio/2341547 | Chiswell, *Historical Savannah River Site Tritium Releases, Pathways, and Transport* (SRNL-STI-2024-00184) | 2024 | OSTI | Restates the March 1955 incident and the Nevada attribution. Wayback capture of https://www.osti.gov/biblio/2341547 (held by OSTI). |
+
+## 6. Living with the Plant; SRS and Ecology
+
+Added November 7, 2026; every item checked live that day.
+
+| Label | Identifier / URL | Title | Date | Holder / collection | Contribution |
+|---|---|---|---|---|---|
+| IA | `sim_monthly-labor-review_1952-09_75_3` | M. Mead Smith, "Labor and the Savannah River AEC Project: Part IV, Community Facilities and Social Changes," *Monthly Labor Review* | 1952-09 | sim_microfilm | More than 10,000 in-migrant workers by November 1951; Williston school enrollment up 69 percent; Barnwell double shifts; a delayed school for Black children. Full text read. Verified 2026-11-07. |
+| WB | https://web.archive.org/web/20080201182435/http://www.energy.gov:80/news/5868.htm | DOE press release on payments in lieu of taxes | 2008-01-21 | energy.gov, Wayback | Aiken, Barnwell and Allendale counties paid since 1954; raised from $3.5 million to $6.2 million. Page read. Verified 2026-11-07. |
+| IA | `DTIC_ADA400802` | *Proceedings of the Partners Along the Fall Line: Sandhills Ecology and Ecosystem Management Workshop* (ERDC/CERL SR-02-2), paper by Sharitz and Collins of SREL | 2002-03-01 | dticarchive | Land about two-thirds forest and one-third crops or pasture at acquisition; cooling water "destroyed the floodplain forests"; restoration of Pen Branch and Four Mile Creek; 30 set-asides of 14,005 acres; 152 red-cockaded woodpeckers by 1999. Full text read. Verified 2026-11-07. |
+| DL | `savannahriverfor51unit` | USDA Forest Service, *Savannah River Forest Station … general report to the public, 1994* | 1995-04 | fedlink, DL | The 1952 AEC–Forest Service agreement; planting trees on former farms; by 1994, woodpeckers 4 to 77, Carolina bay restoration and longleaf pine. Full text read. Verified 2026-11-07. |
 
 ## Archive-It
 

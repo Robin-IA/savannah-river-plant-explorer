@@ -176,6 +176,13 @@ Added November 7, 2026; every item checked live that day.
 - **DL** `cancerinpopulati00jabl_1`. Jablon et al., *Cancer in Populations Living Near Nuclear Facilities*, vol. 1, NIH Publication 90-874, July 1990. fedlink. Study counties Aiken, Barnwell and Burke; no excess under age 20; leukemia higher at ages 20 to 39; "did not demonstrate cancer excesses associated with" the site. Full text read. Verified 2026-11-07.
 - **DL** `cancerinpopulati00jabl_0`. The same survey, vol. 2 (individual facilities), July 1990. fedlink. Verified 2026-11-07.
 
+## 10. Living with the Plant; SRS and Ecology
+
+Added November 7, 2026; every item checked live that day.
+
+- **IA** `micro_IA40706946_0199`. *1993 Economic Report, The State of South Carolina*, SC Budget and Control Board, July 1993 (Statistical Reference Index microfiche). Westinghouse Savannah River, 23,000 workers, the state's largest manufacturing employer in 1992; federal cutbacks begun. Full text read. Verified 2026-11-07.
+- **DL** `redcockadedwoodp23unit`. USDA Forest Service, *Red-cockaded woodpecker research and management at the Savannah River site* (Forestry Report R8-FR 23, revised January 1994). Four birds in three colony sites in 1985; at DOE's request, artificial cavities and translocation. Full text read. Verified 2026-11-07.
+
 ## Key facts (each with its source)
 
 - 1972: SRP becomes the first National Environmental Research Park. Source: srs.gov 1970s timeline (WB 20251028103524).
