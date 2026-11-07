@@ -1,15 +1,15 @@
 # Security and accessibility checks
 
-**Status: passing.** All three checks passed on 2026-11-07 at commit `cf3758552a`. Nothing is open. Advisory items below are optional.
+**Status: passing.** All three checks passed on 2026-11-07 at commit `5b3d340bd5`. Nothing is open. Advisory items below are optional.
 
 > The checkout had uncommitted changes when this ran, so it describes a working tree, not a commit.
 
 | | |
 |---|---|
 | Explorer | https://github.com/Robin-IA/savannah-river-plant-explorer |
-| Commit | `cf3758552a` on `registry-wording` |
+| Commit | `5b3d340bd5` on `section-pages` |
 | Date | 2026-11-07 |
-| Pages checked | `./`, `./?q=tritium`, `chapter-1.html`, `chapter-2.html`, `chapter-3.html`, `chapter-4.html`, `timeline.html`, `sources.html`, `sources.html?tag=DL&chapter=2&q=reactor`, `glossary.html`, `about.html` |
+| Pages checked | `./`, `./?q=tritium`, `chapter-1.html`, `chapter-1-2.html`, `chapter-1-7.html`, `chapter-2.html`, `chapter-2-3.html`, `chapter-3.html`, `chapter-4-9.html`, `timeline.html`, `sources.html`, `sources.html?tag=DL&chapter=2&q=reactor`, `glossary.html`, `about.html` |
 | Served from | repository root, served locally |
 | Live site (headers) | https://robin-ia.github.io/savannah-river-plant-explorer/ |
 | Standard | WCAG 2.2 Level AA |
@@ -28,7 +28,7 @@
 
 ## Standards met
 
-Checked 7 November 2026 at commit `cf3758552a`, on the pages listed above:
+Checked 7 November 2026 at commit `5b3d340bd5`, on the pages listed above:
 
 - **WCAG 2.2 Level AA**: every Level A and AA success criterion, by automated tests and a manual review of each criterion (checklists under each check below).
 - **WCAG 2.1 Level AA** and **WCAG 2.0 Level AA**, which WCAG 2.2 includes. 4.1.1 Parsing, dropped from 2.2 but still in 2.0 and 2.1, is covered by the code validity check (no HTML parse errors, no duplicate ids).
@@ -78,10 +78,10 @@ No open items.
 
 | Id | Item | Where | Why cleared |
 |---|---|---|---|
-| `S-d1a00b` | String rendered as markup or code (html) | `sources.html:210` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
-| `S-f296f3` | String rendered as markup or code (html) | `sources.html:219` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
-| `S-b18eba` | String rendered as markup or code (html) | `sources.html:232` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
-| `S-1cd70a` | String rendered as markup or code (html) | `sources.html:242` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
+| `S-d1a00b` | String rendered as markup or code (html) | `sources.html:212` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
+| `S-f296f3` | String rendered as markup or code (html) | `sources.html:221` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
+| `S-b18eba` | String rendered as markup or code (html) | `sources.html:234` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
+| `S-1cd70a` | String rendered as markup or code (html) | `sources.html:244` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
 
 </details>
 
@@ -117,15 +117,18 @@ No open items.
 
 </details>
 
-<details><summary>Cleared on review (9)</summary>
+<details><summary>Cleared on review (12)</summary>
 
 | Id | Item | Where | Why cleared |
 |---|---|---|---|
 | `A-6c64c1` | Elements must meet minimum color contrast ratio thresholds | `/ color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
 | `A-1ac6d2` | Elements must meet minimum color contrast ratio thresholds | `/chapter-1.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
+| `A-14cd25` | Elements must meet minimum color contrast ratio thresholds | `/chapter-1-2.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
+| `A-cc0da2` | Elements must meet minimum color contrast ratio thresholds | `/chapter-1-7.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
 | `A-83beea` | Elements must meet minimum color contrast ratio thresholds | `/chapter-2.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
+| `A-804450` | Elements must meet minimum color contrast ratio thresholds | `/chapter-2-3.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
 | `A-8e2348` | Elements must meet minimum color contrast ratio thresholds | `/chapter-3.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
-| `A-5a3e6f` | Elements must meet minimum color contrast ratio thresholds | `/chapter-4.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
+| `A-fcae25` | Elements must meet minimum color contrast ratio thresholds | `/chapter-4-9.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
 | `A-fcf340` | Elements must meet minimum color contrast ratio thresholds | `/timeline.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
 | `A-2d464c` | Elements must meet minimum color contrast ratio thresholds | `/sources.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
 | `A-9a4ed8` | Elements must meet minimum color contrast ratio thresholds | `/glossary.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
@@ -141,4 +144,4 @@ Optional. These items never block a pass.
 |---|---|---|---|---|---|
 | `S-9a6baa` | security | No x-content-type-options header | `https://robin-ia.github.io/savannah-river-plant-explorer/` | A02:2025 · ASVS V3 | Set it; it stops browsers guessing content types. It has no <meta> form, so on a host that cannot set headers (GitHub Pages) it stays open; the explorer's owners decide whether that matters enough to change host. |
 
-<!-- explorer-checks:state {"passing": true, "date": "2026-11-07", "commit": "cf3758552a91273ae03698381f3ba415bacc0a64", "open": [], "titles": {}} -->
+<!-- explorer-checks:state {"passing": true, "date": "2026-11-07", "commit": "5b3d340bd5d4a266b09619e781db01640a84d796", "open": [], "titles": {}} -->

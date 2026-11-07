@@ -16,7 +16,8 @@ logos:
   source count; a search box that finds passages in all four chapters,
   events on the timeline and matching sources; and a panel charting where
   each chapter's sources are held.
-- **Chapters 1–4** (`chapter-1.html` to `chapter-4.html`):
+- **Chapters 1–4** (`chapter-1.html` to `chapter-4.html`, with each section
+  on its own page, such as `chapter-1-2.html`, linked by Previous and Next):
   the history, with a tag on every citation: **DL** Democracy's Library,
   **WB** the Wayback Machine, **IA** the Internet Archive outside Democracy's
   Library, **OL** a book cataloged in Open Library,
@@ -75,7 +76,7 @@ The notes for each source, including what was and was not read, are in
   `timeline.json` (each event and reactor span, with the same source as in
   the story), `about.html` (the About page's body) and `disagree.md` (where
   sources disagree, shown on the About page).
-- `build/build.py` writes `index.html`, `chapter-1.html` to `chapter-4.html`,
+- `build/build.py` writes `index.html`, the section pages `chapter-N.html` and `chapter-N-K.html`,
   `timeline.html`, `sources.html`, `glossary.html`, `about.html`, `data/sources.json`,
   `data/timeline.json` and `data/passages.json` (the chapters' paragraphs, for
   search). It needs
