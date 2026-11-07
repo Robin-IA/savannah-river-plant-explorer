@@ -185,6 +185,15 @@ Added November 7, 2026.
 | WB | https://web.archive.org/web/20150920154751/http://www.srarp.org/pdf_documents/Memories%20of%20Home/Dunbarton%20and%20Meyers%20Mill/02_Chapter2.pdf | Browder, Brooks and Crass, *Memories of Home: Dunbarton and Meyers Mill Remembered*, ch. 2 (SRARP Heritage Series 1) | 1993 | srarp.org (dead), Wayback | Dunbarton grew up around the railroad depot from the early 1800s; incorporated September 21, 1910; Meyers Mill named for the Meyer family. Read by OCR. Verified 2026-11-07. |
 | IA | `southcarolinain101phil` | *South Carolina in 1876: Testimony as to the Denial of the Elective Franchise in South Carolina at the Elections of 1875 and 1876*, vol. 1 (Senate, GPO) | 1877 | bostonpubliclibrary (not DL; no DL copy found) | Testimony on the Ellenton riot, printed under the running head "Ellenton Massacre". Text searched. Verified 2026-11-07. |
 
+## 8. Science and the 1960s shutdowns
+
+Added November 7, 2026.
+
+| Label | Identifier / URL | Title | Date | Holder / collection | Contribution |
+|---|---|---|---|---|---|
+| WB | https://web.archive.org/web/20261012201937/https://www.nobelprize.org/prizes/physics/1995/press-release/ | Nobel Prize in Physics 1995, press release | 1995 | nobelprize.org, Wayback | Reactors as intense neutrino sources; after a first trial at Hanford, Reines and Cowan worked at the Savannah River Plant. Page read. Verified 2026-11-07. |
+| WB | https://web.archive.org/web/20261012184031/https://www.nobelprize.org/prizes/physics/1995/reines/facts/ | Frederick Reines, Nobel facts page | 1995 | nobelprize.org, Wayback | Half the 1995 prize "for the detection of the neutrino", with the late Clyde L. Cowan Jr. Page read. Verified 2026-11-07. |
+
 ---
 
 ## Key facts (each with its source)
