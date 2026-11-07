@@ -1,4 +1,4 @@
-# Bomb Making in South Carolina, Chapter 3 (1992 to the present): sources
+# Atomic History: The Savannah River Plant, Chapter 3 (1992 to the present): sources
 
 > Research notes behind [README.md](README.md), compiled November 6, 2026.
 > Every identifier and URL was checked live that day. Every archive.org
@@ -6,7 +6,7 @@
 > scope expression in a second, independent pass; corrections from that pass
 > are marked in place. "The brief" means the research instructions.
 
-Sources for "Bomb Making in South Carolina: The Savannah River Plant", Chapter 3. Compiled 2026-11-06.
+Sources for "Atomic History: The Savannah River Plant", Chapter 3. Compiled 2026-11-06.
 
 **Labels:**
 - **DL**: the item matches the Democracy's Library scope expression. Each one was tested with `identifier:X AND (<expression>)`.

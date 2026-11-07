@@ -1,4 +1,4 @@
-# Bomb Making in South Carolina: The Savannah River Plant
+# Atomic History: The Savannah River Plant
 
 *A draft, told from the record wherever it is held. Sources checked live
 November 6, 2026.*
