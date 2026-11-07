@@ -86,8 +86,8 @@ contested cases had awarded substantially more than the government's
 appraisal
 ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1951-11-27)).
 
-*The Reporter* told the national story in March 1951 as the quiet doom of
-Ellenton ([IA](https://archive.org/details/sim_reporter_1951-03-06_4_5)).
+The magazine *The Reporter* brought the story to the nation in March 1951,
+when it reported on the quiet doom of Ellenton ([IA](https://archive.org/details/sim_reporter_1951-03-06_4_5)).
 *Jet* told a different part of it that December: Black families moving
 whole houses fifteen miles to New Ellenton, the replacement town
 ([IA](https://archive.org/details/sim_jet_1951-12-20_1_8)). A 1965 federal
