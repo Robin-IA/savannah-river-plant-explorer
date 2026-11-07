@@ -48,7 +48,7 @@ Aiken and Barnwell counties, to be called the Savannah River Plant, designed,
 built and operated by Du Pont ([WB: *SRS at Fifty* ch. 8][fifty-8]). The next
 morning it was in the *Atlanta Constitution*
 ([IA](https://archive.org/details/per_atlanta-constitution_1950-11-29_83_142))
-and, by wire, in papers as far away as Victoria, British Columbia
+and in newspapers as far away as Victoria, British Columbia
 ([IA](https://archive.org/details/victoriadailytimes1950-11-29)).
 
 ### The towns inside the fence
