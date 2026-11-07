@@ -49,15 +49,17 @@ TAGS = {
 ACTS = {
     1: "Chapter 1. Building the bomb plant, 1950–1969",
     2: "Chapter 2. The reactors under scrutiny, 1970–1992",
-    3: "Chapter 3. After the bombs, 1992 to now",
+    3: "Chapter 3. After the bombs, 1992–2020",
+    4: "Chapter 4. What's happening now, 2020 to today",
 }
 HELD = {"DL": "in Democracy's Library", "WB": "in the Wayback Machine", "IA": "in the Internet Archive",
         "OL": "in Open Library", "AIT": "in Archive-It", "EXT": "elsewhere"}
-CHAPTER_PAGE = {1: "chapter-1.html", 2: "chapter-2.html", 3: "chapter-3.html"}
+CHAPTER_PAGE = {1: "chapter-1.html", 2: "chapter-2.html", 3: "chapter-3.html", 4: "chapter-4.html"}
 CHAPTER_BLURB = {
     1: "The site chosen, the towns moved off it, the plant built and its reactors running, who was hired, and what it released.",
     2: "Releases and monitoring, the L reactor restart, contaminated groundwater, the secret accidents and the 1988 shutdowns, and the end of production.",
     3: "The turn to cleanup: the waste tanks, sealing the reactors, fights over plutonium, sick workers, the laboratories and how the site is remembered.",
+    4: "The site today: making plutonium pits again, emptying the last waste tanks, moving plutonium out of the state, and who is watching.",
 }
 TAG_RE = re.compile(r"^(DL|IA|OL|WB|AIT|EXT)\b\s*:?\s*(.*)$", re.S)
 
@@ -168,7 +170,8 @@ PAGES = (("index.html", "Story"), ("timeline.html", "Timeline"),
          ("sources.html", "Sources"), ("about.html", "About"))
 ACT_SPANS = ((1, 1950, 1970, "Building the bomb plant"),
              (2, 1970, 1992.5, "The reactors under scrutiny"),
-             (3, 1992.5, 2027, "After the bombs"))
+             (3, 1992.5, 2020.5, "After the bombs"),
+             (4, 2020.5, 2027, "Now"))
 
 
 def banner_art():
@@ -279,7 +282,7 @@ def holder_chart(items):
     """Stacked bars, one per chapter: how many sources each holder supplies."""
     rows, table = [], []
     w, x0, bar = 300, 0, 18
-    for n, act in enumerate((1, 2, 3)):
+    for n, act in enumerate((1, 2, 3, 4)):
         mine = [s for s in items if s["act"] == act]
         total = len(mine)
         y = n * 52 + 22
@@ -301,7 +304,7 @@ def holder_chart(items):
             rows.append('</a>')
             x += seg
         table.append("<tr><th scope=\"row\">Chapter %d</th>%s<td>%d</td></tr>" % (act, "".join("<td>%s</td>" % c for c in cells), total))
-    svg = ('<svg class="holder-chart" viewBox="0 0 %d 158" role="group" aria-labelledby="hc-t">'
+    svg = ('<svg class="holder-chart" viewBox="0 0 %d 210" role="group" aria-labelledby="hc-t">'
            '<title id="hc-t">Sources by where they are held, for each chapter; select a bar to see them</title>%s</svg>' % (w, "".join(rows)))
     tbl = ('<div class="sr"><table><caption>Sources by holder and chapter</caption><tr><th scope="col">Chapter</th>%s<th scope="col">Total</th></tr>%s</table></div>'
            % ("".join('<th scope="col">%s</th>' % html.escape(TAGS[t]) for t in TAGS), "".join(table)))
@@ -406,7 +409,7 @@ def build_chapters(items):
         prev_next = []
         if n > 1:
             prev_next.append('<a class="pn prev" href="%s"><span>Previous</span> %s</a>' % (CHAPTER_PAGE[n - 1], html.escape(ACTS[n - 1])))
-        if n < 3:
+        if n < len(CHAPTER_PAGE):
             prev_next.append('<a class="pn next" href="%s"><span>Next</span> %s</a>' % (CHAPTER_PAGE[n + 1], html.escape(ACTS[n + 1])))
         else:
             prev_next.append('<a class="pn next" href="about.html#where-the-sources-disagree"><span>Next</span> Where the sources disagree</a>')
@@ -427,7 +430,7 @@ def build_chapters(items):
 
 
 def build_home(items, sections):
-    counts = {n: sum(1 for s in items if s["act"] == n) for n in (1, 2, 3)}
+    counts = {n: sum(1 for s in items if s["act"] == n) for n in CHAPTER_PAGE}
     cards = []
     for n, page in CHAPTER_PAGE.items():
         name = ACTS[n].split(". ", 1)[1]
@@ -676,7 +679,7 @@ def build_timeline(tl, pages):
     return tl["events"]
 
 
-LOCAL = re.compile(r"^sources\.html\?(chapter=[123]|tag=(DL|WB|IA|OL|AIT|EXT)(&chapter=[123])?)$|^(index|sources|about|timeline|chapter-[123])\.html(#[\w-]+)?$|^(style\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^img/[\w.-]+\.(png|jpg)$")
+LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|OL|AIT|EXT)(&chapter=[1-4])?)$|^(index|sources|about|timeline|chapter-[1-4])\.html(#[\w-]+)?$|^(style\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^img/[\w.-]+\.(png|jpg)$")
 IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
 
 
@@ -709,7 +712,7 @@ def check_links(name, page):
 
 def main():
     items = []
-    for act in (1, 2, 3):
+    for act in CHAPTER_PAGE:
         items += sources(CONTENT / ("sources-chapter%d.md" % act), act)
     (ROOT / "data").mkdir(exist_ok=True)
     data = [dict({k: s[k] for k in ("section", "tag", "qual", "ident", "href", "search")}, chapter=s["act"])
@@ -731,7 +734,7 @@ def main():
     for s in items:
         by[(s["act"], s["tag"])] = by.get((s["act"], s["tag"]), 0) + 1
     print(len(items), "sources,", len(events), "timeline events")
-    for act in (1, 2, 3):
+    for act in CHAPTER_PAGE:
         print("  chapter", act, {t: by.get((act, t), 0) for t in TAGS})
 
 

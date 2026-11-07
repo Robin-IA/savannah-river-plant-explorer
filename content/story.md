@@ -464,7 +464,7 @@ the reports are reachable in Wayback.
 
 ---
 
-## Chapter 3. After the bombs, 1992–
+## Chapter 3. After the bombs, 1992–2020
 
 ### A cleanup site
 
@@ -511,8 +511,7 @@ Its replacement, the Salt Waste Processing Facility, was to be built by 2008
 for $900 million; in 2015 DOE's Inspector General reported about $1.4
 billion in cost growth and a start no earlier than December 2018 ([WB: DOE
 Inspector General][oig-swpf]). It poured its 4,000th canister on December 31,
-2015, of about 8,000 expected ([WB][dwpf-20]), and had passed 4,500 by its
-thirtieth anniversary in 2026 ([WB][dwpf-30]).
+2015, of about 8,000 expected ([WB][dwpf-20]).
 
 Tanks 17 and 20 were closed in 1997, the first in the nation
 ([WB][tanks-18-19]). What could be left in the ground was settled by Section
@@ -521,9 +520,7 @@ which Senator Graham said he wrote and which passed by a single vote
 ([WB][tanks-18-19]), and which the National Academies reviewed for Savannah
 River ([IA](https://archive.org/details/tankwastesplanne0000comm)).
 
-Tanks 18 and 19 followed in 2012 ([WB][tanks-18-19]), and in May 2026 Tank
-14 became the eighth old-style tank to reach the end of waste removal in
-under two years ([WB][tank-14]).
+Tanks 18 and 19 followed in 2012 ([WB][tanks-18-19]).
 
 In 2018 and 2019 DOE reinterpreted "high-level waste" to turn on how
 radioactive a waste is rather than where it came from, revising the change
@@ -603,11 +600,8 @@ send it on to New Mexico, deciding to process it at Savannah River and store
 it there until a geologic repository exists ([EXT: *Federal
 Register*][fr-japan]).
 
-The site's weapons work has not ended with it. DOE decided in November 2020
-to make plutonium pits at Savannah River ([WB: Federal Register][fr-pits]),
-and SRS Watch and others are challenging the decision in federal court
-([DL](https://archive.org/details/gov.uscourts.scd.265178)). Tritium work
-has continued throughout ([WB][tritium-2020]).
+The site's weapons work never fully ended. Tritium work continued
+throughout ([WB][tritium-2020]).
 
 In 2019 the Defense Nuclear Facilities Safety Board warned that a fire,
 crane drop or explosion in the tritium facilities could cause acute
@@ -632,8 +626,7 @@ Register*][fr-sec-2026]).
 ### The laboratories
 
 The site's laboratory was named the country's newest national laboratory in
-2004 ([WB][srnl-2004]). Both SRNL.GOV and SRS.GOV have been archived via
-Archive-It since July 2023 ([AIT: collection 21601][ait-21601]).
+2004 ([WB][srnl-2004]).
 
 The ecology laboratory fared worse. Its grant was cut 47 percent for 2006,
 with layoffs that September ([WB: UGA][uga-2005]); the next year's funding
@@ -661,7 +654,113 @@ Pile that set the physics for plutonium and tritium production in the five
 reactors, in 107 photographs and 123 data pages
 ([WB: Library of Congress, HAER SC-43][haer-sc43]).
 
+## Chapter 4. What's happening now, 2020 to today
 
+### Making pits again
+
+The site's weapons work is growing again. DOE decided in November 2020 to
+make plutonium pits, the cores of nuclear weapons, at Savannah River
+([WB: Federal Register][fr-pits]), and SRS Watch and others are challenging
+the decision in federal court
+([DL](https://archive.org/details/gov.uscourts.scd.265178)). The plant is
+being built by repurposing an unfinished concrete structure on the site, and
+in 2024 its builders were still promising it by 2032 ([WB: SRS][srs-srppf-2024]).
+
+In 2022 NNSA told Congress the site would not reach 50 pits a year until
+sometime between 2032 and 2035, not the 2030 target
+([IA: Congressional Research Service](https://archive.org/details/crs-r44442.31)).
+In January 2023 GAO found that NNSA had no complete schedule or full cost
+estimate for pit production, and counted at least $18 billion to $24 billion
+in potential costs across its two pit sites ([WB: GAO][gao-pits-2023]).
+
+By February 2026 GAO reported the main building's possible cost at over
+$22 billion, up from a preliminary $6.9 billion to $11.1 billion, with
+completion in September 2035 at the earliest ([WB: GAO 2026][gao-pits-2026]).
+NNSA's own review of 2025 said its contractor had "underperformed" on the
+project and been "negligent in reporting project slips"
+([WB: NNSA][nnsa-fy25]). On October 15, 2026, DOE approved the plant's
+baseline and authorized full construction ([WB: NNSA][nnsa-srppf]).
+
+Safety for the workers inside is a live question. In August 2023 the Defense
+Nuclear Facilities Safety Board warned that the planned controls "may not
+adequately protect facility workers" handling plutonium in glove boxes
+([WB: safety board][dnfsb-2023]). In May 2025 the board said NNSA's upgrades
+were "a significant improvement to safety" and resolved its concerns
+([EXT: safety board][dnfsb-2025]).
+
+### Moving plutonium out
+
+South Carolina won a deal over the plutonium shipped in for the MOX plant.
+On August 31, 2020, DOE agreed to pay the state $600 million and to remove
+9.5 metric tons of plutonium by 2037; without the deal, DOE expected removal
+to take until 2049 ([WB: DOE][doe-sc-2020]).
+
+Removal works by "dilute and dispose": plutonium is mixed with other
+material, packed in drums and shipped to the Waste Isolation Pilot Plant in
+New Mexico. The site expects tens of thousands of drums over three decades
+([WB: SRS][srs-dilute-2024]). In 2025 NNSA said its contractor had beaten its
+targets for diluting plutonium and for shipments ([WB: NNSA][nnsa-fy25]).
+
+Then the policy changed. A May 2025 executive order told DOE to halt dilute
+and dispose, except what it owes South Carolina, and to offer surplus
+plutonium to industry as reactor fuel ([WB: Federal Register][eo-14302]). In
+March 2026 DOE said it would restart HB Line, a plutonium processing plant at
+H Canyon shut down a few years earlier, to recycle plutonium into reactor fuel
+([WB: American Nuclear Society][ans-hbline]).
+
+### Emptying the tanks
+
+A new contractor, Savannah River Mission Completion, took over the liquid
+waste in February 2022 ([WB: DOE][doe-srmc-2022]), and DOE set a goal of
+closing both tank farms by 2037 ([WB: DOE][doe-srmc-2023]). The Salt Waste
+Processing Facility, years late, began radioactive operation in fall 2020
+and passed 10 million gallons by November 2024 ([WB: SRS][srs-swpf-2024]).
+
+The glass plant passed 4,500 canisters by its thirtieth anniversary in 2026
+([WB][dwpf-30]), and in May 2026 Tank 14 became the eighth old-style tank to
+reach the end of waste removal in under two years ([WB][tank-14]). Still,
+only 8 of the 51 tanks are formally closed, and about 32 million gallons of
+waste remain in the other 43 ([WB: DOE][doe-tanks-2026]).
+
+H Canyon, the site's chemical separations plant, was set to wind down. In
+2022 DOE decided to dissolve its remaining spent fuel without recovering the
+uranium, emptying L Basin by 2033 instead of 2060
+([WB: SRS][srs-abd-2022]). In February 2026 DOE reversed course and restored
+uranium recovery, so H Canyon can make fuel for advanced reactors
+([WB: DOE][doe-hcanyon-2026]). The site's Citizens Advisory Board has asked
+for briefings on what the restart means for the environment
+([EXT: SRS Citizens Advisory Board][cab-387]).
+
+### Who runs the site
+
+The laboratory now stands on its own. In December 2020 DOE gave Savannah
+River National Laboratory a separate contract, run by Battelle Savannah River
+Alliance ([WB: DOE][doe-srnl-2020]). On October 1, 2024, NNSA, the weapons
+agency, became the site's landlord, with the cleanup office as its tenant;
+the site then had a budget of about $3.8 billion a year and about 13,400
+workers ([WB: SRS][srs-landlord-2024]).
+
+Worker safety is still in the news. In April 2024 DOE proposed a $127,440
+penalty against the main contractor after a worker lost two fingers in 2022
+([WB: DOE][doe-penalty-2024]), and in August 2026 NNSA cited it again over a
+thumb amputation in 2025 ([WB: DOE][ea-2026]).
+
+On October 28, 2026, a fire at Savannah River National Laboratory led the
+site to declare a Site Area Emergency and close its gates to incoming
+traffic. The emergency ended that night, and the site said surveys found "no
+detectable levels of contamination" ([WB: SRS][srs-fire-2026]). Its own
+releases give two different times for when the emergency was declared
+([EXT: SRS][srs-fire-2]).
+
+### The record online
+
+The site's own record is moving. Archive-It has archived SRNL.GOV and SRS.GOV
+since July 2023 ([AIT: collection 21601][ait-21601]). Between May and July
+2026, www.srs.gov began sending visitors to a new address, public.srs.gov
+([WB: May 2026][srs-home-may-2026]; [WB: July 2026][srs-home-jul-2026]). Old
+links mostly still work, but often land on a broader page rather than the
+one that was linked, which is why this history cites the Wayback Machine's
+copies.
 
 [fifty-7]: https://web.archive.org/web/20161222003153/http://www.srs.gov/general/about/50anniv/Chapter%2007.pdf
 [fifty-8]: https://web.archive.org/web/20070928081912/http://www.srs.gov/general/about/50anniv/Chapter%2008.pdf
@@ -759,3 +858,29 @@ reactors, in 107 photographs and 123 data pages
 [srswatch-japan]: https://web.archive.org/web/20220111081001/https://srswatch.org/plutonium-proliferation-alert-plutonium-from-japan-to-srs/
 [srs-hunt]: https://web.archive.org/web/20250715155712/https://www.srs.gov/general/deer_hunt/hunt.htm
 [srs-hunt-rules]: https://web.archive.org/web/20230420192648/https://www.srs.gov/general/deer_hunt/srshunt.htm
+[gao-pits-2023]: https://web.archive.org/web/20261025183933/https://www.gao.gov/products/gao-23-104661
+[gao-pits-2026]: https://web.archive.org/web/20260226163054/https://www.gao.gov/assets/gao-26-107777.pdf
+[nnsa-fy25]: https://web.archive.org/web/20260308145100/https://www.energy.gov/sites/default/files/2026-02/SRS%20FY%202025%20Performance%20Evaluation%20Report.pdf
+[nnsa-srppf]: https://web.archive.org/web/20261016212506/https://www.energy.gov/nnsa/articles/nnsa-baselines-savannah-river-plutonium-processing-facility
+[dnfsb-2023]: https://web.archive.org/web/20230913230207/https://www.dnfsb.gov/sites/default/files/document/28871/SRPPF%20Facility%20Worker%20Protection%20[2023-100-025].pdf
+[dnfsb-2025]: https://ehss.energy.gov/deprep/2025/FB25Y21A.PDF
+[doe-sc-2020]: https://web.archive.org/web/20200902214336/https://www.energy.gov/articles/secretary-brouillette-and-south-carolina-officials-announce-historic-agreement-between
+[srs-dilute-2024]: https://web.archive.org/web/20241127184933/https://www.srs.gov/general/news/releases/2024/nr24_The_Future_is_Now_downblended_plutonium_shipping_package_receipt.pdf
+[eo-14302]: https://web.archive.org/web/20251104001902/https://www.govinfo.gov/content/pkg/FR-2025-05-29/html/2025-09801.htm
+[ans-hbline]: https://web.archive.org/web/20260311220728/https://www.ans.org/news/2026-03-11/article-7836/return-of-the-hb-line-at-srs
+[doe-srmc-2022]: https://web.archive.org/web/20220818172743/https://www.energy.gov/em/articles/srs-contractor-earns-955-available-fee-october-2021-january-2022
+[doe-srmc-2023]: https://web.archive.org/web/20240801074223/https://www.energy.gov/em/articles/partnering-key-success-award-significant-task-orders-srs
+[srs-swpf-2024]: https://web.archive.org/web/20241127185459/https://www.srs.gov/general/news/releases/2024/nr24_SRS-SRMC_Facility_Surpasses_10_Million_Gallons_of_Waste_Processed.pdf
+[doe-tanks-2026]: https://web.archive.org/web/20261010061452/https://www.energy.gov/srs/articles/fact-sheet-operational-closure-radioactive-liquid-waste-tanks
+[srs-abd-2022]: https://web.archive.org/web/20220725183716/https://www.srs.gov/general/news/releases/nr22_SRS_ABD_is_a_G-O.pdf
+[doe-hcanyon-2026]: https://web.archive.org/web/20260706062813/https://www.energy.gov/nepa/articles/doeeis-0279-amended-record-decision-february-2026
+[cab-387]: https://cab.srs.gov/library/recommendations/Rec%20387_Reactivation%20of%20H-Canyon.pdf
+[doe-srnl-2020]: https://web.archive.org/web/20201222180420/https://www.energy.gov/em/articles/doe-awards-savannah-river-national-laboratory-management-and-operating-contract
+[srs-landlord-2024]: https://web.archive.org/web/20241002060344/https://www.srs.gov/general/news/releases/2024/nr24_Final_SRS_Landlord_Transition_News_Release_100124.pdf
+[doe-penalty-2024]: https://web.archive.org/web/20250120134623/https://www.energy.gov/sites/default/files/2024-04/DOE%20Cites%20Savannah%20River%20Nuclear%20Solutions%2C%20LLC%20for%20Worker%20Safety%20and%20Health%20Violations.pdf
+[ea-2026]: https://web.archive.org/web/20260930170931/https://www.energy.gov/ea/articles/preliminary-notice-violation-savannah-river-nuclear-solutions-llc-august-2026
+[srs-fire-2026]: https://web.archive.org/web/20261029024631/https://public.srs.gov/2026/10/savannah-river-site-emergency-response-event-news-release-3/
+[srs-fire-2]: https://public.srs.gov/2026/10/savannah-river-site-emergency-response-event-2/
+[srs-home-may-2026]: https://web.archive.org/web/20260519172801/https://www.srs.gov/
+[srs-home-jul-2026]: https://web.archive.org/web/20260703184414/https://www.srs.gov/
+[srs-srppf-2024]: https://web.archive.org/web/20241114223725/https://www.srs.gov/general/news/releases/2024/nr24_SRS_partnerships_critical_to_SRPPF_project_completion_by_2032.pdf

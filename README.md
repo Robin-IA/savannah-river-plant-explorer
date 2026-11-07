@@ -12,25 +12,26 @@ is held.**
 Six pages, under a banner with the Internet Archive and Democracy's Library
 logos:
 
-- **Home** (`index.html`): the three chapters, each with its sections and
-  source count; a search box that finds passages in all three chapters,
+- **Home** (`index.html`): the four chapters, each with its sections and
+  source count; a search box that finds passages in all four chapters,
   events on the timeline and matching sources; and a panel charting where
   each chapter's sources are held.
-- **Chapters 1–3** (`chapter-1.html`, `chapter-2.html`, `chapter-3.html`):
+- **Chapters 1–4** (`chapter-1.html` to `chapter-4.html`):
   the history, with a tag on every citation: **DL** Democracy's Library,
   **WB** the Wayback Machine, **IA** the Internet Archive outside Democracy's
   Library, **OL** a book cataloged in Open Library, **AIT** Archive-It,
   **EXT** held elsewhere. Each tag links to its source. Chapter 1 covers
   building the plant (1950–1969), Chapter 2 the reactors under scrutiny
-  (1970–1992) and Chapter 3 the years after bomb making (1992 to now),
-  including the controversies of each period.
-- **Timeline** (`timeline.html`): 49 events from the story in five lanes
+  (1970–1992), Chapter 3 the years after bomb making (1992–2020) and
+  Chapter 4 what is happening now (2020 to today), including the
+  controversies of each period.
+- **Timeline** (`timeline.html`): 58 events from the story in five lanes
   (land and people, production, environment and science, oversight and law,
   cleanup and legacy), the working lives of the five production reactors, and
   labeled milestones. Each mark's shape and color say where its source is
   held, and the marks can be filtered by holder. The same events follow as a
   list, by chapter.
-- **Sources** (`sources.html`): all 355 sources behind the story, filterable
+- **Sources** (`sources.html`): all 383 sources behind the story, filterable
   by where they are held, by chapter and by word. The filters are kept in the
   URL, for example `sources.html?tag=WB&chapter=3&q=DWPF`.
 - **About** (`about.html`), including the controversies, the documentary
@@ -43,7 +44,7 @@ logos:
   holders. Wherever an outside page has a working Wayback capture, the
   capture is cited instead of the live page.
 - **Years covered:** 1950 to 2026.
-- **Size:** 355 sources: 57 DL, 157 WB, 114 IA, 3 OL, 1 AIT, 23 EXT. Counted
+- **Size:** 383 sources: 58 DL, 180 WB, 115 IA, 3 OL, 1 AIT, 26 EXT. Counted
   November 6, 2026.
 - **Not included:** sources still being sought, such as the rest of the
   *New York Times* 1988 series and the "thirty incidents" report, are tracked as
@@ -62,16 +63,16 @@ Democracy's Library's `search_collection` scope expression; every DL and IA
 label was re-tested in a second, independent pass, which moved two items from
 DL to IA. Each Wayback capture was replayed and each outside link opened.
 The notes for each source, including what was and was not read, are in
-`content/sources-chapter1.md`, `sources-chapter2.md` and `sources-chapter3.md`.
+`content/sources-chapter1.md` to `sources-chapter4.md`.
 
 ### The code
 
 - `content/` is the source of truth; every page is generated from it:
-  `story.md` and `sources-chapter1.md` to `sources-chapter3.md` (Markdown),
+  `story.md` and `sources-chapter1.md` to `sources-chapter4.md` (Markdown),
   `timeline.json` (each event and reactor span, with the same source as in
   the story), `about.html` (the About page's body) and `disagree.md` (where
   sources disagree, shown on the About page).
-- `build/build.py` writes `index.html`, `chapter-1.html` to `chapter-3.html`,
+- `build/build.py` writes `index.html`, `chapter-1.html` to `chapter-4.html`,
   `timeline.html`, `sources.html`, `about.html`, `data/sources.json`,
   `data/timeline.json` and `data/passages.json` (the chapters' paragraphs, for
   search). It needs
