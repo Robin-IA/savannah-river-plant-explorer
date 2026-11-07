@@ -218,9 +218,22 @@ AEC from 1955, and the basic plant was complete in 1956 ([WB: srs.gov
 shipment of radioactive plutonium is dated December 1954 by one official source and 1955
 by others ([WB: ch. 11][fifty-11]; [WB][history1]).
 
-In 1956 the neutrino was confirmed at P reactor. R and the heavy-water
-components test reactor shut down in 1964, and L in 1968
-([WB: srs.gov 1960s][srs-1960]).
+P reactor also served pure science. In 1955 and 1956 two Los Alamos
+physicists, Frederick Reines and Clyde Cowan, set up detectors beside it
+([WB: *SRS at Fifty* ch. 13][fifty-13]). Reactors give off huge numbers of
+neutrinos, tiny particles with no electric charge that pass through almost
+everything ([WB: Nobel Prize, 1995][nobel-1995]). In June 1956 they announced
+the first detection of the neutrino ([WB: ch. 13][fifty-13]). Reines shared
+the 1995 Nobel Prize in Physics for it; Cowan had died by then
+([WB: Nobel Prize][nobel-reines]).
+
+Then demand for weapons materials fell. R reactor shut down in 1964 and L in
+1968, both because less nuclear material was needed
+([DL: Senate hearing, 1983](https://archive.org/details/micro_IA41152659_0884);
+[WB: srs.gov 1960s][srs-1960]). The heavy-water components test reactor also
+closed in December 1964, for a different reason: the AEC was turning away
+from heavy-water power reactors, and it was never restarted
+([WB: ch. 13][fifty-13]).
 
 ### What it released
 
@@ -1136,3 +1149,6 @@ copies.
 [srarp-ellenton-1]: https://web.archive.org/web/20150920145035/http://www.srarp.org/pdf_documents/Memories%20of%20Home/Ellenton/01_Chapter1-2.pdf
 [srarp-ellenton-4]: https://web.archive.org/web/20150920213514/http://www.srarp.org/pdf_documents/Memories%20of%20Home/Ellenton/04_Chapter4-1.pdf
 [srarp-dunbarton-2]: https://web.archive.org/web/20150920154751/http://www.srarp.org/pdf_documents/Memories%20of%20Home/Dunbarton%20and%20Meyers%20Mill/02_Chapter2.pdf
+[fifty-13]: https://web.archive.org/web/20070928081926/http://www.srs.gov/general/about/50anniv/Chapter%2013.pdf
+[nobel-1995]: https://web.archive.org/web/20261012201937/https://www.nobelprize.org/prizes/physics/1995/press-release/
+[nobel-reines]: https://web.archive.org/web/20261012184031/https://www.nobelprize.org/prizes/physics/1995/reines/facts/
