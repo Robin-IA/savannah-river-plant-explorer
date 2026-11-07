@@ -30,7 +30,7 @@ DESCRIPTION = ("The Savannah River Plant in South Carolina made plutonium and "
                "is its history, from the towns moved off the land to the "
                "clean-up, told from records held in Democracy's Library, the "
                "wider Internet Archive, the Wayback Machine and elsewhere.")
-CHECKED = "6 November 2026"
+CHECKED = "November 6, 2026"
 FEEDBACK = ("mailto:robin.fay@archive.org?subject=Feedback%20about%20Explorers"
             "%3A%20Bomb%20Making%3A%20A%20History%20of%20the%20Savannah%20River"
             "%20Plant")
@@ -238,7 +238,7 @@ def head(title, here, h1, lede, extra="", big=False):
 CHECKS_NOTE = """<!-- explorer-checks:note -->
 <p class="explorer-checks-note">
   Meets WCAG 2.2 Level AA accessibility (and WCAG 2.1 AA and 2.0 AA), checked
-  <time datetime="2026-11-06">6 November 2026</time> by automated tests and manual review.
+  <time datetime="2026-11-06">November 6, 2026</time> by automated tests and manual review.
   Also passes security and code validity checks.
 </p>
 <!-- /explorer-checks:note -->"""
@@ -518,7 +518,7 @@ def build_about(pages):
     disagree = markdown.markdown((CONTENT / "disagree.md").read_text(encoding="utf-8"))
     body = body.replace("<!-- DISAGREE -->", disagree.replace("<ul>", '<ul class="disagree">'))
     lede = ("A history of the Savannah River Plant told from the record, with every source "
-            "labelled by where it is held, so a reader can open it and check.")
+            "labeled by where it is held, so a reader can open it and check.")
     page = head("About · " + TITLE, "about.html", "About this explorer", lede) + \
         '<main id="main" class="wrap about">\n%s\n</main>\n' % body + foot()
     write(ROOT / "about.html", page)
@@ -577,7 +577,7 @@ def build_timeline(tl, pages):
     for y in range(1950, 2030, 10):
         parts.append('<line class="grid" x1="%.1f" x2="%.1f" y1="%d" y2="%d"/>' % (tx(y), tx(y), top, height - 26))
         parts.append('<text class="axis" x="%.1f" y="%d">%d</text>' % (tx(y), height - 8, y))
-    # milestone strip: the labelled events, in up to four rows
+    # milestone strip: the labeled events, in up to four rows
     ends = [-1e9] * 4
     for e in sorted((e for e in tl["events"] if e.get("label")), key=lambda e: e["when"]):
         x = tx(e["when"])
@@ -667,7 +667,7 @@ def build_timeline(tl, pages):
 <div class="scroll"><table class="reactors"><thead><tr><th scope="col">Reactor</th><th scope="col">Working life</th><th scope="col">Source</th></tr></thead><tbody>%s</tbody></table></div>
 <figure class="fig">
 <img src="img/srs-from-iss-2006.jpg" width="540" height="405" alt="Photograph from orbit of forested land crossed by straight roads. Five cleared reactor areas are labelled; the Savannah River runs along the left edge, and L Lake and Par Pond lie to the south." loading="lazy">
-<figcaption>The five reactor areas from the International Space Station, 28 January 2006. <span class="credit">NASA astronaut photograph ISS012-E-16633, labels by NASA Earth Observatory; public domain, via <a href="https://commons.wikimedia.org/wiki/File:SavannahRiverSite_ISS012-E-16633.jpg">Wikimedia Commons</a>.</span></figcaption>
+<figcaption>The five reactor areas from the International Space Station, January 28, 2006. <span class="credit">NASA astronaut photograph ISS012-E-16633, labels by NASA Earth Observatory; public domain, via <a href="https://commons.wikimedia.org/wiki/File:SavannahRiverSite_ISS012-E-16633.jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 </div>
 </main>
