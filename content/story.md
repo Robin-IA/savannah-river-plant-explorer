@@ -431,6 +431,13 @@ River workers hired before 1955 ([IA: Senate hearing,
 1989](https://archive.org/details/micro_IA41152837_0739)). The later dose
 reconstruction was run by the CDC ([WB: CDC][cdc-srs-page]).
 
+Studies of the neighbors began at the same time. A July 1990 National
+Institutes of Health survey compared cancer deaths in Aiken and Barnwell
+counties and Georgia's Burke County with similar counties elsewhere. It found
+no excess among children, more leukemia at ages 20 to 39 and slightly more
+lung cancer in older adults, and said it did not show cancer excesses tied to
+the plant ([DL](https://archive.org/details/cancerinpopulati00jabl_1); [DL](https://archive.org/details/cancerinpopulati00jabl_0)).
+
 DOE still meant to restart. In February 1991 it planned K for that summer
 and L for 1992, at $3.2 billion for restart and operations ([WB: GAO
 RCED-91-95][gao-91-95]), and issued safety evaluations for K ([WB: OSTI
@@ -621,6 +628,47 @@ extended in 2021 to subcontracted construction workers through 1990 ([WB:
 *Federal Register*][fr-sec-2021]) and in 2026 through 1993 ([EXT: *Federal
 Register*][fr-sec-2026]).
 
+Studies of the workers kept finding leukemia. A 1995 Oak Ridge study found
+that the site's workers died at lower rates than the general public but had
+significantly more leukemia ([WB: site epidemiology summary][srs-epi-2002]).
+In 2007 NIOSH-funded researchers following 18,883 workers hired from 1950 to
+1986 found leukemia risk rising with recorded radiation dose, and excess
+cancer of the lung lining, often linked to asbestos ([WB: NIOSH][niosh-mortality]).
+
+The records behind the claims had gaps. In 2007 NIOSH found that the site
+had not sent neutron radiation data for some claims ([WB: NIOSH][niosh-per19]).
+That November a petition asked to add every worker from 1950 to 2007 to the
+Special Exposure Cohort; the special classes for the site came from it
+([WB: NIOSH][niosh-srs-2026]).
+
+### The neighbors and the river
+
+The Medical University of South Carolina ran a cancer and birth-defects
+registry from 1991 to 1995 for the counties around the site and down the
+river to Savannah. Some cancers were elevated, among them cervical cancer in
+Black women and esophageal cancer in Black men, but registry officials saw no
+sign they were related to the site, according to a 2002 summary by the site's
+contractor ([WB: OSTI][srs-epi-2002]).
+
+In 2007 the federal Agency for Toxic Substances and Disease Registry (ATSDR)
+found "no apparent public health hazard" from groundwater or surface water
+leaving the site ([WB: ATSDR][atsdr-2007]). An advocacy group, the Radiation
+and Public Health Project, disagreed in 2012, reporting that 46 of 48
+radiation-sensitive disease measures in five nearby counties had risen
+faster than national rates ([WB: advocacy report][rphp-2012]).
+
+Fishing on the site itself is generally barred, and the creek mouths are
+posted. A 1997 survey of 258 people fishing the river near the site found
+they ate about 3.2 pounds of fish a month, Black men nearly twice as much as
+white men, and that families shared the catch with young children
+([WB: ATSDR][atsdr-2012]).
+
+In 2012 ATSDR found no harmful radiation from eating local crops, livestock
+or game. It warned that eating a lot of largemouth bass, bowfin and catfish
+could raise mercury risks, especially for pregnant women and children.
+Mercury is high upstream of the site too, and ATSDR said the site's share "is
+not known" ([WB: ATSDR][atsdr-2012]).
+
 ### The laboratories
 
 The site's laboratory was named the country's newest national laboratory in
@@ -749,6 +797,23 @@ traffic. The emergency ended that night, and the site said surveys found "no
 detectable levels of contamination" ([WB: SRS][srs-fire-2026]). Its own
 releases give two different times for when the emergency was declared
 ([EXT: SRS][srs-fire-2]).
+
+### Sick workers and the river today
+
+Payments to the site's sick workers keep growing. Labor Department figures
+show $271 million in compensation and medical bills by November 2008
+([WB: Labor Department][dol-2008]), $1.02 billion by December 2016
+([WB][dol-2016]) and $2.23 billion for 13,090 workers by April 2024
+([WB][dol-2024]). The current page lists about $3.06 billion for about 15,400
+workers ([EXT: Labor Department][dol-now]).
+
+South Carolina still advises people not to eat bowfin from the river below
+Stevens Creek, and notes that some fish contain radioactive cesium-137 and
+strontium-90 ([WB: South Carolina advisory][sc-fish-2026]). Georgia judges
+its mercury limits protective enough that it sets none for radioactivity
+([WB: Georgia guide][ga-fish-2023]). The site estimated that someone eating
+fish from its creek mouths in 2024 would get at most about 0.24 millirem of
+radiation, all from cesium-137 ([WB: SRS][srs-dose-2024]).
 
 ### The hunts go on
 
@@ -894,3 +959,17 @@ copies.
 [srs-home-jul-2026]: https://web.archive.org/web/20260703184414/https://www.srs.gov/
 [srs-srppf-2024]: https://web.archive.org/web/20241114223725/https://www.srs.gov/general/news/releases/2024/nr24_SRS_partnerships_critical_to_SRPPF_project_completion_by_2032.pdf
 [srs-hunt-2026]: https://web.archive.org/web/20261029004733/https://public.srs.gov/us-forest-service-deer-management-program/
+[srs-epi-2002]: https://web.archive.org/web/20251228152048/https://www.osti.gov/servlets/purl/803389
+[niosh-mortality]: https://web.archive.org/web/20120518011321/http://www.cdc.gov/niosh/oerp/savannah-mortality/
+[niosh-per19]: https://web.archive.org/web/20260726082358/https://www.cdc.gov/niosh/ocas/pdfs/pers/oc-per19-r0.pdf
+[niosh-srs-2026]: https://web.archive.org/web/20260118133056/https://www.cdc.gov/niosh/ocas/srs.html
+[atsdr-2007]: https://web.archive.org/web/20260129120011/https://www.atsdr.cdc.gov/HAC/pha/SavannahRiverSite121707/SavannahRiverSiteFinalPHA121707.pdf
+[rphp-2012]: https://web.archive.org/web/20241207084609/http://archive.bredl.org/pdf3/FINAL_CIF_Report.pdf
+[atsdr-2012]: https://web.archive.org/web/20260520170910/https://www.atsdr.cdc.gov/HAC/pha/SavannahRiverSite/SavannahRiverSitePHAFInal02292012.pdf
+[dol-2008]: https://web.archive.org/web/20081104194912/http://www.dol.gov/esa/owcp/energy/regs/compliance/statistics/WebPages/SA_RIVER_SITE.htm
+[dol-2016]: https://web.archive.org/web/20161225200619/https://www.dol.gov/owcp/energy/regs/compliance/statistics/WebPages/SA_RIVER_SITE.htm
+[dol-2024]: https://web.archive.org/web/20240710091220/https://www.dol.gov/owcp/energy/regs/compliance/statistics/WebPages/SA_RIVER_SITE.htm
+[dol-now]: https://www.dol.gov/sites/dolgov/files/OWCP/Reports/statistics/WebPages/SA_RIVER_SITE.htm
+[sc-fish-2026]: https://web.archive.org/web/20260116091725/https://des.sc.gov/data-tools/fish-consumption-advisories/savannah-river-fish-consumption-advisory
+[ga-fish-2023]: https://web.archive.org/web/20260211161755/https://epd.georgia.gov/document/document/2023-fcg-bookletpdf/download
+[srs-dose-2024]: https://web.archive.org/web/20260116214000/https://www.srs.gov/general/pubs/ERsum/er24/docs/SRNL-STI-2025-00311.pdf

@@ -25,13 +25,13 @@ logos:
   (1970–1992), Chapter 3 the years after bomb making (1992–2020) and
   Chapter 4 what is happening now (2020 to today), including the
   controversies of each period.
-- **Timeline** (`timeline.html`): 59 events from the story in five lanes
+- **Timeline** (`timeline.html`): 63 events from the story in five lanes
   (land and people, production, environment and science, oversight and law,
   cleanup and legacy), the working lives of the five production reactors, and
   labeled milestones. Each mark's shape and color say where its source is
   held, and the marks can be filtered by holder. The same events follow as a
   list, by chapter.
-- **Sources** (`sources.html`): all 384 sources behind the story, filterable
+- **Sources** (`sources.html`): all 400 sources behind the story, filterable
   by where they are held, by chapter and by word. The filters are kept in the
   URL, for example `sources.html?tag=WB&chapter=3&q=DWPF`.
 - **About** (`about.html`), including the controversies, the documentary
@@ -44,7 +44,7 @@ logos:
   holders. Wherever an outside page has a working Wayback capture, the
   capture is cited instead of the live page.
 - **Years covered:** 1950 to 2026.
-- **Size:** 384 sources: 58 DL, 195 WB, 115 IA, 3 OL, 1 AIT, 12 EXT. Counted
+- **Size:** 400 sources: 60 DL, 208 WB, 115 IA, 3 OL, 1 AIT, 13 EXT. Counted
   November 6, 2026.
 - **Not included:** sources still being sought, such as the rest of the
   *New York Times* 1988 series and the "thirty incidents" report, are tracked as

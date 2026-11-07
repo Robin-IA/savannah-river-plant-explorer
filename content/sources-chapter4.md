@@ -44,11 +44,21 @@
 - **WB** https://web.archive.org/web/20261029024631/https://public.srs.gov/2026/10/savannah-river-site-emergency-response-event-news-release-3/. SRS News Release #3, October 28, 2026. Laboratory fire, Site Area Emergency, "no detectable levels of contamination". Page read. Verified 2026-11-07.
 - **EXT:SRS** https://public.srs.gov/2026/10/savannah-river-site-emergency-response-event-2/. SRS News Release #2, October 28, 2026. Gives a different declaration time (5:39 p.m.) from Release #3 (5:07 p.m.). No Wayback capture. Page read. Verified 2026-11-07.
 
-## 5. The hunts go on
+## 5. Sick workers and the river today
+
+- **WB** https://web.archive.org/web/20081104194912/http://www.dol.gov/esa/owcp/energy/regs/compliance/statistics/WebPages/SA_RIVER_SITE.htm. Labor Department EEOICP statistics for the Savannah River Site, data as of November 3, 2008: $271,246,592 in compensation and medical bills. Page read. Verified 2026-11-07.
+- **WB** https://web.archive.org/web/20161225200619/https://www.dol.gov/owcp/energy/regs/compliance/statistics/WebPages/SA_RIVER_SITE.htm. The same page, data as of December 18, 2016: $1,015,054,437. The page notes that statistics were rebuilt after a system change. Page read. Verified 2026-11-07.
+- **WB** https://web.archive.org/web/20240710091220/https://www.dol.gov/owcp/energy/regs/compliance/statistics/WebPages/SA_RIVER_SITE.htm. The same page, data as of April 14, 2024: $2,226,136,575 for 13,090 workers. Page read. Verified 2026-11-07.
+- **EXT:Labor Department** https://www.dol.gov/sites/dolgov/files/OWCP/Reports/statistics/WebPages/SA_RIVER_SITE.htm. The current page: $3,059,776,935 for 15,400 workers; its as-of date was blank when read. No Wayback capture yet. Verified 2026-11-07.
+- **WB** https://web.archive.org/web/20260116091725/https://des.sc.gov/data-tools/fish-consumption-advisories/savannah-river-fish-consumption-advisory. South Carolina Department of Environmental Services, Savannah River fish consumption advisory, captured January 16, 2026. No bowfin below Stevens Creek; some fish contain cesium-137 and strontium-90. Page read. Verified 2026-11-07.
+- **WB** https://web.archive.org/web/20260211161755/https://epd.georgia.gov/document/document/2023-fcg-bookletpdf/download. Georgia DNR, *Guidelines for Eating Fish from Georgia Waters 2023*. No radionuclide guidelines beside the site; mercury guidance "deemed to be protective". PDF read. Verified 2026-11-07.
+- **WB** https://web.archive.org/web/20260116214000/https://www.srs.gov/general/pubs/ERsum/er24/docs/SRNL-STI-2025-00311.pdf. SRNL-STI-2025-00311, *Radiological Impact of 2024 Operations at the Savannah River Site*, July 2025. Creek-mouth fisherman dose 0.239 mrem, all from cesium-137. PDF read. Verified 2026-11-07.
+
+## 6. The hunts go on
 
 - **WB** https://web.archive.org/web/20261029004733/https://public.srs.gov/us-forest-service-deer-management-program/. US Forest Service Deer Management Program, SRS, captured October 29, 2026. Public hunts since 1965; the 2026 season runs October to early December with dog hunts only; public stand hunts under evaluation; dates sent to dog-pack owners by email; every animal monitored for cesium-137 under a 22 millirem a year release limit. Page read. Verified 2026-11-07.
 
-## 6. The record online
+## 7. The record online
 
 - **WB** https://web.archive.org/web/20260519172801/https://www.srs.gov/. The last ordinary capture of www.srs.gov, May 19, 2026. Verified 2026-11-07.
 - **WB** https://web.archive.org/web/20260703184414/https://www.srs.gov/. By July 3, 2026, www.srs.gov redirects permanently to public.srs.gov. A sample of 25 old report pages all redirected, mostly to broader pages. Verified 2026-11-07.
