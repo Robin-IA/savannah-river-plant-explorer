@@ -302,10 +302,8 @@ plant in Georgia every month, and screened the 865 deer and 8 hogs killed in
 its 1971 hunt for cesium-137 before releasing them to hunters
 ([DL](https://archive.org/details/sim_radiation-data-and-reports_1974-02_15_2)).
 
-The hunts go on: the site has opened them to the public every autumn since
-1965, and every deer and hog killed is still checked for cesium-137, none
-released if it would take the hunter over the site's limit ([WB: srs.gov,
-2025][srs-hunt]; [WB: srs.gov hunt rules][srs-hunt-rules]).
+The hunts still go on today; see
+[Chapter 4](chapter-4.html#the-hunts-go-on).
 
 ### L-Reactor comes back
 
@@ -752,6 +750,20 @@ detectable levels of contamination" ([WB: SRS][srs-fire-2026]). Its own
 releases give two different times for when the emergency was declared
 ([EXT: SRS][srs-fire-2]).
 
+### The hunts go on
+
+The site's deer hunts, open to the public every autumn since 1965, are still
+held. The 2026 season runs from October into early December. This year the
+U.S. Forest Service is using only dog hunts while it decides whether to bring
+back public stand hunts, and hunt dates go to the dog-pack owners by email
+([WB: SRS, October 2026][srs-hunt-2026]).
+
+Every deer and hog killed is still taken to a check station and tested for
+cesium-137 before the hunter can keep it, under a limit of 22 millirem a year
+([WB: SRS, October 2026][srs-hunt-2026]). Earlier rules said no animal is
+released if it would put the hunter over the site's limit
+([WB: srs.gov hunt rules][srs-hunt-rules]).
+
 ### The record online
 
 The site's own record is moving. Archive-It has archived SRNL.GOV and SRS.GOV
@@ -856,7 +868,6 @@ copies.
 [fr-sec-2021]: https://web.archive.org/web/20250213172044/https://www.federalregister.gov/documents/2021/09/07/2021-19167/designation-of-a-class-of-employees-for-addition-to-the-special-exposure-cohort
 [fr-sec-2026]: https://web.archive.org/web/20260927131346/https://www.govinfo.gov/content/pkg/FR-2026-07-28/html/2026-15152.htm
 [srswatch-japan]: https://web.archive.org/web/20220111081001/https://srswatch.org/plutonium-proliferation-alert-plutonium-from-japan-to-srs/
-[srs-hunt]: https://web.archive.org/web/20250715155712/https://www.srs.gov/general/deer_hunt/hunt.htm
 [srs-hunt-rules]: https://web.archive.org/web/20230420192648/https://www.srs.gov/general/deer_hunt/srshunt.htm
 [gao-pits-2023]: https://web.archive.org/web/20261025183933/https://www.gao.gov/products/gao-23-104661
 [gao-pits-2026]: https://web.archive.org/web/20260226163054/https://www.gao.gov/assets/gao-26-107777.pdf
@@ -884,3 +895,4 @@ copies.
 [srs-home-may-2026]: https://web.archive.org/web/20260519172801/https://www.srs.gov/
 [srs-home-jul-2026]: https://web.archive.org/web/20260703184414/https://www.srs.gov/
 [srs-srppf-2024]: https://web.archive.org/web/20241114223725/https://www.srs.gov/general/news/releases/2024/nr24_SRS_partnerships_critical_to_SRPPF_project_completion_by_2032.pdf
+[srs-hunt-2026]: https://web.archive.org/web/20261029004733/https://public.srs.gov/us-forest-service-deer-management-program/

@@ -44,7 +44,11 @@
 - **WB** https://web.archive.org/web/20261029024631/https://public.srs.gov/2026/10/savannah-river-site-emergency-response-event-news-release-3/. SRS News Release #3, October 28, 2026. Laboratory fire, Site Area Emergency, "no detectable levels of contamination". Page read. Verified 2026-11-07.
 - **EXT:SRS** https://public.srs.gov/2026/10/savannah-river-site-emergency-response-event-2/. SRS News Release #2, October 28, 2026. Gives a different declaration time (5:39 p.m.) from Release #3 (5:07 p.m.). No Wayback capture. Page read. Verified 2026-11-07.
 
-## 5. The record online
+## 5. The hunts go on
+
+- **WB** https://web.archive.org/web/20261029004733/https://public.srs.gov/us-forest-service-deer-management-program/. US Forest Service Deer Management Program, SRS, captured October 29, 2026. Public hunts since 1965; the 2026 season runs October to early December with dog hunts only; public stand hunts under evaluation; dates sent to dog-pack owners by email; every animal monitored for cesium-137 under a 22 millirem a year release limit. Page read. Verified 2026-11-07.
+
+## 6. The record online
 
 - **WB** https://web.archive.org/web/20260519172801/https://www.srs.gov/. The last ordinary capture of www.srs.gov, May 19, 2026. Verified 2026-11-07.
 - **WB** https://web.archive.org/web/20260703184414/https://www.srs.gov/. By July 3, 2026, www.srs.gov redirects permanently to public.srs.gov. A sample of 25 old report pages all redirected, mostly to broader pages. Verified 2026-11-07.
