@@ -1,11 +1,11 @@
 # Security and accessibility checks
 
-**Status: passing.** All three checks passed on 2026-11-06 at commit `e1932e65a6`. Nothing is open. Advisory items below are optional.
+**Status: passing.** All three checks passed on 2026-11-06 at commit `ff1d65e6e4`. Nothing is open. Advisory items below are optional.
 
 | | |
 |---|---|
 | Explorer | https://github.com/Robin-IA/savannah-river-plant-explorer |
-| Commit | `e1932e65a6` on `tidy-layout` |
+| Commit | `ff1d65e6e4` on `rail-right` |
 | Date | 2026-11-06 |
 | Pages checked | `./`, `./?q=tritium`, `chapter-1.html`, `chapter-2.html`, `chapter-3.html`, `timeline.html`, `sources.html`, `sources.html?tag=DL&chapter=2&q=reactor`, `about.html` |
 | Served from | repository root, served locally |
@@ -26,7 +26,7 @@
 
 ## Standards met
 
-Checked 6 November 2026 at commit `e1932e65a6`, on the pages listed above:
+Checked 6 November 2026 at commit `ff1d65e6e4`, on the pages listed above:
 
 - **WCAG 2.2 Level AA**: every Level A and AA success criterion, by automated tests and a manual review of each criterion (checklists under each check below).
 - **WCAG 2.1 Level AA** and **WCAG 2.0 Level AA**, which WCAG 2.2 includes. 4.1.1 Parsing, dropped from 2.2 but still in 2.0 and 2.1, is covered by the code validity check (no HTML parse errors, no duplicate ids).
@@ -136,4 +136,4 @@ Optional. These items never block a pass.
 |---|---|---|---|---|---|
 | `S-9a6baa` | security | No x-content-type-options header | `https://robin-ia.github.io/savannah-river-plant-explorer/` | A02:2025 · ASVS V3 | Set it; it stops browsers guessing content types. It has no <meta> form, so on a host that cannot set headers (GitHub Pages) it stays open; the explorer's owners decide whether that matters enough to change host. |
 
-<!-- explorer-checks:state {"passing": true, "date": "2026-11-06", "commit": "e1932e65a69748cad93f7a90720426743c86ed5a", "open": [], "titles": {}} -->
+<!-- explorer-checks:state {"passing": true, "date": "2026-11-06", "commit": "ff1d65e6e48c106ba2cd73ee06e50c17f687a317", "open": [], "titles": {}} -->
