@@ -311,7 +311,7 @@ the U.S. Forest Service agreed to manage the land together, and the Forest
 Service's first job was planting trees "by the thousands" on old farms
 ([DL: Forest Service, 1995](https://archive.org/details/savannahriverfor51unit)).
 
-The reactors changed the streams. Lower Three Runs Creek was dammed in 1958
+The site and its reactors changed the local streams and watershed. Lower Three Runs Creek was dammed in 1958
 to make Par Pond, a cooling reservoir, and the reactors sent hot water down
 creeks such as Steel Creek ([IA: L-Reactor environmental impact statement, 1984](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
 
