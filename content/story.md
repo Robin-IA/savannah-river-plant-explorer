@@ -349,13 +349,24 @@ and its natural radioactivity in 1951–52
 ([IA](https://archive.org/details/micro_IA41159405_0033);
 [IA](https://archive.org/details/micro_IA41159413_0274)).
 
-AEC officials approached Eugene Odum of the University of Georgia in 1951 to
-study the reservation's ecosystems
-([IA](https://archive.org/details/bigecologyemerge0000cole);
-[IA](https://archive.org/details/isbn_9780820324739)). That work became a
-permanent laboratory in 1961 ([WB: srs.gov 1960s][srs-1960]) — the Savannah
-River Ecology Laboratory, which dates its own founding to 1951 ([WB:
-SREL][srel-radioecology]).
+In 1951 the AEC asked the University of Georgia and the University of South
+Carolina to survey the land's plants and animals before construction began,
+offering each about $10,000 a year ([WB: *SRS at Fifty* ch. 17](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=473)).
+The Georgia team was led by Eugene Odum, whose 1953 textbook *Fundamentals of
+Ecology* made him known as the "father of modern ecosystem ecology"
+([WB: ch. 17](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=471);
+[IA](https://archive.org/details/bigecologyemerge0000cole);
+[IA](https://archive.org/details/isbn_9780820324739)).
+
+Georgia's survey grew into a research program. Its Laboratory of Radiation
+Ecology, with a staff of 15, exposed plants and animals to controlled doses
+of radiation to learn what it does to them in the wild
+([WB: ch. 17](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=477)). The work became a permanent laboratory in 1961
+([WB: srs.gov 1960s][srs-1960]) — the Savannah River Ecology Laboratory, run
+by the University of Georgia, which dates its own founding to 1951 ([WB:
+SREL][srel-radioecology]). In the 1960s its scientists were, in the official
+history's words, "at the heart of" the new idea of the ecosystem: what one is
+and how it works ([WB: ch. 17](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=479)).
 
 <figure class="fig wide">
 <img src="img/srs60-srel.jpg" width="1400" height="560" alt="Two photographs side by side: a black-and-white view of a small low laboratory building among pines, and a color view of a larger modern laboratory building with a lawn." loading="lazy">
