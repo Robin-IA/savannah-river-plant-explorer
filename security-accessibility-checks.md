@@ -1,13 +1,13 @@
 # Security and accessibility checks
 
-**Status: passing.** All three checks passed on 2026-11-06 at commit `c9a5473bd6`. Nothing is open. Advisory items below are optional.
+**Status: passing.** All three checks passed on 2026-11-07 at commit `2c6cc0a257`. Nothing is open. Advisory items below are optional.
 
 | | |
 |---|---|
 | Explorer | https://github.com/Robin-IA/savannah-river-plant-explorer |
-| Commit | `c9a5473bd6` on `us-english` |
-| Date | 2026-11-06 |
-| Pages checked | `./`, `./?q=tritium`, `chapter-1.html`, `chapter-2.html`, `chapter-3.html`, `timeline.html`, `sources.html`, `sources.html?tag=DL&chapter=2&q=reactor`, `about.html` |
+| Commit | `2c6cc0a257` on `chapter-4` |
+| Date | 2026-11-07 |
+| Pages checked | `./`, `./?q=tritium`, `chapter-1.html`, `chapter-2.html`, `chapter-3.html`, `chapter-4.html`, `timeline.html`, `sources.html`, `sources.html?tag=DL&chapter=2&q=reactor`, `about.html` |
 | Served from | repository root, served locally |
 | Live site (headers) | https://robin-ia.github.io/savannah-river-plant-explorer/ |
 | Standard | WCAG 2.2 Level AA |
@@ -26,7 +26,7 @@
 
 ## Standards met
 
-Checked 6 November 2026 at commit `c9a5473bd6`, on the pages listed above:
+Checked 7 November 2026 at commit `2c6cc0a257`, on the pages listed above:
 
 - **WCAG 2.2 Level AA**: every Level A and AA success criterion, by automated tests and a manual review of each criterion (checklists under each check below).
 - **WCAG 2.1 Level AA** and **WCAG 2.0 Level AA**, which WCAG 2.2 includes. 4.1.1 Parsing, dropped from 2.2 but still in 2.0 and 2.1, is covered by the code validity check (no HTML parse errors, no duplicate ids).
@@ -114,7 +114,7 @@ No open items.
 
 </details>
 
-<details><summary>Cleared on review (7)</summary>
+<details><summary>Cleared on review (8)</summary>
 
 | Id | Item | Where | Why cleared |
 |---|---|---|---|
@@ -122,6 +122,7 @@ No open items.
 | `A-1ac6d2` | Elements must meet minimum color contrast ratio thresholds | `/chapter-1.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
 | `A-83beea` | Elements must meet minimum color contrast ratio thresholds | `/chapter-2.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
 | `A-8e2348` | Elements must meet minimum color contrast ratio thresholds | `/chapter-3.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
+| `A-5a3e6f` | Elements must meet minimum color contrast ratio thresholds | `/chapter-4.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
 | `A-fcf340` | Elements must meet minimum color contrast ratio thresholds | `/timeline.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
 | `A-2d464c` | Elements must meet minimum color contrast ratio thresholds | `/sources.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
 | `A-2c8611` | Elements must meet minimum color contrast ratio thresholds | `/about.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
@@ -136,4 +137,4 @@ Optional. These items never block a pass.
 |---|---|---|---|---|---|
 | `S-9a6baa` | security | No x-content-type-options header | `https://robin-ia.github.io/savannah-river-plant-explorer/` | A02:2025 · ASVS V3 | Set it; it stops browsers guessing content types. It has no <meta> form, so on a host that cannot set headers (GitHub Pages) it stays open; the explorer's owners decide whether that matters enough to change host. |
 
-<!-- explorer-checks:state {"passing": true, "date": "2026-11-06", "commit": "c9a5473bd62f9f757b486881f760f2ea422c2abe", "open": [], "titles": {}} -->
+<!-- explorer-checks:state {"passing": true, "date": "2026-11-07", "commit": "2c6cc0a25794e1c0058c9ec73628d1f81aa067c5", "open": [], "titles": {}} -->
