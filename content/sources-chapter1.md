@@ -1,4 +1,4 @@
-# Bomb Making in South Carolina, Chapter 1 (1950–1969): sources
+# Atomic History: The Savannah River Plant, Chapter 1 (1950–1969): sources
 
 > Research notes behind [README.md](README.md), compiled November 6, 2026.
 > Every identifier and URL was checked live that day. Every archive.org

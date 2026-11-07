@@ -1,4 +1,4 @@
-# Bomb Making in South Carolina: The Savannah River Plant
+# Atomic History: The Savannah River Plant
 
 **Live explorer: [robin-ia.github.io/savannah-river-plant-explorer](https://robin-ia.github.io/savannah-river-plant-explorer/)**
 
@@ -122,4 +122,4 @@ searching, drafted the story and wrote the code. Each commit names Claude as
 co-author.
 
 Feedback? Email robin.fay@archive.org with the subject
-*Feedback about Explorers: Bomb Making in South Carolina: The Savannah River Plant*.
+*Feedback about Explorers: Atomic History: The Savannah River Plant*.
