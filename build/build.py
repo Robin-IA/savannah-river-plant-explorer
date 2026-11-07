@@ -352,14 +352,22 @@ def story_chapters():
     return chapters, defs
 
 
-def chapter_nav(current, toc=""):
+def chapter_nav(current, sections):
+    """The chapter menu: every chapter folds open to list its sections.
+    Built on <details>, so it opens and closes without script and works from
+    the keyboard; the chapter being read starts open."""
     items = []
     for n, page in CHAPTER_PAGE.items():
         name = ACTS[n].split(". ", 1)[1]
-        cur = ' aria-current="page"' if n == current else ""
-        sub = toc if n == current else ""
-        items.append('<li class="ch-%d"><a href="%s"%s><span class="ch-n">Chapter %d</span> %s</a>%s</li>'
-                     % (n, page, cur, n, html.escape(name), sub))
+        here = n == current
+        target = "" if here else page
+        links = ['<li><a href="%s#main"%s>Start of chapter</a></li>'
+                 % (page, ' aria-current="page"' if here else "")]
+        links += ['<li><a href="%s#%s">%s</a></li>' % (target, hid, html.escape(t))
+                  for hid, t in sections[n]]
+        items.append('<li class="ch-%d"><details%s><summary><span class="ch-n">Chapter %d</span> %s</summary>'
+                     '<ul>%s</ul></details></li>'
+                     % (n, " open" if here else "", n, html.escape(name), "".join(links)))
     return ('<nav class="toc" aria-label="Chapters"><h2>Chapters</h2><ol class="ch-list">%s</ol></nav>'
             % "".join(items))
 
@@ -375,10 +383,10 @@ def rail(items):
 
 
 def build_chapters(items):
-    """Write chapter-1.html to chapter-3.html; return heading slug -> page,
+    """Write the chapter pages; return heading slug -> page,
     the passages for search, and each chapter's section titles."""
     chapters, defs = story_chapters()
-    pages, passages, sections = {}, [], {}
+    pages, passages, sections, built = {}, [], {}, []
     for n, title, md_text in chapters:
         page = CHAPTER_PAGE[n]
         md = markdown.Markdown(extensions=["tables", "toc"],
@@ -404,8 +412,9 @@ def build_chapters(items):
                 t = html.unescape(re.sub(r"\s+", " ", re.sub("<[^>]+>", "", m.group(4)))).strip()
                 if t:
                     passages.append({"p": page, "id": m.group(3), "c": n, "s": current, "t": t})
-        sub = md.toc.replace('<div class="toc">', "").replace("</div>", "")
-        nav = chapter_nav(n, sub)
+        built.append((n, title, page, body))
+    for n, title, page, body in built:
+        nav = chapter_nav(n, sections)
         prev_next = []
         if n > 1:
             prev_next.append('<a class="pn prev" href="%s"><span>Previous</span> %s</a>' % (CHAPTER_PAGE[n - 1], html.escape(ACTS[n - 1])))
