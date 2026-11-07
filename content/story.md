@@ -951,7 +951,7 @@ The House Science Committee held a hearing on it in July 2007
 SREL's web page from that summer mentions a statement on a budget crisis
 ([WB][srel-2007]) but the actual statement has been lost.
 
-### Archiving Atomic History
+### The Plant's Museum
 
 The SRS Museum opened in Aiken after a 2014 ribbon-cutting
 ([WB][museum-2014]); its website is dead but the Wayback Machine has the
