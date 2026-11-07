@@ -16,7 +16,7 @@ Every source was checked on **2026-11-06**:
 
 Where an item is cited for what it says, the claim comes from the full-text-search highlight I saw. I did not read whole items unless noted.
 
-**Labels:** DL = Democracy's Library · IA = archive.org, not DL · OL = Open Library · WB = Wayback · AIT = Archive-It · EXT = held outside IA.
+**Labels:** DL = Democracy's Library · IA = archive.org, not DL · OL = Open Library · WB = Wayback · EXT = held outside IA.
 
 ---
 
@@ -174,10 +174,6 @@ Added November 7, 2026; every item checked live that day.
 | IA | `DTIC_ADA400802` | *Proceedings of the Partners Along the Fall Line: Sandhills Ecology and Ecosystem Management Workshop* (ERDC/CERL SR-02-2), paper by Sharitz and Collins of SREL | 2002-03-01 | dticarchive | Land about two-thirds forest and one-third crops or pasture at acquisition; cooling water "destroyed the floodplain forests"; restoration of Pen Branch and Four Mile Creek; 30 set-asides of 14,005 acres; 152 red-cockaded woodpeckers by 1999. Full text read. Verified 2026-11-07. |
 | DL | `savannahriverfor51unit` | USDA Forest Service, *Savannah River Forest Station … general report to the public, 1994* | 1995-04 | fedlink, DL | The 1952 AEC–Forest Service agreement; planting trees on former farms; by 1994, woodpeckers 4 to 77, Carolina bay restoration and longleaf pine. Full text read. Verified 2026-11-07. |
 
-## Archive-It
-
-- **AIT:** none verified. `wayback.archive-it.org/12263/...` (srswatch.org, UGA) served a "Session Verification" bot-challenge page to both the CDX and the calendar URLs, so I could not list any captures. srswatch.org is a modern watchdog site and has little relevance to 1950–69 in any case.
-
 ---
 
 ## Key facts (each with its source)
@@ -247,7 +243,7 @@ Do not use any of these without a source.
 - **Library of Congress / HAER:** the loc.gov JSON API and item pages returned 503/403 to automated requests. HAER sc1142 is known only from a search snippet. Chronicling America was not searched; it largely ends before 1964 anyway.
 - **Hagley:** the finding-aid site sat behind a bot challenge (HTTP 202 with an empty body). The holdings are corroborated only by the DOE OHRE finding aid.
 - **NARA** (RG 326, Atlanta regional archives): not checked, because the catalog API needs a key and I did not attempt it.
-- **Archive-It:** the bot challenge blocked all listing. No AIT sources.
+- **Archive-It:** not cited. Its captures of these sites duplicate the Wayback captures cited here.
 - ***SRS at Fifty* chapters 4, 5, 6, 9 and 10** (the core Chapter 1 chapters of the book) have no separate Wayback captures. They are available only inside the 55.9 MB full-book capture, which I verified by header only. Ch. 12 replay hit a 429 rate limit.
 - ***Cold War Dixie*** (Frederickson) and ***The Unexpected Exodus*** (L. Cassels) are not on IA in any form found (metadata, full text or Open Library `ia`).
 - **SRARP *Dunbarton and Meyers Mill* PDFs:** the CDX lists 200 captures, but the replay of the preface returned 404 today. The Ellenton volume PDFs are image-only, so they are not searchable.

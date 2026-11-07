@@ -4,7 +4,7 @@
 > Every source was checked live that day. Wayback captures are cited wherever a
 > working capture exists; EXT marks the few with no capture.
 
-**Labels:** DL = Democracy's Library · WB = Wayback · IA = archive.org, not DL · OL = Open Library · AIT = Archive-It · EXT = held outside IA, no working capture.
+**Labels:** DL = Democracy's Library · WB = Wayback · IA = archive.org, not DL · OL = Open Library · EXT = held outside IA, no working capture.
 
 ## 1. Making pits again
 

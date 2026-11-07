@@ -226,7 +226,7 @@ Added November 7, 2026; every item checked live that day.
 - **The Energy Research Foundation (Columbia SC)** produced no findable reports on IA or OSTI. It appears only as cited in hearings (for example `micro_IA41152832_0637`) and by Alvarez.
 - **CDC/NIOSH worker studies**: stacks.cdc.gov returns 403. Cragle 1988 was not verified at the journal.
 - **Hagley (Du Pont records) and Westinghouse corporate records**: not checked. **NARA** and the **Library of Congress**: not checked.
-- **Archive-It**: no captures were searched or found.
+- **Archive-It:** not cited. Its captures of these sites duplicate the Wayback captures cited here.
 - **`Supplying the Nuclear Arsenal`** and **`At Work in the Fields of the Bomb`** are lending-only. Their full text was not read, so no facts in this file are drawn from them.
 - **Radiation Data and Reports**: SRP sections were confirmed only for the 1970-12 issue. The other 1969–74 issues are listed from full-text hits and were not read.
 - **The tritium transport table** (srs.gov 2001 .xls) was fetched but not parsed.

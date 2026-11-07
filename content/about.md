@@ -8,7 +8,6 @@
   <li><span class="tag tag-wb">WB</span> <strong>Wayback Machine.</strong> A page or document saved by the <a href="https://web.archive.org/">Wayback Machine</a>. Much of the site's own history, including the official history <em>The Savannah River Site at Fifty</em> and twenty years of news releases, is gone from the live web and survives only there. Wherever an outside page, report or record has a working Wayback capture, the explorer cites the capture rather than the live page, and names the original holder.</li>
   <li><span class="tag tag-ia">IA</span> <strong>Internet Archive.</strong> An archive.org item outside Democracy's Library: books in the <a href="https://archive.org/details/inlibrary">lending library</a>, magazines and newspapers, and government documents in collections such as the <a href="https://archive.org/details/dticarchive">DTIC archive</a> and the <a href="https://archive.org/details/ciareadingroom">CIA Reading Room</a>.</li>
   <li><span class="tag tag-ol">OL</span> <strong>Open Library.</strong> A book with a record in <a href="https://openlibrary.org/">Open Library</a>, the Internet Archive&rsquo;s catalog of books. The story says whether a copy can be read or borrowed there; for the books cited so far it cannot yet.</li>
-  <li><span class="tag tag-ait">AIT</span> <strong>Archive-It.</strong> Web collections built by libraries and archives with <a href="https://archive-it.org/">Archive-It</a>.</li>
   <li><span class="tag tag-ext">EXT</span> <strong>Held elsewhere.</strong> Outside the Internet Archive, with no working Wayback capture; the holder is named, often the Department of Energy&rsquo;s <a href="https://www.osti.gov/">OSTI</a>.</li>
 </ul>
 
@@ -72,5 +71,5 @@
 <p>The banner is a detail of the map of the site, toned to sit behind the title.</p>
 
 <h2>How it was built</h2>
-<p>Researched from archive.org search and full-text search, the Wayback Machine's CDX server and the Archive-It and OSTI catalogs. The story and the source lists are written in Markdown, and a short Python script turns them into these pages. The timeline is drawn from the same story, event by event. The code and the source notes are on <a href="https://github.com/Robin-IA/savannah-river-plant-explorer">GitHub</a>.</p>
+<p>Researched from archive.org search and full-text search, the Wayback Machine's CDX server and the OSTI catalog. The story and the source lists are written in Markdown, and a short Python script turns them into these pages. The timeline is drawn from the same story, event by event. The code and the source notes are on <a href="https://github.com/Robin-IA/savannah-river-plant-explorer">GitHub</a>.</p>
 <p>Made by Robin Fay, Democracy's Library, with <a href="https://claude.com/claude-code">Claude Code</a>.</p>

@@ -42,7 +42,6 @@ TAGS = {
     "WB": "Wayback Machine",
     "IA": "Internet Archive",
     "OL": "Open Library",
-    "AIT": "Archive-It",
     "EXT": "Held elsewhere",
 }
 ACTS = {
@@ -52,7 +51,7 @@ ACTS = {
     4: "Chapter 4. What's happening now, 2020 to today",
 }
 HELD = {"DL": "in Democracy's Library", "WB": "in the Wayback Machine", "IA": "in the Internet Archive",
-        "OL": "in Open Library", "AIT": "in Archive-It", "EXT": "elsewhere"}
+        "OL": "in Open Library", "EXT": "elsewhere"}
 CHAPTER_PAGE = {1: "chapter-1.html", 2: "chapter-2.html", 3: "chapter-3.html", 4: "chapter-4.html"}
 CHAPTER_BLURB = {
     1: "The site chosen, the towns moved off it, the plant built and its reactors running, who was hired, and what it released.",
@@ -60,7 +59,7 @@ CHAPTER_BLURB = {
     3: "The turn to cleanup: the waste tanks, sealing the reactors, fights over plutonium, sick workers, the laboratories and how the site is remembered.",
     4: "The site today: making plutonium pits again, emptying the last waste tanks, moving plutonium out of the state, and who is watching.",
 }
-TAG_RE = re.compile(r"^(DL|IA|OL|WB|AIT|EXT)\b\s*:?\s*(.*)$", re.S)
+TAG_RE = re.compile(r"^(DL|IA|OL|WB|EXT)\b\s*:?\s*(.*)$", re.S)
 
 
 def md_inline(text):
@@ -319,7 +318,7 @@ def tag_links(body):
         attrs, tag, rest = m.group(1), m.group(2), m.group(3)
         return ('<a%s class="cite"><span class="tag tag-%s">%s</span>%s</a>'
                 % (attrs, tag.lower(), tag, rest))
-    return re.sub(r"<a([^>]*)>(DL|IA|OL|WB|AIT|EXT)\b(.*?)</a>", repl, body, flags=re.S)
+    return re.sub(r"<a([^>]*)>(DL|IA|OL|WB|EXT)\b(.*?)</a>", repl, body, flags=re.S)
 
 
 def story_refs():
@@ -545,7 +544,6 @@ SHAPES = {
     "IA": '<rect x="-6.5" y="-6.5" width="13" height="13" rx="2"/>',
     "OL": '<path d="M-7 -4 L0 -8 L7 -4 L7 4 L0 8 L-7 4 Z"/>',
     "WB": '<path d="M0 -8.5 L8.5 0 L0 8.5 L-8.5 0 Z"/>',
-    "AIT": '<path d="M0 -8 L8 6.5 L-8 6.5 Z"/>',
     "EXT": '<circle r="5.5"/>',
 }
 
@@ -690,7 +688,7 @@ def build_timeline(tl, pages):
     return tl["events"]
 
 
-LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|OL|AIT|EXT)(&chapter=[1-4])?)$|^(index|sources|about|timeline|chapter-[1-4])\.html(#[\w-]+)?$|^(style\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^img/[\w.-]+\.(png|jpg)$")
+LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|timeline|chapter-[1-4])\.html(#[\w-]+)?$|^(style\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^img/[\w.-]+\.(png|jpg)$")
 IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
 
 

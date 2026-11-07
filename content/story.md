@@ -12,7 +12,6 @@ Every claim carries a tag saying where its source lives:
 | **DL** | An archive.org item in Democracy's Library. Membership here means the item matches the collection's `search_collection` scope expression; none of these items carries the `democracys-library` tag. |
 | **IA** | An archive.org item outside Democracy's Library. |
 | **WB** | A Wayback Machine capture. Many of these documents are gone from the live web, so the capture is now the copy. |
-| **AIT** | Archive-It. |
 | **EXT** | Held outside the Internet Archive; the holder is named. |
 
 The full source lists, with every identifier, URL and verification note, are
@@ -964,9 +963,7 @@ radiation limit ([WB: srs.gov hunt rules][srs-hunt-rules]).
 
 ### The record online
 
-The site's own record is moving. Archive-It has archived SRNL.GOV and SRS.GOV
-since July 2023 ([AIT: collection 21601][ait-21601]). Between May and July
-2026, www.srs.gov began sending visitors to a new address, public.srs.gov
+The site's own record is moving. Between May and July 2026, www.srs.gov began sending visitors to a new address, public.srs.gov
 ([WB: May 2026][srs-home-may-2026]; [WB: July 2026][srs-home-jul-2026]). Old
 links mostly still work, but often land on a broader page rather than the
 one that was linked, which is why this history cites the Wayback Machine's
@@ -1027,7 +1024,6 @@ copies.
 [fr-pits]: https://web.archive.org/web/20250217233003/https://www.federalregister.gov/documents/2020/11/05/2020-24517/record-of-decision-for-the-final-environmental-impact-statement-eis-for-plutonium-pit-production-at
 [tritium-2020]: https://web.archive.org/web/20200924003430/https://www.srs.gov/general/news/releases/nr20_srs-tritium-facility-milestone.pdf
 [srnl-2004]: https://web.archive.org/web/20041017194818/http://www.srs.gov/general/news/newpub-rel/releases/srnlinit.pdf
-[ait-21601]: https://archive-it.org/collections/21601
 [uga-2005]: https://web.archive.org/web/20260312074558/https://news.uga.edu/srel-budget-is-cut-employees-face-layoffs-in-october/
 [cab-240]: https://web.archive.org/web/20250416052438/https://cab.srs.gov/library/recommendations/recommendation_240.pdf
 [srel-2007]: https://web.archive.org/web/20070715042708/http://www.uga.edu:80/srel/
