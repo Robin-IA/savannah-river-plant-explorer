@@ -612,6 +612,15 @@
       "section": "Emptying the tanks"
     },
     {
+      "when": 2026.76,
+      "date": "Oct 2026",
+      "lane": "people",
+      "text": "The 2026 deer hunts begin: dog hunts only, every animal checked for cesium-137",
+      "tag": "WB",
+      "ref": "srs-hunt-2026",
+      "section": "The hunts go on"
+    },
+    {
       "when": 2026.79,
       "date": "Oct 15, 2026",
       "lane": "production",
