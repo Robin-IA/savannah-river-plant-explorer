@@ -4,7 +4,7 @@
 > Every source was checked live that day. Wayback captures are cited wherever a
 > working capture exists; EXT marks the few with no capture.
 
-**Labels:** DL = Democracy's Library · WB = Wayback · IA = archive.org, not DL · OL = Open Library · AIT = Archive-It · EXT = held outside IA, no working capture.
+**Labels:** DL = Democracy's Library · WB = Wayback · IA = archive.org, not DL · OL = Open Library · EXT = held outside IA, no working capture.
 
 ## 1. Making pits again
 
@@ -54,11 +54,24 @@
 - **WB** https://web.archive.org/web/20260211161755/https://epd.georgia.gov/document/document/2023-fcg-bookletpdf/download. Georgia DNR, *Guidelines for Eating Fish from Georgia Waters 2023*. No radionuclide guidelines beside the site; mercury guidance "deemed to be protective". PDF read. Verified 2026-11-07.
 - **WB** https://web.archive.org/web/20260116214000/https://www.srs.gov/general/pubs/ERsum/er24/docs/SRNL-STI-2025-00311.pdf. SRNL-STI-2025-00311, *Radiological Impact of 2024 Operations at the Savannah River Site*, July 2025. Creek-mouth fisherman dose 0.239 mrem, all from cesium-137. PDF read. Verified 2026-11-07.
 
-## 6. The hunts go on
+## 6. Living with the Plant; SRS and Ecology
+
+Added November 7, 2026; every item checked live that day.
+
+- **WB** https://web.archive.org/web/20210619185743/https://www.postandcourier.com/aikenstandard/news/rep-clyburn-seeking-restoration-of-doe-payment-to-savannah-river-site-neighbors/article_d6db7a06-d069-11eb-b145-3b30c96348ab.html. *Aiken Standard*, June 19, 2021. The $5.7 million cut in the fiscal 2022 request; Clyburn's request; "sort of like the sacred cow." Page read. Verified 2026-11-07.
+- **WB** https://web.archive.org/web/20220617042231/https://www.scstatehouse.gov/sess124_2021-2022/appropriations2022/tap1b.htm. South Carolina FY2022–23 appropriations, Part IB, ratified version. $525 million from the Savannah River Site litigation, including $105 million for Williston and Blackville schools. Governor's vetoes not checked. Page read. Verified 2026-11-07.
+- **WB** https://web.archive.org/web/20241127200107/https://www.srs.gov/general/news/releases/2024/nr24_SRS_United_Way_Campaign.pdf. SRS release, January 2, 2024 (contractor announcement). $1,488,038 raised in the 2023 United Way campaign. PDF read. Verified 2026-11-07.
+- **WB** https://web.archive.org/web/20260108112808/https://savannahrivernuclearsolutions.com/news/releases/2026/nr26_Celebrating_the_2025_SRNS_United_Way_Campaign.pdf. SRNS release, January 7, 2026 (contractor announcement). $761,811 for 2025; the United Way of Allendale, Bamberg and Barnwell counties calls the gifts "a significant portion" of its budget. PDF read. Verified 2026-11-07.
+- **WB** https://web.archive.org/web/20250416054015/https://www.srs.gov/general/pubs/ERsum/er20/docs/USFS-SR_2020_Forest-Service.pdf. Forest Service–Savannah River, fiscal 2020 summary. 140 active red-cockaded woodpecker groups. PDF read. Verified 2026-11-07.
+- **WB** https://web.archive.org/web/20250416054246/https://www.srs.gov/general/pubs/ERsum/er21/docs/USFS-SR_2021_Forest-Service.pdf. Forest Service–Savannah River, fiscal 2021 summary. 150 active groups, up from 3 in 1985; thinning and prescribed fire. PDF read. Verified 2026-11-07.
+- **WB** https://web.archive.org/web/20260706014316/https://www.energy.gov/nepa/articles/cx-024954-wetland-restoration-and-gopher-frog-conservation-srel. DOE, November 1, 2021. Wetland restoration for gopher frogs by SREL. Page read. Verified 2026-11-07.
+- **WB** https://web.archive.org/web/20260704213552/https://www.energy.gov/em/articles/turtles-find-forever-home-savannah-river-site. DOE, August 15, 2023. Box turtles seized from illegal collectors in 2019; their young released on the site. Page read. Verified 2026-11-07.
+
+## 7. The hunts go on
 
 - **WB** https://web.archive.org/web/20261029004733/https://public.srs.gov/us-forest-service-deer-management-program/. US Forest Service Deer Management Program, SRS, captured October 29, 2026. Public hunts since 1965; the 2026 season runs October to early December with dog hunts only; public stand hunts under evaluation; dates sent to dog-pack owners by email; every animal monitored for cesium-137 under a 22 millirem a year release limit. Page read. Verified 2026-11-07.
 
-## 7. The record online
+## 8. The record online
 
 - **WB** https://web.archive.org/web/20260519172801/https://www.srs.gov/. The last ordinary capture of www.srs.gov, May 19, 2026. Verified 2026-11-07.
 - **WB** https://web.archive.org/web/20260703184414/https://www.srs.gov/. By July 3, 2026, www.srs.gov redirects permanently to public.srs.gov. A sample of 25 old report pages all redirected, mostly to broader pages. Verified 2026-11-07.

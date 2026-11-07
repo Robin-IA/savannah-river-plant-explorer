@@ -8,7 +8,6 @@
   <li><span class="tag tag-wb">WB</span> <strong>Wayback Machine.</strong> A page or document saved by the <a href="https://web.archive.org/">Wayback Machine</a>. Much of the site's own history, including the official history <em>The Savannah River Site at Fifty</em> and twenty years of news releases, is gone from the live web and survives only there. Wherever an outside page, report or record has a working Wayback capture, the explorer cites the capture rather than the live page, and names the original holder.</li>
   <li><span class="tag tag-ia">IA</span> <strong>Internet Archive.</strong> An archive.org item outside Democracy's Library: books in the <a href="https://archive.org/details/inlibrary">lending library</a>, magazines and newspapers, and government documents in collections such as the <a href="https://archive.org/details/dticarchive">DTIC archive</a> and the <a href="https://archive.org/details/ciareadingroom">CIA Reading Room</a>.</li>
   <li><span class="tag tag-ol">OL</span> <strong>Open Library.</strong> A book with a record in <a href="https://openlibrary.org/">Open Library</a>, the Internet Archive&rsquo;s catalog of books. The story says whether a copy can be read or borrowed there; for the books cited so far it cannot yet.</li>
-  <li><span class="tag tag-ait">AIT</span> <strong>Archive-It.</strong> Web collections built by libraries and archives with <a href="https://archive-it.org/">Archive-It</a>.</li>
   <li><span class="tag tag-ext">EXT</span> <strong>Held elsewhere.</strong> Outside the Internet Archive, with no working Wayback capture; the holder is named, often the Department of Energy&rsquo;s <a href="https://www.osti.gov/">OSTI</a>.</li>
 </ul>
 
@@ -16,7 +15,7 @@
 <p>From the Atomic Energy Commission's decision in 1950 to the present. The sources themselves run from 1950 newspapers to web pages captured in 2026.</p>
 
 <h2>Topics covered</h2>
-<p>The choice of site and the towns moved off it, among them Ellenton and Dunbarton; building the plant; the reactors and separations plants; early ecology and the Savannah River Ecology Laboratory; the L-Reactor restart and lawsuit; the 1988 disclosures and shutdowns; the change from Du Pont to Westinghouse; liquid waste and the glass-making plant; sealing the P and R reactors in place; the MOX plant and plutonium pits; the national laboratory; and how the site is remembered.</p>
+<p>The choice of site and the towns moved off it, among them Ellenton and Dunbarton; building the plant; the reactors and separations plants; early ecology and the Savannah River Ecology Laboratory; life in the towns around the plant, from crowded schools to payments in place of taxes; what the plant did to the land and how it recovered; the L-Reactor restart and lawsuit; the 1988 disclosures and shutdowns; the change from Du Pont to Westinghouse; liquid waste and the glass-making plant; sealing the P and R reactors in place; the MOX plant and plutonium pits; the national laboratory; and how the site is remembered.</p>
 
 <h2>Controversies</h2>
 <p>The plant&rsquo;s history has been argued over from the start, and the story sets out each argument with its sources rather than settling it:</p>
@@ -36,6 +35,8 @@
   <li><strong>MOX and pits.</strong> DOE&rsquo;s 2016 baseline put the mixed-oxide fuel plant at $17.17 billion; DOE ended it in 2018&ndash;19 while South Carolina sued to hold the government to its promises; DOE&rsquo;s 2020 decision to make plutonium pits at the site is being challenged in federal court. <a href="index.html#plutonium-mox-and-pits">Read it in the story</a>.</li>
   <li><strong>Sick workers.</strong> Worker studies kept finding leukemia, compensation claims moved slowly and records had gaps; payments have since passed $2 billion. <a href="index.html#sick-workers">Read it in the story</a>.</li>
   <li><strong>The neighbors and the river.</strong> Federal studies found no cancer excess they could tie to the site, while an advocacy group disagreed; people who fish the river are warned about mercury, and some fish carry radioactive cesium and strontium. <a href="index.html#the-neighbors-and-the-river">Read it in the story</a>.</li>
+  <li><strong>Growth without a town.</strong> The plant brought more than 10,000 newcomers by 1951 but no government town; schools ran double shifts, and under segregation one town put off a school for Black children. Decades later the cuts took away more than half the jobs, and the neighbors still fight to keep the payments made in place of taxes. <a href="chapter-1.html#living-with-the-plant">Read it in the story</a>.</li>
+  <li><strong>Cooling water and the wetlands.</strong> Hot water from the reactors destroyed hundreds of acres of floodplain forest along Pen Branch, Four Mile Creek and Steel Creek, while the site&rsquo;s red-cockaded woodpeckers fell to four birds; both have since been the subject of long restoration work. <a href="chapter-2.html#srs-and-ecology">Read it in the story</a>.</li>
   <li><strong>The ecology laboratory.</strong> Funding cuts in 2006 and 2007 brought layoffs, a rebuke from the site&rsquo;s own Citizens Advisory Board and a House hearing. <a href="index.html#the-laboratories">Read it in the story</a>.</li>
 </ul>
 
@@ -70,5 +71,5 @@
 <p>The banner is a detail of the map of the site, toned to sit behind the title.</p>
 
 <h2>How it was built</h2>
-<p>Researched from archive.org search and full-text search, the Wayback Machine's CDX server and the Archive-It and OSTI catalogs. The story and the source lists are written in Markdown, and a short Python script turns them into these pages. The timeline is drawn from the same story, event by event. The code and the source notes are on <a href="https://github.com/Robin-IA/savannah-river-plant-explorer">GitHub</a>.</p>
+<p>Researched from archive.org search and full-text search, the Wayback Machine's CDX server and the OSTI catalog. The story and the source lists are written in Markdown, and a short Python script turns them into these pages. The timeline is drawn from the same story, event by event. The code and the source notes are on <a href="https://github.com/Robin-IA/savannah-river-plant-explorer">GitHub</a>.</p>
 <p>Made by Robin Fay, Democracy's Library, with <a href="https://claude.com/claude-code">Claude Code</a>.</p>

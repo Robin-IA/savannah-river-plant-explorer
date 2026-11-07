@@ -129,7 +129,7 @@
       "text": "Ruth Patrick's baseline survey of the river; the AEC approaches Eugene Odum",
       "tag": "WB",
       "ref": "srs-1950",
-      "section": "The ecologists arrive first"
+      "section": "SRS and Ecology"
     },
     {
       "when": 1951.86,
@@ -151,6 +151,15 @@
       "label": "Houses moved"
     },
     {
+      "when": 1952.14,
+      "date": "Feb 22, 1952",
+      "lane": "people",
+      "text": "Senate hearing in Aiken: no government town; 3,000 trailers; towns ask for federal help",
+      "tag": "DL",
+      "href": "https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1952-02-22_3",
+      "section": "Living with the Plant"
+    },
+    {
       "when": 1952.5,
       "date": "1952",
       "lane": "production",
@@ -158,6 +167,15 @@
       "tag": "WB",
       "ref": "srs-1950",
       "section": "Running it"
+    },
+    {
+      "when": 1952.5,
+      "date": "1952",
+      "lane": "science",
+      "text": "AEC and the Forest Service agree to manage the land; tree planting on old farms begins",
+      "tag": "DL",
+      "href": "https://archive.org/details/savannahriverfor51unit",
+      "section": "SRS and Ecology"
     },
     {
       "when": 1953.5,
@@ -205,13 +223,22 @@
       "section": "What it released"
     },
     {
+      "when": 1958.5,
+      "date": "1958",
+      "lane": "science",
+      "text": "Lower Three Runs Creek is dammed to make Par Pond, a cooling reservoir",
+      "tag": "IA",
+      "href": "https://archive.org/details/SavannahRiverEnvironmentalImpactStatements",
+      "section": "SRS and Ecology"
+    },
+    {
       "when": 1961.5,
       "date": "1961",
       "lane": "science",
       "text": "Odum's survey becomes a permanent laboratory, the Savannah River Ecology Laboratory",
       "tag": "WB",
       "ref": "srs-1960",
-      "section": "The ecologists arrive first"
+      "section": "SRS and Ecology"
     },
     {
       "when": 1969.5,
@@ -278,6 +305,15 @@
       "ref": "nrdc-vaughn",
       "section": "L-Reactor comes back",
       "label": "Court: L needs an EIS"
+    },
+    {
+      "when": 1985.5,
+      "date": "1985",
+      "lane": "science",
+      "text": "The site's red-cockaded woodpeckers are down to four birds; recovery work begins",
+      "tag": "DL",
+      "href": "https://archive.org/details/redcockadedwoodp23unit",
+      "section": "SRS and Ecology"
     },
     {
       "when": 1987.5,
@@ -456,6 +492,15 @@
       "section": "Sick workers"
     },
     {
+      "when": 2008.05,
+      "date": "Jan 21, 2008",
+      "lane": "people",
+      "text": "DOE raises payments in place of taxes to the three host counties to $6.2 million",
+      "tag": "WB",
+      "ref": "doe-pilt-2008",
+      "section": "Living with the Plant"
+    },
+    {
       "when": 2008.2,
       "date": "Mar 2008",
       "lane": "people",
@@ -576,6 +621,15 @@
       "section": "Who runs the site"
     },
     {
+      "when": 2021.5,
+      "date": "2021",
+      "lane": "science",
+      "text": "Red-cockaded woodpeckers reach 150 active groups",
+      "tag": "WB",
+      "ref": "usfs-2021",
+      "section": "SRS and Ecology"
+    },
+    {
       "when": 2022.15,
       "date": "Feb 27, 2022",
       "lane": "cleanup",
@@ -585,13 +639,13 @@
       "section": "Emptying the tanks"
     },
     {
-      "when": 2023.5,
-      "date": "Jul 2023",
+      "when": 2022.45,
+      "date": "Jun 2022",
       "lane": "people",
-      "text": "SRS.GOV and SRNL.GOV archived via Archive-It",
-      "tag": "AIT",
-      "ref": "ait-21601",
-      "section": "The record online"
+      "text": "South Carolina spends the $525 million plutonium settlement, including new schools for Williston and Blackville",
+      "tag": "WB",
+      "ref": "sc-budget-2022",
+      "section": "Living with the Plant"
     },
     {
       "when": 2023.59,

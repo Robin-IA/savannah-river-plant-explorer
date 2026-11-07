@@ -67,7 +67,7 @@ Every archive.org identifier below returned a `metadata` object on 2026-11-06. E
 - **EXT:DOE** https://www.energy.gov/node/363049 and https://www.energy.gov/sites/default/files/2021-05/final-eis-0108-vol1-1-l-reactor-srs-1984-05.pdf. DOE/EIS-0108, *Final EIS, L-Reactor Operation, Savannah River Plant*, May 1984. The official copy. Verified 2026-11-06.
 - **WB** https://web.archive.org/web/20250403000018/https://www.osti.gov/biblio/5060401. *L-Reactor Operation, Savannah River Plant: Environmental Assessment*, DOE/EA-0195, 1982-08. The EA and FONSI that the litigation challenged. Verified 2026-11-06. Wayback capture of https://www.osti.gov/biblio/5060401 (held by OSTI).
 - **WB** https://web.archive.org/web/20261107182208/http://www.elr.info/litigation/natural-resources-defense-council-v-vaughn (https://elr.info/... redirects here). *NRDC v. Vaughn*, No. 82-3173, D.D.C., decided 1983-07-15, 13 ELR 20903. Held that the reactor restart was a major federal action requiring an EIS, but denied a preliminary injunction. Verified 2026-11-06. Wayback capture of http://www.elr.info/litigation/natural-resources-defense-council-v-vaughn (held by ELR).
-- **EXT:Leagle** https://www.leagle.com/decision/19832038566fsupp147211807. The text of the 1983 memorandum and order, apparently *NRDC v. Vaughn*, 566 F. Supp. 1472 (D.D.C. 1983) judging by the URL; I did not open it to confirm the citation. Verified 2026-11-06 (HTTP 200).
+- **WB** https://web.archive.org/web/20201030110651/https://law.justia.com/cases/federal/district-courts/FSupp/566/1472/2396296/. *Natural Resources Defense Council v. Vaughn*, 566 F. Supp. 1472 (D.D.C. 1983), memorandum and order of July 15, 1983, as published by Justia. Restarting L reactor "requires preparation of an environmental impact statement"; DOE ordered to prepare one; South Carolina's preliminary-injunction application and the permanent-injunction claims set for hearing on August 16, 1983. Replaces a Leagle link to the same decision. Page read. Verified 2026-11-07.
 - **WB** https://web.archive.org/web/20250120032048/https://www.csmonitor.com/1983/0209/020952.html. "South Carolina lawsuit could slow the buildup of US nuclear arsenal", *Christian Science Monitor*, 1983-02-09. Contemporary press coverage. Verified 2026-11-06. Wayback capture of https://www.csmonitor.com/1983/0209/020952.html (held by CSMonitor).
 - **IA** `hiddendangersenv00ehrl`. *Hidden Dangers: Environmental Consequences of Preparing for War*, 1990. internetarchivebooks. A secondary account with L-Reactor hits. Verified 2026-11-06.
 
@@ -176,6 +176,13 @@ Added November 7, 2026; every item checked live that day.
 - **DL** `cancerinpopulati00jabl_1`. Jablon et al., *Cancer in Populations Living Near Nuclear Facilities*, vol. 1, NIH Publication 90-874, July 1990. fedlink. Study counties Aiken, Barnwell and Burke; no excess under age 20; leukemia higher at ages 20 to 39; "did not demonstrate cancer excesses associated with" the site. Full text read. Verified 2026-11-07.
 - **DL** `cancerinpopulati00jabl_0`. The same survey, vol. 2 (individual facilities), July 1990. fedlink. Verified 2026-11-07.
 
+## 10. Living with the Plant; SRS and Ecology
+
+Added November 7, 2026; every item checked live that day.
+
+- **IA** `micro_IA40706946_0199`. *1993 Economic Report, The State of South Carolina*, SC Budget and Control Board, July 1993 (Statistical Reference Index microfiche). Westinghouse Savannah River, 23,000 workers, the state's largest manufacturing employer in 1992; federal cutbacks begun. Full text read. Verified 2026-11-07.
+- **DL** `redcockadedwoodp23unit`. USDA Forest Service, *Red-cockaded woodpecker research and management at the Savannah River site* (Forestry Report R8-FR 23, revised January 1994). Four birds in three colony sites in 1985; at DOE's request, artificial cavities and translocation. Full text read. Verified 2026-11-07.
+
 ## Key facts (each with its source)
 
 - 1972: SRP becomes the first National Environmental Research Park. Source: srs.gov 1970s timeline (WB 20251028103524).
@@ -219,7 +226,7 @@ Added November 7, 2026; every item checked live that day.
 - **The Energy Research Foundation (Columbia SC)** produced no findable reports on IA or OSTI. It appears only as cited in hearings (for example `micro_IA41152832_0637`) and by Alvarez.
 - **CDC/NIOSH worker studies**: stacks.cdc.gov returns 403. Cragle 1988 was not verified at the journal.
 - **Hagley (Du Pont records) and Westinghouse corporate records**: not checked. **NARA** and the **Library of Congress**: not checked.
-- **Archive-It**: no captures were searched or found.
+- **Archive-It:** not cited. Its captures of these sites duplicate the Wayback captures cited here.
 - **`Supplying the Nuclear Arsenal`** and **`At Work in the Fields of the Bomb`** are lending-only. Their full text was not read, so no facts in this file are drawn from them.
 - **Radiation Data and Reports**: SRP sections were confirmed only for the 1970-12 issue. The other 1969–74 issues are listed from full-text hits and were not read.
 - **The tritium transport table** (srs.gov 2001 .xls) was fetched but not parsed.

@@ -12,7 +12,6 @@ Every claim carries a tag saying where its source lives:
 | **DL** | An archive.org item in Democracy's Library. Membership here means the item matches the collection's `search_collection` scope expression; none of these items carries the `democracys-library` tag. |
 | **IA** | An archive.org item outside Democracy's Library. |
 | **WB** | A Wayback Machine capture. Many of these documents are gone from the live web, so the capture is now the copy. |
-| **AIT** | Archive-It. |
 | **EXT** | Held outside the Internet Archive; the holder is named. |
 
 The full source lists, with every identifier, URL and verification note, are
@@ -243,7 +242,30 @@ and 1972 to the Special Exposure Cohort under the federal occupational
 illness compensation program, so that their cancer claims no longer turn on
 reconstructing each worker's dose ([WB: NIOSH][niosh-srs]).
 
-### The ecologists arrive first
+### Living with the Plant
+
+The plant brought thousands of newcomers to a rural area. At a Senate hearing
+in Aiken in February 1952, the AEC's local manager said there would be no
+government town like Oak Ridge or Richland; private builders would house the
+workers. He counted 3,000 trailers already in private courts, and new
+classrooms paid for through the federal Office of Education
+([DL: Senate hearing, 1952](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1952-02-22_3)).
+
+Aiken had 7,167 people in 1950 and told the same hearing it expected
+metropolitan Aiken to reach 20,000 by 1955. It asked for federal help with
+about $2.6 million of the $2.9 million in new water, sewer, police and fire
+services it said it needed ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1952-02-22_3)).
+
+A Labor Department study found more than 10,000 workers had moved into the
+area by November 1951. School enrollment rose 69 percent in Williston, some
+Barnwell County schools ran double shifts, and under segregation one town put
+off building a needed school for Black children while it waited for federal
+money ([IA: *Monthly Labor Review*, 1952](https://archive.org/details/sim_monthly-labor-review_1952-09_75_3)).
+
+From 1954 the government paid Aiken, Barnwell and Allendale counties in place
+of the property taxes the site's land no longer paid ([WB: DOE, 2008][doe-pilt-2008]).
+
+### SRS and Ecology
 
 Before the reactors ran, the river was surveyed. Ruth Patrick of the Academy
 of Natural Sciences made a baseline survey in 1951 ([WB: srs.gov
@@ -260,6 +282,17 @@ permanent laboratory in 1961 ([WB: srs.gov 1960s][srs-1960]) — the Savannah
 River Ecology Laboratory, which dates its own founding to 1951 ([WB:
 SREL][srel-radioecology]).
 
+Much of the land had been worked hard. When the government took it, about
+two-thirds was forest, most of it already logged, and a third was cropland or
+pasture ([IA: SREL scientists, 2002](https://archive.org/details/DTIC_ADA400802)). In 1952 the AEC and
+the U.S. Forest Service agreed to manage the land together, and the Forest
+Service's first job was planting trees "by the thousands" on old farms
+([DL: Forest Service, 1995](https://archive.org/details/savannahriverfor51unit)).
+
+The reactors changed the streams. Lower Three Runs Creek was dammed in 1958
+to make Par Pond, a cooling reservoir, and the reactors sent hot water down
+creeks such as Steel Creek ([IA: L-Reactor environmental impact statement, 1984](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
+
 ---
 
 ## Chapter 2. The reactors under scrutiny, 1970–1992
@@ -272,19 +305,16 @@ Reports*
 ([DL](https://archive.org/details/sim_radiation-data-and-reports_1970-12_11_12)),
 and its annual environmental reports run from 1974 on OSTI ([WB: OSTI
 4174736][osti-env-1974]). In 1972 the plant became the first National
-Environmental Research Park ([WB: srs.gov 1970s][srs-1970]).
+Environmental Research Park ([WB: srs.gov 1970s][srs-1970]); see
+[SRS and Ecology](#srs-and-ecology).
 
 <figure class="fig">
 <img src="img/srl-californium-cask-c1970.jpg" width="1400" height="1136" alt="Three men around a large spherical shipping cask on a flatbed truck marked Radioactive; the man standing on the truck holds a radiation meter against the cask." loading="lazy">
 <figcaption>A health physicist makes a final radioactivity check on a shipping cask of californium-252 leaving the Savannah River Laboratory for Texaco&rsquo;s laboratory in Bellaire, Texas, about 1970. <span class="credit">US Department of Energy photograph HD.5A.047, public domain, via <a href="https://commons.wikimedia.org/wiki/File:HD.5A.047_(10348253655).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-The ecology laboratory's work on reactor cooling water began in 1969, once
-satellite imagery had made the water temperatures impossible to keep secret
-([WB: Ecological Society of America][esa-thermal]), and became the *Thermal
-Ecology* symposia
-([IA](https://archive.org/details/thermalecologyii0000ther)). The first
-on-site anti-nuclear protest came in 1979 ([WB: srs.gov 1970s][srs-1970]).
+The first on-site anti-nuclear protest came in 1979 ([WB: srs.gov
+1970s][srs-1970]).
 
 Radioactive tritium was the plant's largest routine release, averaging more than half a
 million curies a year to the air in 1974–77 ([WB: OSTI
@@ -322,8 +352,11 @@ an environmental assessment rather than a full impact statement ([WB: OSTI
 </figure>
 
 The Natural Resources Defense Council sued. On July 15, 1983, the district
-court held that the restart needed an environmental impact statement but
-would not stop it ([WB: Environmental Law Reporter][nrdc-vaughn]). The
+court held that restarting L reactor required an environmental impact
+statement and ordered DOE to prepare one ([WB: the court's decision][nrdc-vaughn-op]).
+It did not halt the restart: a law reporter's summary says the court refused
+a preliminary injunction ([WB: Environmental Law Reporter][nrdc-vaughn]),
+while the decision set South Carolina's request for one for a later hearing. The
 Senate Armed Services Committee had already held a field hearing in North
 Augusta that February
 ([DL](https://archive.org/details/micro_IA41152659_0884)).
@@ -471,6 +504,45 @@ counted about 3,000 release incidents involving tritium between 1954 and 1992
 the reports are reachable in Wayback.
 
 ---
+
+### Living with the Plant
+
+The plant was the area's anchor employer. A 1984 Energy Department report put
+its permanent workforce at 9,200 in December 1982, most of them working for
+Du Pont, with plant workers and their families making up about half of
+Aiken's 15,000 people. The same report found that Aiken and Richmond counties
+ranked in the top half nationally for income in 1974, while most counties
+around the plant ranked in the bottom 11 percent ([IA: DOE, 1984](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
+
+The 1980s buildup brought the workforce to 18,635 by May 1989, and a 1990
+DOE study said shutting the K, L and P reactors would cost about 9,600 jobs
+([IA: DOE, 1990](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)). In 1992 South Carolina listed Westinghouse
+Savannah River, with 23,000 workers, as its largest manufacturing employer,
+and noted that federal cutbacks had begun
+([IA: South Carolina Economic Report, 1993](https://archive.org/details/micro_IA40706946_0199)).
+
+### SRS and Ecology
+
+In 1972 the site became the first National Environmental Research Park
+([WB: srs.gov 1970s][srs-1970]). The ecology laboratory's work on reactor
+cooling water began in 1969, once satellite imagery had made the water
+temperatures impossible to keep secret ([WB: Ecological Society of
+America][esa-thermal]), and became the *Thermal Ecology* symposia
+([IA](https://archive.org/details/thermalecologyii0000ther)).
+
+The cooling water did real damage. A 1987 environmental impact statement
+found that K reactor's hot water had altered 670 acres of forested wetland
+along Pen Branch, and C reactor's about 1,147 acres, some 60 percent, along
+Four Mile Creek, where open water and marsh had replaced hardwood forest
+([IA: DOE, 1987](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)). Restarting L reactor meant sending hot water into
+the Steel Creek swamp again ([DL: Senate hearing, 1983](https://archive.org/details/micro_IA41152659_0884)).
+
+Wildlife was in trouble too. In 1984 the wood stork was listed as endangered,
+and the L-Reactor study recorded 102 of them feeding near the Steel Creek
+delta the summer before ([IA: DOE, 1984](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)). In 1985 the site's
+red-cockaded woodpeckers were down to four birds; at DOE's request, Forest
+Service scientists began carving artificial nest cavities and moving birds in
+from other forests ([DL: Forest Service](https://archive.org/details/redcockadedwoodp23unit)).
 
 ## Chapter 3. After the bombs, 1992–2020
 
@@ -672,6 +744,38 @@ could raise mercury risks, especially for pregnant women and children.
 Mercury is high upstream of the site too, and ATSDR said the site's share "is
 not known" ([WB: ATSDR][atsdr-2012]).
 
+### Living with the Plant
+
+Then came the cuts. The site employed 23,351 people in 1992, about 10 percent
+of all jobs in six surrounding counties, with a payroll above $1.1 billion,
+and a 1995 DOE study warned that budget cuts could remove up to 4,200 more
+jobs ([IA: DOE, 1995](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
+
+A study for the SRS Community Reuse
+Organization, a regional development group with an interest in the site's
+value, counted 25,180 workers in September 1991 and 10,967 in September 2010
+([IA: study for the SRS Community Reuse Organization, 2011](https://archive.org/details/5750328-USC-Study-on-Economic-Impact-of-Savannah-River)).
+The counts differ by source.
+
+The government's payments in place of taxes became a fixture. In 2008 DOE
+raised them from $3.5 million to $6.2 million a year ([WB: DOE][doe-pilt-2008]).
+GAO later found that Barnwell County received about $4.5 million of the
+$6.2 million paid in 2013, and that the land values behind the payments had
+been set in 1988 ([WB: GAO, 2019][gao-pilt-2019]).
+
+### SRS and Ecology
+
+The land recovered. By 1994 the Forest Service reported the site's
+red-cockaded woodpeckers had grown from 4 to 77 birds in nine years; it was
+restoring drained Carolina bays, round wetlands found across the region, and
+planting longleaf pine ([DL: Forest Service, 1995](https://archive.org/details/savannahriverfor51unit)).
+
+Ecology laboratory scientists wrote in 2002 that cooling water had "destroyed
+the floodplain forests" along several streams, and that after the reactors
+shut down they were studying how to replant Pen Branch and Four Mile Creek.
+The site then held 30 set-aside research areas of 14,005 acres, and 152
+woodpeckers by 1999 ([IA: SREL scientists, 2002](https://archive.org/details/DTIC_ADA400802)).
+
 ### The laboratories
 
 The site's laboratory was named the country's newest national laboratory in
@@ -818,6 +922,33 @@ its mercury limits protective enough that it sets none for radioactivity
 fish from its creek mouths in 2024 would get at most about 0.24 millirem of
 radiation, all from cesium-137 ([WB: SRS][srs-dose-2024]).
 
+### Living with the Plant
+
+The payments still matter to the neighbors. When the 2022 federal budget
+request cut $5.7 million from them in 2021, Representative Jim Clyburn asked
+for the money back, and a Barnwell County council member called the payment
+"sort of like the sacred cow" ([WB: *Aiken Standard*, 2021][aiken-pilt-2021]).
+South Carolina's 2022–23 budget spent the $525 million from the plutonium
+settlement, including $105 million for new schools for Williston and
+Blackville ([WB: South Carolina budget, 2022][sc-budget-2022]).
+
+Site workers still give to local charities. The contractors reported raising
+$1,488,038 for United Way in the 2023 campaign ([WB: SRS release][srs-uw-2024]),
+and the United Way of Allendale, Bamberg and Barnwell counties called the
+workers' gifts "a significant portion" of its budget
+([WB: contractor release, 2026][srns-uw-2026]). Both are the contractors'
+own announcements.
+
+### SRS and Ecology
+
+The woodpeckers kept coming back. The Forest Service counted 150 active
+red-cockaded woodpecker groups in 2021, up from 3 in 1985, crediting thinning
+and prescribed fire ([WB: Forest Service, 2021][usfs-2021]).
+
+The ecology laboratory restored wetlands for the rare gopher frog in 2021
+([WB: DOE][doe-gopher-2021]), and in 2023 released the young of box turtles
+seized from illegal collectors ([WB: DOE][doe-turtles-2023]).
+
 ### The hunts go on
 
 The site's deer hunts, open to the public every autumn since 1965, are still
@@ -832,9 +963,7 @@ radiation limit ([WB: srs.gov hunt rules][srs-hunt-rules]).
 
 ### The record online
 
-The site's own record is moving. Archive-It has archived SRNL.GOV and SRS.GOV
-since July 2023 ([AIT: collection 21601][ait-21601]). Between May and July
-2026, www.srs.gov began sending visitors to a new address, public.srs.gov
+The site's own record is moving. Between May and July 2026, www.srs.gov began sending visitors to a new address, public.srs.gov
 ([WB: May 2026][srs-home-may-2026]; [WB: July 2026][srs-home-jul-2026]). Old
 links mostly still work, but often land on a broader page rather than the
 one that was linked, which is why this history cites the Wayback Machine's
@@ -895,7 +1024,6 @@ copies.
 [fr-pits]: https://web.archive.org/web/20250217233003/https://www.federalregister.gov/documents/2020/11/05/2020-24517/record-of-decision-for-the-final-environmental-impact-statement-eis-for-plutonium-pit-production-at
 [tritium-2020]: https://web.archive.org/web/20200924003430/https://www.srs.gov/general/news/releases/nr20_srs-tritium-facility-milestone.pdf
 [srnl-2004]: https://web.archive.org/web/20041017194818/http://www.srs.gov/general/news/newpub-rel/releases/srnlinit.pdf
-[ait-21601]: https://archive-it.org/collections/21601
 [uga-2005]: https://web.archive.org/web/20260312074558/https://news.uga.edu/srel-budget-is-cut-employees-face-layoffs-in-october/
 [cab-240]: https://web.archive.org/web/20250416052438/https://cab.srs.gov/library/recommendations/recommendation_240.pdf
 [srel-2007]: https://web.archive.org/web/20070715042708/http://www.uga.edu:80/srel/
@@ -976,3 +1104,13 @@ copies.
 [sc-fish-2026]: https://web.archive.org/web/20260116091725/https://des.sc.gov/data-tools/fish-consumption-advisories/savannah-river-fish-consumption-advisory
 [ga-fish-2023]: https://web.archive.org/web/20260211161755/https://epd.georgia.gov/document/document/2023-fcg-bookletpdf/download
 [srs-dose-2024]: https://web.archive.org/web/20260116214000/https://www.srs.gov/general/pubs/ERsum/er24/docs/SRNL-STI-2025-00311.pdf
+[nrdc-vaughn-op]: https://web.archive.org/web/20201030110651/https://law.justia.com/cases/federal/district-courts/FSupp/566/1472/2396296/
+[doe-pilt-2008]: https://web.archive.org/web/20080201182435/http://www.energy.gov:80/news/5868.htm
+[gao-pilt-2019]: https://web.archive.org/web/20201018100023/https://www.gao.gov/assets/710/705841.pdf
+[aiken-pilt-2021]: https://web.archive.org/web/20210619185743/https://www.postandcourier.com/aikenstandard/news/rep-clyburn-seeking-restoration-of-doe-payment-to-savannah-river-site-neighbors/article_d6db7a06-d069-11eb-b145-3b30c96348ab.html
+[sc-budget-2022]: https://web.archive.org/web/20220617042231/https://www.scstatehouse.gov/sess124_2021-2022/appropriations2022/tap1b.htm
+[srs-uw-2024]: https://web.archive.org/web/20241127200107/https://www.srs.gov/general/news/releases/2024/nr24_SRS_United_Way_Campaign.pdf
+[srns-uw-2026]: https://web.archive.org/web/20260108112808/https://savannahrivernuclearsolutions.com/news/releases/2026/nr26_Celebrating_the_2025_SRNS_United_Way_Campaign.pdf
+[usfs-2021]: https://web.archive.org/web/20250416054246/https://www.srs.gov/general/pubs/ERsum/er21/docs/USFS-SR_2021_Forest-Service.pdf
+[doe-gopher-2021]: https://web.archive.org/web/20260706014316/https://www.energy.gov/nepa/articles/cx-024954-wetland-restoration-and-gopher-frog-conservation-srel
+[doe-turtles-2023]: https://web.archive.org/web/20260704213552/https://www.energy.gov/em/articles/turtles-find-forever-home-savannah-river-site

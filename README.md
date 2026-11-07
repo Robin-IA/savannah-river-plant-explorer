@@ -19,19 +19,21 @@ logos:
 - **Chapters 1–4** (`chapter-1.html` to `chapter-4.html`):
   the history, with a tag on every citation: **DL** Democracy's Library,
   **WB** the Wayback Machine, **IA** the Internet Archive outside Democracy's
-  Library, **OL** a book cataloged in Open Library, **AIT** Archive-It,
+  Library, **OL** a book cataloged in Open Library,
   **EXT** held elsewhere. Each tag links to its source. Chapter 1 covers
   building the plant (1950–1969), Chapter 2 the reactors under scrutiny
   (1970–1992), Chapter 3 the years after bomb making (1992–2020) and
   Chapter 4 what is happening now (2020 to today), including the
-  controversies of each period.
-- **Timeline** (`timeline.html`): 63 events from the story in five lanes
+  controversies of each period. Every chapter has a *Living with the Plant*
+  section on jobs, charity and the towns around the site, and an *SRS and
+  Ecology* section on the land and wildlife.
+- **Timeline** (`timeline.html`): 69 events from the story in five lanes
   (land and people, production, environment and science, oversight and law,
   cleanup and legacy), the working lives of the five production reactors, and
   labeled milestones. Each mark's shape and color say where its source is
   held, and the marks can be filtered by holder. The same events follow as a
   list, by chapter.
-- **Sources** (`sources.html`): all 400 sources behind the story, filterable
+- **Sources** (`sources.html`): all 414 sources behind the story, filterable
   by where they are held, by chapter and by word. The filters are kept in the
   URL, for example `sources.html?tag=WB&chapter=3&q=DWPF`.
 - **About** (`about.html`), including the controversies, the documentary
@@ -40,12 +42,12 @@ logos:
 **Facts:**
 
 - **Source of materials:** archive.org items (Democracy's Library and
-  others), Wayback Machine captures, Archive-It seeds, and a few outside
+  others), Wayback Machine captures, and a few outside
   holders. Wherever an outside page has a working Wayback capture, the
   capture is cited instead of the live page.
 - **Years covered:** 1950 to 2026.
-- **Size:** 400 sources: 60 DL, 209 WB, 115 IA, 3 OL, 1 AIT, 12 EXT. Counted
-  November 6, 2026.
+- **Size:** 414 sources: 62 DL, 222 WB, 118 IA, 3 OL, 9 EXT. Counted
+  November 7, 2026.
 - **Not included:** sources still being sought, such as the rest of the
   *New York Times* 1988 series and the "thirty incidents" report, are tracked as
   [issues labeled `source-gap`](https://github.com/Robin-IA/savannah-river-plant-explorer/issues?q=label%3Asource-gap).
@@ -57,8 +59,7 @@ logos:
 
 Every source was found and checked live on November 6, 2026, with
 `archive.org/advancedsearch.php`, archive.org full-text search, the
-`archive.org/metadata` API, the Wayback CDX server, the Archive-It partner
-API and the OSTI API. A source is labeled **DL** when its identifier matches
+`archive.org/metadata` API, the Wayback CDX server and the OSTI API. A source is labeled **DL** when its identifier matches
 Democracy's Library's `search_collection` scope expression; every DL and IA
 label was re-tested in a second, independent pass, which moved two items from
 DL to IA. Each Wayback capture was replayed and each outside link opened.
