@@ -322,8 +322,11 @@ an environmental assessment rather than a full impact statement ([WB: OSTI
 </figure>
 
 The Natural Resources Defense Council sued. On July 15, 1983, the district
-court held that the restart needed an environmental impact statement but
-would not stop it ([WB: Environmental Law Reporter][nrdc-vaughn]). The
+court held that restarting L reactor required an environmental impact
+statement and ordered DOE to prepare one ([WB: the court's decision][nrdc-vaughn-op]).
+It did not halt the restart: a law reporter's summary says the court refused
+a preliminary injunction ([WB: Environmental Law Reporter][nrdc-vaughn]),
+while the decision set South Carolina's request for one for a later hearing. The
 Senate Armed Services Committee had already held a field hearing in North
 Augusta that February
 ([DL](https://archive.org/details/micro_IA41152659_0884)).
@@ -976,3 +979,4 @@ copies.
 [sc-fish-2026]: https://web.archive.org/web/20260116091725/https://des.sc.gov/data-tools/fish-consumption-advisories/savannah-river-fish-consumption-advisory
 [ga-fish-2023]: https://web.archive.org/web/20260211161755/https://epd.georgia.gov/document/document/2023-fcg-bookletpdf/download
 [srs-dose-2024]: https://web.archive.org/web/20260116214000/https://www.srs.gov/general/pubs/ERsum/er24/docs/SRNL-STI-2025-00311.pdf
+[nrdc-vaughn-op]: https://web.archive.org/web/20201030110651/https://law.justia.com/cases/federal/district-courts/FSupp/566/1472/2396296/
