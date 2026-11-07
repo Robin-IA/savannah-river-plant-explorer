@@ -161,7 +161,7 @@ government-owned, contractor-operated plant was in law
 
 Du Pont wrote its own record of all this, volume by volume, in construction
 and design histories now on OSTI ([WB: OSTI 10159481][osti-construction];
-[EXT: OSTI 10151705][osti-plantwide]). The company's administrative files
+[WB: OSTI 10151705][osti-plantwide]). The company's administrative files
 are at the Hagley Museum and Library, by DOE's own finding aid ([WB: DOE
 OHRE][ohre-admin]).
 
@@ -322,7 +322,7 @@ an environmental assessment rather than a full impact statement ([WB: OSTI
 
 The Natural Resources Defense Council sued. On July 15, 1983, the district
 court held that the restart needed an environmental impact statement but
-would not stop it ([EXT: Environmental Law Reporter][nrdc-vaughn]). The
+would not stop it ([WB: Environmental Law Reporter][nrdc-vaughn]). The
 Senate Armed Services Committee had already held a field hearing in North
 Augusta that February
 ([DL](https://archive.org/details/micro_IA41152659_0884)).
@@ -450,7 +450,7 @@ In March 1991 a depression found on the downstream face of the Par Pond dam
 led the site to lower the reservoir about 19 feet that summer, exposing some
 1,300 acres of cesium-contaminated sediment and sending tritium and cesium
 into the river ([WB: OSTI 7247383][osti-parpond]); the exposed bed became a
-Superfund interim action ([EXT: OSTI 10192315][osti-parpond-cercla]).
+Superfund interim action ([WB: OSTI 10192315][osti-parpond-cercla]).
 
 A 1998 DOE notice dates the leak to 1992
 ([DL](https://archive.org/details/sim_federal-register-find_1998-01-28_63_18)).
@@ -528,7 +528,7 @@ after objections from the Nuclear Regulatory Commission, members of Congress
 and states. Savannah River was its first test: in 2020 DOE decided to send
 grouted wastewater from the glass plant to a commercial disposal site in
 Andrews, Texas, beginning with 8 gallons
-([WB: *Federal Register*][fr-hlw-ea]; [EXT: *Federal Register*][fr-hlw-fonsi]).
+([WB: *Federal Register*][fr-hlw-ea]; [WB: *Federal Register*][fr-hlw-fonsi]).
 
 ### Sealing the reactors
 
@@ -597,7 +597,7 @@ chosen to store it at home instead ([WB: SRS Watch][srswatch-german]).
 Plutonium from a Japanese research assembly did come, through Charleston in
 2016 ([WB: SRS Watch][srswatch-japan]), and in 2021 NNSA dropped its plan to
 send it on to New Mexico, deciding to process it at Savannah River and store
-it there until a geologic repository exists ([EXT: *Federal
+it there until a geologic repository exists ([WB: *Federal
 Register*][fr-japan]).
 
 The site's weapons work never fully ended. Tritium work continued
@@ -686,7 +686,7 @@ Nuclear Facilities Safety Board warned that the planned controls "may not
 adequately protect facility workers" handling plutonium in glove boxes
 ([WB: safety board][dnfsb-2023]). In May 2025 the board said NNSA's upgrades
 were "a significant improvement to safety" and resolved its concerns
-([EXT: safety board][dnfsb-2025]).
+([WB: safety board][dnfsb-2025]).
 
 ### Moving plutonium out
 
@@ -774,7 +774,7 @@ copies.
 [osti-dunbarton]: https://web.archive.org/web/20250515145513/https://www.osti.gov/biblio/10171577
 [cassels]: https://openlibrary.org/works/OL9858335W
 [osti-construction]: https://web.archive.org/web/20261106212743/https://www.osti.gov/biblio/10159481
-[osti-plantwide]: https://www.osti.gov/biblio/10151705
+[osti-plantwide]: https://web.archive.org/web/20261107182353/https://www.osti.gov/biblio/10151705
 [ohre-admin]: https://web.archive.org/web/20210615090444/https://ehss.energy.gov/ohre/new/findingaids/epidemiologic/savannah/admin/1.html
 [srs-1950]: https://web.archive.org/web/20210622195758/https://www.srs.gov/general/about/srs-1950.htm
 [srs-1960]: https://web.archive.org/web/20210622210711/https://www.srs.gov/general/about/srs-1960.htm
@@ -787,7 +787,7 @@ copies.
 [osti-env-1974]: https://web.archive.org/web/20251230084004/https://www.osti.gov/biblio/4174736
 [esa-thermal]: https://web.archive.org/web/20250216113323/https://esa.org/history/fifty-years-ago-the-development-of-thermal-ecology-at-srel
 [osti-l-ea]: https://web.archive.org/web/20250403000018/https://www.osti.gov/biblio/5060401
-[nrdc-vaughn]: http://www.elr.info/litigation/natural-resources-defense-council-v-vaughn
+[nrdc-vaughn]: https://web.archive.org/web/20261107182208/http://www.elr.info/litigation/natural-resources-defense-council-v-vaughn
 [l-eis]: https://web.archive.org/web/20250204092305/https://www.energy.gov/sites/default/files/2021-05/final-eis-0108-vol1-1-l-reactor-srs-1984-05.pdf
 [deadly-crop]: https://web.archive.org/web/20260708052425/https://ieer.org/wp/wp-content/uploads/1986/07/deadlycropSRS1986.pdf
 [osti-dupont-reply]: https://web.archive.org/web/20251228142221/https://www.osti.gov/biblio/5881523
@@ -840,21 +840,21 @@ copies.
 [osti-1984]: https://web.archive.org/web/20251206194126/https://www.osti.gov/biblio/6417935
 [osti-1987]: https://web.archive.org/web/20251228160025/https://www.osti.gov/biblio/7130595
 [osti-parpond]: https://web.archive.org/web/20251228050711/https://www.osti.gov/biblio/7247383
-[osti-parpond-cercla]: https://www.osti.gov/biblio/10192315
+[osti-parpond-cercla]: https://web.archive.org/web/20261107182425/https://www.osti.gov/biblio/10192315
 [cdc-srs-page]: https://web.archive.org/web/20061022015436/http://www.cdc.gov/nceh/radiation/savannah/default.htm
 [gao-itp]: https://web.archive.org/web/20260720111820/https://www.govinfo.gov/content/pkg/GAOREPORTS-RCED-99-69/html/GAOREPORTS-RCED-99-69.htm
 [oig-swpf]: https://web.archive.org/web/20250223204809/https://www.energy.gov/sites/default/files/2015/08/f25/OAS-L-15-09.pdf
 [fr-hlw-ea]: https://web.archive.org/web/20250207160857/https://www.federalregister.gov/documents/2019/12/10/2019-26555/draft-environmental-assessment-for-the-commercial-disposal-of-defense-waste-processing-facility
-[fr-hlw-fonsi]: https://www.federalregister.gov/documents/2020/08/10/2020-17374/finding-of-no-significant-impact-for-the-commercial-disposal-of-defense-waste-processing-facility
+[fr-hlw-fonsi]: https://web.archive.org/web/20250203052153/https://www.federalregister.gov/documents/2020/08/10/2020-17374/finding-of-no-significant-impact-for-the-commercial-disposal-of-defense-waste-processing-facility
 [nv-ag]: https://web.archive.org/web/20200917111504/http://ag.nv.gov/News/PR/2020/State_of_Nevada_Strikes_Settlement_With_Department_of_Energy_Over_Plutonium_Shipments/
 [fr-german]: https://web.archive.org/web/20210505033247/https://www.federalregister.gov/documents/2014/06/04/2014-12933/environmental-assessment-for-the-acceptance-and-disposition-of-used-nuclear-fuel-containing
 [cab-350]: https://web.archive.org/web/20250416065922/https://www.srs.gov/general/outreach/srs-cab/library/recommendations/Rec_350_-_German_Fuel.pdf
 [srswatch-german]: https://web.archive.org/web/20221012205815/https://srswatch.org/public-interest-victories-at-srs-import-of-german-spent-fuel-off-the-table-h-canyon-reprocessing-plant-closure-set-on-track-for-2033/
-[fr-japan]: https://www.federalregister.gov/documents/2021/03/08/2021-04707/disposition-of-fast-critical-assembly-plutonium
+[fr-japan]: https://web.archive.org/web/20261107181727/https://www.federalregister.gov/documents/2021/03/08/2021-04707/disposition-of-fast-critical-assembly-plutonium
 [fr-dnfsb]: https://web.archive.org/web/20250204215942/https://www.federalregister.gov/documents/2019/06/19/2019-12918/recommendation-2019-02
 [fr-dnfsb-reply]: https://web.archive.org/web/20250204112020/https://www.federalregister.gov/documents/2019/10/02/2019-21438/doe-response-to-recommendation-2019-2-of-the-defense-nuclear-facilities-safety-board-safety-of-the
 [fr-sec-2021]: https://web.archive.org/web/20250213172044/https://www.federalregister.gov/documents/2021/09/07/2021-19167/designation-of-a-class-of-employees-for-addition-to-the-special-exposure-cohort
-[fr-sec-2026]: https://www.federalregister.gov/documents/2026/07/28/2026-15152/designation-of-a-class-of-employees-for-addition-to-the-special-exposure-cohort
+[fr-sec-2026]: https://web.archive.org/web/20260927131346/https://www.govinfo.gov/content/pkg/FR-2026-07-28/html/2026-15152.htm
 [srswatch-japan]: https://web.archive.org/web/20220111081001/https://srswatch.org/plutonium-proliferation-alert-plutonium-from-japan-to-srs/
 [srs-hunt]: https://web.archive.org/web/20250715155712/https://www.srs.gov/general/deer_hunt/hunt.htm
 [srs-hunt-rules]: https://web.archive.org/web/20230420192648/https://www.srs.gov/general/deer_hunt/srshunt.htm
@@ -863,7 +863,7 @@ copies.
 [nnsa-fy25]: https://web.archive.org/web/20260308145100/https://www.energy.gov/sites/default/files/2026-02/SRS%20FY%202025%20Performance%20Evaluation%20Report.pdf
 [nnsa-srppf]: https://web.archive.org/web/20261016212506/https://www.energy.gov/nnsa/articles/nnsa-baselines-savannah-river-plutonium-processing-facility
 [dnfsb-2023]: https://web.archive.org/web/20230913230207/https://www.dnfsb.gov/sites/default/files/document/28871/SRPPF%20Facility%20Worker%20Protection%20[2023-100-025].pdf
-[dnfsb-2025]: https://ehss.energy.gov/deprep/2025/FB25Y21A.PDF
+[dnfsb-2025]: https://web.archive.org/web/20261107181328/https://ehss.energy.gov/deprep/2025/FB25Y21A.PDF
 [doe-sc-2020]: https://web.archive.org/web/20200902214336/https://www.energy.gov/articles/secretary-brouillette-and-south-carolina-officials-announce-historic-agreement-between
 [srs-dilute-2024]: https://web.archive.org/web/20241127184933/https://www.srs.gov/general/news/releases/2024/nr24_The_Future_is_Now_downblended_plutonium_shipping_package_receipt.pdf
 [eo-14302]: https://web.archive.org/web/20251104001902/https://www.govinfo.gov/content/pkg/FR-2025-05-29/html/2025-09801.htm

@@ -535,7 +535,8 @@ Added November 6, 2026, from a second research pass; every item was checked live
    - DOE draft EA-2115, 2019-12-10.
    - Grouting DWPF recycle wastewater for commercial disposal under the reinterpreted definition of high-level waste. Text read.
    - Verified 2026-11-06.
-104. **EXT:Federal Register**: https://www.federalregister.gov/documents/2020/08/10/2020-17374/finding-of-no-significant-impact-for-the-commercial-disposal-of-defense-waste-processing-facility
+104. **WB**: https://web.archive.org/web/20250203052153/https://www.federalregister.gov/documents/2020/08/10/2020-17374/finding-of-no-significant-impact-for-the-commercial-disposal-of-defense-waste-processing-facility
+   - Wayback capture of https://www.federalregister.gov/documents/2020/08/10/2020-17374/finding-of-no-significant-impact-for-the-commercial-disposal-of-defense-waste-processing-facility (held by Federal Register).
    - DOE finding of no significant impact, 2020-08-10.
    - Up to 8 gallons first, to Waste Control Specialists in Andrews, Texas; the reinterpretation revised after comments. Text read.
    - Verified 2026-11-06.
@@ -569,7 +570,8 @@ Added November 6, 2026, from a second research pass; every item was checked live
    - SRS Watch (advocacy), 2016.
    - Japanese Fast Critical Assembly plutonium arriving through Charleston, about June 2016. Not confirmed from a government source.
    - Verified 2026-11-06.
-112. **EXT:Federal Register**: https://www.federalregister.gov/documents/2021/03/08/2021-04707/disposition-of-fast-critical-assembly-plutonium
+112. **WB**: https://web.archive.org/web/20261107181727/https://www.federalregister.gov/documents/2021/03/08/2021-04707/disposition-of-fast-critical-assembly-plutonium
+   - Wayback capture of https://www.federalregister.gov/documents/2021/03/08/2021-04707/disposition-of-fast-critical-assembly-plutonium (held by Federal Register).
    - DOE amended Record of Decision, 2021-03-08.
    - Gap Material plutonium moved from the WIPP path to H-Canyon, DWPF and storage at SRS until a geologic repository is available. Text read.
    - Verified 2026-11-06.
@@ -592,7 +594,8 @@ Added November 6, 2026, from a second research pass; every item was checked live
    - HHS, Special Exposure Cohort designation, 2021-09-07.
    - Subcontractor construction-trade employees, October 1972 to 1990. Text read.
    - Verified 2026-11-06.
-117. **EXT:Federal Register**: https://www.federalregister.gov/documents/2026/07/28/2026-15152/designation-of-a-class-of-employees-for-addition-to-the-special-exposure-cohort
+117. **WB**: https://web.archive.org/web/20260927131346/https://www.govinfo.gov/content/pkg/FR-2026-07-28/html/2026-15152.htm
+   - Wayback capture of the govinfo copy of the same notice; federalregister.gov serves automated visitors a block page. Original: https://www.federalregister.gov/documents/2026/07/28/2026-15152/designation-of-a-class-of-employees-for-addition-to-the-special-exposure-cohort
    - HHS, Special Exposure Cohort designation, 2026-07-28.
    - The same group, 1991 to 1993. Text read.
    - Verified 2026-11-06.

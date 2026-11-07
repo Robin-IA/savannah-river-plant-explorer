@@ -16,7 +16,7 @@
 - **WB** https://web.archive.org/web/20260308145100/https://www.energy.gov/sites/default/files/2026-02/SRS%20FY%202025%20Performance%20Evaluation%20Report.pdf. NNSA performance evaluation of Savannah River Nuclear Solutions for fiscal 2025, December 9, 2025. "Underperformed" on the pit plant; "negligent in reporting project slips"; dilute-and-dispose and shipment targets exceeded. PDF read. Verified 2026-11-07.
 - **WB** https://web.archive.org/web/20261016212506/https://www.energy.gov/nnsa/articles/nnsa-baselines-savannah-river-plutonium-processing-facility. NNSA release, October 16, 2026. Baseline signed and full construction authorized October 15, 2026. No cost or completion date given. Page read. Verified 2026-11-07.
 - **WB** https://web.archive.org/web/20230913230207/https://www.dnfsb.gov/sites/default/files/document/28871/SRPPF%20Facility%20Worker%20Protection%20[2023-100-025].pdf. Defense Nuclear Facilities Safety Board letter, August 3, 2023: planned controls "may not adequately protect facility workers". PDF read. Verified 2026-11-07.
-- **EXT:DOE EHSS** https://ehss.energy.gov/deprep/2025/FB25Y21A.PDF. Safety board letter, May 21, 2025: the upgrades are "a significant improvement to safety". No Wayback capture. PDF read. Verified 2026-11-07.
+- **WB** https://web.archive.org/web/20261107181328/https://ehss.energy.gov/deprep/2025/FB25Y21A.PDF. Safety board letter, May 21, 2025: the upgrades are "a significant improvement to safety". No Wayback capture. PDF read. Verified 2026-11-07. Wayback capture of https://ehss.energy.gov/deprep/2025/FB25Y21A.PDF (held by DOE EHSS).
 
 ## 2. Moving plutonium out
 
