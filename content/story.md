@@ -65,11 +65,12 @@ farmers; the AEC settled on 6,000 people in 1,500 families
 ([WB: ch. 8][fifty-8]). The Savannah River Archaeological Research Program
 later put it at about 5,000 ([WB: SRARP][srarp-towns]).
 
-The Army Corps of Engineers ran the acquisition. Residents of the first area
-had to be gone by March 15, 1951, and of the second by June 1; owners who
-disputed an appraisal went to federal condemnation proceedings; at least
-4,500 graves had to be moved ([WB: ch. 8][fifty-8]). By late 1951 the
-government was acquiring 265 tracts in Ellenton alone
+The process of acquiring the land was run by the Army Corps of Engineers,
+with residents of the first area gone by March 15, 1951, and of the second
+by June 1. Landowners who disputed their land appraisal went to federal
+condemnation proceedings. At least 4,500 graves had to be moved
+([WB: ch. 8][fifty-8]). By late 1951 the government was acquiring 265 tracts
+in Ellenton alone
 ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1951-11-27)).
 
 Owners objected to how their land was bought. A congressional staff report
@@ -731,8 +732,8 @@ and Public Health Project, disagreed in 2012, reporting that 46 of 48
 radiation-sensitive disease measures in five nearby counties had risen
 faster than national rates ([WB: advocacy report][rphp-2012]).
 
-Fishing on the site itself is generally barred, and the creek mouths are
-posted. A 1997 survey of 258 people fishing the river near the site found
+Fishing on the site itself and some surrounding areas is prohibited, with
+warning signs posted. A 1997 survey of 258 people fishing the river near the site found
 they ate about 3.2 pounds of fish a month, Black men nearly twice as much as
 white men, and that families shared the catch with young children
 ([WB: ATSDR][atsdr-2012]).
