@@ -291,14 +291,19 @@ table.reactors th[scope=row] { font-weight: 700; width: 5em; }
 .foot p { margin: 4px 0; }
 .foot p.explorer-checks-note { font-size: clamp(0.8333rem, 0.875em, 1rem); margin: 1em 0 0; }
 
+/* Medium screens: keep the panel on the right, a little narrower. */
 @media (max-width: 1240px) {
+  .cols { grid-template-columns: 190px minmax(0, 1fr) 260px; gap: 28px; }
+  .home-cols { grid-template-columns: minmax(0, 1fr) 260px; }
+  .tl-lists { grid-template-columns: 1fr 1fr; }
+}
+/* Narrower: the panel moves below the story, never above it. */
+@media (max-width: 1100px) {
+  .cols { grid-template-columns: 190px minmax(0, 1fr); }
   .home-cols { grid-template-columns: minmax(0, 1fr); }
-  .home-cols .rail { grid-row: auto; }
-  .cols { grid-template-columns: 200px minmax(0, 1fr); }
-  .rail { position: static; grid-column: 1 / -1; grid-row: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 0 28px; }
+  .rail { position: static; grid-column: 1 / -1; grid-row: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 0 28px; }
   .rail > * { grid-column: 1; }
   .rail .holder-chart, .rail .card { grid-column: 2; }
-  .tl-lists { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 860px) {
   .cols, .sources-top, .results-cols, .tl-lists, .tl-reactors, .chapters, .prev-next { grid-template-columns: minmax(0, 1fr); }
