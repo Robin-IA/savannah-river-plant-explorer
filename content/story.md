@@ -721,9 +721,8 @@ Special Exposure Cohort; the special classes for the site came from it
 The Medical University of South Carolina ran a cancer and birth-defects
 registry from 1991 to 1995 for the counties around the site and down the
 river to Savannah. Some cancers were elevated, among them cervical cancer in
-Black women and esophageal cancer in Black men, but registry officials saw no
-sign they were related to the site, according to a 2002 summary by the site's
-contractor ([WB: OSTI][srs-epi-2002]).
+Black women and esophageal cancer in Black men, but officials saw no sign
+they were related to the site ([WB: 2002 summary][srs-epi-2002]).
 
 In 2007 the federal Agency for Toxic Substances and Disease Registry (ATSDR)
 found "no apparent public health hazard" from groundwater or surface water
