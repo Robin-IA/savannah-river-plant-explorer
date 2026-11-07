@@ -1058,8 +1058,11 @@ SREL's (Savannah River Ecology Laboratory's) web page from that summer mentions 
 ### The Plant's Museum
 
 The SRS (Savannah River Site) Museum opened in Aiken after a 2014 ribbon-cutting
-([WB][museum-2014]); its website is dead but the Wayback Machine has the
-record ([WB][museum-web]). The site's archaeologists and its Cold War historic
+([WB][museum-2014]). It is still open to the public. In November 2026 its
+website listed free admission, Wednesday through Saturday from 10 a.m. to 4
+p.m., at 224 Laurens Street SW, run by the SRS Heritage Foundation
+([WB: SRS Museum, 2026][museum-2026]). The museum's first website is gone,
+but the Wayback Machine has it ([WB][museum-web]). The site's archaeologists and its Cold War historic
 preservation program work with it ([WB][preserve-2020]) — the same program
 that collected Ellenton's memories in 1990.
 
@@ -1484,3 +1487,4 @@ copies.
 [scdes-sw]: https://web.archive.org/web/20260311173716/https://des.sc.gov/community/environmental-sites-projects/savannah-river-site/environmental-surveillance-oversight-program/monitoring-surface-water
 [scdes-dw]: https://web.archive.org/web/20260311152928/https://des.sc.gov/community/environmental-sites-projects/savannah-river-site/environmental-surveillance-oversight-program/drinking-water-quality-monitoring
 [esop-2023]: https://web.archive.org/web/20250425023429/https://des.sc.gov/sites/des/files/Documents/BRLS/ESOP/2023/CR-004111_2023.pdf
+[museum-2026]: https://web.archive.org/web/20261104093554/http://srsheritagemuseum.org/

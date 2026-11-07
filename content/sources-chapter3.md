@@ -445,6 +445,10 @@ Sources for "Bomb Making in South Carolina: The Savannah River Plant", Chapter 3
     - SRS Museum website, first capture.
     - **srsmuseum.org no longer resolves in DNS** (checked 2026-11-06), so the Wayback captures are now the record of the museum's web presence.
     - Verified 2026-11-06.
+126. **WB**: https://web.archive.org/web/20261104093554/http://srsheritagemuseum.org/
+    - SRS Museum website (SRS Heritage Foundation), captured November 4, 2026.
+    - "The Museum is open Wednesdays – Saturdays from 10 a.m. to 4 p.m. and admission is free"; 224 Laurens St. SW, Aiken.
+    - Verified 2026-11-07.
 87. **EXT: UNT End of Term 2008**: https://webarchive.library.unt.edu/eot2008/20090114192636/http://www.srs.gov/general/about/history1.htm
     - "SRS History Highlights" page.
     - Wayback also has `.../20051025030030/http://www.srs.gov:80/general/about/history1.htm`.
