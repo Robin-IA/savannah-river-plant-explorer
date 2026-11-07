@@ -119,8 +119,9 @@ reactors in 1951 (reactor R in June, P in July, L in October)
 Labor Statistics followed the work force in a 1952 study
 ([IA: part I](https://archive.org/details/sim_monthly-labor-review_1952-06_74_6)).
 It records Black tenant farmers arriving in Augusta looking for jobs in May
-1951, and an NAACP meeting in Aiken that September charging Du Pont over its
-hiring.
+1951. At an NAACP meeting in Aiken that September, speakers accused Du Pont
+and an Augusta union of keeping Black workers out of skilled jobs, and said
+they had enough evidence to go to court.
 
 Getting hired was a fight of its own. In November 1951 a House labor
 subcommittee under Graham Barden held five days of hearings in Augusta on
