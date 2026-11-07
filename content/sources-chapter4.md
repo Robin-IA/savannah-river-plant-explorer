@@ -1,4 +1,4 @@
-# Bomb Making, Chapter 4 (2020 to today): sources
+# Bomb Making in South Carolina, Chapter 4 (2020 to today): sources
 
 > Research notes behind the story's fourth chapter, compiled November 7, 2026.
 > Every source was checked live that day. Wayback captures are cited wherever a
