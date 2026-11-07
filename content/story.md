@@ -140,6 +140,8 @@ is cataloged in Open Library, though it has no copy to read or borrow yet
 <figcaption>Ellenton at its railroad crossing before the plant, and the same crossing about 2010. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_Ellenton_(5227763993).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
+*Follow this thread, the displaced towns.* Continues in [Chapter 3, The Plant's Museum](chapter-3.html#the-plants-museum).
+
 ### Building the Plant
 
 According to the Natural Resources Defense Council, construction began on
@@ -298,6 +300,10 @@ and 1972 to the Special Exposure Cohort of the federal occupational illness
 compensation program. Their cancer claims no longer turn on reconstructing
 each worker's dose ([WB: NIOSH][niosh-srs]).
 
+*Follow this thread, waste and groundwater.* Continues in [Chapter 2, Under the Ground](chapter-2.html#under-the-ground); [Chapter 3, The Tanks](chapter-3.html#the-tanks); [Chapter 4, Emptying the Tanks](chapter-4.html#emptying-the-tanks).
+
+*Follow this thread, health of workers and neighbors.* Continues in [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant); [Chapter 3, Sick Workers](chapter-3.html#sick-workers); [Chapter 3, The Neighbors and the River](chapter-3.html#the-neighbors-and-the-river); [Chapter 4, Sick Workers and the River Today](chapter-4.html#sick-workers-and-the-river-today).
+
 ### Living with the Plant
 
 For the towns around it, the plant was an economic boom with an
@@ -339,6 +345,7 @@ of the property taxes the site's land no longer paid ([WB: DOE, 2008][doe-pilt-2
 <figcaption>Getting to work: the plant's shuttle for workers who missed their carpools in the 1950s, and a carpool shelter still standing about 2010. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_Carpooling_(5228278174).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
+*Follow this thread, the towns and their economy.* Continues in [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant); [Chapter 3, Living with the Plant](chapter-3.html#living-with-the-plant); [Chapter 4, Living with the Plant](chapter-4.html#living-with-the-plant).
 
 ### SRS and Ecology
 
@@ -403,6 +410,8 @@ ecologists at work and a record of what it released. The 1970s brought new envir
 to know more, and the plant came under scrutiny, as
 [Chapter 2](chapter-2.html) tells.
 
+*Follow this thread, the land and its wildlife.* Continues in [Chapter 2, SRS and Ecology](chapter-2.html#srs-and-ecology); [Chapter 3, SRS and Ecology](chapter-3.html#srs-and-ecology); [Chapter 3, The Laboratories](chapter-3.html#the-laboratories); [Chapter 4, Ecology and the SRS](chapter-4.html#ecology-and-the-srs).
+
 ---
 
 ## Chapter 2. The Reactors Under Scrutiny, 1970–1992
@@ -444,6 +453,8 @@ hunt for radioactive cesium-137 before releasing them to hunters
 
 The hunts still go on today; see
 [Chapter 4](chapter-4.html#ecology-and-the-srs).
+
+*Follow this thread, radioactivity in the river and its animals.* Continues in [Chapter 3, The Neighbors and the River](chapter-3.html#the-neighbors-and-the-river); [Chapter 4, Ecology and the SRS](chapter-4.html#ecology-and-the-srs).
 
 ### L-Reactor Comes Back
 
@@ -535,6 +546,7 @@ designed to reach its goal
 <figcaption>The M-1 air stripper, which by 2009 had pumped and treated more than five billion gallons of groundwater from A and M Areas. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Five_Billion_Gallons_M-1_Air_Stripper_(7409143760).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
+*Follow this thread, waste and groundwater.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases). Continues in [Chapter 3, The Tanks](chapter-3.html#the-tanks); [Chapter 4, Emptying the Tanks](chapter-4.html#emptying-the-tanks).
 
 ### 1987–1988: The Reactors Stop
 
@@ -658,6 +670,10 @@ no excess among children, more leukemia at ages 20 to 39 and slightly more
 lung cancer in older adults, and said it did not show cancer excesses tied to
 the plant ([DL](https://archive.org/details/cancerinpopulati00jabl_1); [DL](https://archive.org/details/cancerinpopulati00jabl_0)).
 
+*Follow this thread, health of workers and neighbors.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases). Continues in [Chapter 3, Sick Workers](chapter-3.html#sick-workers); [Chapter 3, The Neighbors and the River](chapter-3.html#the-neighbors-and-the-river); [Chapter 4, Sick Workers and the River Today](chapter-4.html#sick-workers-and-the-river-today).
+
+*Follow this thread, the towns and their economy.* Earlier: [Chapter 1, Living with the Plant](chapter-1.html#living-with-the-plant). Continues in [Chapter 3, Living with the Plant](chapter-3.html#living-with-the-plant); [Chapter 4, Living with the Plant](chapter-4.html#living-with-the-plant).
+
 ### An Emerging Environmental Movement Impacts SRS
 
 A new environmental movement changed the rules for the plant. The National
@@ -728,6 +744,8 @@ delta the summer before ([IA: DOE, 1984](https://archive.org/details/SavannahRiv
 red-cockaded woodpeckers were down to four birds; at DOE's (Department of Energy's) request, Forest
 Service scientists began carving artificial nest cavities and moving birds in
 from other forests ([DL: Forest Service](https://archive.org/details/redcockadedwoodp23unit)).
+
+*Follow this thread, the land and its wildlife.* Earlier: [Chapter 1, SRS and Ecology](chapter-1.html#srs-and-ecology). Continues in [Chapter 3, SRS and Ecology](chapter-3.html#srs-and-ecology); [Chapter 3, The Laboratories](chapter-3.html#the-laboratories); [Chapter 4, Ecology and the SRS](chapter-4.html#ecology-and-the-srs).
 
 ## Chapter 3. After the Bombs, 1992–2020
 
@@ -804,6 +822,8 @@ and states. Savannah River was its first test: in 2020 DOE decided to send
 grouted wastewater from the glass plant to a commercial disposal site in
 Andrews, Texas, beginning with 8 gallons
 ([WB: *Federal Register*][fr-hlw-ea]; [WB: *Federal Register*][fr-hlw-fonsi]).
+
+*Follow this thread, waste and groundwater.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases); [Chapter 2, Under the Ground](chapter-2.html#under-the-ground). Continues in [Chapter 4, Emptying the Tanks](chapter-4.html#emptying-the-tanks).
 
 ### Sealing the Reactors
 
@@ -893,6 +913,8 @@ radiation sickness or death in a significant number of people ([WB: *Federal
 Register*][fr-dnfsb]). NNSA's administrator replied, "I do not accept
 Recommendation 2019-2" ([WB: *Federal Register*][fr-dnfsb-reply]).
 
+*Follow this thread, plutonium after the cold war.* Continues in [Chapter 4, Making Pits Again](chapter-4.html#making-pits-again); [Chapter 4, Moving Plutonium Out](chapter-4.html#moving-plutonium-out).
+
 ### Sick Workers
 
 Compensation for the plant's sick workers came slowly. At a 2003 House
@@ -924,6 +946,8 @@ had not sent neutron radiation data for some claims ([WB: NIOSH][niosh-per19]).
 That November a petition asked to add every worker from 1950 to 2007 to the
 Special Exposure Cohort; the special classes for the site came from it
 ([WB: NIOSH][niosh-srs-2026]).
+
+*Follow this thread, health of workers and neighbors.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases); [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant). Continues in [Chapter 3, The Neighbors and the River](chapter-3.html#the-neighbors-and-the-river); [Chapter 4, Sick Workers and the River Today](chapter-4.html#sick-workers-and-the-river-today).
 
 ### The Neighbors and the River
 
@@ -957,6 +981,10 @@ could raise mercury risks, especially for pregnant women and children.
 Mercury is high upstream of the site too, and ATSDR said the site's share "is
 not known" ([WB: ATSDR][atsdr-2012]).
 
+*Follow this thread, health of workers and neighbors.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases); [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant); [Chapter 3, Sick Workers](chapter-3.html#sick-workers). Continues in [Chapter 4, Sick Workers and the River Today](chapter-4.html#sick-workers-and-the-river-today).
+
+*Follow this thread, radioactivity in the river and its animals.* Earlier: [Chapter 2, Radioactivity and Community Safety](chapter-2.html#radioactivity-and-community-safety). Continues in [Chapter 4, Ecology and the SRS](chapter-4.html#ecology-and-the-srs).
+
 ### Living with the Plant
 
 Then budget cuts came, hitting the plant and, through it, the local economy
@@ -982,6 +1010,8 @@ GAO (Government Accountability Office) later found that Barnwell County received
 $6.2 million paid in 2013, and that the land values behind the payments had
 been set in 1988 ([WB: GAO, 2019][gao-pilt-2019]).
 
+*Follow this thread, the towns and their economy.* Earlier: [Chapter 1, Living with the Plant](chapter-1.html#living-with-the-plant); [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant). Continues in [Chapter 4, Living with the Plant](chapter-4.html#living-with-the-plant).
+
 ### SRS and Ecology
 
 The land recovered. By 1994 the Forest Service reported the site's
@@ -999,6 +1029,8 @@ the floodplain forests" along several streams, and that after the reactors
 shut down they were studying how to replant Pen Branch and Four Mile Creek.
 The site then held 30 set-aside research areas of 14,005 acres, and 152
 woodpeckers by 1999 ([IA: SREL scientists, 2002](https://archive.org/details/DTIC_ADA400802)).
+
+*Follow this thread, the land and its wildlife.* Earlier: [Chapter 1, SRS and Ecology](chapter-1.html#srs-and-ecology); [Chapter 2, SRS and Ecology](chapter-2.html#srs-and-ecology). Continues in [Chapter 3, The Laboratories](chapter-3.html#the-laboratories); [Chapter 4, Ecology and the SRS](chapter-4.html#ecology-and-the-srs).
 
 ### The Laboratories
 
@@ -1021,6 +1053,8 @@ The House Science Committee held a hearing on it in July 2007
 SREL's (Savannah River Ecology Laboratory's) web page from that summer mentions a statement on a budget crisis
 ([WB][srel-2007]) but the actual statement has been lost.
 
+*Follow this thread, the land and its wildlife.* Earlier: [Chapter 1, SRS and Ecology](chapter-1.html#srs-and-ecology); [Chapter 2, SRS and Ecology](chapter-2.html#srs-and-ecology); [Chapter 3, SRS and Ecology](chapter-3.html#srs-and-ecology). Continues in [Chapter 4, Ecology and the SRS](chapter-4.html#ecology-and-the-srs).
+
 ### The Plant's Museum
 
 The SRS (Savannah River Site) Museum opened in Aiken after a 2014 ribbon-cutting
@@ -1040,6 +1074,8 @@ Assembly Laboratory in M Area in 107 photographs and 123 data pages. It was
 home to the zero-power Process Development Pile, which set the physics for
 plutonium and tritium production in the five reactors
 ([WB: Library of Congress, HAER SC-43][haer-sc43]).
+
+*Follow this thread, the displaced towns.* Earlier: [Chapter 1, The Towns Inside the Fence](chapter-1.html#the-towns-inside-the-fence).
 
 ## Chapter 4. What's Happening Now, 2020 to Today
 
@@ -1080,6 +1116,8 @@ adequately protect facility workers" handling plutonium in glove boxes
 were "a significant improvement to safety" and resolved its concerns
 ([WB: safety board][dnfsb-2025]).
 
+*Follow this thread, plutonium after the cold war.* Earlier: [Chapter 3, Plutonium: MOX and Pits](chapter-3.html#plutonium-mox-and-pits). Continues in [Chapter 4, Moving Plutonium Out](chapter-4.html#moving-plutonium-out).
+
 ### Moving Plutonium Out
 
 South Carolina won a deal over the plutonium shipped in for the MOX (mixed oxide fuel) plant.
@@ -1104,6 +1142,8 @@ plutonium to industry as reactor fuel ([WB: Federal Register][eo-14302]). In
 March 2026 DOE said it would restart HB Line, a plutonium processing plant at
 H Canyon shut down a few years earlier, to recycle plutonium into reactor fuel
 ([WB: American Nuclear Society][ans-hbline]).
+
+*Follow this thread, plutonium after the cold war.* Earlier: [Chapter 3, Plutonium: MOX and Pits](chapter-3.html#plutonium-mox-and-pits); [Chapter 4, Making Pits Again](chapter-4.html#making-pits-again).
 
 ### Emptying the Tanks
 
@@ -1132,6 +1172,8 @@ uranium recovery, so H Canyon can make fuel for advanced reactors
 ([WB: DOE][doe-hcanyon-2026]). The site's Citizens Advisory Board has asked
 for briefings on what the restart means for the environment
 ([EXT: SRS Citizens Advisory Board][cab-387]).
+
+*Follow this thread, waste and groundwater.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases); [Chapter 2, Under the Ground](chapter-2.html#under-the-ground); [Chapter 3, The Tanks](chapter-3.html#the-tanks).
 
 ### Who Runs the Site
 
@@ -1198,6 +1240,8 @@ radionuclide" found ([WB: South Carolina, 2023][esop-2023]).
 <figcaption>A great blue heron at Phinizy Swamp Nature Park, a wetland on the Savannah River at Augusta. <span class="credit">Photograph by Eric Monaco, Savannah River Remediation, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Great_Blue_Heron_Phinizy_Swamp_Nature_Park_10x6_(48870411566).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
+*Follow this thread, health of workers and neighbors.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases); [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant); [Chapter 3, Sick Workers](chapter-3.html#sick-workers); [Chapter 3, The Neighbors and the River](chapter-3.html#the-neighbors-and-the-river).
+
 ### Living with the Plant
 
 The payments still matter to the neighbors. When the 2022 federal budget
@@ -1219,6 +1263,8 @@ and the United Way of Allendale, Bamberg and Barnwell counties called the
 workers' gifts "a significant portion" of its budget
 ([WB: contractor release, 2026][srns-uw-2026]). Both are the contractors'
 own announcements.
+
+*Follow this thread, the towns and their economy.* Earlier: [Chapter 1, Living with the Plant](chapter-1.html#living-with-the-plant); [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant); [Chapter 3, Living with the Plant](chapter-3.html#living-with-the-plant).
 
 ### Ecology and the SRS
 
@@ -1259,6 +1305,10 @@ its mercury limits protective enough that it sets none for radioactivity
 ([WB: Georgia guide][ga-fish-2023]). The site estimated that someone eating
 fish from its creek mouths in 2024 would get at most about 0.24 millirem of
 radiation, all from cesium-137 ([WB: SRS][srs-dose-2024]).
+
+*Follow this thread, the land and its wildlife.* Earlier: [Chapter 1, SRS and Ecology](chapter-1.html#srs-and-ecology); [Chapter 2, SRS and Ecology](chapter-2.html#srs-and-ecology); [Chapter 3, SRS and Ecology](chapter-3.html#srs-and-ecology); [Chapter 3, The Laboratories](chapter-3.html#the-laboratories).
+
+*Follow this thread, radioactivity in the river and its animals.* Earlier: [Chapter 2, Radioactivity and Community Safety](chapter-2.html#radioactivity-and-community-safety); [Chapter 3, The Neighbors and the River](chapter-3.html#the-neighbors-and-the-river).
 
 ### Looking to the Future
 
