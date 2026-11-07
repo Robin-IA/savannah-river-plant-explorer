@@ -166,8 +166,7 @@ government-owned, contractor-operated plant was in law
 Du Pont wrote its own record of all this, volume by volume, in construction
 and design histories now on OSTI ([WB: OSTI 10159481][osti-construction];
 [WB: OSTI 10151705][osti-plantwide]). The company's administrative files
-are at the Hagley Museum and Library, by DOE's own finding aid ([WB: DOE
-OHRE][ohre-admin]).
+are at the Hagley Museum and Library ([WB: DOE finding aid][ohre-admin]).
 
 Hagley's guide to its Atomic Energy Division records, 80 linear feet from
 1942 to 1989, describes a Savannah River Project series covering site
