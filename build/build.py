@@ -79,7 +79,8 @@ def split_label(raw):
 
 def first_link(text):
     """The source's own address: a URL, else the first archive.org id."""
-    url = re.search(r"https?://[^\s)`|>\]]+", text)
+    # A URL may contain balanced parentheses, e.g. ".../Historic%20Preservation%20(SHPO)/...".
+    url = re.search(r"https?://(?:[^\s()`|>\]]|\([^\s()`|>\]]*\))+", text)
     ident = re.search(r"`([A-Za-z0-9][\w.\-]+)`", text)
     if ident and (not url or text.find("`") < text.find(url.group(0))):
         return "https://archive.org/details/" + ident.group(1), ident.group(1)
