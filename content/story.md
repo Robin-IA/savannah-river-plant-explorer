@@ -1006,7 +1006,16 @@ radiation dose of 22 millirem a year to the hunter
 released if its radioactive cesium would put the hunter over the site's yearly
 radiation limit ([WB: srs.gov hunt rules][srs-hunt-rules]).
 
-### The record online
+### Looking to the future
+
+Much of the site's future is already planned. In 2024 it had a budget of about $3.8 billion a year and about 13,400 workers
+([WB: SRS][srs-landlord-2024]). Its largest new project, the plant to make
+plutonium pits, was estimated in 2026 at about $22 billion, finished no
+sooner than September 2035 ([WB: GAO 2026][gao-pits-2026]). DOE has promised
+to remove 9.5 metric tons of plutonium from South Carolina by 2037
+([WB: DOE][doe-sc-2020]), and its cleanup contractor is to close both tank
+farms by the same year ([WB: DOE][doe-srmc-2023]). H Canyon is to recover
+uranium to make fuel for advanced reactors ([WB: DOE][doe-hcanyon-2026]).
 
 The site's own record is moving. Between May and July 2026, www.srs.gov began sending visitors to a new address, public.srs.gov
 ([WB: May 2026][srs-home-may-2026]; [WB: July 2026][srs-home-jul-2026]). Old
