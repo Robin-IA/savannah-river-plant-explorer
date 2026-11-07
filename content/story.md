@@ -349,13 +349,24 @@ and its natural radioactivity in 1951–52
 ([IA](https://archive.org/details/micro_IA41159405_0033);
 [IA](https://archive.org/details/micro_IA41159413_0274)).
 
-AEC officials approached Eugene Odum of the University of Georgia in 1951 to
-study the reservation's ecosystems
-([IA](https://archive.org/details/bigecologyemerge0000cole);
-[IA](https://archive.org/details/isbn_9780820324739)). That work became a
-permanent laboratory in 1961 ([WB: srs.gov 1960s][srs-1960]) — the Savannah
-River Ecology Laboratory, which dates its own founding to 1951 ([WB:
-SREL][srel-radioecology]).
+In 1951 the AEC asked the University of Georgia and the University of South
+Carolina to survey the land's plants and animals before construction began,
+offering each about $10,000 a year ([WB: *SRS at Fifty* ch. 17](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=473)).
+The Georgia team was led by Eugene Odum, whose 1953 textbook *Fundamentals of
+Ecology* made him known as the "father of modern ecosystem ecology"
+([WB: ch. 17](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=471);
+[IA](https://archive.org/details/bigecologyemerge0000cole);
+[IA](https://archive.org/details/isbn_9780820324739)).
+
+Georgia's survey grew into a research program. Its Laboratory of Radiation
+Ecology, with a staff of 15, exposed plants and animals to controlled doses
+of radiation to learn what it does to them in the wild
+([WB: ch. 17](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=477)). The work became a permanent laboratory in 1961
+([WB: srs.gov 1960s][srs-1960]) — the Savannah River Ecology Laboratory, run
+by the University of Georgia, which dates its own founding to 1951 ([WB:
+SREL][srel-radioecology]). In the 1960s its scientists were, in the official
+history's words, "at the heart of" the new idea of the ecosystem: what one is
+and how it works ([WB: ch. 17](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=479)).
 
 <figure class="fig wide">
 <img src="img/srs60-srel.jpg" width="1400" height="560" alt="Two photographs side by side: a black-and-white view of a small low laboratory building among pines, and a color view of a larger modern laboratory building with a lawn." loading="lazy">
@@ -432,7 +443,7 @@ hunt for radioactive cesium-137 before releasing them to hunters
 ([DL](https://archive.org/details/sim_radiation-data-and-reports_1974-02_15_2)).
 
 The hunts still go on today; see
-[Chapter 4](chapter-4.html#the-hunts-go-on).
+[Chapter 4](chapter-4.html#ecology-and-the-srs).
 
 ### L-Reactor comes back
 
@@ -619,6 +630,11 @@ Aiken's 15,000 people. The same report found that Aiken and Richmond counties
 ranked in the top half nationally for income in 1974, while most counties
 around the plant ranked in the bottom 11 percent ([IA: DOE, 1984](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
 
+<figure class="fig wide">
+<img src="img/srs60-barricades.jpg" width="1400" height="560" alt="Two photographs side by side: a black-and-white view of crowds of workers walking through a plant gate, and a color view of a lit modern security gate at night." loading="lazy">
+<figcaption>The plant's gates, then and about 2010. Du Pont trained its own guard force, and construction workers punched their time cards at similar posts. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_Barricades_(5228357270).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 The 1980s buildup brought the workforce to 18,635 by May 1989, and a 1990
 DOE study said shutting the K, L and P reactors would cost about 9,600 jobs
 ([IA: DOE, 1990](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)). In 1992 South Carolina listed Westinghouse
@@ -643,7 +659,7 @@ no excess among children, more leukemia at ages 20 to 39 and slightly more
 lung cancer in older adults, and said it did not show cancer excesses tied to
 the plant ([DL](https://archive.org/details/cancerinpopulati00jabl_1); [DL](https://archive.org/details/cancerinpopulati00jabl_0)).
 
-### Protests
+### An Emerging Environmental Movement Impacts SRS
 
 A new environmental movement changed the rules for the plant. The National
 Environmental Policy Act, signed in January 1970, required federal projects
@@ -654,6 +670,11 @@ the federal journal that reprinted the plant's radiation monitoring
 ([DL](https://archive.org/details/sim_radiation-data-and-reports_1971-02_12_2)).
 In December 1974 the EPA issued the plant its first water-discharge permit
 ([WB: *SRS at Fifty*, pp. 480–81](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=493)).
+
+<figure class="fig">
+<img src="img/three-mile-island-1979.jpg" width="1400" height="1344" alt="Color photograph of a nuclear power station on an island in a river, with tall cooling towers and domed reactor buildings beside a river." loading="lazy">
+<figcaption>Three Mile Island, Pennsylvania, where a reactor partly melted down in March 1979. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Three_Mile_Island_(color).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 By the late 1970s many environmentalists had also turned against nuclear
 power. Near the plant their anger focused on two projects: a plant to recycle
@@ -689,6 +710,11 @@ temperatures impossible to keep secret ([WB: Ecological Society of
 America][esa-thermal]), and became the *Thermal Ecology* symposia
 ([IA](https://archive.org/details/thermalecologyii0000ther)).
 
+<figure class="fig">
+<img src="img/wood-stork.jpg" width="1400" height="933" alt="A white wading bird with a dark bare head stands on a log at the edge of the water." loading="lazy">
+<figcaption>A wood stork. The species was listed as endangered in 1984, and storks fed near the plant's Steel Creek delta. <span class="credit">Photograph by Tom MacKenzie, US Fish and Wildlife Service, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Wood_stork_at_Pelican_Island_NWR_by_Tom_MacKenzie,_USFWS_(8449823131).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 The cooling water did real damage. A 1987 environmental impact statement
 found that K reactor's hot water had altered 670 acres of forested wetland
 along Pen Branch. C reactor's had altered about 1,147 acres, some 60 percent,
@@ -717,6 +743,11 @@ stream to the process that made it in *Linking Legacies*
 the last spent fuel left the receiving basin, closing what the site called a
 forty-year era ([WB][rbof]).
 
+<figure class="fig">
+<img src="img/recovery-act-cleanup-2010.jpg" width="1400" height="930" alt="Workers in hard hats and safety vests stand beside a truck-mounted rig at a cleanup site." loading="lazy">
+<figcaption>A cleanup crew at work in 2010, when federal stimulus money paid to speed up the site&rsquo;s cleanup. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:A_Recovery_Act_Footprint-_Savannah_River_Site_is_Opening_Land_for_Future_Missions_(7419748692).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 Spent fuel kept arriving as well as leaving. The United States moved to take
 back the fuel it had supplied to research reactors abroad. In 1994 GAO
 reported that delays had already led reactors in Belgium and Germany to
@@ -738,6 +769,11 @@ The largest legacy was liquid: about 36 million gallons in 49 tanks, roughly
 Processing Facility, built from 1983 and troubled before it ran
 ([IA: GAO 1992](https://archive.org/details/DTIC_ADA298946)), began turning
 that waste into glass on March 12, 1996 ([WB][dwpf-30]).
+
+<figure class="fig">
+<img src="img/dwpf-2009.jpg" width="1400" height="912" alt="Color photograph of a large windowless industrial building with a tall stack and smaller buildings beside it." loading="lazy">
+<figcaption>The Defense Waste Processing Facility, the glass plant, in 2009. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_-_Defense_Waste_Processing_Facility_(7597419760).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 Getting the waste into the glass plant was harder. In 1983 DOE chose a
 process called In-Tank Precipitation to pull radioactive cesium out of the
@@ -799,6 +835,11 @@ broken environmental law ([DL: *Hodges v. Abraham*](https://archive.org/details/
 He had vowed to lie in the road to stop them
 ([IA](https://archive.org/details/nucleartoxicwast0000kall)).
 
+<figure class="fig">
+<img src="img/mox-construction-2010.jpg" width="800" height="532" alt="Aerial color photograph of a very large concrete building under construction, surrounded by cranes and smaller buildings." loading="lazy">
+<figcaption>The MOX plant under construction in 2010. It was never finished. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Mixed_Oxide_Fuel_Fabrication_Facility_(5062303437).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 Congress spent a decade on turning surplus plutonium into reactor fuel at
 Savannah River
 ([DL](https://archive.org/details/gov.gpo.fdsys.CHRG-109hhrg33597);
@@ -858,6 +899,11 @@ a decision. The building trades' statement said Savannah River workers were
 treated unfairly under the program ([DL: House hearing,
 2003](https://archive.org/details/gov.gpo.fdsys.CHRG-108hhrg90178)).
 
+<figure class="fig wide">
+<img src="img/srs60-glove-boxes.jpg" width="1400" height="560" alt="Two photographs side by side: black-and-white and color views of workers reaching into sealed glove boxes through rubber gloves." loading="lazy">
+<figcaption>Glove boxes, then and about 2010: sealed cabinets for handling radioactive material through built-in gloves. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_Glove_boxes_(5227677509).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 The 2012 class that spared early workers individual dose reconstruction was
 extended in 2021 to subcontracted construction workers through 1990 ([WB:
 *Federal Register*][fr-sec-2021]) and in 2026 through 1993 ([EXT: *Federal
@@ -883,6 +929,11 @@ registry from 1991 to 1995 for the counties around the site and down the
 river to Savannah. Some cancers were elevated, among them cervical cancer in
 Black women and esophageal cancer in Black men, but officials saw no sign
 they were related to the site ([WB: 2002 summary][srs-epi-2002]).
+
+<figure class="fig">
+<img src="img/savannah-river-morning.jpg" width="1400" height="875" alt="Sunrise over a calm, wide river lined with trees, seen from a wooden dock." loading="lazy">
+<figcaption>The Savannah River from the Georgia side. <span class="credit">Photograph by Steve Rich, Savannah River Nuclear Solutions, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Morning_on_the_Savannah_River_16x10_(48870409671).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 In 2007 the federal Agency for Toxic Substances and Disease Registry (ATSDR)
 found "no apparent public health hazard" from groundwater or surface water
@@ -910,6 +961,11 @@ of all jobs in six surrounding counties, with a payroll above $1.1 billion,
 and a 1995 DOE study warned that budget cuts could remove up to 4,200 more
 jobs ([IA: DOE, 1995](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
 
+<figure class="fig">
+<img src="img/small-business-2010.jpg" width="1400" height="930" alt="Aerial color photograph of a cleanup site with heavy equipment, trucks and piles of soil beside a railroad." loading="lazy">
+<figcaption>A local Aiken County company at work in 2010 on a federally funded contract to close the P Area ash basin. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Savannah_River_Site_Small_Business_(7467931418).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 A study for the SRS Community Reuse
 Organization, a regional development group with an interest in the site's
 value, counted 25,180 workers in September 1991 and 10,967 in September 2010
@@ -929,6 +985,11 @@ red-cockaded woodpeckers had grown from 4 to 77 birds in nine years; it was
 restoring drained Carolina bays, round wetlands found across the region, and
 planting longleaf pine ([DL: Forest Service, 1995](https://archive.org/details/savannahriverfor51unit)).
 
+<figure class="fig tall">
+<img src="img/red-cockaded-woodpecker.jpg" width="1400" height="2091" alt="A black-and-white woodpecker clings to a pine trunk at a nest hole, feeding a chick." loading="lazy">
+<figcaption>A red-cockaded woodpecker feeding its young at a nest in a longleaf pine in Georgia. <span class="credit">US Fish and Wildlife Service photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Red-cockaded_woodpecker_feeding_young_(5806270700).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 Ecology laboratory scientists wrote in 2002 that cooling water had "destroyed
 the floodplain forests" along several streams, and that after the reactors
 shut down they were studying how to replant Pen Branch and Four Mile Creek.
@@ -939,6 +1000,11 @@ woodpeckers by 1999 ([IA: SREL scientists, 2002](https://archive.org/details/DTI
 
 The site's laboratory was named the country's newest national laboratory in
 2004 ([WB][srnl-2004]).
+
+<figure class="fig wide">
+<img src="img/srs60-glass-lab.jpg" width="1400" height="560" alt="Two photographs side by side: a black-and-white view of a man working glass on a lathe, and a color view of a glassblower working glass in a flame." loading="lazy">
+<figcaption>The laboratory's glass shop, which has made glassware for research since 1953, then and about 2010. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_The_Glass_Apparatus_Lab_(5228279598).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 The ecology laboratory fared worse. Its grant was cut 47 percent for 2006,
 with layoffs that September ([WB: UGA][uga-2005]); the next year's funding
@@ -951,13 +1017,18 @@ The House Science Committee held a hearing on it in July 2007
 SREL's web page from that summer mentions a statement on a budget crisis
 ([WB][srel-2007]) but the actual statement has been lost.
 
-### Remembering it
+### The Plant's Museum
 
 The SRS Museum opened in Aiken after a 2014 ribbon-cutting
 ([WB][museum-2014]); its website is dead but the Wayback Machine has the
 record ([WB][museum-web]). The site's archaeologists and its Cold War historic
 preservation program work with it ([WB][preserve-2020]) — the same program
 that collected Ellenton's memories in 1990.
+
+<figure class="fig">
+<img src="img/srs-museum-2014.jpg" width="1400" height="934" alt="An audience seated under a tent listens to a speaker in front of a banner reading SRS Museum." loading="lazy">
+<figcaption>The opening of the SRS Museum in Aiken, October 2014. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_Museum_Opening_(15812437044).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 The federal record of historic engineering holds one part of the plant in
 detail. The Historic American Engineering Record documented the Physics
@@ -977,6 +1048,11 @@ the decision in federal court
 ([DL](https://archive.org/details/gov.uscourts.scd.265178)). The plant is
 being built by repurposing an unfinished concrete structure on the site, and
 in 2024 its builders were still promising it by 2032 ([WB: SRS][srs-srppf-2024]).
+
+<figure class="fig">
+<img src="img/srppf-2025.jpg" width="1400" height="933" alt="Aerial color photograph of a large unfinished concrete building and construction yard in F Area." loading="lazy">
+<figcaption>The site of the plutonium pit plant in F Area, January 2025. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:1-9-25_SRPPF_F_Area_Aerial_(54439428989).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 In 2022 NNSA told Congress the site would not reach 50 pits a year until
 sometime between 2032 and 2035, not the 2030 target
@@ -1007,6 +1083,11 @@ On August 31, 2020, DOE agreed to pay the state $600 million and to remove
 9.5 metric tons of plutonium by 2037; without the deal, DOE expected removal
 to take until 2049 ([WB: DOE][doe-sc-2020]).
 
+<figure class="fig">
+<img src="img/trupact-2011.jpg" width="1400" height="930" alt="A large white shipping container is lifted by a crane inside a work tent." loading="lazy">
+<figcaption>A TRUPACT-III shipping container for radioactive waste being handled at the site in August 2011, before the first such shipment to the Waste Isolation Pilot Plant in New Mexico. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:TRUPACT-III_at_Savannah_(7515730204).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 Removal works by "dilute and dispose": plutonium is mixed with other
 material, packed in drums and shipped to the Waste Isolation Pilot Plant in
 New Mexico. The site expects tens of thousands of drums over three decades
@@ -1027,6 +1108,11 @@ waste in February 2022 ([WB: DOE][doe-srmc-2022]), and DOE set a goal of
 closing both tank farms by 2037 ([WB: DOE][doe-srmc-2023]). The Salt Waste
 Processing Facility, years late, began radioactive operation in fall 2020
 and passed 10 million gallons by November 2024 ([WB: SRS][srs-swpf-2024]).
+
+<figure class="fig">
+<img src="img/h-tank-farm.jpg" width="1400" height="1120" alt="Color photograph at sunrise of an industrial yard with low concrete structures over underground tanks." loading="lazy">
+<figcaption>H Tank Farm, where liquid radioactive waste is stored in underground tanks. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:H-Tank_Farm_Sunrise_(51507255863).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 The glass plant passed 4,500 canisters by its thirtieth anniversary in 2026
 ([WB][dwpf-30]), and in May 2026 Tank 14 became the eighth old-style tank to
@@ -1052,6 +1138,11 @@ agency, became the site's landlord, with the cleanup office as its tenant;
 the site then had a budget of about $3.8 billion a year and about 13,400
 workers ([WB: SRS][srs-landlord-2024]).
 
+<figure class="fig">
+<img src="img/h-canyon-2024.jpg" width="1400" height="933" alt="Aerial color photograph at sunset of the site&rsquo;s industrial buildings spread across a forest." loading="lazy">
+<figcaption>H Canyon and the buildings around it from the air, July 2024. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:H_Canyon_sunset_aerials_7-31-24_001_(54439235878).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 Worker safety is still in the news. In April 2024 DOE proposed a $127,440
 penalty against the main contractor after a worker lost two fingers in 2022
 ([WB: DOE][doe-penalty-2024]), and in August 2026 NNSA cited it again over a
@@ -1073,13 +1164,10 @@ show $271 million in compensation and medical bills by November 2008
 ([WB][dol-2024]). The current page lists about $3.06 billion for about 15,400
 workers ([WB: Labor Department][dol-now]).
 
-South Carolina still advises people not to eat bowfin from the river below
-Stevens Creek, and notes that some fish contain radioactive cesium-137 and
-strontium-90 ([WB: South Carolina advisory][sc-fish-2026]). Georgia judges
-its mercury limits protective enough that it sets none for radioactivity
-([WB: Georgia guide][ga-fish-2023]). The site estimated that someone eating
-fish from its creek mouths in 2024 would get at most about 0.24 millirem of
-radiation, all from cesium-137 ([WB: SRS][srs-dose-2024]).
+<figure class="fig">
+<img src="img/phinizy-heron.jpg" width="1400" height="840" alt="A great blue heron with its wings spread lands in shallow wetland water." loading="lazy">
+<figcaption>A great blue heron at Phinizy Swamp Nature Park, a wetland on the Savannah River at Augusta. <span class="credit">Photograph by Eric Monaco, Savannah River Remediation, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Great_Blue_Heron_Phinizy_Swamp_Nature_Park_10x6_(48870411566).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 ### Living with the Plant
 
@@ -1091,6 +1179,11 @@ South Carolina's 2022–23 budget spent the $525 million from the plutonium
 settlement, including $105 million for new schools for Williston and
 Blackville ([WB: South Carolina budget, 2022][sc-budget-2022]).
 
+<figure class="fig">
+<img src="img/united-way-2023.jpg" width="1400" height="933" alt="A man throws a softball on a field in front of a small crowd." loading="lazy">
+<figcaption>The first pitch at the site's United Way softball tournament, November 2023. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:231734_United_Way_Softball_Tournament_11-7-23-02_(53771752151).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 Site workers still give to local charities. The contractors reported raising
 $1,488,038 for United Way in the 2023 campaign ([WB: SRS release][srs-uw-2024]),
 and the United Way of Allendale, Bamberg and Barnwell counties called the
@@ -1098,27 +1191,45 @@ workers' gifts "a significant portion" of its budget
 ([WB: contractor release, 2026][srns-uw-2026]). Both are the contractors'
 own announcements.
 
-### SRS and Ecology
+### Ecology and the SRS
 
-The woodpeckers kept coming back. The Forest Service counted 150 active
-red-cockaded woodpecker groups in 2021, up from 3 in 1985, crediting thinning
-and prescribed fire ([WB: Forest Service, 2021][usfs-2021]).
+The land the plant took is now a large managed forest, and that is the good
+news. The Forest Service still runs it for DOE. In 2021 it thinned more than
+3,000 acres, burned about 24,000 acres under control to keep the forest
+healthy, and sold timber from it. The red-cockaded woodpeckers kept coming
+back, from 3 active groups in 1985 to 150 in 2021, and golden eagles were seen
+on the site ([WB: Forest Service, 2021][usfs-2021]). The ecology laboratory
+restored wetlands for the rare gopher frog in 2021 ([WB: DOE][doe-gopher-2021]),
+and in 2023 released the young of box turtles seized from illegal collectors
+([WB: DOE][doe-turtles-2023]). The forest even helps with cleanup: a Forest
+Service project uses trees to draw off water contaminated with radioactive
+tritium, about 9.5 million gallons in 2021 ([WB: Forest Service][usfs-2021]).
 
-The ecology laboratory restored wetlands for the rare gopher frog in 2021
-([WB: DOE][doe-gopher-2021]), and in 2023 released the young of box turtles
-seized from illegal collectors ([WB: DOE][doe-turtles-2023]).
+<figure class="fig">
+<img src="img/green-tree-frog.jpg" width="1400" height="788" alt="A small green tree frog rests on a feathery cypress branch." loading="lazy">
+<figcaption>A green tree frog on a swamp cypress at the site. <span class="credit">Photograph by Amanda Hurst, Savannah River Ecology Laboratory, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Green_tree_frog_resting_on_a_swamp_cypress_at_the_Savannah_River_Site_(48870602962).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
-### The hunts go on
-
-The site's deer hunts, open to the public every autumn since 1965, are still
-held ([WB: SRS, October 2026][srs-hunt-2026]).
-
-Every deer and hog killed is still taken to a check station and tested for
-radioactive cesium-137 before the hunter can keep it. The site's limit is a
-radiation dose of 22 millirem a year to the hunter
+The bad news is that the plant's radioactivity is still in its animals. The
+site's deer hunts, open to the public every autumn since 1965, are still
+held, and every deer and hog killed is taken to a check station and tested
+for radioactive cesium-137 before the hunter can keep it. The site's limit is
+a radiation dose of 22 millirem a year to the hunter
 ([WB: SRS, October 2026][srs-hunt-2026]). Earlier rules said no animal is
 released if its radioactive cesium would put the hunter over the site's yearly
 radiation limit ([WB: srs.gov hunt rules][srs-hunt-rules]).
+
+The site and its creeks stay closed to the public, fishing included. In 2021
+the Forest Service replaced the trespass warning signs along thirty miles of
+the site's boundary on the Savannah River ([WB: Forest Service][usfs-2021]).
+
+Some fish below the site still carry radioactivity. South Carolina still advises people not to eat bowfin from the river below
+Stevens Creek, and notes that some fish contain radioactive cesium-137 and
+strontium-90 ([WB: South Carolina advisory][sc-fish-2026]). Georgia judges
+its mercury limits protective enough that it sets none for radioactivity
+([WB: Georgia guide][ga-fish-2023]). The site estimated that someone eating
+fish from its creek mouths in 2024 would get at most about 0.24 millirem of
+radiation, all from cesium-137 ([WB: SRS][srs-dose-2024]).
 
 ### Looking to the future
 
@@ -1130,6 +1241,11 @@ to remove 9.5 metric tons of plutonium from South Carolina by 2037
 ([WB: DOE][doe-sc-2020]), and its cleanup contractor is to close both tank
 farms by the same year ([WB: DOE][doe-srmc-2023]). H Canyon is to recover
 uranium to make fuel for advanced reactors ([WB: DOE][doe-hcanyon-2026]).
+
+<figure class="fig wide">
+<img src="img/k-area-sunset-2024.jpg" width="1920" height="1280" alt="Aerial color photograph at dusk of a large reactor building and smaller industrial buildings, with a water tower and pine forest behind." loading="lazy">
+<figcaption>K Area at dusk in July 2024. The old K reactor building is now the K Area Complex. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:K_Area_sunset_aerials_(54474033700).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 The site's own record is moving. Between May and July 2026, www.srs.gov began sending visitors to a new address, public.srs.gov
 ([WB: May 2026][srs-home-may-2026]; [WB: July 2026][srs-home-jul-2026]). Old
