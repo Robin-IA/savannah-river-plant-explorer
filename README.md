@@ -39,6 +39,10 @@ logos:
   URL, for example `sources.html?tag=WB&chapter=3&q=DWPF`.
 - **Glossary** (`glossary.html`): the technical words, agencies and places in
   the story.
+- **Search** (`search.html`, in the menu on every page): search the story,
+  the timeline and the sources.
+- **Download the story** (`atomic-history-savannah-river-plant.pdf`): all four
+  chapters as one PDF, with images and citations, linked from the side panel.
 - **About** (`about.html`), including the controversies, the documentary
   *Building Bombs*, and where the sources disagree.
 
@@ -57,6 +61,18 @@ logos:
   Unsourced facts are kept out of the story.
 
 ## How it was built
+
+### The PDF
+
+`build/build.py` also writes `story-print.html`, the whole story on one page.
+`build/make_pdf.py` prints it to `atomic-history-savannah-river-plant.pdf`
+with headless Chromium. Run it after every build that changes the story:
+
+```bash
+pip install -r requirements-pdf.txt
+python -m playwright install chromium
+python build/make_pdf.py
+```
 
 ### The research
 
