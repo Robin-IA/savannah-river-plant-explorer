@@ -125,6 +125,7 @@ a.cite .tag { margin-right: 3px; }
 .ch-list summary::after { content: "B8"; position: absolute; right: 2px; top: 1.1em; font-size: .8rem; color: var(--muted); }
 .ch-list details[open] > summary::after { content: "BE"; }
 .ch-list summary:hover { color: var(--link); }
+.ch-list summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 .chapter-1 .ch-list li.ch-1 summary, .chapter-2 .ch-list li.ch-2 summary, .chapter-3 .ch-list li.ch-3 summary, .chapter-4 .ch-list li.ch-4 summary { color: var(--link); }
 .ch-list a[aria-current="page"] { font-weight: 700; }
 .ch-list .ch-n { display: block; font: 700 .72rem/1.2 var(--font); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
