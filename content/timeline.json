@@ -47,7 +47,7 @@
         1988.6,
         1991.5
       ],
-      "note": "Critical 20 February 1954; down August 1988. Its final shutdown is dated 1988 by SRS and 1991 by OSTI.",
+      "note": "Critical February 20, 1954; down August 1988. Its final shutdown is dated 1988 by SRS and 1991 by OSTI.",
       "tag": "WB",
       "ref": "fifty-19"
     },
@@ -96,7 +96,7 @@
   "events": [
     {
       "when": 1950.8,
-      "date": "20 Oct 1950",
+      "date": "Oct 20, 1950",
       "lane": "production",
       "text": "Truman writes to Du Pont asking it to build and run the plant",
       "tag": "WB",
@@ -105,7 +105,7 @@
     },
     {
       "when": 1950.91,
-      "date": "28 Nov 1950",
+      "date": "Nov 28, 1950",
       "lane": "people",
       "text": "The Savannah River Plant is announced: 250,000 acres, about 1,500 families to move",
       "tag": "WB",
@@ -115,7 +115,7 @@
     },
     {
       "when": 1951.2,
-      "date": "15 Mar 1951",
+      "date": "Mar 15, 1951",
       "lane": "people",
       "text": "Deadline for residents of the first area to leave",
       "tag": "WB",
@@ -179,7 +179,7 @@
     },
     {
       "when": 1955.2,
-      "date": "14 Mar 1955",
+      "date": "Mar 14, 1955",
       "lane": "science",
       "text": "Contamination after rain sets off workers' monitors; the plant blames Nevada fallout, critics later a reactor accident",
       "tag": "WB",
@@ -234,7 +234,7 @@
     },
     {
       "when": 1974.33,
-      "date": "2 May 1974",
+      "date": "May 2, 1974",
       "lane": "science",
       "text": "479,000 curies of tritium gas escape from a stack",
       "tag": "WB",
@@ -271,7 +271,7 @@
     },
     {
       "when": 1983.54,
-      "date": "15 Jul 1983",
+      "date": "Jul 15, 1983",
       "lane": "oversight",
       "text": "Court rules the L reactor restart needs an environmental impact statement",
       "tag": "EXT",
@@ -290,7 +290,7 @@
     },
     {
       "when": 1988.75,
-      "date": "30 Sep 1988",
+      "date": "Sep 30, 1988",
       "lane": "oversight",
       "text": "GAO tells Congress how P reactor's start-up went ahead despite a reactivity shortfall",
       "tag": "DL",
@@ -300,7 +300,7 @@
     },
     {
       "when": 1988.76,
-      "date": "1 Oct 1988",
+      "date": "Oct 1, 1988",
       "lane": "oversight",
       "text": "The New York Times reports on its front page that severe accidents were kept secret for up to 31 years",
       "tag": "WB",
@@ -356,7 +356,7 @@
     },
     {
       "when": 1996.2,
-      "date": "12 Mar 1996",
+      "date": "Mar 12, 1996",
       "lane": "cleanup",
       "text": "The Defense Waste Processing Facility begins turning tank waste into glass",
       "tag": "WB",
@@ -476,7 +476,7 @@
     },
     {
       "when": 2015.99,
-      "date": "31 Dec 2015",
+      "date": "Dec 31, 2015",
       "lane": "cleanup",
       "text": "The 4,000th canister of glass, of about 8,000 expected",
       "tag": "WB",
@@ -503,7 +503,7 @@
     },
     {
       "when": 2019.02,
-      "date": "8 Jan 2019",
+      "date": "Jan 8, 2019",
       "lane": "oversight",
       "text": "The Fourth Circuit lifts the injunction keeping MOX alive",
       "tag": "WB",

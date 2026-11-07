@@ -1,4 +1,4 @@
-/* Holder colours: the dataviz reference palette's blue, amber, green,
+/* Holder colors: the dataviz reference palette's blue, amber, green,
    violet and magenta, with gray for "held elsewhere". Validated in this
    order, DL WB IA OL AIT EXT (adjacent pairs, light surface): CVD and normal-vision separation
    pass; gray is a deliberate neutral. The timeline's five holders also pass
@@ -104,7 +104,7 @@ a.cite { text-decoration: underline; text-underline-offset: 2px; }
 a.cite:hover { text-decoration-thickness: 2px; }
 a.cite .tag { margin-right: 3px; }
 
-/* Figures: a centred block between paragraphs, never wider than the
+/* Figures: a centered block between paragraphs, never wider than the
    image itself and never wrapped by text. */
 .fig { display: block; float: none; margin: 26px auto 30px; width: min(100%, 560px); background: var(--panel); border: 1px solid var(--hair); border-radius: 8px; padding: 10px; }
 .fig.wide { width: min(100%, 720px); }

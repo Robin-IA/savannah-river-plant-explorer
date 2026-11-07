@@ -1,8 +1,8 @@
 # Bomb Making, Chapter 3 (1992 to the present): sources
 
-> Research notes behind [README.md](README.md), compiled 6 November 2026.
+> Research notes behind [README.md](README.md), compiled November 6, 2026.
 > Every identifier and URL was checked live that day. Every archive.org
-> identifier labelled DL or IA was re-tested against the Democracy's Library
+> identifier labeled DL or IA was re-tested against the Democracy's Library
 > scope expression in a second, independent pass; corrections from that pass
 > are marked in place. "The brief" means the research instructions.
 
@@ -494,7 +494,7 @@ Sources for "Bomb Making: A History of the Savannah River Plant", Chapter 3. Com
 
 ## 11. Controversies and concerns
 
-Added 6 November 2026 from a second research pass; every item was checked live that day.
+Added November 6, 2026, from a second research pass; every item was checked live that day.
 
 95. **IA**: `DTIC_ADA344922`
    - GAO, *Nuclear Nonproliferation: Concerns With U.S. Delays in Accepting Foreign Research Reactors' Spent Fuel* (B-256337), 1994-03. DTIC mirror.
@@ -506,7 +506,7 @@ Added 6 November 2026 from a second research pass; every item was checked live t
    - Verified 2026-11-06.
 97. **DL**: `micro_IA40386015_0538`
    - *Hodges v. Abraham*, No. 02-544, U.S. Supreme Court records (petition, briefs, and the Fourth Circuit and D.S.C. opinions).
-   - April 2002 Rocky Flats storage decision; the suit of 1 May 2002; Hodges's executive order banning plutonium on state roads; the 18 June 2002 injunction; the Fourth Circuit's holding. Also cites *South Carolina ex rel. Beasley v. O'Leary* (1996) over the foreign fuel. Full text read; the cert decision not read.
+   - April 2002 Rocky Flats storage decision; the suit of May 1, 2002; Hodges's executive order banning plutonium on state roads; the June 18, 2002, injunction; the Fourth Circuit's holding. Also cites *South Carolina ex rel. Beasley v. O'Leary* (1996) over the foreign fuel. Full text read; the cert decision not read.
    - Verified 2026-11-06.
 98. **IA**: `nucleartoxicwast0000kall`
    - *Nuclear and Toxic Waste* (2005), lending library.

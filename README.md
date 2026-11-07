@@ -4,7 +4,7 @@
 
 **A history of the Savannah River Plant in South Carolina, from 1950 to now,
 told from records held in Democracy's Library, the wider Internet Archive,
-the Wayback Machine and elsewhere, with every source labelled by where it
+the Wayback Machine and elsewhere, with every source labeled by where it
 is held.**
 
 ## What it does
@@ -19,7 +19,7 @@ logos:
 - **Chapters 1–3** (`chapter-1.html`, `chapter-2.html`, `chapter-3.html`):
   the history, with a tag on every citation: **DL** Democracy's Library,
   **WB** the Wayback Machine, **IA** the Internet Archive outside Democracy's
-  Library, **OL** a book catalogued in Open Library, **AIT** Archive-It,
+  Library, **OL** a book cataloged in Open Library, **AIT** Archive-It,
   **EXT** held elsewhere. Each tag links to its source. Chapter 1 covers
   building the plant (1950–1969), Chapter 2 the reactors under scrutiny
   (1970–1992) and Chapter 3 the years after bomb making (1992 to now),
@@ -27,7 +27,7 @@ logos:
 - **Timeline** (`timeline.html`): 49 events from the story in five lanes
   (land and people, production, environment and science, oversight and law,
   cleanup and legacy), the working lives of the five production reactors, and
-  labelled milestones. Each mark's shape and colour say where its source is
+  labeled milestones. Each mark's shape and color say where its source is
   held, and the marks can be filtered by holder. The same events follow as a
   list, by chapter.
 - **Sources** (`sources.html`): all 355 sources behind the story, filterable
@@ -44,20 +44,20 @@ logos:
   capture is cited instead of the live page.
 - **Years covered:** 1950 to 2026.
 - **Size:** 355 sources: 57 DL, 157 WB, 114 IA, 3 OL, 1 AIT, 23 EXT. Counted
-  6 November 2026.
+  November 6, 2026.
 - **Not included:** sources still being sought, such as the rest of the
   *New York Times* 1988 series and the "thirty incidents" report, are tracked as
-  [issues labelled `source-gap`](https://github.com/Robin-IA/savannah-river-plant-explorer/issues?q=label%3Asource-gap).
+  [issues labeled `source-gap`](https://github.com/Robin-IA/savannah-river-plant-explorer/issues?q=label%3Asource-gap).
   Unsourced facts are kept out of the story.
 
 ## How it was built
 
 ### The research
 
-Every source was found and checked live on 6 November 2026 with
+Every source was found and checked live on November 6, 2026, with
 `archive.org/advancedsearch.php`, archive.org full-text search, the
 `archive.org/metadata` API, the Wayback CDX server, the Archive-It partner
-API and the OSTI API. A source is labelled **DL** when its identifier matches
+API and the OSTI API. A source is labeled **DL** when its identifier matches
 Democracy's Library's `search_collection` scope expression; every DL and IA
 label was re-tested in a second, independent pass, which moved two items from
 DL to IA. Each Wayback capture was replayed and each outside link opened.
@@ -88,9 +88,9 @@ The notes for each source, including what was and was not read, are in
   DOE chart of plutonium production by year, two DOE photographs from about
   1970 and 1972, and a 2006 NASA photograph of the site from the ISS),
   resized for the web. Each is credited in its caption and on the About page.
-- Holder colours come from a validated categorical palette (blue, amber,
+- Holder colors come from a validated categorical palette (blue, amber,
   green, violet, magenta, and gray for "held elsewhere"); shapes and text labels
-  carry the same information, so nothing depends on colour alone.
+  carry the same information, so nothing depends on color alone.
 - Published with GitHub Pages from the `main` branch, root folder.
 
 To rebuild after editing anything in `content/`:
@@ -112,7 +112,7 @@ then open http://localhost:8000/.
 
 Robin Fay, Project Manager, Digital Collections, Democracy's Library, with
 [Claude Code](https://claude.com/claude-code) (Claude Opus 5.5), in November
-2026. Robin chose the story and how sources are labelled; Claude did the
+2026. Robin chose the story and how sources are labeled; Claude did the
 searching, drafted the story and wrote the code. Each commit names Claude as
 co-author.
 

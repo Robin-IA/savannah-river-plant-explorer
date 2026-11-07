@@ -1,7 +1,7 @@
 # Bomb Making: A History of the Savannah River Plant
 
 *A draft, told from the record wherever it is held. Sources checked live
-6 November 2026.*
+November 6, 2026.*
 
 ## How to read the sources
 
@@ -38,10 +38,10 @@ five in all ([WB: *SRS at Fifty* ch. 7][fifty-7]).
 Du Pont surveyed candidate sites and settled on the middle Savannah River in
 South Carolina, a tract big enough to hold an exclusion zone around the
 reactors ([WB: ch. 7][fifty-7]). DOE's own timeline dates President Truman's
-letter to Du Pont to 20 October 1950 ([WB: DOE,
+letter to Du Pont to October 20, 1950 ([WB: DOE,
 energy.gov/srs][doe-history]).
 
-The announcement came at noon on 28 November 1950: about 250,000 acres in
+The announcement came at noon on November 28, 1950: about 250,000 acres in
 Aiken and Barnwell counties, to be called the Savannah River Plant, designed,
 built and operated by Du Pont ([WB: *SRS at Fifty* ch. 8][fifty-8]). The next
 morning it was in the *Atlanta Constitution*
@@ -64,7 +64,7 @@ farmers; the AEC settled on 6,000 people in 1,500 families
 later put it at about 5,000 ([WB: SRARP][srarp-towns]).
 
 The Army Corps of Engineers ran the acquisition. Residents of the first area
-had to be gone by 15 March 1951 and of the second by 1 June; owners who
+had to be gone by March 15, 1951, and of the second by June 1; owners who
 disputed an appraisal went to federal condemnation proceedings; at least
 4,500 graves had to be moved ([WB: ch. 8][fifty-8]). By late 1951 the
 government was acquiring 265 tracts in Ellenton alone
@@ -105,7 +105,7 @@ James McBride's life of James Brown touches on the Black sharecroppers
 forced out of Ellenton
 ([IA](https://archive.org/details/killemleavesearc0000mcbr)). Louise
 Cassels's *The Unexpected Exodus* (1971), the classic memoir of the leaving,
-is catalogued in Open Library, though it has no copy to read or borrow yet
+is cataloged in Open Library, though it has no copy to read or borrow yet
 ([OL: Open Library][cassels]).
 
 ### Building it
@@ -176,8 +176,8 @@ slides ([WB: Hagley finding aid][hagley-1989-335]).
 
 The 305-M test pile was the first reactor to go critical on the site, in
 1952, the year heavy-water production began in D Area ([WB: srs.gov
-1950s][srs-1950]). R reactor went critical in December 1953, P on 20
-February 1954, and all five were running by the end of March 1955 ([WB: *SRS
+1950s][srs-1950]). R reactor went critical in December 1953, P on February
+20, 1954, and all five were running by the end of March 1955 ([WB: *SRS
 at Fifty* ch. 11][fifty-11]).
 
 <figure class="fig wide">
@@ -219,11 +219,11 @@ that a child born in 1955 received much of a lifetime dose from the site in
 its first years, from those early iodine releases ([WB: CDC Phase
 III][cdc-phase3]).
 
-On 14 March 1955, after a light rain, contamination across the plant set off
+On March 14, 1955, after a light rain, contamination across the plant set off
 the shoe monitors of workers coming in from outside. The plant blamed
 fallout from a bomb test in Nevada two days before. In 1985 Bernd Franke and
 Robert Alvarez argued that a reactor accident was the likelier source, since
-the contamination centred on the K, L and P reactors.
+the contamination centered on the K, L and P reactors.
 
 At Senator Thurmond's request, the staff of the Senate Armed Services
 Committee investigated and reported in July 1986 that their case was "merely
@@ -285,15 +285,15 @@ on-site anti-nuclear protest came in 1979 ([WB: srs.gov 1970s][srs-1970]).
 
 Tritium was the plant's largest routine release, averaging more than half a
 million curies a year to the air in 1974–77 ([WB: OSTI
-6206385][osti-tritium-routine]). Single accidents added to it. On 2 May 1974
+6206385][osti-tritium-routine]). Single accidents added to it. On May 2, 1974,
 some 479,000 curies of tritium gas escaped from a stack ([WB: OSTI
 7100365][osti-1974]), a release a Lawrence Livermore report on the national
 emergency-response system's tracking of it called a small quantity, not
 dangerous to the public ([WB: OSTI 7282426][osti-arac]).
 
 In September 1984 another 43,800 curies, mostly tritium oxide, drifted
-toward New Ellenton and Aiken ([WB: OSTI 6417935][osti-1984]), and on 31
-July 1987 a further 172,000 curies were released ([WB: OSTI
+toward New Ellenton and Aiken ([WB: OSTI 6417935][osti-1984]), and on July
+31, 1987, a further 172,000 curies were released ([WB: OSTI
 7130595][osti-1987]).
 
 Downstream, the plant tested the tritium in the drinking water of the
@@ -320,7 +320,7 @@ an environmental assessment rather than a full impact statement ([WB: OSTI
 <figcaption>Plutonium production at the Atomic Energy Commission&rsquo;s Savannah River Plant, about 1972. <span class="credit">US Department of Energy photograph HD.6D.918, public domain, via <a href="https://commons.wikimedia.org/wiki/File:HD.6D.918_(10405627974).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-The Natural Resources Defense Council sued. On 15 July 1983 the district
+The Natural Resources Defense Council sued. On July 15, 1983, the district
 court held that the restart needed an environmental impact statement but
 would not stop it ([EXT: Environmental Law Reporter][nrdc-vaughn]). The
 Senate Armed Services Committee had already held a field hearing in North
@@ -393,8 +393,8 @@ remembers it as evidence of concealment ([WB: Alliance for Nuclear
 Accountability][alvarez]).
 
 The reactors went down one after another — K in April, L in June, P in
-August — over emergency cooling concerns ([WB: ch. 19][fifty-19]). On 30
-September 1988 the General Accounting Office told Senator Glenn's and
+August — over emergency cooling concerns ([WB: ch. 19][fifty-19]). On September
+30, 1988, the General Accounting Office told Senator Glenn's and
 Representative Synar's committees how P reactor's start-up had gone ahead
 despite a reactivity shortfall larger than any the plant had seen
 ([DL](https://archive.org/details/micro_IA41152603_0340); [WB:
@@ -402,8 +402,8 @@ gao.gov][gao-88-68]).
 
 Glenn's bill to put the weapons plants under outside safety oversight was
 already in hearings
-([DL](https://archive.org/details/micro_IA41152617_0167)). The next day, 1
-October, the *New York Times* put the story on its front page: severe
+([DL](https://archive.org/details/micro_IA41152617_0167)). The next day, October
+1, the *New York Times* put the story on its front page: severe
 accidents at the plant, kept secret for up to 31 years, at all five
 reactors, documented in a 19-page memorandum from a plant supervisor to his
 superiors at Du Pont ([WB: *New York Times*][nyt-881001]). By November the
@@ -497,7 +497,7 @@ The largest legacy was liquid: about 36 million gallons in 49 tanks, roughly
 421 million curies ([WB: DWPF fact sheet][dwpf-fact]). The Defense Waste
 Processing Facility, built from 1983 and troubled before it ran
 ([IA: GAO 1992](https://archive.org/details/DTIC_ADA298946)), began turning
-that waste into glass on 12 March 1996 ([WB][dwpf-30]).
+that waste into glass on March 12, 1996 ([WB][dwpf-30]).
 
 Getting the waste into the glass plant was harder. The process DOE chose in
 1983 to pull cesium out of the tanks' salt, In-Tank Precipitation, had been
@@ -510,7 +510,7 @@ GAO][gao-itp]).
 Its replacement, the Salt Waste Processing Facility, was to be built by 2008
 for $900 million; in 2015 DOE's Inspector General reported about $1.4
 billion in cost growth and a start no earlier than December 2018 ([WB: DOE
-Inspector General][oig-swpf]). It poured its 4,000th canister on 31 December
+Inspector General][oig-swpf]). It poured its 4,000th canister on December 31,
 2015, of about 8,000 expected ([WB][dwpf-20]), and had passed 4,500 by its
 thirtieth anniversary in 2026 ([WB][dwpf-30]).
 
@@ -541,7 +541,7 @@ arrived.
 
 <figure class="fig">
 <img src="img/srs-from-iss-2006.jpg" width="540" height="405" alt="Photograph from orbit of forested land crossed by straight roads. Five cleared reactor areas are labelled; the Savannah River runs along the left edge, and L Lake and Par Pond lie to the south." loading="lazy">
-<figcaption>The five reactor areas from the International Space Station, 28 January 2006, with L Lake and Par Pond, the reactors&rsquo; cooling reservoirs. <span class="credit">NASA astronaut photograph ISS012-E-16633, labels by NASA Earth Observatory; public domain, via <a href="https://commons.wikimedia.org/wiki/File:SavannahRiverSite_ISS012-E-16633.jpg">Wikimedia Commons</a>.</span></figcaption>
+<figcaption>The five reactor areas from the International Space Station, January 28, 2006, with L Lake and Par Pond, the reactors&rsquo; cooling reservoirs. <span class="credit">NASA astronaut photograph ISS012-E-16633, labels by NASA Earth Observatory; public domain, via <a href="https://commons.wikimedia.org/wiki/File:SavannahRiverSite_ISS012-E-16633.jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
 Deactivation of the R reactor building was cleared in March 2009
@@ -576,7 +576,7 @@ the fight are on archive.org
 ([IA](https://archive.org/details/5759279-160209-AG-Files-Another-Lawsuit-Over-MOX)).
 In May 2018 DOE certified that diluting and disposing of the plutonium would
 cost less than half of finishing MOX; the Fourth Circuit lifted the
-injunction keeping the project alive on 8 January 2019 ([WB: 4th
+injunction keeping the project alive on January 8, 2019 ([WB: 4th
 Cir.][ca4-mox]).
 
 MOX workers had already been offered a job fair in December 2018
