@@ -441,7 +441,7 @@ The hunts still go on today; see
 
 ### L-Reactor comes back
 
-The Reagan-era buildup needed more radioactive plutonium. In 1982 the plant lowered the
+However, the Reagan-era buildup of nuclear weapons needed more plutonium. In 1982 the plant lowered the
 Pu-240 content of its product to blend with Hanford's ([WB: *SRS at Fifty*
 ch. 19][fifty-19]), and DOE moved to restart L reactor, idle since 1968, on
 an environmental assessment rather than a full impact statement ([WB: OSTI
@@ -462,10 +462,11 @@ Senate Armed Services Committee had already held a field hearing in North
 Augusta that February
 ([DL](https://archive.org/details/micro_IA41152659_0884)).
 
-There Georgia's Senator Mattingly called the Tuscaloosa aquifer under the
-site the main source of water for Georgia. He won an assurance from DOE that
-burying the plant's high-level waste in the bedrock beneath it would not be
-brought up again. The Natural Resources Defense Council's witness pointed to
+At that hearing Senator Mattingly of Georgia said his state was firmly
+against burying the plant's high-level waste in the bedrock beneath the site.
+He warned it could contaminate the Tuscaloosa aquifer, a deep layer of
+water-bearing ground that he called the main source of water for Georgia.
+DOE assured him it would not propose bedrock burial again. The Natural Resources Defense Council's witness pointed to
 cesium contamination off the site, just downstream of where Steel Creek
 enters the river
 ([DL](https://archive.org/details/micro_IA41152659_0884)).
@@ -493,7 +494,8 @@ groundwater. Reviewing permit applications in 1981, South Carolina's health
 and environment department judged that the volumes sent to the basins
 strongly suggested groundwater problems; in 1983 the plant reported that a
 well supplying drinking water to its own employees was contaminated, and two
-more followed.
+more followed
+([DL](https://archive.org/details/micro_IA41152617_0148)).
 
 The department's deputy commissioner told Senator Glenn's committee in 1987
 that plant staff had at first been reluctant to accept the state's
