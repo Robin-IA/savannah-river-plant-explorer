@@ -185,10 +185,10 @@ at Fifty* ch. 11][fifty-11]).
 <figcaption>How a production reactor worked: heavy water moderated and cooled the reactor, river water cooled the heavy water, and irradiated fuel and targets went from the disassembly basin to the separations areas. Diagram from <em>The Savannah River Site at Fifty</em> (2002), p. 331. <span class="credit">US Department of Energy, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Savannah_River_Plant_reactor_design.png">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-The F Area separations plant started in 1954 and H Area in 1955; tritium
+The F Area separations plant started in 1954 and H Area in 1955; radioactive tritium
 went to the AEC from 1955; the basic plant was complete in 1956 ([WB:
 srs.gov 1950s][srs-1950]; [WB: History Highlights][history1]). The first
-shipment of plutonium is dated December 1954 by one official source and 1955
+shipment of radioactive plutonium is dated December 1954 by one official source and 1955
 by others ([WB: ch. 11][fifty-11]; [WB][history1]).
 
 In 1956 the neutrino was confirmed at P reactor. R and the heavy-water
@@ -202,14 +202,14 @@ the five reactor areas ([WB: SC SHPO][shpo-reactors]).
 ### What it released
 
 The plant's own figures understated its early releases. The CDC's dose
-reconstruction found that the iodine-131 released to the air in the 1950s,
+reconstruction found that the radioactive iodine-131 released to the air in the 1950s,
 mainly from the separations plants, was about four times what the site had
 reported, largely because its samplers caught only one chemical form of the
 iodine ([WB: CDC dose reconstruction, Phase II ch. 1][cdc-ch1]). The largest
 tritium releases to the air came in 1957–59 from the H Area tritium
 facilities ([WB][cdc-ch1]).
 
-A fuel failure in R reactor in November 1957 sent more than 1,900 curies
+A fuel failure in R reactor in November 1957 sent more than 1,900 curies of radioactivity
 into a seepage basin dug only that year, and in 1958 three high-level waste
 tanks in H Area leaked through their steel walls ([WB: CDC Phase II ch.
 5][cdc-ch5]).
@@ -283,7 +283,7 @@ Ecology* symposia
 ([IA](https://archive.org/details/thermalecologyii0000ther)). The first
 on-site anti-nuclear protest came in 1979 ([WB: srs.gov 1970s][srs-1970]).
 
-Tritium was the plant's largest routine release, averaging more than half a
+Radioactive tritium was the plant's largest routine release, averaging more than half a
 million curies a year to the air in 1974–77 ([WB: OSTI
 6206385][osti-tritium-routine]). Single accidents added to it. On May 2, 1974,
 some 479,000 curies of tritium gas escaped from a stack ([WB: OSTI
@@ -299,7 +299,7 @@ toward New Ellenton and Aiken ([WB: OSTI 6417935][osti-1984]), and on July
 Downstream, the plant tested the tritium in the drinking water of the
 Beaufort-Jasper Water Authority in South Carolina and the Port Wentworth
 plant in Georgia every month, and screened the 865 deer and 8 hogs killed in
-its 1971 hunt for cesium-137 before releasing them to hunters
+its 1971 hunt for radioactive cesium-137 before releasing them to hunters
 ([DL](https://archive.org/details/sim_radiation-data-and-reports_1974-02_15_2)).
 
 The hunts still go on today; see
@@ -307,7 +307,7 @@ The hunts still go on today; see
 
 ### L-Reactor comes back
 
-The Reagan-era buildup needed more plutonium. In 1982 the plant lowered the
+The Reagan-era buildup needed more radioactive plutonium. In 1982 the plant lowered the
 Pu-240 content of its product to blend with Hanford's ([WB: *SRS at Fifty*
 ch. 19][fifty-19]), and DOE moved to restart L reactor, idle since 1968, on
 an environmental assessment rather than a full impact statement ([WB: OSTI
@@ -498,7 +498,7 @@ Processing Facility, built from 1983 and troubled before it ran
 that waste into glass on March 12, 1996 ([WB][dwpf-30]).
 
 Getting the waste into the glass plant was harder. The process DOE chose in
-1983 to pull cesium out of the tanks' salt, In-Tank Precipitation, had been
+1983 to pull radioactive cesium out of the tanks' salt, In-Tank Precipitation, had been
 expected to cost $32 million and be finished by 1988; after about a decade
 and almost half a billion dollars it was abandoned in 1998 because it gave
 off large amounts of benzene ([DL: House hearing,
@@ -548,7 +548,7 @@ end of that work is gone from srs.gov; the Wayback capture is the copy
 
 ### Plutonium: MOX and pits
 
-South Carolina's fight over plutonium began before MOX. In April 2002 DOE
+South Carolina's fight over radioactive plutonium began before MOX. In April 2002 DOE
 decided to store surplus plutonium from Rocky Flats at Savannah River.
 Governor Jim Hodges sued, then issued an executive order banning plutonium
 from the state's roads, and in June a federal court barred him from
@@ -598,7 +598,7 @@ send it on to New Mexico, deciding to process it at Savannah River and store
 it there until a geologic repository exists ([WB: *Federal
 Register*][fr-japan]).
 
-The site's weapons work never fully ended. Tritium work continued
+The site's weapons work never fully ended. Work with radioactive tritium continued
 throughout ([WB][tritium-2020]).
 
 In 2019 the Defense Nuclear Facilities Safety Board warned that a fire,
@@ -657,7 +657,7 @@ reactors, in 107 photographs and 123 data pages
 ### Making pits again
 
 The site's weapons work is growing again. DOE decided in November 2020 to
-make plutonium pits, the cores of nuclear weapons, at Savannah River
+make pits, the radioactive plutonium cores of nuclear weapons, at Savannah River
 ([WB: Federal Register][fr-pits]), and SRS Watch and others are challenging
 the decision in federal court
 ([DL](https://archive.org/details/gov.uscourts.scd.265178)). The plant is
@@ -753,16 +753,14 @@ releases give two different times for when the emergency was declared
 ### The hunts go on
 
 The site's deer hunts, open to the public every autumn since 1965, are still
-held. The 2026 season runs from October into early December. This year the
-U.S. Forest Service is using only dog hunts while it decides whether to bring
-back public stand hunts, and hunt dates go to the dog-pack owners by email
-([WB: SRS, October 2026][srs-hunt-2026]).
+held ([WB: SRS, October 2026][srs-hunt-2026]).
 
 Every deer and hog killed is still taken to a check station and tested for
-cesium-137 before the hunter can keep it, under a limit of 22 millirem a year
+radioactive cesium-137 before the hunter can keep it. The site's limit is a
+radiation dose of 22 millirem a year to the hunter
 ([WB: SRS, October 2026][srs-hunt-2026]). Earlier rules said no animal is
-released if it would put the hunter over the site's limit
-([WB: srs.gov hunt rules][srs-hunt-rules]).
+released if its radioactive cesium would put the hunter over the site's yearly
+radiation limit ([WB: srs.gov hunt rules][srs-hunt-rules]).
 
 ### The record online
 

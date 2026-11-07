@@ -362,10 +362,8 @@ def chapter_nav(current, sections):
         name = ACTS[n].split(". ", 1)[1]
         here = n == current
         target = "" if here else page
-        links = ['<li><a href="%s#main"%s>Start of chapter</a></li>'
-                 % (page, ' aria-current="page"' if here else "")]
-        links += ['<li><a href="%s#%s">%s</a></li>' % (target, hid, html.escape(t))
-                  for hid, t in sections[n]]
+        links = ['<li><a href="%s#%s">%s</a></li>' % (target if (here or i) else page, hid, html.escape(t))
+                 for i, (hid, t) in enumerate(sections[n])]
         items.append('<li class="ch-%d"><details%s><summary><span class="ch-n">Chapter %d</span> %s</summary>'
                      '<ul>%s</ul></details></li>'
                      % (n, " open" if here else "", n, html.escape(name), "".join(links)))
