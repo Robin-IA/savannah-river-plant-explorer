@@ -994,7 +994,7 @@ planting longleaf pine ([DL: Forest Service, 1995](https://archive.org/details/s
 <figcaption>A red-cockaded woodpecker feeding its young at a nest in a longleaf pine in Georgia. <span class="credit">US Fish and Wildlife Service photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Red-cockaded_woodpecker_feeding_young_(5806270700).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-Ecology laboratory scientists wrote in 2002 that cooling water had "destroyed
+The work to repair the land continued. Ecology laboratory scientists wrote in 2002 that cooling water had "destroyed
 the floodplain forests" along several streams, and that after the reactors
 shut down they were studying how to replant Pen Branch and Four Mile Creek.
 The site then held 30 set-aside research areas of 14,005 acres, and 152
