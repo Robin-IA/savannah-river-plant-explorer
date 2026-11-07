@@ -48,7 +48,7 @@ Aiken and Barnwell counties, to be called the Savannah River Plant, designed,
 built and operated by Du Pont ([WB: *SRS at Fifty* ch. 8][fifty-8]). The next
 morning it was in the *Atlanta Constitution*
 ([IA](https://archive.org/details/per_atlanta-constitution_1950-11-29_83_142))
-and, by wire, in papers as far away as Victoria, British Columbia
+and in newspapers as far away as Victoria, British Columbia
 ([IA](https://archive.org/details/victoriadailytimes1950-11-29)).
 
 ### The towns inside the fence
@@ -56,7 +56,7 @@ and, by wire, in papers as far away as Victoria, British Columbia
 The land was not empty. It held small, rural farming communities. Most of
 the farms were worked by tenants, and most of the farm workers were African
 American ([WB: ch. 7][fifty-7]). The largest town, Ellenton, had about 600 people; it
-began as a railroad station in 1873, so it was nearly 80 years old
+began as a railroad station in 1873
 ([WB: ch. 7][fifty-7]; [WB: SRARP, 1996][srarp-ellenton-1]). Dunbarton, with
 231 people, was a railroad town incorporated in 1910
 ([WB: ch. 7][fifty-7]; [WB: SRARP, 1993][srarp-dunbarton-2]).
@@ -66,7 +66,14 @@ Hattieville, were mostly stops on the railroad. Du Pont moved the boundary to
 leave out two others, Jackson and Snelling ([WB: ch. 7][fifty-7]). Ellenton
 had a violent past: in 1876, during Reconstruction, armed white rifle clubs
 marched on Black militia there in what became known as the Ellenton riot
-([WB: SRARP][srarp-ellenton-1]).
+([WB: SRARP][srarp-ellenton-1]). A state historical marker for the town of
+Ellenton stands on Highway 64 at Barnwell
+([WB: Historical Marker Database][hmdb-ellenton]).
+
+<figure class="fig">
+<img src="img/ellenton-topo-1949.jpg" width="1158" height="838" alt="Black-and-white topographic map showing the town of Ellenton as a grid of streets beside a railroad and highway, with roads, farms, churches and creeks spread across the surrounding countryside." loading="lazy">
+<figcaption>Ellenton and the farmland around it on a 1949 topographic map, the year before the plant was announced. <span class="credit">US government map, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Ellenton_SC_1949_Topo.png">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 How many people were moved depends on who is counting. The first press
 release spoke of about 1,500 families; early reports said up to 8,000
@@ -82,6 +89,11 @@ condemnation proceedings. At least 4,500 graves had to be moved
 in Ellenton alone
 ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1951-11-27)).
 
+<figure class="fig wide">
+<img src="img/srs60-cemeteries.jpg" width="1400" height="560" alt="Two photographs side by side: a black-and-white view of gravestones under moss-hung oaks inside an iron fence, and a color view of the same small cemetery overgrown in woods." loading="lazy">
+<figcaption>A cemetery on the site, then and about 2010. Families could move their dead or leave them; many cemeteries remain inside the fence. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_Cemeteries_(5227760223).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 Owners objected to how their land was bought. A congressional staff report
 in late 1951 found Ellenton residents told to be gone by February 1952, while
 their property was still unappraised. Each owner was given a single offer at
@@ -90,15 +102,18 @@ percent worse off than those who held out. About a hundred owners met twice
 to protest the prices.
 
 The Atomic Energy Commission answered that most condemnations came from
-defects in title rather than price, though it conceded that juries in seven
+defects in title rather than price: owners who could not show clear legal
+ownership, often because land had passed to many heirs, or who could not be
+found. Of 169 cases it listed, 39 were over price and 130 over title, It conceded that juries in seven
 contested cases had awarded substantially more than the government's
 appraisal
 ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1951-11-27)).
 
 The magazine *The Reporter* brought the story to the nation in March 1951,
 when it reported on the quiet doom of Ellenton ([IA](https://archive.org/details/sim_reporter_1951-03-06_4_5)).
-*Jet* told a different part of it that December: Black families moving
-whole houses fifteen miles to New Ellenton, the replacement town
+*Jet* told a different part of it that December, focusing on Black families
+moving whole houses fifteen miles to New Ellenton, the replacement town. Its
+photograph ran under the heading "H-Bomb Victims"
 ([IA](https://archive.org/details/sim_jet_1951-12-20_1_8)). A 1965 federal
 housing study counted about 30 white and 120 Black families relocated near
 New Ellenton ([IA](https://archive.org/details/impactoflargeins0000unse)),
@@ -113,12 +128,17 @@ Dunbarton and Meyers Mill ([WB: OSTI 272945][osti-ellenton]; [WB: OSTI
 survive in Wayback; srarp.org itself is gone ([WB][srarp-towns]; [WB:
 Ellenton volume][srarp-ellenton]).
 
-James McBride's life of James Brown touches on the Black sharecroppers
-forced out of Ellenton
+James McBride's life of James Brown traces part of the singer's family to
+Ellenton, where relatives "cared for one another's children"
 ([IA](https://archive.org/details/killemleavesearc0000mcbr)). Louise
 Cassels's *The Unexpected Exodus* (1971), the classic memoir of the leaving,
 is cataloged in Open Library, though it has no copy to read or borrow yet
 ([OL: Open Library][cassels]).
+
+<figure class="fig wide">
+<img src="img/srs60-ellenton.jpg" width="1400" height="560" alt="Two photographs side by side: a black-and-white view of a small town's railroad crossing with a depot, a two-story house and parked cars, and a color view of the same crossing with only tracks and woods." loading="lazy">
+<figcaption>Ellenton at its railroad crossing before the plant, and the same crossing about 2010. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_Ellenton_(5227763993).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 ### Building the Plant
 
@@ -131,6 +151,11 @@ It records Black tenant farmers arriving in Augusta looking for jobs in May
 1951. At an NAACP meeting in Aiken that September, speakers accused Du Pont
 and an Augusta union of keeping Black workers out of skilled jobs, and said
 they had enough evidence to go to court.
+
+<figure class="fig wide">
+<img src="img/srp-105p-construction-1952.jpg" width="1393" height="1104" alt="Black-and-white aerial view of a huge construction site: concrete walls, cranes, trucks and workers, with a sign reading 105-P 5-29-52." loading="lazy">
+<figcaption>P reactor's building, 105-P, under construction on May 29, 1952. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Historic_P_and_R_Reactor_Photos_-_Savannah_River_Site_(7515730820).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 Getting hired was a fight of its own. In November 1951 a House labor
 subcommittee under Graham Barden held five days of hearings in Augusta on
@@ -195,11 +220,18 @@ reactors, dissolved them, and used chemistry to pull out the plutonium and
 other products, leaving the radioactive waste behind. F Area was the world's
 first full-scale plant to use this method, called Purex, and purified
 plutonium; H Area mostly recovered enriched uranium ([WB: ch. 11][fifty-11]).
+
 F Area started in 1954 and H Area in 1955. Radioactive tritium went to the
 AEC from 1955, and the basic plant was complete in 1956 ([WB: srs.gov
 1950s][srs-1950]; [WB: History Highlights][history1]). The first
 shipment of radioactive plutonium is dated December 1954 by one official source and 1955
 by others ([WB: ch. 11][fifty-11]; [WB][history1]).
+
+<figure class="fig tall">
+<img src="img/srp-reactor-vessel-1950s.jpg" width="1083" height="1381" alt="Black-and-white photograph looking down into a large round steel reactor vessel, with two workers in hard hats on scaffolding at its rim." loading="lazy">
+<figcaption>Workers inside a reactor building with an empty reactor vessel, the tank that would hold the fuel, targets and heavy water, in the 1950s. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Historic_P_and_R_Reactor_Photos_-_Savannah_River_Site_(7515731418).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 
 P reactor also served pure science. In 1955 and 1956 two Los Alamos
 physicists, Frederick Reines and Clyde Cowan, set up detectors beside it
@@ -218,7 +250,7 @@ closed in December 1964, for a different reason: the AEC was turning away
 from heavy-water power reactors, and it was never restarted
 ([WB: ch. 13][fifty-13]).
 
-### What it released
+### Radioactive releases
 
 The plant's own figures understated its early releases. The CDC's dose
 reconstruction found that the radioactive iodine-131 released to the air in
@@ -228,10 +260,20 @@ chemical form of the iodine ([WB: CDC dose reconstruction, Phase II ch.
 1][cdc-ch1]). The largest tritium releases to the air came in 1957–59 from
 the H Area tritium facilities ([WB][cdc-ch1]).
 
+<figure class="fig wide">
+<img src="img/h-canyon-2010.jpg" width="1400" height="560" alt="Two photographs side by side: a black-and-white view of a long concrete building under construction, and a color view of the same windowless concrete building finished." loading="lazy">
+<figcaption>H Canyon, one of the two separations plants that were the main source of the plant&rsquo;s early iodine releases, under construction in the early 1950s and in 2010. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_H_Canyon_(5228276930).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 A fuel failure in R reactor in November 1957 sent more than 1,900 curies of
 radioactivity into a seepage basin dug only that year. In 1958 three
 high-level waste tanks in H Area leaked through their steel walls ([WB: CDC
 Phase II ch. 5][cdc-ch5]).
+
+<figure class="fig tall">
+<img src="img/f-seepage-basin-wells-2013.jpg" width="1400" height="2104" alt="A man in a cap tests water from a white plastic well pipe in a grassy field, with sampling equipment, buckets and a large plastic tank behind him." loading="lazy">
+<figcaption>Site geologists sampling a groundwater well below the capped F Area seepage basin in 2013, where a treatment had been injected into the groundwater. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Geoscience_at_Work_(9317344120).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 The final report judged the doses to people living nearby small, but found
 that a child born in 1955 received much of a lifetime dose from the site in
@@ -247,7 +289,8 @@ ch. 6][cdc-ch6]).
 
 At Senator Thurmond's request, the staff of the Senate Armed Services
 Committee investigated and reported in July 1986 that their case was "merely
-speculative": the contamination matched fallout from the Teapot Hornet test,
+speculative": the contamination matched fallout from Teapot Hornet, an
+above-ground atomic bomb test at the Nevada Test Site two days before,
 and the plant's own monitoring showed no release
 ([DL](https://archive.org/details/micro_IA41152637_1174)). The CDC's
 contractor judged Nevada fallout highly probable, while noting that the full
@@ -261,6 +304,19 @@ compensation program. Their cancer claims no longer turn on reconstructing
 each worker's dose ([WB: NIOSH][niosh-srs]).
 
 ### Living with the Plant
+
+For the towns around it, the plant was an economic boom with an
+environmental cost. It brought jobs, newcomers, new schools and federal
+money. It also brought the [radioactive releases](#radioactive-releases)
+described earlier, and the damage to streams and wildlife told in
+[SRS and Ecology](#srs-and-ecology). Later chapters follow what that meant
+for the people who fish the river and drink its water
+([Chapter 3](chapter-3.html#the-neighbors-and-the-river)).
+
+<figure class="fig wide">
+<img src="img/srs60-cafeterias.jpg" width="1400" height="560" alt="Two photographs side by side: a black-and-white view of workers in 1950s dress lined up at a cafeteria counter, and a color view of an empty modern cafeteria with wooden chairs." loading="lazy">
+<figcaption>A site cafeteria in the 1950s and about 2010. Many workers have eaten lunch on the site since the plant opened. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_Cafeterias_(5227689223).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 The plant brought thousands of newcomers to a rural area. At a Senate hearing
 in Aiken in February 1952, the AEC's local manager said there would be no
@@ -282,6 +338,12 @@ money ([IA: *Monthly Labor Review*, 1952](https://archive.org/details/sim_monthl
 
 From 1954 the government paid Aiken, Barnwell and Allendale counties in place
 of the property taxes the site's land no longer paid ([WB: DOE, 2008][doe-pilt-2008]).
+
+<figure class="fig wide">
+<img src="img/srs60-carpooling.jpg" width="1400" height="560" alt="Two photographs side by side: a black-and-white view of two men loading a 1950s shuttle van at a stop sign, and a color view of a small metal carpool shelter with a bench." loading="lazy">
+<figcaption>Getting to work: the plant's shuttle for workers who missed their carpools in the 1950s, and a carpool shelter still standing about 2010. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_Carpooling_(5228278174).jpg">Wikimedia Commons</a>.</span></figcaption>
+</figure>
+
 
 ### SRS and Ecology
 
@@ -310,6 +372,14 @@ Service's first job was planting trees "by the thousands" on old farms
 The site and its reactors changed the local streams and watershed. Lower Three Runs Creek was dammed in 1958
 to make Par Pond, a cooling reservoir, and the reactors sent hot water down
 creeks such as Steel Creek ([IA: L-Reactor environmental impact statement, 1984](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
+
+By the end of the 1960s the plant had done what it was built for. Its
+reactors had made plutonium and tritium for more than a decade, and two of
+them had already closed as demand fell ([Running the Plant](#running-the-plant)).
+Its land had also become a place to study, with forests replanted,
+ecologists at work and a record of what it released. The 1970s brought new environmental laws and a public that wanted
+to know more, and the plant came under scrutiny, as
+[Chapter 2](chapter-2.html) tells.
 
 ---
 
@@ -1170,3 +1240,4 @@ copies.
 [fifty-13]: https://web.archive.org/web/20070928081926/http://www.srs.gov/general/about/50anniv/Chapter%2013.pdf
 [nobel-1995]: https://web.archive.org/web/20261012201937/https://www.nobelprize.org/prizes/physics/1995/press-release/
 [nobel-reines]: https://web.archive.org/web/20261012184031/https://www.nobelprize.org/prizes/physics/1995/reines/facts/
+[hmdb-ellenton]: https://web.archive.org/web/20240415132117/https://www.hmdb.org/m.asp?m=8495
