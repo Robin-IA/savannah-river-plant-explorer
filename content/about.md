@@ -52,7 +52,7 @@
 <!-- DISAGREE -->
 
 <h2>Images</h2>
-<p>All twenty-one images are in the public domain and were found on Wikimedia Commons; the copies here are resized.</p>
+<p>All forty-one images are in the public domain and were found on Wikimedia Commons; the copies here are resized.</p>
 <ul>
   <li>Reactor operation diagram, from <em>The Savannah River Site at Fifty</em> (2002), p. 331, US Department of Energy: <a href="https://commons.wikimedia.org/wiki/File:Savannah_River_Plant_reactor_design.png">Commons file</a>.</li>
   <li>Plutonium production, about 1972, Department of Energy photograph HD.6D.918: <a href="https://commons.wikimedia.org/wiki/File:HD.6D.918_(10405627974).jpg">Commons file</a>.</li>
@@ -75,6 +75,26 @@
   <li>M Area then and now, <em>SRS at 60</em>, US Department of Energy: <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_M_Area_(5228271816).jpg">Commons file</a>.</li>
   <li>The M-1 air stripper, 2009, US Department of Energy: <a href="https://commons.wikimedia.org/wiki/File:Five_Billion_Gallons_M-1_Air_Stripper_(7409143760).jpg">Commons file</a>.</li>
   <li>K Area from the air, 2025, US Department of Energy: <a href="https://commons.wikimedia.org/wiki/File:211486_K_Area_Aerials_11-11-21_002_(54439533593).jpg">Commons file</a>.</li>
+  <li>The plant's gates, then and about 2010: <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_Barricades_(5228357270).jpg">Commons file</a>.</li>
+  <li>Three Mile Island, Pennsylvania, where a reactor partly melted down in March 1979: <a href="https://commons.wikimedia.org/wiki/File:Three_Mile_Island_(color).jpg">Commons file</a>.</li>
+  <li>A wood stork: <a href="https://commons.wikimedia.org/wiki/File:Wood_stork_at_Pelican_Island_NWR_by_Tom_MacKenzie,_USFWS_(8449823131).jpg">Commons file</a>.</li>
+  <li>A cleanup crew at work in 2010, when federal stimulus money paid to speed up the site&rsquo;s cleanup: <a href="https://commons.wikimedia.org/wiki/File:A_Recovery_Act_Footprint-_Savannah_River_Site_is_Opening_Land_for_Future_Missions_(7419748692).jpg">Commons file</a>.</li>
+  <li>The Defense Waste Processing Facility, the glass plant, in 2009: <a href="https://commons.wikimedia.org/wiki/File:SRS_-_Defense_Waste_Processing_Facility_(7597419760).jpg">Commons file</a>.</li>
+  <li>The MOX plant under construction in 2010: <a href="https://commons.wikimedia.org/wiki/File:Mixed_Oxide_Fuel_Fabrication_Facility_(5062303437).jpg">Commons file</a>.</li>
+  <li>Glove boxes, then and about 2010: sealed cabinets for handling radioactive material through built-in gloves: <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_Glove_boxes_(5227677509).jpg">Commons file</a>.</li>
+  <li>The Savannah River from the Georgia side: <a href="https://commons.wikimedia.org/wiki/File:Morning_on_the_Savannah_River_16x10_(48870409671).jpg">Commons file</a>.</li>
+  <li>A local Aiken County company at work in 2010 on a federally funded contract to close the P Area ash basin: <a href="https://commons.wikimedia.org/wiki/File:Savannah_River_Site_Small_Business_(7467931418).jpg">Commons file</a>.</li>
+  <li>A red-cockaded woodpecker feeding its young at a nest in a longleaf pine in Georgia: <a href="https://commons.wikimedia.org/wiki/File:Red-cockaded_woodpecker_feeding_young_(5806270700).jpg">Commons file</a>.</li>
+  <li>The laboratory's glass shop, which has made glassware for research since 1953, then and about 2010: <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_The_Glass_Apparatus_Lab_(5228279598).jpg">Commons file</a>.</li>
+  <li>The opening of the SRS Museum in Aiken, October 2014: <a href="https://commons.wikimedia.org/wiki/File:SRS_Museum_Opening_(15812437044).jpg">Commons file</a>.</li>
+  <li>The site of the plutonium pit plant in F Area, January 2025: <a href="https://commons.wikimedia.org/wiki/File:1-9-25_SRPPF_F_Area_Aerial_(54439428989).jpg">Commons file</a>.</li>
+  <li>A TRUPACT-III shipping container for radioactive waste being handled at the site in August 2011, before the first such shipment to the Waste Isolation Pilot Plant in New Mexico: <a href="https://commons.wikimedia.org/wiki/File:TRUPACT-III_at_Savannah_(7515730204).jpg">Commons file</a>.</li>
+  <li>H Tank Farm, where liquid radioactive waste is stored in underground tanks: <a href="https://commons.wikimedia.org/wiki/File:H-Tank_Farm_Sunrise_(51507255863).jpg">Commons file</a>.</li>
+  <li>H Canyon and the buildings around it from the air, July 2024: <a href="https://commons.wikimedia.org/wiki/File:H_Canyon_sunset_aerials_7-31-24_001_(54439235878).jpg">Commons file</a>.</li>
+  <li>A great blue heron at Phinizy Swamp Nature Park, a wetland on the Savannah River at Augusta: <a href="https://commons.wikimedia.org/wiki/File:Great_Blue_Heron_Phinizy_Swamp_Nature_Park_10x6_(48870411566).jpg">Commons file</a>.</li>
+  <li>The first pitch at the site's United Way softball tournament, November 2023: <a href="https://commons.wikimedia.org/wiki/File:231734_United_Way_Softball_Tournament_11-7-23-02_(53771752151).jpg">Commons file</a>.</li>
+  <li>A green tree frog on a swamp cypress at the site: <a href="https://commons.wikimedia.org/wiki/File:Green_tree_frog_resting_on_a_swamp_cypress_at_the_Savannah_River_Site_(48870602962).jpg">Commons file</a>.</li>
+  <li>K Area at dusk in July 2024: <a href="https://commons.wikimedia.org/wiki/File:K_Area_sunset_aerials_(54474033700).jpg">Commons file</a>.</li>
 </ul>
 <p>The banner is a detail of the map of the site, toned to sit behind the title.</p>
 
