@@ -45,10 +45,10 @@ TAGS = {
     "EXT": "Held elsewhere",
 }
 ACTS = {
-    1: "Chapter 1. Building the bomb plant, 1950–1969",
-    2: "Chapter 2. The reactors under scrutiny, 1970–1992",
-    3: "Chapter 3. After the bombs, 1992–2020",
-    4: "Chapter 4. What's happening now, 2020 to today",
+    1: "Chapter 1. Building the Bomb Plant, 1950–1969",
+    2: "Chapter 2. The Reactors Under Scrutiny, 1970–1992",
+    3: "Chapter 3. After the Bombs, 1992–2020",
+    4: "Chapter 4. What's Happening Now, 2020 to Today",
 }
 HELD = {"DL": "in Democracy's Library", "WB": "in the Wayback Machine", "IA": "in the Internet Archive",
         "OL": "in Open Library", "EXT": "elsewhere"}
@@ -167,9 +167,9 @@ def sources(path, act):
 
 PAGES = (("index.html", "Story"), ("timeline.html", "Timeline"),
          ("sources.html", "Sources"), ("glossary.html", "Glossary"), ("about.html", "About"))
-ACT_SPANS = ((1, 1950, 1970, "Building the bomb plant"),
-             (2, 1970, 1992.5, "The reactors under scrutiny"),
-             (3, 1992.5, 2020.5, "After the bombs"),
+ACT_SPANS = ((1, 1950, 1970, "Building the Bomb Plant"),
+             (2, 1970, 1992.5, "The Reactors Under Scrutiny"),
+             (3, 1992.5, 2020.5, "After the Bombs"),
              (4, 2020.5, 2027, "Now"))
 
 
@@ -376,8 +376,8 @@ def chapter_nav(current, sections, here_page=None):
 
 
 def rail(items):
-    return """<aside class="rail" aria-label="Where the record lives">
-  <h2>Where the record lives</h2>
+    return """<aside class="rail" aria-label="Where the Record Lives">
+  <h2>Where the Record Lives</h2>
   %s
   %s
   <a class="card" href="timeline.html"><strong>Timeline</strong><span>Seventy-six years in one view: the reactors, the people moved, the oversight and the cleanup.</span></a>
@@ -484,11 +484,11 @@ def build_home(items, sections):
     lede = html.escape(DESCRIPTION)
     start = '<p class="start"><a class="read big" href="chapter-1.html">Start reading: Chapter 1<span aria-hidden="true"> →</span></a></p>'
     page = head(TITLE, "index.html", TITLE, lede, start + SEARCH_FORM % len(items), big=True) + """<section id="results" class="wrap results" aria-labelledby="results-h" hidden>
-  <div class="results-head"><h2 id="results-h">Search results</h2><button type="button" id="results-close">Clear search</button></div>
+  <div class="results-head"><h2 id="results-h">Search Results</h2><button type="button" id="results-close">Clear search</button></div>
   <p id="results-count" role="status" aria-live="polite"></p>
   <div class="results-cols">
-    <section aria-labelledby="rs-story"><h3 id="rs-story">In the story</h3><ol id="results-story"></ol></section>
-    <section aria-labelledby="rs-time"><h3 id="rs-time">On the timeline</h3><ol id="results-time"></ol></section>
+    <section aria-labelledby="rs-story"><h3 id="rs-story">In the Story</h3><ol id="results-story"></ol></section>
+    <section aria-labelledby="rs-time"><h3 id="rs-time">On the Timeline</h3><ol id="results-time"></ol></section>
   </div>
 </section>
 <main id="main" class="wrap home">
@@ -716,7 +716,7 @@ def build_timeline(tl, pages):
   <figcaption>Reactor bars show when each production reactor ran; the dashed line is the span the sources dispute for P reactor, and the ring marks K reactor's 1992 test run. <a href="#tl-reactors">Reactor dates as a table</a>.</figcaption>
 </figure>
 <div class="tl-lists">%s</div>
-<h2 id="tl-reactors">The reactors</h2>
+<h2 id="tl-reactors">The Reactors</h2>
 <div class="tl-reactors">
 <div class="scroll"><table class="reactors"><thead><tr><th scope="col">Reactor</th><th scope="col">Working life</th><th scope="col">Source</th></tr></thead><tbody>%s</tbody></table></div>
 <figure class="fig">
