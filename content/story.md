@@ -616,8 +616,7 @@ In 1992 K was started up for a test run and was then shut down permanently
 
 What it had released was reconstructed later. The CDC's dose reconstruction
 counted about 3,000 release incidents involving tritium between 1954 and 1992
-([WB: CDC Phase II][cdc-phase2]); cdc.gov now refuses automated requests, and
-the reports are reachable in Wayback.
+([WB: CDC Phase II][cdc-phase2]).
 
 ---
 
