@@ -74,11 +74,11 @@ in Ellenton alone
 ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1951-11-27)).
 
 Owners objected to how their land was bought. A congressional staff report
-in late 1951 found Ellenton residents told to be gone by February 1952 while
-their property was still unappraised, each owner given a single offer at the
-appraised value, and those who took the first offer as much as 20 percent
-worse off than those who held out; about a hundred owners met twice to
-protest the prices.
+in late 1951 found Ellenton residents told to be gone by February 1952, while
+their property was still unappraised. Each owner was given a single offer at
+the appraised value. Those who took the first offer were as much as 20
+percent worse off than those who held out. About a hundred owners met twice
+to protest the prices.
 
 The Atomic Energy Commission answered that most condemnations came from
 defects in title rather than price, though it conceded that juries in seven
@@ -148,11 +148,11 @@ contract compliance that December, *Jet* expected the Savannah River
 contractors to be among its first targets
 ([IA](https://archive.org/details/sim_jet_1951-12-13_1_7)).
 
-Housing the workers was its own crisis. Congress held a hearing in Aiken in
-February 1951 that expected the construction peak around the start of 1953
-([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1951-02-28_0)),
-and by February 1952 the mayors of New Ellenton and Augusta were testifying
-about dormitories and Du Pont's part in housing
+Housing the workers was its own crisis. In February 1951 Congress held a
+hearing in Aiken. It expected construction to peak around the start of 1953
+([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1951-02-28_0)).
+A year later, in February 1952, the mayors of New Ellenton and Augusta
+testified about dormitories and about Du Pont's part in housing workers
 ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1952-02-22_3)).
 
 *House & Home* reported about 4,000 trailers for married workers
@@ -206,17 +206,17 @@ the five reactor areas ([WB: SC SHPO][shpo-reactors]).
 ### What it released
 
 The plant's own figures understated its early releases. The CDC's dose
-reconstruction found that the radioactive iodine-131 released to the air in the 1950s,
-mainly from the separations plants, was about four times what the site had
-reported, largely because its samplers caught only one chemical form of the
-iodine ([WB: CDC dose reconstruction, Phase II ch. 1][cdc-ch1]). The largest
-tritium releases to the air came in 1957–59 from the H Area tritium
-facilities ([WB][cdc-ch1]).
+reconstruction found that the radioactive iodine-131 released to the air in
+the 1950s, mainly from the separations plants, was about four times what the
+site had reported. That was largely because its samplers caught only one
+chemical form of the iodine ([WB: CDC dose reconstruction, Phase II ch.
+1][cdc-ch1]). The largest tritium releases to the air came in 1957–59 from
+the H Area tritium facilities ([WB][cdc-ch1]).
 
-A fuel failure in R reactor in November 1957 sent more than 1,900 curies of radioactivity
-into a seepage basin dug only that year, and in 1958 three high-level waste
-tanks in H Area leaked through their steel walls ([WB: CDC Phase II ch.
-5][cdc-ch5]).
+A fuel failure in R reactor in November 1957 sent more than 1,900 curies of
+radioactivity into a seepage basin dug only that year. In 1958 three
+high-level waste tanks in H Area leaked through their steel walls ([WB: CDC
+Phase II ch. 5][cdc-ch5]).
 
 The final report judged the doses to people living nearby small, but found
 that a child born in 1955 received much of a lifetime dose from the site in
@@ -240,9 +240,9 @@ extent of the deposit would never be known ([WB: CDC Phase II ch.
 
 The workers' side of the reckoning came later still. In 2012 the government
 added everyone who had worked at the site for at least 250 days between 1953
-and 1972 to the Special Exposure Cohort under the federal occupational
-illness compensation program, so that their cancer claims no longer turn on
-reconstructing each worker's dose ([WB: NIOSH][niosh-srs]).
+and 1972 to the Special Exposure Cohort of the federal occupational illness
+compensation program. Their cancer claims no longer turn on reconstructing
+each worker's dose ([WB: NIOSH][niosh-srs]).
 
 ### Living with the Plant
 
@@ -331,10 +331,10 @@ toward New Ellenton and Aiken ([WB: OSTI 6417935][osti-1984]), and on July
 31, 1987, a further 172,000 curies were released ([WB: OSTI
 7130595][osti-1987]).
 
-Downstream, the plant tested the tritium in the drinking water of the
-Beaufort-Jasper Water Authority in South Carolina and the Port Wentworth
-plant in Georgia every month, and screened the 865 deer and 8 hogs killed in
-its 1971 hunt for radioactive cesium-137 before releasing them to hunters
+Downstream, the plant tested the tritium in the drinking water every month at
+the Beaufort-Jasper Water Authority in South Carolina and the Port Wentworth
+plant in Georgia. It also screened the 865 deer and 8 hogs killed in its 1971
+hunt for radioactive cesium-137 before releasing them to hunters
 ([DL](https://archive.org/details/sim_radiation-data-and-reports_1974-02_15_2)).
 
 The hunts still go on today; see
@@ -363,12 +363,12 @@ Senate Armed Services Committee had already held a field hearing in North
 Augusta that February
 ([DL](https://archive.org/details/micro_IA41152659_0884)).
 
-There Georgia's Senator Mattingly, calling the Tuscaloosa aquifer under the
-site the main source of water for Georgia, won an assurance from DOE that
+There Georgia's Senator Mattingly called the Tuscaloosa aquifer under the
+site the main source of water for Georgia. He won an assurance from DOE that
 burying the plant's high-level waste in the bedrock beneath it would not be
-brought up again, and the Natural Resources Defense Council's witness
-pointed to cesium contamination off the site, just downstream of where Steel
-Creek enters the river
+brought up again. The Natural Resources Defense Council's witness pointed to
+cesium contamination off the site, just downstream of where Steel Creek
+enters the river
 ([DL](https://archive.org/details/micro_IA41152659_0884)).
 
 South Carolina and Georgia had both opposed bedrock disposal
@@ -402,9 +402,9 @@ regulatory authority
 ([DL](https://archive.org/details/micro_IA41152617_0148)).
 
 GAO found solvents in the groundwater under the M Area fuel plant at more
-than 30,000 times proposed drinking-water standards and tritium at the
-separations areas at more than 2,500 times; DOE answered that the
-contamination stayed under federal land and posed no threat to the public
+than 30,000 times proposed drinking-water standards. Tritium at the
+separations areas was more than 2,500 times the standard. DOE answered that
+the contamination stayed under federal land and posed no threat to the public
 ([IA: GAO 1986](https://archive.org/details/micro_IA41152607_0232)).
 
 By 1991 the Office of Technology Assessment reported an EPA finding that the
@@ -438,10 +438,10 @@ gao.gov][gao-88-68]).
 
 Glenn's bill to put the weapons plants under outside safety oversight was
 already in hearings
-([DL](https://archive.org/details/micro_IA41152617_0167)). The next day, October
-1, the *New York Times* put the story on its front page: severe
-accidents at the plant, kept secret for up to 31 years, at all five
-reactors, documented in a 19-page memorandum from a plant supervisor to his
+([DL](https://archive.org/details/micro_IA41152617_0167)). The next day,
+October 1, the *New York Times* put the story on its front page. It reported
+severe accidents at all five reactors, kept secret for up to 31 years. They
+were documented in a 19-page memorandum from a plant supervisor to his
 superiors at Du Pont ([WB: *New York Times*][nyt-881001]). By November the
 paper was asking how Congress had missed the signs ([WB: *New York
 Times*][nyt-881128]).
@@ -461,10 +461,10 @@ picture of cleanup and modernization problems
 </figure>
 
 That August Senator Glenn argued that DOE's research on the health of its
-own workers had been subordinated to production, and Senator Kohl called for
-removing the apparent conflict of interest and said he was open to moving
-that research to Health and Human Services; the record included a 1988 study
-reporting a significant excess of leukemia deaths among hourly Savannah
+own workers had been subordinated to production. Senator Kohl called for
+removing the apparent conflict of interest, and said he was open to moving
+that research to Health and Human Services. The record included a 1988 study
+that reported a significant excess of leukemia deaths among hourly Savannah
 River workers hired before 1955 ([IA: Senate hearing,
 1989](https://archive.org/details/micro_IA41152837_0739)). The later dose
 reconstruction was run by the CDC ([WB: CDC][cdc-srs-page]).
@@ -484,15 +484,15 @@ Savannah River ([WB: OSTI 5281815][osti-k-tritium]; [WB: OSTI
 10179303][osti-k-dose]).
 
 GAO had warned in 1989 that DOE had only begun to address earthquake
-weaknesses that had existed at the site for years, and that the seismic
-review behind P reactor's 1988 restart used a less stringent standard than
-the Nuclear Regulatory Commission's ([IA: GAO
+weaknesses that had existed at the site for years. It also found that the
+seismic review behind P reactor's 1988 restart used a less stringent standard
+than the Nuclear Regulatory Commission's ([IA: GAO
 1989](https://archive.org/details/micro_IA41152645_0571)).
 
-In March 1991 a depression found on the downstream face of the Par Pond dam
-led the site to lower the reservoir about 19 feet that summer, exposing some
-1,300 acres of cesium-contaminated sediment and sending tritium and cesium
-into the river ([WB: OSTI 7247383][osti-parpond]); the exposed bed became a
+In March 1991 a depression was found on the downstream face of the Par Pond
+dam. That summer the site lowered the reservoir about 19 feet. This exposed
+some 1,300 acres of cesium-contaminated sediment and sent tritium and cesium
+into the river ([WB: OSTI 7247383][osti-parpond]). The exposed bed became a
 Superfund interim action ([WB: OSTI 10192315][osti-parpond-cercla]).
 
 A 1998 DOE notice dates the leak to 1992
@@ -534,10 +534,11 @@ America][esa-thermal]), and became the *Thermal Ecology* symposia
 
 The cooling water did real damage. A 1987 environmental impact statement
 found that K reactor's hot water had altered 670 acres of forested wetland
-along Pen Branch, and C reactor's about 1,147 acres, some 60 percent, along
-Four Mile Creek, where open water and marsh had replaced hardwood forest
-([IA: DOE, 1987](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)). Restarting L reactor meant sending hot water into
-the Steel Creek swamp again ([DL: Senate hearing, 1983](https://archive.org/details/micro_IA41152659_0884)).
+along Pen Branch. C reactor's had altered about 1,147 acres, some 60 percent,
+along Four Mile Creek, where open water and marsh had replaced hardwood forest
+([IA: DOE, 1987](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
+Restarting L reactor meant sending hot water into the Steel Creek swamp again
+([DL: Senate hearing, 1983](https://archive.org/details/micro_IA41152659_0884)).
 
 Wildlife was in trouble too. In 1984 the wood stork was listed as endangered,
 and the L-Reactor study recorded 102 of them feeding near the Steel Creek
@@ -559,9 +560,9 @@ stream to the process that made it in *Linking Legacies*
 the last spent fuel left the receiving basin, closing what the site called a
 forty-year era ([WB][rbof]).
 
-Spent fuel kept arriving as well as leaving. When the United States moved to
-take back the fuel it had supplied to research reactors abroad, GAO reported
-in 1994 that delays had already led reactors in Belgium and Germany to
+Spent fuel kept arriving as well as leaving. The United States moved to take
+back the fuel it had supplied to research reactors abroad. In 1994 GAO
+reported that delays had already led reactors in Belgium and Germany to
 reprocess theirs, and that DOE meant to store the first returns at Savannah
 River ([IA: GAO 1994](https://archive.org/details/DTIC_ADA344922)).
 
@@ -581,11 +582,11 @@ Processing Facility, built from 1983 and troubled before it ran
 ([IA: GAO 1992](https://archive.org/details/DTIC_ADA298946)), began turning
 that waste into glass on March 12, 1996 ([WB][dwpf-30]).
 
-Getting the waste into the glass plant was harder. The process DOE chose in
-1983 to pull radioactive cesium out of the tanks' salt, In-Tank Precipitation, had been
-expected to cost $32 million and be finished by 1988; after about a decade
-and almost half a billion dollars it was abandoned in 1998 because it gave
-off large amounts of benzene ([DL: House hearing,
+Getting the waste into the glass plant was harder. In 1983 DOE chose a
+process called In-Tank Precipitation to pull radioactive cesium out of the
+tanks' salt. It was expected to cost $32 million and be finished by 1988.
+After about a decade and almost half a billion dollars, it was abandoned in
+1998 because it gave off large amounts of benzene ([DL: House hearing,
 2000](https://archive.org/details/gov.gpo.fdsys.CHRG-106hhrg64703); [WB:
 GAO][gao-itp]).
 
@@ -670,16 +671,16 @@ settlement DOE agreed to remove that half ton from Nevada by the end of 2026
 and to send no more ([WB: Nevada Attorney General][nv-ag]).
 
 The site was also offered other countries' material. In 2014 DOE began
-assessing whether to take Germany's spent pebble-bed reactor fuel, graphite
+assessing whether to take Germany's spent pebble-bed reactor fuel: graphite
 spheres containing American-supplied highly enriched uranium ([WB: *Federal
-Register*][fr-german]); the site's own Citizens Advisory Board voted against
-it in 2017 ([WB: CAB][cab-350]), and by 2022 the German state concerned had
+Register*][fr-german]). The site's own Citizens Advisory Board voted against
+it in 2017 ([WB: CAB][cab-350]). By 2022 the German state concerned had
 chosen to store it at home instead ([WB: SRS Watch][srswatch-german]).
 
 Plutonium from a Japanese research assembly did come, through Charleston in
-2016 ([WB: SRS Watch][srswatch-japan]), and in 2021 NNSA dropped its plan to
-send it on to New Mexico, deciding to process it at Savannah River and store
-it there until a geologic repository exists ([WB: *Federal
+2016 ([WB: SRS Watch][srswatch-japan]). In 2021 NNSA dropped its plan to send
+it on to New Mexico. It decided instead to process the plutonium at Savannah
+River and store it there until a geologic repository exists ([WB: *Federal
 Register*][fr-japan]).
 
 The site's weapons work never fully ended. Work with radioactive tritium continued
@@ -688,15 +689,15 @@ throughout ([WB][tritium-2020]).
 In 2019 the Defense Nuclear Facilities Safety Board warned that a fire,
 crane drop or explosion in the tritium facilities could cause acute
 radiation sickness or death in a significant number of people ([WB: *Federal
-Register*][fr-dnfsb]); NNSA's administrator replied, "I do not accept
+Register*][fr-dnfsb]). NNSA's administrator replied, "I do not accept
 Recommendation 2019-2" ([WB: *Federal Register*][fr-dnfsb-reply]).
 
 ### Sick workers
 
 Compensation for the plant's sick workers came slowly. At a 2003 House
 hearing Representative Charlie Norwood of Georgia said more than 300 of his
-constituents had filed claims over work at the site and only a handful had a
-decision, and the building trades' statement called Savannah River workers
+constituents had filed claims over work at the site, and only a handful had
+a decision. The building trades' statement said Savannah River workers were
 treated unfairly under the program ([DL: House hearing,
 2003](https://archive.org/details/gov.gpo.fdsys.CHRG-108hhrg90178)).
 
@@ -803,9 +804,9 @@ that collected Ellenton's memories in 1990.
 
 The federal record of historic engineering holds one part of the plant in
 detail. The Historic American Engineering Record documented the Physics
-Assembly Laboratory in M Area, home of the zero-power Process Development
-Pile that set the physics for plutonium and tritium production in the five
-reactors, in 107 photographs and 123 data pages
+Assembly Laboratory in M Area in 107 photographs and 123 data pages. It was
+home to the zero-power Process Development Pile, which set the physics for
+plutonium and tritium production in the five reactors
 ([WB: Library of Congress, HAER SC-43][haer-sc43]).
 
 ## Chapter 4. What's happening now, 2020 to today
