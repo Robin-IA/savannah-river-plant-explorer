@@ -1270,6 +1270,11 @@ drivers from Allendale north through the site on it ([WB: SRS][srs-hunt-directio
 [WB: Historical Marker Database][hmdb-ellenton-site]). In 2021 the state
 transportation department widened and repaved about 8 miles of it inside
 the site ([WB: DOE][doe-sc125-2021]).
+It is a road to drive through, not to stop on. The site's impact statements
+limit the public to "through traffic only" on Highway 125, U.S. Highway 278
+and SRS Road 1. DOE controls access to the highway inside the site and can
+stop traffic and clear everyone off it quickly after an accident nearby
+([IA: DOE, 1990](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
 
 Site workers still give to local charities. The contractors reported raising
 $1,488,038 for United Way in the 2023 campaign ([WB: SRS release][srs-uw-2024]),
