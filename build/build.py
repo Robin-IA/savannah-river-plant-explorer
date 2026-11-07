@@ -571,10 +571,19 @@ def build_about(pages):
     write(ROOT / "about.html", page)
 
 
+SOURCE_COUNT = [0]
+
+
+def site_search():
+    """The home page's search box, for other pages: it sends the reader to
+    the home page, which shows results for ?q= when it loads."""
+    return SEARCH_FORM.replace('action="sources.html"', 'action="index.html"') % SOURCE_COUNT[0]
+
+
 def build_glossary():
     body = (CONTENT / "glossary.md").read_text(encoding="utf-8")
     lede = "The technical words, agencies and places in the story."
-    page = head("Glossary · " + TITLE, "glossary.html", "Glossary", lede) + \
+    page = head("Glossary · " + TITLE, "glossary.html", "Glossary", lede, site_search()) + \
         '<main id="main" class="wrap about">\n%s\n</main>\n' % body + foot()
     write(ROOT / "glossary.html", page)
 
@@ -710,7 +719,7 @@ def build_timeline(tl, pages):
     lede = ("From the land taken in 1950 to the tanks still being emptied: %d events from the story, "
             "and the five production reactors' working lives. Click on a shape to read it in the story."
             % len(tl["events"]))
-    page = head("Timeline · " + TITLE, "timeline.html", "Timeline", lede) + """<main id="main" class="wrap">
+    page = head("Timeline · " + TITLE, "timeline.html", "Timeline", lede, site_search()) + """<main id="main" class="wrap">
 <div class="tl-controls" role="group" aria-label="Show events whose source is held in">
   <span class="tl-controls-label">Show sources held in</span>%s
 </div>
@@ -779,6 +788,7 @@ def main():
     build_home(items, sections)
     write(ROOT / "data" / "passages.json",
           json.dumps(passages, ensure_ascii=False, separators=(",", ":")))
+    SOURCE_COUNT[0] = len(items)
     events = build_timeline(tl, pages)
     write(ROOT / "data" / "timeline.json", json.dumps(
         [{k: e[k] for k in ("i", "date", "text", "tag", "page", "anchor")} for e in events],
