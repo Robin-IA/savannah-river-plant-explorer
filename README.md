@@ -36,6 +36,8 @@ logos:
 - **Sources** (`sources.html`): all 414 sources behind the story, filterable
   by where they are held, by chapter and by word. The filters are kept in the
   URL, for example `sources.html?tag=WB&chapter=3&q=DWPF`.
+- **Glossary** (`glossary.html`): the technical words, agencies and places in
+  the story, in plain English.
 - **About** (`about.html`), including the controversies, the documentary
   *Building Bombs*, and where the sources disagree.
 
@@ -74,7 +76,7 @@ The notes for each source, including what was and was not read, are in
   the story), `about.html` (the About page's body) and `disagree.md` (where
   sources disagree, shown on the About page).
 - `build/build.py` writes `index.html`, `chapter-1.html` to `chapter-4.html`,
-  `timeline.html`, `sources.html`, `about.html`, `data/sources.json`,
+  `timeline.html`, `sources.html`, `glossary.html`, `about.html`, `data/sources.json`,
   `data/timeline.json` and `data/passages.json` (the chapters' paragraphs, for
   search). It needs
   Python 3 and the `markdown` package, pinned in `requirements.txt`. It

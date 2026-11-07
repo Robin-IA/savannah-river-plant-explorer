@@ -174,6 +174,17 @@ Added November 7, 2026; every item checked live that day.
 | IA | `DTIC_ADA400802` | *Proceedings of the Partners Along the Fall Line: Sandhills Ecology and Ecosystem Management Workshop* (ERDC/CERL SR-02-2), paper by Sharitz and Collins of SREL | 2002-03-01 | dticarchive | Land about two-thirds forest and one-third crops or pasture at acquisition; cooling water "destroyed the floodplain forests"; restoration of Pen Branch and Four Mile Creek; 30 set-asides of 14,005 acres; 152 red-cockaded woodpeckers by 1999. Full text read. Verified 2026-11-07. |
 | DL | `savannahriverfor51unit` | USDA Forest Service, *Savannah River Forest Station … general report to the public, 1994* | 1995-04 | fedlink, DL | The 1952 AEC–Forest Service agreement; planting trees on former farms; by 1994, woodpeckers 4 to 77, Carolina bay restoration and longleaf pine. Full text read. Verified 2026-11-07. |
 
+## 7. The towns before the plant
+
+Added November 7, 2026.
+
+| Label | Identifier / URL | Title | Date | Holder / collection | Contribution |
+|---|---|---|---|---|---|
+| WB | https://web.archive.org/web/20150920145035/http://www.srarp.org/pdf_documents/Memories%20of%20Home/Ellenton/01_Chapter1-2.pdf | Pamela Browder and Mark J. Brooks, *Memories of Home: Reminiscences of Ellenton*, ch. 1, "A Town Is Born" (SRARP Heritage Series 2, University of South Carolina, DOE-funded) | 1996 | srarp.org (dead), Wayback | Station named for Ellen Dunbar in 1873; incorporated December 24, 1880; post office closed February 29, 1952, after 79 years; bank failed 1931; the 1876 Ellenton riot and the 600–700 white men arrested but never tried. Scanned PDF with no text layer; read by OCR. Verified 2026-11-07. |
+| WB | https://web.archive.org/web/20150920213514/http://www.srarp.org/pdf_documents/Memories%20of%20Home/Ellenton/04_Chapter4-1.pdf | Browder and Brooks, *Memories of Home: Reminiscences of Ellenton*, ch. 4 (mercantile business) | 1996 | srarp.org (dead), Wayback | Merchants grew from 2 (1873) to 56 (1950), from county tax books; the Cassels family ran the power plant, telephone company and bank. Read by OCR. Verified 2026-11-07. |
+| WB | https://web.archive.org/web/20150920154751/http://www.srarp.org/pdf_documents/Memories%20of%20Home/Dunbarton%20and%20Meyers%20Mill/02_Chapter2.pdf | Browder, Brooks and Crass, *Memories of Home: Dunbarton and Meyers Mill Remembered*, ch. 2 (SRARP Heritage Series 1) | 1993 | srarp.org (dead), Wayback | Dunbarton grew up around the railroad depot from the early 1800s; incorporated September 21, 1910; Meyers Mill named for the Meyer family. Read by OCR. Verified 2026-11-07. |
+| IA | `southcarolinain101phil` | *South Carolina in 1876: Testimony as to the Denial of the Elective Franchise in South Carolina at the Elections of 1875 and 1876*, vol. 1 (Senate, GPO) | 1877 | bostonpubliclibrary (not DL; no DL copy found) | Testimony on the Ellenton riot, printed under the running head "Ellenton Massacre". Text searched. Verified 2026-11-07. |
+
 ---
 
 ## Key facts (each with its source)

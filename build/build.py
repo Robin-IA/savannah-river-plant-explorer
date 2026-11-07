@@ -166,7 +166,7 @@ def sources(path, act):
 # Page furniture shared by every page.
 
 PAGES = (("index.html", "Story"), ("timeline.html", "Timeline"),
-         ("sources.html", "Sources"), ("about.html", "About"))
+         ("sources.html", "Sources"), ("glossary.html", "Glossary"), ("about.html", "About"))
 ACT_SPANS = ((1, 1950, 1970, "Building the bomb plant"),
              (2, 1970, 1992.5, "The reactors under scrutiny"),
              (3, 1992.5, 2020.5, "After the bombs"),
@@ -533,6 +533,14 @@ def build_about(pages):
     write(ROOT / "about.html", page)
 
 
+def build_glossary():
+    body = (CONTENT / "glossary.md").read_text(encoding="utf-8")
+    lede = "The technical words, agencies and places in the story, in plain English."
+    page = head("Glossary · " + TITLE, "glossary.html", "Glossary", lede) + \
+        '<main id="main" class="wrap about">\n%s\n</main>\n' % body + foot()
+    write(ROOT / "glossary.html", page)
+
+
 # --------------------------------------------------------------------------
 # The timeline: reactor spans and events, drawn as an SVG at build time,
 # with the same events as a list underneath for reading and for screens
@@ -688,7 +696,7 @@ def build_timeline(tl, pages):
     return tl["events"]
 
 
-LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|timeline|chapter-[1-4])\.html(#[\w-]+)?$|^(style\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^img/[\w.-]+\.(png|jpg)$")
+LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|timeline|chapter-[1-4])\.html(#[\w-]+)?$|^(style\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^img/[\w.-]+\.(png|jpg)$")
 IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
 
 
@@ -739,6 +747,7 @@ def main():
         ensure_ascii=False, separators=(",", ":")))
     build_sources(items)
     build_about(pages)
+    build_glossary()
     by = {}
     for s in items:
         by[(s["act"], s["tag"])] = by.get((s["act"], s["tag"]), 0) + 1
