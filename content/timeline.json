@@ -521,14 +521,41 @@
       "section": "Plutonium: MOX and pits"
     },
     {
+      "when": 2020.66,
+      "date": "Aug 31, 2020",
+      "lane": "oversight",
+      "text": "DOE agrees to pay South Carolina $600 million and remove 9.5 metric tons of plutonium by 2037",
+      "tag": "WB",
+      "ref": "doe-sc-2020",
+      "section": "Moving plutonium out"
+    },
+    {
       "when": 2020.87,
       "date": "Nov 2020",
       "lane": "production",
       "text": "DOE decides to make plutonium pits at Savannah River",
       "tag": "WB",
       "ref": "fr-pits",
-      "section": "Plutonium: MOX and pits",
+      "section": "Making pits again",
       "label": "Pits decided"
+    },
+    {
+      "when": 2020.97,
+      "date": "Dec 22, 2020",
+      "lane": "science",
+      "text": "The laboratory gets its own contract, run by Battelle Savannah River Alliance",
+      "tag": "WB",
+      "ref": "doe-srnl-2020",
+      "section": "Who runs the site"
+    },
+    {
+      "when": 2022.15,
+      "date": "Feb 27, 2022",
+      "lane": "cleanup",
+      "text": "Savannah River Mission Completion takes over the liquid waste",
+      "tag": "WB",
+      "ref": "doe-srmc-2022",
+      "section": "Emptying the tanks"
     },
     {
       "when": 2023.5,
@@ -537,7 +564,43 @@
       "text": "SRS.GOV and SRNL.GOV archived via Archive-It",
       "tag": "AIT",
       "ref": "ait-21601",
-      "section": "The laboratories"
+      "section": "The record online"
+    },
+    {
+      "when": 2023.59,
+      "date": "Aug 3, 2023",
+      "lane": "oversight",
+      "text": "Safety board warns the pit plant's controls may not protect glove-box workers",
+      "tag": "WB",
+      "ref": "dnfsb-2023",
+      "section": "Making pits again"
+    },
+    {
+      "when": 2024.75,
+      "date": "Oct 1, 2024",
+      "lane": "production",
+      "text": "NNSA, the weapons agency, becomes the site's landlord",
+      "tag": "WB",
+      "ref": "srs-landlord-2024",
+      "section": "Who runs the site"
+    },
+    {
+      "when": 2025.39,
+      "date": "May 23, 2025",
+      "lane": "production",
+      "text": "Executive order halts dilute and dispose, except what DOE owes South Carolina",
+      "tag": "WB",
+      "ref": "eo-14302",
+      "section": "Moving plutonium out"
+    },
+    {
+      "when": 2026.09,
+      "date": "Feb 2026",
+      "lane": "cleanup",
+      "text": "DOE reverses course and restores uranium recovery at H Canyon",
+      "tag": "WB",
+      "ref": "doe-hcanyon-2026",
+      "section": "Emptying the tanks"
     },
     {
       "when": 2026.37,
@@ -546,7 +609,26 @@
       "text": "Tank 14 becomes the eighth old-style tank to finish waste removal in under two years",
       "tag": "WB",
       "ref": "tank-14",
-      "section": "The tanks"
+      "section": "Emptying the tanks"
+    },
+    {
+      "when": 2026.79,
+      "date": "Oct 15, 2026",
+      "lane": "production",
+      "text": "DOE authorizes full construction of the pit plant",
+      "tag": "WB",
+      "ref": "nnsa-srppf",
+      "section": "Making pits again",
+      "label": "Pit plant approved"
+    },
+    {
+      "when": 2026.82,
+      "date": "Oct 28, 2026",
+      "lane": "people",
+      "text": "A laboratory fire leads to a Site Area Emergency; no contamination detected",
+      "tag": "WB",
+      "ref": "srs-fire-2026",
+      "section": "Who runs the site"
     }
   ]
 }
