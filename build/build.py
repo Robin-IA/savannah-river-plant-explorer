@@ -351,20 +351,26 @@ def story_chapters():
     return chapters, defs
 
 
-def chapter_nav(current, sections):
-    """The chapter menu: every chapter folds open to list its sections.
-    Built on <details>, so it opens and closes without script and works from
-    the keyboard; the chapter being read starts open."""
+def section_page(n, k):
+    """Section k (0-based) of chapter n: the first section is the chapter page."""
+    return CHAPTER_PAGE[n] if k == 0 else "chapter-%d-%d.html" % (n, k + 1)
+
+
+def chapter_nav(current, sections, here_page=None):
+    """The chapter menu: every chapter folds open to list its sections, each
+    on its own page. Built on <details>, so it opens and closes without script
+    and works from the keyboard; the chapter being read starts open."""
     items = []
-    for n, page in CHAPTER_PAGE.items():
+    for n in CHAPTER_PAGE:
         name = ACTS[n].split(". ", 1)[1]
-        here = n == current
-        target = "" if here else page
-        links = ['<li><a href="%s#%s">%s</a></li>' % (target if (here or i) else page, hid, html.escape(t))
-                 for i, (hid, t) in enumerate(sections[n])]
+        links = []
+        for k, (hid, t) in enumerate(sections[n]):
+            pg = section_page(n, k)
+            cur = ' aria-current="page"' if pg == here_page else ""
+            links.append('<li><a href="%s"%s>%s</a></li>' % (pg, cur, html.escape(t)))
         items.append('<li class="ch-%d"><details%s><summary><span class="ch-n">Chapter %d</span> %s</summary>'
                      '<ul>%s</ul></details></li>'
-                     % (n, " open" if here else "", n, html.escape(name), "".join(links)))
+                     % (n, " open" if n == current else "", n, html.escape(name), "".join(links)))
     return ('<nav class="toc" aria-label="Chapters"><h2>Chapters</h2><ol class="ch-list">%s</ol></nav>'
             % "".join(items))
 
@@ -379,13 +385,15 @@ def rail(items):
 </aside>""" % (holder_index(items), holder_chart(items), len(items))
 
 
+PAGE_CH = {}
+
+
 def build_chapters(items):
-    """Write the chapter pages; return heading slug -> page,
+    """Write one page per story section; return heading slug -> pages,
     the passages for search, and each chapter's section titles."""
     chapters, defs = story_chapters()
     pages, passages, sections, built = {}, [], {}, []
     for n, title, md_text in chapters:
-        page = CHAPTER_PAGE[n]
         md = markdown.Markdown(extensions=["tables", "toc"],
                                extension_configs={"toc": {"toc_depth": "2-2"}})
         body = tag_links(md.convert(md_text + "\n\n" + defs))
@@ -396,42 +404,65 @@ def build_chapters(items):
             k[0] += 1
             return '<%s id="c%d-%d">' % (m.group(1), n, k[0])
         body = re.sub(r"<(p|li)>", pid, body)
+        # cut the chapter at each section heading
+        cuts = [m.start() for m in re.finditer(r'<h2 id="', body)]
+        secs = [body[a:b2] for a, b2 in zip(cuts, cuts[1:] + [len(body)])]
         sections[n] = []
-        for hid, htext in re.findall(r'<h2 id="([^"]+)">(.*?)</h2>', body):
-            pages.setdefault(hid, []).append(page)
+        for s_i, sec in enumerate(secs):
+            hid, htext = re.match(r'<h2 id="([^"]+)">(.*?)</h2>', sec).groups()
+            pg = section_page(n, s_i)
+            PAGE_CH[pg] = n
+            pages.setdefault(hid, []).append(pg)
             sections[n].append((hid, re.sub("<[^>]+>", "", htext)))
-        # passages for search: each paragraph with the section it sits in
-        current = ""
-        for m in re.finditer(r'<h2 id="[^"]+">(.*?)</h2>|<(p|li) id="(c\d-\d+)">(.*?)</\2>', body, re.S):
-            if m.group(1) is not None:
-                current = html.unescape(re.sub("<[^>]+>", "", m.group(1)))
-            else:
-                t = html.unescape(re.sub(r"\s+", " ", re.sub("<[^>]+>", "", m.group(4)))).strip()
+            name = html.unescape(re.sub("<[^>]+>", "", htext))
+            for m in re.finditer(r'<(p|li) id="(c\d-\d+)">(.*?)</\1>', sec, re.S):
+                t = html.unescape(re.sub(r"\s+", " ", re.sub("<[^>]+>", "", m.group(3)))).strip()
                 if t:
-                    passages.append({"p": page, "id": m.group(3), "c": n, "s": current, "t": t})
-        built.append((n, title, page, body))
-    for n, title, page, body in built:
-        nav = chapter_nav(n, sections)
+                    passages.append({"p": pg, "id": m.group(2), "c": n, "s": name, "t": t})
+            built.append((n, title, s_i, pg, sec))
+    # in-story links to a section anchor go to that section's page
+    local = {}
+    for n in sections:
+        for s_i, (hid, _) in enumerate(sections[n]):
+            local[(n, hid)] = section_page(n, s_i)
+    order = [(n, s_i, pg) for n, _, s_i, pg, _ in built]
+    for idx, (n, title, s_i, pg, sec) in enumerate(built):
+        sec = re.sub(r'href="#([\w-]+)"',
+                     lambda m: 'href="%s#%s"' % (local.get((n, m.group(1)), pg), m.group(1))
+                     if local.get((n, m.group(1)), pg) != pg else m.group(0), sec)
+        sec = re.sub(r'href="chapter-([1-4])\.html#([\w-]+)"',
+                     lambda m: 'href="%s#%s"' % (local.get((int(m.group(1)), m.group(2)), "chapter-%s.html" % m.group(1)), m.group(2)), sec)
+        nav = chapter_nav(n, sections, pg)
         prev_next = []
-        if n > 1:
-            prev_next.append('<a class="pn prev" href="%s"><span>Previous</span> %s</a>' % (CHAPTER_PAGE[n - 1], html.escape(ACTS[n - 1])))
-        if n < len(CHAPTER_PAGE):
-            prev_next.append('<a class="pn next" href="%s"><span>Next</span> %s</a>' % (CHAPTER_PAGE[n + 1], html.escape(ACTS[n + 1])))
+        if idx > 0:
+            pn, ps, ppg = order[idx - 1]
+            prev_next.append('<a class="pn prev" href="%s"><span>Previous</span> %s</a>'
+                             % (ppg, html.escape(sections[pn][ps][1])))
+        if idx + 1 < len(order):
+            nn, ns, npg = order[idx + 1]
+            label = sections[nn][ns][1]
+            if nn != n:
+                label = "%s: %s" % (ACTS[nn].split(", ")[0], label)
+            prev_next.append('<a class="pn next" href="%s"><span>Next</span> %s</a>' % (npg, html.escape(label)))
         else:
             prev_next.append('<a class="pn next" href="about.html#where-the-sources-disagree"><span>Next</span> Where the sources disagree</a>')
         h1 = "Chapter %d. %s" % (n, title)
-        page_html = head("%s · %s" % (h1, TITLE), page, h1, html.escape(CHAPTER_BLURB[n])) + """<main id="main" class="wrap story chapter chapter-%d">
+        sname = sections[n][s_i][1]
+        count = '<p class="sec-count">Part %d of %d in Chapter %d</p>' % (s_i + 1, len(sections[n]), n)
+        page_html = head("%s · Chapter %d · %s" % (html.unescape(sname), n, TITLE), pg, h1,
+                         html.escape(CHAPTER_BLURB[n])) + """<main id="main" class="wrap story chapter chapter-%d">
 <div class="cols">
 %s
 <article>
 %s
-<nav class="prev-next" aria-label="Previous and next chapter">%s</nav>
+%s
+<nav class="prev-next" aria-label="Previous and next section">%s</nav>
 </article>
 %s
 </div>
 </main>
-""" % (n, nav, body, "".join(prev_next), rail(items)) + foot()
-        write(ROOT / page, page_html)
+""" % (n, nav, count, sec, "".join(prev_next), rail(items)) + foot()
+        write(ROOT / pg, page_html)
     return pages, passages, sections
 
 
@@ -440,7 +471,8 @@ def build_home(items, sections):
     cards = []
     for n, page in CHAPTER_PAGE.items():
         name = ACTS[n].split(". ", 1)[1]
-        secs = "".join('<li><a href="%s#%s">%s</a></li>' % (page, hid, html.escape(t)) for hid, t in sections[n])
+        secs = "".join('<li><a href="%s">%s</a></li>' % (section_page(n, k), html.escape(t))
+                       for k, (hid, t) in enumerate(sections[n]))
         cards.append("""<section class="ch-card ch-%d" aria-labelledby="ch%d-h">
   <p class="ch-n"><a href="%s">Chapter %d</a></p>
   <h2 id="ch%d-h"><a href="%s">%s</a></h2>
@@ -524,6 +556,8 @@ def build_sources(items):
 def build_about(pages):
     body = markdown.markdown((CONTENT / "about.md").read_text(encoding="utf-8"))
     body = re.sub(r'href="index\.html#([\w-]+)"', lambda m: 'href="%s#%s"' % (pages[m.group(1)][0], m.group(1)), body)
+    body = re.sub(r'href="chapter-([1-4])\.html#([\w-]+)"',
+                  lambda m: 'href="%s#%s"' % (next(pg for pg in pages[m.group(2)] if PAGE_CH[pg] == int(m.group(1))), m.group(2)), body)
     disagree = markdown.markdown((CONTENT / "disagree.md").read_text(encoding="utf-8"))
     body = body.replace("<!-- DISAGREE -->", disagree.replace("<ul>", '<ul class="disagree">'))
     lede = ("A history of the Savannah River Plant told from the record, with every source "
@@ -576,8 +610,8 @@ def build_timeline(tl, pages):
         # A heading such as "SRS and Ecology" appears in every chapter: pick
         # the chapter the event's date falls in.
         options = pages[e["anchor"]]
-        by_date = next((CHAPTER_PAGE[a] for a, y0, y1, _ in ACT_SPANS if y0 <= e["when"] < y1), options[0])
-        e["page"] = by_date if by_date in options else options[0]
+        ch = next((a for a, y0, y1, _ in ACT_SPANS if y0 <= e["when"] < y1), None)
+        e["page"] = next((pg for pg in options if PAGE_CH[pg] == ch), options[0])
     for r in tl["reactors"]:
         r["url"] = r.get("href") or refs[r["ref"]]
 
@@ -696,7 +730,7 @@ def build_timeline(tl, pages):
     return tl["events"]
 
 
-LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|timeline|chapter-[1-4])\.html(#[\w-]+)?$|^(style\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^img/[\w.-]+\.(png|jpg)$")
+LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(style\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^img/[\w.-]+\.(png|jpg)$")
 IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
 
 

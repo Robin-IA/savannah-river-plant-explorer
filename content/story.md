@@ -120,7 +120,7 @@ Cassels's *The Unexpected Exodus* (1971), the classic memoir of the leaving,
 is cataloged in Open Library, though it has no copy to read or borrow yet
 ([OL: Open Library][cassels]).
 
-### Building it
+### Building the Plant
 
 According to the Natural Resources Defense Council, construction began on
 reactors in 1951 (reactor R in June, P in July, L in October)
@@ -177,7 +177,7 @@ and design histories now on OSTI ([WB: OSTI 10159481][osti-construction];
 [WB: OSTI 10151705][osti-plantwide]). The company's administrative files
 are at the Hagley Museum and Library ([WB: DOE finding aid][ohre-admin]).
 
-### Running it
+### Running the Plant
 
 The 305-M test pile was the first reactor on the site to start up, in 1952,
 the year heavy-water production began in D Area ([WB: srs.gov
@@ -317,6 +317,16 @@ creeks such as Steel Creek ([IA: L-Reactor environmental impact statement, 1984]
 
 ### A plant that measured itself
 
+A new environmental movement changed the rules for the plant. The National
+Environmental Policy Act, signed in January 1970, required federal projects
+to study their effects on the environment in public impact statements
+([WB: *SRS at Fifty*, pp. 474–75](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=487)). In December 1970 a
+reorganization created the Environmental Protection Agency, which took over
+the federal journal that reprinted the plant's radiation monitoring
+([DL](https://archive.org/details/sim_radiation-data-and-reports_1971-02_12_2)).
+In December 1974 the EPA issued the plant its first water-discharge permit
+([WB: *SRS at Fifty*, pp. 480–81](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=493)).
+
 Through the 1970s the plant reported its releases. Du Pont's semiannual
 monitoring summaries were reprinted in the federal *Radiation Data and
 Reports*
@@ -331,8 +341,21 @@ Environmental Research Park ([WB: srs.gov 1970s][srs-1970]); see
 <figcaption>A health physicist makes a final radioactivity check on a shipping cask of californium-252 leaving the Savannah River Laboratory for Texaco&rsquo;s laboratory in Bellaire, Texas, about 1970. <span class="credit">US Department of Energy photograph HD.5A.047, public domain, via <a href="https://commons.wikimedia.org/wiki/File:HD.5A.047_(10348253655).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-The first on-site anti-nuclear protest came in 1979 ([WB: srs.gov
-1970s][srs-1970]).
+By the late 1970s many environmentalists had also turned against nuclear
+power. Near the plant their anger focused on two projects: a plant to recycle
+plutonium from power-reactor fuel at Barnwell, built on land cut from the
+site's eastern edge, and Georgia Power's planned nuclear plant at Waynesboro,
+Georgia ([WB: *SRS at Fifty*, pp. 482–83](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=495)).
+
+The Three Mile Island accident in Pennsylvania on March 28, 1979
+([DL](https://archive.org/details/micro_IA41152607_0930)) gave the movement
+new force. Small protests at Savannah River had come and gone through the
+decade; the largest came that year. About 1,500 people joined a three-day
+protest of seminars, marches and a concert by Graham Nash. It ended with 162
+arrests for trespassing at the plant, the Barnwell plant and a nearby
+radioactive-waste dump, 30 of them at Savannah River
+([WB: *SRS at Fifty*, p. 482](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=495)). The site dates its years of
+anti-nuclear protest from then ([WB: srs.gov 1970s][srs-1970]).
 
 Radioactive tritium was the plant's largest routine release, averaging more than half a
 million curies a year to the air in 1974–77 ([WB: OSTI
@@ -363,6 +386,10 @@ Pu-240 content of its product to blend with Hanford's ([WB: *SRS at Fifty*
 ch. 19][fifty-19]), and DOE moved to restart L reactor, idle since 1968, on
 an environmental assessment rather than a full impact statement ([WB: OSTI
 5060401][osti-l-ea]).
+
+The protests followed the buildup to the plant's gates. In late May 1982, 500
+to 700 people rallied near the plant for a freeze on nuclear weapons
+([IA: *Florida Flambeau*, June 3, 1982](https://archive.org/details/Florida_Flambeau_1982_June)).
 
 <figure class="fig">
 <img src="img/srp-glove-boxes-c1972.jpg" width="1400" height="1132" alt="A worker in white coveralls stands at a long row of steel glove boxes with round glove ports and windows." loading="lazy">

@@ -183,6 +183,15 @@ Added November 7, 2026; every item checked live that day.
 - **IA** `micro_IA40706946_0199`. *1993 Economic Report, The State of South Carolina*, SC Budget and Control Board, July 1993 (Statistical Reference Index microfiche). Westinghouse Savannah River, 23,000 workers, the state's largest manufacturing employer in 1992; federal cutbacks begun. Full text read. Verified 2026-11-07.
 - **DL** `redcockadedwoodp23unit`. USDA Forest Service, *Red-cockaded woodpecker research and management at the Savannah River site* (Forestry Report R8-FR 23, revised January 1994). Four birds in three colony sites in 1985; at DOE's request, artificial cavities and translocation. Full text read. Verified 2026-11-07.
 
+## 11. The environmental movement and the protests
+
+Added November 7, 2026.
+
+- **WB** https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=487. *SRS at Fifty*, pp. 474–75 and 480–83. NEPA signed January 1970; the EPA's first sanitary NPDES permit for the plant, December 1974; the Barnwell Nuclear Fuel Plant on 1,600 acres cut from the site's eastern edge; "scattered protests" through the 1970s; the 1979 three-day protest of about 1,500 people, with 162 trespass arrests, 30 at SRS. Text read. (Its statement that NEPA established the EPA is wrong; a reorganization plan did.) Verified 2026-11-07.
+- **DL** `sim_radiation-data-and-reports_1971-02_12_2`. *Radiological Health Data and Reports*, February 1971. Under Reorganization Plan No. 3 of 1970, effective December 2, 1970, the journal's work passed to the Environmental Protection Agency. Full text read. Verified 2026-11-07.
+- **DL** `micro_IA41152607_0930`. NRC, NUREG-0683 Supplement 2, on the cleanup of the March 28, 1979, accident at Three Mile Island Unit 2. Full text read. Verified 2026-11-07.
+- **IA** `Florida_Flambeau_1982_June`. *Florida Flambeau*, June 3, 1982, p. 5: "Freeze advocates meet a frosty reception at bomb site", 500–700 protesters in Aiken. Full text read. Verified 2026-11-07.
+
 ## Key facts (each with its source)
 
 - 1972: SRP becomes the first National Environmental Research Park. Source: srs.gov 1970s timeline (WB 20251028103524).

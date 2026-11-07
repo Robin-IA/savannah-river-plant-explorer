@@ -21,7 +21,7 @@
 <p>The plant&rsquo;s history has been argued over from the start, and the story sets out each argument with its sources rather than settling it:</p>
 <ul class="controversies">
   <li><strong>The land.</strong> Whole towns, Ellenton and Dunbarton among them, were moved off the site from 1951. Most of the farms were worked by tenants, most of the farm workforce was African American, and the count of people displaced is still disputed. <a href="index.html#the-towns-inside-the-fence">Read it in the story</a>.</li>
-  <li><strong>Who got hired.</strong> A 1951 House inquiry found that jobs went through the building-trades unions, turning applicants away at the gate, and the National Urban League recorded Black workers kept out of the skilled trades. <a href="index.html#building-it">Read it in the story</a>.</li>
+  <li><strong>Who got hired.</strong> A 1951 House inquiry found that jobs went through the building-trades unions, turning applicants away at the gate, and the National Urban League recorded Black workers kept out of the skilled trades. <a href="index.html#building-the-plant">Read it in the story</a>.</li>
   <li><strong>What the plant released early on.</strong> The CDC&rsquo;s dose reconstruction found 1950s iodine releases about four times what the site reported; a 1955 contamination blamed on Nevada fallout was later argued to be a reactor accident; workers from 1953 to 1972 were eventually compensated without individual dose reconstruction. <a href="index.html#what-it-released">Read it in the story</a>.</li>
   <li><strong>Restarting L reactor.</strong> In the 1980s buildup DOE moved to restart L reactor on an environmental assessment; the Natural Resources Defense Council sued, and in 1983 a court ruled that a full impact statement was needed, though it did not stop the restart. <a href="index.html#l-reactor-comes-back">Read it in the story</a>.</li>
   <li><strong>Groundwater and the state.</strong> Seepage basins contaminated the groundwater, including employees&rsquo; drinking-water wells, and the state regulator said the plant was at first reluctant to accept its authority. <a href="index.html#under-the-ground">Read it in the story</a>.</li>
@@ -47,7 +47,7 @@
 <h2>Words used in this story</h2>
 <p>The <a href="glossary.html">Glossary</a> explains the technical words, agencies and places in plain English.</p>
 
-<h2>Where the sources disagree</h2>
+<h2 id="where-the-sources-disagree">Where the sources disagree</h2>
 <p>Where sources disagree, the story gives each version with its source rather than choosing. These are the disagreements.</p>
 <!-- DISAGREE -->
 

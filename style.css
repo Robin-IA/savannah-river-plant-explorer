@@ -128,6 +128,7 @@ a.cite .tag { margin-right: 3px; }
 .ch-list summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 .chapter-1 .ch-list li.ch-1 summary, .chapter-2 .ch-list li.ch-2 summary, .chapter-3 .ch-list li.ch-3 summary, .chapter-4 .ch-list li.ch-4 summary { color: var(--link); }
 .ch-list a[aria-current="page"] { font-weight: 700; }
+.sec-count { margin: 0 0 4px; color: var(--muted); font-family: var(--font); font-size: 0.875rem; }
 .ch-list .ch-n { display: block; font: 700 .72rem/1.2 var(--font); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
 .ch-list ul { list-style: none; margin: 8px 0 4px; padding: 0 0 0 4px; }
 .ch-list ul li { margin: 0 0 6px; font-size: .86rem; }
@@ -315,11 +316,14 @@ table.reactors th[scope=row] { font-weight: 700; width: 5em; }
   .rail { position: static; grid-column: 1 / -1; grid-row: auto; display: grid; grid-template-columns: 1fr 1fr; gap: 0 28px; }
   .rail > * { grid-column: 1; }
   .rail .holder-chart, .rail .card { grid-column: 2; }
+  /* keep the panel beside the sticky chapter menu, not under it */
+  .cols > .rail { grid-column: 2; }
 }
 @media (max-width: 860px) {
   .cols, .sources-top, .results-cols, .tl-lists, .tl-reactors, .chapters, .prev-next { grid-template-columns: minmax(0, 1fr); }
   .pn.next { grid-column: 1; text-align: left; }
   .rail { display: block; }
+  .cols > .rail { grid-column: 1; }
   .toc { position: static; max-height: none; margin-bottom: 8px; }
   .search-row { flex-direction: column; }
   .search button { padding: 10px; }
