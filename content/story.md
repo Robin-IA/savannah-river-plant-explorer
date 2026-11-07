@@ -643,7 +643,7 @@ no excess among children, more leukemia at ages 20 to 39 and slightly more
 lung cancer in older adults, and said it did not show cancer excesses tied to
 the plant ([DL](https://archive.org/details/cancerinpopulati00jabl_1); [DL](https://archive.org/details/cancerinpopulati00jabl_0)).
 
-### Protests
+### An Emerging Environmental Movement Impacts SRS
 
 A new environmental movement changed the rules for the plant. The National
 Environmental Policy Act, signed in January 1970, required federal projects
