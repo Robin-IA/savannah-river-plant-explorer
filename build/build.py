@@ -166,7 +166,7 @@ def sources(path, act):
 # Page furniture shared by every page.
 
 PAGES = (("index.html", "Story"), ("timeline.html", "Timeline"),
-         ("sources.html", "Sources"), ("glossary.html", "Glossary"), ("about.html", "About"))
+         ("sources.html", "Sources"), ("glossary.html", "Glossary"), ("search.html", "Search"), ("about.html", "About"))
 ACT_SPANS = ((1, 1950, 1970, "Building the Bomb Plant"),
              (2, 1970, 1992.5, "The Reactors Under Scrutiny"),
              (3, 1992.5, 2020.5, "After the Bombs"),
@@ -386,6 +386,7 @@ def rail(items):
   %s
   <a class="card" href="timeline.html"><strong>Timeline</strong><span>Seventy-six years in one view: the reactors, the people moved, the oversight and the cleanup.</span></a>
   <a class="card" href="sources.html"><strong>All %d sources</strong><span>Filter by holder, chapter and word.</span></a>
+  <a class="card" href="atomic-history-savannah-river-plant.pdf" download><strong>Download the story</strong><span>All four chapters as one PDF, with images and citations.</span></a>
 </aside>""" % (holder_index(items), holder_chart(items), len(items))
 
 
@@ -487,15 +488,7 @@ def build_home(items, sections):
 </section>""" % (n, n, page, n, n, page, html.escape(name), html.escape(CHAPTER_BLURB[n]), page, n, n, secs, counts[n], n))
     lede = html.escape(DESCRIPTION)
     start = '<p class="start"><a class="read big" href="chapter-1.html">Start reading: Chapter 1<span aria-hidden="true"> →</span></a></p>'
-    page = head(TITLE, "index.html", TITLE, lede, start + SEARCH_FORM % len(items), big=True) + """<section id="results" class="wrap results" aria-labelledby="results-h" hidden>
-  <div class="results-head"><h2 id="results-h">Search Results</h2><button type="button" id="results-close">Clear search</button></div>
-  <p id="results-count" role="status" aria-live="polite"></p>
-  <div class="results-cols">
-    <section aria-labelledby="rs-story"><h3 id="rs-story">In the Story</h3><ol id="results-story"></ol></section>
-    <section aria-labelledby="rs-time"><h3 id="rs-time">On the Timeline</h3><ol id="results-time"></ol></section>
-  </div>
-</section>
-<main id="main" class="wrap home">
+    page = head(TITLE, "index.html", TITLE, lede, start + SEARCH_FORM % len(items), big=True) + RESULTS % " hidden" + """<main id="main" class="wrap home">
 <div class="home-cols">
 <div class="chapters">
 %s
@@ -505,6 +498,71 @@ def build_home(items, sections):
 </main>
 """ % ("\n".join(cards), rail(items)) + foot(["search.js"])
     write(ROOT / "index.html", page)
+
+
+RESULTS = """<section id="results" class="wrap results" aria-labelledby="results-h"%s>
+  <div class="results-head"><h2 id="results-h">Search Results</h2><button type="button" id="results-close">Clear search</button></div>
+  <p id="results-count" role="status" aria-live="polite"></p>
+  <div class="results-cols">
+    <section aria-labelledby="rs-story"><h3 id="rs-story">In the Story</h3><ol id="results-story"></ol></section>
+    <section aria-labelledby="rs-time"><h3 id="rs-time">On the Timeline</h3><ol id="results-time"></ol></section>
+  </div>
+</section>
+"""
+
+
+def build_search(items):
+    """A search page of its own, reachable from the menu on every page."""
+    lede = "Search the four chapters, the timeline and the %d sources." % len(items)
+    page = head("Search \u00b7 " + TITLE, "search.html", "Search", lede,
+                SEARCH_FORM.replace('action="sources.html"', 'action="search.html"') % len(items)) + \
+        RESULTS % " hidden" + \
+        '<main id="main" class="wrap about"><p>Type a word or a name, such as Ellenton, tritium or MOX. ' \
+        'Results show matching passages in the story, events on the timeline and sources.</p></main>\n' + \
+        foot(["search.js"])
+    write(ROOT / "search.html", page)
+
+
+PDF_NAME = "atomic-history-savannah-river-plant.pdf"
+
+
+def build_print(items):
+    """The whole story on one page, for printing and for the downloadable PDF
+    (build/make_pdf.py). Links point to the live explorer."""
+    chapters, defs = story_chapters()
+    live = "https://robin-ia.github.io/savannah-river-plant-explorer/"
+    parts, toc = [], []
+    for n, title, md_text in chapters:
+        md = markdown.Markdown(extensions=["tables", "toc"], extension_configs={"toc": {"toc_depth": "2-2"}})
+        body = tag_links(md.convert(md_text + "\n\n" + defs))
+        body = re.sub(r"<hr />\s*", "", body)
+        body = re.sub(r'href="#([\w-]+)"', lambda m: 'href="#c%d-%s"' % (n, m.group(1)), body)
+        body = re.sub(r'<h2 id="([^"]+)">', lambda m: '<h2 id="c%d-%s">' % (n, m.group(1)), body)
+        body = re.sub(r'href="(chapter-[1-4]\.html)#([\w-]+)"',
+                      lambda m: 'href="#c%s-%s"' % (m.group(1)[8], m.group(2)), body)
+        body = re.sub(r'href="(?!https?:|mailto:|#)([^"]+)"', lambda m: 'href="%s%s"' % (live, m.group(1)), body)
+        body = re.sub(r'src="img/', 'src="img/', body)
+        parts.append('<section class="print-chapter"><h1 id="chapter-%d">Chapter %d. %s</h1>\n%s</section>'
+                     % (n, n, html.escape(title), body))
+        toc.append('<li><a href="#chapter-%d">Chapter %d. %s</a></li>' % (n, n, html.escape(title)))
+    page = """<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<title>%s</title>
+<link rel="stylesheet" href="%s"><link rel="stylesheet" href="%s">
+</head><body class="print-book">
+<section class="print-title">
+<h1>%s</h1>
+<p class="print-lede">%s</p>
+<p>Every citation is tagged with where its source is held: <strong>DL</strong> Democracy's Library, <strong>WB</strong> the Wayback Machine, <strong>IA</strong> the Internet Archive, <strong>OL</strong> Open Library, <strong>EXT</strong> held elsewhere.</p>
+<p>The full list of %d sources, the timeline and the glossary are online at <a href="%s">%s</a>.</p>
+<p>Made by Robin Fay, Democracy's Library.</p>
+<h2>Contents</h2><ol class="print-toc">%s</ol>
+</section>
+%s
+</body></html>
+""" % (html.escape(TITLE), asset("style.css"), asset("print.css"), html.escape(TITLE), html.escape(DESCRIPTION),
+        len(items), live, live, "".join(toc), "\n".join(parts))
+    write(ROOT / "story-print.html", page)
 
 
 def build_sources(items):
@@ -571,10 +629,19 @@ def build_about(pages):
     write(ROOT / "about.html", page)
 
 
+SOURCE_COUNT = [0]
+
+
+def site_search():
+    """The home page's search box, for other pages: it sends the reader to
+    the home page, which shows results for ?q= when it loads."""
+    return SEARCH_FORM.replace('action="sources.html"', 'action="search.html"') % SOURCE_COUNT[0]
+
+
 def build_glossary():
     body = (CONTENT / "glossary.md").read_text(encoding="utf-8")
     lede = "The technical words, agencies and places in the story."
-    page = head("Glossary · " + TITLE, "glossary.html", "Glossary", lede) + \
+    page = head("Glossary · " + TITLE, "glossary.html", "Glossary", lede, site_search()) + \
         '<main id="main" class="wrap about">\n%s\n</main>\n' % body + foot()
     write(ROOT / "glossary.html", page)
 
@@ -710,7 +777,7 @@ def build_timeline(tl, pages):
     lede = ("From the land taken in 1950 to the tanks still being emptied: %d events from the story, "
             "and the five production reactors' working lives. Click on a shape to read it in the story."
             % len(tl["events"]))
-    page = head("Timeline · " + TITLE, "timeline.html", "Timeline", lede) + """<main id="main" class="wrap">
+    page = head("Timeline · " + TITLE, "timeline.html", "Timeline", lede, site_search()) + """<main id="main" class="wrap">
 <div class="tl-controls" role="group" aria-label="Show events whose source is held in">
   <span class="tl-controls-label">Show sources held in</span>%s
 </div>
@@ -734,7 +801,7 @@ def build_timeline(tl, pages):
     return tl["events"]
 
 
-LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(style\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^img/[\w.-]+\.(png|jpg)$")
+LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|search|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(style\.css|print\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^atomic-history-savannah-river-plant\.pdf$|^img/[\w.-]+\.(png|jpg)$")
 IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
 
 
@@ -779,6 +846,7 @@ def main():
     build_home(items, sections)
     write(ROOT / "data" / "passages.json",
           json.dumps(passages, ensure_ascii=False, separators=(",", ":")))
+    SOURCE_COUNT[0] = len(items)
     events = build_timeline(tl, pages)
     write(ROOT / "data" / "timeline.json", json.dumps(
         [{k: e[k] for k in ("i", "date", "text", "tag", "page", "anchor")} for e in events],
@@ -786,6 +854,8 @@ def main():
     build_sources(items)
     build_about(pages)
     build_glossary()
+    build_search(items)
+    build_print(items)
     by = {}
     for s in items:
         by[(s["act"], s["tag"])] = by.get((s["act"], s["tag"]), 0) + 1

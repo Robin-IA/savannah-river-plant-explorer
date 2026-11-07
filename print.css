@@ -1,0 +1,16 @@
+/* The whole story on one page, for printing and for the downloadable PDF. */
+.print-book { background: #fff; color: #1f2328; font: 11pt/1.55 Georgia, "Times New Roman", serif; max-width: 46rem; margin: 0 auto; padding: 0 1rem; }
+.print-book a { color: #1a5c96; }
+.print-title { page-break-after: always; padding-top: 2rem; }
+.print-title h1 { font: 700 2rem/1.15 Georgia, serif; margin: 0 0 1rem; }
+.print-lede { font-size: 1.1rem; }
+.print-toc li { margin: .3rem 0; }
+.print-chapter { page-break-before: always; }
+.print-chapter > h1 { font: 700 1.6rem/1.2 Georgia, serif; margin: 0 0 1rem; }
+.print-chapter h2 { font: 700 1.2rem/1.3 Georgia, serif; margin: 1.6rem 0 .4rem; page-break-after: avoid; }
+.print-book p { margin: 0 0 .8rem; orphans: 3; widows: 3; }
+.print-book figure { margin: 1rem 0; page-break-inside: avoid; }
+.print-book figure img { display: block; max-width: 100%; max-height: 7in; height: auto; width: auto; margin: 0 auto; }
+.print-book figcaption { font: .82rem/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif; margin-top: .4rem; }
+.print-book .tag { font-size: .7rem; padding: 0 .25rem; }
+@page { size: Letter; margin: 0.8in 0.75in; }
