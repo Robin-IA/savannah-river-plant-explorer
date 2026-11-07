@@ -113,10 +113,10 @@ is cataloged in Open Library, though it has no copy to read or borrow yet
 
 ### Building it
 
-Construction began in 1951 — the R reactor in June, P in July, L in October,
-by the Natural Resources Defense Council's count
+According to the Natural Resources Defense Council, construction began on
+reactors in 1951 (reactor R in June, P in July, L in October)
 ([IA](https://archive.org/details/usnuclearwarhead0002unse)). The Bureau of
-Labor Statistics followed the work force in a four-part study in 1952
+Labor Statistics followed the work force in a 1952 study
 ([IA: part I](https://archive.org/details/sim_monthly-labor-review_1952-06_74_6)).
 It records Black tenant farmers arriving in Augusta looking for jobs in May
 1951, and an NAACP meeting in Aiken that September charging Du Pont over its
