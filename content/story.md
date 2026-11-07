@@ -140,10 +140,10 @@ construction, with about 25,000 other workers honoring the line
 The same system kept Black workers out of the skilled trades. The National
 Urban League's field notes, filed with the Barden hearings, record that it
 pressed Du Pont in August 1951 over its failure to hire Black electricians,
-mechanics, plumbers, welders and ironworkers, and that company officials
-replied they would use no source but the unions while the unions could
-supply the labor, and would give no figures for Black employment beyond
-carpenters ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_november-5-9-1951_13)). When Truman created a committee on government
+mechanics, plumbers, welders and ironworkers. Company officials replied that
+as long as the unions could supply the workers, they would hire from no other
+source. Apart from 116 Black carpenters, they would not say how many Black
+workers they employed ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_november-5-9-1951_13)). When Truman created a committee on government
 contract compliance that December, *Jet* expected the Savannah River
 contractors to be among its first targets
 ([IA](https://archive.org/details/sim_jet_1951-12-13_1_7)).
