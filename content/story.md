@@ -385,18 +385,7 @@ to know more, and the plant came under scrutiny, as
 
 ## Chapter 2. The reactors under scrutiny, 1970–1992
 
-### A plant that measured itself
-
-A new environmental movement changed the rules for the plant. The National
-Environmental Policy Act, signed in January 1970, required federal projects
-to study their effects on the environment in public impact statements
-([WB: *SRS at Fifty*, pp. 474–75](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=487)). In December 1970 a
-reorganization created the Environmental Protection Agency, which took over
-the federal journal that reprinted the plant's radiation monitoring
-([DL](https://archive.org/details/sim_radiation-data-and-reports_1971-02_12_2)).
-In December 1974 the EPA issued the plant its first water-discharge permit
-([WB: *SRS at Fifty*, pp. 480–81](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=493)). The same movement brought protesters to the plant
-later in the decade ([Protests](#protests)).
+### Radioactivity and Community Safety
 
 Through the 1970s the plant reported its releases. Du Pont's semiannual
 monitoring summaries were reprinted in the federal *Radiation Data and
@@ -618,6 +607,16 @@ and noted that federal cutbacks had begun
 ([IA: South Carolina Economic Report, 1993](https://archive.org/details/micro_IA40706946_0199)).
 
 ### Protests
+
+A new environmental movement changed the rules for the plant. The National
+Environmental Policy Act, signed in January 1970, required federal projects
+to study their effects on the environment in public impact statements
+([WB: *SRS at Fifty*, pp. 474–75](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=487)). In December 1970 a
+reorganization created the Environmental Protection Agency, which took over
+the federal journal that reprinted the plant's radiation monitoring
+([DL](https://archive.org/details/sim_radiation-data-and-reports_1971-02_12_2)).
+In December 1974 the EPA issued the plant its first water-discharge permit
+([WB: *SRS at Fifty*, pp. 480–81](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=493)).
 
 By the late 1970s many environmentalists had also turned against nuclear
 power. Near the plant their anger focused on two projects: a plant to recycle
