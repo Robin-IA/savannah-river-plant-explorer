@@ -53,37 +53,20 @@ and, by wire, in papers as far away as Victoria, British Columbia
 
 ### The towns inside the fence
 
-The land was not empty. Ellenton, with about 600 people, and Dunbarton, with
-231, stood inside the boundary. The area also held smaller communities,
-among them Meyers Mill, Hawthorne, Robbins, Leigh and Hattieville. Du Pont
-moved the boundary to leave out two others, Jackson and Snelling
-([WB: ch. 7][fifty-7]). Most of the farms were worked by tenants, and most of
-the agricultural workforce was African American ([WB: ch. 7][fifty-7]).
+The land was not empty. It held small, rural farming communities. Most of
+the farms were worked by tenants, and most of the farm workers were African
+American ([WB: ch. 7][fifty-7]). The largest town, Ellenton, had about 600 people; it
+began as a railroad station in 1873, so it was nearly 80 years old
+([WB: ch. 7][fifty-7]; [WB: SRARP, 1996][srarp-ellenton-1]). Dunbarton, with
+231 people, was a railroad town incorporated in 1910
+([WB: ch. 7][fifty-7]; [WB: SRARP, 1993][srarp-dunbarton-2]).
 
-Ellenton was nearly 80 years old when it was taken. It began in 1873 as a
-railroad station on the Dunbar family's land, named for nine-year-old Ellen
-Dunbar, and was incorporated in 1880. Its post office closed on February 29,
-1952, after 79 years ([WB: SRARP, 1996][srarp-ellenton-1]).
-
-It was a local trading center rather than a rich town. Its merchants grew
-from 2 in 1873 to 56 in 1950. One family, the Cassels, ran its power plant,
-telephone company and bank ([WB: SRARP, 1996][srarp-ellenton-4]). The bank
-failed in the Depression, in 1931 ([WB: SRARP][srarp-ellenton-1]). Louise
-Cassels later wrote that in 1950 the town wanted anything that would "spur
-their lagging economy" ([WB: ch. 7][fifty-7]).
-
-Ellenton also had a violent past. In September 1876, during Reconstruction,
-an alleged assault on a white woman led armed white rifle clubs from across
-the region to march on the area. They faced Black militia units until federal
-troops arrived. Six to seven hundred white men were arrested and charged with
-murder or conspiracy, but none was tried ([WB: SRARP][srarp-ellenton-1]).
-Congress took testimony the next year, printed under the heading "Ellenton
-Massacre" ([IA: Senate testimony, 1877](https://archive.org/details/southcarolinain101phil)).
-
-Dunbarton grew up around its railroad depot in the 1800s and was incorporated
-in 1910 ([WB: SRARP, 1993][srarp-dunbarton-2]). Meyers Mill had stores and a
-cotton gin, and Leigh had a banana-crate factory that employed about 300
-people in 1950 ([WB: ch. 7][fifty-7]).
+Smaller settlements, among them Meyers Mill, Hawthorne, Robbins, Leigh and
+Hattieville, were mostly stops on the railroad. Du Pont moved the boundary to
+leave out two others, Jackson and Snelling ([WB: ch. 7][fifty-7]). Ellenton
+had a violent past: in 1876, during Reconstruction, armed white rifle clubs
+marched on Black militia there in what became known as the Ellenton riot
+([WB: SRARP][srarp-ellenton-1]).
 
 How many people were moved depends on who is counting. The first press
 release spoke of about 1,500 families; early reports said up to 8,000
@@ -1147,7 +1130,6 @@ copies.
 [doe-gopher-2021]: https://web.archive.org/web/20260706014316/https://www.energy.gov/nepa/articles/cx-024954-wetland-restoration-and-gopher-frog-conservation-srel
 [doe-turtles-2023]: https://web.archive.org/web/20260704213552/https://www.energy.gov/em/articles/turtles-find-forever-home-savannah-river-site
 [srarp-ellenton-1]: https://web.archive.org/web/20150920145035/http://www.srarp.org/pdf_documents/Memories%20of%20Home/Ellenton/01_Chapter1-2.pdf
-[srarp-ellenton-4]: https://web.archive.org/web/20150920213514/http://www.srarp.org/pdf_documents/Memories%20of%20Home/Ellenton/04_Chapter4-1.pdf
 [srarp-dunbarton-2]: https://web.archive.org/web/20150920154751/http://www.srarp.org/pdf_documents/Memories%20of%20Home/Dunbarton%20and%20Meyers%20Mill/02_Chapter2.pdf
 [fifty-13]: https://web.archive.org/web/20070928081926/http://www.srs.gov/general/about/50anniv/Chapter%2013.pdf
 [nobel-1995]: https://web.archive.org/web/20261012201937/https://www.nobelprize.org/prizes/physics/1995/press-release/
