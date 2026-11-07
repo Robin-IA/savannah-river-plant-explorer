@@ -600,6 +600,39 @@ Added November 6, 2026, from a second research pass; every item was checked live
    - The same group, 1991 to 1993. Text read.
    - Verified 2026-11-06.
 
+## 12. Health of workers, neighbors and the river
+
+Added November 7, 2026; every item checked live that day.
+
+118. **WB**: https://web.archive.org/web/20251228152048/https://www.osti.gov/servlets/purl/803389
+   - Brown, Crase and Singh (Westinghouse Savannah River Co. and DOE), *Summary of Epidemiology Studies … Involving Workers at the Savannah River Site or the Surrounding Public: An Update*, ESH-WHS-2002-00005, October 18, 2002. A site-contractor source.
+   - The 1995 Oak Ridge (Cragle) worker study; the MUSC cancer and birth-defects registry, 1991–1995, and its officials' finding of no indication of a link to the site. PDF read.
+   - Verified 2026-11-07.
+119. **WB**: https://web.archive.org/web/20120518011321/http://www.cdc.gov/niosh/oerp/savannah-mortality/
+   - NIOSH, *Savannah River Site Mortality Study*, last updated March 31, 2011.
+   - 18,883 workers hired 1950–1986; leukemia risk rising with dose; excess pleural cancer (Richardson and Wing, 2007). Page read.
+   - Verified 2026-11-07.
+120. **WB**: https://web.archive.org/web/20260726082358/https://www.cdc.gov/niosh/ocas/pdfs/pers/oc-per19-r0.pdf
+   - NIOSH OCAS-PER-019, *The Effect of Additional Neutron Dose Data from the Savannah River Site*, May 18, 2007.
+   - Neutron dosimetry not sent for some claims; affected claims re-evaluated. PDF read.
+   - Verified 2026-11-07.
+121. **WB**: https://web.archive.org/web/20260118133056/https://www.cdc.gov/niosh/ocas/srs.html
+   - NIOSH, Savannah River Site dose reconstruction page, captured January 18, 2026.
+   - Petition 103, received November 19, 2007, covering 1950–2007; the site's SEC classes came from it. Page read.
+   - Verified 2026-11-07.
+122. **WB**: https://web.archive.org/web/20260129120011/https://www.atsdr.cdc.gov/HAC/pha/SavannahRiverSite121707/SavannahRiverSiteFinalPHA121707.pdf
+   - ATSDR public health assessment, *Evaluation of Off-Site Groundwater and Surface Water Contamination at the Savannah River Site*, December 17, 2007.
+   - 'No apparent public health hazard'; the CDC Health Effects Subcommittee's final meeting on September 15, 2005. PDF read.
+   - Verified 2026-11-07.
+123. **WB**: https://web.archive.org/web/20241207084609/http://archive.bredl.org/pdf3/FINAL_CIF_Report.pdf
+   - Radiation and Public Health Project (Mangano), *Assessing Changes in Environmental Radioactivity and Health Near the Savannah River Site*, February 22, 2012. Advocacy.
+   - 46 of 48 radiation-sensitive measures in Allendale, Aiken, Barnwell, Burke and Richmond counties rising faster than U.S. rates. PDF read.
+   - Verified 2026-11-07.
+124. **WB**: https://web.archive.org/web/20260520170910/https://www.atsdr.cdc.gov/HAC/pha/SavannahRiverSite/SavannahRiverSitePHAFInal02292012.pdf
+   - ATSDR public health assessment, *Evaluation of Exposures to Contaminants in Biota Originating from the Savannah River Site*, February 29, 2012.
+   - No harmful radiation from local crops, livestock or game; mercury risk from heavy eating of bass, bowfin and catfish; the site's share of mercury 'is not known'; the 1997 survey of 258 people fishing the river; fishing on the site barred. PDF read.
+   - Verified 2026-11-07.
+
 ## Key facts (each with its source)
 
 **Turn to cleanup**

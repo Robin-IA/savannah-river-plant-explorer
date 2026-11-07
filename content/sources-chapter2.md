@@ -169,6 +169,13 @@ Added November 6, 2026, from a second research pass; every item was checked live
 - **WB** https://web.archive.org/web/20261107182425/https://www.osti.gov/biblio/10192315. *CERCLA interim action at the Par Pond unit*, WSRC-MS-93-371, 1993-11. More than 1,300 acres of contaminated sediment; CERCLA interim action. Abstract read. Verified 2026-11-06. Wayback capture of https://www.osti.gov/biblio/10192315 (held by OSTI).
 - **WB** https://web.archive.org/web/20061022015436/http://www.cdc.gov/nceh/radiation/savannah/default.htm. CDC, Savannah River Site dose reconstruction project page, 2006. Shows CDC ran the later dose reconstruction. Verified 2026-11-06.
 
+## 9. Health of the neighbors
+
+Added November 7, 2026; every item checked live that day.
+
+- **DL** `cancerinpopulati00jabl_1`. Jablon et al., *Cancer in Populations Living Near Nuclear Facilities*, vol. 1, NIH Publication 90-874, July 1990. fedlink. Study counties Aiken, Barnwell and Burke; no excess under age 20; leukemia higher at ages 20 to 39; "did not demonstrate cancer excesses associated with" the site. Full text read. Verified 2026-11-07.
+- **DL** `cancerinpopulati00jabl_0`. The same survey, vol. 2 (individual facilities), July 1990. fedlink. Verified 2026-11-07.
+
 ## Key facts (each with its source)
 
 - 1972: SRP becomes the first National Environmental Research Park. Source: srs.gov 1970s timeline (WB 20251028103524).

@@ -327,6 +327,15 @@
       "section": "Plant to Site"
     },
     {
+      "when": 1990.54,
+      "date": "Jul 1990",
+      "lane": "science",
+      "text": "NIH survey finds no cancer excess it can tie to the plant in Aiken, Barnwell and Burke counties",
+      "tag": "DL",
+      "href": "https://archive.org/details/cancerinpopulati00jabl_1",
+      "section": "Plant to Site"
+    },
+    {
       "when": 1991.5,
       "date": "Summer 1991",
       "lane": "cleanup",
@@ -438,6 +447,15 @@
       "section": "The laboratories"
     },
     {
+      "when": 2007.88,
+      "date": "Nov 19, 2007",
+      "lane": "oversight",
+      "text": "A petition asks to add all workers from 1950 to 2007 to the Special Exposure Cohort",
+      "tag": "WB",
+      "ref": "niosh-srs-2026",
+      "section": "Sick workers"
+    },
+    {
       "when": 2008.2,
       "date": "Mar 2008",
       "lane": "people",
@@ -464,6 +482,15 @@
       "tag": "WB",
       "ref": "niosh-srs",
       "section": "What it released"
+    },
+    {
+      "when": 2012.16,
+      "date": "Feb 29, 2012",
+      "lane": "science",
+      "text": "ATSDR warns that heavy eating of river bass, bowfin and catfish may raise mercury risks",
+      "tag": "WB",
+      "ref": "atsdr-2012",
+      "section": "The neighbors and the river"
     },
     {
       "when": 2014.5,
@@ -574,6 +601,15 @@
       "tag": "WB",
       "ref": "dnfsb-2023",
       "section": "Making pits again"
+    },
+    {
+      "when": 2024.28,
+      "date": "Apr 2024",
+      "lane": "people",
+      "text": "Compensation and medical payments to the site's sick workers pass $2.2 billion",
+      "tag": "WB",
+      "ref": "dol-2024",
+      "section": "Sick workers and the river today"
     },
     {
       "when": 2024.75,
