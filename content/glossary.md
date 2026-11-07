@@ -1,4 +1,4 @@
-<p>Words and names used in the story. Each definition says what the word means in this history; for the people and dates behind it, follow the story's links to its sources.</p>
+<p>Words and names used in the story.</p>
 
 <h2 id="the-plant">The Plant and How It Worked</h2>
 <dl class="glossary">
