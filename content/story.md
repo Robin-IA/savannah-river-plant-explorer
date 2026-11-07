@@ -26,9 +26,12 @@ rather than choosing.
 
 ### A site for the hydrogen bomb
 
-In June 1950, with war begun in Korea, the Atomic Energy Commission enlarged
-the job it was asking Du Pont to take on: three more heavy-water reactors,
-five in all ([WB: *SRS at Fifty* ch. 7][fifty-7]).
+In 1950 the Atomic Energy Commission was expanding the nation's production of
+material for nuclear weapons, and it asked the Du Pont company to build and
+run new reactors to make it. In June, with war begun in Korea, the order grew
+to five heavy-water reactors ([WB: *SRS at Fifty* ch. 7][fifty-7]). The
+project became the Savannah River Plant, renamed the Savannah River Site in
+1989 ([WB: srs.gov 1980s][srs-1980]).
 
 <figure class="fig tall">
 <img src="img/srs-map-2012.png" width="755" height="874" alt="Map of the Savannah River Site, shaded orange, on the South Carolina side of the Savannah River across from Georgia. Lettered operating areas are marked inside it, among them the reactor areas C, K, L, P and R, with L Lake and Par Pond. Around it are Jackson, New Ellenton, Aiken, North Augusta, Augusta, Williston, Snelling and Barnwell." loading="lazy">
@@ -805,7 +808,7 @@ show $271 million in compensation and medical bills by November 2008
 ([WB: Labor Department][dol-2008]), $1.02 billion by December 2016
 ([WB][dol-2016]) and $2.23 billion for 13,090 workers by April 2024
 ([WB][dol-2024]). The current page lists about $3.06 billion for about 15,400
-workers ([EXT: Labor Department][dol-now]).
+workers ([WB: Labor Department][dol-now]).
 
 South Carolina still advises people not to eat bowfin from the river below
 Stevens Creek, and notes that some fish contain radioactive cesium-137 and
@@ -969,7 +972,7 @@ copies.
 [dol-2008]: https://web.archive.org/web/20081104194912/http://www.dol.gov/esa/owcp/energy/regs/compliance/statistics/WebPages/SA_RIVER_SITE.htm
 [dol-2016]: https://web.archive.org/web/20161225200619/https://www.dol.gov/owcp/energy/regs/compliance/statistics/WebPages/SA_RIVER_SITE.htm
 [dol-2024]: https://web.archive.org/web/20240710091220/https://www.dol.gov/owcp/energy/regs/compliance/statistics/WebPages/SA_RIVER_SITE.htm
-[dol-now]: https://www.dol.gov/sites/dolgov/files/OWCP/Reports/statistics/WebPages/SA_RIVER_SITE.htm
+[dol-now]: https://web.archive.org/web/20261107193523/https://www.dol.gov/sites/dolgov/files/OWCP/Reports/statistics/WebPages/SA_RIVER_SITE.htm
 [sc-fish-2026]: https://web.archive.org/web/20260116091725/https://des.sc.gov/data-tools/fish-consumption-advisories/savannah-river-fish-consumption-advisory
 [ga-fish-2023]: https://web.archive.org/web/20260211161755/https://epd.georgia.gov/document/document/2023-fcg-bookletpdf/download
 [srs-dose-2024]: https://web.archive.org/web/20260116214000/https://www.srs.gov/general/pubs/ERsum/er24/docs/SRNL-STI-2025-00311.pdf

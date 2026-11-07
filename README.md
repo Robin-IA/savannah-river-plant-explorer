@@ -44,7 +44,7 @@ logos:
   holders. Wherever an outside page has a working Wayback capture, the
   capture is cited instead of the live page.
 - **Years covered:** 1950 to 2026.
-- **Size:** 400 sources: 60 DL, 208 WB, 115 IA, 3 OL, 1 AIT, 13 EXT. Counted
+- **Size:** 400 sources: 60 DL, 209 WB, 115 IA, 3 OL, 1 AIT, 12 EXT. Counted
   November 6, 2026.
 - **Not included:** sources still being sought, such as the rest of the
   *New York Times* 1988 series and the "thirty incidents" report, are tracked as
