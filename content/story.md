@@ -385,17 +385,7 @@ to know more, and the plant came under scrutiny, as
 
 ## Chapter 2. The reactors under scrutiny, 1970–1992
 
-### A plant that measured itself
-
-A new environmental movement changed the rules for the plant. The National
-Environmental Policy Act, signed in January 1970, required federal projects
-to study their effects on the environment in public impact statements
-([WB: *SRS at Fifty*, pp. 474–75](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=487)). In December 1970 a
-reorganization created the Environmental Protection Agency, which took over
-the federal journal that reprinted the plant's radiation monitoring
-([DL](https://archive.org/details/sim_radiation-data-and-reports_1971-02_12_2)).
-In December 1974 the EPA issued the plant its first water-discharge permit
-([WB: *SRS at Fifty*, pp. 480–81](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=493)).
+### Radioactivity and Community Safety
 
 Through the 1970s the plant reported its releases. Du Pont's semiannual
 monitoring summaries were reprinted in the federal *Radiation Data and
@@ -410,22 +400,6 @@ Environmental Research Park ([WB: srs.gov 1970s][srs-1970]); see
 <img src="img/srl-californium-cask-c1970.jpg" width="1400" height="1136" alt="Three men around a large spherical shipping cask on a flatbed truck marked Radioactive; the man standing on the truck holds a radiation meter against the cask." loading="lazy">
 <figcaption>A health physicist makes a final radioactivity check on a shipping cask of californium-252 leaving the Savannah River Laboratory for Texaco&rsquo;s laboratory in Bellaire, Texas, about 1970. <span class="credit">US Department of Energy photograph HD.5A.047, public domain, via <a href="https://commons.wikimedia.org/wiki/File:HD.5A.047_(10348253655).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
-
-By the late 1970s many environmentalists had also turned against nuclear
-power. Near the plant their anger focused on two projects: a plant to recycle
-plutonium from power-reactor fuel at Barnwell, built on land cut from the
-site's eastern edge, and Georgia Power's planned nuclear plant at Waynesboro,
-Georgia ([WB: *SRS at Fifty*, pp. 482–83](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=495)).
-
-The Three Mile Island accident in Pennsylvania on March 28, 1979
-([DL](https://archive.org/details/micro_IA41152607_0930)) gave the movement
-new force. Small protests at Savannah River had come and gone through the
-decade; the largest came that year. About 1,500 people joined a three-day
-protest of seminars, marches and a concert by Graham Nash. It ended with 162
-arrests for trespassing at the plant, the Barnwell plant and a nearby
-radioactive-waste dump, 30 of them at Savannah River
-([WB: *SRS at Fifty*, p. 482](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=495)). The site dates its years of
-anti-nuclear protest from then ([WB: srs.gov 1970s][srs-1970]).
 
 Radioactive tritium was the plant's largest routine release, averaging more than half a
 million curies a year to the air in 1974–77 ([WB: OSTI
@@ -456,10 +430,6 @@ Pu-240 content of its product to blend with Hanford's ([WB: *SRS at Fifty*
 ch. 19][fifty-19]), and DOE moved to restart L reactor, idle since 1968, on
 an environmental assessment rather than a full impact statement ([WB: OSTI
 5060401][osti-l-ea]).
-
-The protests followed the buildup to the plant's gates. In late May 1982, 500
-to 700 people rallied near the plant for a freeze on nuclear weapons
-([IA: *Florida Flambeau*, June 3, 1982](https://archive.org/details/Florida_Flambeau_1982_June)).
 
 <figure class="fig">
 <img src="img/srp-glove-boxes-c1972.jpg" width="1400" height="1132" alt="A worker in white coveralls stands at a long row of steel glove boxes with round glove ports and windows." loading="lazy">
@@ -635,6 +605,43 @@ DOE study said shutting the K, L and P reactors would cost about 9,600 jobs
 Savannah River, with 23,000 workers, as its largest manufacturing employer,
 and noted that federal cutbacks had begun
 ([IA: South Carolina Economic Report, 1993](https://archive.org/details/micro_IA40706946_0199)).
+
+### Protests
+
+A new environmental movement changed the rules for the plant. The National
+Environmental Policy Act, signed in January 1970, required federal projects
+to study their effects on the environment in public impact statements
+([WB: *SRS at Fifty*, pp. 474–75](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=487)). In December 1970 a
+reorganization created the Environmental Protection Agency, which took over
+the federal journal that reprinted the plant's radiation monitoring
+([DL](https://archive.org/details/sim_radiation-data-and-reports_1971-02_12_2)).
+In December 1974 the EPA issued the plant its first water-discharge permit
+([WB: *SRS at Fifty*, pp. 480–81](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=493)).
+
+By the late 1970s many environmentalists had also turned against nuclear
+power. Near the plant their anger focused on two projects: a plant to recycle
+plutonium from power-reactor fuel at Barnwell, built on land cut from the
+site's eastern edge, and Georgia Power's planned nuclear plant at Waynesboro,
+Georgia ([WB: *SRS at Fifty*, pp. 482–83](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=495)).
+
+The Three Mile Island accident in Pennsylvania on March 28, 1979
+([DL](https://archive.org/details/micro_IA41152607_0930)) gave the movement
+new force. Small protests at Savannah River had come and gone through the
+decade; the largest came that year. About 1,500 people joined a three-day
+protest of seminars, marches and a concert by Graham Nash. It ended with 162
+arrests for trespassing at the plant, the Barnwell plant and a nearby
+radioactive-waste dump, 30 of them at Savannah River
+([WB: *SRS at Fifty*, p. 482](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=495)). The site dates its years of
+anti-nuclear protest from then ([WB: srs.gov 1970s][srs-1970]).
+
+The Reagan-era buildup brought the protests to the plant's gates. In late May 1982, 500
+to 700 people rallied near the plant for a freeze on nuclear weapons
+([IA: *Florida Flambeau*, June 3, 1982](https://archive.org/details/Florida_Flambeau_1982_June)).
+
+These protests ran alongside the official challenges told elsewhere in this
+chapter: the lawsuit over restarting L reactor
+([L-Reactor comes back](#l-reactor-comes-back)) and the investigations of
+1988 ([1987–1988: the reactors stop](#19871988-the-reactors-stop)).
 
 ### SRS and Ecology
 

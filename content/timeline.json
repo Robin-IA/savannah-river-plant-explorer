@@ -247,7 +247,7 @@
       "text": "Thermal ecology research on the reactors' cooling water begins",
       "tag": "WB",
       "ref": "esa-thermal",
-      "section": "A plant that measured itself"
+      "section": "Radioactivity and Community Safety"
     },
     {
       "when": 1972.5,
@@ -256,7 +256,7 @@
       "text": "The first National Environmental Research Park",
       "tag": "WB",
       "ref": "srs-1970",
-      "section": "A plant that measured itself",
+      "section": "Radioactivity and Community Safety",
       "label": "First research park"
     },
     {
@@ -266,17 +266,17 @@
       "text": "479,000 curies of radioactive tritium gas escape from a stack",
       "tag": "WB",
       "ref": "osti-1974",
-      "section": "A plant that measured itself",
+      "section": "Radioactivity and Community Safety",
       "label": "Tritium release"
     },
     {
       "when": 1979.5,
       "date": "1979",
       "lane": "oversight",
-      "text": "The first anti-nuclear protest on the site",
+      "text": "The decade's largest anti-nuclear protest: about 1,500 people, 30 arrested at the site",
       "tag": "WB",
-      "ref": "srs-1970",
-      "section": "A plant that measured itself"
+      "section": "Protests",
+      "href": "https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=495"
     },
     {
       "when": 1982.5,
