@@ -368,9 +368,13 @@ def chapter_nav(current, sections, here_page=None):
             pg = section_page(n, k)
             cur = ' aria-current="page"' if pg == here_page else ""
             links.append('<li><a href="%s"%s>%s</a></li>' % (pg, cur, html.escape(t)))
-        items.append('<li class="ch-%d"><details%s><summary><span class="ch-n">Chapter %d</span> %s</summary>'
+        # The chapter name goes to the chapter's first page; the small arrow
+        # beside it opens and closes the list of sections.
+        items.append('<li class="ch-%d"><a class="ch-link" href="%s"%s><span class="ch-n">Chapter %d</span> %s</a>'
+                     '<details%s><summary><span class="sr">Sections of Chapter %d</span></summary>'
                      '<ul>%s</ul></details></li>'
-                     % (n, " open" if n == current else "", n, html.escape(name), "".join(links)))
+                     % (n, CHAPTER_PAGE[n], ' aria-current="true"' if n == current else "", n, html.escape(name),
+                        " open" if n == current else "", n, "".join(links)))
     return ('<nav class="toc" aria-label="Chapters"><h2>Chapters</h2><ol class="ch-list">%s</ol></nav>'
             % "".join(items))
 

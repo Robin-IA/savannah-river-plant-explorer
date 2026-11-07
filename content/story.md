@@ -77,7 +77,7 @@ Ellenton stands on Highway 64 at Barnwell
 
 How many people were moved depends on who is counting. The first press
 release spoke of about 1,500 families; early reports said up to 8,000
-farmers; the AEC settled on 6,000 people in 1,500 families
+farmers; the AEC (Atomic Energy Commission) settled on 6,000 people in 1,500 families
 ([WB: ch. 8][fifty-8]). The Savannah River Archaeological Research Program
 later put it at about 5,000 ([WB: SRARP][srarp-towns]).
 
@@ -140,6 +140,8 @@ is cataloged in Open Library, though it has no copy to read or borrow yet
 <figcaption>Ellenton at its railroad crossing before the plant, and the same crossing about 2010. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_Ellenton_(5227763993).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
+*Follow this thread, the displaced towns.* Continues in [Chapter 3, The Plant's Museum](chapter-3.html#the-plants-museum).
+
 ### Building the Plant
 
 According to the Natural Resources Defense Council, construction began on
@@ -148,7 +150,7 @@ reactors in 1951 (reactor R in June, P in July, L in October)
 Labor Statistics followed the work force in a 1952 study
 ([IA: part I](https://archive.org/details/sim_monthly-labor-review_1952-06_74_6)).
 It records Black tenant farmers arriving in Augusta looking for jobs in May
-1951. At an NAACP meeting in Aiken that September, speakers accused Du Pont
+1951. At an NAACP (National Association for the Advancement of Colored People) meeting in Aiken that September, speakers accused Du Pont
 and an Augusta union of keeping Black workers out of skilled jobs, and said
 they had enough evidence to go to court.
 
@@ -163,7 +165,7 @@ charges that union membership had become a condition of work
 ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_november-5-9-1951_13)).
 
 Its report the next year found that Du Pont hired manual labor through a
-verbal understanding with the AFL building-trades unions, turning job
+verbal understanding with the AFL (American Federation of Labor) building-trades unions, turning job
 seekers away at the gate, and that Atomic Energy Commission officials had
 either approved or failed to find out
 ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1952_14)).
@@ -198,7 +200,7 @@ government-owned, contractor-operated plant was in law
 ([DL](https://archive.org/details/micro_IA40385001_0003)).
 
 Du Pont wrote its own record of all this, volume by volume, in construction
-and design histories now on OSTI ([WB: OSTI 10159481][osti-construction];
+and design histories now on OSTI (Office of Scientific and Technical Information) ([WB: OSTI 10159481][osti-construction];
 [WB: OSTI 10151705][osti-plantwide]). The company's administrative files
 are at the Hagley Museum and Library ([WB: DOE finding aid][ohre-admin]).
 
@@ -222,7 +224,7 @@ first full-scale plant to use this method, called Purex, and purified
 plutonium; H Area mostly recovered enriched uranium ([WB: ch. 11][fifty-11]).
 
 F Area started in 1954 and H Area in 1955. Radioactive tritium went to the
-AEC from 1955, and the basic plant was complete in 1956 ([WB: srs.gov
+AEC (Atomic Energy Commission) from 1955, and the basic plant was complete in 1956 ([WB: srs.gov
 1950s][srs-1950]; [WB: History Highlights][history1]). The first
 shipment of radioactive plutonium is dated December 1954 by one official source and 1955
 by others ([WB: ch. 11][fifty-11]; [WB][history1]).
@@ -252,7 +254,7 @@ from heavy-water power reactors, and it was never restarted
 
 ### Radioactive Releases
 
-The plant's own figures understated its early releases. The CDC's dose
+The plant's own figures understated its early releases. The CDC's (Centers for Disease Control and Prevention's) dose
 reconstruction found that the radioactive iodine-131 released to the air in
 the 1950s, mainly from the separations plants, was about four times what the
 site had reported. That was largely because its samplers caught only one
@@ -298,6 +300,10 @@ and 1972 to the Special Exposure Cohort of the federal occupational illness
 compensation program. Their cancer claims no longer turn on reconstructing
 each worker's dose ([WB: NIOSH][niosh-srs]).
 
+*Follow this thread, waste and groundwater.* Continues in [Chapter 2, Under the Ground](chapter-2.html#under-the-ground); [Chapter 3, The Tanks](chapter-3.html#the-tanks); [Chapter 4, Emptying the Tanks](chapter-4.html#emptying-the-tanks).
+
+*Follow this thread, health of workers and neighbors.* Continues in [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant); [Chapter 3, Sick Workers](chapter-3.html#sick-workers); [Chapter 3, The Neighbors and the River](chapter-3.html#the-neighbors-and-the-river); [Chapter 4, Sick Workers and the River Today](chapter-4.html#sick-workers-and-the-river-today).
+
 ### Living with the Plant
 
 For the towns around it, the plant was an economic boom with an
@@ -314,7 +320,7 @@ for the people who fish the river and drink its water
 </figure>
 
 The plant brought thousands of newcomers to a rural area. At a Senate hearing
-in Aiken in February 1952, the AEC's local manager said there would be no
+in Aiken in February 1952, the AEC's (Atomic Energy Commission's) local manager said there would be no
 government town like Oak Ridge or Richland; private builders would house the
 workers. He counted 3,000 trailers already in private courts, and new
 classrooms paid for through the federal Office of Education
@@ -339,6 +345,7 @@ of the property taxes the site's land no longer paid ([WB: DOE, 2008][doe-pilt-2
 <figcaption>Getting to work: the plant's shuttle for workers who missed their carpools in the 1950s, and a carpool shelter still standing about 2010. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_Carpooling_(5228278174).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
+*Follow this thread, the towns and their economy.* Continues in [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant); [Chapter 3, Living with the Plant](chapter-3.html#living-with-the-plant); [Chapter 4, Living with the Plant](chapter-4.html#living-with-the-plant).
 
 ### SRS and Ecology
 
@@ -349,7 +356,7 @@ and its natural radioactivity in 1951–52
 ([IA](https://archive.org/details/micro_IA41159405_0033);
 [IA](https://archive.org/details/micro_IA41159413_0274)).
 
-In 1951 the AEC asked the University of Georgia and the University of South
+In 1951 the AEC (Atomic Energy Commission) asked the University of Georgia and the University of South
 Carolina to survey the land's plants and animals before construction began,
 offering each about $10,000 a year ([WB: *SRS at Fifty* ch. 17](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=473)).
 The Georgia team was led by Eugene Odum, whose 1953 textbook *Fundamentals of
@@ -403,6 +410,8 @@ ecologists at work and a record of what it released. The 1970s brought new envir
 to know more, and the plant came under scrutiny, as
 [Chapter 2](chapter-2.html) tells.
 
+*Follow this thread, the land and its wildlife.* Continues in [Chapter 2, SRS and Ecology](chapter-2.html#srs-and-ecology); [Chapter 3, SRS and Ecology](chapter-3.html#srs-and-ecology); [Chapter 3, The Laboratories](chapter-3.html#the-laboratories); [Chapter 4, Ecology and the SRS](chapter-4.html#ecology-and-the-srs).
+
 ---
 
 ## Chapter 2. The Reactors Under Scrutiny, 1970–1992
@@ -413,7 +422,7 @@ Through the 1970s the plant reported its releases. Du Pont's semiannual
 monitoring summaries were reprinted in the federal *Radiation Data and
 Reports*
 ([DL](https://archive.org/details/sim_radiation-data-and-reports_1970-12_11_12)),
-and its annual environmental reports run from 1974 on OSTI ([WB: OSTI
+and its annual environmental reports run from 1974 on OSTI (Office of Scientific and Technical Information) ([WB: OSTI
 4174736][osti-env-1974]). In 1972 the plant became the first National
 Environmental Research Park ([WB: srs.gov 1970s][srs-1970]); see
 [SRS and Ecology](#srs-and-ecology).
@@ -445,11 +454,13 @@ hunt for radioactive cesium-137 before releasing them to hunters
 The hunts still go on today; see
 [Chapter 4](chapter-4.html#ecology-and-the-srs).
 
+*Follow this thread, radioactivity in the river and its animals.* Continues in [Chapter 3, The Neighbors and the River](chapter-3.html#the-neighbors-and-the-river); [Chapter 4, Ecology and the SRS](chapter-4.html#ecology-and-the-srs).
+
 ### L-Reactor Comes Back
 
 However, the Reagan-era buildup of nuclear weapons needed more plutonium. In 1982 the plant lowered the
 Pu-240 content of its product to blend with Hanford's ([WB: *SRS at Fifty*
-ch. 19][fifty-19]), and DOE moved to restart L reactor, idle since 1968, on
+ch. 19][fifty-19]), and DOE (Department of Energy) moved to restart L reactor, idle since 1968, on
 an environmental assessment rather than a full impact statement ([WB: OSTI
 5060401][osti-l-ea]).
 
@@ -490,7 +501,7 @@ in the Tank Farm* (1986) assessed the high-level waste tanks
 ([WB: IEER][deadly-crop]); Du Pont published a rebuttal
 ([WB: OSTI 5881523][osti-dupont-reply]). The *Washington Post* described
 aging reactors carrying the buildup, one down for a cracked vessel — a
-clipping that survives in the CIA's files
+clipping that survives in the CIA's (Central Intelligence Agency's) files
 ([IA](https://archive.org/details/cia-readingroom-document-cia-rdp88g01117r000401020009-5)).
 
 ### Under the Ground
@@ -513,7 +524,7 @@ that plant staff had at first been reluctant to accept the state's
 regulatory authority
 ([DL](https://archive.org/details/micro_IA41152617_0148)).
 
-GAO found solvents in the groundwater under the M Area fuel plant at more
+GAO (General Accounting Office) found solvents in the groundwater under the M Area fuel plant at more
 than 30,000 times proposed drinking-water standards. Tritium at the
 separations areas was more than 2,500 times the standard. DOE answered that
 the contamination stayed under federal land and posed no threat to the public
@@ -525,7 +536,7 @@ the contamination stayed under federal land and posed no threat to the public
 </figure>
 
 
-By 1991 the Office of Technology Assessment reported an EPA finding that the
+By 1991 the Office of Technology Assessment reported an EPA (Environmental Protection Agency) finding that the
 pump-and-treat system meant to clean the M Area plume was not adequately
 designed to reach its goal
 ([DL](https://archive.org/details/micro_IA41152852_0090)).
@@ -535,11 +546,12 @@ designed to reach its goal
 <figcaption>The M-1 air stripper, which by 2009 had pumped and treated more than five billion gallons of groundwater from A and M Areas. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Five_Billion_Gallons_M-1_Air_Stripper_(7409143760).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
+*Follow this thread, waste and groundwater.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases). Continues in [Chapter 3, The Tanks](chapter-3.html#the-tanks); [Chapter 4, Emptying the Tanks](chapter-4.html#emptying-the-tanks).
 
 ### 1987–1988: The Reactors Stop
 
 A National Academy of Sciences panel reviewed safety at the defense
-production reactors for DOE in 1987
+production reactors for DOE (Department of Energy) in 1987
 ([IA](https://archive.org/details/ERIC_ED299108)). Du Pont announced that
 year that it would not stay on as operator ([WB: srs.gov 1980s][srs-1980]).
 In February 1988 a Senate subcommittee heard DOE, the plant manager and
@@ -581,7 +593,7 @@ Times*][nyt-881128]).
 In April 1989 the Westinghouse Savannah River Company took over from Du Pont
 ([WB: ch. 19][fifty-19]). The same year the Savannah River Plant became the
 Savannah River Site and went on the National Priorities List ([WB: srs.gov
-1980s][srs-1980]). GAO's 1989 testimony set the site inside a complex-wide
+1980s][srs-1980]). GAO's (General Accounting Office's) 1989 testimony set the site inside a complex-wide
 picture of cleanup and modernization problems
 ([DL](https://archive.org/details/micro_IA41152607_0169)).
 
@@ -614,7 +626,7 @@ A 1998 DOE notice dates the leak to 1992
 In 1992 K was started up for a test run and was then shut down permanently
 ([WB: srs.gov 1990s][srs-1990]). Bomb making at Savannah River was over.
 
-What it had released was reconstructed later. The CDC's dose reconstruction
+What it had released was reconstructed later. The CDC's (Centers for Disease Control and Prevention's) dose reconstruction
 counted about 3,000 release incidents involving tritium between 1954 and 1992
 ([WB: CDC Phase II][cdc-phase2]).
 
@@ -649,7 +661,7 @@ that research to Health and Human Services. The record included a 1988 study
 that reported a significant excess of leukemia deaths among hourly Savannah
 River workers hired before 1955 ([IA: Senate hearing,
 1989](https://archive.org/details/micro_IA41152837_0739)). The later dose
-reconstruction was run by the CDC ([WB: CDC][cdc-srs-page]).
+reconstruction was run by the CDC (Centers for Disease Control and Prevention) ([WB: CDC][cdc-srs-page]).
 
 Studies of the neighbors began at the same time. A July 1990 National
 Institutes of Health survey compared cancer deaths in Aiken and Barnwell
@@ -657,6 +669,10 @@ counties and Georgia's Burke County with similar counties elsewhere. It found
 no excess among children, more leukemia at ages 20 to 39 and slightly more
 lung cancer in older adults, and said it did not show cancer excesses tied to
 the plant ([DL](https://archive.org/details/cancerinpopulati00jabl_1); [DL](https://archive.org/details/cancerinpopulati00jabl_0)).
+
+*Follow this thread, health of workers and neighbors.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases). Continues in [Chapter 3, Sick Workers](chapter-3.html#sick-workers); [Chapter 3, The Neighbors and the River](chapter-3.html#the-neighbors-and-the-river); [Chapter 4, Sick Workers and the River Today](chapter-4.html#sick-workers-and-the-river-today).
+
+*Follow this thread, the towns and their economy.* Earlier: [Chapter 1, Living with the Plant](chapter-1.html#living-with-the-plant). Continues in [Chapter 3, Living with the Plant](chapter-3.html#living-with-the-plant); [Chapter 4, Living with the Plant](chapter-4.html#living-with-the-plant).
 
 ### An Emerging Environmental Movement Impacts SRS
 
@@ -725,16 +741,18 @@ Restarting L reactor meant sending hot water into the Steel Creek swamp again
 Wildlife was in trouble too. In 1984 the wood stork was listed as endangered,
 and the L-Reactor study recorded 102 of them feeding near the Steel Creek
 delta the summer before ([IA: DOE, 1984](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)). In 1985 the site's
-red-cockaded woodpeckers were down to four birds; at DOE's request, Forest
+red-cockaded woodpeckers were down to four birds; at DOE's (Department of Energy's) request, Forest
 Service scientists began carving artificial nest cavities and moving birds in
 from other forests ([DL: Forest Service](https://archive.org/details/redcockadedwoodp23unit)).
+
+*Follow this thread, the land and its wildlife.* Earlier: [Chapter 1, SRS and Ecology](chapter-1.html#srs-and-ecology). Continues in [Chapter 3, SRS and Ecology](chapter-3.html#srs-and-ecology); [Chapter 3, The Laboratories](chapter-3.html#the-laboratories); [Chapter 4, Ecology and the SRS](chapter-4.html#ecology-and-the-srs).
 
 ## Chapter 3. After the Bombs, 1992–2020
 
 ### A Cleanup Site
 
 The official history marks the turn plainly: the mission became environmental
-management, not production ([WB: *SRS at Fifty* ch. 20][fifty-20]). DOE
+management, not production ([WB: *SRS at Fifty* ch. 20][fifty-20]). DOE (Department of Energy)
 priced the complex-wide legacy in *Estimating the Cold War Mortgage*
 ([IA](https://archive.org/details/DTIC_ADA294172)) and traced each waste
 stream to the process that made it in *Linking Legacies*
@@ -748,7 +766,7 @@ forty-year era ([WB][rbof]).
 </figure>
 
 Spent fuel kept arriving as well as leaving. The United States moved to take
-back the fuel it had supplied to research reactors abroad. In 1994 GAO
+back the fuel it had supplied to research reactors abroad. In 1994 GAO (General Accounting Office)
 reported that delays had already led reactors in Belgium and Germany to
 reprocess theirs, and that DOE meant to store the first returns at Savannah
 River ([IA: GAO 1994](https://archive.org/details/DTIC_ADA344922)).
@@ -805,6 +823,8 @@ grouted wastewater from the glass plant to a commercial disposal site in
 Andrews, Texas, beginning with 8 gallons
 ([WB: *Federal Register*][fr-hlw-ea]; [WB: *Federal Register*][fr-hlw-fonsi]).
 
+*Follow this thread, waste and groundwater.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases); [Chapter 2, Under the Ground](chapter-2.html#under-the-ground). Continues in [Chapter 4, Emptying the Tanks](chapter-4.html#emptying-the-tanks).
+
 ### Sealing the Reactors
 
 In March 2008 the site put up South Carolina historic markers for P and R,
@@ -825,7 +845,11 @@ end of that work is gone from srs.gov; the Wayback capture is the copy
 
 ### Plutonium: MOX and Pits
 
-South Carolina's fight over radioactive plutonium began before MOX. In April 2002 DOE
+MOX (mixed oxide fuel) was a plan to turn surplus weapons
+plutonium into fuel for commercial nuclear power reactors, so it could no
+longer be used in bombs
+([DL: House hearing, 2006](https://archive.org/details/gov.gpo.fdsys.CHRG-109hhrg33597)).
+South Carolina's fight over radioactive plutonium began before MOX. In April 2002 DOE (Department of Energy)
 decided to store surplus plutonium from Rocky Flats at Savannah River.
 Governor Jim Hodges sued, then issued an executive order banning plutonium
 from the state's roads, and in June a federal court barred him from
@@ -875,7 +899,7 @@ it in 2017 ([WB: CAB][cab-350]). By 2022 the German state concerned had
 chosen to store it at home instead ([WB: SRS Watch][srswatch-german]).
 
 Plutonium from a Japanese research assembly did come, through Charleston in
-2016 ([WB: SRS Watch][srswatch-japan]). In 2021 NNSA dropped its plan to send
+2016 ([WB: SRS Watch][srswatch-japan]). In 2021 NNSA (National Nuclear Security Administration) dropped its plan to send
 it on to New Mexico. It decided instead to process the plutonium at Savannah
 River and store it there until a geologic repository exists ([WB: *Federal
 Register*][fr-japan]).
@@ -888,6 +912,8 @@ crane drop or explosion in the tritium facilities could cause acute
 radiation sickness or death in a significant number of people ([WB: *Federal
 Register*][fr-dnfsb]). NNSA's administrator replied, "I do not accept
 Recommendation 2019-2" ([WB: *Federal Register*][fr-dnfsb-reply]).
+
+*Follow this thread, plutonium after the cold war.* Continues in [Chapter 4, Making Pits Again](chapter-4.html#making-pits-again); [Chapter 4, Moving Plutonium Out](chapter-4.html#moving-plutonium-out).
 
 ### Sick Workers
 
@@ -911,7 +937,7 @@ Register*][fr-sec-2026]).
 Studies of the workers kept finding leukemia. A 1995 Oak Ridge study found
 that the site's workers died at lower rates than the general public but had
 significantly more leukemia ([WB: site epidemiology summary][srs-epi-2002]).
-In 2007 NIOSH-funded researchers following 18,883 workers hired from 1950 to
+In 2007 NIOSH (National Institute for Occupational Safety and Health)-funded researchers following 18,883 workers hired from 1950 to
 1986 found leukemia risk rising with recorded radiation dose, and excess
 cancer of the lung lining, often linked to asbestos ([WB: NIOSH][niosh-mortality]).
 
@@ -920,6 +946,8 @@ had not sent neutron radiation data for some claims ([WB: NIOSH][niosh-per19]).
 That November a petition asked to add every worker from 1950 to 2007 to the
 Special Exposure Cohort; the special classes for the site came from it
 ([WB: NIOSH][niosh-srs-2026]).
+
+*Follow this thread, health of workers and neighbors.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases); [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant). Continues in [Chapter 3, The Neighbors and the River](chapter-3.html#the-neighbors-and-the-river); [Chapter 4, Sick Workers and the River Today](chapter-4.html#sick-workers-and-the-river-today).
 
 ### The Neighbors and the River
 
@@ -953,11 +981,16 @@ could raise mercury risks, especially for pregnant women and children.
 Mercury is high upstream of the site too, and ATSDR said the site's share "is
 not known" ([WB: ATSDR][atsdr-2012]).
 
+*Follow this thread, health of workers and neighbors.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases); [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant); [Chapter 3, Sick Workers](chapter-3.html#sick-workers). Continues in [Chapter 4, Sick Workers and the River Today](chapter-4.html#sick-workers-and-the-river-today).
+
+*Follow this thread, radioactivity in the river and its animals.* Earlier: [Chapter 2, Radioactivity and Community Safety](chapter-2.html#radioactivity-and-community-safety). Continues in [Chapter 4, Ecology and the SRS](chapter-4.html#ecology-and-the-srs).
+
 ### Living with the Plant
 
-Then came the cuts. The site employed 23,351 people in 1992, about 10 percent
+Then budget cuts came, hitting the plant and, through it, the local economy
+and community. The site employed 23,351 people in 1992, about 10 percent
 of all jobs in six surrounding counties, with a payroll above $1.1 billion,
-and a 1995 DOE study warned that budget cuts could remove up to 4,200 more
+and a 1995 DOE (Department of Energy) study warned that budget cuts could remove up to 4,200 more
 jobs ([IA: DOE, 1995](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
 
 <figure class="fig">
@@ -965,7 +998,7 @@ jobs ([IA: DOE, 1995](https://archive.org/details/SavannahRiverEnvironmentalImpa
 <figcaption>A local Aiken County company at work in 2010 on a federally funded contract to close the P Area ash basin. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Savannah_River_Site_Small_Business_(7467931418).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-A study for the SRS Community Reuse
+A study for the SRS (Savannah River Site) Community Reuse
 Organization, a regional development group with an interest in the site's
 value, counted 25,180 workers in September 1991 and 10,967 in September 2010
 ([IA: study for the SRS Community Reuse Organization, 2011](https://archive.org/details/5750328-USC-Study-on-Economic-Impact-of-Savannah-River)).
@@ -973,9 +1006,11 @@ The counts differ by source.
 
 The government's payments in place of taxes became a fixture. In 2008 DOE
 raised them from $3.5 million to $6.2 million a year ([WB: DOE][doe-pilt-2008]).
-GAO later found that Barnwell County received about $4.5 million of the
+GAO (Government Accountability Office) later found that Barnwell County received about $4.5 million of the
 $6.2 million paid in 2013, and that the land values behind the payments had
 been set in 1988 ([WB: GAO, 2019][gao-pilt-2019]).
+
+*Follow this thread, the towns and their economy.* Earlier: [Chapter 1, Living with the Plant](chapter-1.html#living-with-the-plant); [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant). Continues in [Chapter 4, Living with the Plant](chapter-4.html#living-with-the-plant).
 
 ### SRS and Ecology
 
@@ -989,11 +1024,13 @@ planting longleaf pine ([DL: Forest Service, 1995](https://archive.org/details/s
 <figcaption>A red-cockaded woodpecker feeding its young at a nest in a longleaf pine in Georgia. <span class="credit">US Fish and Wildlife Service photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Red-cockaded_woodpecker_feeding_young_(5806270700).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-Ecology laboratory scientists wrote in 2002 that cooling water had "destroyed
+The work to repair the land continued. Ecology laboratory scientists wrote in 2002 that cooling water had "destroyed
 the floodplain forests" along several streams, and that after the reactors
 shut down they were studying how to replant Pen Branch and Four Mile Creek.
 The site then held 30 set-aside research areas of 14,005 acres, and 152
 woodpeckers by 1999 ([IA: SREL scientists, 2002](https://archive.org/details/DTIC_ADA400802)).
+
+*Follow this thread, the land and its wildlife.* Earlier: [Chapter 1, SRS and Ecology](chapter-1.html#srs-and-ecology); [Chapter 2, SRS and Ecology](chapter-2.html#srs-and-ecology). Continues in [Chapter 3, The Laboratories](chapter-3.html#the-laboratories); [Chapter 4, Ecology and the SRS](chapter-4.html#ecology-and-the-srs).
 
 ### The Laboratories
 
@@ -1013,14 +1050,19 @@ Citizens Advisory Board called reprehensible ([WB: SRS CAB][cab-240]).
 The House Science Committee held a hearing on it in July 2007
 ([DL](https://archive.org/details/gov.gpo.fdsys.CHRG-110hhrg36143); video
 [IA](https://archive.org/details/house.hbs.mars.hrs11SCI2318_070719)).
-SREL's web page from that summer mentions a statement on a budget crisis
+SREL's (Savannah River Ecology Laboratory's) web page from that summer mentions a statement on a budget crisis
 ([WB][srel-2007]) but the actual statement has been lost.
+
+*Follow this thread, the land and its wildlife.* Earlier: [Chapter 1, SRS and Ecology](chapter-1.html#srs-and-ecology); [Chapter 2, SRS and Ecology](chapter-2.html#srs-and-ecology); [Chapter 3, SRS and Ecology](chapter-3.html#srs-and-ecology). Continues in [Chapter 4, Ecology and the SRS](chapter-4.html#ecology-and-the-srs).
 
 ### The Plant's Museum
 
-The SRS Museum opened in Aiken after a 2014 ribbon-cutting
-([WB][museum-2014]); its website is dead but the Wayback Machine has the
-record ([WB][museum-web]). The site's archaeologists and its Cold War historic
+The SRS (Savannah River Site) Museum opened in Aiken after a 2014 ribbon-cutting
+([WB][museum-2014]). It is still open to the public. In November 2026 its
+website listed free admission, Wednesday through Saturday from 10 a.m. to 4
+p.m., at 224 Laurens Street SW, run by the SRS Heritage Foundation
+([WB: SRS Museum, 2026][museum-2026]). The museum's first website is gone,
+but the Wayback Machine has it ([WB][museum-web]). The site's archaeologists and its Cold War historic
 preservation program work with it ([WB][preserve-2020]) — the same program
 that collected Ellenton's memories in 1990.
 
@@ -1036,13 +1078,15 @@ home to the zero-power Process Development Pile, which set the physics for
 plutonium and tritium production in the five reactors
 ([WB: Library of Congress, HAER SC-43][haer-sc43]).
 
+*Follow this thread, the displaced towns.* Earlier: [Chapter 1, The Towns Inside the Fence](chapter-1.html#the-towns-inside-the-fence).
+
 ## Chapter 4. What's Happening Now, 2020 to Today
 
 ### Making Pits Again
 
-The site's weapons work is growing again. DOE decided in November 2020 to
+The site's weapons work is growing again. DOE (Department of Energy) decided in November 2020 to
 make pits, the radioactive plutonium cores of nuclear weapons, at Savannah River
-([WB: Federal Register][fr-pits]), and SRS Watch and others are challenging
+([WB: Federal Register][fr-pits]), and SRS (Savannah River Site) Watch and others are challenging
 the decision in federal court
 ([DL](https://archive.org/details/gov.uscourts.scd.265178)). The plant is
 being built by repurposing an unfinished concrete structure on the site, and
@@ -1053,10 +1097,10 @@ in 2024 its builders were still promising it by 2032 ([WB: SRS][srs-srppf-2024])
 <figcaption>The site of the plutonium pit plant in F Area, January 2025. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:1-9-25_SRPPF_F_Area_Aerial_(54439428989).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-In 2022 NNSA told Congress the site would not reach 50 pits a year until
+In 2022 NNSA (National Nuclear Security Administration) told Congress the site would not reach 50 pits a year until
 sometime between 2032 and 2035, not the 2030 target
 ([IA: Congressional Research Service](https://archive.org/details/crs-r44442.31)).
-In January 2023 GAO found that NNSA had no complete schedule or full cost
+In January 2023 GAO (Government Accountability Office) found that NNSA had no complete schedule or full cost
 estimate for pit production, and counted at least $18 billion to $24 billion
 in potential costs across its two pit sites ([WB: GAO][gao-pits-2023]).
 
@@ -1075,10 +1119,12 @@ adequately protect facility workers" handling plutonium in glove boxes
 were "a significant improvement to safety" and resolved its concerns
 ([WB: safety board][dnfsb-2025]).
 
+*Follow this thread, plutonium after the cold war.* Earlier: [Chapter 3, Plutonium: MOX and Pits](chapter-3.html#plutonium-mox-and-pits). Continues in [Chapter 4, Moving Plutonium Out](chapter-4.html#moving-plutonium-out).
+
 ### Moving Plutonium Out
 
-South Carolina won a deal over the plutonium shipped in for the MOX plant.
-On August 31, 2020, DOE agreed to pay the state $600 million and to remove
+South Carolina won a deal over the plutonium shipped in for the MOX (mixed oxide fuel) plant.
+On August 31, 2020, DOE (Department of Energy) agreed to pay the state $600 million and to remove
 9.5 metric tons of plutonium by 2037; without the deal, DOE expected removal
 to take until 2049 ([WB: DOE][doe-sc-2020]).
 
@@ -1090,7 +1136,7 @@ to take until 2049 ([WB: DOE][doe-sc-2020]).
 Removal works by "dilute and dispose": plutonium is mixed with other
 material, packed in drums and shipped to the Waste Isolation Pilot Plant in
 New Mexico. The site expects tens of thousands of drums over three decades
-([WB: SRS][srs-dilute-2024]). In 2025 NNSA said its contractor had beaten its
+([WB: SRS][srs-dilute-2024]). In 2025 NNSA (National Nuclear Security Administration) said its contractor had beaten its
 targets for diluting plutonium and for shipments ([WB: NNSA][nnsa-fy25]).
 
 Then the policy changed. A May 2025 executive order told DOE to halt dilute
@@ -1100,10 +1146,12 @@ March 2026 DOE said it would restart HB Line, a plutonium processing plant at
 H Canyon shut down a few years earlier, to recycle plutonium into reactor fuel
 ([WB: American Nuclear Society][ans-hbline]).
 
+*Follow this thread, plutonium after the cold war.* Earlier: [Chapter 3, Plutonium: MOX and Pits](chapter-3.html#plutonium-mox-and-pits); [Chapter 4, Making Pits Again](chapter-4.html#making-pits-again).
+
 ### Emptying the Tanks
 
 A new contractor, Savannah River Mission Completion, took over the liquid
-waste in February 2022 ([WB: DOE][doe-srmc-2022]), and DOE set a goal of
+waste in February 2022 ([WB: DOE][doe-srmc-2022]), and DOE (Department of Energy) set a goal of
 closing both tank farms by 2037 ([WB: DOE][doe-srmc-2023]). The Salt Waste
 Processing Facility, years late, began radioactive operation in fall 2020
 and passed 10 million gallons by November 2024 ([WB: SRS][srs-swpf-2024]).
@@ -1128,11 +1176,13 @@ uranium recovery, so H Canyon can make fuel for advanced reactors
 for briefings on what the restart means for the environment
 ([EXT: SRS Citizens Advisory Board][cab-387]).
 
+*Follow this thread, waste and groundwater.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases); [Chapter 2, Under the Ground](chapter-2.html#under-the-ground); [Chapter 3, The Tanks](chapter-3.html#the-tanks).
+
 ### Who Runs the Site
 
-The laboratory now stands on its own. In December 2020 DOE gave Savannah
+The laboratory now stands on its own. In December 2020 DOE (Department of Energy) gave Savannah
 River National Laboratory a separate contract, run by Battelle Savannah River
-Alliance ([WB: DOE][doe-srnl-2020]). On October 1, 2024, NNSA, the weapons
+Alliance ([WB: DOE][doe-srnl-2020]). On October 1, 2024, NNSA (National Nuclear Security Administration), the weapons
 agency, became the site's landlord, with the cleanup office as its tenant;
 the site then had a budget of about $3.8 billion a year and about 13,400
 workers ([WB: SRS][srs-landlord-2024]).
@@ -1163,10 +1213,37 @@ show $271 million in compensation and medical bills by November 2008
 ([WB][dol-2024]). The current page lists about $3.06 billion for about 15,400
 workers ([WB: Labor Department][dol-now]).
 
+Most cancer claims still turn on an estimate of each worker's radiation
+dose, and most of those fail. After NIOSH (National Institute for
+Occupational Safety and Health) estimated the dose, 2,271 of the site's
+cancer cases were accepted and 4,025 denied, and another 483 were still
+waiting ([WB: Labor Department][dol-now]). In April 2026 the federal advisory
+board's Savannah River work group noted that a 1997 contractor check had
+found 79 percent of special bioassays, the samples that show whether a worker
+took in radioactive material, were never turned in. Its review of the main
+contractors' own employees was "still under consideration" ([WB: NIOSH
+advisory board][abrwh-srs-2026]).
+
+Tritium is still most of what the site sends into the river. In 2024 the
+site released 451 curies of it, and Georgia Power's Vogtle nuclear plant
+released 1,628. Below the site the river averaged 377 picocuries per liter,
+against a federal drinking-water limit of 20,000. The site put the most anyone
+downstream could get from drinking the water at 0.034 millirem a year, about
+a third of it from the site ([WB: SRS][srs-dose-2024]).
+
+South Carolina keeps its own watch, paid for by Energy Department grants. Its
+program samples drinking water that serves about 254,000 customers, and warns
+downstream water suppliers if tritium in the river passes trigger levels
+([WB: South Carolina][scdes-sw]; [WB][scdes-dw]). In 2023 every drinking-water
+result was below federal limits, but tritium was still "the most abundant
+radionuclide" found ([WB: South Carolina, 2023][esop-2023]).
+
 <figure class="fig">
 <img src="img/phinizy-heron.jpg" width="1400" height="840" alt="A great blue heron with its wings spread lands in shallow wetland water." loading="lazy">
 <figcaption>A great blue heron at Phinizy Swamp Nature Park, a wetland on the Savannah River at Augusta. <span class="credit">Photograph by Eric Monaco, Savannah River Remediation, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Great_Blue_Heron_Phinizy_Swamp_Nature_Park_10x6_(48870411566).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
+
+*Follow this thread, health of workers and neighbors.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases); [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant); [Chapter 3, Sick Workers](chapter-3.html#sick-workers); [Chapter 3, The Neighbors and the River](chapter-3.html#the-neighbors-and-the-river).
 
 ### Living with the Plant
 
@@ -1190,10 +1267,12 @@ workers' gifts "a significant portion" of its budget
 ([WB: contractor release, 2026][srns-uw-2026]). Both are the contractors'
 own announcements.
 
+*Follow this thread, the towns and their economy.* Earlier: [Chapter 1, Living with the Plant](chapter-1.html#living-with-the-plant); [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant); [Chapter 3, Living with the Plant](chapter-3.html#living-with-the-plant).
+
 ### Ecology and the SRS
 
 The land the plant took is now a large managed forest, and that is the good
-news. The Forest Service still runs it for DOE. In 2021 it thinned more than
+news. The Forest Service still runs it for DOE (Department of Energy). In 2021 it thinned more than
 3,000 acres, burned about 24,000 acres under control to keep the forest
 healthy, and sold timber from it. The red-cockaded woodpeckers kept coming
 back, from 3 active groups in 1985 to 150 in 2021, and golden eagles were seen
@@ -1230,12 +1309,16 @@ its mercury limits protective enough that it sets none for radioactivity
 fish from its creek mouths in 2024 would get at most about 0.24 millirem of
 radiation, all from cesium-137 ([WB: SRS][srs-dose-2024]).
 
+*Follow this thread, the land and its wildlife.* Earlier: [Chapter 1, SRS and Ecology](chapter-1.html#srs-and-ecology); [Chapter 2, SRS and Ecology](chapter-2.html#srs-and-ecology); [Chapter 3, SRS and Ecology](chapter-3.html#srs-and-ecology); [Chapter 3, The Laboratories](chapter-3.html#the-laboratories).
+
+*Follow this thread, radioactivity in the river and its animals.* Earlier: [Chapter 2, Radioactivity and Community Safety](chapter-2.html#radioactivity-and-community-safety); [Chapter 3, The Neighbors and the River](chapter-3.html#the-neighbors-and-the-river).
+
 ### Looking to the Future
 
 Much of the site's future is already planned. In 2024 it had a budget of about $3.8 billion a year and about 13,400 workers
 ([WB: SRS][srs-landlord-2024]). Its largest new project, the plant to make
 plutonium pits, was estimated in 2026 at about $22 billion, finished no
-sooner than September 2035 ([WB: GAO 2026][gao-pits-2026]). DOE has promised
+sooner than September 2035 ([WB: GAO 2026][gao-pits-2026]). DOE (Department of Energy) has promised
 to remove 9.5 metric tons of plutonium from South Carolina by 2037
 ([WB: DOE][doe-sc-2020]), and its cleanup contractor is to close both tank
 farms by the same year ([WB: DOE][doe-srmc-2023]). H Canyon is to recover
@@ -1400,3 +1483,8 @@ copies.
 [nobel-1995]: https://web.archive.org/web/20261012201937/https://www.nobelprize.org/prizes/physics/1995/press-release/
 [nobel-reines]: https://web.archive.org/web/20261012184031/https://www.nobelprize.org/prizes/physics/1995/reines/facts/
 [hmdb-ellenton]: https://web.archive.org/web/20240415132117/https://www.hmdb.org/m.asp?m=8495
+[abrwh-srs-2026]: https://web.archive.org/web/20260511213747/https://www.cdc.gov/niosh/ocas/pdfs/abrwh/pres/2026/bd-srsworkgroup-042926-508.pdf
+[scdes-sw]: https://web.archive.org/web/20260311173716/https://des.sc.gov/community/environmental-sites-projects/savannah-river-site/environmental-surveillance-oversight-program/monitoring-surface-water
+[scdes-dw]: https://web.archive.org/web/20260311152928/https://des.sc.gov/community/environmental-sites-projects/savannah-river-site/environmental-surveillance-oversight-program/drinking-water-quality-monitoring
+[esop-2023]: https://web.archive.org/web/20250425023429/https://des.sc.gov/sites/des/files/Documents/BRLS/ESOP/2023/CR-004111_2023.pdf
+[museum-2026]: https://web.archive.org/web/20261104093554/http://srsheritagemuseum.org/

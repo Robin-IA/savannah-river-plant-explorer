@@ -118,15 +118,17 @@ a.cite .tag { margin-right: 3px; }
 
 /* Chapter pages: the chapter list, section headings, previous and next */
 .ch-list { list-style: none; margin: 0; padding: 0; }
-.ch-list > li { margin: 0 0 10px; padding-left: 10px; border-left: 4px solid var(--hair); }
+.ch-list > li { position: relative; margin: 0 0 10px; padding-left: 10px; border-left: 4px solid var(--hair); }
 .ch-list > li.ch-1 { border-color: var(--act1); } .ch-list > li.ch-2 { border-color: var(--act2); } .ch-list > li.ch-3 { border-color: var(--act3); } .ch-list > li.ch-4 { border-color: var(--act4); }
-.ch-list summary { display: block; position: relative; padding-right: 20px; font-weight: 600; color: var(--ink); cursor: pointer; list-style: none; border-radius: 4px; }
+.ch-list .ch-link { display: block; padding-right: 26px; font-weight: 600; color: var(--ink); border-radius: 4px; }
+.ch-list .ch-link:hover { color: var(--link); }
+.chapter-1 .ch-list li.ch-1 .ch-link, .chapter-2 .ch-list li.ch-2 .ch-link, .chapter-3 .ch-list li.ch-3 .ch-link, .chapter-4 .ch-list li.ch-4 .ch-link { color: var(--link); }
+.ch-list summary { position: absolute; top: 0; right: 0; width: 24px; height: 2.4em; cursor: pointer; list-style: none; border-radius: 4px; }
 .ch-list summary::-webkit-details-marker { display: none; }
-.ch-list summary::after { content: "\25B8"; position: absolute; right: 2px; top: 1.1em; font-size: .8rem; color: var(--muted); }
+.ch-list summary::after { content: "\25B8"; position: absolute; right: 6px; top: 1.1em; font-size: .8rem; color: var(--muted); }
 .ch-list details[open] > summary::after { content: "\25BE"; }
-.ch-list summary:hover { color: var(--link); }
+.ch-list summary:hover::after { color: var(--link); }
 .ch-list summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
-.chapter-1 .ch-list li.ch-1 summary, .chapter-2 .ch-list li.ch-2 summary, .chapter-3 .ch-list li.ch-3 summary, .chapter-4 .ch-list li.ch-4 summary { color: var(--link); }
 .ch-list a[aria-current="page"] { font-weight: 700; }
 .sec-count { margin: 6px 0 6px; color: var(--muted); font-family: var(--font); font-size: 0.875rem; }
 .ch-list .ch-n { display: block; font: 700 .72rem/1.2 var(--font); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
