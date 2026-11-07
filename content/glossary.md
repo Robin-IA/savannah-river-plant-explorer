@@ -1,6 +1,6 @@
 <p>Words and names used in the story, in plain English. Each definition says what the word means in this history; for the people and dates behind it, follow the story's links to its sources.</p>
 
-<h2 id="the-plant">The plant and how it worked</h2>
+<h2 id="the-plant">The Plant and How It Worked</h2>
 <dl class="glossary">
   <dt id="savannah-river-plant">Savannah River Plant, Savannah River Site (SRS)</dt><dd>The same place under two names. It was the Savannah River Plant from 1950 and was renamed the Savannah River Site in 1989.</dd>
   <dt id="area">Area (F Area, H Area, M Area, D Area and so on)</dt><dd>The site was laid out in separate lettered areas, each with one job: the five reactors (C, K, L, P and R), the separations plants (F and H), fuel and target making (M), heavy-water production (D) and others.</dd>
@@ -16,7 +16,7 @@
   <dt id="cooling-water">Cooling water</dt><dd>River water pumped through the reactors to carry away their heat. It came out hot and ran down the site's creeks or into its reservoirs, Par Pond and L Lake.</dd>
 </dl>
 
-<h2 id="materials">Materials and radiation</h2>
+<h2 id="materials">Materials and Radiation</h2>
 <dl class="glossary">
   <dt id="radioactive">Radioactive, radioactivity</dt><dd>Some kinds of atoms are unstable and break down, giving off energy as radiation. A material made of them is radioactive. Radiation can damage living cells, which is why releases from the plant mattered.</dd>
   <dt id="half-life">Half-life</dt><dd>The time it takes for half of a radioactive substance to break down. Some last seconds; others last thousands of years.</dd>
@@ -31,7 +31,7 @@
   <dt id="rem">Rem and millirem</dt><dd>Measures of the radiation dose a person receives. A millirem is a thousandth of a rem.</dd>
 </dl>
 
-<h2 id="waste">Waste and cleanup</h2>
+<h2 id="waste">Waste and Cleanup</h2>
 <dl class="glossary">
   <dt id="high-level-waste">High-level waste</dt><dd>The most radioactive waste, left over from separations. At the site it is a liquid and sludge stored in large underground tanks.</dd>
   <dt id="glass-plant">Glass plant (Defense Waste Processing Facility)</dt><dd>The plant that mixes high-level waste with melted glass and pours it into steel canisters, so it will not leak while it waits for permanent burial.</dd>
@@ -41,7 +41,7 @@
   <dt id="eis">Environmental impact statement (EIS)</dt><dd>A detailed public study a federal agency must write before a major action that could harm the environment, comparing the choices and their effects.</dd>
 </dl>
 
-<h2 id="agencies">Agencies and programs</h2>
+<h2 id="agencies">Agencies and Programs</h2>
 <dl class="glossary">
   <dt id="aec">Atomic Energy Commission (AEC)</dt><dd>The federal agency that owned and directed the nation's nuclear weapons plants when Savannah River was built. Its work later passed to the Department of Energy.</dd>
   <dt id="doe">Department of Energy (DOE)</dt><dd>The federal department that owns the site today.</dd>
@@ -52,7 +52,7 @@
   <dt id="payments-in-place-of-taxes">Payments in place of taxes</dt><dd>Money the federal government pays the counties around the site, because its land pays no property taxes.</dd>
 </dl>
 
-<h2 id="land">The land and the people</h2>
+<h2 id="land">The Land and the People</h2>
 <dl class="glossary">
   <dt id="condemnation">Condemnation</dt><dd>The legal process by which the government takes private land for public use and a court sets the price.</dd>
   <dt id="tenant-farmer">Tenant farmer</dt><dd>A farmer who works land owned by someone else, paying rent in money or in part of the crop.</dd>

@@ -1,8 +1,8 @@
-<h2>The project</h2>
+<h2>The Project</h2>
 <p>The Savannah River Plant was built by Du Pont for the Atomic Energy Commission from 1950 on land in Aiken and Barnwell counties, South Carolina, and made plutonium and tritium for nuclear weapons until its reactors were shut down in 1988. Renamed the Savannah River Site in 1989, it has since been a place of clean-up, waste treatment, research and, again, plutonium work.</p>
 <p>The story is told in four chapters: building the plant, 1950–1969; the reactors under scrutiny, 1970–1992; the years after bomb making, 1992–2020; and what is happening at the site now. It was written for <a href="https://archive.org/details/democracys-library">Democracy's Library</a>, whose aim is to be the most complete source for government documents, and it shows how much of one government site's history sits inside the Internet Archive, and where.</p>
 
-<h2>Where the sources are held</h2>
+<h2>Where the Sources Are Held</h2>
 <ul class="legend stacked" aria-label="Where each source is held">
   <li><span class="tag tag-dl">DL</span> <strong>Democracy's Library.</strong> An <a href="https://archive.org/">archive.org</a> item inside <a href="https://archive.org/details/democracys-library">Democracy's Library</a>: it matches the collection's scope, which takes in <a href="https://archive.org/details/USGovernmentDocuments">US Government Documents</a>, <a href="https://archive.org/details/governmentpublications">Government Publications</a>, <a href="https://archive.org/details/nasa">NASA</a>, government documents on <a href="https://archive.org/details/sim_microfilm">microfilm</a> and others.</li>
   <li><span class="tag tag-wb">WB</span> <strong>Wayback Machine.</strong> A page or document saved by the <a href="https://web.archive.org/">Wayback Machine</a>. Much of the site's own history, including the official history <em>The Savannah River Site at Fifty</em> and twenty years of news releases, is gone from the live web and survives only there. Wherever an outside page, report or record has a working Wayback capture, the explorer cites the capture rather than the live page, and names the original holder.</li>
@@ -11,10 +11,10 @@
   <li><span class="tag tag-ext">EXT</span> <strong>Held elsewhere.</strong> Outside the Internet Archive, with no working Wayback capture; the holder is named, often the Department of Energy&rsquo;s <a href="https://www.osti.gov/">OSTI</a>.</li>
 </ul>
 
-<h2>Dates covered</h2>
+<h2>Dates Covered</h2>
 <p>From the Atomic Energy Commission's decision in 1950 to the present. The sources themselves run from 1950 newspapers to web pages captured in 2026.</p>
 
-<h2>Topics covered</h2>
+<h2>Topics Covered</h2>
 <p>The choice of site and the towns moved off it, among them Ellenton and Dunbarton; building the plant; the reactors and separations plants; early ecology and the Savannah River Ecology Laboratory; life in the towns around the plant, from crowded schools to payments in place of taxes; what the plant did to the land and how it recovered; the L-Reactor restart and lawsuit; the 1988 disclosures and shutdowns; the change from Du Pont to Westinghouse; liquid waste and the glass-making plant; sealing the P and R reactors in place; the MOX plant and plutonium pits; the national laboratory; and how the site is remembered.</p>
 
 <h2>Controversies</h2>
@@ -40,14 +40,14 @@
   <li><strong>The ecology laboratory.</strong> Funding cuts in 2006 and 2007 brought layoffs, a rebuke from the site&rsquo;s own Citizens Advisory Board and a House hearing. <a href="index.html#the-laboratories">Read it in the story</a>.</li>
 </ul>
 
-<h2>The documentary <em>Building Bombs</em></h2>
+<h2>The Documentary <em>Building Bombs</em></h2>
 <p><em>Building Bombs</em> (1989), made by Mark Mori and Susan Robinson, is a film about the environmental legacy and social impact of the Savannah River Plant, &ldquo;the nation&rsquo;s largest manufacturer of hydrogen bomb materials during the Cold War&rdquo;, in the words of PBS&rsquo;s <em>POV</em> <a class="cite" href="https://web.archive.org/web/20190913183311/http://www.pbs.org/pov/watch/buildingbombs/"><span class="tag tag-wb">WB</span></a>. It was nominated for the Academy Award for Best Documentary Feature at the 63rd Academy Awards in March 1991 <a class="cite" href="https://web.archive.org/web/20261011042140/https://www.oscars.org/oscars/ceremonies/1991"><span class="tag tag-wb">WB</span>: oscars.org</a>.</p>
 <p>Public television did not show it at first. In 1992 the cable series <em>Alternative Views</em> presented the film with an interview with its co-director, saying PBS had refused to broadcast it <a class="cite" href="https://archive.org/details/AV_466-NO_NUKES_IS_GOOD_NUKES"><span class="tag tag-ia">IA</span>: <em>Alternative Views</em> #466</a>. After three years of argument and a campaign Mori organized, an edited version, retitled <em>Building Bombs: The Legacy</em>, aired on <em>POV</em> on August 10, 1993 <a class="cite" href="https://web.archive.org/web/20250108131242/https://www.latimes.com/archives/la-xpm-1993-08-10-ca-22486-story.html"><span class="tag tag-wb">WB</span>: <em>Los Angeles Times</em></a>.</p>
 
-<h2>Words used in this story</h2>
+<h2>Words Used in This Story</h2>
 <p>The <a href="glossary.html">Glossary</a> explains the technical words, agencies and places in plain English.</p>
 
-<h2 id="where-the-sources-disagree">Where the sources disagree</h2>
+<h2 id="where-the-sources-disagree">Where the Sources Disagree</h2>
 <p>Where sources disagree, the story gives each version with its source rather than choosing. These are the disagreements.</p>
 <!-- DISAGREE -->
 
@@ -98,6 +98,6 @@
 </ul>
 <p>The banner is a detail of the map of the site, toned to sit behind the title.</p>
 
-<h2>How it was built</h2>
+<h2>How It Was Built</h2>
 <p>Researched from archive.org search and full-text search, the Wayback Machine's CDX server and the OSTI catalog. The story and the source lists are written in Markdown, and a short Python script turns them into these pages. The timeline is drawn from the same story, event by event. The code and the source notes are on <a href="https://github.com/Robin-IA/savannah-river-plant-explorer">GitHub</a>.</p>
 <p>Made by Robin Fay, Democracy's Library, with <a href="https://claude.com/claude-code">Claude Code</a>.</p>

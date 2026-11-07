@@ -101,7 +101,7 @@
       "text": "Truman writes to Du Pont asking it to build and run the plant",
       "tag": "WB",
       "ref": "doe-history",
-      "section": "A site for the hydrogen bomb"
+      "section": "A Site for the Hydrogen Bomb"
     },
     {
       "when": 1950.91,
@@ -110,7 +110,7 @@
       "text": "The Savannah River Plant is announced: 250,000 acres, about 1,500 families to move",
       "tag": "WB",
       "ref": "fifty-8",
-      "section": "A site for the hydrogen bomb",
+      "section": "A Site for the Hydrogen Bomb",
       "label": "Plant announced"
     },
     {
@@ -120,7 +120,7 @@
       "text": "Deadline for residents of the first area to leave",
       "tag": "WB",
       "ref": "fifty-8",
-      "section": "The towns inside the fence"
+      "section": "The Towns Inside the Fence"
     },
     {
       "when": 1951.4,
@@ -147,7 +147,7 @@
       "text": "Jet reports Black families moving whole houses to New Ellenton",
       "tag": "IA",
       "href": "https://archive.org/details/sim_jet_1951-12-20_1_8",
-      "section": "The towns inside the fence",
+      "section": "The Towns Inside the Fence",
       "label": "Houses moved"
     },
     {
@@ -184,7 +184,7 @@
       "text": "Congress hears that New Ellenton was left out of aid",
       "tag": "DL",
       "href": "https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_june-16-17-22-and-23-1953",
-      "section": "The towns inside the fence"
+      "section": "The Towns Inside the Fence"
     },
     {
       "when": 1954.99,
@@ -202,7 +202,7 @@
       "text": "Contamination after rain sets off workers' monitors; the plant blames Nevada fallout, critics later a reactor accident",
       "tag": "WB",
       "ref": "cdc-ch6",
-      "section": "Radioactive releases"
+      "section": "Radioactive Releases"
     },
     {
       "when": 1956.5,
@@ -220,7 +220,7 @@
       "text": "An R reactor fuel failure sends over 1,900 curies into a seepage basin",
       "tag": "WB",
       "ref": "cdc-ch5",
-      "section": "Radioactive releases"
+      "section": "Radioactive Releases"
     },
     {
       "when": 1958.5,
@@ -285,7 +285,7 @@
       "text": "Plutonium made lower in Pu-240 to blend with Hanford's, for the buildup",
       "tag": "WB",
       "ref": "fifty-19",
-      "section": "L-Reactor comes back"
+      "section": "L-Reactor Comes Back"
     },
     {
       "when": 1983.2,
@@ -294,7 +294,7 @@
       "text": "The plant reports a contaminated drinking-water well for its own employees",
       "tag": "DL",
       "href": "https://archive.org/details/micro_IA41152617_0148",
-      "section": "Under the ground"
+      "section": "Under the Ground"
     },
     {
       "when": 1983.54,
@@ -303,7 +303,7 @@
       "text": "Court rules the L reactor restart needs an environmental impact statement",
       "tag": "WB",
       "ref": "nrdc-vaughn",
-      "section": "L-Reactor comes back",
+      "section": "L-Reactor Comes Back",
       "label": "Court: L needs an EIS"
     },
     {
@@ -322,7 +322,7 @@
       "text": "A National Academy of Sciences panel reviews reactor safety; Du Pont says it will leave",
       "tag": "IA",
       "href": "https://archive.org/details/ERIC_ED299108",
-      "section": "1987–1988: the reactors stop"
+      "section": "1987–1988: The Reactors Stop"
     },
     {
       "when": 1988.75,
@@ -331,7 +331,7 @@
       "text": "GAO tells Congress how P reactor's start-up went ahead despite a reactivity shortfall",
       "tag": "DL",
       "href": "https://archive.org/details/micro_IA41152603_0340",
-      "section": "1987–1988: the reactors stop",
+      "section": "1987–1988: The Reactors Stop",
       "label": "GAO on P start-up"
     },
     {
@@ -341,7 +341,7 @@
       "text": "The New York Times reports on its front page that severe accidents were kept secret for up to 31 years",
       "tag": "WB",
       "ref": "nyt-881001",
-      "section": "1987–1988: the reactors stop",
+      "section": "1987–1988: The Reactors Stop",
       "label": "Secrets on page one"
     },
     {
@@ -406,7 +406,7 @@
       "text": "The Defense Waste Processing Facility begins turning tank waste into glass",
       "tag": "WB",
       "ref": "dwpf-30",
-      "section": "The tanks",
+      "section": "The Tanks",
       "label": "Waste into glass"
     },
     {
@@ -416,7 +416,7 @@
       "text": "DOE decides to bring foreign research reactor fuel to the site, mostly through Charleston",
       "tag": "DL",
       "href": "https://archive.org/details/sim_federal-register-find_1996-05-17_61_97",
-      "section": "A cleanup site"
+      "section": "A Cleanup Site"
     },
     {
       "when": 1997.5,
@@ -425,7 +425,7 @@
       "text": "Tanks 17 and 20 closed, the first in the nation",
       "tag": "WB",
       "ref": "tanks-18-19",
-      "section": "The tanks"
+      "section": "The Tanks"
     },
     {
       "when": 1998.1,
@@ -434,7 +434,7 @@
       "text": "In-Tank Precipitation abandoned after almost half a billion dollars",
       "tag": "DL",
       "href": "https://archive.org/details/gov.gpo.fdsys.CHRG-106hhrg64703",
-      "section": "The tanks"
+      "section": "The Tanks"
     },
     {
       "when": 2002.33,
@@ -443,7 +443,7 @@
       "text": "Governor Hodges sues to stop Rocky Flats plutonium coming to the site",
       "tag": "DL",
       "href": "https://archive.org/details/micro_IA40386015_0538",
-      "section": "Plutonium: MOX and pits",
+      "section": "Plutonium: MOX and Pits",
       "label": "Hodges sues"
     },
     {
@@ -453,7 +453,7 @@
       "text": "The last spent fuel leaves the receiving basin, closing a forty-year era",
       "tag": "WB",
       "ref": "rbof",
-      "section": "A cleanup site"
+      "section": "A Cleanup Site"
     },
     {
       "when": 2004.5,
@@ -462,7 +462,7 @@
       "text": "The site's laboratory is named the newest national laboratory",
       "tag": "WB",
       "ref": "srnl-2004",
-      "section": "The laboratories"
+      "section": "The Laboratories"
     },
     {
       "when": 2004.9,
@@ -471,7 +471,7 @@
       "text": "Section 3116 settles what tank waste may stay in the ground",
       "tag": "WB",
       "ref": "pl-108-375",
-      "section": "The tanks"
+      "section": "The Tanks"
     },
     {
       "when": 2007.55,
@@ -480,7 +480,7 @@
       "text": "House Science Committee hearing on the ecology laboratory's funding cut",
       "tag": "DL",
       "href": "https://archive.org/details/gov.gpo.fdsys.CHRG-110hhrg36143",
-      "section": "The laboratories"
+      "section": "The Laboratories"
     },
     {
       "when": 2007.88,
@@ -489,7 +489,7 @@
       "text": "A petition asks to add all workers from 1950 to 2007 to the Special Exposure Cohort",
       "tag": "WB",
       "ref": "niosh-srs-2026",
-      "section": "Sick workers"
+      "section": "Sick Workers"
     },
     {
       "when": 2008.05,
@@ -507,7 +507,7 @@
       "text": "Historic markers for P and R, the first inside the fence",
       "tag": "WB",
       "ref": "pr-markers",
-      "section": "Sealing the reactors"
+      "section": "Sealing the Reactors"
     },
     {
       "when": 2011.7,
@@ -516,7 +516,7 @@
       "text": "P and R reactors sealed in place with Recovery Act money",
       "tag": "WB",
       "ref": "osti-isd",
-      "section": "Sealing the reactors",
+      "section": "Sealing the Reactors",
       "label": "P and R sealed"
     },
     {
@@ -526,7 +526,7 @@
       "text": "Workers from 1953 to 1972 added to the Special Exposure Cohort for compensation",
       "tag": "WB",
       "ref": "niosh-srs",
-      "section": "Radioactive releases"
+      "section": "Radioactive Releases"
     },
     {
       "when": 2012.16,
@@ -535,7 +535,7 @@
       "text": "ATSDR warns that heavy eating of river bass, bowfin and catfish may raise mercury risks",
       "tag": "WB",
       "ref": "atsdr-2012",
-      "section": "The neighbors and the river"
+      "section": "The Neighbors and the River"
     },
     {
       "when": 2014.5,
@@ -553,7 +553,7 @@
       "text": "The 4,000th canister of glass, of about 8,000 expected",
       "tag": "WB",
       "ref": "dwpf-20",
-      "section": "The tanks"
+      "section": "The Tanks"
     },
     {
       "when": 2016.5,
@@ -562,7 +562,7 @@
       "text": "DOE puts the MOX plant at $17.17 billion, finished in 2048",
       "tag": "WB",
       "ref": "mox-baseline",
-      "section": "Plutonium: MOX and pits"
+      "section": "Plutonium: MOX and Pits"
     },
     {
       "when": 2018.8,
@@ -571,7 +571,7 @@
       "text": "DOE secretly ships half a metric ton of plutonium from the site to Nevada",
       "tag": "WB",
       "ref": "nv-ag",
-      "section": "Plutonium: MOX and pits"
+      "section": "Plutonium: MOX and Pits"
     },
     {
       "when": 2019.02,
@@ -580,7 +580,7 @@
       "text": "The Fourth Circuit lifts the injunction keeping MOX alive",
       "tag": "WB",
       "ref": "ca4-mox",
-      "section": "Plutonium: MOX and pits",
+      "section": "Plutonium: MOX and Pits",
       "label": "MOX ends"
     },
     {
@@ -590,7 +590,7 @@
       "text": "DOE rejects the safety board's warning on the tritium facilities",
       "tag": "WB",
       "ref": "fr-dnfsb-reply",
-      "section": "Plutonium: MOX and pits"
+      "section": "Plutonium: MOX and Pits"
     },
     {
       "when": 2020.66,
@@ -599,7 +599,7 @@
       "text": "DOE agrees to pay South Carolina $600 million and remove 9.5 metric tons of plutonium by 2037",
       "tag": "WB",
       "ref": "doe-sc-2020",
-      "section": "Moving plutonium out"
+      "section": "Moving Plutonium Out"
     },
     {
       "when": 2020.87,
@@ -608,7 +608,7 @@
       "text": "DOE decides to make plutonium pits at Savannah River",
       "tag": "WB",
       "ref": "fr-pits",
-      "section": "Making pits again",
+      "section": "Making Pits Again",
       "label": "Pits decided"
     },
     {
@@ -618,7 +618,7 @@
       "text": "The laboratory gets its own contract, run by Battelle Savannah River Alliance",
       "tag": "WB",
       "ref": "doe-srnl-2020",
-      "section": "Who runs the site"
+      "section": "Who Runs the Site"
     },
     {
       "when": 2021.5,
@@ -636,7 +636,7 @@
       "text": "Savannah River Mission Completion takes over the liquid waste",
       "tag": "WB",
       "ref": "doe-srmc-2022",
-      "section": "Emptying the tanks"
+      "section": "Emptying the Tanks"
     },
     {
       "when": 2022.45,
@@ -654,7 +654,7 @@
       "text": "Safety board warns the pit plant's controls may not protect glove-box workers",
       "tag": "WB",
       "ref": "dnfsb-2023",
-      "section": "Making pits again"
+      "section": "Making Pits Again"
     },
     {
       "when": 2024.28,
@@ -663,7 +663,7 @@
       "text": "Compensation and medical payments to the site's sick workers pass $2.2 billion",
       "tag": "WB",
       "ref": "dol-2024",
-      "section": "Sick workers and the river today"
+      "section": "Sick Workers and the River Today"
     },
     {
       "when": 2024.75,
@@ -672,7 +672,7 @@
       "text": "NNSA, the weapons agency, becomes the site's landlord",
       "tag": "WB",
       "ref": "srs-landlord-2024",
-      "section": "Who runs the site"
+      "section": "Who Runs the Site"
     },
     {
       "when": 2025.39,
@@ -681,7 +681,7 @@
       "text": "Executive order halts dilute and dispose, except what DOE owes South Carolina",
       "tag": "WB",
       "ref": "eo-14302",
-      "section": "Moving plutonium out"
+      "section": "Moving Plutonium Out"
     },
     {
       "when": 2026.09,
@@ -690,7 +690,7 @@
       "text": "DOE reverses course and restores uranium recovery at H Canyon",
       "tag": "WB",
       "ref": "doe-hcanyon-2026",
-      "section": "Emptying the tanks"
+      "section": "Emptying the Tanks"
     },
     {
       "when": 2026.37,
@@ -699,7 +699,7 @@
       "text": "Tank 14 becomes the eighth old-style tank to finish waste removal in under two years",
       "tag": "WB",
       "ref": "tank-14",
-      "section": "Emptying the tanks"
+      "section": "Emptying the Tanks"
     },
     {
       "when": 2026.76,
@@ -717,7 +717,7 @@
       "text": "DOE authorizes full construction of the pit plant",
       "tag": "WB",
       "ref": "nnsa-srppf",
-      "section": "Making pits again",
+      "section": "Making Pits Again",
       "label": "Pit plant approved"
     },
     {
@@ -727,7 +727,7 @@
       "text": "A laboratory fire leads to a Site Area Emergency; no contamination detected",
       "tag": "WB",
       "ref": "srs-fire-2026",
-      "section": "Who runs the site"
+      "section": "Who Runs the Site"
     }
   ]
 }

@@ -21,9 +21,9 @@ rather than choosing.
 
 ---
 
-## Chapter 1. Building the bomb plant, 1950–1969
+## Chapter 1. Building the Bomb Plant, 1950–1969
 
-### A site for the hydrogen bomb
+### A Site for the Hydrogen Bomb
 
 In 1950 the Atomic Energy Commission was expanding the nation's production of
 material for nuclear weapons, and it asked the Du Pont company to build and
@@ -51,7 +51,7 @@ morning it was in the *Atlanta Constitution*
 and in newspapers as far away as Victoria, British Columbia
 ([IA](https://archive.org/details/victoriadailytimes1950-11-29)).
 
-### The towns inside the fence
+### The Towns Inside the Fence
 
 The land was not empty. It held small, rural farming communities. Most of
 the farms were worked by tenants, and most of the farm workers were African
@@ -250,7 +250,7 @@ closed in December 1964, for a different reason: the AEC was turning away
 from heavy-water power reactors, and it was never restarted
 ([WB: ch. 13][fifty-13]).
 
-### Radioactive releases
+### Radioactive Releases
 
 The plant's own figures understated its early releases. The CDC's dose
 reconstruction found that the radioactive iodine-131 released to the air in
@@ -405,7 +405,7 @@ to know more, and the plant came under scrutiny, as
 
 ---
 
-## Chapter 2. The reactors under scrutiny, 1970–1992
+## Chapter 2. The Reactors Under Scrutiny, 1970–1992
 
 ### Radioactivity and Community Safety
 
@@ -445,7 +445,7 @@ hunt for radioactive cesium-137 before releasing them to hunters
 The hunts still go on today; see
 [Chapter 4](chapter-4.html#ecology-and-the-srs).
 
-### L-Reactor comes back
+### L-Reactor Comes Back
 
 However, the Reagan-era buildup of nuclear weapons needed more plutonium. In 1982 the plant lowered the
 Pu-240 content of its product to blend with Hanford's ([WB: *SRS at Fifty*
@@ -493,7 +493,7 @@ aging reactors carrying the buildup, one down for a cracked vessel — a
 clipping that survives in the CIA's files
 ([IA](https://archive.org/details/cia-readingroom-document-cia-rdp88g01117r000401020009-5)).
 
-### Under the ground
+### Under the Ground
 
 What the plant had poured into its seepage basins came back through the
 groundwater. Reviewing permit applications in 1981, South Carolina's health
@@ -536,7 +536,7 @@ designed to reach its goal
 </figure>
 
 
-### 1987–1988: the reactors stop
+### 1987–1988: The Reactors Stop
 
 A National Academy of Sciences panel reviewed safety at the defense
 production reactors for DOE in 1987
@@ -729,9 +729,9 @@ red-cockaded woodpeckers were down to four birds; at DOE's request, Forest
 Service scientists began carving artificial nest cavities and moving birds in
 from other forests ([DL: Forest Service](https://archive.org/details/redcockadedwoodp23unit)).
 
-## Chapter 3. After the bombs, 1992–2020
+## Chapter 3. After the Bombs, 1992–2020
 
-### A cleanup site
+### A Cleanup Site
 
 The official history marks the turn plainly: the mission became environmental
 management, not production ([WB: *SRS at Fifty* ch. 20][fifty-20]). DOE
@@ -761,7 +761,7 @@ Register*,
 South Carolina's governor took DOE to court over it
 ([DL](https://archive.org/details/micro_IA40386015_0538)).
 
-### The tanks
+### The Tanks
 
 The largest legacy was liquid: about 36 million gallons in 49 tanks, roughly
 421 million curies ([WB: DWPF fact sheet][dwpf-fact]). The Defense Waste
@@ -805,7 +805,7 @@ grouted wastewater from the glass plant to a commercial disposal site in
 Andrews, Texas, beginning with 8 gallons
 ([WB: *Federal Register*][fr-hlw-ea]; [WB: *Federal Register*][fr-hlw-fonsi]).
 
-### Sealing the reactors
+### Sealing the Reactors
 
 In March 2008 the site put up South Carolina historic markers for P and R,
 the first inside the fence ([WB][pr-markers]). Then Recovery Act money
@@ -823,7 +823,7 @@ schedule without the stimulus ([WB][pr-closure]). The release marking the
 end of that work is gone from srs.gov; the Wayback capture is the copy
 ([WB][pr-closure]).
 
-### Plutonium: MOX and pits
+### Plutonium: MOX and Pits
 
 South Carolina's fight over radioactive plutonium began before MOX. In April 2002 DOE
 decided to store surplus plutonium from Rocky Flats at Savannah River.
@@ -889,7 +889,7 @@ radiation sickness or death in a significant number of people ([WB: *Federal
 Register*][fr-dnfsb]). NNSA's administrator replied, "I do not accept
 Recommendation 2019-2" ([WB: *Federal Register*][fr-dnfsb-reply]).
 
-### Sick workers
+### Sick Workers
 
 Compensation for the plant's sick workers came slowly. At a 2003 House
 hearing Representative Charlie Norwood of Georgia said more than 300 of his
@@ -921,7 +921,7 @@ That November a petition asked to add every worker from 1950 to 2007 to the
 Special Exposure Cohort; the special classes for the site came from it
 ([WB: NIOSH][niosh-srs-2026]).
 
-### The neighbors and the river
+### The Neighbors and the River
 
 The Medical University of South Carolina ran a cancer and birth-defects
 registry from 1991 to 1995 for the counties around the site and down the
@@ -995,7 +995,7 @@ shut down they were studying how to replant Pen Branch and Four Mile Creek.
 The site then held 30 set-aside research areas of 14,005 acres, and 152
 woodpeckers by 1999 ([IA: SREL scientists, 2002](https://archive.org/details/DTIC_ADA400802)).
 
-### The laboratories
+### The Laboratories
 
 The site's laboratory was named the country's newest national laboratory in
 2004 ([WB][srnl-2004]).
@@ -1036,9 +1036,9 @@ home to the zero-power Process Development Pile, which set the physics for
 plutonium and tritium production in the five reactors
 ([WB: Library of Congress, HAER SC-43][haer-sc43]).
 
-## Chapter 4. What's happening now, 2020 to today
+## Chapter 4. What's Happening Now, 2020 to Today
 
-### Making pits again
+### Making Pits Again
 
 The site's weapons work is growing again. DOE decided in November 2020 to
 make pits, the radioactive plutonium cores of nuclear weapons, at Savannah River
@@ -1075,7 +1075,7 @@ adequately protect facility workers" handling plutonium in glove boxes
 were "a significant improvement to safety" and resolved its concerns
 ([WB: safety board][dnfsb-2025]).
 
-### Moving plutonium out
+### Moving Plutonium Out
 
 South Carolina won a deal over the plutonium shipped in for the MOX plant.
 On August 31, 2020, DOE agreed to pay the state $600 million and to remove
@@ -1100,7 +1100,7 @@ March 2026 DOE said it would restart HB Line, a plutonium processing plant at
 H Canyon shut down a few years earlier, to recycle plutonium into reactor fuel
 ([WB: American Nuclear Society][ans-hbline]).
 
-### Emptying the tanks
+### Emptying the Tanks
 
 A new contractor, Savannah River Mission Completion, took over the liquid
 waste in February 2022 ([WB: DOE][doe-srmc-2022]), and DOE set a goal of
@@ -1128,7 +1128,7 @@ uranium recovery, so H Canyon can make fuel for advanced reactors
 for briefings on what the restart means for the environment
 ([EXT: SRS Citizens Advisory Board][cab-387]).
 
-### Who runs the site
+### Who Runs the Site
 
 The laboratory now stands on its own. In December 2020 DOE gave Savannah
 River National Laboratory a separate contract, run by Battelle Savannah River
@@ -1154,7 +1154,7 @@ detectable levels of contamination" ([WB: SRS][srs-fire-2026]). Its own
 releases give two different times for when the emergency was declared
 ([EXT: SRS][srs-fire-2]).
 
-### Sick workers and the river today
+### Sick Workers and the River Today
 
 Payments to the site's sick workers keep growing. Labor Department figures
 show $271 million in compensation and medical bills by November 2008
@@ -1230,7 +1230,7 @@ its mercury limits protective enough that it sets none for radioactivity
 fish from its creek mouths in 2024 would get at most about 0.24 millirem of
 radiation, all from cesium-137 ([WB: SRS][srs-dose-2024]).
 
-### Looking to the future
+### Looking to the Future
 
 Much of the site's future is already planned. In 2024 it had a budget of about $3.8 billion a year and about 13,400 workers
 ([WB: SRS][srs-landlord-2024]). Its largest new project, the plant to make
