@@ -26,18 +26,20 @@ rather than choosing.
 
 ### A site for the hydrogen bomb
 
-<figure class="fig">
+In June 1950, with war begun in Korea, the Atomic Energy Commission enlarged
+the job it was asking Du Pont to take on: three more heavy-water reactors,
+five in all ([WB: *SRS at Fifty* ch. 7][fifty-7]).
+
+<figure class="fig tall">
 <img src="img/srs-map-2012.png" width="755" height="874" alt="Map of the Savannah River Site, shaded orange, on the South Carolina side of the Savannah River across from Georgia. Lettered operating areas are marked inside it, among them the reactor areas C, K, L, P and R, with L Lake and Par Pond. Around it are Jackson, New Ellenton, Aiken, North Augusta, Augusta, Williston, Snelling and Barnwell." loading="lazy">
 <figcaption>The site and the towns around it, among them Jackson and New Ellenton at its northern edge. The letters mark operating areas, including the five reactor areas C, K, L, P and R. Department of Energy map from the site&rsquo;s environmental report for 2012, now <a href="https://web.archive.org/web/20250416061356/https://www.srs.gov/general/pubs/ERsum/er12/12erpdfs/SRSMaps.pdf">preserved in Wayback</a>. <span class="credit">Public domain, via <a href="https://commons.wikimedia.org/wiki/File:Savannah_River_Site_and_surrounding_area.png">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-In June 1950, with war begun in Korea, the Atomic Energy Commission enlarged
-the job it was asking Du Pont to take on: three more heavy-water reactors,
-five in all ([WB: *SRS at Fifty* ch. 7][fifty-7]). Du Pont surveyed candidate
-sites and settled on the middle Savannah River in South Carolina, a tract big
-enough to hold an exclusion zone around the reactors
-([WB: ch. 7][fifty-7]). DOE's own timeline dates President Truman's letter to
-Du Pont to 20 October 1950 ([WB: DOE, energy.gov/srs][doe-history]).
+Du Pont surveyed candidate sites and settled on the middle Savannah River in
+South Carolina, a tract big enough to hold an exclusion zone around the
+reactors ([WB: ch. 7][fifty-7]). DOE's own timeline dates President Truman's
+letter to Du Pont to 20 October 1950 ([WB: DOE,
+energy.gov/srs][doe-history]).
 
 The announcement came at noon on 28 November 1950: about 250,000 acres in
 Aiken and Barnwell counties, to be called the Savannah River Plant, designed,
@@ -68,15 +70,18 @@ disputed an appraisal went to federal condemnation proceedings; at least
 government was acquiring 265 tracts in Ellenton alone
 ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1951-11-27)).
 
-Owners objected to how their land was bought. A congressional staff report in
-late 1951 found Ellenton residents told to be gone by February 1952 while
+Owners objected to how their land was bought. A congressional staff report
+in late 1951 found Ellenton residents told to be gone by February 1952 while
 their property was still unappraised, each owner given a single offer at the
 appraised value, and those who took the first offer as much as 20 percent
 worse off than those who held out; about a hundred owners met twice to
-protest the prices. The Atomic Energy Commission answered that most
-condemnations came from defects in title rather than price, though it
-conceded that juries in seven contested cases had awarded substantially more
-than the government's appraisal ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1951-11-27)).
+protest the prices.
+
+The Atomic Energy Commission answered that most condemnations came from
+defects in title rather than price, though it conceded that juries in seven
+contested cases had awarded substantially more than the government's
+appraisal
+([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1951-11-27)).
 
 *The Reporter* told the national story in March 1951 as the quiet doom of
 Ellenton ([IA](https://archive.org/details/sim_reporter_1951-03-06_4_5)).
@@ -91,15 +96,17 @@ it needed
 
 The displaced spoke for themselves decades later, in oral histories
 collected from 1990 and published as *Memories of Home* for Ellenton and for
-Dunbarton and Meyers Mill ([WB: OSTI 272945][osti-ellenton];
-[WB: OSTI 10171577][osti-dunbarton]). The program's web pages and the
-chapter PDFs survive in Wayback; srarp.org itself is gone
-([WB][srarp-towns]; [WB: Ellenton volume][srarp-ellenton]). James
-McBride's life of James Brown touches on the Black sharecroppers forced out
-of Ellenton ([IA](https://archive.org/details/killemleavesearc0000mcbr)).
-Louise Cassels's *The Unexpected Exodus* (1971), the classic memoir of the
-leaving, is catalogued in Open Library, though it has no copy to read or
-borrow yet ([OL: Open Library][cassels]).
+Dunbarton and Meyers Mill ([WB: OSTI 272945][osti-ellenton]; [WB: OSTI
+10171577][osti-dunbarton]). The program's web pages and the chapter PDFs
+survive in Wayback; srarp.org itself is gone ([WB][srarp-towns]; [WB:
+Ellenton volume][srarp-ellenton]).
+
+James McBride's life of James Brown touches on the Black sharecroppers
+forced out of Ellenton
+([IA](https://archive.org/details/killemleavesearc0000mcbr)). Louise
+Cassels's *The Unexpected Exodus* (1971), the classic memoir of the leaving,
+is catalogued in Open Library, though it has no copy to read or borrow yet
+([OL: Open Library][cassels]).
 
 ### Building it
 
@@ -115,13 +122,16 @@ hiring.
 Getting hired was a fight of its own. In November 1951 a House labor
 subcommittee under Graham Barden held five days of hearings in Augusta on
 charges that union membership had become a condition of work
-([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_november-5-9-1951_13)). Its report the next year found that Du Pont hired manual
-labor through a verbal understanding with the AFL building-trades unions,
-turning job seekers away at the gate, and that Atomic Energy Commission
-officials had either approved or failed to find out
-([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1952_14)). In November 1952 pickets from an AFL engineers' union
-nearly stopped construction, with about 25,000 other workers honoring the
-line ([IA](https://archive.org/details/sim_business-week_1952-11-15_1211)).
+([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_november-5-9-1951_13)).
+
+Its report the next year found that Du Pont hired manual labor through a
+verbal understanding with the AFL building-trades unions, turning job
+seekers away at the gate, and that Atomic Energy Commission officials had
+either approved or failed to find out
+([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1952_14)).
+In November 1952 pickets from an AFL engineers' union nearly stopped
+construction, with about 25,000 other workers honoring the line
+([IA](https://archive.org/details/sim_business-week_1952-11-15_1211)).
 
 The same system kept Black workers out of the skilled trades. The National
 Urban League's field notes, filed with the Barden hearings, record that it
@@ -140,6 +150,7 @@ February 1951 that expected the construction peak around the start of 1953
 and by February 1952 the mayors of New Ellenton and Augusta were testifying
 about dormitories and Du Pont's part in housing
 ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1952-02-22_3)).
+
 *House & Home* reported about 4,000 trailers for married workers
 ([IA](https://archive.org/details/usmodernist-HH-1953-08)). The housing
 builder later sued Du Pont in a case that reached the Supreme Court
@@ -150,32 +161,35 @@ government-owned, contractor-operated plant was in law
 
 Du Pont wrote its own record of all this, volume by volume, in construction
 and design histories now on OSTI ([WB: OSTI 10159481][osti-construction];
-[EXT: OSTI 10151705][osti-plantwide]). The company's administrative files are
-at the Hagley Museum and Library, by DOE's own finding aid
-([WB: DOE OHRE][ohre-admin]). Hagley's guide to its Atomic Energy Division
-records, 80 linear feet from 1942 to 1989, describes a Savannah River Project
-series covering site selection, design and construction, environment and
-community impact, safety and waste disposal ([WB: Hagley finding aid][hagley-1957]).
-Its photograph collection for the plant, 1951 to 1984, holds 1,412 prints and
-388 lantern slides ([WB: Hagley finding aid][hagley-1989-335]).
+[EXT: OSTI 10151705][osti-plantwide]). The company's administrative files
+are at the Hagley Museum and Library, by DOE's own finding aid ([WB: DOE
+OHRE][ohre-admin]).
+
+Hagley's guide to its Atomic Energy Division records, 80 linear feet from
+1942 to 1989, describes a Savannah River Project series covering site
+selection, design and construction, environment and community impact, safety
+and waste disposal ([WB: Hagley finding aid][hagley-1957]). Its photograph
+collection for the plant, 1951 to 1984, holds 1,412 prints and 388 lantern
+slides ([WB: Hagley finding aid][hagley-1989-335]).
 
 ### Running it
+
+The 305-M test pile was the first reactor to go critical on the site, in
+1952, the year heavy-water production began in D Area ([WB: srs.gov
+1950s][srs-1950]). R reactor went critical in December 1953, P on 20
+February 1954, and all five were running by the end of March 1955 ([WB: *SRS
+at Fifty* ch. 11][fifty-11]).
 
 <figure class="fig wide">
 <img src="img/srp-reactor-operation.png" width="959" height="514" alt="Diagram of a Savannah River production reactor. Fuel and targets from the 300 Area are put together in an assembly area and loaded into the reactor inside a containment building. Heavy water circulates through the reactor and through heat exchangers cooled by river water. Irradiated assemblies go to a disassembly basin of deionized water and then to the separations areas. Monitors check the exhaust stack, the hot water returned to the river and the purge water." loading="lazy">
 <figcaption>How a production reactor worked: heavy water moderated and cooled the reactor, river water cooled the heavy water, and irradiated fuel and targets went from the disassembly basin to the separations areas. Diagram from <em>The Savannah River Site at Fifty</em> (2002), p. 331. <span class="credit">US Department of Energy, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Savannah_River_Plant_reactor_design.png">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-The 305-M test pile was the first reactor to go critical on the site, in
-1952, the year heavy-water production began in D Area
-([WB: srs.gov 1950s][srs-1950]). R reactor went critical in December 1953, P
-on 20 February 1954, and all five were running by the end of March 1955
-([WB: *SRS at Fifty* ch. 11][fifty-11]). The F Area separations plant
-started in 1954 and H Area in 1955; tritium went to the AEC from 1955; the
-basic plant was complete in 1956 ([WB: srs.gov 1950s][srs-1950];
-[WB: History Highlights][history1]). The first shipment of plutonium is
-dated December 1954 by one official source and 1955 by others
-([WB: ch. 11][fifty-11]; [WB][history1]).
+The F Area separations plant started in 1954 and H Area in 1955; tritium
+went to the AEC from 1955; the basic plant was complete in 1956 ([WB:
+srs.gov 1950s][srs-1950]; [WB: History Highlights][history1]). The first
+shipment of plutonium is dated December 1954 by one official source and 1955
+by others ([WB: ch. 11][fifty-11]; [WB][history1]).
 
 In 1956 the neutrino was confirmed at P reactor. R and the heavy-water
 components test reactor shut down in 1964, and L in 1968
@@ -198,10 +212,12 @@ facilities ([WB][cdc-ch1]).
 A fuel failure in R reactor in November 1957 sent more than 1,900 curies
 into a seepage basin dug only that year, and in 1958 three high-level waste
 tanks in H Area leaked through their steel walls ([WB: CDC Phase II ch.
-5][cdc-ch5]). The final report judged the doses to people living nearby
-small, but found that a child born in 1955 received much of a lifetime dose
-from the site in its first years, from those early iodine releases ([WB: CDC
-Phase III][cdc-phase3]).
+5][cdc-ch5]).
+
+The final report judged the doses to people living nearby small, but found
+that a child born in 1955 received much of a lifetime dose from the site in
+its first years, from those early iodine releases ([WB: CDC Phase
+III][cdc-phase3]).
 
 On 14 March 1955, after a light rain, contamination across the plant set off
 the shoe monitors of workers coming in from outside. The plant blamed
@@ -227,18 +243,19 @@ reconstructing each worker's dose ([WB: NIOSH][niosh-srs]).
 ### The ecologists arrive first
 
 Before the reactors ran, the river was surveyed. Ruth Patrick of the Academy
-of Natural Sciences made a baseline survey in 1951
-([WB: srs.gov 1950s][srs-1950]), and the Public Health Service sampled the
-river's water and its natural radioactivity in 1951–52
+of Natural Sciences made a baseline survey in 1951 ([WB: srs.gov
+1950s][srs-1950]), and the Public Health Service sampled the river's water
+and its natural radioactivity in 1951–52
 ([IA](https://archive.org/details/micro_IA41159405_0033);
-[IA](https://archive.org/details/micro_IA41159413_0274)). AEC officials
-approached Eugene Odum of the University of Georgia in 1951 to study the
-reservation's ecosystems
+[IA](https://archive.org/details/micro_IA41159413_0274)).
+
+AEC officials approached Eugene Odum of the University of Georgia in 1951 to
+study the reservation's ecosystems
 ([IA](https://archive.org/details/bigecologyemerge0000cole);
 [IA](https://archive.org/details/isbn_9780820324739)). That work became a
 permanent laboratory in 1961 ([WB: srs.gov 1960s][srs-1960]) — the Savannah
-River Ecology Laboratory, which dates its own founding to 1951
-([WB: SREL][srel-radioecology]).
+River Ecology Laboratory, which dates its own founding to 1951 ([WB:
+SREL][srel-radioecology]).
 
 ---
 
@@ -246,21 +263,23 @@ River Ecology Laboratory, which dates its own founding to 1951
 
 ### A plant that measured itself
 
+Through the 1970s the plant reported its releases. Du Pont's semiannual
+monitoring summaries were reprinted in the federal *Radiation Data and
+Reports*
+([DL](https://archive.org/details/sim_radiation-data-and-reports_1970-12_11_12)),
+and its annual environmental reports run from 1974 on OSTI ([WB: OSTI
+4174736][osti-env-1974]). In 1972 the plant became the first National
+Environmental Research Park ([WB: srs.gov 1970s][srs-1970]).
+
 <figure class="fig">
 <img src="img/srl-californium-cask-c1970.jpg" width="1400" height="1136" alt="Three men around a large spherical shipping cask on a flatbed truck marked Radioactive; the man standing on the truck holds a radiation meter against the cask." loading="lazy">
 <figcaption>A health physicist makes a final radioactivity check on a shipping cask of californium-252 leaving the Savannah River Laboratory for Texaco&rsquo;s laboratory in Bellaire, Texas, about 1970. <span class="credit">US Department of Energy photograph HD.5A.047, public domain, via <a href="https://commons.wikimedia.org/wiki/File:HD.5A.047_(10348253655).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-Through the 1970s the plant reported its releases. Du Pont's semiannual
-monitoring summaries were reprinted in the federal *Radiation Data and
-Reports* ([DL](https://archive.org/details/sim_radiation-data-and-reports_1970-12_11_12)),
-and its annual environmental reports run from 1974 on OSTI
-([WB: OSTI 4174736][osti-env-1974]). In 1972 the plant became the first
-National Environmental Research Park ([WB: srs.gov 1970s][srs-1970]). The
-ecology laboratory's work on reactor cooling water began in 1969, once
+The ecology laboratory's work on reactor cooling water began in 1969, once
 satellite imagery had made the water temperatures impossible to keep secret
-([WB: Ecological Society of America][esa-thermal]), and became the
-*Thermal Ecology* symposia
+([WB: Ecological Society of America][esa-thermal]), and became the *Thermal
+Ecology* symposia
 ([IA](https://archive.org/details/thermalecologyii0000ther)). The first
 on-site anti-nuclear protest came in 1979 ([WB: srs.gov 1970s][srs-1970]).
 
@@ -270,16 +289,19 @@ million curies a year to the air in 1974–77 ([WB: OSTI
 some 479,000 curies of tritium gas escaped from a stack ([WB: OSTI
 7100365][osti-1974]), a release a Lawrence Livermore report on the national
 emergency-response system's tracking of it called a small quantity, not
-dangerous to the public ([WB: OSTI 7282426][osti-arac]). In September 1984
-another 43,800 curies, mostly tritium oxide, drifted toward New Ellenton and
-Aiken ([WB: OSTI 6417935][osti-1984]), and on 31 July 1987 a further 172,000
-curies were released ([WB: OSTI 7130595][osti-1987]).
+dangerous to the public ([WB: OSTI 7282426][osti-arac]).
+
+In September 1984 another 43,800 curies, mostly tritium oxide, drifted
+toward New Ellenton and Aiken ([WB: OSTI 6417935][osti-1984]), and on 31
+July 1987 a further 172,000 curies were released ([WB: OSTI
+7130595][osti-1987]).
 
 Downstream, the plant tested the tritium in the drinking water of the
 Beaufort-Jasper Water Authority in South Carolina and the Port Wentworth
 plant in Georgia every month, and screened the 865 deer and 8 hogs killed in
 its 1971 hunt for cesium-137 before releasing them to hunters
 ([DL](https://archive.org/details/sim_radiation-data-and-reports_1974-02_15_2)).
+
 The hunts go on: the site has opened them to the public every autumn since
 1965, and every deer and hog killed is still checked for cesium-137, none
 released if it would take the hunter over the site's limit ([WB: srs.gov,
@@ -287,20 +309,22 @@ released if it would take the hunter over the site's limit ([WB: srs.gov,
 
 ### L-Reactor comes back
 
+The Reagan-era buildup needed more plutonium. In 1982 the plant lowered the
+Pu-240 content of its product to blend with Hanford's ([WB: *SRS at Fifty*
+ch. 19][fifty-19]), and DOE moved to restart L reactor, idle since 1968, on
+an environmental assessment rather than a full impact statement ([WB: OSTI
+5060401][osti-l-ea]).
+
 <figure class="fig">
 <img src="img/srp-glove-boxes-c1972.jpg" width="1400" height="1132" alt="A worker in white coveralls stands at a long row of steel glove boxes with round glove ports and windows." loading="lazy">
 <figcaption>Plutonium production at the Atomic Energy Commission&rsquo;s Savannah River Plant, about 1972. <span class="credit">US Department of Energy photograph HD.6D.918, public domain, via <a href="https://commons.wikimedia.org/wiki/File:HD.6D.918_(10405627974).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-The Reagan-era buildup needed more plutonium. In 1982 the plant lowered the
-Pu-240 content of its product to blend with Hanford's ([WB: *SRS at Fifty*
-ch. 19][fifty-19]), and DOE moved to restart L reactor, idle since 1968, on
-an environmental assessment rather than a full impact statement ([WB: OSTI
-5060401][osti-l-ea]). The Natural Resources Defense Council sued. On 15 July
-1983 the district court held that the restart needed an environmental impact
-statement but would not stop it ([EXT: Environmental Law
-Reporter][nrdc-vaughn]). The Senate Armed Services Committee had already
-held a field hearing in North Augusta that February
+The Natural Resources Defense Council sued. On 15 July 1983 the district
+court held that the restart needed an environmental impact statement but
+would not stop it ([EXT: Environmental Law Reporter][nrdc-vaughn]). The
+Senate Armed Services Committee had already held a field hearing in North
+Augusta that February
 ([DL](https://archive.org/details/micro_IA41152659_0884)).
 
 There Georgia's Senator Mattingly, calling the Tuscaloosa aquifer under the
@@ -334,17 +358,20 @@ groundwater. Reviewing permit applications in 1981, South Carolina's health
 and environment department judged that the volumes sent to the basins
 strongly suggested groundwater problems; in 1983 the plant reported that a
 well supplying drinking water to its own employees was contaminated, and two
-more followed. The department's deputy commissioner told Senator Glenn's
-committee in 1987 that plant staff had at first been reluctant to accept the
-state's regulatory authority
+more followed.
+
+The department's deputy commissioner told Senator Glenn's committee in 1987
+that plant staff had at first been reluctant to accept the state's
+regulatory authority
 ([DL](https://archive.org/details/micro_IA41152617_0148)).
 
 GAO found solvents in the groundwater under the M Area fuel plant at more
 than 30,000 times proposed drinking-water standards and tritium at the
 separations areas at more than 2,500 times; DOE answered that the
 contamination stayed under federal land and posed no threat to the public
-([IA: GAO 1986](https://archive.org/details/micro_IA41152607_0232)). By 1991
-the Office of Technology Assessment reported an EPA finding that the
+([IA: GAO 1986](https://archive.org/details/micro_IA41152607_0232)).
+
+By 1991 the Office of Technology Assessment reported an EPA finding that the
 pump-and-treat system meant to clean the M Area plume was not adequately
 designed to reach its goal
 ([DL](https://archive.org/details/micro_IA41152852_0090)).
@@ -363,13 +390,15 @@ That year an internal list of thirty significant reactor incidents became
 public. The official history presents the report as meant to show safety
 improving ([WB: ch. 19][fifty-19]); the Senate investigator who obtained it
 remembers it as evidence of concealment ([WB: Alliance for Nuclear
-Accountability][alvarez]). The reactors went down one after another — K in
-April, L in June, P in August — over emergency cooling concerns ([WB: ch.
-19][fifty-19]). On 30 September 1988 the General Accounting Office told
-Senator Glenn's and Representative Synar's committees how P reactor's
-start-up had gone ahead despite a reactivity shortfall larger than any the
-plant had seen ([DL](https://archive.org/details/micro_IA41152603_0340);
-[WB: gao.gov][gao-88-68]).
+Accountability][alvarez]).
+
+The reactors went down one after another — K in April, L in June, P in
+August — over emergency cooling concerns ([WB: ch. 19][fifty-19]). On 30
+September 1988 the General Accounting Office told Senator Glenn's and
+Representative Synar's committees how P reactor's start-up had gone ahead
+despite a reactivity shortfall larger than any the plant had seen
+([DL](https://archive.org/details/micro_IA41152603_0340); [WB:
+gao.gov][gao-88-68]).
 
 Glenn's bill to put the weapons plants under outside safety oversight was
 already in hearings
@@ -383,17 +412,17 @@ Times*][nyt-881128]).
 
 ### Plant to Site
 
-<figure class="fig">
-<img src="img/srp-plutonium-production.png" width="600" height="450" alt="Bar chart titled Savannah River Plutonium Production, in kilograms by fiscal year from 1955 to 1988, with a total of 36.1 metric tons. Output rises from about 550 kilograms in 1955 to a peak of about 2,100 kilograms in 1963 and 1964, varies between about 450 and 1,400 kilograms a year from 1965 to 1987, and falls below 200 kilograms in 1988." loading="lazy">
-<figcaption>Plutonium produced at Savannah River each fiscal year, 1955&ndash;1988: 36.1 metric tons in all. From the Department of Energy&rsquo;s <em>Plutonium: The First 50 Years</em> (1996), held by <a href="https://www.osti.gov/biblio/219368">OSTI</a> and <a href="https://web.archive.org/web/20250227063902/https://www.osti.gov/servlets/purl/219368">preserved in Wayback</a>; not in the Internet Archive&rsquo;s collections. <span class="credit">Public domain, via <a href="https://commons.wikimedia.org/wiki/File:Savannah_River_plutonium_production.gif">Wikimedia Commons</a>.</span></figcaption>
-</figure>
-
 In April 1989 the Westinghouse Savannah River Company took over from Du Pont
 ([WB: ch. 19][fifty-19]). The same year the Savannah River Plant became the
 Savannah River Site and went on the National Priorities List ([WB: srs.gov
 1980s][srs-1980]). GAO's 1989 testimony set the site inside a complex-wide
 picture of cleanup and modernization problems
 ([DL](https://archive.org/details/micro_IA41152607_0169)).
+
+<figure class="fig">
+<img src="img/srp-plutonium-production.png" width="600" height="450" alt="Bar chart titled Savannah River Plutonium Production, in kilograms by fiscal year from 1955 to 1988, with a total of 36.1 metric tons. Output rises from about 550 kilograms in 1955 to a peak of about 2,100 kilograms in 1963 and 1964, varies between about 450 and 1,400 kilograms a year from 1965 to 1987, and falls below 200 kilograms in 1988." loading="lazy">
+<figcaption>Plutonium produced at Savannah River each fiscal year, 1955&ndash;1988: 36.1 metric tons in all. From the Department of Energy&rsquo;s <em>Plutonium: The First 50 Years</em> (1996), held by <a href="https://www.osti.gov/biblio/219368">OSTI</a> and <a href="https://web.archive.org/web/20250227063902/https://www.osti.gov/servlets/purl/219368">preserved in Wayback</a>; not in the Internet Archive&rsquo;s collections. <span class="credit">Public domain, via <a href="https://commons.wikimedia.org/wiki/File:Savannah_River_plutonium_production.gif">Wikimedia Commons</a>.</span></figcaption>
+</figure>
 
 That August Senator Glenn argued that DOE's research on the health of its
 own workers had been subordinated to production, and Senator Kohl called for
@@ -409,18 +438,21 @@ and L for 1992, at $3.2 billion for restart and operations ([WB: GAO
 RCED-91-95][gao-91-95]), and issued safety evaluations for K ([WB: OSTI
 5625511][osti-k-ser]). In December 1991 tritium from K reactor reached the
 Savannah River ([WB: OSTI 5281815][osti-k-tritium]; [WB: OSTI
-10179303][osti-k-dose]). GAO had warned in 1989 that DOE had only begun to
-address earthquake weaknesses that had existed at the site for years, and
-that the seismic review behind P reactor's 1988 restart used a less
-stringent standard than the Nuclear Regulatory Commission's ([IA: GAO
+10179303][osti-k-dose]).
+
+GAO had warned in 1989 that DOE had only begun to address earthquake
+weaknesses that had existed at the site for years, and that the seismic
+review behind P reactor's 1988 restart used a less stringent standard than
+the Nuclear Regulatory Commission's ([IA: GAO
 1989](https://archive.org/details/micro_IA41152645_0571)).
 
 In March 1991 a depression found on the downstream face of the Par Pond dam
 led the site to lower the reservoir about 19 feet that summer, exposing some
 1,300 acres of cesium-contaminated sediment and sending tritium and cesium
 into the river ([WB: OSTI 7247383][osti-parpond]); the exposed bed became a
-Superfund interim action ([EXT: OSTI 10192315][osti-parpond-cercla]). A 1998
-DOE notice dates the leak to 1992
+Superfund interim action ([EXT: OSTI 10192315][osti-parpond-cercla]).
+
+A 1998 DOE notice dates the leak to 1992
 ([DL](https://archive.org/details/sim_federal-register-find_1998-01-28_63_18)).
 In 1992 K went critical for a test run and was then shut down permanently
 ([WB: srs.gov 1990s][srs-1990]). Bomb making at Savannah River was over.
@@ -445,15 +477,17 @@ stream to the process that made it in *Linking Legacies*
 the last spent fuel left the receiving basin, closing what the site called a
 forty-year era ([WB][rbof]).
 
-Spent fuel kept arriving as well as leaving. When the United States moved
-to take back the fuel it had supplied to research reactors abroad, GAO
-reported in 1994 that delays had already led reactors in Belgium and
-Germany to reprocess theirs, and that DOE meant to store the first returns
-at Savannah River ([IA: GAO 1994](https://archive.org/details/DTIC_ADA344922)). DOE's 1996 decision
-accepted about 22,700 fuel elements from 41 countries over 13 years, most
-landing at the Charleston Naval Weapons Station, with the aluminum-based fuel
-all managed at Savannah River
-([DL: *Federal Register*, 1996](https://archive.org/details/sim_federal-register-find_1996-05-17_61_97)).
+Spent fuel kept arriving as well as leaving. When the United States moved to
+take back the fuel it had supplied to research reactors abroad, GAO reported
+in 1994 that delays had already led reactors in Belgium and Germany to
+reprocess theirs, and that DOE meant to store the first returns at Savannah
+River ([IA: GAO 1994](https://archive.org/details/DTIC_ADA344922)).
+
+DOE's 1996 decision accepted about 22,700 fuel elements from 41 countries
+over 13 years, most landing at the Charleston Naval Weapons Station, with
+the aluminum-based fuel all managed at Savannah River ([DL: *Federal
+Register*,
+1996](https://archive.org/details/sim_federal-register-find_1996-05-17_61_97)).
 South Carolina's governor took DOE to court over it
 ([DL](https://archive.org/details/micro_IA40386015_0538)).
 
@@ -482,14 +516,14 @@ thirtieth anniversary in 2026 ([WB][dwpf-30]).
 
 Tanks 17 and 20 were closed in 1997, the first in the nation
 ([WB][tanks-18-19]). What could be left in the ground was settled by Section
-3116 of the 2005 defense authorization act
-([WB: govinfo][pl-108-375]), which Senator Graham said he wrote and which
-passed by a single vote ([WB][tanks-18-19]), and which the National Academies
-reviewed for Savannah River
-([IA](https://archive.org/details/tankwastesplanne0000comm)). Tanks 18 and 19
-followed in 2012 ([WB][tanks-18-19]), and in May 2026 Tank 14 became the
-eighth old-style tank to reach the end of waste removal in under two years
-([WB][tank-14]).
+3116 of the 2005 defense authorization act ([WB: govinfo][pl-108-375]),
+which Senator Graham said he wrote and which passed by a single vote
+([WB][tanks-18-19]), and which the National Academies reviewed for Savannah
+River ([IA](https://archive.org/details/tankwastesplanne0000comm)).
+
+Tanks 18 and 19 followed in 2012 ([WB][tanks-18-19]), and in May 2026 Tank
+14 became the eighth old-style tank to reach the end of waste removal in
+under two years ([WB][tank-14]).
 
 In 2018 and 2019 DOE reinterpreted "high-level waste" to turn on how
 radioactive a waste is rather than where it came from, revising the change
@@ -501,18 +535,20 @@ Andrews, Texas, beginning with 8 gallons
 
 ### Sealing the reactors
 
+In March 2008 the site put up South Carolina historic markers for P and R,
+the first inside the fence ([WB][pr-markers]). Then Recovery Act money
+arrived.
+
 <figure class="fig">
 <img src="img/srs-from-iss-2006.jpg" width="540" height="405" alt="Photograph from orbit of forested land crossed by straight roads. Five cleared reactor areas are labelled; the Savannah River runs along the left edge, and L Lake and Par Pond lie to the south." loading="lazy">
 <figcaption>The five reactor areas from the International Space Station, 28 January 2006, with L Lake and Par Pond, the reactors&rsquo; cooling reservoirs. <span class="credit">NASA astronaut photograph ISS012-E-16633, labels by NASA Earth Observatory; public domain, via <a href="https://commons.wikimedia.org/wiki/File:SavannahRiverSite_ISS012-E-16633.jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-In March 2008 the site put up South Carolina historic markers for P and R,
-the first inside the fence ([WB][pr-markers]). Then Recovery Act money
-arrived. Deactivation of the R reactor building was cleared in March 2009
+Deactivation of the R reactor building was cleared in March 2009
 ([WB][arra-r]); the reactors were sealed in place between October 2009 and
 September 2011 ([WB: OSTI 1032952][osti-isd]), five years ahead of the
-schedule without the stimulus ([WB][pr-closure]). The release marking the end
-of that work is gone from srs.gov; the Wayback capture is the copy
+schedule without the stimulus ([WB][pr-closure]). The release marking the
+end of that work is gone from srs.gov; the Wayback capture is the copy
 ([WB][pr-closure]).
 
 ### Plutonium: MOX and pits
@@ -532,9 +568,11 @@ Savannah River
 [DL](https://archive.org/details/gov.gpo.fdsys.CHRG-114hhrg97197)). DOE's
 2016 baseline put the mixed-oxide plant at $17.17 billion, finished in 2048
 — a document since removed from the watchdog site that posted it ([WB: SRS
-Watch][mox-baseline]). South Carolina sued to hold the government to its
-promises ([WB: complaint][sc-complaint]), and The Post and Courier's source
-documents on the fight are on archive.org
+Watch][mox-baseline]).
+
+South Carolina sued to hold the government to its promises ([WB:
+complaint][sc-complaint]), and The Post and Courier's source documents on
+the fight are on archive.org
 ([IA](https://archive.org/details/5759279-160209-AG-Files-Another-Lawsuit-Over-MOX)).
 In May 2018 DOE certified that diluting and disposing of the plutonium would
 cost less than half of finishing MOX; the Fourth Circuit lifted the
@@ -544,34 +582,38 @@ Cir.][ca4-mox]).
 MOX workers had already been offered a job fair in December 2018
 ([WB][mox-jobfair]). By August 2019 DOE reported a metric ton of plutonium
 removed from the state ([WB: SC Attorney General][scag]). Half of that ton
-had gone, secretly, to Nevada. DOE announced in August 2018 that it planned
-to send up to a metric ton there; Nevada sued, and learned through the suit
-that DOE had already shipped half of it while seemingly negotiating in good
-faith. In a 2020 settlement DOE agreed to remove that half ton from Nevada
-by the end of 2026 and to send no more ([WB: Nevada Attorney
-General][nv-ag]).
+had gone, secretly, to Nevada.
+
+DOE announced in August 2018 that it planned to send up to a metric ton
+there; Nevada sued, and learned through the suit that DOE had already
+shipped half of it while seemingly negotiating in good faith. In a 2020
+settlement DOE agreed to remove that half ton from Nevada by the end of 2026
+and to send no more ([WB: Nevada Attorney General][nv-ag]).
 
 The site was also offered other countries' material. In 2014 DOE began
 assessing whether to take Germany's spent pebble-bed reactor fuel, graphite
-spheres containing American-supplied highly enriched uranium
-([WB: *Federal Register*][fr-german]); the site's own Citizens Advisory
-Board voted against it in 2017 ([WB: CAB][cab-350]), and by 2022 the German state
-concerned had chosen to store it at home instead ([WB: SRS Watch][srswatch-german]). Plutonium from a
-Japanese research assembly did come, through Charleston in 2016
-([WB: SRS Watch][srswatch-japan]), and in 2021 NNSA dropped its plan to
+spheres containing American-supplied highly enriched uranium ([WB: *Federal
+Register*][fr-german]); the site's own Citizens Advisory Board voted against
+it in 2017 ([WB: CAB][cab-350]), and by 2022 the German state concerned had
+chosen to store it at home instead ([WB: SRS Watch][srswatch-german]).
+
+Plutonium from a Japanese research assembly did come, through Charleston in
+2016 ([WB: SRS Watch][srswatch-japan]), and in 2021 NNSA dropped its plan to
 send it on to New Mexico, deciding to process it at Savannah River and store
-it there until a geologic repository exists ([EXT: *Federal Register*][fr-japan]).
+it there until a geologic repository exists ([EXT: *Federal
+Register*][fr-japan]).
 
 The site's weapons work has not ended with it. DOE decided in November 2020
 to make plutonium pits at Savannah River ([WB: Federal Register][fr-pits]),
 and SRS Watch and others are challenging the decision in federal court
-([DL](https://archive.org/details/gov.uscourts.scd.265178)). Tritium work has
-continued throughout ([WB][tritium-2020]). In 2019 the Defense Nuclear Facilities
-Safety Board warned that a fire, crane drop or explosion in the tritium
-facilities could cause acute radiation sickness or death in a significant
-number of people ([WB: *Federal Register*][fr-dnfsb]); NNSA's
-administrator replied, "I do not accept Recommendation 2019-2"
-([WB: *Federal Register*][fr-dnfsb-reply]).
+([DL](https://archive.org/details/gov.uscourts.scd.265178)). Tritium work
+has continued throughout ([WB][tritium-2020]).
+
+In 2019 the Defense Nuclear Facilities Safety Board warned that a fire,
+crane drop or explosion in the tritium facilities could cause acute
+radiation sickness or death in a significant number of people ([WB: *Federal
+Register*][fr-dnfsb]); NNSA's administrator replied, "I do not accept
+Recommendation 2019-2" ([WB: *Federal Register*][fr-dnfsb-reply]).
 
 ### Sick workers
 
@@ -579,12 +621,13 @@ Compensation for the plant's sick workers came slowly. At a 2003 House
 hearing Representative Charlie Norwood of Georgia said more than 300 of his
 constituents had filed claims over work at the site and only a handful had a
 decision, and the building trades' statement called Savannah River workers
-treated unfairly under the program
-([DL: House hearing, 2003](https://archive.org/details/gov.gpo.fdsys.CHRG-108hhrg90178)).
+treated unfairly under the program ([DL: House hearing,
+2003](https://archive.org/details/gov.gpo.fdsys.CHRG-108hhrg90178)).
+
 The 2012 class that spared early workers individual dose reconstruction was
-extended in 2021 to subcontracted construction workers through 1990
-([WB: *Federal Register*][fr-sec-2021]) and in 2026 through 1993
-([EXT: *Federal Register*][fr-sec-2026]).
+extended in 2021 to subcontracted construction workers through 1990 ([WB:
+*Federal Register*][fr-sec-2021]) and in 2026 through 1993 ([EXT: *Federal
+Register*][fr-sec-2026]).
 
 ### The laboratories
 
@@ -595,11 +638,12 @@ Archive-It since July 2023 ([AIT: collection 21601][ait-21601]).
 The ecology laboratory fared worse. Its grant was cut 47 percent for 2006,
 with layoffs that September ([WB: UGA][uga-2005]); the next year's funding
 fell to $1 million against an expected $4.5 million, which the site's own
-Citizens Advisory Board called reprehensible ([WB: SRS CAB][cab-240]). The
-House Science Committee held a hearing on it in July 2007
+Citizens Advisory Board called reprehensible ([WB: SRS CAB][cab-240]).
+
+The House Science Committee held a hearing on it in July 2007
 ([DL](https://archive.org/details/gov.gpo.fdsys.CHRG-110hhrg36143); video
-[IA](https://archive.org/details/house.hbs.mars.hrs11SCI2318_070719)). SREL's
-web page from that summer mentions a statement on a budget crisis
+[IA](https://archive.org/details/house.hbs.mars.hrs11SCI2318_070719)).
+SREL's web page from that summer mentions a statement on a budget crisis
 ([WB][srel-2007]) but the actual statement has been lost.
 
 ### Remembering it

@@ -12,6 +12,7 @@ data/passages.json (the story's paragraphs, for search).
 Needs the `markdown` package (pip install markdown).
 """
 
+import hashlib
 import html
 import json
 import pathlib
@@ -186,6 +187,13 @@ def logos():
     </div>"""
 
 
+def asset(name):
+    """A local asset's URL with a fingerprint of its contents, so a browser
+    fetches the new file after every change instead of a cached old one."""
+    digest = hashlib.sha256((ROOT / name).read_bytes()).hexdigest()[:8]
+    return "%s?v=%s" % (name, digest)
+
+
 def head(title, here, h1, lede, extra="", big=False):
     nav = []
     for href, label in PAGES:
@@ -199,7 +207,7 @@ def head(title, here, h1, lede, extra="", big=False):
 <meta http-equiv="Content-Security-Policy" content="%s">
 <title>%s</title>
 <meta name="description" content="%s">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="%s">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -220,7 +228,7 @@ def head(title, here, h1, lede, extra="", big=False):
   </div>
 </div>
 </header>
-""" % (CSP, html.escape(title), html.escape(DESCRIPTION, quote=True), "".join(nav),
+""" % (CSP, html.escape(title), html.escape(DESCRIPTION, quote=True), asset("style.css"), "".join(nav),
        " big" if big else "", banner_art(), logos(), html.escape(h1), lede, extra)
 
 
@@ -237,7 +245,7 @@ CHECKS_NOTE = """<!-- explorer-checks:note -->
 
 
 def foot(scripts=()):
-    tags = "".join('<script src="%s"></script>\n' % s for s in scripts)
+    tags = "".join('<script src="%s"></script>\n' % asset(s) for s in scripts)
     return """<footer class="foot">
   <div class="wrap">
     <p>Sources checked live on %s. Code and source notes on
@@ -668,7 +676,7 @@ def build_timeline(tl, pages):
     return tl["events"]
 
 
-LOCAL = re.compile(r"^sources\.html\?(chapter=[123]|tag=(DL|WB|IA|OL|AIT|EXT)(&chapter=[123])?)$|^(index|sources|about|timeline|chapter-[123])\.html(#[\w-]+)?$|^(style\.css|app\.js|search\.js|timeline\.js)$|^img/[\w.-]+\.(png|jpg)$")
+LOCAL = re.compile(r"^sources\.html\?(chapter=[123]|tag=(DL|WB|IA|OL|AIT|EXT)(&chapter=[123])?)$|^(index|sources|about|timeline|chapter-[123])\.html(#[\w-]+)?$|^(style\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^img/[\w.-]+\.(png|jpg)$")
 IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
 
 
