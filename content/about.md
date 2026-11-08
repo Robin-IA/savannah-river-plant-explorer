@@ -9,7 +9,7 @@
   <li><span class="tag tag-wb">WB</span> <strong>Wayback Machine.</strong> A page or document saved by the <a href="https://web.archive.org/">Wayback Machine</a>. Much of the site's own history, including the official history <em>The Savannah River Site at Fifty</em> and twenty years of news releases, is gone from the live web and survives only there. Wherever an outside page, report or record has a working Wayback capture, the explorer cites the capture rather than the live page, and names the original holder.</li>
   <li><span class="tag tag-ia">IA</span> <strong>Internet Archive.</strong> An archive.org item outside Democracy's Library: books in the <a href="https://archive.org/details/inlibrary">lending library</a>, magazines and newspapers, and government documents in collections such as the <a href="https://archive.org/details/dticarchive">DTIC archive</a> and the <a href="https://archive.org/details/ciareadingroom">CIA Reading Room</a>.</li>
   <li><span class="tag tag-ol">OL</span> <strong>Open Library.</strong> A book with a record in <a href="https://openlibrary.org/">Open Library</a>, the Internet Archive&rsquo;s catalog of books. The story says whether a copy can be read or borrowed there.</li>
-  <li><span class="tag tag-ext">EXT</span> <strong>Held elsewhere.</strong> Outside the Internet Archive, with no working Wayback capture; the holder is named, often the Department of Energy&rsquo;s <a href="https://www.osti.gov/">OSTI</a>.</li>
+  <li><span class="tag tag-ext">EXT</span> <strong>Held elsewhere.</strong> Outside the Internet Archive, with no working Wayback capture; the holder is named, often the Department of Energy&rsquo;s OSTI.</li>
 </ul>
 
 <h2>Dates Covered</h2>

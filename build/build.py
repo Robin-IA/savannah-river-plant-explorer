@@ -213,6 +213,8 @@ def head(title, here, h1, lede, extra="", big=False):
 <meta http-equiv="Content-Security-Policy" content="%s">
 <title>%s</title>
 <meta name="description" content="%s">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 <link rel="stylesheet" href="%s">
 </head>
 <body>
@@ -593,7 +595,7 @@ def build_sources(items):
     actopts = "".join('<option value="%d">%s</option>' % (a, html.escape(name))
                       for a, name in ACTS.items())
     lede = ('All %d sources behind <a href="index.html">the story</a>, with where each is held and what it contributes. '
-            'Checked live on %s, except where a note says otherwise.' % (len(items), CHECKED))
+            'Verified on %s.' % (len(items), CHECKED))
     page = head("Sources · " + TITLE, "sources.html", "Sources", lede) + """<main id="main" class="wrap">
 <div class="sources-top">
 <form class="filters" role="search" aria-label="Filter sources">
@@ -829,12 +831,11 @@ def build_timeline(tl, pages):
         for r in tl["reactors"])
 
     lede = ("From the land taken in 1950 to the tanks still being emptied: %d events from the story, "
-            "and the five production reactors' working lives. Click on a shape to read it in the story. "
-            "Every event links to its source, one of the %d on the Sources page."
-            % (len(tl["events"]), SOURCE_COUNT[0]))
+            "and the five production reactors' working lives. Click on a shape to read it in the story."
+            % len(tl["events"]))
     page = head("Timeline · " + TITLE, "timeline.html", "Timeline", lede, site_search()) + """<main id="main" class="wrap">
 <div class="tl-controls" role="group" aria-label="Show events whose source is held in">
-  <span class="tl-controls-label">Show sources held in</span>%s
+  <span class="tl-controls-label">Show events whose source is held in</span>%s
 </div>
 <figure class="tl-figure">
   <div class="tl-scroll">%s</div>
@@ -856,7 +857,7 @@ def build_timeline(tl, pages):
     return tl["events"]
 
 
-LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|controversies|search|read|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(style\.css|print\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^atomic-history-savannah-river-plant\.pdf$|^img/[\w.-]+\.(png|jpg)$")
+LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|controversies|search|read|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(favicon\.svg|style\.css|print\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^atomic-history-savannah-river-plant\.pdf$|^img/[\w.-]+\.(png|jpg)$")
 IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
 
 
