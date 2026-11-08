@@ -526,9 +526,13 @@ river ([DL](https://archive.org/details/micro_IA41152659_0884)). South
 Carolina and Georgia had both opposed bedrock disposal
 ([IA](https://archive.org/details/nuclearimperativ0000cart)).
 
-The final EIS came in May 1984 ([WB: DOE][l-eis]); it and the other impact
-statements of the period are gathered in one archive.org upload
-([IA](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
+DOE's environmental impact statement, the detailed public study of a
+project's effects that the court had required, came out in May 1984. It chose
+to restart L reactor only after building a 1,000-acre lake on Steel Creek to
+cool its hot water, instead of sending the water straight into the creek as
+the draft had proposed. The lake would flood 225 acres of wetlands and 775
+acres of uplands, and cost about $25 million ([WB: DOE, 1984][l-eis]).
+
 L restarted in 1985. C reactor shut down that year, permanently from 1986
 ([WB: srs.gov 1980s][srs-1980]).
 
