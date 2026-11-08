@@ -17,7 +17,7 @@ SOURCE = ROOT / "story-print.html"
 OUT = ROOT / "atomic-history-savannah-river-plant.pdf"
 
 FOOTER = ('<div style="font: 8px Helvetica, Arial, sans-serif; color: #57595c; width: 100%; '
-          'text-align: center;">Atomic History: The Savannah River Plant · '
+          'text-align: center;">Atomic History: The Savannah River Plant Story · '
           '<span class="pageNumber"></span> of <span class="totalPages"></span></div>')
 
 

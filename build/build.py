@@ -24,7 +24,7 @@ import markdown.extensions.toc
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 
-TITLE = "Atomic History: The Savannah River Plant"
+TITLE = "Atomic History: The Savannah River Plant Story"
 DESCRIPTION = ("The Savannah River Plant in South Carolina made plutonium and "
                "tritium for American nuclear weapons from 1953 until 1988. This "
                "is its history, from the towns moved off the land to the "
@@ -32,7 +32,7 @@ DESCRIPTION = ("The Savannah River Plant in South Carolina made plutonium and "
                "Democracy's Library, the "
                "wider Internet Archive, the Wayback Machine and elsewhere.")
 CHECKED = "November 6, 2026"
-FEEDBACK = ("mailto:robin.fay@archive.org?subject=Feedback%20about%20Explorers%3A%20Atomic%20History%3A%20The%20Savannah%20River%20Plant")
+FEEDBACK = ("mailto:robin.fay@archive.org?subject=Feedback%20about%20Explorers%3A%20Atomic%20History%3A%20The%20Savannah%20River%20Plant%20Story")
 
 CSP = ("default-src 'self'; script-src 'self'; style-src 'self'; "
        "img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'")

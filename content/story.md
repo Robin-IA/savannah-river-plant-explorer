@@ -1,4 +1,4 @@
-# Atomic History: The Savannah River Plant
+# Atomic History: The Savannah River Plant Story
 
 *A draft, told from the record wherever it is held. Sources checked live
 November 6, 2026.*
@@ -68,7 +68,10 @@ had a violent past: in 1876, during Reconstruction, armed white rifle clubs
 marched on Black militia there in what became known as the Ellenton riot
 ([WB: SRARP][srarp-ellenton-1]). A state historical marker for the town of
 Ellenton stands on Highway 64 at Barnwell
-([WB: Historical Marker Database][hmdb-ellenton]).
+([WB: Historical Marker Database][hmdb-ellenton]). A second marker, titled
+"Site of Ellenton" and put up in 1993 by the Ellenton Reunion Organization,
+stands on Atomic Road, State Highway 125, near Jackson ([WB: Historical Marker
+Database][hmdb-ellenton-site]).
 
 <figure class="fig">
 <img src="img/ellenton-topo-1949.jpg" width="1158" height="838" alt="Black-and-white topographic map showing the town of Ellenton as a grid of streets beside a railroad and highway, with roads, farms, churches and creeks spread across the surrounding countryside." loading="lazy">
@@ -1260,6 +1263,19 @@ Blackville ([WB: South Carolina budget, 2022][sc-budget-2022]).
 <figcaption>The first pitch at the site's United Way softball tournament, November 2023. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:231734_United_Way_Softball_Tournament_11-7-23-02_(53771752151).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
+A state highway still crosses the site. South Carolina Highway 125, known
+along the way as Atomic Road, runs for about 17 miles across it between
+Allendale and Jackson: the site's directions for its public deer hunts send
+drivers from Allendale north through the site on it ([WB: SRS][srs-hunt-directions];
+[WB: Historical Marker Database][hmdb-ellenton-site]). In 2021 the state
+transportation department widened and repaved about 8 miles of it inside
+the site ([WB: DOE][doe-sc125-2021]).
+It is a road to drive through, not to stop on. The site's impact statements
+limit the public to "through traffic only" on Highway 125, U.S. Highway 278
+and SRS Road 1. DOE controls access to the highway inside the site and can
+stop traffic and clear everyone off it quickly after an accident nearby
+([IA: DOE, 1990](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
+
 Site workers still give to local charities. The contractors reported raising
 $1,488,038 for United Way in the 2023 campaign ([WB: SRS release][srs-uw-2024]),
 and the United Way of Allendale, Bamberg and Barnwell counties called the
@@ -1488,3 +1504,6 @@ copies.
 [scdes-dw]: https://web.archive.org/web/20260311152928/https://des.sc.gov/community/environmental-sites-projects/savannah-river-site/environmental-surveillance-oversight-program/drinking-water-quality-monitoring
 [esop-2023]: https://web.archive.org/web/20250425023429/https://des.sc.gov/sites/des/files/Documents/BRLS/ESOP/2023/CR-004111_2023.pdf
 [museum-2026]: https://web.archive.org/web/20261104093554/http://srsheritagemuseum.org/
+[hmdb-ellenton-site]: https://web.archive.org/web/20250725141854/https://www.hmdb.org/m.asp?m=9910
+[srs-hunt-directions]: https://web.archive.org/web/20250228170512/https://www.srs.gov/general/deer_hunt/directions.htm
+[doe-sc125-2021]: https://web.archive.org/web/20260706155805/https://www.energy.gov/nepa/articles/cx-023721-sc-highway-125-widening-and-repaving

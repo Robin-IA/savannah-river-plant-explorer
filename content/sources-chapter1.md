@@ -1,4 +1,4 @@
-# Atomic History: The Savannah River Plant, Chapter 1 (1950–1969): sources
+# Atomic History: The Savannah River Plant Story, Chapter 1 (1950–1969): sources
 
 > Research notes behind [README.md](README.md), compiled November 6, 2026.
 > Every identifier and URL was checked live that day. Every archive.org
@@ -184,6 +184,7 @@ Added November 7, 2026.
 | WB | https://web.archive.org/web/20150920213514/http://www.srarp.org/pdf_documents/Memories%20of%20Home/Ellenton/04_Chapter4-1.pdf | Browder and Brooks, *Memories of Home: Reminiscences of Ellenton*, ch. 4 (mercantile business) | 1996 | srarp.org (dead), Wayback | Merchants grew from 2 (1873) to 56 (1950), from county tax books; the Cassels family ran the power plant, telephone company and bank. Read by OCR. Verified 2026-11-07. |
 | WB | https://web.archive.org/web/20150920154751/http://www.srarp.org/pdf_documents/Memories%20of%20Home/Dunbarton%20and%20Meyers%20Mill/02_Chapter2.pdf | Browder, Brooks and Crass, *Memories of Home: Dunbarton and Meyers Mill Remembered*, ch. 2 (SRARP Heritage Series 1) | 1993 | srarp.org (dead), Wayback | Dunbarton grew up around the railroad depot from the early 1800s; incorporated September 21, 1910; Meyers Mill named for the Meyer family. Read by OCR. Verified 2026-11-07. |
 | IA | `southcarolinain101phil` | *South Carolina in 1876: Testimony as to the Denial of the Elective Franchise in South Carolina at the Elections of 1875 and 1876*, vol. 1 (Senate, GPO) | 1877 | bostonpubliclibrary (not DL; no DL copy found) | Testimony on the Ellenton riot, printed under the running head "Ellenton Massacre". Text searched. Verified 2026-11-07. |
+| WB | https://web.archive.org/web/20250725141854/https://www.hmdb.org/m.asp?m=9910 | Historical Marker Database, "Site of Ellenton" (marker 2-13) | 1993 | hmdb.org, Wayback | Post office 1873, town chartered 1880, bought by the government in the early 1950s; erected 1993 by the Ellenton Reunion Organization on Atomic Road (State Highway 125) near Jackson. Page read. Verified 2026-11-07. |
 
 ## 8. Science and the 1960s shutdowns
 

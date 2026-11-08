@@ -1,4 +1,4 @@
-# Atomic History: The Savannah River Plant, Chapter 4 (2020 to today): sources
+# Atomic History: The Savannah River Plant Story, Chapter 4 (2020 to today): sources
 
 > Research notes behind the story's fourth chapter, compiled November 7, 2026.
 > Every source was checked live that day. Wayback captures are cited wherever a
@@ -70,6 +70,8 @@ Added November 7, 2026; every item checked live that day.
 - **WB** https://web.archive.org/web/20250416054246/https://www.srs.gov/general/pubs/ERsum/er21/docs/USFS-SR_2021_Forest-Service.pdf. Forest Service–Savannah River, fiscal 2021 summary. 150 active groups, up from 3 in 1985; thinning and prescribed fire. PDF read. Verified 2026-11-07.
 - **WB** https://web.archive.org/web/20260706014316/https://www.energy.gov/nepa/articles/cx-024954-wetland-restoration-and-gopher-frog-conservation-srel. DOE, November 1, 2021. Wetland restoration for gopher frogs by SREL. Page read. Verified 2026-11-07.
 - **WB** https://web.archive.org/web/20260704213552/https://www.energy.gov/em/articles/turtles-find-forever-home-savannah-river-site. DOE, August 15, 2023. Box turtles seized from illegal collectors in 2019; their young released on the site. Page read. Verified 2026-11-07.
+- **WB** https://web.archive.org/web/20250228170512/https://www.srs.gov/general/deer_hunt/directions.htm. SRS deer hunt directions: "Follow Hwy 125 North through the Savannah River Site (approx. 17 miles after entering SRS property)" from Allendale to the Jackson barricade. Page read. Verified 2026-11-07.
+- **WB** https://web.archive.org/web/20260706155805/https://www.energy.gov/nepa/articles/cx-023721-sc-highway-125-widening-and-repaving. DOE CX-023721, May 3, 2021: SCDOT to widen and repave SC Highway 125 from about 450 feet north of Road 1 south about 8.2 miles to the Barnwell/Aiken county line. Page read. Verified 2026-11-07.
 
 ## 7. Ecology and the SRS (the hunts)
 
