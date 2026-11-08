@@ -53,7 +53,6 @@ and in newspapers as far away as Victoria, British Columbia
 
 First, though, the people living on that land had to leave it, as [The Towns Inside the Fence](#the-towns-inside-the-fence) tells.
 
-
 ### The Towns Inside the Fence
 
 The land was not empty. It held small, rural farming communities. Most of
@@ -220,7 +219,6 @@ are at the Hagley Museum and Library ([WB: DOE finding aid][ohre-admin]).
 
 By the mid-1950s the plant was built. The next section, [Running the Reactors](#running-the-reactors), follows its reactors and separations plants at work.
 
-
 ### Running the Reactors
 
 The 305-M test pile was the first reactor on the site to start up, in 1952,
@@ -270,7 +268,6 @@ from heavy-water power reactors, and it was never restarted
 ([WB: ch. 13][fifty-13]).
 
 Making plutonium and tritium also meant releasing radioactivity into the air, the ground and the water, and the plant's own count of those releases turned out to be too low, as [Radioactive Releases](#radioactive-releases) shows.
-
 
 ### Radioactive Releases
 
@@ -370,6 +367,30 @@ money ([IA: *Monthly Labor Review*, 1952](https://archive.org/details/sim_monthl
 <img src="img/srs60-carpooling.jpg" width="1400" height="560" alt="Two photographs side by side: a black-and-white view of two men loading a 1950s shuttle van at a stop sign, and a color view of a small metal carpool shelter with a bench." loading="lazy">
 <figcaption>Getting to work: the plant's shuttle for workers who missed their carpools in the 1950s, and a carpool shelter still standing about 2010. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_Carpooling_(5228278174).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
+
+The plant also remade the roads around it. Before the plant, South Carolina Highway 28
+ran from Augusta through Jackson and past Ellenton toward Allendale ([IA: road
+map,
+1948](https://archive.org/details/dr_rand-mcnally-road-map--north-carolina-south-carolina-14003035);
+[WB: *SRS at
+Fifty*](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=173)).
+In early 1951 the state reported that Routes 28 and 64 "will be closed through
+the AEC area," while a new four-lane highway was built "from North Augusta, S.
+C., to Route 28 at the outer boundary of the project" ([DL: Senate hearing,
+1951](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1951-02-28_0)).
+
+By 1954 that new road carried the number South Carolina Highway 125 ([DL:
+*Federal Register*,
+1954](https://archive.org/details/sim_federal-register-find_1954-07-21_19_140)),
+and by 1955 the plant's newspaper placed a worker's home "in North Augusta on
+Atomic Road" ([WB: *SRS at
+Fifty*](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=241)).
+
+Inside the fence the road was SRP Road A. On July 27, 1967, the Atomic Energy
+Commission gave the state an easement to run Highway 125 for 18.3 miles
+through the plant, which is how the public came to drive across it ([DL:
+*Federal Register*,
+1968](https://archive.org/details/sim_federal-register-find_1968-01-31_33_21)).
 
 The plant changed the land as well as the towns. [SRS and Ecology](#srs-and-ecology) follows what happened to its forests, streams and wildlife.
 
@@ -547,7 +568,6 @@ assessed the high-level waste tanks ([WB: IEER][deadly-crop]); Du Pont published
 
 While the reactors drew attention above ground, older waste was moving below it, as [Under the Ground](#under-the-ground) tells.
 
-
 ### Under the Ground
 
 What the plant had poured into its seepage basins came back through the
@@ -635,7 +655,6 @@ Times*][nyt-881128]).
 
 The shutdowns ended Du Pont's time at the plant, and soon the plant's old name, as [A Name Change](#a-name-change) tells.
 
-
 ### A Name Change
 
 In April 1989 the Westinghouse Savannah River Company took over from Du Pont
@@ -679,7 +698,6 @@ counted about 3,000 release incidents involving tritium between 1954 and 1992
 ([WB: CDC Phase II][cdc-phase2]).
 
 For the towns around the plant, these years of buildup and shutdown were felt in jobs and in worries about health; [Living with the Plant](#living-with-the-plant) follows both.
-
 
 ---
 
@@ -804,7 +822,6 @@ chapter: the lawsuit over restarting L reactor
 
 The same years brought the damage to the site's land and wildlife into the open, as [SRS and Ecology](#srs-and-ecology) tells.
 
-
 ### SRS and Ecology
 
 In 1972 the site became the first National Environmental Research Park
@@ -871,7 +888,6 @@ South Carolina's governor took DOE to court over it
 ([DL](https://archive.org/details/micro_IA40386015_0538)).
 
 The biggest part of that cleanup was the liquid waste stored in the tank farms, the subject of [The Tanks](#the-tanks).
-
 
 ### The Tanks
 
@@ -941,7 +957,6 @@ end of that work is gone from srs.gov; the Wayback capture is the copy
 ([WB][pr-closure]).
 
 Even as the reactors were sealed, plutonium kept coming to the site and leaving it, as [Plutonium: MOX and Pits](#plutonium-mox-and-pits) tells.
-
 
 ### Plutonium: MOX and Pits
 
@@ -1356,7 +1371,6 @@ releases give two different times for when the emergency was declared
 
 For the people who did the work, and for the river, the costs continue, as [Sick Workers and the River Today](#sick-workers-and-the-river-today) tells.
 
-
 ### Sick Workers and the River Today
 
 Payments to the site's sick workers keep growing. Labor Department figures
@@ -1417,7 +1431,8 @@ Blackville ([WB: South Carolina budget, 2022][sc-budget-2022]).
 <figcaption>The first pitch at the site's United Way softball tournament, November 2023. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:231734_United_Way_Softball_Tournament_11-7-23-02_(53771752151).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-A state highway still crosses the site. South Carolina Highway 125, known
+A state highway still crosses the site; its history is told in
+[Chapter 1, Living with the Plant](chapter-1.html#living-with-the-plant). South Carolina Highway 125, known
 along the way as Atomic Road, runs for about 17 miles across it between
 Allendale and Jackson: the site's directions for its public deer hunts send
 drivers from Allendale north through the site on it ([WB:
@@ -1431,30 +1446,6 @@ through, not to stop on. The site's impact statements limit the public to
 controls access to the highway inside the site and can stop traffic and clear
 everyone off it quickly after an accident nearby ([IA: DOE,
 1990](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
-
-The road has a history of its own. Before the plant, South Carolina Highway 28
-ran from Augusta through Jackson and past Ellenton toward Allendale ([IA: road
-map,
-1948](https://archive.org/details/dr_rand-mcnally-road-map--north-carolina-south-carolina-14003035);
-[WB: *SRS at
-Fifty*](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=173)).
-In early 1951 the state reported that Routes 28 and 64 "will be closed through
-the AEC area," while a new four-lane highway was built "from North Augusta, S.
-C., to Route 28 at the outer boundary of the project" ([DL: Senate hearing,
-1951](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1951-02-28_0)).
-
-By 1954 that new road carried the number South Carolina Highway 125 ([DL:
-*Federal Register*,
-1954](https://archive.org/details/sim_federal-register-find_1954-07-21_19_140)),
-and by 1955 the plant's newspaper placed a worker's home "in North Augusta on
-Atomic Road" ([WB: *SRS at
-Fifty*](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=241)).
-
-Inside the fence the road was SRP Road A. On July 27, 1967, the Atomic Energy
-Commission gave the state an easement to run Highway 125 for 18.3 miles
-through the plant, which is how the public came to drive across it ([DL:
-*Federal Register*,
-1968](https://archive.org/details/sim_federal-register-find_1968-01-31_33_21)).
 
 Site workers still give to local charities. The contractors reported raising
 $1,488,038 for United Way in the 2023 campaign ([WB: SRS release][srs-uw-2024]),
