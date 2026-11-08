@@ -508,47 +508,45 @@ The 1970s brought scrutiny of what the plant released. The 1980s brought a push 
 
 ### L-Reactor Comes Back
 
-The Reagan-era buildup of nuclear weapons needed more plutonium. In 1982 the plant lowered the
-Pu-240 content of its product to blend with Hanford's ([WB: *SRS at Fifty*
-ch. 19][fifty-19]), and DOE (Department of Energy) moved to restart L reactor, idle since 1968, on an environmental assessment, a shorter review, rather than a full environmental impact statement ([WB: OSTI
-5060401][osti-l-ea]).
+The Reagan-era buildup of nuclear weapons needed more plutonium. In 1982 the
+plant lowered the Pu-240 content of its product to blend with Hanford's ([WB:
+*SRS at Fifty* ch. 19][fifty-19]), and DOE (Department of Energy) moved to
+restart L reactor, idle since 1968, on an environmental assessment, a shorter
+review, rather than a full environmental impact statement, the detailed public
+study of a project's effects ([WB: OSTI 5060401][osti-l-ea]).
 
 <figure class="fig">
 <img src="img/srp-glove-boxes-c1972.jpg" width="1400" height="1132" alt="A worker in white coveralls stands at a long row of steel glove boxes with round glove ports and windows." loading="lazy">
 <figcaption>Plutonium production at the Atomic Energy Commission&rsquo;s Savannah River Plant, about 1972. <span class="credit">US Department of Energy photograph HD.6D.918, public domain, via <a href="https://commons.wikimedia.org/wiki/File:HD.6D.918_(10405627974).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
+In February 1983 the Senate Armed Services Committee held a field hearing in
+North Augusta ([DL](https://archive.org/details/micro_IA41152659_0884)). There
+Senator Mattingly of Georgia said his state was firmly against burying the
+plant's high-level waste in the bedrock beneath the site. He warned it could
+contaminate the Tuscaloosa aquifer, a deep layer of water-bearing ground that
+he called the main source of water for Georgia.
+
+DOE assured him it would not propose bedrock burial again
+([DL](https://archive.org/details/micro_IA41152659_0884)). The Natural
+Resources Defense Council's witness pointed to cesium contamination off the
+site, just downstream of where Steel Creek enters the river
+([DL](https://archive.org/details/micro_IA41152659_0884)). South Carolina and
+Georgia had both opposed bedrock disposal
+([IA](https://archive.org/details/nuclearimperativ0000cart)).
+
 The Natural Resources Defense Council sued. On July 15, 1983, the district
 court held that restarting L reactor required an environmental impact
 statement and ordered DOE to prepare one ([WB: the court's
-decision][nrdc-vaughn-op]).
+decision][nrdc-vaughn-op]). It did not halt the restart. A law reporter's summary says the court refused to stop it in the meantime ([WB: Environmental
+Law Reporter][nrdc-vaughn]); the decision itself put off South Carolina's request to do so until a later hearing.
 
-It did not halt the restart: a law reporter's summary says the court refused a
-preliminary injunction ([WB: Environmental Law Reporter][nrdc-vaughn]), while
-the decision set South Carolina's request for one for a later hearing. The
-Senate Armed Services Committee had already held a field hearing in North
-Augusta that February
-([DL](https://archive.org/details/micro_IA41152659_0884)).
-
-At that hearing Senator Mattingly of Georgia said his state was firmly against
-burying the plant's high-level waste in the bedrock beneath the site. He
-warned it could contaminate the Tuscaloosa aquifer, a deep layer of
-water-bearing ground that he called the main source of water for Georgia. DOE
-assured him it would not propose bedrock burial again.
-([DL](https://archive.org/details/micro_IA41152659_0884)).
-
-The Natural Resources Defense Council's witness pointed to cesium
-contamination off the site, just downstream of where Steel Creek enters the
-river ([DL](https://archive.org/details/micro_IA41152659_0884)). South
-Carolina and Georgia had both opposed bedrock disposal
-([IA](https://archive.org/details/nuclearimperativ0000cart)).
-
-DOE's environmental impact statement, the detailed public study of a
-project's effects that the court had required, came out in May 1984. It chose
-to restart L reactor only after building a 1,000-acre lake on Steel Creek to
-cool its hot water, instead of sending the water straight into the creek as
-the draft had proposed. The lake would flood 225 acres of wetlands and 775
-acres of uplands, and cost about $25 million ([WB: DOE, 1984][l-eis]).
+DOE's environmental impact statement, which the court had required, came out
+in May 1984. It chose to restart L reactor only after building a 1,000-acre
+lake on Steel Creek to cool its hot water, instead of sending the water
+straight into the creek as the draft had proposed. The lake would flood 225
+acres of wetlands and 775 acres of uplands, and cost about $25 million ([WB:
+DOE, 1984][l-eis]).
 
 L restarted in 1985. C reactor shut down that year, permanently from 1986
 ([WB: srs.gov 1980s][srs-1980]). The *Washington Post* described
@@ -693,16 +691,17 @@ picture of cleanup and modernization problems
 <figcaption>Plutonium produced at Savannah River each fiscal year, 1955&ndash;1988: 36.1 metric tons in all. From the Department of Energy&rsquo;s <em>Plutonium: The First 50 Years</em> (1996), held by <a href="https://web.archive.org/web/20221112203240/https://www.osti.gov/biblio/219368">OSTI</a> and <a href="https://web.archive.org/web/20250227063902/https://www.osti.gov/servlets/purl/219368">preserved in Wayback</a>; not in the Internet Archive&rsquo;s collections. <span class="credit">Public domain, via <a href="https://commons.wikimedia.org/wiki/File:Savannah_River_plutonium_production.gif">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-DOE still meant to restart. In February 1991 it planned K for that summer
-and L for 1992, at $3.2 billion for restart and operations ([WB: GAO
-RCED-91-95][gao-91-95]), and issued safety evaluations for K ([WB: OSTI
-5625511][osti-k-ser]). In December 1991 tritium from K reactor reached the Savannah River ([WB: OSTI 5281815][osti-k-tritium]; [WB: OSTI 10179303][osti-k-dose]); a 1998 DOE notice dates the same leak to 1992 ([DL](https://archive.org/details/sim_federal-register-find_1998-01-28_63_18)).
-
 GAO had warned in 1989 that DOE had only begun to address earthquake
 weaknesses that had existed at the site for years. It also found that the
 seismic review behind P reactor's 1988 restart used a less stringent standard
-than the Nuclear Regulatory Commission's, the agency that regulates commercial nuclear reactors ([IA: GAO
+than the Nuclear Regulatory Commission's, the agency that regulates commercial
+nuclear reactors ([IA: GAO
 1989](https://archive.org/details/micro_IA41152645_0571)).
+
+DOE still meant to restart. In February 1991 it planned K for that summer and
+L for 1992, at $3.2 billion for restart and operations ([WB: GAO
+RCED-91-95][gao-91-95]), and issued safety evaluations for K ([WB: OSTI
+5625511][osti-k-ser]).
 
 In March 1991 a depression was found on the downstream face of the Par Pond
 dam. That summer the site lowered the reservoir about 19 feet. This exposed
@@ -710,6 +709,10 @@ some 1,300 acres of cesium-contaminated sediment and sent tritium and cesium
 into the river ([WB: OSTI 7247383][osti-parpond]). The exposed bed became a
 Superfund interim action ([WB: OSTI 10192315][osti-parpond-cercla]).
 
+In December 1991 tritium from K reactor reached the Savannah River ([WB: OSTI
+5281815][osti-k-tritium]; [WB: OSTI 10179303][osti-k-dose]); a 1998 DOE notice
+dates the same leak to 1992
+([DL](https://archive.org/details/sim_federal-register-find_1998-01-28_63_18)).
 In 1992 K was started up for a test run and was then shut down permanently
 ([WB: srs.gov 1990s][srs-1990]). Bomb making at Savannah River was over.
 
@@ -1060,11 +1063,6 @@ treated unfairly under the program ([DL: House hearing,
 <figcaption>Glove boxes, then and about 2010: sealed cabinets for handling radioactive material through built-in gloves. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_Glove_boxes_(5227677509).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-The 2012 class that spared early workers individual dose reconstruction was
-extended in 2021 to subcontracted construction workers through 1990 ([WB:
-*Federal Register*][fr-sec-2021]) and in 2026 through 1993 ([EXT: *Federal
-Register*][fr-sec-2026]).
-
 Studies of the workers kept finding leukemia. A 1995 Oak Ridge study found
 that the site's workers died at lower rates than the general public but had
 significantly more leukemia ([WB: site epidemiology summary][srs-epi-2002]).
@@ -1079,6 +1077,11 @@ had not sent neutron radiation data for some claims ([WB: NIOSH][niosh-per19]).
 That November a petition asked to add every worker from 1950 to 2007 to the
 Special Exposure Cohort; the special classes for the site came from it
 ([WB: NIOSH][niosh-srs-2026]).
+
+The first, in 2012, spared early workers individual dose reconstruction; it
+was extended in 2021 to subcontracted construction workers through 1990 ([WB:
+*Federal Register*][fr-sec-2021]) and in 2026 through 1993 ([WB: *Federal
+Register*][fr-sec-2026]).
 
 Questions about health reached beyond the fence, to [The Neighbors and the River](#the-neighbors-and-the-river).
 
@@ -1240,11 +1243,11 @@ court ([DL](https://archive.org/details/gov.uscourts.scd.265178)).
 </figure>
 
 The plant is being built by repurposing an unfinished concrete structure on
-the site, and in 2024 its builders were still promising it by 2032 ([WB:
-SRS][srs-srppf-2024]). In 2022 NNSA (National Nuclear Security Administration)
-told Congress the site would not reach 50 pits a year until sometime between
-2032 and 2035, not the 2030 target ([IA: Congressional Research
-Service](https://archive.org/details/crs-r44442.31)).
+the site ([WB: SRS][srs-srppf-2024]). In 2022 NNSA (National Nuclear Security
+Administration) told Congress the site would not reach 50 pits a year until
+sometime between 2032 and 2035, not the 2030 target ([IA: Congressional
+Research Service](https://archive.org/details/crs-r44442.31)). In 2024 its
+builders were still promising it by 2032 ([WB: SRS][srs-srppf-2024]).
 
 In January 2023 GAO (Government Accountability Office) found that NNSA had no
 complete schedule or full cost estimate for pit production, and counted at
