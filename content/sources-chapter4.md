@@ -33,7 +33,7 @@
 - **WB** https://web.archive.org/web/20261010061452/https://www.energy.gov/srs/articles/fact-sheet-operational-closure-radioactive-liquid-waste-tanks. DOE fact sheet. 8 of 51 tanks operationally closed, the last in 2016. Page read. Verified 2026-11-07.
 - **WB** https://web.archive.org/web/20220725183716/https://www.srs.gov/general/news/releases/nr22_SRS_ABD_is_a_G-O.pdf. SRS release, July 12, 2022. Accelerated Basin De-inventory empties L Basin by 2033 instead of 2060. PDF read. Verified 2026-11-07.
 - **WB** https://web.archive.org/web/20260706062813/https://www.energy.gov/nepa/articles/doeeis-0279-amended-record-decision-february-2026. DOE amended Record of Decision, February 2026, restoring uranium recovery at H Canyon. Page read. Verified 2026-11-07.
-- **EXT:SRS Citizens Advisory Board** https://cab.srs.gov/library/recommendations/Rec%20387_Reactivation%20of%20H-Canyon.pdf. Recommendation 387, March 25, 2026, on the reactivation of H Canyon. No Wayback capture. PDF read. Verified 2026-11-07.
+- **WB** https://web.archive.org/web/20261108020949/https://cab.srs.gov/library/recommendations/Rec%20387_Reactivation%20of%20H-Canyon.pdf. SRS Citizens Advisory Board Recommendation 387, March 25, 2026, on the reactivation of H Canyon. Captured 2026-11-08. PDF read. Verified 2026-11-07.
 
 ## 4. Who runs the site
 
@@ -42,7 +42,7 @@
 - **WB** https://web.archive.org/web/20250120134623/https://www.energy.gov/sites/default/files/2024-04/DOE%20Cites%20Savannah%20River%20Nuclear%20Solutions%2C%20LLC%20for%20Worker%20Safety%20and%20Health%20Violations.pdf. DOE, April 3, 2024. $127,440 proposed penalty after a 2022 finger amputation. PDF read. Verified 2026-11-07.
 - **WB** https://web.archive.org/web/20260930170931/https://www.energy.gov/ea/articles/preliminary-notice-violation-savannah-river-nuclear-solutions-llc-august-2026. DOE Office of Enterprise Assessments, August 2026. Notice over a thumb amputation in K Area in 2025. Page read. Verified 2026-11-07.
 - **WB** https://web.archive.org/web/20261029024631/https://public.srs.gov/2026/10/savannah-river-site-emergency-response-event-news-release-3/. SRS News Release #3, October 28, 2026. Laboratory fire, Site Area Emergency, "no detectable levels of contamination". Page read. Verified 2026-11-07.
-- **EXT:SRS** https://public.srs.gov/2026/10/savannah-river-site-emergency-response-event-2/. SRS News Release #2, October 28, 2026. Gives a different declaration time (5:39 p.m.) from Release #3 (5:07 p.m.). No Wayback capture. Page read. Verified 2026-11-07.
+- **WB** https://web.archive.org/web/20261108021005/https://public.srs.gov/2026/10/savannah-river-site-emergency-response-event-2/. SRS News Release #2, October 28, 2026. Gives a different declaration time (5:39 p.m.) from Release #3 (5:07 p.m.). Captured 2026-11-08. Page read. Verified 2026-11-07.
 
 ## 5. Sick workers and the river today
 

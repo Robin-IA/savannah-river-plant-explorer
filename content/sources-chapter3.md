@@ -245,59 +245,55 @@ Sources for "Atomic History: The Savannah River Plant Story", Chapter 3. Compile
     - "P Area Operable Unit (PAOU) Update", DOE-SR presentation to the CAB Facility Disposition and Site Remediation Committee (August 18, 2009).
     - Covers the CERCLA Early Action ROD and the Explanation of Significant Difference.
     - Verified 2026-11-06.
-46. **EXT: UNT End of Term web archive**: https://webarchive.library.unt.edu/web/20130216165857/http://blog.recovery.gov/2011/10/12/photo-of-the-week-srs-p-reactor-sealing/
-    - Recovery.gov blog, "Photo of the Week: SRS P Reactor sealing" (October 12, 2011).
-    - A non-IA web-archive copy of a defunct federal site.
-    - Verified 2026-11-06.
-47. **WB**: https://web.archive.org/web/20250528110708/https://www-pub.iaea.org/iaeameetings/IEM4/29Jan/Belencan.pdf
+46. **WB**: https://web.archive.org/web/20250528110708/https://www-pub.iaea.org/iaeameetings/IEM4/29Jan/Belencan.pdf
    - Wayback capture of https://www-pub.iaea.org/iaeameetings/IEM4/29Jan/Belencan.pdf (held by IAEA).
     - DOE-SRS presentation on ISD, with cost figures. It is live; its cost figure was not checked independently.
     - Verified (live) 2026-11-06.
-48. **DL**: `gov.gpo.fdsys.CHRG-111shrg53939`
+47. **DL**: `gov.gpo.fdsys.CHRG-111shrg53939`
     - "Environmental Management Stimulus Funding", Senate hearing (2009-04-22).
     - The congressional record of ARRA's $6 billion-scale EM allocation (that scale is unsourced here; see the hearing).
     - Verified 2026-11-06.
 
 ## 5. MOX and plutonium (including South Carolina's lawsuits)
 
-49. **DL**: `gov.gpo.fdsys.CHRG-109hhrg24254`
+48. **DL**: `gov.gpo.fdsys.CHRG-109hhrg24254`
     - HASC, "A Review of GAO's Findings … DOE's Efforts to Consolidate Surplus Plutonium Inventories" (2005-10-07).
     - Verified 2026-11-06.
-50. **DL**: `gov.gpo.fdsys.CHRG-109hhrg33597`
+49. **DL**: `gov.gpo.fdsys.CHRG-109hhrg33597`
     - HASC 109-130, "Plutonium Disposition and the U.S. Mixed Oxide Fuel Fabrication Facility" (2006-07-26).
     - Verified 2026-11-06.
-51. **DL**: `gov.gpo.fdsys.CHRG-114hhrg97197`
+50. **DL**: `gov.gpo.fdsys.CHRG-114hhrg97197`
     - HASC 114-54, "Plutonium Disposition and the MOX Project" (2015-10-07).
     - Verified 2026-11-06.
-52. **IA**: `crs-r43125.15`
+51. **IA**: `crs-r43125.15`
     - CRS R43125 v15, "Mixed-Oxide Fuel Fabrication Plant and Plutonium Disposition: Management and Policy Issues" (2017-12-14).
     - Verified 2026-11-06.
-53. **WB**: https://web.archive.org/web/20260716232112/https://www.gao.gov/products/gao-14-231
+52. **WB**: https://web.archive.org/web/20260716232112/https://www.gao.gov/products/gao-14-231
    - Wayback capture of https://www.gao.gov/products/gao-14-231 (held by GAO).
     - GAO-14-231, "Plutonium Disposition Program: DOE Needs to Analyze the Root Causes of Cost Increases…" (2014).
     - Verified 2026-11-06.
-54. **WB**: https://web.archive.org/web/20170412105447/http://www.srswatch.org/uploads/2/7/5/8/27584045/2016_updated_performance_baseline_for_mox.pdf
+53. **WB**: https://web.archive.org/web/20170412105447/http://www.srswatch.org/uploads/2/7/5/8/27584045/2016_updated_performance_baseline_for_mox.pdf
     - DOE Office of Project Management, "2016 Updated Performance Baseline for the MOX Fuel Fabrication Facility". Fetched.
     - Total project cost $17.17 billion, completing in 2048. The contractor's own estimate was $9.99 billion, completing in 2029.
     - Withdrawn: the file now 404s on srswatch.org.
     - Verified 2026-11-06.
-55. **WB**: https://web.archive.org/web/20170412105421/http://www.srswatch.org/uploads/2/7/5/8/27584045/federal_district_court_south_carolina_state_2016-02-09-mox-complaint-final.pdf
+54. **WB**: https://web.archive.org/web/20170412105421/http://www.srswatch.org/uploads/2/7/5/8/27584045/federal_district_court_south_carolina_state_2016-02-09-mox-complaint-final.pdf
     - *State of South Carolina v. United States et al.*, complaint (D.S.C., Aiken Div., filed February 2016). Fetched.
     - Live: still 200.
     - CDX lists about 40 MOX-related uploads on srswatch.org from 2013–2019, including FOIA responses and Graham letters.
     - Verified 2026-11-06.
-56. **WB**: https://web.archive.org/web/20260217004724/https://www.ca4.uscourts.gov/opinions/181684.P.pdf
+55. **WB**: https://web.archive.org/web/20260217004724/https://www.ca4.uscourts.gov/opinions/181684.P.pdf
    - Wayback capture of https://www.ca4.uscourts.gov/opinions/181684.P.pdf (held by US Court of Appeals, 4th Cir.).
     - *South Carolina v. United States*, No. 18-1684, decided January 8, 2019. Fetched.
     - It vacated the preliminary injunction that had kept MOX alive: the court held that South Carolina lacked standing.
     - It recounts the May 2018 waiver certification under §3121(b), which says dilute-and-dispose costs less than half of MOX's remaining cost.
     - Verified 2026-11-06.
-57. **WB**: https://web.archive.org/web/20221108223538/https://www.scag.gov/about-the-office/news/federal-government-announces-it-has-removed-one-ton-of-plutonium-from-south-carolina/
+56. **WB**: https://web.archive.org/web/20221108223538/https://www.scag.gov/about-the-office/news/federal-government-announces-it-has-removed-one-ton-of-plutonium-from-south-carolina/
    - Wayback capture of https://www.scag.gov/about-the-office/news/federal-government-announces-it-has-removed-one-ton-of-plutonium-from-south-carolina/ (held by SC Attorney General).
     - Release of August 7, 2019. DOE gave notice that at least one metric ton of plutonium had been removed under Judge Michelle Childs's injunction.
     - Statute required removal by January 1, 2016 if MOX's objective was not met by January 1, 2014. The state sued in 2016.
     - Verified 2026-11-06.
-58. **IA**: The Post and Courier's DocumentCloud file on MOX, as mirrored on archive.org (collection `documentcloud`, contributor Andrew Brown / The Post and Courier):
+57. **IA**: The Post and Courier's DocumentCloud file on MOX, as mirrored on archive.org (collection `documentcloud`, contributor Andrew Brown / The Post and Courier):
     - `5759246-050330-NRC-Issues-Construction-License-for-MOX`
     - `5750375-September-5-2007-DOE-Plan-to-Move-Plutonium-to-SRS`
     - `5750419-140318-Alan-Wilson-Sues-Obama-Administration`
@@ -309,53 +305,53 @@ Sources for "Atomic History: The Savannah River Plant Story", Chapter 3. Compile
     - These are primary documents underlying the paper's MOX reporting. Cite the paper's articles; don't reproduce them.
     - Also `6268902-9th-Circuit-Plutonium-Order` (The Nevada Independent, 2019) on the SRS plutonium shipped to Nevada.
     - All verified 2026-11-06.
-59. **WB**: https://web.archive.org/web/20200924022122/https://www.srs.gov/general/news/releases/nr18_nnsa-mox-job-fair.pdf
+58. **WB**: https://web.archive.org/web/20200924022122/https://www.srs.gov/general/news/releases/nr18_nnsa-mox-job-fair.pdf
     - "SRNS and NNSA Host Job Fair for MOX Employees" (December 6, 2018). Fetched.
     - The end-of-project human story, with at least 850 job-seekers.
     - Withdrawn.
     - Verified 2026-11-06.
-60. **IA (TV News)**: `WLTX_20160127_100000_News_19__5am` (WLTX Columbia, 2016-01-27)
+59. **IA (TV News)**: `WLTX_20160127_100000_News_19__5am` (WLTX Columbia, 2016-01-27)
     - Captions report that the 1-ton removal deadline was missed and that Gov. Haley told AG Wilson to proceed with suit to collect a $1 million-a-day fine.
     - Also `CSPAN2_20130516_160000_U.S._Senate` (2013-05-16; a floor speech on the 34-metric-ton MOX program) and `ALJAZAM_20160331_230000_News` (2016-03-31).
     - Verified 2026-11-06.
-61. **WB**: https://web.archive.org/web/20210624173615/https://www.srs.gov/general/news/releases/nr21_srs-removal-of-plutonium.pdf
+60. **WB**: https://web.archive.org/web/20210624173615/https://www.srs.gov/general/news/releases/nr21_srs-removal-of-plutonium.pdf
     - "SRS Facility Supports Removal of Plutonium From South Carolina" (June 23, 2021). Fetched.
     - The K Area Characterization and Storage Pad holds more than 3,800 downblended drums bound for WIPP.
     - Also `.../20221121123602/https://www.srs.gov/general/news/releases/nr22_SRS-Completes_Plutonium.pdf` (November 2, 2022).
     - Both still live.
     - Verified 2026-11-06.
-62. **WB**: https://web.archive.org/web/20251028113936/https://www.federalregister.gov/documents/2024/04/19/2024-08390/record-of-decision-for-the-final-environmental-impact-statement-for-the-surplus-plutonium
+61. **WB**: https://web.archive.org/web/20251028113936/https://www.federalregister.gov/documents/2024/04/19/2024-08390/record-of-decision-for-the-final-environmental-impact-statement-for-the-surplus-plutonium
    - Wayback capture of https://www.federalregister.gov/documents/2024/04/19/2024-08390/record-of-decision-for-the-final-environmental-impact-statement-for-the-surplus-plutonium (held by Federal Register).
     - ROD, Surplus Plutonium Disposition Program, the dilute-and-dispose successor to MOX (2024-04-19).
     - Verified 2026-11-06.
-63. **DL**: `micro_IA40386015_0538`
+62. **DL**: `micro_IA40386015_0538`
     - *Hodges v. Abraham*, 537 U.S. 1105 (2003), the Supreme Court docket in South Carolina Governor Hodges's suit over plutonium shipments to SRS. The case context is my own and is unsourced here; the docket content was not read.
     - Verified (metadata) 2026-11-06.
 
 ## 6. Tritium and pit production
 
-64. **IA**: `DTIC_ADA323809`
+63. **IA**: `DTIC_ADA323809`
     - CRS IB97002, "The Department of Energy's Tritium Production Program" (1997-01-23). Duplicate: `IB97002-crs`.
     - Also **IA** `DTIC_ADA364686`: Defense Science Board, *Tritium Production Technology Options* (1999-05).
     - Verified 2026-11-06.
-65. **IA**: `R43406-crs`
+64. **IA**: `R43406-crs`
     - CRS R43406, "U.S. Nuclear Weapon 'Pit' Production Options for Congress" (2014-02-21).
     - Also `crs-r43428.4` (2014), `crs-r44033.4` (2015-05-14), and `crs-r45306.7` ("U.S. Nuclear Weapons Complex: Overview of DOE Sites", 2021-03-31).
     - Verified 2026-11-06.
-66. **WB**: https://web.archive.org/web/20250217233003/https://www.federalregister.gov/documents/2020/11/05/2020-24517/record-of-decision-for-the-final-environmental-impact-statement-eis-for-plutonium-pit-production-at
+65. **WB**: https://web.archive.org/web/20250217233003/https://www.federalregister.gov/documents/2020/11/05/2020-24517/record-of-decision-for-the-final-environmental-impact-statement-eis-for-plutonium-pit-production-at
    - Wayback capture of https://www.federalregister.gov/documents/2020/11/05/2020-24517/record-of-decision-for-the-final-environmental-impact-statement-eis-for-plutonium-pit-production-at (held by Federal Register).
     - ROD, Plutonium Pit Production at SRS (2020-11-05).
     - The NOI was 2019-06-10 (2019-12003). The 2025-05-09 NOI for a new programmatic PEIS on pits is 2025-08140.
     - Verified 2026-11-06.
-67. **WB**: https://web.archive.org/web/20201017131925/https://www.srs.gov/general/news/releases/nr20_NNSA_EIS-plutonium-pit-production-srs.pdf
+66. **WB**: https://web.archive.org/web/20201017131925/https://www.srs.gov/general/news/releases/nr20_NNSA_EIS-plutonium-pit-production-srs.pdf
     - NNSA release of the final pit EIS (September 25, 2020). Fetched. Live: 200.
     - Verified 2026-11-06.
-68. **DL**: `gov.uscourts.scd.265178`
+67. **DL**: `gov.uscourts.scd.265178`
     - *Savannah River Site Watch v. U.S. Department of Energy*, D.S.C. No. 1:21-cv-01942-MGL. Plaintiffs are SRS Watch, Tom Clements, the Gullah/Geechee Sea Island Coalition, Nuclear Watch New Mexico, and Tri-Valley CAREs.
     - It is a NEPA challenge to the two-site pit production plan.
     - Opinions in the item: denial of the motion to dismiss (2023-02-07, ECF 31) and the administrative-record order (2024-09-30, ECF 207). Both were read.
     - Verified 2026-11-06.
-69. **WB**: tritium releases and fact sheet, cited individually:
+68. **WB**: tritium releases and fact sheet, cited individually:
       - `.../20200924003430/https://www.srs.gov/general/news/releases/nr20_srs-tritium-facility-milestone.pdf`
       - `.../20240515230425/https://www.srs.gov/general/news/releases/2023/nr23_Tritium_%20Finishing_Facility_Celebrates_Start_of_Site_Prep_Construction.pdf`
       - `.../20120915165905/http://www.srs.gov/general/news/factsheets/tritium_esrs.pdf`
@@ -364,127 +360,127 @@ Sources for "Atomic History: The Savannah River Plant Story", Chapter 3. Compile
 
 ## 7. Savannah River National Laboratory
 
-70. **WB**: https://web.archive.org/web/20041017194818/http://www.srs.gov/general/news/newpub-rel/releases/srnlinit.pdf
+69. **WB**: https://web.archive.org/web/20041017194818/http://www.srs.gov/general/news/newpub-rel/releases/srnlinit.pdf
     - "SRNL Supports Secretary Abraham's Science Education Initiative" (July 8, 2004). Fetched.
     - It calls SRNL "the country's newest national lab". Director: Todd Wright.
     - Withdrawn.
     - Verified 2026-11-06.
-71. **WB**: https://web.archive.org/web/20040923233037/http://srnl.doe.gov:80/
+70. **WB**: https://web.archive.org/web/20040923233037/http://srnl.doe.gov:80/
     - First capture of srnl.doe.gov (September 2004), the lab's first web identity after designation.
     - Live successor: https://www.srnl.gov/.
     - Verified 2026-11-06.
-72. **WB**: https://web.archive.org/web/20060519104515/http://www.srs.gov:80/general/news/factsheets/srnl.pdf
+71. **WB**: https://web.archive.org/web/20060519104515/http://www.srs.gov:80/general/news/factsheets/srnl.pdf
     - SRNL fact sheet (2006), CDX 200.
     - About 120 SRNL releases from 2008–2021 are captured under `srs.gov/general/news/releases/nr*_srnl-*`.
     - Verified 2026-11-06.
-73. **IA**: `coasc-SRNL_Laboratory_Public_Input_February_6_2023`
+72. **IA**: `coasc-SRNL_Laboratory_Public_Input_February_6_2023`
     - City of Aiken, "SRNL Laboratory Public Input" meeting (2023-02-06), video.
     - Verified 2026-11-06.
-74. **IA (TV News)**: `WIS_20160128_220000_WIS_News_10_Live_at_500` (2016-01-28)
+73. **IA (TV News)**: `WIS_20160128_220000_WIS_News_10_Live_at_500` (2016-01-28)
     - Captions: SRNL director Terry Michalske tells SC legislators about the FBI radiological crime lab housed at SRNL.
     - Verified 2026-11-06.
 
 ## 8. SREL and the National Environmental Research Park
 
-75. **DL**: `gov.gpo.fdsys.CHRG-110hhrg36143`
+74. **DL**: `gov.gpo.fdsys.CHRG-110hhrg36143`
     - House Science, "The Department of Energy's Support for the Savannah River Ecology Laboratory (SREL), Parts I & II" (2007-07-19).
     - Hearing video: **IA** `house.hbs.mars.hrs11SCI2318_070719`.
     - Verified 2026-11-06.
-76. **DL**: `gov.gpo.fdsys.CHRG-111hhrg49965`
+75. **DL**: `gov.gpo.fdsys.CHRG-111hhrg49965`
     - "Environmental Research at the Department of Energy" (2009-06-09), the post-crisis follow-up.
     - Verified 2026-11-06.
-77. **WB**: https://web.archive.org/web/20250416052438/https://cab.srs.gov/library/recommendations/recommendation_240.pdf
+76. **WB**: https://web.archive.org/web/20250416052438/https://cab.srs.gov/library/recommendations/recommendation_240.pdf
    - Wayback capture of https://cab.srs.gov/library/recommendations/recommendation_240.pdf (held by SRS CAB).
     - CAB Recommendation 240, "Savannah River Ecology Laboratory Funding Reductions" (FY2007; it asks for a DOE report by March 22, 2007).
     - FY2006 funding was cut from $7.78 million to $4 million, with about 60 staff lost. FY2007 dropped from an expected $4.5 million to $1 million. The CAB calls DOE's reneging "reprehensible".
     - It also cites the 1994 decision not to drain Par Pond.
     - Verified 2026-11-06.
-78. **WB**: https://web.archive.org/web/20260312074558/https://news.uga.edu/srel-budget-is-cut-employees-face-layoffs-in-october/
+77. **WB**: https://web.archive.org/web/20260312074558/https://news.uga.edu/srel-budget-is-cut-employees-face-layoffs-in-october/
    - Wayback capture of https://news.uga.edu/srel-budget-is-cut-employees-face-layoffs-in-october/ (held by UGA Today).
     - 2005 notice: positions end September 30, 2005. The grant was cut 47%, from $7.748 million to $4.3 million.
     - Verified 2026-11-06.
-79. **WB**: https://web.archive.org/web/20070715042708/http://www.uga.edu:80/srel/
+78. **WB**: https://web.archive.org/web/20070715042708/http://www.uga.edu:80/srel/
     - SREL home page (July 2007). Fetched.
     - It carries a "SREL budget crisis" link to `Current-SREL-Funding-Situation.pdf`. **That PDF has no Wayback capture**, which is a loss.
     - SREL's first 200 capture is `20000901020207/http://www.uga.edu:80/srel/` (not 1999 as briefed). The later host `srel.uga.edu` was first captured at `20111110145328`.
     - Verified 2026-11-06.
-80. **WB**: https://web.archive.org/web/20250416051917/https://cab.srs.gov/library/meetings/2025/ms/2.%20SREL_%20cleared.pdf
+79. **WB**: https://web.archive.org/web/20250416051917/https://cab.srs.gov/library/meetings/2025/ms/2.%20SREL_%20cleared.pdf
    - Wayback capture of https://cab.srs.gov/library/meetings/2025/ms/2.%20SREL_%20cleared.pdf (held by SRS CAB).
     - Olin Rhodes, "SREL FY24 Overview" to the CAB (March 25, 2025).
     - FY24 funding mix: DOE-EM 35%, NNSA 15%, non-SRS 23%. Also covers FY2025 challenges.
     - Verified 2026-11-06.
-81. **WB**: https://web.archive.org/web/20200918134709/https://www.srs.gov/general/news/releases/nr20_srns-srel-roof-replacement.pdf
+80. **WB**: https://web.archive.org/web/20200918134709/https://www.srs.gov/general/news/releases/nr20_srns-srel-roof-replacement.pdf
     - "Crews Replace Roof of Laboratory Integral to SRS" (February 11, 2020). Fetched.
     - The SREL director describes the lab's "dire need" for the roof replacement. This is evidence of the infrastructure strain.
     - Live: 200.
     - Verified 2026-11-06.
-82. **IA**: `avianresearchats0000unse`
+81. **IA**: `avianresearchats0000unse`
     - *Avian Research at the Savannah River Site* (2000). An example of NERP-based research.
     - Also `fishesofmiddlesa0000unse` (2005).
     - Verified 2026-11-06.
 
 ## 9. Heritage and memory
 
-83. **WB**: https://web.archive.org/web/20150930092227/http://www.srs.gov/general/news/releases/nr14_srns-heritage-foundation.pdf
+82. **WB**: https://web.archive.org/web/20150930092227/http://www.srs.gov/general/news/releases/nr14_srns-heritage-foundation.pdf
     - "SRS Heritage Foundation, Aiken County and SRNS Cut Ribbon at SRS History Museum" (October 28, 2014). Fetched.
     - The museum is in the former Dibble Library building and was to open to the public in 2015, after "more than 10 years of planning".
     - Withdrawn.
     - Verified 2026-11-06.
-84. **WB**: https://web.archive.org/web/20201126172828/https://www.srs.gov/general/news/releases/nr20_srs-preserving-srs-history.pdf
+83. **WB**: https://web.archive.org/web/20201126172828/https://www.srs.gov/general/news/releases/nr20_srs-preserving-srs-history.pdf
     - "Preserving the History of the Savannah River Site" (November 16, 2020). Fetched.
     - Two programs partner with the SRS Museum: the Savannah River Archaeological Research Program (with USC's SCIAA) and the Cold War Historic Preservation Program.
     - Live: 200.
     - Verified 2026-11-06.
-85. **WB**: https://web.archive.org/web/20201103201226/https://www.srs.gov/general/news/releases/nr20_srs-museum-contribution.pdf
+84. **WB**: https://web.archive.org/web/20201103201226/https://www.srs.gov/general/news/releases/nr20_srs-museum-contribution.pdf
     - "NNSA Contribution to Museum…" (October 20, 2020). Fetched.
     - $300,000 for a permanent exhibit, "Tritium: The Past and Future Mission".
     - Also `.../20210908012816/https://www.srs.gov/general/news/releases/nr21_srns-cold-war-life.pdf` (June 4, 2021), the "Nuclear Culture" exhibit with objects from the SRS Curation Facility.
     - Live: 200.
     - Verified 2026-11-06.
-86. **WB**: https://web.archive.org/web/20170525214013/http://srsmuseum.org/
+85. **WB**: https://web.archive.org/web/20170525214013/http://srsmuseum.org/
     - SRS Museum website, first capture.
     - **srsmuseum.org no longer resolves in DNS** (checked 2026-11-06), so the Wayback captures are now the record of the museum's web presence.
     - Verified 2026-11-06.
-126. **WB**: https://web.archive.org/web/20261104093554/http://srsheritagemuseum.org/
+125. **WB**: https://web.archive.org/web/20261104093554/http://srsheritagemuseum.org/
     - SRS Museum website (SRS Heritage Foundation), captured November 4, 2026.
     - "The Museum is open Wednesdays – Saturdays from 10 a.m. to 4 p.m. and admission is free"; 224 Laurens St. SW, Aiken.
     - Verified 2026-11-07.
-87. **WB**: https://web.archive.org/web/20051025030030/http://www.srs.gov:80/general/about/history1.htm
+86. **WB**: https://web.archive.org/web/20051025030030/http://www.srs.gov:80/general/about/history1.htm
     - "SRS History Highlights" page.
     - Also in the UNT End of Term 2008 archive. Switched to the Wayback capture on November 7, 2026.
     - Verified 2026-11-06.
-88. **WB**: https://web.archive.org/web/20260422121048/https://www.scencyclopedia.org/sce/entries/savannah-river-site/
+87. **WB**: https://web.archive.org/web/20260422121048/https://www.scencyclopedia.org/sce/entries/savannah-river-site/
    - Wayback capture of https://www.scencyclopedia.org/sce/entries/savannah-river-site/ (held by South Carolina Encyclopedia).
     - Secondary overview.
     - Verified 2026-11-06.
 
 ## 10. Community and oversight
 
-89. **WB**: https://web.archive.org/web/20120212233745/http://cab.srs.gov:80/
+88. **WB**: https://web.archive.org/web/20120212233745/http://cab.srs.gov:80/
     - CAB site, first capture. Live: 200.
     - The `cab.srs.gov/library/recommendations/` index refuses automated access (403), but individual PDFs load.
     - Verified 2026-11-06.
-90. **WB**: https://web.archive.org/web/20161221161731/http://www.srs.gov/general/news/releases/nr15_srs-cab-new-members.pdf
+89. **WB**: https://web.archive.org/web/20161221161731/http://www.srs.gov/general/news/releases/nr15_srs-cab-new-members.pdf
     - "SRS CAB Seeking New Members" (October 2, 2015). Fetched.
     - Describes the CAB's remit within the EM Site-Specific Advisory Board.
     - Also the CAB fact sheet: `.../20041017160230/http://www.srs.gov/general/news/newpub-rel/factsheets/cabrp.pdf` (CDX 200).
     - Withdrawn.
     - Verified 2026-11-06.
-91. **WB**: https://web.archive.org/web/20131215012236/http://www.srswatch.org:80/
+90. **WB**: https://web.archive.org/web/20131215012236/http://www.srswatch.org:80/
     - Savannah River Site Watch (Tom Clements), first capture. Live: 200.
     - Verified 2026-11-06.
-92. **WB**: https://web.archive.org/web/20260922145204/https://www.dnfsb.gov/doe-sites/savannah-river-site
+91. **WB**: https://web.archive.org/web/20260922145204/https://www.dnfsb.gov/doe-sites/savannah-river-site
    - Wayback capture of https://www.dnfsb.gov/doe-sites/savannah-river-site (held by DNFSB).
     - Defense Nuclear Facilities Safety Board, SRS page with its staff weekly reports and letters. Live.
     - Individual reports were not sampled.
     - Verified 2026-11-06.
-93. **WB**: https://web.archive.org/web/20260906152019/https://www.energy.gov/em/savannah-river-site
+92. **WB**: https://web.archive.org/web/20260906152019/https://www.energy.gov/em/savannah-river-site
    - Wayback capture of https://www.energy.gov/em/savannah-river-site (held by DOE).
     - Live; first Wayback capture `20150227194620`.
     - Also https://www.energy.gov/srs/savannah-river-site, live; first capture `20191210223128`. The bare `energy.gov/srs` had no 200 capture in CDX.
     - Also https://www.energy.gov/em/articles/srs-marks-milestone-dd-50-buildings-2008.
     - Verified 2026-11-06.
-94. **IA**: `SavannahRiverEnvironmentalImpactStatements`
+93. **IA**: `SavannahRiverEnvironmentalImpactStatements`
     - Compilation of DOE EISs for SRS (`folkscanomy`), including EIS-0062 on double-shell tanks. No date in the item.
     - Verified 2026-11-06.
 
@@ -494,105 +490,105 @@ Sources for "Atomic History: The Savannah River Plant Story", Chapter 3. Compile
 
 Added November 6, 2026, from a second research pass; every item was checked live that day.
 
-95. **IA**: `DTIC_ADA344922`
+94. **IA**: `DTIC_ADA344922`
    - GAO, *Nuclear Nonproliferation: Concerns With U.S. Delays in Accepting Foreign Research Reactors' Spent Fuel* (B-256337), 1994-03. DTIC mirror.
    - Belgium and Germany reprocessing because of the delays; DOE planned to store the first returns at SRS. Full text read.
    - Verified 2026-11-06.
-96. **DL**: `sim_federal-register-find_1996-05-17_61_97`
+95. **DL**: `sim_federal-register-find_1996-05-17_61_97`
    - *Federal Register* 61:97, 1996-05-17: DOE's Record of Decision on foreign research reactor spent fuel.
    - About 22,700 elements from 41 countries over 13 years; about 80% through Charleston; aluminum-based fuel to SRS. Full text read.
    - Verified 2026-11-06.
-97. **DL**: `micro_IA40386015_0538`
+96. **DL**: `micro_IA40386015_0538`
    - *Hodges v. Abraham*, No. 02-544, U.S. Supreme Court records (petition, briefs, and the Fourth Circuit and D.S.C. opinions).
    - April 2002 Rocky Flats storage decision; the suit of May 1, 2002; Hodges's executive order banning plutonium on state roads; the June 18, 2002, injunction; the Fourth Circuit's holding. Also cites *South Carolina ex rel. Beasley v. O'Leary* (1996) over the foreign fuel. Full text read; the cert decision not read.
    - Verified 2026-11-06.
-98. **IA**: `nucleartoxicwast0000kall`
+97. **IA**: `nucleartoxicwast0000kall`
    - *Nuclear and Toxic Waste* (2005), lending library.
    - Hodges vowed to lie in the road to keep plutonium shipments out. Full-text highlight only.
    - Verified 2026-11-06.
-99. **DL**: `gov.gpo.fdsys.CHRG-106hhrg64703`
+98. **DL**: `gov.gpo.fdsys.CHRG-106hhrg64703`
    - *Waste, Fraud, Abuse, and Mismanagement*, House hearing, 2000-05-24.
    - In-Tank Precipitation: $32 million and 1988 expected; almost half a billion dollars spent; benzene; abandoned 1998 (January per DOE, February per GAO). Text read.
    - Verified 2026-11-06.
-100. **WB**: https://web.archive.org/web/20260720111820/https://www.govinfo.gov/content/pkg/GAOREPORTS-RCED-99-69/html/GAOREPORTS-RCED-99-69.htm
+99. **WB**: https://web.archive.org/web/20260720111820/https://www.govinfo.gov/content/pkg/GAOREPORTS-RCED-99-69/html/GAOREPORTS-RCED-99-69.htm
    - Wayback capture of https://www.govinfo.gov/content/pkg/GAOREPORTS-RCED-99-69/html/GAOREPORTS-RCED-99-69.htm (held by GAO via govinfo).
    - GAO/RCED-99-69, *Process to Remove Radioactive Waste From Savannah River Tanks Fails to Work*, 1999-04-30.
    - GAO's findings on ITP and DOE oversight. Text read; gao.gov refuses automated requests.
    - Verified 2026-11-06.
-101. **WB**: https://web.archive.org/web/20250223204809/https://www.energy.gov/sites/default/files/2015/08/f25/OAS-L-15-09.pdf
+100. **WB**: https://web.archive.org/web/20250223204809/https://www.energy.gov/sites/default/files/2015/08/f25/OAS-L-15-09.pdf
    - Wayback capture of https://www.energy.gov/sites/default/files/2015/08/f25/OAS-L-15-09.pdf (held by DOE Inspector General).
    - OAS-L-15-09, *Treatment of Salt Waste at the Savannah River Site*, 2015-08-06.
    - SWPF planned for 2008 at $900 million; about $1.4 billion cost growth; start no earlier than December 2018; minimal waste treated. PDF read.
    - Verified 2026-11-06.
-102. **WB**: https://web.archive.org/web/20210221064000/https://srswatch.org/safety-board-radiation-does-rates-high-as-a-nuclear-firecracker-in-new-srs-high-level-waste-facility/
+101. **WB**: https://web.archive.org/web/20210221064000/https://srswatch.org/safety-board-radiation-does-rates-high-as-a-nuclear-firecracker-in-new-srs-high-level-waste-facility/
    - SRS Watch (advocacy), 2021-01-30.
    - Quotes the safety board's report of high dose rates during SWPF startup. Not used in the story.
    - Verified 2026-11-06.
-103. **WB**: https://web.archive.org/web/20250207160857/https://www.federalregister.gov/documents/2019/12/10/2019-26555/draft-environmental-assessment-for-the-commercial-disposal-of-defense-waste-processing-facility
+102. **WB**: https://web.archive.org/web/20250207160857/https://www.federalregister.gov/documents/2019/12/10/2019-26555/draft-environmental-assessment-for-the-commercial-disposal-of-defense-waste-processing-facility
    - Wayback capture of https://www.federalregister.gov/documents/2019/12/10/2019-26555/draft-environmental-assessment-for-the-commercial-disposal-of-defense-waste-processing-facility (held by Federal Register).
    - DOE draft EA-2115, 2019-12-10.
    - Grouting DWPF recycle wastewater for commercial disposal under the reinterpreted definition of high-level waste. Text read.
    - Verified 2026-11-06.
-104. **WB**: https://web.archive.org/web/20250203052153/https://www.federalregister.gov/documents/2020/08/10/2020-17374/finding-of-no-significant-impact-for-the-commercial-disposal-of-defense-waste-processing-facility
+103. **WB**: https://web.archive.org/web/20250203052153/https://www.federalregister.gov/documents/2020/08/10/2020-17374/finding-of-no-significant-impact-for-the-commercial-disposal-of-defense-waste-processing-facility
    - Wayback capture of https://www.federalregister.gov/documents/2020/08/10/2020-17374/finding-of-no-significant-impact-for-the-commercial-disposal-of-defense-waste-processing-facility (held by Federal Register).
    - DOE finding of no significant impact, 2020-08-10.
    - Up to 8 gallons first, to Waste Control Specialists in Andrews, Texas; the reinterpretation revised after comments. Text read.
    - Verified 2026-11-06.
-105. **WB**: https://web.archive.org/web/20200917111504/http://ag.nv.gov/News/PR/2020/State_of_Nevada_Strikes_Settlement_With_Department_of_Energy_Over_Plutonium_Shipments/
+104. **WB**: https://web.archive.org/web/20200917111504/http://ag.nv.gov/News/PR/2020/State_of_Nevada_Strikes_Settlement_With_Department_of_Energy_Over_Plutonium_Shipments/
    - Nevada Attorney General, press release, 2020-06-26.
    - DOE's August 2018 plan; half the plutonium shipped secretly while seemingly negotiating in good faith; removal by the end of 2026 and no further shipments. Text read.
    - Verified 2026-11-06.
-106. **WB**: https://web.archive.org/web/20220111020754/https://srswatch.org/doe-informs-nevada-court-that-weapon-grade-plutonium-shipment-from-does-savannah-river-site-to-nevada-has-taken-place-unknown-when-unjustified-shipment-occurred-but-before-november-2018/
+105. **WB**: https://web.archive.org/web/20220111020754/https://srswatch.org/doe-informs-nevada-court-that-weapon-grade-plutonium-shipment-from-does-savannah-river-site-to-nevada-has-taken-place-unknown-when-unjustified-shipment-occurred-but-before-november-2018/
    - SRS Watch (advocacy), 2019-01-30.
    - DOE told the Nevada court the shipment occurred before November 2018, from K Reactor storage. Not used in the story.
    - Verified 2026-11-06.
-107. **WB**: https://web.archive.org/web/20210505033247/https://www.federalregister.gov/documents/2014/06/04/2014-12933/environmental-assessment-for-the-acceptance-and-disposition-of-used-nuclear-fuel-containing
+106. **WB**: https://web.archive.org/web/20210505033247/https://www.federalregister.gov/documents/2014/06/04/2014-12933/environmental-assessment-for-the-acceptance-and-disposition-of-used-nuclear-fuel-containing
    - Wayback capture of https://www.federalregister.gov/documents/2014/06/04/2014-12933/environmental-assessment-for-the-acceptance-and-disposition-of-used-nuclear-fuel-containing (held by Federal Register).
    - DOE notice of intent, EA-1977, 2014-06-04.
    - Assessing acceptance of German spent fuel in graphite spheres. Text read.
    - Verified 2026-11-06.
-108. **WB**: https://web.archive.org/web/20250414173551/https://www.federalregister.gov/documents/2016/01/25/2016-01371/environmental-assessment-for-the-acceptance-and-disposition-of-spent-nuclear-fuel-containing
+107. **WB**: https://web.archive.org/web/20250414173551/https://www.federalregister.gov/documents/2016/01/25/2016-01371/environmental-assessment-for-the-acceptance-and-disposition-of-spent-nuclear-fuel-containing
    - Wayback capture of https://www.federalregister.gov/documents/2016/01/25/2016-01371/environmental-assessment-for-the-acceptance-and-disposition-of-spent-nuclear-fuel-containing (held by Federal Register).
    - DOE draft EA-1977, 2016-01-25.
    - AVR and THTR-300 fuel with US-origin HEU; Juelich to bear costs. Text read.
    - Verified 2026-11-06.
-109. **WB**: https://web.archive.org/web/20250416065922/https://www.srs.gov/general/outreach/srs-cab/library/recommendations/Rec_350_-_German_Fuel.pdf
+108. **WB**: https://web.archive.org/web/20250416065922/https://www.srs.gov/general/outreach/srs-cab/library/recommendations/Rec_350_-_German_Fuel.pdf
    - SRS Citizens Advisory Board, Recommendation 350, 2017.
    - The board's opposition to the German fuel import. PDF read.
    - Verified 2026-11-06.
-110. **WB**: https://web.archive.org/web/20221012205815/https://srswatch.org/public-interest-victories-at-srs-import-of-german-spent-fuel-off-the-table-h-canyon-reprocessing-plant-closure-set-on-track-for-2033/
+109. **WB**: https://web.archive.org/web/20221012205815/https://srswatch.org/public-interest-victories-at-srs-import-of-german-spent-fuel-off-the-table-h-canyon-reprocessing-plant-closure-set-on-track-for-2033/
    - SRS Watch (advocacy), 2022-07.
    - North Rhine-Westphalia's government agrees to pursue new storage at Juelich; import off the table. Text read.
    - Verified 2026-11-06.
-111. **WB**: https://web.archive.org/web/20220111081001/https://srswatch.org/plutonium-proliferation-alert-plutonium-from-japan-to-srs/
+110. **WB**: https://web.archive.org/web/20220111081001/https://srswatch.org/plutonium-proliferation-alert-plutonium-from-japan-to-srs/
    - SRS Watch (advocacy), 2016.
    - Japanese Fast Critical Assembly plutonium arriving through Charleston, about June 2016. Not confirmed from a government source.
    - Verified 2026-11-06.
-112. **WB**: https://web.archive.org/web/20261107181727/https://www.federalregister.gov/documents/2021/03/08/2021-04707/disposition-of-fast-critical-assembly-plutonium
+111. **WB**: https://web.archive.org/web/20261107181727/https://www.federalregister.gov/documents/2021/03/08/2021-04707/disposition-of-fast-critical-assembly-plutonium
    - Wayback capture of https://www.federalregister.gov/documents/2021/03/08/2021-04707/disposition-of-fast-critical-assembly-plutonium (held by Federal Register).
    - DOE amended Record of Decision, 2021-03-08.
    - Gap Material plutonium moved from the WIPP path to H-Canyon, DWPF and storage at SRS until a geologic repository is available. Text read.
    - Verified 2026-11-06.
-113. **WB**: https://web.archive.org/web/20250204215942/https://www.federalregister.gov/documents/2019/06/19/2019-12918/recommendation-2019-02
+112. **WB**: https://web.archive.org/web/20250204215942/https://www.federalregister.gov/documents/2019/06/19/2019-12918/recommendation-2019-02
    - Wayback capture of https://www.federalregister.gov/documents/2019/06/19/2019-12918/recommendation-2019-02 (held by Federal Register).
    - Defense Nuclear Facilities Safety Board, Recommendation 2019-2, 2019-06-19.
    - Tritium facility accidents could cause acute radiation sickness or fatality in a significant number of individuals. Text read.
    - Verified 2026-11-06.
-114. **WB**: https://web.archive.org/web/20250204112020/https://www.federalregister.gov/documents/2019/10/02/2019-21438/doe-response-to-recommendation-2019-2-of-the-defense-nuclear-facilities-safety-board-safety-of-the
+113. **WB**: https://web.archive.org/web/20250204112020/https://www.federalregister.gov/documents/2019/10/02/2019-21438/doe-response-to-recommendation-2019-2-of-the-defense-nuclear-facilities-safety-board-safety-of-the
    - Wayback capture of https://www.federalregister.gov/documents/2019/10/02/2019-21438/doe-response-to-recommendation-2019-2-of-the-defense-nuclear-facilities-safety-board-safety-of-the (held by Federal Register).
    - DOE response to Recommendation 2019-2, 2019-10-02.
    - "I do not accept Recommendation 2019-2"; further action "unnecessarily duplicative". Text read.
    - Verified 2026-11-06.
-115. **DL**: `gov.gpo.fdsys.CHRG-108hhrg90178`
+114. **DL**: `gov.gpo.fdsys.CHRG-108hhrg90178`
    - *Energy Employees Workers' Compensation*, House hearing, 2003-10-30.
    - Norwood's 300+ constituent claims with only a handful decided; the building trades' statement on unfair treatment of SRS workers. Text read.
    - Verified 2026-11-06.
-116. **WB**: https://web.archive.org/web/20250213172044/https://www.federalregister.gov/documents/2021/09/07/2021-19167/designation-of-a-class-of-employees-for-addition-to-the-special-exposure-cohort
+115. **WB**: https://web.archive.org/web/20250213172044/https://www.federalregister.gov/documents/2021/09/07/2021-19167/designation-of-a-class-of-employees-for-addition-to-the-special-exposure-cohort
    - Wayback capture of https://www.federalregister.gov/documents/2021/09/07/2021-19167/designation-of-a-class-of-employees-for-addition-to-the-special-exposure-cohort (held by Federal Register).
    - HHS, Special Exposure Cohort designation, 2021-09-07.
    - Subcontractor construction-trade employees, October 1972 to 1990. Text read.
    - Verified 2026-11-06.
-117. **WB**: https://web.archive.org/web/20260927131346/https://www.govinfo.gov/content/pkg/FR-2026-07-28/html/2026-15152.htm
+116. **WB**: https://web.archive.org/web/20260927131346/https://www.govinfo.gov/content/pkg/FR-2026-07-28/html/2026-15152.htm
    - Wayback capture of the govinfo copy of the same notice; federalregister.gov serves automated visitors a block page. Original: https://www.federalregister.gov/documents/2026/07/28/2026-15152/designation-of-a-class-of-employees-for-addition-to-the-special-exposure-cohort
    - HHS, Special Exposure Cohort designation, 2026-07-28.
    - The same group, 1991 to 1993. Text read.
@@ -602,31 +598,31 @@ Added November 6, 2026, from a second research pass; every item was checked live
 
 Added November 7, 2026; every item checked live that day.
 
-118. **WB**: https://web.archive.org/web/20251228152048/https://www.osti.gov/servlets/purl/803389
+117. **WB**: https://web.archive.org/web/20251228152048/https://www.osti.gov/servlets/purl/803389
    - Brown, Crase and Singh (Westinghouse Savannah River Co. and DOE), *Summary of Epidemiology Studies … Involving Workers at the Savannah River Site or the Surrounding Public: An Update*, ESH-WHS-2002-00005, October 18, 2002. A site-contractor source.
    - The 1995 Oak Ridge (Cragle) worker study; the MUSC cancer and birth-defects registry, 1991–1995, and its officials' finding of no indication of a link to the site. PDF read.
    - Verified 2026-11-07.
-119. **WB**: https://web.archive.org/web/20120518011321/http://www.cdc.gov/niosh/oerp/savannah-mortality/
+118. **WB**: https://web.archive.org/web/20120518011321/http://www.cdc.gov/niosh/oerp/savannah-mortality/
    - NIOSH, *Savannah River Site Mortality Study*, last updated March 31, 2011.
    - 18,883 workers hired 1950–1986; leukemia risk rising with dose; excess pleural cancer (Richardson and Wing, 2007). Page read.
    - Verified 2026-11-07.
-120. **WB**: https://web.archive.org/web/20260726082358/https://www.cdc.gov/niosh/ocas/pdfs/pers/oc-per19-r0.pdf
+119. **WB**: https://web.archive.org/web/20260726082358/https://www.cdc.gov/niosh/ocas/pdfs/pers/oc-per19-r0.pdf
    - NIOSH OCAS-PER-019, *The Effect of Additional Neutron Dose Data from the Savannah River Site*, May 18, 2007.
    - Neutron dosimetry not sent for some claims; affected claims re-evaluated. PDF read.
    - Verified 2026-11-07.
-121. **WB**: https://web.archive.org/web/20260118133056/https://www.cdc.gov/niosh/ocas/srs.html
+120. **WB**: https://web.archive.org/web/20260118133056/https://www.cdc.gov/niosh/ocas/srs.html
    - NIOSH, Savannah River Site dose reconstruction page, captured January 18, 2026.
    - Petition 103, received November 19, 2007, covering 1950–2007; the site's SEC classes came from it. Page read.
    - Verified 2026-11-07.
-122. **WB**: https://web.archive.org/web/20260129120011/https://www.atsdr.cdc.gov/HAC/pha/SavannahRiverSite121707/SavannahRiverSiteFinalPHA121707.pdf
+121. **WB**: https://web.archive.org/web/20260129120011/https://www.atsdr.cdc.gov/HAC/pha/SavannahRiverSite121707/SavannahRiverSiteFinalPHA121707.pdf
    - ATSDR public health assessment, *Evaluation of Off-Site Groundwater and Surface Water Contamination at the Savannah River Site*, December 17, 2007.
    - 'No apparent public health hazard'; the CDC Health Effects Subcommittee's final meeting on September 15, 2005. PDF read.
    - Verified 2026-11-07.
-123. **WB**: https://web.archive.org/web/20241207084609/http://archive.bredl.org/pdf3/FINAL_CIF_Report.pdf
+122. **WB**: https://web.archive.org/web/20241207084609/http://archive.bredl.org/pdf3/FINAL_CIF_Report.pdf
    - Radiation and Public Health Project (Mangano), *Assessing Changes in Environmental Radioactivity and Health Near the Savannah River Site*, February 22, 2012. Advocacy.
    - 46 of 48 radiation-sensitive measures in Allendale, Aiken, Barnwell, Burke and Richmond counties rising faster than U.S. rates. PDF read.
    - Verified 2026-11-07.
-124. **WB**: https://web.archive.org/web/20260520170910/https://www.atsdr.cdc.gov/HAC/pha/SavannahRiverSite/SavannahRiverSitePHAFInal02292012.pdf
+123. **WB**: https://web.archive.org/web/20260520170910/https://www.atsdr.cdc.gov/HAC/pha/SavannahRiverSite/SavannahRiverSitePHAFInal02292012.pdf
    - ATSDR public health assessment, *Evaluation of Exposures to Contaminants in Biota Originating from the Savannah River Site*, February 29, 2012.
    - No harmful radiation from local crops, livestock or game; mercury risk from heavy eating of bass, bowfin and catfish; the site's share of mercury 'is not known'; the 1997 survey of 258 people fishing the river; fishing on the site barred. PDF read.
    - Verified 2026-11-07.
@@ -635,7 +631,7 @@ Added November 7, 2026; every item checked live that day.
 
 Added November 7, 2026; every item checked live that day.
 
-125. **WB**: https://web.archive.org/web/20201018100023/https://www.gao.gov/assets/710/705841.pdf
+124. **WB**: https://web.archive.org/web/20201018100023/https://www.gao.gov/assets/710/705841.pdf
    - GAO-20-122, *Payments in Lieu of Taxes*, October 2019.
    - Barnwell County about $4.5 million of $6.2 million in fiscal 2013; per-acre values set in 1988. PDF read.
    - Verified 2026-11-07.
