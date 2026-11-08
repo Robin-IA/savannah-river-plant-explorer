@@ -443,7 +443,8 @@ Service's first job was planting trees "by the thousands" on old farms
 </figure>
 
 The site and its reactors changed the local streams and watershed. Lower Three Runs Creek was dammed in 1958
-to make Par Pond, a cooling reservoir, and the reactors sent hot water down
+to make Par Pond, a 2,600-acre cooling reservoir named for the P and R
+reactors it served ([WB: *SRS at Fifty*](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=354)), and the reactors sent hot water down
 creeks such as Steel Creek ([IA: L-Reactor environmental impact statement, 1984](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
 
 <figure class="fig">
