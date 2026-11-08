@@ -812,9 +812,7 @@ oscars.org](https://web.archive.org/web/20261011042140/https://www.oscars.org/os
 Public television did not show it at first.
 
 In 1992 the cable series *Alternative Views* presented the film with an
-interview with its co-director, saying PBS had refused to broadcast it ([IA:
-*Alternative Views*
-#466](https://archive.org/details/AV_466-NO_NUKES_IS_GOOD_NUKES)). After three
+interview with its co-director, saying PBS had refused to broadcast it ([IA: *Alternative Views* #466](https://archive.org/details/AV_466-NO_NUKES_IS_GOOD_NUKES)). After three
 years of argument and a campaign Mori organized, an edited version, retitled
 *Building Bombs: The Legacy*, aired on *POV* on August 10, 1993 ([WB: *Los
 Angeles
