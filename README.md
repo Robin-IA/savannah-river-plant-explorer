@@ -40,12 +40,14 @@ logos:
   URL, for example `sources.html?tag=WB&chapter=3&q=DWPF`.
 - **Glossary** (`glossary.html`): the technical words, agencies and places in
   the story.
+- **Controversies** (`controversies.html`): the arguments over the plant,
+  each linked to the story, and the places where the sources disagree.
 - **Search** (`search.html`, in the menu on every page): search the story,
   the timeline and the sources.
 - **Download the story** (`atomic-history-savannah-river-plant.pdf`): all four
   chapters as one PDF, with images and citations, linked from the side panel.
-- **About** (`about.html`), including the controversies, the documentary
-  *Building Bombs*, and where the sources disagree.
+- **About** (`about.html`): the project, where the sources are held, images
+  and how it was built.
 
 **Facts:**
 
@@ -99,7 +101,7 @@ The notes for each source, including what was and was not read, are in
   the story), `about.html` (the About page's body) and `disagree.md` (where
   sources disagree, shown on the About page).
 - `build/build.py` writes `index.html`, the section pages `chapter-N.html` and `chapter-N-K.html`,
-  `timeline.html`, `sources.html`, `glossary.html`, `about.html`, `data/sources.json`,
+  `timeline.html`, `sources.html`, `glossary.html`, `controversies.html`, `search.html`, `about.html`, `data/sources.json`,
   `data/timeline.json` and `data/passages.json` (the chapters' paragraphs, for
   search). It needs
   Python 3 and the `markdown` package, pinned in `requirements.txt`. It

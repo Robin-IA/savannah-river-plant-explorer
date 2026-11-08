@@ -168,7 +168,7 @@ def sources(path, act):
 # Page furniture shared by every page.
 
 PAGES = (("index.html", "Story"), ("timeline.html", "Timeline"),
-         ("sources.html", "Sources"), ("glossary.html", "Glossary"), ("search.html", "Search"), ("about.html", "About"),
+         ("sources.html", "Sources"), ("glossary.html", "Glossary"), ("controversies.html", "Controversies"), ("search.html", "Search"), ("about.html", "About"),
          ("atomic-history-savannah-river-plant.pdf", "Download the Story"))
 ACT_SPANS = ((1, 1950, 1970, "Building the Bomb Plant"),
              (2, 1970, 1992.5, "The Reactors Under Scrutiny"),
@@ -456,7 +456,7 @@ def build_chapters(items):
                 label = "%s: %s" % (ACTS[nn].split(", ")[0], label)
             prev_next.append('<a class="pn next" href="%s"><span>Next</span> %s</a>' % (npg, html.escape(label)))
         else:
-            prev_next.append('<a class="pn next" href="about.html#where-the-sources-disagree"><span>Next</span> Where the sources disagree</a>')
+            prev_next.append('<a class="pn next" href="controversies.html#where-the-sources-disagree"><span>Next</span> Where the Sources Disagree</a>')
         h1 = "Chapter %d. %s" % (n, title)
         sname = sections[n][s_i][1]
         count = '<p class="sec-count">Part %d of %d in Chapter %d</p>' % (s_i + 1, len(sections[n]), n)
@@ -619,6 +619,21 @@ def build_sources(items):
 </main>
 """ % (tagbtns, actopts, holder_chart(items), len(items), "\n".join(rows)) + foot(["app.js"])
     write(ROOT / "sources.html", page)
+
+
+def build_controversies(pages):
+    """The arguments over the plant, and where the sources disagree."""
+    body = (CONTENT / "controversies.md").read_text(encoding="utf-8")
+    body = re.sub(r'href="index\.html#([\w-]+)"', lambda m: 'href="%s#%s"' % (pages[m.group(1)][0], m.group(1)), body)
+    body = re.sub(r'href="chapter-([1-4])\.html#([\w-]+)"',
+                  lambda m: 'href="%s#%s"' % (next(pg for pg in pages[m.group(2)] if PAGE_CH[pg] == int(m.group(1))), m.group(2)), body)
+    disagree = markdown.markdown((CONTENT / "disagree.md").read_text(encoding="utf-8"))
+    body = body.replace("<!-- DISAGREE -->", disagree.replace("<ul>", '<ul class="disagree">'))
+    lede = ("The plant's history has been argued over from the start. Here are the arguments, and the places "
+            "where the sources themselves disagree, each linked to the story.")
+    page = head("Controversies \u00b7 " + TITLE, "controversies.html", "Controversies", lede, site_search()) + \
+        '<main id="main" class="wrap about">\n%s\n</main>\n' % body + foot()
+    write(ROOT / "controversies.html", page)
 
 
 def build_about(pages):
@@ -807,7 +822,7 @@ def build_timeline(tl, pages):
     return tl["events"]
 
 
-LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|search|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(style\.css|print\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^atomic-history-savannah-river-plant\.pdf$|^img/[\w.-]+\.(png|jpg)$")
+LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|controversies|search|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(style\.css|print\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^atomic-history-savannah-river-plant\.pdf$|^img/[\w.-]+\.(png|jpg)$")
 IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
 
 
@@ -859,6 +874,7 @@ def main():
         ensure_ascii=False, separators=(",", ":")))
     build_sources(items)
     build_about(pages)
+    build_controversies(pages)
     build_glossary()
     build_search(items)
     build_print(items)
