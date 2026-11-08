@@ -167,7 +167,7 @@ def sources(path, act):
 # Page furniture shared by every page.
 
 PAGES = (("index.html", "Story"), ("timeline.html", "Timeline"),
-         ("sources.html", "Sources"), ("glossary.html", "Glossary"), ("controversies.html", "Controversies"), ("search.html", "Search"), ("television.html", "On Television"), ("about.html", "About"),
+         ("glossary.html", "Glossary"), ("controversies.html", "Controversies"), ("search.html", "Search"), ("television.html", "On Television"), ("about.html", "About"),
          ("read.html", "Full Story"))
 ACT_SPANS = ((1, 1950, 1970, "Building the Bomb Plant"),
              (2, 1970, 1992.5, "The Reactors Under Scrutiny"),
