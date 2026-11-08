@@ -27,6 +27,7 @@
 
 ## 3. Emptying the tanks
 
+- **WB** https://web.archive.org/web/20161221111350/http://www.srs.gov/general/news/factsheets/lnwf.pdf. SRS fact sheet, *Liquid Waste Tank Farms* (2012): "The Type I, II and IV tanks do not meet current secondary containment requirements set by state regulators and will be emptied and closed first in accordance with a federal agreement"; it calls these the "old-style tanks" and counts 49 waste tanks. PDF read. Verified 2026-11-08.
 - **WB** https://web.archive.org/web/20220818172743/https://www.energy.gov/em/articles/srs-contractor-earns-955-available-fee-october-2021-january-2022. DOE Office of Environmental Management. Savannah River Mission Completion took over liquid waste on February 27, 2022. Page read. Verified 2026-11-07.
 - **WB** https://web.archive.org/web/20240801074223/https://www.energy.gov/em/articles/partnering-key-success-award-significant-task-orders-srs. DOE Office of Environmental Management. Goal of closing both tank farms by 2037; September 2023 task orders. Page read. Verified 2026-11-07.
 - **WB** https://web.archive.org/web/20241127185459/https://www.srs.gov/general/news/releases/2024/nr24_SRS-SRMC_Facility_Surpasses_10_Million_Gallons_of_Waste_Processed.pdf. SRS release, November 13, 2024. The Salt Waste Processing Facility passes 10 million gallons, four years after hot commissioning. PDF read. Verified 2026-11-07.
@@ -37,6 +38,7 @@
 
 ## 4. Who runs the site
 
+- **WB** https://web.archive.org/web/20090505231827/http://www.srs.gov/general/pubs/wsrc_2005_annual.pdf. Washington Savannah River Company, *2005 Annual Report*: "the Washington Savannah River Company Team (WSRC), along with the WSRC parent company Washington Group International". The 2004 report, captured at https://web.archive.org/web/20051222104816/http://www.srs.gov:80/general/pubs/wsrc_2004_annual.pdf, is still titled *Westinghouse Savannah River Company Annual Report 2004*; srs.gov's 1990s timeline dates the renaming to Washington Group's 1999 purchase. PDFs read. Verified 2026-11-08.
 - **WB** https://web.archive.org/web/20201222180420/https://www.energy.gov/em/articles/doe-awards-savannah-river-national-laboratory-management-and-operating-contract. DOE, December 22, 2020. Battelle Savannah River Alliance to manage the laboratory; about $3.8 billion over up to 10 years. Page read. Verified 2026-11-07.
 - **WB** https://web.archive.org/web/20241002060344/https://www.srs.gov/general/news/releases/2024/nr24_Final_SRS_Landlord_Transition_News_Release_100124.pdf. SRS release, October 1, 2024. NNSA becomes landlord; about $3.8 billion a year and about 13,400 workers. PDF read. Verified 2026-11-07.
 - **WB** https://web.archive.org/web/20250120134623/https://www.energy.gov/sites/default/files/2024-04/DOE%20Cites%20Savannah%20River%20Nuclear%20Solutions%2C%20LLC%20for%20Worker%20Safety%20and%20Health%20Violations.pdf. DOE, April 3, 2024. $127,440 proposed penalty after a 2022 finger amputation. PDF read. Verified 2026-11-07.
