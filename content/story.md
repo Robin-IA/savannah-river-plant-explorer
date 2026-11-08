@@ -119,10 +119,11 @@ The magazine *The Reporter* brought the story to the nation in March 1951,
 when it reported on the quiet doom of Ellenton
 ([IA](https://archive.org/details/sim_reporter_1951-03-06_4_5)). *Jet* told a
 different part of it that December, focusing on Black families moving whole
-houses fifteen miles to New Ellenton, the replacement town.
+houses fifteen miles to New Ellenton, the replacement town. Its photograph ran
+under the heading "H-Bomb Victims"
+([IA](https://archive.org/details/sim_jet_1951-12-20_1_8)).
 
-Its photograph ran under the heading "H-Bomb Victims"
-([IA](https://archive.org/details/sim_jet_1951-12-20_1_8)). A 1965 federal
+A 1965 federal
 housing study counted about 30 white and 120 Black families relocated near New
 Ellenton ([IA](https://archive.org/details/impactoflargeins0000unse)), and by
 1953 Congress was hearing that New Ellenton had been left out of aid it needed
