@@ -221,7 +221,7 @@ are at the Hagley Museum and Library ([WB: DOE finding aid][ohre-admin]).
 By the mid-1950s the plant was built, and its reactors began to run.
 
 
-### Running the Plant
+### Running the Reactors
 
 The 305-M test pile was the first reactor on the site to start up, in 1952,
 the year heavy-water production began in D Area ([WB: srs.gov
@@ -433,7 +433,7 @@ creeks such as Steel Creek ([IA: L-Reactor environmental impact statement, 1984]
 
 By the end of the 1960s the plant had done what it was built for. Its reactors
 had made plutonium and tritium for more than a decade, and two of them had
-already closed as demand fell ([Running the Plant](#running-the-plant)).
+already closed as demand fell ([Running the Reactors](#running-the-reactors)).
 
 Its land had also become a place to study, with forests replanted, ecologists
 at work and a record of what it released. The 1970s brought new environmental
