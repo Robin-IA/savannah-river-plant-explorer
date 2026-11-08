@@ -630,7 +630,7 @@ def build_about(pages):
     body = body.replace("<!-- DISAGREE -->", disagree.replace("<ul>", '<ul class="disagree">'))
     lede = ("A history of the Savannah River Plant told from the record, with every source "
             "labeled by where it is held, so a reader can open it and check.")
-    page = head("About · " + TITLE, "about.html", "About this explorer", lede) + \
+    page = head("About · " + TITLE, "about.html", "About this explorer", lede, site_search()) + \
         '<main id="main" class="wrap about">\n%s\n</main>\n' % body + foot()
     write(ROOT / "about.html", page)
 
