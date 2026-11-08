@@ -200,6 +200,10 @@ h2.act-4 .act-n { color: var(--act4); }
 .holder-btn .tag { margin: 0; min-width: 3.2em; text-align: center; }
 .hb-name { flex: 1; }
 .hb-n { font-weight: 700; font-variant-numeric: tabular-nums; color: var(--muted); }
+/* Side panel: keep each holder's name on one line */
+.rail .holder-btn { gap: 6px; padding: 7px 6px; }
+.rail .holder-btn .tag { min-width: 2.5em; }
+.rail .hb-name { font-size: .84375rem; }
 a.seg-link:hover .seg, a.seg-link:focus .seg { stroke: var(--ink); stroke-width: 1.5; }
 a.seg-link:focus { outline: 3px solid var(--focus); outline-offset: 1px; }
 a.seg-link:focus .seg { stroke: var(--focus); stroke-width: 3; }
