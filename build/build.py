@@ -167,7 +167,7 @@ def sources(path, act):
 
 PAGES = (("index.html", "Story"), ("timeline.html", "Timeline"),
          ("sources.html", "Sources"), ("glossary.html", "Glossary"), ("controversies.html", "Controversies"), ("search.html", "Search"), ("about.html", "About"),
-         ("atomic-history-savannah-river-plant.pdf", "Download the Story"))
+         ("read.html", "Full Story"))
 ACT_SPANS = ((1, 1950, 1970, "Building the Bomb Plant"),
              (2, 1970, 1992.5, "The Reactors Under Scrutiny"),
              (3, 1992.5, 2020.5, "After the Bombs"),
@@ -201,9 +201,9 @@ def head(title, here, h1, lede, extra="", big=False):
     nav = []
     for href, label in PAGES:
         cur = ' aria-current="page"' if href == here else ""
-        if href.endswith(".pdf"):
-            cur = ' class="nav-download" download type="application/pdf"'
-            label += ' <span class="nav-size">(PDF, 12 MB)</span>'
+        if href == "read.html":
+            cur = (' class="nav-download" aria-current="page"' if href == here else ' class="nav-download"')
+            label += ' <span class="nav-size">(PDF)</span>'
         nav.append('<a href="%s"%s>%s</a>' % (href, cur, label))
     return """<!doctype html>
 <html lang="en">
@@ -391,7 +391,7 @@ def rail(items):
   %s
   <a class="card" href="timeline.html"><strong>Timeline</strong><span>Seventy-six years in one view: the reactors, the people moved, the oversight and the cleanup.</span></a>
   <a class="card" href="sources.html"><strong>All %d sources</strong><span>Filter by holder, chapter and word.</span></a>
-  <a class="card" href="atomic-history-savannah-river-plant.pdf" download><strong>Download the story</strong><span>All four chapters as one PDF, with images and citations.</span></a>
+  <a class="card" href="read.html"><strong>The full story (PDF)</strong><span>All four chapters as one PDF, with images and citations.</span></a>
 </aside>""" % (holder_index(items), holder_chart(items), len(items))
 
 
@@ -669,6 +669,23 @@ def site_search():
     return SEARCH_FORM.replace('action="sources.html"', 'action="search.html"') % SOURCE_COUNT[0]
 
 
+def build_read():
+    """The PDF, shown in the browser's own viewer, with a download link."""
+    mb = (ROOT / PDF_NAME).stat().st_size / 1e6
+    lede = "All four chapters as one PDF, with images and citations, to read here or download."
+    body = """<div class="read-actions">
+  <a class="read-btn" href="%s" download type="application/pdf">Download the PDF <span>(%.0f MB)</span></a>
+  <a href="%s" type="application/pdf" target="_blank" rel="noopener">Open it in a new tab</a>
+</div>
+<iframe class="pdf-frame" src="%s" title="%s, as a PDF"></iframe>
+<p class="read-note">If the PDF does not show above, your browser may not display PDFs inside a page.
+Open it in a new tab or download it instead. The same story, with links to every source, is in
+<a href="index.html">the chapters on this site</a>.</p>""" % (PDF_NAME, mb, PDF_NAME, PDF_NAME, html.escape(TITLE))
+    page = head("Full Story (PDF) · " + TITLE, "read.html", "The Full Story", lede) + \
+        '<main id="main" class="wrap read-page">\n%s\n</main>\n' % body + foot()
+    write(ROOT / "read.html", page)
+
+
 def build_glossary():
     body = (CONTENT / "glossary.md").read_text(encoding="utf-8")
     lede = "The technical words, agencies and places in the story."
@@ -833,7 +850,7 @@ def build_timeline(tl, pages):
     return tl["events"]
 
 
-LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|controversies|search|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(style\.css|print\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^atomic-history-savannah-river-plant\.pdf$|^img/[\w.-]+\.(png|jpg)$")
+LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|controversies|search|read|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(style\.css|print\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^atomic-history-savannah-river-plant\.pdf$|^img/[\w.-]+\.(png|jpg)$")
 IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
 
 
@@ -889,6 +906,7 @@ def main():
     build_about(pages)
     build_controversies(pages)
     build_glossary()
+    build_read()
     build_search(items)
     build_print(items)
     by = {}
