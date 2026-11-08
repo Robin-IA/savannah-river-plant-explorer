@@ -654,8 +654,7 @@ def build_about(pages):
     body = body.replace("<!-- COUNTS -->", HOLDER_COUNTS[0])
     disagree = markdown.markdown((CONTENT / "disagree.md").read_text(encoding="utf-8"))
     body = body.replace("<!-- DISAGREE -->", disagree.replace("<ul>", '<ul class="disagree">'))
-    lede = ("A history of the Savannah River Plant told from the record, with every source "
-            "labeled by where it is held.")
+    lede = "A history of the Savannah River Plant told from the record."
     page = head("About · " + TITLE, "about.html", "About this explorer", lede, site_search()) + \
         '<main id="main" class="wrap about">\n%s\n</main>\n' % body + foot()
     write(ROOT / "about.html", page)
