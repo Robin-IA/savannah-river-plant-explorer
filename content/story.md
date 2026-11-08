@@ -714,6 +714,10 @@ The Reagan-era buildup brought the protests to the plant's gates. In late May 19
 to 700 people rallied near the plant for a freeze on nuclear weapons
 ([IA: *Florida Flambeau*, June 3, 1982](https://archive.org/details/Florida_Flambeau_1982_June)).
 
+The plant also reached a national audience on film. *Building Bombs* (1989), made by Mark Mori and Susan Robinson, is a film about the environmental legacy and social impact of the Savannah River Plant, “the nation’s largest manufacturer of hydrogen bomb materials during the Cold War”, in the words of PBS’s *POV* ([WB](https://web.archive.org/web/20190913183311/http://www.pbs.org/pov/watch/buildingbombs/)). It was nominated for the Academy Award for Best Documentary Feature at the 63rd Academy Awards in March 1991 ([WB: oscars.org](https://web.archive.org/web/20261011042140/https://www.oscars.org/oscars/ceremonies/1991)).
+
+Public television did not show it at first. In 1992 the cable series *Alternative Views* presented the film with an interview with its co-director, saying PBS had refused to broadcast it ([IA: *Alternative Views* #466](https://archive.org/details/AV_466-NO_NUKES_IS_GOOD_NUKES)). After three years of argument and a campaign Mori organized, an edited version, retitled *Building Bombs: The Legacy*, aired on *POV* on August 10, 1993 ([WB: *Los Angeles Times*](https://web.archive.org/web/20250108131242/https://www.latimes.com/archives/la-xpm-1993-08-10-ca-22486-story.html)).
+
 These protests ran alongside the official challenges told elsewhere in this
 chapter: the lawsuit over restarting L reactor
 ([L-Reactor comes back](#l-reactor-comes-back)) and the investigations of
@@ -1275,6 +1279,23 @@ limit the public to "through traffic only" on Highway 125, U.S. Highway 278
 and SRS Road 1. DOE controls access to the highway inside the site and can
 stop traffic and clear everyone off it quickly after an accident nearby
 ([IA: DOE, 1990](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
+
+The road has a history of its own. Before the plant, South Carolina Highway
+28 ran from Augusta through Jackson and past Ellenton toward Allendale
+([IA: road map, 1948](https://archive.org/details/dr_rand-mcnally-road-map--north-carolina-south-carolina-14003035);
+[WB: *SRS at Fifty*](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=173)). In early 1951 the state reported that
+Routes 28 and 64 "will be closed through the AEC area," while a new four-lane
+highway was built "from North Augusta, S. C., to Route 28 at the outer boundary
+of the project"
+([DL: Senate hearing, 1951](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1951-02-28_0)).
+By 1954 that new road carried the number South Carolina Highway 125
+([DL: *Federal Register*, 1954](https://archive.org/details/sim_federal-register-find_1954-07-21_19_140)),
+and by 1955 the plant's newspaper placed a worker's home "in North Augusta on
+Atomic Road" ([WB: *SRS at Fifty*](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=241)). Inside the fence the road
+was SRP Road A. On July 27, 1967, the Atomic Energy Commission gave the state
+an easement to run Highway 125 for 18.3 miles through the plant, which is how
+the public came to drive across it
+([DL: *Federal Register*, 1968](https://archive.org/details/sim_federal-register-find_1968-01-31_33_21)).
 
 Site workers still give to local charities. The contractors reported raising
 $1,488,038 for United Way in the 2023 campaign ([WB: SRS release][srs-uw-2024]),
