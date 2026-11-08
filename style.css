@@ -33,6 +33,8 @@ img { max-width: 100%; }
 .bar nav a { color: #fff; text-decoration: none; padding: 8px 12px; border-radius: 4px; }
 .bar nav a:hover { background: rgba(255,255,255,.12); }
 .bar nav a[aria-current="page"] { background: rgba(255,255,255,.2); font-weight: 600; }
+.bar nav a.nav-download { border: 1px solid rgba(255,255,255,.55); }
+.bar nav .nav-size { font-size: .8em; opacity: .85; }
 
 /* Banner */
 .banner { position: relative; overflow: hidden; background: var(--night); color: #fff; }

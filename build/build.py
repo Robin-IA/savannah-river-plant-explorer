@@ -168,7 +168,8 @@ def sources(path, act):
 # Page furniture shared by every page.
 
 PAGES = (("index.html", "Story"), ("timeline.html", "Timeline"),
-         ("sources.html", "Sources"), ("glossary.html", "Glossary"), ("search.html", "Search"), ("about.html", "About"))
+         ("sources.html", "Sources"), ("glossary.html", "Glossary"), ("search.html", "Search"), ("about.html", "About"),
+         ("atomic-history-savannah-river-plant.pdf", "Download the Story"))
 ACT_SPANS = ((1, 1950, 1970, "Building the Bomb Plant"),
              (2, 1970, 1992.5, "The Reactors Under Scrutiny"),
              (3, 1992.5, 2020.5, "After the Bombs"),
@@ -202,6 +203,9 @@ def head(title, here, h1, lede, extra="", big=False):
     nav = []
     for href, label in PAGES:
         cur = ' aria-current="page"' if href == here else ""
+        if href.endswith(".pdf"):
+            cur = ' class="nav-download" download type="application/pdf"'
+            label += ' <span class="nav-size">(PDF, 12 MB)</span>'
         nav.append('<a href="%s"%s>%s</a>' % (href, cur, label))
     return """<!doctype html>
 <html lang="en">
@@ -626,7 +630,7 @@ def build_about(pages):
     body = body.replace("<!-- DISAGREE -->", disagree.replace("<ul>", '<ul class="disagree">'))
     lede = ("A history of the Savannah River Plant told from the record, with every source "
             "labeled by where it is held, so a reader can open it and check.")
-    page = head("About · " + TITLE, "about.html", "About this explorer", lede) + \
+    page = head("About · " + TITLE, "about.html", "About this explorer", lede, site_search()) + \
         '<main id="main" class="wrap about">\n%s\n</main>\n' % body + foot()
     write(ROOT / "about.html", page)
 
