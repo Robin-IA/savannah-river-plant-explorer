@@ -619,6 +619,18 @@ def build_sources(items):
     write(ROOT / "sources.html", page)
 
 
+HOLDER_COUNTS = [""]
+
+
+def holder_counts(items):
+    """One sentence counting the sources by where they are held."""
+    n = {t: sum(1 for s in items if s["tag"] == t) for t in TAGS}
+    return ("The story rests on %d sources: %d in Democracy's Library, %d Wayback Machine captures, "
+            "%d other Internet Archive items, %d Open Library records and %d held elsewhere. "
+            "<a href=\"sources.html\">See them all</a>."
+            % (len(items), n["DL"], n["WB"], n["IA"], n["OL"], n["EXT"]))
+
+
 def build_controversies(pages):
     """The arguments over the plant, and where the sources disagree."""
     body = (CONTENT / "controversies.md").read_text(encoding="utf-8")
@@ -639,6 +651,7 @@ def build_about(pages):
     body = re.sub(r'href="index\.html#([\w-]+)"', lambda m: 'href="%s#%s"' % (pages[m.group(1)][0], m.group(1)), body)
     body = re.sub(r'href="chapter-([1-4])\.html#([\w-]+)"',
                   lambda m: 'href="%s#%s"' % (next(pg for pg in pages[m.group(2)] if PAGE_CH[pg] == int(m.group(1))), m.group(2)), body)
+    body = body.replace("<!-- COUNTS -->", HOLDER_COUNTS[0])
     disagree = markdown.markdown((CONTENT / "disagree.md").read_text(encoding="utf-8"))
     body = body.replace("<!-- DISAGREE -->", disagree.replace("<ul>", '<ul class="disagree">'))
     lede = ("A history of the Savannah River Plant told from the record, with every source "
@@ -794,8 +807,9 @@ def build_timeline(tl, pages):
         for r in tl["reactors"])
 
     lede = ("From the land taken in 1950 to the tanks still being emptied: %d events from the story, "
-            "and the five production reactors' working lives. Click on a shape to read it in the story."
-            % len(tl["events"]))
+            "and the five production reactors' working lives. Click on a shape to read it in the story. "
+            "Every event links to its source, one of the %d on the Sources page."
+            % (len(tl["events"]), SOURCE_COUNT[0]))
     page = head("Timeline · " + TITLE, "timeline.html", "Timeline", lede, site_search()) + """<main id="main" class="wrap">
 <div class="tl-controls" role="group" aria-label="Show events whose source is held in">
   <span class="tl-controls-label">Show sources held in</span>%s
@@ -866,6 +880,7 @@ def main():
     write(ROOT / "data" / "passages.json",
           json.dumps(passages, ensure_ascii=False, separators=(",", ":")))
     SOURCE_COUNT[0] = len(items)
+    HOLDER_COUNTS[0] = holder_counts(items)
     events = build_timeline(tl, pages)
     write(ROOT / "data" / "timeline.json", json.dumps(
         [{k: e[k] for k in ("i", "date", "text", "tag", "page", "anchor")} for e in events],
