@@ -1696,7 +1696,7 @@ land taken for it to the new pit plant, see [Controversies](controversies.html).
 [gao-pits-2026]: https://web.archive.org/web/20260226163054/https://www.gao.gov/assets/gao-26-107777.pdf
 [nnsa-fy25]: https://web.archive.org/web/20260308145100/https://www.energy.gov/sites/default/files/2026-02/SRS%20FY%202025%20Performance%20Evaluation%20Report.pdf
 [nnsa-srppf]: https://web.archive.org/web/20261016212506/https://www.energy.gov/nnsa/articles/nnsa-baselines-savannah-river-plutonium-processing-facility
-[dnfsb-2023]: https://web.archive.org/web/20230913230207/https://www.dnfsb.gov/sites/default/files/document/28871/SRPPF%20Facility%20Worker%20Protection%20[2023-100-025].pdf
+[dnfsb-2023]: https://web.archive.org/web/20230913230207/https://www.dnfsb.gov/sites/default/files/document/28871/SRPPF%20Facility%20Worker%20Protection%20%5B2023-100-025%5D.pdf
 [dnfsb-2025]: https://web.archive.org/web/20261107181328/https://ehss.energy.gov/deprep/2025/FB25Y21A.PDF
 [doe-sc-2020]: https://web.archive.org/web/20200902214336/https://www.energy.gov/articles/secretary-brouillette-and-south-carolina-officials-announce-historic-agreement-between
 [srs-dilute-2024]: https://web.archive.org/web/20241127184933/https://www.srs.gov/general/news/releases/2024/nr24_The_Future_is_Now_downblended_plutonium_shipping_package_receipt.pdf
