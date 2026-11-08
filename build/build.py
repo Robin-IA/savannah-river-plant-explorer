@@ -748,7 +748,7 @@ def build_television(sections):
             "<a href=\"%s\">TV News Archive</a> (Internet Archive)." % TV_HOME)
     intro = ("<p>Each clip opens at the moment the plant comes up and plays at the TV News Archive. "
              "Clips were reviewed on %s. "
-             "Clips are tagged <span class=\"tag tag-tv\">TV</span> on the <a href=\"sources.html?tag=TV\">Sources</a> page.</p>"
+             "They are tagged <span class=\"tag tag-tv\">TV</span> on the <a href=\"sources.html?tag=TV\">Sources</a> page.</p>"
              % html.escape(TV["checked"]))
     page = head("On Television · " + TITLE, "television.html", "On Television", lede, site_search()) + \
         '<main id="main" class="wrap about tv">\n%s\n%s\n</main>\n' % (intro, "\n".join(groups)) + foot()
