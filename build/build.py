@@ -28,9 +28,8 @@ TITLE = "Atomic History: The Savannah River Plant Story"
 DESCRIPTION = ("The Savannah River Plant in South Carolina made plutonium and "
                "tritium for American nuclear weapons from 1953 until 1988. Its story "
                "is not over: while it cleans up that legacy, it is gearing up for "
-               "new weapons work. This is its "
-               "history, from the towns moved off the land to what is happening "
-               "now, told from government resources held in Democracy's Library, "
+               "new weapons work. From people moved off the land to what is "
+               "happening now, told through resources held in Democracy's Library, "
                "the Wayback Machine and Internet Archive collections.")
 CHECKED = "November 6, 2026"
 FEEDBACK = ("mailto:robin.fay@archive.org?subject=Feedback%20about%20Explorers%3A%20Atomic%20History%3A%20The%20Savannah%20River%20Plant%20Story")
