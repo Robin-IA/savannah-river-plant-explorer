@@ -536,9 +536,10 @@ acres of uplands, and cost about $25 million ([WB: DOE, 1984][l-eis]).
 L restarted in 1985. C reactor shut down that year, permanently from 1986
 ([WB: srs.gov 1980s][srs-1980]).
 
-Outside critics read the record differently from the operator. *Deadly Crop
-in the Tank Farm* (1986) assessed the high-level waste tanks
-([WB: IEER][deadly-crop]); Du Pont published a rebuttal
+Critics outside the government read the record differently from Du Pont,
+which ran the plant. *Deadly Crop in the Tank Farm* (1986), a report by
+Makhijani, Alvarez and Blackwelder for the Environmental Policy Institute,
+assessed the high-level waste tanks ([WB: IEER][deadly-crop]); Du Pont published a rebuttal
 ([WB: OSTI 5881523][osti-dupont-reply]). The *Washington Post* described
 aging reactors carrying the buildup, one down for a cracked vessel — a
 clipping that survives in the CIA's (Central Intelligence Agency's) files
@@ -1308,6 +1309,23 @@ All of this work is divided among agencies and contractors.
 *Follow this thread, waste and groundwater.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases); [Chapter 2, Under the Ground](chapter-2.html#under-the-ground); [Chapter 3, The Tanks](chapter-3.html#the-tanks).
 
 ### Who Runs the Site
+
+The government has always owned the site, and companies have run it for
+the government. The Atomic Energy Commission owned it until 1975, when the
+commission was disbanded; its work passed to the Energy Research and
+Development Administration and then, in 1977, to the new Department of Energy
+([WB: *SRS at Fifty*](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=491)).
+
+Du Pont ran the plant from 1950 until Westinghouse took over in 1989
+([WB: ch. 19][fifty-19]). By 1999 the Westinghouse Savannah River Company was
+owned by Washington Group International ([WB: *SRS at Fifty*](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=529)).
+In 2008 Savannah River Nuclear Solutions took over management and operations
+from Washington Savannah River Company
+([WB: SRS, 2008](https://web.archive.org/web/20080921162410/http://www.srs.gov/general/news/releases/NR2008_SRNS.pdf)),
+and in 2009 Savannah River Remediation took over the liquid waste, which
+Washington Savannah River Company had run "for nearly two decades"
+([WB: SRS, 2009](https://web.archive.org/web/20100527130741/http://www.srs.gov/general/news/releases/nr09_srr-assumes-lwo.pdf)).
+The 2020s brought more changes.
 
 The laboratory now stands on its own. In December 2020 DOE (Department of
 Energy) gave Savannah River National Laboratory a separate contract, run by
