@@ -7,8 +7,8 @@
   color-scheme: light;
   --page: #f6f4ef; --panel: #fff; --ink: #1f2328; --muted: #57595c; --hair: #e2ded5; --tint: #efece5;
   --link: #1a5c96; --night: #0c1f2e; --night-2: #16384a; --focus: #4b64ff;
-  --dl: #2a78d6; --ia: #008300; --ol: #6250d6; --wb: #eda100; --ait: #e87ba4; --ext: #6b6b6b;
-  --dl-bg: #e2edfa; --ia-bg: #dcefdc; --ol-bg: #e9e6fa; --wb-bg: #fcefd0; --ait-bg: #fbe4ed; --ext-bg: #ebebeb;
+  --dl: #2a78d6; --ia: #008300; --ol: #6250d6; --wb: #eda100; --ait: #e87ba4; --tva: #c2185b; --ext: #6b6b6b;
+  --dl-bg: #e2edfa; --ia-bg: #dcefdc; --ol-bg: #e9e6fa; --wb-bg: #fcefd0; --ait-bg: #fbe4ed; --tva-bg: #f8e1ea; --ext-bg: #ebebeb;
   --act1: #8a4f12; --act1-bg: #f6ead8; --act2: #9b2f2f; --act2-bg: #f6e1e0; --act3: #1d6b66; --act3-bg: #dcefec; --act4: #3b4a8a; --act4-bg: #e4e7f5;
   --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --serif: Georgia, "Times New Roman", serif;
@@ -84,6 +84,7 @@ main, main.wrap { padding-top: 28px; padding-bottom: 56px; }
 .tag-ol { background: var(--ol-bg); border-color: var(--ol); }
 .tag-wb { background: var(--wb-bg); border-color: var(--wb); }
 .tag-ait { background: var(--ait-bg); border-color: var(--ait); }
+.tag-tva { background: var(--tva-bg); border-color: var(--tva); }
 .tag-ext { background: var(--ext-bg); border-color: var(--ext); }
 .legend { list-style: none; padding: 0; margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: .92rem; }
 .legend.stacked { flex-direction: column; gap: 6px; }
@@ -206,7 +207,7 @@ a.seg-link:focus .seg { stroke: var(--focus); stroke-width: 3; }
 /* Holder chart */
 .holder-chart { width: 100%; height: auto; display: block; }
 .holder-chart .ch-label { font: 600 12.5px var(--font); fill: var(--ink); }
-.seg-dl { fill: var(--dl); } .seg-ia { fill: var(--ia); } .seg-ol { fill: var(--ol); } .seg-wb { fill: var(--wb); } .seg-ait { fill: var(--ait); } .seg-ext { fill: var(--ext); }
+.seg-dl { fill: var(--dl); } .seg-ia { fill: var(--ia); } .seg-ol { fill: var(--ol); } .seg-wb { fill: var(--wb); } .seg-ait { fill: var(--ait); } .seg-tva { fill: var(--tva); } .seg-ext { fill: var(--ext); }
 .seg-n { font: 700 11px var(--font); text-anchor: middle; }
 .seg-n-dl, .seg-n-ia, .seg-n-ol, .seg-n-ext { fill: #fff; }
 .seg-n-wb, .seg-n-ait { fill: #1a1a1a; }
@@ -265,6 +266,7 @@ svg.timeline { display: block; width: 100%; min-width: 900px; height: auto; font
 .test { fill: #fff; stroke: #3b3f44; stroke-width: 2.5; }
 .mk { stroke: #fff; stroke-width: 2; }
 .mk-dl { fill: var(--dl); } .mk-ia { fill: var(--ia); } .mk-ol { fill: var(--ol); } .mk-wb { fill: var(--wb); } .mk-ait { fill: var(--ait); }
+.mk-tva { fill: var(--tva); }
 .mk-ext { fill: #fff; stroke: var(--ext); stroke-width: 3; }
 a.ev { cursor: pointer; }
 .milestone text { font: 600 11.5px var(--font); fill: var(--ink); }
@@ -351,3 +353,11 @@ table.reactors th[scope=row] { font-weight: 700; width: 5em; }
 .pdf-frame { display: block; width: 100%; height: calc(100vh - 140px); min-height: 520px; border: 1px solid var(--hair); background: var(--panel); }
 .pdf-frame:focus, .pdf-frame:focus-within { outline: 3px solid var(--focus); outline-offset: 3px; }
 .read-note { color: var(--muted); max-width: 70ch; }
+
+/* On Television */
+.tv-list { list-style: none; padding: 0; margin: 0 0 28px; display: grid; gap: 14px; }
+.tv-card { background: var(--panel); border: 1px solid var(--hair); border-radius: 8px; padding: 14px 18px; }
+.tv-card h3 { font: 700 1.1rem/1.3 var(--serif); margin: 4px 0 6px; }
+.tv-card p { margin: 0 0 8px; }
+.tv-meta { color: var(--muted); font-size: .92rem; }
+.tv-links { font-size: .95rem; }

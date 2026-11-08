@@ -48,6 +48,10 @@ logos:
   chapters as one PDF (`atomic-history-savannah-river-plant.pdf`), with images
   and citations, shown in the browser's own PDF viewer, with a link to download
   it. The PDF is tagged for screen readers and has a bookmark outline.
+- **On Television** (`television.html`): broadcasts about the plant in the
+  Internet Archive's TV News Archive, by chapter, each opening at the moment
+  the plant comes up. The clips live in `content/television.json`, which also
+  makes each one a source tagged **TVA**.
 - **About** (`about.html`): the project, where the sources are held, images
   and how it was built.
 
