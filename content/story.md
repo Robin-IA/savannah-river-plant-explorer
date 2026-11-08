@@ -40,8 +40,7 @@ project became the Savannah River Plant, renamed the Savannah River Site in
 
 Du Pont surveyed candidate sites and settled on the middle Savannah River in
 South Carolina, a tract big enough to hold an exclusion zone around the
-reactors ([WB: ch. 7][fifty-7]). DOE's own timeline dates President Truman's
-letter to Du Pont to October 20, 1950 ([WB: DOE,
+reactors ([WB: ch. 7][fifty-7]). The Department of Energy (DOE), the commission's successor, dates President Truman's letter to Du Pont to October 20, 1950 ([WB: DOE,
 energy.gov/srs][doe-history]).
 
 The announcement came at noon on November 28, 1950: about 250,000 acres in
@@ -111,7 +110,7 @@ to protest the prices.
 The Atomic Energy Commission answered that most condemnations came from
 defects in title rather than price: owners who could not show clear legal
 ownership, often because land had passed to many heirs, or who could not be
-found. Of 169 cases it listed, 39 were over price and 130 over title, It conceded that juries in seven
+found. Of 169 cases it listed, 39 were over price and 130 over title. It conceded that juries in seven
 contested cases had awarded substantially more than the government's
 appraisal
 ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1951-11-27)).
@@ -137,8 +136,7 @@ last passenger train stopped at its station on April 12 ([WB: p. 220](https://we
 The displaced spoke for themselves decades later, in oral histories
 collected from 1990 and published as *Memories of Home* for Ellenton and for
 Dunbarton and Meyers Mill ([WB: OSTI 272945][osti-ellenton]; [WB: OSTI
-10171577][osti-dunbarton]). The program's web pages and the chapter PDFs
-survive in Wayback; srarp.org itself is gone ([WB][srarp-towns]; [WB:
+10171577][osti-dunbarton]). The archaeology program's web pages and the chapter PDFs survive in Wayback; srarp.org itself is gone ([WB][srarp-towns]; [WB:
 Ellenton volume][srarp-ellenton]).
 
 James McBride's life of James Brown traces part of the singer's family to
@@ -164,7 +162,7 @@ reactors in 1951 (reactor R in June, P in July, L in October)
 ([IA](https://archive.org/details/usnuclearwarhead0002unse)). Employment on the project peaked at 38,582 during construction ([WB: *SRS at Fifty*, p. 184](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=197)). The Bureau of Labor Statistics followed the work force in a 1952 study ([IA: part
 I](https://archive.org/details/sim_monthly-labor-review_1952-06_74_6)).
 
-It records Black tenant farmers arriving in Augusta looking for jobs in May
+The study records Black tenant farmers arriving in Augusta looking for jobs in May
 1951. At an NAACP (National Association for the Advancement of Colored People)
 meeting in Aiken that September, speakers accused Du Pont and an Augusta union
 of keeping Black workers out of skilled jobs, and said they had enough
@@ -209,7 +207,7 @@ A year later, in February 1952, the mayors of New Ellenton and Augusta
 testified about dormitories and about Du Pont's part in housing workers
 ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1952-02-22_3)).
 
-*House & Home* reported about 4,000 trailers for married workers
+In 1953 *House & Home* reported about 4,000 trailers for married workers
 ([IA](https://archive.org/details/usmodernist-HH-1953-08)). The housing
 builder later sued Du Pont in a case that reached the Supreme Court
 ([DL](https://archive.org/details/micro_IA40386417_2698)), and South
@@ -227,7 +225,7 @@ By the mid-1950s the plant was built. The next section, [Running the Reactors](#
 ### Running the Reactors
 
 The 305-M test pile was the first reactor on the site to start up, in 1952,
-the year heavy-water production began in D Area ([WB: srs.gov
+the year heavy-water production began in D Area, one of the site's lettered work areas ([WB: srs.gov
 1950s][srs-1950]). R reactor started up in December 1953, P on February
 20, 1954, and all five were running by the end of March 1955 ([WB: *SRS
 at Fifty* ch. 11][fifty-11]).
@@ -243,8 +241,7 @@ other products, leaving the radioactive waste behind. F Area was the world's
 first full-scale plant to use this method, called Purex, and purified
 plutonium; H Area mostly recovered enriched uranium ([WB: ch. 11][fifty-11]).
 
-F Area started in 1954 and H Area in 1955. Radioactive tritium went to the
-AEC (Atomic Energy Commission) from 1955, and the basic plant was complete in 1956 ([WB: srs.gov
+F Area started in 1954 and H Area in 1955. Tritium, a radioactive form of hydrogen used in nuclear weapons, went to the AEC (Atomic Energy Commission) from 1955, and the basic plant was complete in 1956 ([WB: srs.gov
 1950s][srs-1950]; [WB: History Highlights][history1]). The first
 shipment of radioactive plutonium is dated December 1954 by one official source and 1955
 by others ([WB: ch. 11][fifty-11]; [WB][history1]).
@@ -267,8 +264,7 @@ Physics for it; Cowan had died by then ([WB: Nobel Prize][nobel-reines]).
 Then demand for weapons materials fell. R reactor shut down in 1964 and L in
 1968, both because less nuclear material was needed
 ([DL: Senate hearing, 1983](https://archive.org/details/micro_IA41152659_0884);
-[WB: srs.gov 1960s][srs-1960]). The heavy-water components test reactor also
-closed in December 1964, for a different reason: the AEC was turning away
+[WB: srs.gov 1960s][srs-1960]). The heavy-water components test reactor, built to test parts for heavy-water power reactors, also closed in December 1964, for a different reason: the AEC was turning away
 from heavy-water power reactors, and it was never restarted
 ([WB: ch. 13][fifty-13]).
 
@@ -277,7 +273,7 @@ Making plutonium and tritium also meant releasing radioactivity into the air, th
 ### Radioactive Releases
 
 The plant's own figures understated its early releases. The CDC's (Centers for
-Disease Control and Prevention's) dose reconstruction found that the
+Disease Control and Prevention's) dose reconstruction, a later study that estimated the doses people received, found that the
 radioactive iodine-131 released to the air in the 1950s, mainly from the
 separations plants, was about four times what the site had reported.
 
@@ -346,10 +342,7 @@ for the people who fish the river and drink its water
 <figcaption>A site cafeteria in the 1950s and about 2010. Many workers have eaten lunch on the site since the plant opened. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_Cafeterias_(5227689223).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-The plant brought thousands of newcomers to a rural area. At a Senate hearing
-in Aiken in February 1952, the AEC's (Atomic Energy Commission's) local manager said there would be no
-government town like Oak Ridge or Richland; private builders would house the
-workers. He counted 3,000 trailers already in private courts, and new
+The plant brought thousands of newcomers to a rural area. At a Senate hearing in Aiken in February 1952, the AEC's (Atomic Energy Commission's) local manager said there would be no government town like Oak Ridge or Richland; private builders would house the workers. He counted 3,000 trailers already in private courts, and new
 classrooms paid for through the federal Office of Education
 ([DL: Senate hearing, 1952](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1952-02-22_3)).
 
@@ -479,8 +472,7 @@ monitoring summaries were reprinted in the federal *Radiation Data and
 Reports*
 ([DL](https://archive.org/details/sim_radiation-data-and-reports_1970-12_11_12)),
 and its annual environmental reports run from 1974 on OSTI (Office of Scientific and Technical Information) ([WB: OSTI
-4174736][osti-env-1974]). In 1972 the plant became the first National
-Environmental Research Park ([WB: srs.gov 1970s][srs-1970]); see
+4174736][osti-env-1974]). In 1972 the plant became the first National Environmental Research Park, land set aside for ecological research ([WB: srs.gov 1970s][srs-1970]); see
 [SRS and Ecology](#srs-and-ecology).
 
 <figure class="fig">
@@ -516,10 +508,9 @@ The 1970s brought scrutiny of what the plant released. The 1980s brought a push 
 
 ### L-Reactor Comes Back
 
-However, the Reagan-era buildup of nuclear weapons needed more plutonium. In 1982 the plant lowered the
+The Reagan-era buildup of nuclear weapons needed more plutonium. In 1982 the plant lowered the
 Pu-240 content of its product to blend with Hanford's ([WB: *SRS at Fifty*
-ch. 19][fifty-19]), and DOE (Department of Energy) moved to restart L reactor, idle since 1968, on
-an environmental assessment rather than a full impact statement ([WB: OSTI
+ch. 19][fifty-19]), and DOE (Department of Energy) moved to restart L reactor, idle since 1968, on an environmental assessment, a shorter review, rather than a full environmental impact statement ([WB: OSTI
 5060401][osti-l-ea]).
 
 <figure class="fig">
@@ -646,7 +637,7 @@ The reactors went down one after another — K in April, L in June, P in
 August — over emergency cooling concerns ([WB: ch. 19][fifty-19]). On September
 30, 1988, the General Accounting Office told Senator Glenn's and
 Representative Synar's committees how P reactor's start-up had gone ahead
-despite a reactivity shortfall larger than any the plant had seen
+despite a reactivity shortfall (a chain reaction weaker than predicted) larger than any the plant had seen
 ([DL](https://archive.org/details/micro_IA41152603_0340); [WB:
 gao.gov][gao-88-68]).
 
@@ -655,9 +646,8 @@ gao.gov][gao-88-68]).
 <figcaption>K reactor, one of the three that stopped in 1988, from the air in 2025. The building is now the K Area Complex. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:211486_K_Area_Aerials_11-11-21_002_(54439533593).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-Glenn's bill to put the weapons plants under outside safety oversight was
-already in hearings ([DL](https://archive.org/details/micro_IA41152617_0167)).
-The next day, October 1, the *New York Times* put the story on its front page.
+Glenn's bill to put the weapons plants under outside safety oversight was already in hearings ([DL](https://archive.org/details/micro_IA41152617_0167)).
+On October 1, the day after the GAO testimony, the *New York Times* put the story on its front page.
 It reported severe accidents at all five reactors, kept secret for up to 31
 years.
 
@@ -672,7 +662,7 @@ DOE's office in Aiken ([WB: *New York Times*][nyt-881004]).
 
 Energy Secretary
 John S. Herrington promised to restart one reactor in January and all three by
-late the next summer, since tritium decays at 5.5 percent a year ([WB: *New
+late the next summer, since tritium decays at 5.5 percent a year and the weapons that use it need a fresh supply ([WB: *New
 York Times*][nyt-881012]).
 
 By November the paper was asking how Congress had missed the signs ([WB: *New
@@ -693,7 +683,7 @@ The shutdowns ended Du Pont's time at the plant, and soon the plant's old name, 
 
 In April 1989 the Westinghouse Savannah River Company took over from Du Pont
 ([WB: ch. 19][fifty-19]). The same year the Savannah River Plant became the
-Savannah River Site and went on the National Priorities List ([WB: srs.gov
+Savannah River Site and went on the National Priorities List, the Superfund list of the worst contaminated sites ([WB: srs.gov
 1980s][srs-1980]). GAO's (General Accounting Office's) 1989 testimony set the site inside a complex-wide
 picture of cleanup and modernization problems
 ([DL](https://archive.org/details/micro_IA41152607_0169)).
@@ -706,14 +696,12 @@ picture of cleanup and modernization problems
 DOE still meant to restart. In February 1991 it planned K for that summer
 and L for 1992, at $3.2 billion for restart and operations ([WB: GAO
 RCED-91-95][gao-91-95]), and issued safety evaluations for K ([WB: OSTI
-5625511][osti-k-ser]). In December 1991 tritium from K reactor reached the
-Savannah River ([WB: OSTI 5281815][osti-k-tritium]; [WB: OSTI
-10179303][osti-k-dose]).
+5625511][osti-k-ser]). In December 1991 tritium from K reactor reached the Savannah River ([WB: OSTI 5281815][osti-k-tritium]; [WB: OSTI 10179303][osti-k-dose]); a 1998 DOE notice dates the same leak to 1992 ([DL](https://archive.org/details/sim_federal-register-find_1998-01-28_63_18)).
 
 GAO had warned in 1989 that DOE had only begun to address earthquake
 weaknesses that had existed at the site for years. It also found that the
 seismic review behind P reactor's 1988 restart used a less stringent standard
-than the Nuclear Regulatory Commission's ([IA: GAO
+than the Nuclear Regulatory Commission's, the agency that regulates commercial nuclear reactors ([IA: GAO
 1989](https://archive.org/details/micro_IA41152645_0571)).
 
 In March 1991 a depression was found on the downstream face of the Par Pond
@@ -722,8 +710,6 @@ some 1,300 acres of cesium-contaminated sediment and sent tritium and cesium
 into the river ([WB: OSTI 7247383][osti-parpond]). The exposed bed became a
 Superfund interim action ([WB: OSTI 10192315][osti-parpond-cercla]).
 
-A 1998 DOE notice dates the leak to 1992
-([DL](https://archive.org/details/sim_federal-register-find_1998-01-28_63_18)).
 In 1992 K was started up for a test run and was then shut down permanently
 ([WB: srs.gov 1990s][srs-1990]). Bomb making at Savannah River was over.
 
@@ -732,8 +718,6 @@ counted about 3,000 release incidents involving tritium between 1954 and 1992
 ([WB: CDC Phase II][cdc-phase2]).
 
 For the towns around the plant, these years of buildup and shutdown were felt in jobs and in worries about health; [Living with the Plant](#living-with-the-plant) follows both.
-
----
 
 ### Living with the Plant
 
@@ -767,9 +751,7 @@ research to Health and Human Services.
 
 The record included a 1988 study that reported a significant excess of
 leukemia deaths among hourly Savannah River workers hired before 1955 ([IA:
-Senate hearing, 1989](https://archive.org/details/micro_IA41152837_0739)). The
-later dose reconstruction was run by the CDC (Centers for Disease Control and
-Prevention) ([WB: CDC][cdc-srs-page]).
+Senate hearing, 1989](https://archive.org/details/micro_IA41152837_0739)). The CDC (Centers for Disease Control and Prevention) later ran the dose reconstruction, the study that estimated what people around the plant were exposed to ([WB: CDC][cdc-srs-page]).
 
 Studies of the neighbors began at the same time. A July 1990 National
 Institutes of Health survey compared cancer deaths in Aiken and Barnwell
@@ -905,7 +887,7 @@ forty-year era ([WB][rbof]).
 <figcaption>A cleanup crew at work in 2010, when federal stimulus money paid to speed up the site&rsquo;s cleanup. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:A_Recovery_Act_Footprint-_Savannah_River_Site_is_Opening_Land_for_Future_Missions_(7419748692).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-Spent fuel kept arriving as well as leaving. The United States moved to take
+Even before then, spent fuel was arriving as well as leaving. The United States moved to take
 back the fuel it had supplied to research reactors abroad. In 1994 GAO (General Accounting Office)
 reported that delays had already led reactors in Belgium and Germany to
 reprocess theirs, and that DOE meant to store the first returns at Savannah
@@ -944,16 +926,12 @@ GAO][gao-itp]).
 
 Its replacement, the Salt Waste Processing Facility, was to be built by 2008
 for $900 million; in 2015 DOE's Inspector General reported about $1.4
-billion in cost growth and a start no earlier than December 2018 ([WB: DOE
-Inspector General][oig-swpf]). It poured its 4,000th canister on December 31,
+billion in cost growth and a start no earlier than December 2018 ([WB: DOE Inspector General][oig-swpf]). The glass plant poured its 4,000th canister on December 31,
 2015, of about 8,000 expected ([WB][dwpf-20]).
 
-Tanks 17 and 20 were closed in 1997, the first in the nation
+Tanks 17 and 20 were emptied and closed in 1997, the first in the nation
 ([WB][tanks-18-19]). What could be left in the ground was settled by Section
-3116 of the 2005 defense authorization act ([WB: govinfo][pl-108-375]), which
-Senator Graham said he wrote and which passed by a single vote
-([WB][tanks-18-19]), and which the National Academies reviewed for Savannah
-River ([IA](https://archive.org/details/tankwastesplanne0000comm)). Tanks 18
+3116 of the 2005 defense authorization act ([WB: govinfo][pl-108-375]). Senator Lindsey Graham said he wrote the section, which passed by a single vote ([WB][tanks-18-19]), and the National Academies later reviewed it for Savannah River ([IA](https://archive.org/details/tankwastesplanne0000comm)). Tanks 18
 and 19 followed in 2012 ([WB][tanks-18-19]).
 
 In 2018 and 2019 DOE reinterpreted "high-level waste" to turn on how
@@ -973,8 +951,7 @@ The reactors that had made the waste were coming to their own end, told in [Seal
 ### Sealing the Reactors
 
 In March 2008 the site put up South Carolina historic markers for P and R,
-the first inside the fence ([WB][pr-markers]). Then Recovery Act money
-arrived.
+the first inside the fence ([WB][pr-markers]). Then federal stimulus money from the 2009 Recovery Act arrived.
 
 <figure class="fig">
 <img src="img/srs-from-iss-2006.jpg" width="540" height="405" alt="Photograph from orbit of forested land crossed by straight roads. Five cleared reactor areas are labelled; the Savannah River runs along the left edge, and L Lake and Par Pond lie to the south." loading="lazy">
@@ -997,16 +974,12 @@ for commercial nuclear power reactors, so it could no longer be used in bombs
 ([DL: House hearing,
 2006](https://archive.org/details/gov.gpo.fdsys.CHRG-109hhrg33597)). South
 Carolina's fight over radioactive plutonium began before MOX. In April 2002
-DOE (Department of Energy) decided to store surplus plutonium from Rocky Flats
+DOE (Department of Energy) decided to store surplus plutonium from Rocky Flats, a weapons plant in Colorado,
 at Savannah River.
 
-Governor Jim Hodges sued, then issued an executive order banning plutonium
-from the state's roads, and in June a federal court barred him from
+Governor Jim Hodges vowed to lie in the road to stop the shipments ([IA](https://archive.org/details/nucleartoxicwast0000kall)). He sued, then issued an executive order banning plutonium from the state's roads, and in June a federal court barred him from
 interfering with the shipments; the Fourth Circuit found that DOE had not
-broken environmental law ([DL: *Hodges v.
-Abraham*](https://archive.org/details/micro_IA40386015_0538)). He had vowed to
-lie in the road to stop them
-([IA](https://archive.org/details/nucleartoxicwast0000kall)).
+broken environmental law ([DL: *Hodges v. Abraham*](https://archive.org/details/micro_IA40386015_0538)).
 
 <figure class="fig">
 <img src="img/mox-construction-2010.jpg" width="800" height="532" alt="Aerial color photograph of a very large concrete building under construction, surrounded by cranes and smaller buildings." loading="lazy">
@@ -1026,8 +999,7 @@ complaint][sc-complaint]), and The Post and Courier's source documents on
 the fight are on archive.org
 ([IA](https://archive.org/details/5759279-160209-AG-Files-Another-Lawsuit-Over-MOX)).
 In May 2018 DOE certified that diluting and disposing of the plutonium would
-cost less than half of finishing MOX; the Fourth Circuit lifted the
-injunction keeping the project alive on January 8, 2019 ([WB: 4th
+cost less than half of finishing MOX; the Fourth Circuit, the federal appeals court for the region, lifted the injunction that had kept the project alive on January 8, 2019 ([WB: 4th
 Cir.][ca4-mox]).
 
 By then the contract was already over. A Notice of Termination from DOE's
@@ -1152,7 +1124,7 @@ The neighbors also depended on the site for jobs, and those jobs were shrinking,
 
 ### Living with the Plant
 
-Then budget cuts came, hitting the plant and, through it, the local economy
+In the 1990s budget cuts came, hitting the plant and, through it, the local economy
 and community. The site employed 23,351 people in 1992, about 10 percent
 of all jobs in six surrounding counties, with a payroll above $1.1 billion,
 and a 1995 DOE (Department of Energy) study warned that budget cuts could remove up to 4,200 more
@@ -1203,7 +1175,7 @@ The science done on the site went on, though not all of it was safe from budget 
 
 ### The Laboratories
 
-The site's laboratory was named the country's newest national laboratory in
+The site's laboratory was named the country's newest national laboratory, the Savannah River National Laboratory, in
 2004 ([WB][srnl-2004]). The ecology laboratory fared worse. Its grant was cut
 47 percent for 2006, with layoffs that September ([WB: UGA][uga-2005]); the
 next year's funding fell to $1 million against an expected $4.5 million, which
@@ -1234,9 +1206,7 @@ from 10 a.m. to 4 p.m., at 224 Laurens Street SW, run by the SRS Heritage
 Foundation ([WB: SRS Museum, 2026][museum-2026]).
 
 The museum's first website is gone, but the Wayback Machine has it
-([WB][museum-web]). The site's archaeologists and its Cold War historic
-preservation program work with it ([WB][preserve-2020]) — the same program
-that collected Ellenton's memories in 1990.
+([WB][museum-web]). The site's archaeologists, whose program collected Ellenton's memories from 1990, and its Cold War historic preservation program work with it ([WB][preserve-2020]).
 
 <figure class="fig">
 <img src="img/srs-museum-2014.jpg" width="1400" height="934" alt="An audience seated under a tent listens to a speaker in front of a banner reading SRS Museum." loading="lazy">
@@ -1278,8 +1248,7 @@ Service](https://archive.org/details/crs-r44442.31)).
 
 In January 2023 GAO (Government Accountability Office) found that NNSA had no
 complete schedule or full cost estimate for pit production, and counted at
-least $18 billion to $24 billion in potential costs across its two pit sites
-([WB: GAO][gao-pits-2023]).
+least $18 billion to $24 billion in potential costs across its two pit sites, Los Alamos in New Mexico and Savannah River ([WB: GAO][gao-pits-2023]).
 
 By February 2026 GAO reported the main building's possible cost at over $22
 billion, up from a preliminary $6.9 billion to $11.1 billion, with completion
@@ -1351,7 +1320,7 @@ waste remain in the other 43 ([WB: DOE][doe-tanks-2026]).
 
 H Canyon, the site's chemical separations plant, was set to wind down. In 2022
 DOE decided to dissolve its remaining spent fuel without recovering the
-uranium, emptying L Basin by 2033 instead of 2060 ([WB: SRS][srs-abd-2022]).
+uranium, emptying L Basin, the pool in L Area where spent fuel is stored, by 2033 instead of 2060 ([WB: SRS][srs-abd-2022]).
 
 In February 2026 DOE reversed course and restored uranium recovery, so H
 Canyon can make fuel for advanced reactors ([WB: DOE][doe-hcanyon-2026]). The
@@ -1433,7 +1402,7 @@ consideration" ([WB: NIOSH advisory board][abrwh-srs-2026]).
 
 Tritium is still most of what the site sends into the river. In 2024 the
 site released 451 curies of it, and Georgia Power's Vogtle nuclear plant
-released 1,628. Below the site the river averaged 377 picocuries per liter,
+released 1,628. Below the site the river averaged 377 picocuries per liter, a measure of radioactivity in water,
 against a federal drinking-water limit of 20,000. The site put the most anyone
 downstream could get from drinking the water at 0.034 millirem a year, about
 a third of it from the site ([WB: SRS][srs-dose-2024]).
@@ -1456,13 +1425,11 @@ The towns around the site still live with it, too; [Living with the Plant](#livi
 
 ### Living with the Plant
 
-The payments still matter to the neighbors. When the 2022 federal budget
-request cut $5.7 million from them in 2021, Representative Jim Clyburn asked
+The payments in place of taxes still matter to the neighbors. In 2021, when the federal budget request for 2022 cut $5.7 million from them, Representative Jim Clyburn asked
 for the money back, and a Barnwell County council member called the payment
 "sort of like the sacred cow" ([WB: *Aiken Standard*, 2021][aiken-pilt-2021]).
 
-South Carolina's 2022–23 budget spent the $525 million from the plutonium
-settlement, including $105 million for new schools for Williston and
+South Carolina's 2022–23 budget spent $525 million it listed as coming from the Savannah River Site litigation, including $105 million for new schools for Williston and
 Blackville ([WB: South Carolina budget, 2022][sc-budget-2022]).
 
 <figure class="fig">
@@ -1493,7 +1460,7 @@ workers' gifts "a significant portion" of its budget
 ([WB: contractor release, 2026][srns-uw-2026]). Both are the contractors'
 own announcements.
 
-So does the land, the subject of [Ecology and the SRS](#ecology-and-the-srs).
+The land carries the site's history too, the subject of [Ecology and the SRS](#ecology-and-the-srs).
 
 *Follow this thread, the towns and their economy.* Earlier: [Chapter 1, Living with the Plant](chapter-1.html#living-with-the-plant); [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant); [Chapter 3, Living with the Plant](chapter-3.html#living-with-the-plant).
 
@@ -1538,8 +1505,7 @@ advises people not to eat bowfin from the river below Stevens Creek, and notes
 that some fish contain radioactive cesium-137 and strontium-90 ([WB: South
 Carolina advisory][sc-fish-2026]).
 
-Georgia judges its mercury limits protective enough that it sets none for
-radioactivity ([WB: Georgia guide][ga-fish-2023]). The site estimated that
+Georgia sets no fish limits for radioactivity, judging its mercury limits protective enough ([WB: Georgia guide][ga-fish-2023]). The site estimated that
 someone eating fish from its creek mouths in 2024 would get at most about 0.24
 millirem of radiation, all from cesium-137 ([WB: SRS][srs-dose-2024]).
 
@@ -1553,8 +1519,7 @@ What comes next for the site is already being planned, as [Looking to the Future
 
 Much of the site's future is already planned. In 2024 it had a budget of about
 $3.8 billion a year and about 13,400 workers ([WB: SRS][srs-landlord-2024]).
-Its largest new project, the plant to make plutonium pits, was estimated in
-2026 at about $22 billion, finished no sooner than September 2035 ([WB: GAO
+Its largest new project, the plant to make plutonium pits, was estimated in 2026 at over $22 billion, finished no sooner than September 2035 ([WB: GAO
 2026][gao-pits-2026]).
 
 DOE (Department of Energy) has promised to remove 9.5 metric tons of plutonium

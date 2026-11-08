@@ -667,7 +667,7 @@ def build_about(pages):
     disagree = markdown.markdown((CONTENT / "disagree.md").read_text(encoding="utf-8"))
     body = body.replace("<!-- DISAGREE -->", disagree.replace("<ul>", '<ul class="disagree">'))
     lede = "A history of the Savannah River Plant told from the record."
-    page = head("About · " + TITLE, "about.html", "About this explorer", lede, site_search()) + \
+    page = head("About · " + TITLE, "about.html", "About " + TITLE, lede, site_search()) + \
         '<main id="main" class="wrap about">\n%s\n</main>\n' % body + foot()
     write(ROOT / "about.html", page)
 
@@ -747,9 +747,8 @@ def build_television(sections):
     lede = ("The plant on television: news reports, debates and hearings documented in the "
             "<a href=\"%s\">TV News Archive</a> (Internet Archive)." % TV_HOME)
     intro = ("<p>Each clip opens at the moment the plant comes up and plays at the TV News Archive. "
-             "The summaries were checked against the archive's own transcripts on %s. Most clips are from 2009 on, "
-             "when the archive's recording began; older events appear when they were rebroadcast. "
-             "Clips are tagged <span class=\"tag tag-tv\">TV</span> on the <a href=\"sources.html?tag=TV\">Sources</a> page.</p>"
+             "Clips were reviewed on %s. "
+             "They are tagged <span class=\"tag tag-tv\">TV</span> on the <a href=\"sources.html?tag=TV\">Sources</a> page.</p>"
              % html.escape(TV["checked"]))
     page = head("On Television · " + TITLE, "television.html", "On Television", lede, site_search()) + \
         '<main id="main" class="wrap about tv">\n%s\n%s\n</main>\n' % (intro, "\n".join(groups)) + foot()
