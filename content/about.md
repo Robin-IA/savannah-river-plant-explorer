@@ -16,6 +16,9 @@
 <p>This history was written by Democracy's Library staff to weave together government resources (<a href="https://archive.org/details/democracys-library">Democracy's Library</a>), website archives (the <a href="https://web.archive.org/">Wayback Machine</a>) and <a href="https://archive.org/">Internet Archive</a> collections.</p>
 <p>It covers the years from the Atomic Energy Commission's decision in 1950 to the present, and its sources run from 1950 newspapers to web pages captured in 2026. The chapters and what each covers are on the <a href="index.html">Story</a> page; the technical words, agencies and places are explained in the <a href="glossary.html">Glossary</a>; and broadcasts about the plant are gathered <a href="television.html">On Television</a>.</p>
 
+<h3>Topics Covered</h3>
+<p>The choice of site and the towns moved off it, among them Ellenton and Dunbarton; building the plant; the reactors and separations plants; early ecology and the Savannah River Ecology Laboratory; life in the towns around the plant, from crowded schools to payments in place of taxes; what the plant did to the land and how it recovered; the L-Reactor restart and lawsuit; the 1988 disclosures and shutdowns; the change from Du Pont to Westinghouse; liquid waste and the glass-making plant; sealing the P and R reactors in place; the MOX plant and plutonium pits; the national laboratory; and how the site is remembered.</p>
+
 <h3>Images</h3>
 <p>All the images are in the public domain and were found on Wikimedia Commons; each is credited, with a link to its Commons file, in its caption. The full list is on the <a href="images.html">image credits</a> page. The copies here are resized. The banner is a detail of the <a href="https://commons.wikimedia.org/wiki/File:Savannah_River_Site_and_surrounding_area.png">map of the site</a> from the site&rsquo;s environmental report for 2012, toned to sit behind the title.</p>
 
