@@ -27,8 +27,9 @@ rather than choosing.
 
 In 1950 the Atomic Energy Commission was expanding the nation's production of
 material for nuclear weapons, and it asked the Du Pont company to build and
-run new reactors to make it. In June, with war begun in Korea, the order grew
-to five heavy-water reactors ([WB: *SRS at Fifty* ch. 7][fifty-7]). The
+run new reactors to make it. In June, with war begun in Korea, the order grew to five heavy-water reactors ([WB: *SRS at Fifty* ch. 7][fifty-7]).
+
+Du Pont's contract with the commission covered designing, building and running the plant, and its stated fee was one dollar ([WB: *SRS at Fifty*, p. 90](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=103)). The
 project became the Savannah River Plant, renamed the Savannah River Site in
 1989 ([WB: srs.gov 1980s][srs-1980]).
 
@@ -128,6 +129,11 @@ Ellenton ([IA](https://archive.org/details/impactoflargeins0000unse)), and by
 1953 Congress was hearing that New Ellenton had been left out of aid it needed
 ([DL](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_june-16-17-22-and-23-1953)).
 
+Ellenton itself closed in the first months of 1952. Its schools closed in
+February ([WB: *SRS at Fifty*, p. 158](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=171)), its post office
+handled its last mail on February 29 ([WB: p. 160](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=173)), and the
+last passenger train stopped at its station on April 12 ([WB: p. 220](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=233)).
+
 The displaced spoke for themselves decades later, in oral histories
 collected from 1990 and published as *Memories of Home* for Ellenton and for
 Dunbarton and Meyers Mill ([WB: OSTI 272945][osti-ellenton]; [WB: OSTI
@@ -155,8 +161,7 @@ As the last families left, the work of building the plant was already under way;
 
 According to the Natural Resources Defense Council, construction began on
 reactors in 1951 (reactor R in June, P in July, L in October)
-([IA](https://archive.org/details/usnuclearwarhead0002unse)). The Bureau of
-Labor Statistics followed the work force in a 1952 study ([IA: part
+([IA](https://archive.org/details/usnuclearwarhead0002unse)). Employment on the project peaked at 38,582 during construction ([WB: *SRS at Fifty*, p. 184](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=197)). The Bureau of Labor Statistics followed the work force in a 1952 study ([IA: part
 I](https://archive.org/details/sim_monthly-labor-review_1952-06_74_6)).
 
 It records Black tenant farmers arriving in Augusta looking for jobs in May
@@ -1534,6 +1539,25 @@ The site's own record is moving. Between May and July 2026, www.srs.gov began se
 links mostly still work, but often land on a broader page rather than the
 one that was linked, which is why this history cites the Wayback Machine's
 copies.
+
+#### Why This Story Matters
+
+The Savannah River Plant shaped the land, the towns and the lives of the
+people around it, and its story is not finished. It is still cleaning up what
+it made, while it prepares to make plutonium pits for new weapons. Knowing that history,
+from the families moved off the land to the workers who fell sick, is part of
+deciding what comes next.
+
+This story could be told because the Internet Archive keeps the record. Of the
+{{SOURCE_COUNT}} sources it cites, {{HELD_COUNT}} are held at the Internet Archive:
+government documents in Democracy's Library, web pages saved by the Wayback
+Machine, and books, magazines and reports in its other collections. When
+agencies move their websites and reports go out of print, those copies keep
+the history open for anyone to read and check.
+
+To learn how this story was made and how its sources are labeled, see [About
+This Story](about.html). To follow the arguments over the plant, from the
+land taken for it to the new pit plant, see [Controversies](controversies.html).
 
 [fifty-7]: https://web.archive.org/web/20161222003153/http://www.srs.gov/general/about/50anniv/Chapter%2007.pdf
 [fifty-8]: https://web.archive.org/web/20070928081912/http://www.srs.gov/general/about/50anniv/Chapter%2008.pdf

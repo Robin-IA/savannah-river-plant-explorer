@@ -342,6 +342,7 @@ SEARCH_FORM = """<form class="search" action="sources.html" method="get" role="s
 def story_chapters():
     """The story's chapters as (number, title, markdown), and its link definitions."""
     text = (CONTENT / "story.md").read_text(encoding="utf-8")
+    text = text.replace("{{SOURCE_COUNT}}", str(SOURCE_COUNT[0])).replace("{{HELD_COUNT}}", str(HELD_COUNT[0]))
     text = re.sub(r"\A# .*?\n", "", text)
     text = re.sub(r"## How to read the sources.*?\n---\n", "", text, flags=re.S)
     defs = "\n".join(m.group(0) for m in re.finditer(r"^\[[\w-]+\]:\s*\S+.*$", text, re.M))
@@ -453,8 +454,6 @@ def build_chapters(items):
             if nn != n:
                 label = "%s: %s" % (ACTS[nn].split(", ")[0], label)
             prev_next.append('<a class="pn next" href="%s"><span>Next</span> %s</a>' % (npg, html.escape(label)))
-        else:
-            prev_next.append('<a class="pn next" href="controversies.html#where-the-sources-disagree"><span>Next</span> Where the Sources Disagree</a>')
         h1 = "Chapter %d. %s" % (n, title)
         sname = sections[n][s_i][1]
         count = '<p class="sec-count">Part %d of %d in Chapter %d</p>' % (s_i + 1, len(sections[n]), n)
@@ -620,6 +619,7 @@ def build_sources(items):
 
 
 HOLDER_COUNTS = [""]
+HELD_COUNT = [0]
 
 
 def holder_counts(items):
@@ -875,12 +875,13 @@ def main():
     write(ROOT / "data" / "sources.json",
           json.dumps(data, ensure_ascii=False, separators=(",", ":")))
     tl = json.loads((CONTENT / "timeline.json").read_text(encoding="utf-8"))
+    SOURCE_COUNT[0] = len(items)
+    HELD_COUNT[0] = sum(1 for s in items if s["tag"] != "EXT")
+    HOLDER_COUNTS[0] = holder_counts(items)
     pages, passages, sections = build_chapters(items)
     build_home(items, sections)
     write(ROOT / "data" / "passages.json",
           json.dumps(passages, ensure_ascii=False, separators=(",", ":")))
-    SOURCE_COUNT[0] = len(items)
-    HOLDER_COUNTS[0] = holder_counts(items)
     events = build_timeline(tl, pages)
     write(ROOT / "data" / "timeline.json", json.dumps(
         [{k: e[k] for k in ("i", "date", "text", "tag", "page", "anchor")} for e in events],
