@@ -298,9 +298,9 @@ its first years, from those early iodine releases ([WB: CDC Phase
 III][cdc-phase3]).
 
 On March 14, 1955, after a light rain, contamination across the plant set off
-the shoe monitors of workers coming in from outside. The plant blamed
-fallout from a bomb test in Nevada two days before. In 1985 Bernd Franke and
-Robert Alvarez argued that a reactor accident was the likelier source, since
+the shoe monitors of workers coming in from outside. The plant blamed fallout from a bomb test in Nevada two days before ([WB: CDC Phase II ch. 6][cdc-ch6]).
+
+In 1985 Bernd Franke, a senior research fellow at the Institute for Energy and Environmental Research in Heidelberg, West Germany ([WB: IEER][deadly-crop]), and Robert Alvarez argued that a reactor accident was the likelier source, since
 the contamination centered on the K, L and P reactors ([WB: CDC Phase II
 ch. 6][cdc-ch6]).
 
@@ -1316,8 +1316,7 @@ and passed 10 million gallons by November 2024 ([WB: SRS][srs-swpf-2024]).
 </figure>
 
 The glass plant passed 4,500 canisters by its thirtieth anniversary in 2026
-([WB][dwpf-30]), and in May 2026 Tank 14 became the eighth old-style tank to
-reach the end of waste removal in under two years ([WB][tank-14]). Still,
+([WB][dwpf-30]), and in May 2026 Tank 14 became the eighth old-style tank, one of the older designs that do not meet state rules for secondary containment ([WB: SRS fact sheet][srs-tank-types]), to reach the end of waste removal in under two years ([WB][tank-14]). Still,
 only 8 of the 51 tanks are formally closed, and about 32 million gallons of
 waste remain in the other 43 ([WB: DOE][doe-tanks-2026]).
 
@@ -1343,8 +1342,7 @@ Development Administration and then, in 1977, to the new Department of Energy
 ([WB: *SRS at Fifty*](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=491)).
 
 Du Pont ran the plant from 1950 until Westinghouse took over in 1989
-([WB: ch. 19][fifty-19]). By 1999 the Westinghouse Savannah River Company was
-owned by Washington Group International ([WB: *SRS at Fifty*](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=529)).
+([WB: ch. 19][fifty-19]). By 1999 the Westinghouse Savannah River Company was owned by Washington Group International ([WB: *SRS at Fifty*](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=529)). The site's timeline dates its new name, Washington Savannah River Company, to that purchase ([WB: srs.gov 1990s][srs-1990]); its annual reports kept the Westinghouse name until 2005 ([WB: 2004][wsrc-2004]; [WB: 2005][wsrc-2005]).
 
 In 2008 Savannah River Nuclear Solutions took over management and operations
 from Washington Savannah River Company
@@ -1601,6 +1599,9 @@ land taken for it to the new pit plant, see [Controversies](controversies.html).
 [dwpf-30]: https://web.archive.org/web/20260421062638/https://www.srs.gov/general/news/releases/2026/nr26-SRS-SRMC-DWPF-at-30.pdf
 [tanks-18-19]: https://web.archive.org/web/20121006190145/http://www.srs.gov/general/news/releases/nr12_srs-closes-2tanks.pdf
 [pl-108-375]: https://web.archive.org/web/20261019115331/https://www.govinfo.gov/content/pkg/PLAW-108publ375/pdf/PLAW-108publ375.pdf
+[wsrc-2004]: https://web.archive.org/web/20051222104816/http://www.srs.gov:80/general/pubs/wsrc_2004_annual.pdf
+[wsrc-2005]: https://web.archive.org/web/20090505231827/http://www.srs.gov/general/pubs/wsrc_2005_annual.pdf
+[srs-tank-types]: https://web.archive.org/web/20161221111350/http://www.srs.gov/general/news/factsheets/lnwf.pdf
 [tank-14]: https://web.archive.org/web/20260513203646/https://www.srs.gov/general/news/releases/2026/nr26_SRS_Asst_Secretary_of_EM_marks_tank_closure_milestone.pdf
 [pr-markers]: https://web.archive.org/web/20080921164357/http://www.srs.gov/general/news/releases/NR2008_PandRHistory.pdf
 [arra-r]: https://web.archive.org/web/20100527231959/http://www.srs.gov/general/pubs/envbul/cx_docs/03-27-09%20ARRA-R-2009-003-R0%20CX%20Form.pdf
