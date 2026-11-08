@@ -744,7 +744,7 @@ def build_television(sections):
 </li>""" % (html.escape(c["network"]), when, html.escape(c["program"]), html.escape(c["summary"]),
             html.escape(tv_url(c), quote=True), page_for(n, c["section"]), html.escape(c["section_name"])))
         groups.append('<h2>%s</h2>\n<ul class="tv-list">\n%s\n</ul>' % (html.escape(ACTS[n]), "\n".join(cards)))
-    lede = ("The plant on television: news reports, debates and hearings recorded by the "
+    lede = ("The plant on television: news reports, debates and hearings documented in the "
             "<a href=\"%s\">TV News Archive</a> at the Internet Archive." % TVA_HOME)
     intro = ("<p>Each clip opens at the moment the plant comes up and plays at the TV News Archive. "
              "The summaries were checked against the archive's own transcripts on %s. Most clips are from 2009 on, "
