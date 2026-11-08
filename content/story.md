@@ -443,7 +443,8 @@ Service's first job was planting trees "by the thousands" on old farms
 </figure>
 
 The site and its reactors changed the local streams and watershed. Lower Three Runs Creek was dammed in 1958
-to make Par Pond, a cooling reservoir, and the reactors sent hot water down
+to make Par Pond, a 2,600-acre cooling reservoir named for the P and R
+reactors it served ([WB: *SRS at Fifty*](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=354)), and the reactors sent hot water down
 creeks such as Steel Creek ([IA: L-Reactor environmental impact statement, 1984](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
 
 <figure class="fig">
@@ -1483,6 +1484,12 @@ helps with cleanup: a Forest Service project uses trees to draw off water
 contaminated with radioactive tritium, about 9.5 million gallons in 2021 ([WB:
 Forest Service][usfs-2021]).
 
+On October 10, 2026, the ecology laboratory marked its 75th anniversary with a
+reunion of former and current staff, students and alumni. It had begun in 1951
+with an Atomic Energy Commission grant to Eugene Odum, to record the land's
+ecology before the plant changed it ([WB: SREL][srel-75]). By then its
+scientists had published more than 3,800 peer-reviewed papers ([WB: SREL][srel-home-2026]).
+
 <figure class="fig">
 <img src="img/green-tree-frog.jpg" width="1400" height="788" alt="A small green tree frog rests on a feathery cypress branch." loading="lazy">
 <figcaption>A green tree frog on a swamp cypress at the site. <span class="credit">Photograph by Amanda Hurst, Savannah River Ecology Laboratory, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Green_tree_frog_resting_on_a_swamp_cypress_at_the_Savannah_River_Site_(48870602962).jpg">Wikimedia Commons</a>.</span></figcaption>
@@ -1713,6 +1720,8 @@ land taken for it to the new pit plant, see [Controversies](controversies.html).
 [usfs-2021]: https://web.archive.org/web/20250416054246/https://www.srs.gov/general/pubs/ERsum/er21/docs/USFS-SR_2021_Forest-Service.pdf
 [doe-gopher-2021]: https://web.archive.org/web/20260706014316/https://www.energy.gov/nepa/articles/cx-024954-wetland-restoration-and-gopher-frog-conservation-srel
 [doe-turtles-2023]: https://web.archive.org/web/20260704213552/https://www.energy.gov/em/articles/turtles-find-forever-home-savannah-river-site
+[srel-75]: https://web.archive.org/web/20261108202139/https://srel.uga.edu/savannah-river-ecology-laboratory-celebrates-75-years-of-research-education-and-outreach/
+[srel-home-2026]: https://web.archive.org/web/20261024190707/https://srel.uga.edu/
 [srarp-ellenton-1]: https://web.archive.org/web/20150920145035/http://www.srarp.org/pdf_documents/Memories%20of%20Home/Ellenton/01_Chapter1-2.pdf
 [srarp-dunbarton-2]: https://web.archive.org/web/20150920154751/http://www.srarp.org/pdf_documents/Memories%20of%20Home/Dunbarton%20and%20Meyers%20Mill/02_Chapter2.pdf
 [fifty-13]: https://web.archive.org/web/20070928081926/http://www.srs.gov/general/about/50anniv/Chapter%2013.pdf
