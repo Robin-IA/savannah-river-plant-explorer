@@ -561,7 +561,7 @@ def build_print(items):
 <p class="print-lede">%s</p>
 <p>Every citation is tagged with where its source is held: <strong>DL</strong> Democracy's Library, <strong>WB</strong> the Wayback Machine, <strong>IA</strong> the Internet Archive, <strong>OL</strong> Open Library, <strong>EXT</strong> held elsewhere.</p>
 <p>The full list of %d sources, the timeline and the glossary are online at <a href="%s">%s</a>.</p>
-<p>Made by Robin Fay, Democracy's Library.</p>
+<p>Made by Robin Fay, Democracy's Library, 2026.</p>
 <h2>Contents</h2><ol class="print-toc">%s</ol>
 </section>
 %s
