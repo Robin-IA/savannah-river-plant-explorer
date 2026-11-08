@@ -30,7 +30,7 @@ Sources for "Atomic History: The Savannah River Plant Story", Chapter 3. Compile
 1. **WB**: https://web.archive.org/web/20160327213711/http://www.srs.gov:80/general/about/50anniv/Chapter%2020.pdf
    - *The Savannah River Site at Fifty*, Ch. 20 "Savannah River Site at Fifty: Stewardship and Legacy" (DOE/New South Associates, 2002). Fetched.
    - It is the official narrative of the 1987–89 turning point (Du Pont withdraws, reactors shut, Westinghouse arrives) and of the shift to "environmental management rather than production".
-   - The whole book was also captured: `https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf` (CDX 200). Ch. 19 "Transition" is at `.../20170222195600/http://www.srs.gov/general/about/50anniv/Chapter%2019.pdf` (fetched), and the contents page at `.../20060909012514/http://www.srs.gov:80/general/about/50anniv/CONTENTS.pdf` (fetched).
+   - The whole book was also captured: `https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf` (CDX 200). Ch. 19 "Transition" is at `https://web.archive.org/web/20170222195600/http://www.srs.gov/general/about/50anniv/Chapter%2019.pdf` (fetched), and the contents page at `https://web.archive.org/web/20060909012514/http://www.srs.gov:80/general/about/50anniv/CONTENTS.pdf` (fetched).
    - **Live:** the landing page `www.srs.gov/general/about/50anniv/50anniv.htm` now redirects to the generic public.srs.gov "About" page. The book is no longer offered there, so the captures are the access route.
    - Verified 2026-11-06.
 2. **WB**: https://web.archive.org/web/19970709031836/http://www.srs.gov:80/general/srs-home.html
@@ -88,7 +88,7 @@ Sources for "Atomic History: The Savannah River Plant Story", Chapter 3. Compile
     - Verified 2026-11-06.
 14. **WB**: https://web.archive.org/web/20041015171423/http://www.srs.gov/general/pubs/wsrc_2003_annual.pdf
     - Westinghouse Savannah River Co. 2003 annual report. Fetched.
-    - The 2004 and 2005 reports were also captured: `.../20051222104816/http://www.srs.gov:80/general/pubs/wsrc_2004_annual.pdf` and `.../20080511164620/http://www.srs.gov/general/pubs/wsrc_2005_annual.pdf` (CDX 200).
+    - The 2004 and 2005 reports were also captured: `https://web.archive.org/web/20051222104816/http://www.srs.gov:80/general/pubs/wsrc_2004_annual.pdf` and `https://web.archive.org/web/20080511164620/http://www.srs.gov/general/pubs/wsrc_2005_annual.pdf` (CDX 200).
     - Withdrawn.
     - Verified 2026-11-06.
 15. **WB**: https://web.archive.org/web/20120915100032/http://www.srs.gov/general/pubs/srr_2010_annual.pdf
@@ -223,14 +223,14 @@ Sources for "Atomic History: The Savannah River Plant Story", Chapter 3. Compile
     - Verified 2026-11-06.
 42. **WB**: https://web.archive.org/web/20100527231959/http://www.srs.gov/general/pubs/envbul/cx_docs/03-27-09%20ARRA-R-2009-003-R0%20CX%20Form.pdf
     - NEPA Categorical Exclusion, "Deactivation of the 105-R Reactor Building" (March 27, 2009, ARRA). Fetched.
-    - Companion: `.../20100527233233/http://www.srs.gov/general/pubs/envbul/cx_docs/07-08-09%20ARRA-P-2009-034-R0%20CX%20Form.pdf`, "Construct Rail Spur to Concrete Batch Plant, P-Area … to support the closure activities of P and R Operable Units" (July 8, 2009).
+    - Companion: `https://web.archive.org/web/20100527233233/http://www.srs.gov/general/pubs/envbul/cx_docs/07-08-09%20ARRA-P-2009-034-R0%20CX%20Form.pdf`, "Construct Rail Spur to Concrete Batch Plant, P-Area … to support the closure activities of P and R Operable Units" (July 8, 2009).
     - CDX lists 12 ARRA-P and ARRA-R CX forms from 2009–2014.
     - Live: the old URLs redirect to the public.srs.gov NEPA index, not to the forms.
     - Verified 2026-11-06.
 43. **WB**: https://web.archive.org/web/20120113023603/http://www.srs.gov:80/general/news/releases/nr11_srns_arra-progress.pdf
     - "Savannah River Site Makes Progress on Recovery Act-funded Cleanup" (February 9, 2011). Fetched.
     - 1,000 of 5,000 m³ of legacy transuranic waste dispositioned.
-    - Also: `.../20120915095206/http://www.srs.gov/general/news/releases/nr12_srr-arra-last-piece.pdf` (February 6, 2012). SRR's $200 million ARRA allotment arrived in September 2009 and funded 41 projects, completed in December 2011.
+    - Also: `https://web.archive.org/web/20120915095206/http://www.srs.gov/general/news/releases/nr12_srr-arra-last-piece.pdf` (February 6, 2012). SRR's $200 million ARRA allotment arrived in September 2009 and funded 41 projects, completed in December 2011.
     - Both withdrawn.
     - Verified 2026-11-06.
 44. **WB**: https://web.archive.org/web/20251231111130/https://www.osti.gov/biblio/1032952
@@ -288,6 +288,15 @@ Sources for "Atomic History: The Savannah River Plant Story", Chapter 3. Compile
     - It vacated the preliminary injunction that had kept MOX alive: the court held that South Carolina lacked standing.
     - It recounts the May 2018 waiver certification under §3121(b), which says dilute-and-dispose costs less than half of MOX's remaining cost.
     - Verified 2026-11-06.
+- **WB**: https://web.archive.org/web/20210920012410/https://www.nrc.gov/docs/ML1831/ML18318A135.pdf
+   - Wayback capture of https://www.nrc.gov/docs/ML1831/ML18318A135.pdf (held by the NRC; ADAMS ML18318A135).
+    - NRC to CB&I AREVA MOX Services, February 8, 2019: termination of the construction authorization (CAMOX-001) for the Mixed Oxide Fuel Fabrication Facility, docket 07-3098.
+    - MOX Services ceased NRC-regulated construction on October 12, 2018, after receiving DOE/NNSA's Notice of Termination of the contract to design, build and operate the plant. PDF read.
+    - Verified 2026-11-08.
+- **WB**: https://web.archive.org/web/20250521235304/https://archive.bredl.org/pdf6/NRC_Terminate_Construction_Plutonium_Fuel_Factory_8Feb2019.pdf
+   - Wayback capture of the same NRC letter with its enclosures, posted by the Blue Ridge Environmental Defense League (archive.bredl.org).
+    - The NRC's review (PDF page 5): "The Notice of Termination, dated October 10, 2018, terminated the contract between DOE/NNSA and MOX Services to design, build and operate the MFFF effective immediately" (ADAMS ML19023A048). The notice itself has no Wayback capture, and nrc.gov returns 403 to scripts. PDF read.
+    - Verified 2026-11-08.
 56. **WB**: https://web.archive.org/web/20221108223538/https://www.scag.gov/about-the-office/news/federal-government-announces-it-has-removed-one-ton-of-plutonium-from-south-carolina/
    - Wayback capture of https://www.scag.gov/about-the-office/news/federal-government-announces-it-has-removed-one-ton-of-plutonium-from-south-carolina/ (held by SC Attorney General).
     - Release of August 7, 2019. DOE gave notice that at least one metric ton of plutonium had been removed under Judge Michelle Childs's injunction.
@@ -317,7 +326,7 @@ Sources for "Atomic History: The Savannah River Plant Story", Chapter 3. Compile
 60. **WB**: https://web.archive.org/web/20210624173615/https://www.srs.gov/general/news/releases/nr21_srs-removal-of-plutonium.pdf
     - "SRS Facility Supports Removal of Plutonium From South Carolina" (June 23, 2021). Fetched.
     - The K Area Characterization and Storage Pad holds more than 3,800 downblended drums bound for WIPP.
-    - Also `.../20221121123602/https://www.srs.gov/general/news/releases/nr22_SRS-Completes_Plutonium.pdf` (November 2, 2022).
+    - Also `https://web.archive.org/web/20221121123602/https://www.srs.gov/general/news/releases/nr22_SRS-Completes_Plutonium.pdf` (November 2, 2022).
     - Both still live.
     - Verified 2026-11-06.
 61. **WB**: https://web.archive.org/web/20251028113936/https://www.federalregister.gov/documents/2024/04/19/2024-08390/record-of-decision-for-the-final-environmental-impact-statement-for-the-surplus-plutonium
@@ -352,9 +361,9 @@ Sources for "Atomic History: The Savannah River Plant Story", Chapter 3. Compile
     - Opinions in the item: denial of the motion to dismiss (2023-02-07, ECF 31) and the administrative-record order (2024-09-30, ECF 207). Both were read.
     - Verified 2026-11-06.
 68. **WB**: tritium releases and fact sheet, cited individually:
-      - `.../20200924003430/https://www.srs.gov/general/news/releases/nr20_srs-tritium-facility-milestone.pdf`
-      - `.../20240515230425/https://www.srs.gov/general/news/releases/2023/nr23_Tritium_%20Finishing_Facility_Celebrates_Start_of_Site_Prep_Construction.pdf`
-      - `.../20120915165905/http://www.srs.gov/general/news/factsheets/tritium_esrs.pdf`
+      - `https://web.archive.org/web/20200924003430/https://www.srs.gov/general/news/releases/nr20_srs-tritium-facility-milestone.pdf`
+      - `https://web.archive.org/web/20240515230425/https://www.srs.gov/general/news/releases/2023/nr23_Tritium_%20Finishing_Facility_Celebrates_Start_of_Site_Prep_Construction.pdf`
+      - `https://web.archive.org/web/20120915165905/http://www.srs.gov/general/news/factsheets/tritium_esrs.pdf`
     - All were CDX 200 but not fetched. The nr19 tritium-extraction capture came back truncated at exactly 1 MiB.
     - Verified (CDX) 2026-11-06.
 
@@ -434,7 +443,7 @@ Sources for "Atomic History: The Savannah River Plant Story", Chapter 3. Compile
 84. **WB**: https://web.archive.org/web/20201103201226/https://www.srs.gov/general/news/releases/nr20_srs-museum-contribution.pdf
     - "NNSA Contribution to Museum…" (October 20, 2020). Fetched.
     - $300,000 for a permanent exhibit, "Tritium: The Past and Future Mission".
-    - Also `.../20210908012816/https://www.srs.gov/general/news/releases/nr21_srns-cold-war-life.pdf` (June 4, 2021), the "Nuclear Culture" exhibit with objects from the SRS Curation Facility.
+    - Also `https://web.archive.org/web/20210908012816/https://www.srs.gov/general/news/releases/nr21_srns-cold-war-life.pdf` (June 4, 2021), the "Nuclear Culture" exhibit with objects from the SRS Curation Facility.
     - Live: 200.
     - Verified 2026-11-06.
 85. **WB**: https://web.archive.org/web/20170525214013/http://srsmuseum.org/
@@ -463,7 +472,7 @@ Sources for "Atomic History: The Savannah River Plant Story", Chapter 3. Compile
 89. **WB**: https://web.archive.org/web/20161221161731/http://www.srs.gov/general/news/releases/nr15_srs-cab-new-members.pdf
     - "SRS CAB Seeking New Members" (October 2, 2015). Fetched.
     - Describes the CAB's remit within the EM Site-Specific Advisory Board.
-    - Also the CAB fact sheet: `.../20041017160230/http://www.srs.gov/general/news/newpub-rel/factsheets/cabrp.pdf` (CDX 200).
+    - Also the CAB fact sheet: `https://web.archive.org/web/20041017160230/http://www.srs.gov/general/news/newpub-rel/factsheets/cabrp.pdf` (CDX 200).
     - Withdrawn.
     - Verified 2026-11-06.
 90. **WB**: https://web.archive.org/web/20131215012236/http://www.srswatch.org:80/
@@ -679,34 +688,35 @@ Added November 7, 2026; every item checked live that day.
 - SRR received $200 million in ARRA funds in September 2009 and spent it on 41 projects. Source: #43.
 
 **MOX**
-- DOE's 2016 baseline put the total cost at $17.17 billion, with completion in 2048. Source: #54.
-- The 4th Circuit vacated the injunction on January 8, 2019, for lack of standing. Source: #56.
-- MOX workers' job fair, December 6, 2018. Source: #59.
-- At least 1 metric ton of plutonium had been removed from SC by August 7, 2019. Source: #57.
+- DOE's 2016 baseline put the total cost at $17.17 billion, with completion in 2048. Source: #53.
+- The 4th Circuit vacated the injunction on January 8, 2019, for lack of standing. Source: #55.
+- DOE/NNSA's Notice of Termination of the MOX contract was dated October 10, 2018; construction stopped October 12; the NRC terminated the construction authorization on February 8, 2019. Source: the two NRC entries after #55.
+- MOX workers' job fair, December 6, 2018. Source: #58.
+- At least 1 metric ton of plutonium had been removed from SC by August 7, 2019. Source: #56.
 
 **Pits**
-- ROD for pit production at SRS: November 5, 2020. Source: #66.
-- A NEPA suit by SRS Watch and others is pending in D.S.C. as 1:21-cv-01942. Source: #68.
+- ROD for pit production at SRS: November 5, 2020. Source: #65.
+- A NEPA suit by SRS Watch and others is pending in D.S.C. as 1:21-cv-01942. Source: #67.
 
 **SRNL**
-- Called "the country's newest national lab" in a July 8, 2004 release. Source: #70.
+- Called "the country's newest national lab" in a July 8, 2004 release. Source: #69.
 - The exact date of the 2004 designation is **unsourced** here.
 
 **SREL**
-- The grant was cut 47% (from $7.748 million to $4.3 million) for FY2006, with layoffs on September 30, 2005. Source: #78.
-- FY2007 funding fell to $1 million against an expected $4.5 million. Source: #77.
-- House Science held a hearing on July 19, 2007. Source: #75.
+- The grant was cut 47% (from $7.748 million to $4.3 million) for FY2006, with layoffs on September 30, 2005. Source: #77.
+- FY2007 funding fell to $1 million against an expected $4.5 million. Source: #76.
+- House Science held a hearing on July 19, 2007. Source: #74.
 
 **Heritage**
 - The first historic markers inside the SRS fence were placed on March 17, 2008. Source: #40.
-- The SRS Museum ribbon-cutting was on October 28, 2014, with public opening due in 2015. Source: #83.
-- NNSA gave $300,000 for the tritium exhibit in 2020. Source: #85.
+- The SRS Museum ribbon-cutting was on October 28, 2014, with public opening due in 2015. Source: #82.
+- NNSA gave $300,000 for the tritium exhibit in 2020. Source: #84.
 
 ## Gaps
 
-- **News coverage:** no Aiken Standard or Post and Courier articles were located or verified directly. Only the Post and Courier's DocumentCloud source documents (#58) were found. Newspaper coverage of the MOX termination (October 2018) and of the P/R ISD needs a library database.
+- **News coverage:** no Aiken Standard or Post and Courier articles were located or verified directly. Only the Post and Courier's DocumentCloud source documents (#57) were found. Newspaper coverage of the MOX termination (October 2018) and of the P/R ISD needs a library database.
 - **MOX timeline:** the NNSA termination notice and the date the MOX contract ended (October 2018) are unsourced here. Also not read: the D.S.C. preliminary injunction (Childs, June 2018), the 2017 order to remove 1 metric ton, and the 2020 $600 million settlement. All three are unsourced.
-- **SREL in the 2020s:** no source was found for a current funding crisis. The 2025 CAB slides (#80) list "challenges" but do not describe cuts. The 2007 "SREL budget crisis" PDF on the UGA site was never captured by Wayback.
+- **SREL in the 2020s:** no source was found for a current funding crisis. The 2025 CAB slides (#79) list "challenges" but do not describe cuts. The 2007 "SREL budget crisis" PDF on the UGA site was never captured by Wayback.
 - **Archive-It:** not cited. Its captures of these sites duplicate the Wayback captures cited here.
 - **CDX coverage:** the uga.edu/srel, srel.uga.edu and cab.srs.gov CDX sweeps were cut short by Wayback rate limiting (HTTP 429). Only targeted lookups were done.
 - **SRS news archive:** `srs.gov/general/news/` was fully enumerated (1,937 URLs), but only about 30 PDFs were read. The ~120 SRNL releases and the H-Canyon releases (2008 `NR2008_HCanyonWasteSeg`, 2014–2023 `nr*_h-canyon*`) are unread.

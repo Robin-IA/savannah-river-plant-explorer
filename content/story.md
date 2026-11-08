@@ -700,7 +700,7 @@ picture of cleanup and modernization problems
 
 <figure class="fig">
 <img src="img/srp-plutonium-production.png" width="600" height="450" alt="Bar chart titled Savannah River Plutonium Production, in kilograms by fiscal year from 1955 to 1988, with a total of 36.1 metric tons. Output rises from about 550 kilograms in 1955 to a peak of about 2,100 kilograms in 1963 and 1964, varies between about 450 and 1,400 kilograms a year from 1965 to 1987, and falls below 200 kilograms in 1988." loading="lazy">
-<figcaption>Plutonium produced at Savannah River each fiscal year, 1955&ndash;1988: 36.1 metric tons in all. From the Department of Energy&rsquo;s <em>Plutonium: The First 50 Years</em> (1996), held by <a href="https://www.osti.gov/biblio/219368">OSTI</a> and <a href="https://web.archive.org/web/20250227063902/https://www.osti.gov/servlets/purl/219368">preserved in Wayback</a>; not in the Internet Archive&rsquo;s collections. <span class="credit">Public domain, via <a href="https://commons.wikimedia.org/wiki/File:Savannah_River_plutonium_production.gif">Wikimedia Commons</a>.</span></figcaption>
+<figcaption>Plutonium produced at Savannah River each fiscal year, 1955&ndash;1988: 36.1 metric tons in all. From the Department of Energy&rsquo;s <em>Plutonium: The First 50 Years</em> (1996), held by <a href="https://web.archive.org/web/20221112203240/https://www.osti.gov/biblio/219368">OSTI</a> and <a href="https://web.archive.org/web/20250227063902/https://www.osti.gov/servlets/purl/219368">preserved in Wayback</a>; not in the Internet Archive&rsquo;s collections. <span class="credit">Public domain, via <a href="https://commons.wikimedia.org/wiki/File:Savannah_River_plutonium_production.gif">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
 DOE still meant to restart. In February 1991 it planned K for that summer
@@ -1029,6 +1029,13 @@ In May 2018 DOE certified that diluting and disposing of the plutonium would
 cost less than half of finishing MOX; the Fourth Circuit lifted the
 injunction keeping the project alive on January 8, 2019 ([WB: 4th
 Cir.][ca4-mox]).
+
+By then the contract was already over. A Notice of Termination from DOE's
+National Nuclear Security Administration, dated October 10, 2018, ended the
+contract to design, build and operate the plant, effective immediately ([WB:
+NRC, 2019][nrc-mox-ea]). Construction stopped on October 12, and in February
+2019 the Nuclear Regulatory Commission terminated the plant's construction
+authorization ([WB: NRC, 2019][nrc-mox-ltr]).
 
 MOX workers had already been offered a job fair in December 2018
 ([WB][mox-jobfair]). By August 2019 DOE reported a metric ton of plutonium
@@ -1633,6 +1640,8 @@ land taken for it to the new pit plant, see [Controversies](controversies.html).
 [pr-closure]: https://web.archive.org/web/20120113023529/http://www.srs.gov:80/general/news/releases/nr11_srns-p-r-celeb.pdf
 [mox-baseline]: https://web.archive.org/web/20170412105447/http://www.srswatch.org/uploads/2/7/5/8/27584045/2016_updated_performance_baseline_for_mox.pdf
 [sc-complaint]: https://web.archive.org/web/20170412105421/http://www.srswatch.org/uploads/2/7/5/8/27584045/federal_district_court_south_carolina_state_2016-02-09-mox-complaint-final.pdf
+[nrc-mox-ea]: https://web.archive.org/web/20250521235304/https://archive.bredl.org/pdf6/NRC_Terminate_Construction_Plutonium_Fuel_Factory_8Feb2019.pdf#page=5
+[nrc-mox-ltr]: https://web.archive.org/web/20210920012410/https://www.nrc.gov/docs/ML1831/ML18318A135.pdf
 [ca4-mox]: https://web.archive.org/web/20260217004724/https://www.ca4.uscourts.gov/opinions/181684.P.pdf
 [mox-jobfair]: https://web.archive.org/web/20200924022122/https://www.srs.gov/general/news/releases/nr18_nnsa-mox-job-fair.pdf
 [scag]: https://web.archive.org/web/20221108223538/https://www.scag.gov/about-the-office/news/federal-government-announces-it-has-removed-one-ton-of-plutonium-from-south-carolina/
