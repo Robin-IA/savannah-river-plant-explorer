@@ -41,7 +41,7 @@ TAGS = {
     "DL": "Democracy's Library",
     "WB": "Wayback Machine",
     "IA": "Internet Archive",
-    "TVA": "TV News Archive at the Internet Archive",
+    "TV": "TV News Archive (Internet Archive)",
     "OL": "Open Library",
     "EXT": "Held elsewhere",
 }
@@ -51,7 +51,7 @@ ACTS = {
     3: "Chapter 3. After the Bombs, 1992–2020",
     4: "Chapter 4. What's Happening Now, 2020 to Today",
 }
-HELD = {"DL": "in Democracy's Library", "WB": "in the Wayback Machine", "IA": "in the Internet Archive", "TVA": "in the TV News Archive",
+HELD = {"DL": "in Democracy's Library", "WB": "in the Wayback Machine", "IA": "in the Internet Archive", "TV": "in the TV News Archive",
         "OL": "in Open Library", "EXT": "elsewhere"}
 CHAPTER_PAGE = {1: "chapter-1.html", 2: "chapter-2.html", 3: "chapter-3.html", 4: "chapter-4.html"}
 CHAPTER_BLURB = {
@@ -60,7 +60,7 @@ CHAPTER_BLURB = {
     3: "The turn to cleanup: the waste tanks, sealing the reactors, fights over plutonium, sick workers, the laboratories and how the site is remembered.",
     4: "The site today: making plutonium pits again, emptying the last waste tanks, moving plutonium out of the state, and who is watching.",
 }
-TAG_RE = re.compile(r"^(DL|IA|TVA|OL|WB|EXT)\b\s*:?\s*(.*)$", re.S)
+TAG_RE = re.compile(r"^(DL|IA|TV|OL|WB|EXT)\b\s*:?\s*(.*)$", re.S)
 
 
 def md_inline(text):
@@ -325,7 +325,7 @@ def tag_links(body):
         attrs, tag, rest = m.group(1), m.group(2), m.group(3)
         return ('<a%s class="cite"><span class="tag tag-%s">%s</span>%s</a>'
                 % (attrs, tag.lower(), tag, rest))
-    return re.sub(r"<a([^>]*)>(DL|IA|TVA|OL|WB|EXT)\b(.*?)</a>", repl, body, flags=re.S)
+    return re.sub(r"<a([^>]*)>(DL|IA|TV|OL|WB|EXT)\b(.*?)</a>", repl, body, flags=re.S)
 
 
 def story_refs():
@@ -634,8 +634,8 @@ def holder_counts(items):
     n = {t: sum(1 for s in items if s["tag"] == t) for t in TAGS}
     parts = ["%d in Democracy's Library" % n["DL"], "%d Wayback Machine captures" % n["WB"],
              "%d other Internet Archive items" % n["IA"]]
-    if n["TVA"]:
-        parts.append("%d TV News Archive clips" % n["TVA"])
+    if n["TV"]:
+        parts.append("%d TV News Archive clips" % n["TV"])
     parts.append("%d Open Library records" % n["OL"])
     if n["EXT"]:
         parts.append("%d held elsewhere" % n["EXT"])
@@ -699,7 +699,7 @@ Open it in a new tab or download it instead. The same story, with links to every
 
 
 TV = json.loads((CONTENT / "television.json").read_text(encoding="utf-8"))
-TVA_HOME = "https://archive.org/details/tv"
+TV_HOME = "https://archive.org/details/tv"
 
 
 def tv_url(c):
@@ -707,12 +707,12 @@ def tv_url(c):
 
 
 def tv_sources():
-    """Each clip is also a source, tagged TVA, in the chapter it belongs to."""
+    """Each clip is also a source, tagged TV, in the chapter it belongs to."""
     out = []
     for c in TV["clips"]:
         body = "<strong>%s</strong>, %s, %s. %s" % (
             html.escape(c["program"]), html.escape(c["network"]), html.escape(c["aired"]), html.escape(c["summary"]))
-        out.append(dict(tag="TVA", qual="", href=tv_url(c), ident=c["id"], body=body, act=c["chapter"],
+        out.append(dict(tag="TV", qual="", href=tv_url(c), ident=c["id"], body=body, act=c["chapter"],
                         section="On Television",
                         search=re.sub(r"\s+", " ", " ".join([c["program"], c["network"], c["aired"], c["summary"]])).lower()))
     return out
@@ -737,7 +737,7 @@ def build_television(sections):
             if c.get("about"):
                 when = "Aired %s; recorded %s" % (when, html.escape(c["about"]))
             cards.append("""<li class="tv-card">
-  <p class="tv-meta"><span class="tag tag-tva">TVA</span> %s · %s</p>
+  <p class="tv-meta"><span class="tag tag-tv">TV</span> %s · %s</p>
   <h3>%s</h3>
   <p>%s</p>
   <p class="tv-links"><a href="%s">Watch at the TV News Archive</a> · Related in the story: <a href="%s">%s</a></p>
@@ -745,15 +745,24 @@ def build_television(sections):
             html.escape(tv_url(c), quote=True), page_for(n, c["section"]), html.escape(c["section_name"])))
         groups.append('<h2>%s</h2>\n<ul class="tv-list">\n%s\n</ul>' % (html.escape(ACTS[n]), "\n".join(cards)))
     lede = ("The plant on television: news reports, debates and hearings documented in the "
-            "<a href=\"%s\">TV News Archive</a> at the Internet Archive." % TVA_HOME)
+            "<a href=\"%s\">TV News Archive</a> (Internet Archive)." % TV_HOME)
     intro = ("<p>Each clip opens at the moment the plant comes up and plays at the TV News Archive. "
              "The summaries were checked against the archive's own transcripts on %s. Most clips are from 2009 on, "
              "when the archive's recording began; older events appear when they were rebroadcast. "
-             "Clips are tagged <span class=\"tag tag-tva\">TVA</span> on the <a href=\"sources.html?tag=TVA\">Sources</a> page.</p>"
+             "Clips are tagged <span class=\"tag tag-tv\">TV</span> on the <a href=\"sources.html?tag=TV\">Sources</a> page.</p>"
              % html.escape(TV["checked"]))
     page = head("On Television · " + TITLE, "television.html", "On Television", lede, site_search()) + \
         '<main id="main" class="wrap about tv">\n%s\n%s\n</main>\n' % (intro, "\n".join(groups)) + foot()
     write(ROOT / "television.html", page)
+
+
+def build_images():
+    """Every image and its Commons source, linked only from About."""
+    body = (CONTENT / "images.md").read_text(encoding="utf-8")
+    lede = "Where each image in the story comes from."
+    page = head("Image Credits · " + TITLE, "images.html", "Image Credits", lede) + \
+        '<main id="main" class="wrap about">\n%s\n<p><a href="about.html#about-the-project">Back to About</a></p>\n</main>\n' % body + foot()
+    write(ROOT / "images.html", page)
 
 
 def build_glossary():
@@ -775,7 +784,7 @@ SHAPES = {
     "IA": '<rect x="-6.5" y="-6.5" width="13" height="13" rx="2"/>',
     "OL": '<path d="M-7 -4 L0 -8 L7 -4 L7 4 L0 8 L-7 4 Z"/>',
     "WB": '<path d="M0 -8.5 L8.5 0 L0 8.5 L-8.5 0 Z"/>',
-    "TVA": '<path d="M0 -8 L8 6 L-8 6 Z"/>',
+    "TV": '<path d="M0 -8 L8 6 L-8 6 Z"/>',
     "EXT": '<circle r="5.5"/>',
 }
 
@@ -920,7 +929,7 @@ def build_timeline(tl, pages):
     return tl["events"]
 
 
-LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|TVA|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|controversies|search|read|television|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(favicon\.svg|style\.css|print\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^atomic-history-savannah-river-plant\.pdf$|^img/[\w.-]+\.(png|jpg)$")
+LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|TV|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|controversies|search|read|television|images|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(favicon\.svg|style\.css|print\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^atomic-history-savannah-river-plant\.pdf$|^img/[\w.-]+\.(png|jpg)$")
 IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
 
 
@@ -977,6 +986,7 @@ def main():
     build_about(pages)
     build_controversies(pages)
     build_glossary()
+    build_images()
     build_television(sections)
     build_read()
     build_search(items)

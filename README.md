@@ -52,7 +52,7 @@ logos:
 - **On Television** (`television.html`): broadcasts about the plant in the
   Internet Archive's TV News Archive, by chapter, each opening at the moment
   the plant comes up. The clips live in `content/television.json`, which also
-  makes each one a source tagged **TVA**.
+  makes each one a source tagged **TV**.
 - **About** (`about.html`): the project, where the sources are held, images
   and how it was built.
 
@@ -63,7 +63,7 @@ logos:
   holders. Wherever an outside page has a working Wayback capture, the
   capture is cited instead of the live page.
 - **Years covered:** 1950 to 2026.
-- **Size:** 461 sources: 68 DL, 254 WB, 121 IA, 15 TVA, 3 OL, 0 EXT. Counted
+- **Size:** 461 sources: 68 DL, 254 WB, 121 IA, 15 TV, 3 OL, 0 EXT. Counted
   November 7, 2026.
 - **Not included:** sources still being sought, such as the rest of the
   *New York Times* 1988 series and the "thirty incidents" report, are tracked as
