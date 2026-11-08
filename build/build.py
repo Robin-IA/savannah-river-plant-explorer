@@ -756,6 +756,15 @@ def build_television(sections):
     write(ROOT / "television.html", page)
 
 
+def build_images():
+    """Every image and its Commons source, linked only from About."""
+    body = (CONTENT / "images.md").read_text(encoding="utf-8")
+    lede = "Where each image in the story comes from."
+    page = head("Image Credits · " + TITLE, "images.html", "Image Credits", lede) + \
+        '<main id="main" class="wrap about">\n%s\n<p><a href="about.html#about-the-project">Back to About</a></p>\n</main>\n' % body + foot()
+    write(ROOT / "images.html", page)
+
+
 def build_glossary():
     body = (CONTENT / "glossary.md").read_text(encoding="utf-8")
     lede = "The technical words, agencies and places in the story."
@@ -920,7 +929,7 @@ def build_timeline(tl, pages):
     return tl["events"]
 
 
-LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|TV|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|controversies|search|read|television|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(favicon\.svg|style\.css|print\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^atomic-history-savannah-river-plant\.pdf$|^img/[\w.-]+\.(png|jpg)$")
+LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|TV|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|controversies|search|read|television|images|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(favicon\.svg|style\.css|print\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^atomic-history-savannah-river-plant\.pdf$|^img/[\w.-]+\.(png|jpg)$")
 IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
 
 
@@ -977,6 +986,7 @@ def main():
     build_about(pages)
     build_controversies(pages)
     build_glossary()
+    build_images()
     build_television(sections)
     build_read()
     build_search(items)
