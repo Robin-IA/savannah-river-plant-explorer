@@ -51,8 +51,7 @@ morning it was in the *Atlanta Constitution*
 and in newspapers as far away as Victoria, British Columbia
 ([IA](https://archive.org/details/victoriadailytimes1950-11-29)).
 
-First, though, the people living on that land had to leave it.
-
+First, though, the people living on that land had to leave it, as [The Towns Inside the Fence](#the-towns-inside-the-fence) tells.
 
 ### The Towns Inside the Fence
 
@@ -148,7 +147,7 @@ is cataloged in Open Library, though it has no copy to read or borrow yet
 <figcaption>Ellenton at its railroad crossing before the plant, and the same crossing about 2010. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_Ellenton_(5227763993).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-As the last families left, the work of building the plant was already under way.
+As the last families left, the work of building the plant was already under way; [Building the Plant](#building-the-plant) follows it.
 
 *Follow this thread, the displaced towns.* Continues in [Chapter 3, The Plant's Museum](chapter-3.html#the-plants-museum).
 
@@ -218,8 +217,7 @@ and design histories now on OSTI (Office of Scientific and Technical Information
 [WB: OSTI 10151705][osti-plantwide]). The company's administrative files
 are at the Hagley Museum and Library ([WB: DOE finding aid][ohre-admin]).
 
-By the mid-1950s the plant was built, and its reactors began to run.
-
+By the mid-1950s the plant was built. The next section, [Running the Reactors](#running-the-reactors), follows its reactors and separations plants at work.
 
 ### Running the Reactors
 
@@ -269,8 +267,7 @@ closed in December 1964, for a different reason: the AEC was turning away
 from heavy-water power reactors, and it was never restarted
 ([WB: ch. 13][fifty-13]).
 
-Making plutonium and tritium also meant releasing radioactivity into the air, the ground and the water, and the plant's own count of those releases turned out to be too low.
-
+Making plutonium and tritium also meant releasing radioactivity into the air, the ground and the water, and the plant's own count of those releases turned out to be too low, as [Radioactive Releases](#radioactive-releases) shows.
 
 ### Radioactive Releases
 
@@ -323,7 +320,7 @@ and 1972 to the Special Exposure Cohort of the federal occupational illness
 compensation program. Their cancer claims no longer turn on reconstructing
 each worker's dose ([WB: NIOSH][niosh-srs]).
 
-Outside the fence, the towns around the plant lived with both its paychecks and its releases.
+Outside the fence, the towns around the plant lived with both its paychecks and its releases; [Living with the Plant](#living-with-the-plant) tells how.
 
 *Follow this thread, waste and groundwater.* Continues in [Chapter 2, Under the Ground](chapter-2.html#under-the-ground); [Chapter 3, The Tanks](chapter-3.html#the-tanks); [Chapter 4, Emptying the Tanks](chapter-4.html#emptying-the-tanks).
 
@@ -371,7 +368,31 @@ money ([IA: *Monthly Labor Review*, 1952](https://archive.org/details/sim_monthl
 <figcaption>Getting to work: the plant's shuttle for workers who missed their carpools in the 1950s, and a carpool shelter still standing about 2010. <span class="credit">US Department of Energy photographs, public domain, via <a href="https://commons.wikimedia.org/wiki/File:SRS_at_60_--_Carpooling_(5228278174).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-The plant changed the land as well as the towns.
+The plant also remade the roads around it. Before the plant, South Carolina Highway 28
+ran from Augusta through Jackson and past Ellenton toward Allendale ([IA: road
+map,
+1948](https://archive.org/details/dr_rand-mcnally-road-map--north-carolina-south-carolina-14003035);
+[WB: *SRS at
+Fifty*](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=173)).
+In early 1951 the state reported that Routes 28 and 64 "will be closed through
+the AEC area," while a new four-lane highway was built "from North Augusta, S.
+C., to Route 28 at the outer boundary of the project" ([DL: Senate hearing,
+1951](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1951-02-28_0)).
+
+By 1954 that new road carried the number South Carolina Highway 125 ([DL:
+*Federal Register*,
+1954](https://archive.org/details/sim_federal-register-find_1954-07-21_19_140)),
+and by 1955 the plant's newspaper placed a worker's home "in North Augusta on
+Atomic Road" ([WB: *SRS at
+Fifty*](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=241)).
+
+Inside the fence the road was SRP Road A. On July 27, 1967, the Atomic Energy
+Commission gave the state an easement to run Highway 125 for 18.3 miles
+through the plant, which is how the public came to drive across it ([DL:
+*Federal Register*,
+1968](https://archive.org/details/sim_federal-register-find_1968-01-31_33_21)).
+
+The plant changed the land as well as the towns. [SRS and Ecology](#srs-and-ecology) follows what happened to its forests, streams and wildlife.
 
 *Follow this thread, the towns and their economy.* Continues in [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant); [Chapter 3, Living with the Plant](chapter-3.html#living-with-the-plant); [Chapter 4, Living with the Plant](chapter-4.html#living-with-the-plant).
 
@@ -484,7 +505,7 @@ hunt for radioactive cesium-137 before releasing them to hunters
 The hunts still go on today; see [Chapter
 4](chapter-4.html#ecology-and-the-srs).
 
-In the 1980s the pressure on the plant came from the other direction: the country wanted more plutonium.
+The 1970s brought scrutiny of what the plant released. The 1980s brought a push for more plutonium, and with it the restart of a reactor, told in [L-Reactor Comes Back](#l-reactor-comes-back).
 
 *Follow this thread, radioactivity in the river and its animals.* Continues in [Chapter 3, The Neighbors and the River](chapter-3.html#the-neighbors-and-the-river); [Chapter 4, Ecology and the SRS](chapter-4.html#ecology-and-the-srs).
 
@@ -545,8 +566,7 @@ Makhijani, Alvarez and Blackwelder for the Environmental Policy Institute,
 assessed the high-level waste tanks ([WB: IEER][deadly-crop]); Du Pont published a rebuttal
 ([WB: OSTI 5881523][osti-dupont-reply]).
 
-While the reactors drew attention above ground, older waste was moving below it.
-
+While the reactors drew attention above ground, older waste was moving below it, as [Under the Ground](#under-the-ground) tells.
 
 ### Under the Ground
 
@@ -589,7 +609,7 @@ designed to reach its goal
 <figcaption>The M-1 air stripper, which by 2009 had pumped and treated more than five billion gallons of groundwater from A and M Areas. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Five_Billion_Gallons_M-1_Air_Stripper_(7409143760).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-By the late 1980s the reactors themselves were in trouble.
+By the late 1980s the reactors themselves were in trouble; [1987–1988: The Reactors Stop](#19871988-the-reactors-stop) tells how they shut down.
 
 *Follow this thread, waste and groundwater.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases). Continues in [Chapter 3, The Tanks](chapter-3.html#the-tanks); [Chapter 4, Emptying the Tanks](chapter-4.html#emptying-the-tanks).
 
@@ -633,8 +653,7 @@ superiors at Du Pont ([WB: *New York Times*][nyt-881001]). By November the
 paper was asking how Congress had missed the signs ([WB: *New York
 Times*][nyt-881128]).
 
-The shutdowns ended Du Pont's time at the plant, and soon the plant's old name.
-
+The shutdowns ended Du Pont's time at the plant, and soon the plant's old name, as [A Name Change](#a-name-change) tells.
 
 ### A Name Change
 
@@ -678,8 +697,7 @@ What it had released was reconstructed later. The CDC's (Centers for Disease Con
 counted about 3,000 release incidents involving tritium between 1954 and 1992
 ([WB: CDC Phase II][cdc-phase2]).
 
-For the towns around the plant, these years of buildup and shutdown were felt in jobs and in worries about health.
-
+For the towns around the plant, these years of buildup and shutdown were felt in jobs and in worries about health; [Living with the Plant](#living-with-the-plant) follows both.
 
 ---
 
@@ -726,7 +744,7 @@ no excess among children, more leukemia at ages 20 to 39 and slightly more
 lung cancer in older adults, and said it did not show cancer excesses tied to
 the plant ([DL](https://archive.org/details/cancerinpopulati00jabl_1); [DL](https://archive.org/details/cancerinpopulati00jabl_0)).
 
-Some of those worries had already turned into public protest.
+Some of those worries had already turned into public protest, told in [An Emerging Environmental Movement Impacts SRS](#an-emerging-environmental-movement-impacts-srs).
 
 *Follow this thread, health of workers and neighbors.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases). Continues in [Chapter 3, Sick Workers](chapter-3.html#sick-workers); [Chapter 3, The Neighbors and the River](chapter-3.html#the-neighbors-and-the-river); [Chapter 4, Sick Workers and the River Today](chapter-4.html#sick-workers-and-the-river-today).
 
@@ -802,8 +820,7 @@ chapter: the lawsuit over restarting L reactor
 ([L-Reactor comes back](#l-reactor-comes-back)) and the investigations of
 1988 ([1987–1988: the reactors stop](#19871988-the-reactors-stop)).
 
-The same years brought the damage to the site's land and wildlife into the open.
-
+The same years brought the damage to the site's land and wildlife into the open, as [SRS and Ecology](#srs-and-ecology) tells.
 
 ### SRS and Ecology
 
@@ -834,7 +851,7 @@ red-cockaded woodpeckers were down to four birds; at DOE's (Department of Energy
 Service scientists began carving artificial nest cavities and moving birds in
 from other forests ([DL: Forest Service](https://archive.org/details/redcockadedwoodp23unit)).
 
-When the reactors stopped for good in 1992, the plant that had made bomb materials for almost four decades became a cleanup site, as [Chapter 3](chapter-3.html) tells.
+When the reactors stopped for good in 1992, the plant that had made bomb materials for almost four decades turned from production to cleanup. [Chapter 3](chapter-3.html) follows that turn.
 
 *Follow this thread, the land and its wildlife.* Earlier: [Chapter 1, SRS and Ecology](chapter-1.html#srs-and-ecology). Continues in [Chapter 3, SRS and Ecology](chapter-3.html#srs-and-ecology); [Chapter 3, The Laboratories](chapter-3.html#the-laboratories); [Chapter 4, Ecology and the SRS](chapter-4.html#ecology-and-the-srs).
 
@@ -870,8 +887,7 @@ Register*,
 South Carolina's governor took DOE to court over it
 ([DL](https://archive.org/details/micro_IA40386015_0538)).
 
-The biggest part of that cleanup was the liquid waste stored in the tank farms.
-
+The biggest part of that cleanup was the liquid waste stored in the tank farms, the subject of [The Tanks](#the-tanks).
 
 ### The Tanks
 
@@ -918,7 +934,7 @@ wastewater from the glass plant to a commercial disposal site in Andrews,
 Texas, beginning with 8 gallons ([WB: *Federal Register*][fr-hlw-ea]; [WB:
 *Federal Register*][fr-hlw-fonsi]).
 
-The reactors that had made the waste were coming to their own end.
+The reactors that had made the waste were coming to their own end, told in [Sealing the Reactors](#sealing-the-reactors).
 
 *Follow this thread, waste and groundwater.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases); [Chapter 2, Under the Ground](chapter-2.html#under-the-ground). Continues in [Chapter 4, Emptying the Tanks](chapter-4.html#emptying-the-tanks).
 
@@ -940,8 +956,7 @@ schedule without the stimulus ([WB][pr-closure]). The release marking the
 end of that work is gone from srs.gov; the Wayback capture is the copy
 ([WB][pr-closure]).
 
-Even as the reactors were sealed, plutonium kept coming to the site and leaving it.
-
+Even as the reactors were sealed, plutonium kept coming to the site and leaving it, as [Plutonium: MOX and Pits](#plutonium-mox-and-pits) tells.
 
 ### Plutonium: MOX and Pits
 
@@ -1016,7 +1031,7 @@ radiation sickness or death in a significant number of people ([WB: *Federal
 Register*][fr-dnfsb]). NNSA's administrator replied, "I do not accept
 Recommendation 2019-2" ([WB: *Federal Register*][fr-dnfsb-reply]).
 
-The people who had worked with that material were still counting the cost.
+The people who had worked with that material were still counting the cost; [Sick Workers](#sick-workers) follows them.
 
 *Follow this thread, plutonium after the cold war.* Continues in [Chapter 4, Making Pits Again](chapter-4.html#making-pits-again); [Chapter 4, Moving Plutonium Out](chapter-4.html#moving-plutonium-out).
 
@@ -1054,7 +1069,7 @@ That November a petition asked to add every worker from 1950 to 2007 to the
 Special Exposure Cohort; the special classes for the site came from it
 ([WB: NIOSH][niosh-srs-2026]).
 
-Questions about health reached beyond the fence, to the neighbors and the river.
+Questions about health reached beyond the fence, to [The Neighbors and the River](#the-neighbors-and-the-river).
 
 *Follow this thread, health of workers and neighbors.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases); [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant). Continues in [Chapter 3, The Neighbors and the River](chapter-3.html#the-neighbors-and-the-river); [Chapter 4, Sick Workers and the River Today](chapter-4.html#sick-workers-and-the-river-today).
 
@@ -1090,7 +1105,7 @@ could raise mercury risks, especially for pregnant women and children.
 Mercury is high upstream of the site too, and ATSDR said the site's share "is
 not known" ([WB: ATSDR][atsdr-2012]).
 
-The neighbors also depended on the site for jobs, and those jobs were shrinking.
+The neighbors also depended on the site for jobs, and those jobs were shrinking, as [Living with the Plant](#living-with-the-plant) tells.
 
 *Follow this thread, health of workers and neighbors.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases); [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant); [Chapter 3, Sick Workers](chapter-3.html#sick-workers). Continues in [Chapter 4, Sick Workers and the River Today](chapter-4.html#sick-workers-and-the-river-today).
 
@@ -1121,7 +1136,7 @@ GAO (Government Accountability Office) later found that Barnwell County received
 $6.2 million paid in 2013, and that the land values behind the payments had
 been set in 1988 ([WB: GAO, 2019][gao-pilt-2019]).
 
-As the workforce shrank, the land recovered.
+As the workforce shrank, the land recovered; [SRS and Ecology](#srs-and-ecology) follows it.
 
 *Follow this thread, the towns and their economy.* Earlier: [Chapter 1, Living with the Plant](chapter-1.html#living-with-the-plant); [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant). Continues in [Chapter 4, Living with the Plant](chapter-4.html#living-with-the-plant).
 
@@ -1143,7 +1158,7 @@ shut down they were studying how to replant Pen Branch and Four Mile Creek.
 The site then held 30 set-aside research areas of 14,005 acres, and 152
 woodpeckers by 1999 ([IA: SREL scientists, 2002](https://archive.org/details/DTIC_ADA400802)).
 
-The science done on the site went on, though not all of it was safe from budget cuts.
+The science done on the site went on, though not all of it was safe from budget cuts, as [The Laboratories](#the-laboratories) tells.
 
 *Follow this thread, the land and its wildlife.* Earlier: [Chapter 1, SRS and Ecology](chapter-1.html#srs-and-ecology); [Chapter 2, SRS and Ecology](chapter-2.html#srs-and-ecology). Continues in [Chapter 3, The Laboratories](chapter-3.html#the-laboratories); [Chapter 4, Ecology and the SRS](chapter-4.html#ecology-and-the-srs).
 
@@ -1167,7 +1182,7 @@ The House Science Committee held a hearing on it in July 2007
 SREL's (Savannah River Ecology Laboratory's) web page from that summer mentions a statement on a budget crisis
 ([WB][srel-2007]) but the actual statement has been lost.
 
-By the 2000s the site's own history had become something to preserve.
+By the 2000s the site's own history had become something to preserve, the subject of [The Plant's Museum](#the-plants-museum).
 
 *Follow this thread, the land and its wildlife.* Earlier: [Chapter 1, SRS and Ecology](chapter-1.html#srs-and-ecology); [Chapter 2, SRS and Ecology](chapter-2.html#srs-and-ecology); [Chapter 3, SRS and Ecology](chapter-3.html#srs-and-ecology). Continues in [Chapter 4, Ecology and the SRS](chapter-4.html#ecology-and-the-srs).
 
@@ -1196,7 +1211,7 @@ home to the zero-power Process Development Pile, which set the physics for
 plutonium and tritium production in the five reactors
 ([WB: Library of Congress, HAER SC-43][haer-sc43]).
 
-That history is still being made. [Chapter 4](chapter-4.html) follows what is happening at the site now.
+After nearly three decades of cleanup, the site is turning back toward weapons production while the cleanup goes on. [Chapter 4](chapter-4.html) follows both.
 
 *Follow this thread, the displaced towns.* Earlier: [Chapter 1, The Towns Inside the Fence](chapter-1.html#the-towns-inside-the-fence).
 
@@ -1243,7 +1258,7 @@ adequately protect facility workers" handling plutonium in glove boxes
 were "a significant improvement to safety" and resolved its concerns
 ([WB: safety board][dnfsb-2025]).
 
-New plutonium work also means dealing with the plutonium already there.
+New plutonium work also means dealing with the plutonium already there, as [Moving Plutonium Out](#moving-plutonium-out) tells.
 
 *Follow this thread, plutonium after the cold war.* Earlier: [Chapter 3, Plutonium: MOX and Pits](chapter-3.html#plutonium-mox-and-pits). Continues in [Chapter 4, Moving Plutonium Out](chapter-4.html#moving-plutonium-out).
 
@@ -1272,7 +1287,7 @@ March 2026 DOE said it would restart HB Line, a plutonium processing plant at
 H Canyon shut down a few years earlier, to recycle plutonium into reactor fuel
 ([WB: American Nuclear Society][ans-hbline]).
 
-The oldest job on the site, emptying the tanks, is not finished either.
+The oldest job on the site, emptying the tanks, is not finished either; [Emptying the Tanks](#emptying-the-tanks) follows it.
 
 *Follow this thread, plutonium after the cold war.* Earlier: [Chapter 3, Plutonium: MOX and Pits](chapter-3.html#plutonium-mox-and-pits); [Chapter 4, Making Pits Again](chapter-4.html#making-pits-again).
 
@@ -1304,7 +1319,7 @@ Canyon can make fuel for advanced reactors ([WB: DOE][doe-hcanyon-2026]). The
 site's Citizens Advisory Board has asked for briefings on what the restart
 means for the environment ([EXT: SRS Citizens Advisory Board][cab-387]).
 
-All of this work is divided among agencies and contractors.
+All of this work is divided among agencies and contractors, as [Who Runs the Site](#who-runs-the-site) explains.
 
 *Follow this thread, waste and groundwater.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases); [Chapter 2, Under the Ground](chapter-2.html#under-the-ground); [Chapter 3, The Tanks](chapter-3.html#the-tanks).
 
@@ -1354,8 +1369,7 @@ detectable levels of contamination" ([WB: SRS][srs-fire-2026]). Its own
 releases give two different times for when the emergency was declared
 ([EXT: SRS][srs-fire-2]).
 
-For the people who did the work, and for the river, the costs continue.
-
+For the people who did the work, and for the river, the costs continue, as [Sick Workers and the River Today](#sick-workers-and-the-river-today) tells.
 
 ### Sick Workers and the River Today
 
@@ -1397,7 +1411,7 @@ radionuclide" found ([WB: South Carolina, 2023][esop-2023]).
 <figcaption>A great blue heron at Phinizy Swamp Nature Park, a wetland on the Savannah River at Augusta. <span class="credit">Photograph by Eric Monaco, Savannah River Remediation, public domain, via <a href="https://commons.wikimedia.org/wiki/File:Great_Blue_Heron_Phinizy_Swamp_Nature_Park_10x6_(48870411566).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-The towns around the site still live with it, too.
+The towns around the site still live with it, too; [Living with the Plant](#living-with-the-plant) follows them.
 
 *Follow this thread, health of workers and neighbors.* Earlier: [Chapter 1, Radioactive Releases](chapter-1.html#radioactive-releases); [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant); [Chapter 3, Sick Workers](chapter-3.html#sick-workers); [Chapter 3, The Neighbors and the River](chapter-3.html#the-neighbors-and-the-river).
 
@@ -1417,7 +1431,8 @@ Blackville ([WB: South Carolina budget, 2022][sc-budget-2022]).
 <figcaption>The first pitch at the site's United Way softball tournament, November 2023. <span class="credit">US Department of Energy photograph, public domain, via <a href="https://commons.wikimedia.org/wiki/File:231734_United_Way_Softball_Tournament_11-7-23-02_(53771752151).jpg">Wikimedia Commons</a>.</span></figcaption>
 </figure>
 
-A state highway still crosses the site. South Carolina Highway 125, known
+A state highway still crosses the site; its history is told in
+[Chapter 1, Living with the Plant](chapter-1.html#living-with-the-plant). South Carolina Highway 125, known
 along the way as Atomic Road, runs for about 17 miles across it between
 Allendale and Jackson: the site's directions for its public deer hunts send
 drivers from Allendale north through the site on it ([WB:
@@ -1432,30 +1447,6 @@ controls access to the highway inside the site and can stop traffic and clear
 everyone off it quickly after an accident nearby ([IA: DOE,
 1990](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
 
-The road has a history of its own. Before the plant, South Carolina Highway 28
-ran from Augusta through Jackson and past Ellenton toward Allendale ([IA: road
-map,
-1948](https://archive.org/details/dr_rand-mcnally-road-map--north-carolina-south-carolina-14003035);
-[WB: *SRS at
-Fifty*](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=173)).
-In early 1951 the state reported that Routes 28 and 64 "will be closed through
-the AEC area," while a new four-lane highway was built "from North Augusta, S.
-C., to Route 28 at the outer boundary of the project" ([DL: Senate hearing,
-1951](https://archive.org/details/sim_united-states-congress-hearings-prints-and-reports_1951-02-28_0)).
-
-By 1954 that new road carried the number South Carolina Highway 125 ([DL:
-*Federal Register*,
-1954](https://archive.org/details/sim_federal-register-find_1954-07-21_19_140)),
-and by 1955 the plant's newspaper placed a worker's home "in North Augusta on
-Atomic Road" ([WB: *SRS at
-Fifty*](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=241)).
-
-Inside the fence the road was SRP Road A. On July 27, 1967, the Atomic Energy
-Commission gave the state an easement to run Highway 125 for 18.3 miles
-through the plant, which is how the public came to drive across it ([DL:
-*Federal Register*,
-1968](https://archive.org/details/sim_federal-register-find_1968-01-31_33_21)).
-
 Site workers still give to local charities. The contractors reported raising
 $1,488,038 for United Way in the 2023 campaign ([WB: SRS release][srs-uw-2024]),
 and the United Way of Allendale, Bamberg and Barnwell counties called the
@@ -1463,7 +1454,7 @@ workers' gifts "a significant portion" of its budget
 ([WB: contractor release, 2026][srns-uw-2026]). Both are the contractors'
 own announcements.
 
-So does the land.
+So does the land, the subject of [Ecology and the SRS](#ecology-and-the-srs).
 
 *Follow this thread, the towns and their economy.* Earlier: [Chapter 1, Living with the Plant](chapter-1.html#living-with-the-plant); [Chapter 2, Living with the Plant](chapter-2.html#living-with-the-plant); [Chapter 3, Living with the Plant](chapter-3.html#living-with-the-plant).
 
@@ -1513,7 +1504,7 @@ radioactivity ([WB: Georgia guide][ga-fish-2023]). The site estimated that
 someone eating fish from its creek mouths in 2024 would get at most about 0.24
 millirem of radiation, all from cesium-137 ([WB: SRS][srs-dose-2024]).
 
-What comes next for the site is already being planned.
+What comes next for the site is already being planned, as [Looking to the Future](#looking-to-the-future) tells.
 
 *Follow this thread, the land and its wildlife.* Earlier: [Chapter 1, SRS and Ecology](chapter-1.html#srs-and-ecology); [Chapter 2, SRS and Ecology](chapter-2.html#srs-and-ecology); [Chapter 3, SRS and Ecology](chapter-3.html#srs-and-ecology); [Chapter 3, The Laboratories](chapter-3.html#the-laboratories).
 
