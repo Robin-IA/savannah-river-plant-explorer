@@ -449,9 +449,9 @@ Sources for "Atomic History: The Savannah River Plant Story", Chapter 3. Compile
     - SRS Museum website (SRS Heritage Foundation), captured November 4, 2026.
     - "The Museum is open Wednesdays – Saturdays from 10 a.m. to 4 p.m. and admission is free"; 224 Laurens St. SW, Aiken.
     - Verified 2026-11-07.
-87. **EXT: UNT End of Term 2008**: https://webarchive.library.unt.edu/eot2008/20090114192636/http://www.srs.gov/general/about/history1.htm
+87. **WB**: https://web.archive.org/web/20051025030030/http://www.srs.gov:80/general/about/history1.htm
     - "SRS History Highlights" page.
-    - Wayback also has `.../20051025030030/http://www.srs.gov:80/general/about/history1.htm`.
+    - Also in the UNT End of Term 2008 archive. Switched to the Wayback capture on November 7, 2026.
     - Verified 2026-11-06.
 88. **WB**: https://web.archive.org/web/20260422121048/https://www.scencyclopedia.org/sce/entries/savannah-river-site/
    - Wayback capture of https://www.scencyclopedia.org/sce/entries/savannah-river-site/ (held by South Carolina Encyclopedia).
