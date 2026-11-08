@@ -2,10 +2,11 @@
 
 **Live explorer: [robin-ia.github.io/savannah-river-plant-explorer](https://robin-ia.github.io/savannah-river-plant-explorer/)**
 
-**A history of the Savannah River Plant in South Carolina, from 1950 to now,
-told from records held in Democracy's Library, the wider Internet Archive,
-the Wayback Machine and elsewhere, with every source labeled by where it
-is held.**
+**A history of the Savannah River Plant in South Carolina, from 1950 to a
+site still cleaning up its past and gearing up for new weapons work, told
+from government resources held in Democracy's Library, the Wayback Machine
+and Internet Archive collections, with every source labeled by where it is
+held.**
 
 ## What it does
 
