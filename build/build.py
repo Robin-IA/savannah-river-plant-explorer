@@ -271,7 +271,7 @@ def holder_index(items):
         '<li><a class="holder-btn" href="sources.html?tag=%s"><span class="tag tag-%s">%s</span>'
         '<span class="hb-name">%s</span><span class="hb-n">%d</span></a></li>'
         % (t, t.lower(), t, html.escape(n), sum(1 for s in items if s["tag"] == t))
-        for t, n in TAGS.items())
+        for t, n in TAGS.items() if any(s["tag"] == t for s in items))
     return '<ul class="holder-index" aria-label="Sources by where they are held">%s</ul>' % rows
 
 
@@ -342,7 +342,11 @@ SEARCH_FORM = """<form class="search" action="sources.html" method="get" role="s
 def story_chapters():
     """The story's chapters as (number, title, markdown), and its link definitions."""
     text = (CONTENT / "story.md").read_text(encoding="utf-8")
-    text = text.replace("{{SOURCE_COUNT}}", str(SOURCE_COUNT[0])).replace("{{HELD_COUNT}}", str(HELD_COUNT[0]))
+    if HELD_COUNT[0] == SOURCE_COUNT[0]:
+        held = "All %d sources it cites are held at the Internet Archive" % SOURCE_COUNT[0]
+    else:
+        held = "Of the %d sources it cites, %d are held at the Internet Archive" % (SOURCE_COUNT[0], HELD_COUNT[0])
+    text = text.replace("{{HELD_SENTENCE}}", held)
     text = re.sub(r"\A# .*?\n", "", text)
     text = re.sub(r"## How to read the sources.*?\n---\n", "", text, flags=re.S)
     defs = "\n".join(m.group(0) for m in re.finditer(r"^\[[\w-]+\]:\s*\S+.*$", text, re.M))
@@ -585,7 +589,7 @@ def build_sources(items):
     tagbtns = "".join(
         '<label><input type="checkbox" name="tag" value="%s" checked> '
         '<span class="tag tag-%s">%s</span> %s <span class="n">(%d)</span></label>'
-        % (t, t.lower(), t, html.escape(TAGS[t]), counts[t]) for t in TAGS)
+        % (t, t.lower(), t, html.escape(TAGS[t]), counts[t]) for t in TAGS if counts[t])
     actopts = "".join('<option value="%d">%s</option>' % (a, html.escape(name))
                       for a, name in ACTS.items())
     lede = ('All %d sources behind <a href="index.html">the story</a>, with where each is held and what it contributes. '
@@ -625,10 +629,12 @@ HELD_COUNT = [0]
 def holder_counts(items):
     """One sentence counting the sources by where they are held."""
     n = {t: sum(1 for s in items if s["tag"] == t) for t in TAGS}
-    return ("The story rests on %d sources: %d in Democracy's Library, %d Wayback Machine captures, "
-            "%d other Internet Archive items, %d Open Library records and %d held elsewhere. "
-            "<a href=\"sources.html\">See them all</a>."
-            % (len(items), n["DL"], n["WB"], n["IA"], n["OL"], n["EXT"]))
+    parts = ["%d in Democracy's Library" % n["DL"], "%d Wayback Machine captures" % n["WB"],
+             "%d other Internet Archive items" % n["IA"], "%d Open Library records" % n["OL"]]
+    if n["EXT"]:
+        parts.append("%d held elsewhere" % n["EXT"])
+    return ("The story rests on %d sources: %s and %s. <a href=\"sources.html\">See them all</a>."
+            % (len(items), ", ".join(parts[:-1]), parts[-1]))
 
 
 def build_controversies(pages):

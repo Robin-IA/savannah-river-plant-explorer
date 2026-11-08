@@ -629,10 +629,18 @@ Du Pont on why L reactor's power had been cut
 ([IA](https://archive.org/details/micro_IA41152840_0671)).
 
 That year an internal list of thirty significant reactor incidents became
-public. The official history presents the report as meant to show safety
-improving ([WB: ch. 19][fifty-19]); the Senate investigator who obtained it
-remembers it as evidence of concealment ([WB: Alliance for Nuclear
-Accountability][alvarez]).
+public. G. C. Ridgely, a Du Pont technical supervisor and physicist, had dated
+it August 14, 1985, under the title *SRP Reactor Incidents of Greatest
+Significance* ([WB: OSTI][osti-ridgely]). He was one of 11 Du Pont scientists
+and engineers who ranked the thirty incidents at the five reactors from 1957 to
+1985 ([DL: *Congressional Record*, 1988][cr-881019]).
+
+The official history presents the report as meant to show safety improving
+([WB: ch. 19][fifty-19]); the Senate investigator who obtained it remembers it
+as evidence of concealment ([WB: Alliance for Nuclear Accountability][alvarez]).
+DOE's 1990 impact statement on running the reactors again summarized all
+thirty in a table, and noted that seven had released radioactivity ([IA: DOE,
+1990, Table 4-15](https://archive.org/details/SavannahRiverEnvironmentalImpactStatements)).
 
 The reactors went down one after another — K in April, L in June, P in
 August — over emergency cooling concerns ([WB: ch. 19][fifty-19]). On September
@@ -653,10 +661,31 @@ The next day, October 1, the *New York Times* put the story on its front page.
 It reported severe accidents at all five reactors, kept secret for up to 31
 years.
 
-They were documented in a 19-page memorandum from a plant supervisor to his
-superiors at Du Pont ([WB: *New York Times*][nyt-881001]). By November the
-paper was asking how Congress had missed the signs ([WB: *New York
-Times*][nyt-881128]).
+They were documented in Ridgely's 19-page memorandum to his superiors at
+Du Pont ([WB: *New York Times*][nyt-881001]). The article's full text was
+entered in the *Congressional Record* that month ([DL][cr-881019]).
+
+The *Times* kept the story on its pages through the fall. On October 3 DOE
+said that it, and the Atomic Energy Commission before it, had kept the
+accidents secret over 28 years. It cleared Du Pont, which had reported them to
+DOE's office in Aiken ([WB: *New York Times*][nyt-881004]).
+
+Energy Secretary
+John S. Herrington promised to restart one reactor in January and all three by
+late the next summer, since tritium decays at 5.5 percent a year ([WB: *New
+York Times*][nyt-881012]).
+
+By November the paper was asking how Congress had missed the signs ([WB: *New
+York Times*][nyt-881128]). In December DOE's own advisory committee of 12
+engineers and scientists said K reactor should not restart until it was
+checked against severe earthquakes. The same day the Natural Resources Defense
+Council sued for a full study of the restart's effects on the environment and
+public health ([WB: *New York Times*][nyt-881214]).
+
+Days later a crack was found in a pipe carrying coolant to K reactor ([WB:
+*New York Times*][nyt-881218]). A DOE report for Congress put the cost of
+replacing old equipment and cleaning up across the weapons complex at $81
+billion from 1990 to 2010 ([WB: *New York Times*][nyt-881227]).
 
 The shutdowns ended Du Pont's time at the plant, and soon the plant's old name, as [A Name Change](#a-name-change) tells.
 
@@ -1320,7 +1349,7 @@ uranium, emptying L Basin by 2033 instead of 2060 ([WB: SRS][srs-abd-2022]).
 In February 2026 DOE reversed course and restored uranium recovery, so H
 Canyon can make fuel for advanced reactors ([WB: DOE][doe-hcanyon-2026]). The
 site's Citizens Advisory Board has asked for briefings on what the restart
-means for the environment ([EXT: SRS Citizens Advisory Board][cab-387]).
+means for the environment ([WB: SRS Citizens Advisory Board][cab-387]).
 
 All of this work is divided among agencies and contractors, as [Who Runs the Site](#who-runs-the-site) explains.
 
@@ -1370,7 +1399,7 @@ site to declare a Site Area Emergency and close its gates to incoming
 traffic. The emergency ended that night, and the site said surveys found "no
 detectable levels of contamination" ([WB: SRS][srs-fire-2026]). Its own
 releases give two different times for when the emergency was declared
-([EXT: SRS][srs-fire-2]).
+([WB: SRS][srs-fire-2]).
 
 For the people who did the work, and for the river, the costs continue, as [Sick Workers and the River Today](#sick-workers-and-the-river-today) tells.
 
@@ -1546,8 +1575,7 @@ it made, while it prepares to make plutonium pits for new weapons. Knowing that 
 from the families moved off the land to the workers who fell sick, is part of
 deciding what comes next.
 
-This story could be told because the Internet Archive keeps the record. Of the
-{{SOURCE_COUNT}} sources it cites, {{HELD_COUNT}} are held at the Internet Archive:
+This story could be told because the Internet Archive keeps the record. {{HELD_SENTENCE}}:
 government documents in Democracy's Library, web pages saved by the Wayback
 Machine, and books, magazines and reports in its other collections. When
 agencies move their websites and reports go out of print, those copies keep
@@ -1617,7 +1645,14 @@ land taken for it to the new pit plant, see [Controversies](controversies.html).
 [museum-2014]: https://web.archive.org/web/20150930092227/http://www.srs.gov/general/news/releases/nr14_srns-heritage-foundation.pdf
 [museum-web]: https://web.archive.org/web/20170525214013/http://srsmuseum.org/
 [preserve-2020]: https://web.archive.org/web/20201126172828/https://www.srs.gov/general/news/releases/nr20_srs-preserving-srs-history.pdf
+[osti-ridgely]: https://web.archive.org/web/20250311154903/https://www.osti.gov/biblio/6822785
+[cr-881019]: https://archive.org/details/sim_congressional-record-proceedings-and-debates_october-17-20-1988_134-redacted
 [nyt-881001]: https://web.archive.org/web/20240427052753/https://www.nytimes.com/1988/10/01/us/severe-accidents-at-nuclear-plant-were-kept-secret-up-to-31-years.html
+[nyt-881004]: https://web.archive.org/web/20180130094900/http://www.nytimes.com/1988/10/04/us/energy-dept-says-it-kept-mishaps-at-nuclear-weapon-plant-secret.html
+[nyt-881012]: https://web.archive.org/web/20150525084551/http://www.nytimes.com/1988/10/12/us/energy-secretary-vows-fast-action-on-arms-reactor.html
+[nyt-881214]: https://web.archive.org/web/20180130092050/http://www.nytimes.com/1988/12/14/us/us-plan-to-restart-reactor-is-unsafe-expert-panel-says.html
+[nyt-881218]: https://web.archive.org/web/20180130102646/http://www.nytimes.com/1988/12/18/us/new-crack-found-in-closed-reactor-at-savannah-river.html
+[nyt-881227]: https://web.archive.org/web/20150525092737/http://www.nytimes.com/1988/12/27/us/us-is-pessimistic-on-reactors-role-in-atomic-arsenal.html
 [nyt-881128]: https://web.archive.org/web/20180130152713/https://www.nytimes.com/1988/11/28/us/trouble-at-atomic-bomb-plants-how-lawmakers-missed-the-signs.html
 [haer-sc43]: https://web.archive.org/web/20250203072742/https://www.loc.gov/item/sc1142/
 [cdc-ch1]: https://web.archive.org/web/20260407174524/https://stacks.cdc.gov/view/cdc/142594/cdc_142594_DS1.pdf
@@ -1664,13 +1699,13 @@ land taken for it to the new pit plant, see [Controversies](controversies.html).
 [doe-tanks-2026]: https://web.archive.org/web/20261010061452/https://www.energy.gov/srs/articles/fact-sheet-operational-closure-radioactive-liquid-waste-tanks
 [srs-abd-2022]: https://web.archive.org/web/20220725183716/https://www.srs.gov/general/news/releases/nr22_SRS_ABD_is_a_G-O.pdf
 [doe-hcanyon-2026]: https://web.archive.org/web/20260706062813/https://www.energy.gov/nepa/articles/doeeis-0279-amended-record-decision-february-2026
-[cab-387]: https://cab.srs.gov/library/recommendations/Rec%20387_Reactivation%20of%20H-Canyon.pdf
+[cab-387]: https://web.archive.org/web/20261108020949/https://cab.srs.gov/library/recommendations/Rec%20387_Reactivation%20of%20H-Canyon.pdf
 [doe-srnl-2020]: https://web.archive.org/web/20201222180420/https://www.energy.gov/em/articles/doe-awards-savannah-river-national-laboratory-management-and-operating-contract
 [srs-landlord-2024]: https://web.archive.org/web/20241002060344/https://www.srs.gov/general/news/releases/2024/nr24_Final_SRS_Landlord_Transition_News_Release_100124.pdf
 [doe-penalty-2024]: https://web.archive.org/web/20250120134623/https://www.energy.gov/sites/default/files/2024-04/DOE%20Cites%20Savannah%20River%20Nuclear%20Solutions%2C%20LLC%20for%20Worker%20Safety%20and%20Health%20Violations.pdf
 [ea-2026]: https://web.archive.org/web/20260930170931/https://www.energy.gov/ea/articles/preliminary-notice-violation-savannah-river-nuclear-solutions-llc-august-2026
 [srs-fire-2026]: https://web.archive.org/web/20261029024631/https://public.srs.gov/2026/10/savannah-river-site-emergency-response-event-news-release-3/
-[srs-fire-2]: https://public.srs.gov/2026/10/savannah-river-site-emergency-response-event-2/
+[srs-fire-2]: https://web.archive.org/web/20261108021005/https://public.srs.gov/2026/10/savannah-river-site-emergency-response-event-2/
 [srs-home-may-2026]: https://web.archive.org/web/20260519172801/https://www.srs.gov/
 [srs-home-jul-2026]: https://web.archive.org/web/20260703184414/https://www.srs.gov/
 [srs-srppf-2024]: https://web.archive.org/web/20241114223725/https://www.srs.gov/general/news/releases/2024/nr24_SRS_partnerships_critical_to_SRPPF_project_completion_by_2032.pdf

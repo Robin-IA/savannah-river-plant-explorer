@@ -35,7 +35,7 @@ logos:
   labeled milestones. Each mark's shape and color say where its source is
   held, and the marks can be filtered by holder. The same events follow as a
   list, by chapter.
-- **Sources** (`sources.html`): all 438 sources behind the story, filterable
+- **Sources** (`sources.html`): all 444 sources behind the story, filterable
   by where they are held, by chapter and by word. The filters are kept in the
   URL, for example `sources.html?tag=WB&chapter=3&q=DWPF`.
 - **Glossary** (`glossary.html`): the technical words, agencies and places in
@@ -58,7 +58,7 @@ logos:
   holders. Wherever an outside page has a working Wayback capture, the
   capture is cited instead of the live page.
 - **Years covered:** 1950 to 2026.
-- **Size:** 438 sources: 67 DL, 244 WB, 121 IA, 3 OL, 3 EXT. Counted
+- **Size:** 444 sources: 68 DL, 252 WB, 121 IA, 3 OL, 0 EXT. Counted
   November 7, 2026.
 - **Not included:** sources still being sought, such as the rest of the
   *New York Times* 1988 series and the "thirty incidents" report, are tracked as
