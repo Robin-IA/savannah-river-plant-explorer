@@ -831,9 +831,8 @@ def build_timeline(tl, pages):
         for r in tl["reactors"])
 
     lede = ("From the land taken in 1950 to the tanks still being emptied: %d events from the story, "
-            "and the five production reactors' working lives. Click on a shape to read it in the story. "
-            "Every event links to its source, one of the %d on the Sources page."
-            % (len(tl["events"]), SOURCE_COUNT[0]))
+            "and the five production reactors' working lives. Click on a shape to read it in the story."
+            % len(tl["events"]))
     page = head("Timeline · " + TITLE, "timeline.html", "Timeline", lede, site_search()) + """<main id="main" class="wrap">
 <div class="tl-controls" role="group" aria-label="Show events whose source is held in">
   <span class="tl-controls-label">Show events whose source is held in</span>%s
