@@ -361,3 +361,10 @@ table.reactors th[scope=row] { font-weight: 700; width: 5em; }
 .tv-card p { margin: 0 0 8px; }
 .tv-meta { color: var(--muted); font-size: .92rem; }
 .tv-links { font-size: .95rem; }
+
+/* About: table of contents */
+.about-toc { background: var(--panel); border: 1px solid var(--hair); border-radius: 8px; padding: 12px 18px; margin: 0 0 24px; max-width: 420px; }
+.about-toc ul { margin: 0; padding-left: 1.1em; }
+.about-toc li { margin: 4px 0; }
+.about-toc ul ul { margin-top: 2px; }
+.about h3 { font: 700 1.1rem/1.3 var(--serif); margin: 22px 0 6px; }
