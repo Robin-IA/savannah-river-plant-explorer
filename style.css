@@ -7,7 +7,7 @@
   color-scheme: light;
   --page: #f6f4ef; --panel: #fff; --ink: #1f2328; --muted: #57595c; --hair: #e2ded5; --tint: #efece5;
   --link: #1a5c96; --night: #0c1f2e; --night-2: #16384a; --focus: #4b64ff;
-  --dl: #2a78d6; --ia: #008300; --ol: #6250d6; --wb: #eda100; --ait: #e87ba4; --tv: #c2185b; --ext: #6b6b6b;
+  --dl: #2672cc; --ia: #008300; --ol: #6250d6; --wb: #eda100; --ait: #e87ba4; --tv: #c2185b; --ext: #6b6b6b;
   --dl-bg: #e2edfa; --ia-bg: #dcefdc; --ol-bg: #e9e6fa; --wb-bg: #fcefd0; --ait-bg: #fbe4ed; --tv-bg: #f8e1ea; --ext-bg: #ebebeb;
   --act1: #8a4f12; --act1-bg: #f6ead8; --act2: #9b2f2f; --act2-bg: #f6e1e0; --act3: #1d6b66; --act3-bg: #dcefec; --act4: #3b4a8a; --act4-bg: #e4e7f5;
   --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -213,7 +213,7 @@ a.seg-link:focus .seg { stroke: var(--focus); stroke-width: 3; }
 .holder-chart .ch-label { font: 600 12.5px var(--font); fill: var(--ink); }
 .seg-dl { fill: var(--dl); } .seg-ia { fill: var(--ia); } .seg-ol { fill: var(--ol); } .seg-wb { fill: var(--wb); } .seg-ait { fill: var(--ait); } .seg-tv { fill: var(--tv); } .seg-ext { fill: var(--ext); }
 .seg-n { font: 700 11px var(--font); text-anchor: middle; }
-.seg-n-dl, .seg-n-ia, .seg-n-ol, .seg-n-ext { fill: #fff; }
+.seg-n-dl, .seg-n-ia, .seg-n-ol, .seg-n-tv, .seg-n-ext { fill: #fff; }
 .seg-n-wb, .seg-n-ait { fill: #1a1a1a; }
 
 /* Tables */
