@@ -534,16 +534,16 @@ the draft had proposed. The lake would flood 225 acres of wetlands and 775
 acres of uplands, and cost about $25 million ([WB: DOE, 1984][l-eis]).
 
 L restarted in 1985. C reactor shut down that year, permanently from 1986
-([WB: srs.gov 1980s][srs-1980]).
+([WB: srs.gov 1980s][srs-1980]). The *Washington Post* described
+aging reactors carrying the buildup, one down for a cracked vessel — a
+clipping that survives in the CIA's (Central Intelligence Agency's) files
+([IA](https://archive.org/details/cia-readingroom-document-cia-rdp88g01117r000401020009-5)).
 
 Critics outside the government read the record differently from Du Pont,
 which ran the plant. *Deadly Crop in the Tank Farm* (1986), a report by
 Makhijani, Alvarez and Blackwelder for the Environmental Policy Institute,
 assessed the high-level waste tanks ([WB: IEER][deadly-crop]); Du Pont published a rebuttal
-([WB: OSTI 5881523][osti-dupont-reply]). The *Washington Post* described
-aging reactors carrying the buildup, one down for a cracked vessel — a
-clipping that survives in the CIA's (Central Intelligence Agency's) files
-([IA](https://archive.org/details/cia-readingroom-document-cia-rdp88g01117r000401020009-5)).
+([WB: OSTI 5881523][osti-dupont-reply]).
 
 While the reactors drew attention above ground, older waste was moving below it.
 
@@ -1319,6 +1319,7 @@ Development Administration and then, in 1977, to the new Department of Energy
 Du Pont ran the plant from 1950 until Westinghouse took over in 1989
 ([WB: ch. 19][fifty-19]). By 1999 the Westinghouse Savannah River Company was
 owned by Washington Group International ([WB: *SRS at Fifty*](https://web.archive.org/web/20250524063547/https://www.srs.gov/general/about/50anniv/SRSat50.pdf#page=529)).
+
 In 2008 Savannah River Nuclear Solutions took over management and operations
 from Washington Savannah River Company
 ([WB: SRS, 2008](https://web.archive.org/web/20080921162410/http://www.srs.gov/general/news/releases/NR2008_SRNS.pdf)),
