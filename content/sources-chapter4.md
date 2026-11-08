@@ -79,6 +79,9 @@ Added November 7, 2026; every item checked live that day.
 - **DL** `sim_federal-register-find_1968-01-31_33_21`. *Federal Register*, January 31, 1968: Deed of Easement from the Atomic Energy Commission to the S.C. State Highway Department, dated July 27, 1967, for S.C. Highway 125 "through the Savannah River Plant … for 18.3 miles through the Allendale Barricade". Full text read. Verified 2026-11-07.
 - **IA** `dr_rand-mcnally-road-map--north-carolina-south-carolina-14003035`. Rand McNally road map of North and South Carolina, 1948 (David Rumsey collection): SC 28 from Augusta through Jackson and Ellenton toward Allendale; SC 64 and SC 19 meeting it near Ellenton. Map read. Verified 2026-11-07.
 
+- **WB** https://web.archive.org/web/20261108202139/https://srel.uga.edu/savannah-river-ecology-laboratory-celebrates-75-years-of-research-education-and-outreach/. SREL, "Savannah River Ecology Laboratory Celebrates 75 Years of Research, Education, and Outreach," October 13, 2026: anniversary picnic and reunion on October 10, 2026; founded in 1951 after an Atomic Energy Commission grant to Eugene Odum, beginning with baseline ecological surveys of the site. Capture read. Verified 2026-11-08.
+- **WB** https://web.archive.org/web/20261024190707/https://srel.uga.edu/. SREL home page, captured October 24, 2026: "over 3,800 peer-reviewed publications". Capture read. Verified 2026-11-08.
+
 ## 7. Ecology and the SRS (the hunts)
 
 - **WB** https://web.archive.org/web/20261029004733/https://public.srs.gov/us-forest-service-deer-management-program/. US Forest Service Deer Management Program, SRS, captured October 29, 2026. Public hunts since 1965; the 2026 season runs October to early December with dog hunts only; public stand hunts under evaluation; dates sent to dog-pack owners by email; every animal monitored for cesium-137 under a 22 millirem a year release limit. Page read. Verified 2026-11-07.
