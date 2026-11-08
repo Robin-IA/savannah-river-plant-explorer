@@ -99,7 +99,7 @@ The notes for each source, including what was and was not read, are in
   `story.md` and `sources-chapter1.md` to `sources-chapter4.md` (Markdown),
   `timeline.json` (each event and reactor span, with the same source as in
   the story), `about.html` (the About page's body) and `disagree.md` (where
-  sources disagree, shown on the About page).
+  sources disagree, shown on the Controversies page).
 - `build/build.py` writes `index.html`, the section pages `chapter-N.html` and `chapter-N-K.html`,
   `timeline.html`, `sources.html`, `glossary.html`, `controversies.html`, `search.html`, `about.html`, `data/sources.json`,
   `data/timeline.json` and `data/passages.json` (the chapters' paragraphs, for
