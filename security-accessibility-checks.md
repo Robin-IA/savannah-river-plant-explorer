@@ -1,11 +1,11 @@
 # Security and accessibility checks
 
-**Status: not passing.** 1 of 3 checks have open items. Each one below has a recommended fix. Make the fixes, then re-run the explorer-checks skill. This file is replaced on every run.
+**Status: passing.** All three checks passed on 2026-11-09 at commit `4bb7b85ad8`. Nothing is open. Advisory items below are optional.
 
 | | |
 |---|---|
 | Explorer | https://github.com/Robin-IA/savannah-river-plant-explorer |
-| Commit | `ce3cc5cf5e` on `explorer-checks` |
+| Commit | `4bb7b85ad8` on `explorer-checks` |
 | Date | 2026-11-09 |
 | Pages checked | `./`, `search.html`, `search.html?q=tritium`, `chapter-2-3.html`, `timeline.html`, `glossary.html`, `about.html`, `sources.html`, `read.html`, `controversies.html`, `television.html`, `images.html` |
 | Served from | repository root, served locally |
@@ -22,7 +22,16 @@
 |---|---|---:|---:|---:|
 | Code validity | Pass | 0 | 0 | 0 |
 | Code security | Pass | 0 | 0 | 1 |
-| Accessibility (WCAG 2.2 AA) | **Not passing** | 1 | 0 | 0 |
+| Accessibility (WCAG 2.2 AA) | Pass | 0 | 0 | 0 |
+
+## Standards met
+
+Checked November 9, 2026 at commit `4bb7b85ad8`, on the pages listed above:
+
+- **WCAG 2.2 Level AA**: every Level A and AA success criterion, by automated tests and a manual review of each criterion (checklists under each check below).
+- **WCAG 2.1 Level AA** and **WCAG 2.0 Level AA**, which WCAG 2.2 includes. 4.1.1 Parsing, dropped from 2.2 but still in 2.0 and 2.1, is covered by the code validity check (no HTML parse errors, no duplicate ids).
+- These are the web content requirements of **Section 508** (US federal; WCAG 2.0 AA) and **EN 301 549** clause 9 (WCAG 2.1 AA).
+- Security was checked against the OWASP Top 10:2025 risks and ASVS 5.0.0 chapters that apply to an explorer; each finding and checklist item names its category. That is not an ASVS verification at any level.
 
 ## What a pass means
 
@@ -84,20 +93,9 @@ No open items.
 
 ## Accessibility (WCAG 2.2 AA)
 
-### `A-bf27cf` Focused elements look the same as unfocused ones
+No open items.
 
-- **Must fix** · found by explorer-checks · WCAG 2.4.7
-- **Where:** `/read.html`
-
-```text
-iframe ""
-
-Review: Real: tabbing into the PDF <iframe> on read.html makes it document.activeElement, but Chromium matches neither :focus nor :focus-within on an iframe whose document holds focus (tested with the PDF and with an HTML page in the frame), so the 3px outline in style.css:358 never shows. WCAG 2.4.7. Fix: Add frame-focus.js (loaded by build_read via foot(['frame-focus.js'])): on window blur, toggle class has-focus on .pdf-frame when document.activeElement is the frame; on focus/focusin, re-check. In style.css add .pdf-frame.has-focus { outline: 3px solid var(--focus); outline-offset: 3px; }. Then rebuild.
-```
-
-**Recommended fix:** Look at each in a browser with the keyboard. If there is no visible indicator, add :focus-visible { outline: 2px solid; outline-offset: 2px } and never outline: none without a replacement.
-
-<details><summary>Manual checklist (19 pass, 1 fail, 1 n/a)</summary>
+<details><summary>Manual checklist (20 pass, 0 fail, 1 n/a)</summary>
 
 | Item | Result | Note |
 |---|---|---|
@@ -114,7 +112,7 @@ Review: Real: tabbing into the PDF <iframe> on read.html makes it document.activ
 | 2.1.2 No keyboard trap | pass | No widgets that hold focus. |
 | 2.4.1 Bypass blocks | pass | Skip link to #main on every page; header, nav, main and footer landmarks; on chapter pages the chapter list and the previous/next links are separately named navigation landmarks. |
 | 2.4.3 Focus order | pass | Follows reading order; filtering does not move focus. |
-| 2.4.7 Focus visible | fail | Every link, button and summary shows a 3px #4b64ff :focus-visible outline, except the PDF <iframe> on read.html (added since the last run): its :focus/:focus-within outline never applies, because browsers do not match those selectors on a frame once focus is inside it. |
+| 2.4.7 Focus visible | pass | Every link, button and summary shows a 3px #4b64ff :focus-visible outline. The PDF frame on read.html, which browsers cannot style with :focus once focus is inside it, gets the same outline from frame-focus.js (keyboard-tested 2026-11-09). |
 | 2.4.11 Focus not obscured | pass | No sticky header; the sticky contents and side panel sit beside the story, not over it; the timeline tooltip sits above the focused mark, not on it. |
 | 2.5.8 Target size | pass | Checkboxes sit inside labels whose whole text is the target, well over 24 px wide and spaced apart. |
 | 2.2.2 Pause, stop, hide | n/a | Nothing moves. |
@@ -125,7 +123,7 @@ Review: Real: tabbing into the PDF <iframe> on read.html makes it document.activ
 
 </details>
 
-<details><summary>Cleared on review (11)</summary>
+<details><summary>Cleared on review (12)</summary>
 
 | Id | Item | Where | Why cleared |
 |---|---|---|---|
@@ -137,11 +135,16 @@ Review: Real: tabbing into the PDF <iframe> on read.html makes it document.activ
 | `A-2c8611` | Elements must meet minimum color contrast ratio thresholds | `/about.html color-contrast` | Measured 2026-11-09 where axe could not determine the background: each page rendered in Chromium in light and dark scheme (CSP bypassed for the probe only), all text hidden including SVG text, and every visible text element compared with every background pixel under its box, closed <details> opened. |
 | `A-2d464c` | Elements must meet minimum color contrast ratio thresholds | `/sources.html color-contrast` | Measured 2026-11-09 where axe could not determine the background: each page rendered in Chromium in light and dark scheme (CSP bypassed for the probe only), all text hidden including SVG text, and every visible text element compared with every background pixel under its box, closed <details> opened. |
 | `A-5e3201` | Elements must meet minimum color contrast ratio thresholds | `/read.html color-contrast` | Measured 2026-11-09 where axe could not determine the background: each page rendered in Chromium in light and dark scheme (CSP bypassed for the probe only), all text hidden including SVG text, and every visible text element compared with every background pixel under its box, closed <details> opened. |
+| `A-bf27cf` | Focused elements look the same as unfocused ones | `/read.html` | Fixed in this run (frame-focus.js + .pdf-frame.has-focus). Verified with the keyboard in Chromium: tabbing into the PDF frame gives it class has-focus and a 3px solid rgb(75,100,255) outline; Shift+Tab out removes it; no console errors. The automated probe still reports it because it reads the style |
 | `A-8cf8fd` | Elements must meet minimum color contrast ratio thresholds | `/controversies.html color-contrast` | Measured 2026-11-09 where axe could not determine the background: each page rendered in Chromium in light and dark scheme (CSP bypassed for the probe only), all text hidden including SVG text, and every visible text element compared with every background pixel under its box, closed <details> opened. |
 | `A-5f06b7` | Elements must meet minimum color contrast ratio thresholds | `/television.html color-contrast` | Measured 2026-11-09 where axe could not determine the background: each page rendered in Chromium in light and dark scheme (CSP bypassed for the probe only), all text hidden including SVG text, and every visible text element compared with every background pixel under its box, closed <details> opened. |
 | `A-e14316` | Elements must meet minimum color contrast ratio thresholds | `/images.html color-contrast` | Measured 2026-11-09 where axe could not determine the background: each page rendered in Chromium in light and dark scheme (CSP bypassed for the probe only), all text hidden including SVG text, and every visible text element compared with every background pixel under its box, closed <details> opened. |
 
 </details>
+
+## Fixed since the last run
+
+- `A-bf27cf` Focused elements look the same as unfocused ones
 
 ## Advisory (1)
 
@@ -151,4 +154,4 @@ Optional. These items never block a pass.
 |---|---|---|---|---|---|
 | `S-9a6baa` | security | No x-content-type-options header | `https://robin-ia.github.io/savannah-river-plant-explorer/` | A02:2025 · ASVS V3 | Set it; it stops browsers guessing content types. It has no <meta> form, so on a host that cannot set headers (GitHub Pages) it stays open; the explorer's owners decide whether that matters enough to change host. |
 
-<!-- explorer-checks:state {"passing": false, "date": "2026-11-09", "commit": "ce3cc5cf5eec1fe76dfda4406be16b9a61860b6c", "open": ["A-bf27cf"], "titles": {"A-bf27cf": "Focused elements look the same as unfocused ones"}} -->
+<!-- explorer-checks:state {"passing": true, "date": "2026-11-09", "commit": "4bb7b85ad848e4379100ecd9ad47e8c37352a19a", "open": [], "titles": {}} -->
