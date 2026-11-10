@@ -20,7 +20,7 @@ Accessibility, security and code validity are in [security-accessibility-checks.
 | pass | Topic labels | collections, democracys-library, explorers, government-resources, nuclear-weapons |
 | pass | Public | public |
 | pass | GitHub Pages | https://robin-ia.github.io/savannah-river-plant-explorer/ |
-| pass | Website link on the repository | https://robin-ia.github.io/savannah-river-plant-explorer/ |
+| pass | Website link on the repository | https://internetarchivecanada.github.io/Explorer-Atomic-History-SRS-Story/ |
 | pass | README: what it does | heading “what it does” |
 | pass | README: how it was built | heading “how it was built” |
 | look | README: how to use it | no section; required only for a tool |
@@ -47,13 +47,13 @@ Accessibility, security and code validity are in [security-accessibility-checks.
 | pass | No security or validity claims | none on the page |
 | pass | Accessibility statement | …lication. Feedback? Email us Meets WCAG 2.2 Level AA accessibility (and WC… |
 | pass | Democracy's Library logo | alt “Democracy's Library” |
-| pass | Accessibility and security report | Status: passing. All three checks passed on 2026-11-09 at commit `4bb7b85ad8`. Nothing is open. Advisory items below are optional. |
+| pass | Accessibility and security report | Status: passing. All three checks passed on 2026-11-09 at commit `33550aed47`. Nothing is open. Advisory items below are optional. |
 
 ## Optional elements
 
 | | Item | Detail |
 |---|---|---|
-| look | Disclaimer | …s Library at the Internet Archive; not an official U.S. Department of Energy or Savan…: check it reads right |
+| look | Disclaimer | …checked live on November 6, 2026; not an official U.S. Department of Energy or Savan…: check it reads right |
 | look | Source credit in the footer | footer links https://archive.org/details/democracys-library: check it reads right |
 | skip | See also | declined: nothing related yet |
 | look | Why the archive matters | …and twenty years of news releases, is gone from the live web and survives onl…: check it reads right |

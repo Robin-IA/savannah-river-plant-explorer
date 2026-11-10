@@ -256,11 +256,11 @@ def foot(scripts=()):
     tags = "".join('<script src="%s"></script>\n' % asset(s) for s in scripts)
     return """<footer class="foot">
   <div class="wrap">
-    <p>Told from government resources in <a href="https://archive.org/details/democracys-library">Democracy's Library</a>,
+    <p>An experiment from Democracy's Library at the Internet Archive, told from government
+      resources in <a href="https://archive.org/details/democracys-library">Democracy's Library</a>,
       website archives in the <a href="https://web.archive.org/">Wayback Machine</a> and
-      <a href="https://archive.org/">Internet Archive</a> collections. Sources checked live on %s.</p>
-    <p>An experiment from Democracy's Library at the Internet Archive; not an official
-      U.S. Department of Energy or Savannah River Site publication.</p>
+      <a href="https://archive.org/">Internet Archive</a> collections, with sources checked live
+      on %s; not an official U.S. Department of Energy or Savannah River Site publication.</p>
     <p>Feedback? <a href="%s">Email us</a></p>
     %s
   </div>
