@@ -1,4 +1,4 @@
-# Atomic History: The Savannah River Plant Story
+# Atomic History: The Savannah River Story
 
 *A draft, told from the record wherever it is held. Sources checked live
 November 6, 2026.*

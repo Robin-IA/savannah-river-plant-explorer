@@ -5,6 +5,7 @@
       <li><a href="#topics-covered">Topics Covered</a></li>
       <li><a href="#images">Images</a></li>
       <li><a href="#how-it-was-built">How It Was Built</a></li>
+      <li><a href="#what-is-left-out">What Is Left Out</a></li>
     </ul>
   </li>
   <li><a href="#controversies">Controversies</a></li>
@@ -29,9 +30,12 @@
 <p>All the images are in the public domain and were found on Wikimedia Commons; each is credited, with a link to its Commons file, in its caption. The full list is on the <a href="images.html">image credits</a> page. The copies here are resized. The banner is a detail of the <a href="https://commons.wikimedia.org/wiki/File:Savannah_River_Site_and_surrounding_area.png">map of the site</a> from the site&rsquo;s environmental report for 2012, toned to sit behind the title.</p>
 
 <h3 id="how-it-was-built">How It Was Built</h3>
-<p>Researched from archive.org search and full-text search, the Wayback Machine's CDX server and the OSTI catalog. The story and the source lists are written in Markdown, and a short Python script turns them into these pages. The timeline is drawn from the same story, event by event. The code and the source notes are on <a href="https://github.com/Robin-IA/savannah-river-plant-explorer">GitHub</a>.</p>
+<p>Researched from archive.org search and full-text search, the Wayback Machine's CDX server and the OSTI catalog. The story and the source lists are written in Markdown, and a short Python script turns them into these pages. The timeline is drawn from the same story, event by event.</p>
 <p>The downloadable PDF of the story is made from the same files, by printing the whole story to one document. Whenever the story changes, the PDF is remade in the same update, so the download always matches the website.</p>
 <p>Made by Robin Fay, Democracy's Library, 2026.</p>
+
+<h3 id="what-is-left-out">What Is Left Out</h3>
+<p>This history is told from what was published or archived: records that are still classified, and the plant&rsquo;s internal files that were never released, are not used.</p>
 
 <h2 id="controversies">Controversies</h2>
 <p>The arguments over the plant, and the places where the sources disagree, are on the <a href="controversies.html">Controversies</a> page.</p>

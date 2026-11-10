@@ -355,7 +355,9 @@ table.reactors th[scope=row] { font-weight: 700; width: 5em; }
 .read-btn span { font-weight: 400; }
 .read-btn:hover { background: var(--night-2); }
 .pdf-frame { display: block; width: 100%; height: calc(100vh - 140px); min-height: 520px; border: 1px solid var(--hair); background: var(--panel); }
-.pdf-frame:focus, .pdf-frame:focus-within { outline: 3px solid var(--focus); outline-offset: 3px; }
+/* Browsers do not match :focus on an iframe once focus is inside it;
+   frame-focus.js sets .has-focus instead. */
+.pdf-frame:focus, .pdf-frame:focus-within, .pdf-frame.has-focus { outline: 3px solid var(--focus); outline-offset: 3px; }
 .read-note { color: var(--muted); max-width: 70ch; }
 
 /* On Television */
