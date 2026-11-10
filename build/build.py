@@ -24,15 +24,15 @@ import markdown.extensions.toc
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 CONTENT = ROOT / "content"
 
-TITLE = "Atomic History: The Savannah River Plant Story"
+TITLE = "Atomic History: The Savannah River Story"
 DESCRIPTION = ("The Savannah River Plant in South Carolina made plutonium and "
-               "tritium for American nuclear weapons from 1953 until 1988. Its story "
-               "is not over: while it cleans up that legacy, it is gearing up for "
-               "new weapons work. From people moved off the land to what is "
-               "happening now, told through resources held in Democracy's Library, "
+               "tritium for American nuclear weapons from 1953 until 1988, and is "
+               "now cleaning up that legacy while gearing up for new weapons work. "
+               "Its story, from the people moved off the land to what is happening "
+               "now, is told here through resources held in Democracy's Library, "
                "the Wayback Machine and Internet Archive collections.")
 CHECKED = "November 6, 2026"
-FEEDBACK = ("mailto:robin.fay@archive.org?subject=Feedback%20about%20Explorers%3A%20Atomic%20History%3A%20The%20Savannah%20River%20Plant%20Story")
+FEEDBACK = "mailto:info@archive.org?subject=Democracy%27s%20Library%20Explorer"
 
 CSP = ("default-src 'self'; script-src 'self'; style-src 'self'; "
        "img-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'")
@@ -248,7 +248,6 @@ CHECKS_NOTE = """<!-- explorer-checks:note -->
 <p class="explorer-checks-note">
   Meets WCAG 2.2 Level AA accessibility (and WCAG 2.1 AA and 2.0 AA), checked
   <time datetime="2026-11-06">November 6, 2026</time> by automated tests and manual review.
-  Also passes security and code validity checks.
 </p>
 <!-- /explorer-checks:note -->"""
 
@@ -257,8 +256,11 @@ def foot(scripts=()):
     tags = "".join('<script src="%s"></script>\n' % asset(s) for s in scripts)
     return """<footer class="foot">
   <div class="wrap">
-    <p>Sources checked live on %s. Code and source notes on
-      <a href="https://github.com/Robin-IA/savannah-river-plant-explorer">GitHub</a>.</p>
+    <p>Told from government resources in <a href="https://archive.org/details/democracys-library">Democracy's Library</a>,
+      website archives in the <a href="https://web.archive.org/">Wayback Machine</a> and
+      <a href="https://archive.org/">Internet Archive</a> collections. Sources checked live on %s.</p>
+    <p>An experiment from Democracy's Library at the Internet Archive; not an official
+      U.S. Department of Energy or Savannah River Site publication.</p>
     <p>Feedback? <a href="%s">Email us</a></p>
     %s
   </div>
@@ -540,7 +542,7 @@ def build_print(items):
     """The whole story on one page, for printing and for the downloadable PDF
     (build/make_pdf.py). Links point to the live explorer."""
     chapters, defs = story_chapters()
-    live = "https://robin-ia.github.io/savannah-river-plant-explorer/"
+    live = "https://internetarchivecanada.github.io/Explorer-Atomic-History-SRS-Story/"
     parts, toc = [], []
     for n, title, md_text in chapters:
         md = markdown.Markdown(extensions=["tables", "toc"], extension_configs={"toc": {"toc_depth": "2-2"}})

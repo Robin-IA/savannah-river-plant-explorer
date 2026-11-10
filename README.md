@@ -1,6 +1,6 @@
-# Atomic History: The Savannah River Plant Story
+# Atomic History: The Savannah River Story
 
-**Live explorer: [robin-ia.github.io/savannah-river-plant-explorer](https://robin-ia.github.io/savannah-river-plant-explorer/)**
+**Live explorer: [internetarchivecanada.github.io/Explorer-Atomic-History-SRS-Story](https://internetarchivecanada.github.io/Explorer-Atomic-History-SRS-Story/)**
 
 **A history of the Savannah River Plant in South Carolina, from 1950 to a
 site still cleaning up its past and gearing up for new weapons work, told
@@ -152,5 +152,12 @@ Robin Fay, Project Manager, Digital Collections, Democracy's Library, with
 searching, drafted the story and wrote the code. Each commit names Claude as
 co-author.
 
-Feedback? Email robin.fay@archive.org with the subject
-*Feedback about Explorers: Atomic History: The Savannah River Plant Story*.
+Feedback? Email info@archive.org with the subject
+*Democracy's Library Explorer*.
+
+## Source and mirror
+
+Developed at `Robin-IA/savannah-river-plant-explorer`; published from the
+public mirror `internetarchivecanada/Explorer-Atomic-History-SRS-Story`,
+whose GitHub Pages serves the site. Changes go to the source through pull
+requests, and merged `main` is pushed to the mirror.

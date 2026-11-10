@@ -1,0 +1,9 @@
+{
+  "checked": "2026-11-09",
+  "optional": {
+    "disclaimer": {"decision": "yes", "note": "not an official U.S. Department of Energy or Savannah River Site publication"},
+    "credit-line": {"decision": "yes", "note": "Democracy's Library, Wayback Machine, Internet Archive collections"},
+    "see-also": {"decision": "n/a", "note": "nothing related yet"},
+    "wayback-labs": {"decision": "no", "note": "not yet"}
+  }
+}

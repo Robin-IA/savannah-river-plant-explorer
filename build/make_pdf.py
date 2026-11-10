@@ -17,9 +17,9 @@ SOURCE = ROOT / "story-print.html"
 OUT = ROOT / "atomic-history-savannah-river-plant.pdf"
 
 FOOTER = ('<div style="font: 8px Helvetica, Arial, sans-serif; color: #57595c; width: 100%; '
-          'text-align: center;">Atomic History: The Savannah River Plant Story · '
+          'text-align: center;">Atomic History: The Savannah River Story · '
           'A Democracy’s Library Story · 2026 · '
-          'robin-ia.github.io/savannah-river-plant-explorer · '
+          'internetarchivecanada.github.io/Explorer-Atomic-History-SRS-Story · '
           '<span class="pageNumber"></span> of <span class="totalPages"></span></div>')
 
 
