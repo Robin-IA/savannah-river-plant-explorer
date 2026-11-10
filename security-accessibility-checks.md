@@ -1,22 +1,20 @@
 # Security and accessibility checks
 
-**Status: passing.** All three checks passed on 2026-11-07 at commit `fb0dd9720e`. Nothing is open. Advisory items below are optional.
-
-> The checkout had uncommitted changes when this ran, so it describes a working tree, not a commit.
+**Status: not passing.** 1 of 3 checks have open items. Each one below has a recommended fix. Make the fixes, then re-run the explorer-checks skill. This file is replaced on every run.
 
 | | |
 |---|---|
 | Explorer | https://github.com/Robin-IA/savannah-river-plant-explorer |
-| Commit | `fb0dd9720e` on `search-everywhere` |
-| Date | 2026-11-07 |
-| Pages checked | `./`, `search.html`, `search.html?q=tritium`, `chapter-2-3.html`, `timeline.html`, `glossary.html`, `about.html`, `sources.html` |
+| Commit | `ce3cc5cf5e` on `explorer-checks` |
+| Date | 2026-11-09 |
+| Pages checked | `./`, `search.html`, `search.html?q=tritium`, `chapter-2-3.html`, `timeline.html`, `glossary.html`, `about.html`, `sources.html`, `read.html`, `controversies.html`, `television.html`, `images.html` |
 | Served from | repository root, served locally |
 | Live site (headers) | https://robin-ia.github.io/savannah-river-plant-explorer/ |
 | Standard | WCAG 2.2 Level AA |
 | Security references | OWASP Top 10:2025 and ASVS 5.0.0 |
 | Tools | axe-core 4.14.0, html5lib, ruff, bandit, pip-audit, headless Chromium |
 | Reviewed by | Claude (claude-opus-5-5) via the explorer-checks skill |
-| Skill version | 2026.11.05.8 |
+| Skill version | 2026.11.09.2 |
 
 ## Summary
 
@@ -24,16 +22,7 @@
 |---|---|---:|---:|---:|
 | Code validity | Pass | 0 | 0 | 0 |
 | Code security | Pass | 0 | 0 | 1 |
-| Accessibility (WCAG 2.2 AA) | Pass | 0 | 0 | 0 |
-
-## Standards met
-
-Checked 7 November 2026 at commit `fb0dd9720e`, on the pages listed above:
-
-- **WCAG 2.2 Level AA**: every Level A and AA success criterion, by automated tests and a manual review of each criterion (checklists under each check below).
-- **WCAG 2.1 Level AA** and **WCAG 2.0 Level AA**, which WCAG 2.2 includes. 4.1.1 Parsing, dropped from 2.2 but still in 2.0 and 2.1, is covered by the code validity check (no HTML parse errors, no duplicate ids).
-- These are the web content requirements of **Section 508** (US federal; WCAG 2.0 AA) and **EN 301 549** clause 9 (WCAG 2.1 AA).
-- Security was checked against the OWASP Top 10:2025 risks and ASVS 5.0.0 chapters that apply to an explorer; each finding and checklist item names its category. That is not an ASVS verification at any level.
+| Accessibility (WCAG 2.2 AA) | **Not passing** | 1 | 0 | 0 |
 
 ## What a pass means
 
@@ -42,6 +31,14 @@ Each check combines automated tools with a review of the code and pages against 
 ## Code validity
 
 No open items.
+
+<details><summary>Cleared on review (1)</summary>
+
+| Id | Item | Where | Why cleared |
+|---|---|---|---|
+| `V-2bfa19` | Request failed (net::ERR_ABORTED): /atomic-history-savannah-river-plant.pdf | `/read.html` | Not a broken path: atomic-history-savannah-river-plant.pdf is tracked and served (200, application/pdf, 12,427,699 bytes, starts %PDF-). read.html shows it in an <iframe>; headless Chromium has no PDF viewer, so it aborts that subframe document (requestfailed: resource document, not the main frame,  |
+
+</details>
 
 ## Code security
 
@@ -78,18 +75,29 @@ No open items.
 
 | Id | Item | Where | Why cleared |
 |---|---|---|---|
-| `S-d1a00b` | String rendered as markup or code (html) | `sources.html:212` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
-| `S-f296f3` | String rendered as markup or code (html) | `sources.html:221` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
-| `S-b18eba` | String rendered as markup or code (html) | `sources.html:234` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
-| `S-1cd70a` | String rendered as markup or code (html) | `sources.html:244` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
+| `S-d1a00b` | String rendered as markup or code (html) | `sources.html:218` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
+| `S-f296f3` | String rendered as markup or code (html) | `sources.html:227` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
+| `S-b18eba` | String rendered as markup or code (html) | `sources.html:245` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
+| `S-1cd70a` | String rendered as markup or code (html) | `sources.html:257` | Not a script sink: sources.html is static HTML written at build time by build/build.py, and app.js never writes markup (it only sets row.hidden and count.textContent). The flagged rows come from the hand-written source notes in content/; identifiers and hrefs pass through html.escape() in build_sour |
 
 </details>
 
 ## Accessibility (WCAG 2.2 AA)
 
-No open items.
+### `A-bf27cf` Focused elements look the same as unfocused ones
 
-<details><summary>Manual checklist (20 pass, 0 fail, 1 n/a)</summary>
+- **Must fix** · found by explorer-checks · WCAG 2.4.7
+- **Where:** `/read.html`
+
+```text
+iframe ""
+
+Review: Real: tabbing into the PDF <iframe> on read.html makes it document.activeElement, but Chromium matches neither :focus nor :focus-within on an iframe whose document holds focus (tested with the PDF and with an HTML page in the frame), so the 3px outline in style.css:358 never shows. WCAG 2.4.7. Fix: Add frame-focus.js (loaded by build_read via foot(['frame-focus.js'])): on window blur, toggle class has-focus on .pdf-frame when document.activeElement is the frame; on focus/focusin, re-check. In style.css add .pdf-frame.has-focus { outline: 3px solid var(--focus); outline-offset: 3px; }. Then rebuild.
+```
+
+**Recommended fix:** Look at each in a browser with the keyboard. If there is no visible indicator, add :focus-visible { outline: 2px solid; outline-offset: 2px } and never outline: none without a replacement.
+
+<details><summary>Manual checklist (19 pass, 1 fail, 1 n/a)</summary>
 
 | Item | Result | Note |
 |---|---|---|
@@ -98,7 +106,7 @@ No open items.
 | 1.3.2 Meaningful sequence | pass | DOM order is header, intro, contents, article; the grid does not reorder. |
 | 1.4.1 Use of color | pass | Holder tags carry text; timeline marks differ in shape (circle, square, diamond, triangle, ring) as well as colour; story citations are underlined. |
 | 1.4.11 Non-text contrast | pass | Inputs have #8a8a8a borders on white (3.5:1); focus ring is 3px #4b64ff. |
-| 1.4.4 Resize text / 1.4.12 Text spacing | pass | Sizes in rem and em; every page reflows at 320 px with no sideways page scroll. Figures are centred blocks between paragraphs, never wider than their image, at their true proportions. |
+| 1.4.4 Resize text / 1.4.12 Text spacing | pass | Re-checked 2026-11-09: at 320px scrollWidth equals 320 on read.html, sources.html and timeline.html, as on the pages checked before. |
 | 2.4.4 Link purpose | pass | Citation links read as holder tag plus title (for example 'WB: SRS at Fifty ch. 7'); bare DL or IA citations take their purpose from the sentence they close, which 2.4.4 allows. Chapter cards and the chapter list link with the chapter's full title; previous/next links name the chapter they lead to. |
 | 2.4.6 Headings and labels | pass | Each page has one h1 in the banner; chapter pages use h2 for their sections; the home page's chapter cards are h2 sections; Chapter and Search labels are visible on the sources page. |
 | 3.1.1 Language of page | pass | lang=en on all three pages; content is English. |
@@ -106,7 +114,7 @@ No open items.
 | 2.1.2 No keyboard trap | pass | No widgets that hold focus. |
 | 2.4.1 Bypass blocks | pass | Skip link to #main on every page; header, nav, main and footer landmarks; on chapter pages the chapter list and the previous/next links are separately named navigation landmarks. |
 | 2.4.3 Focus order | pass | Follows reading order; filtering does not move focus. |
-| 2.4.7 Focus visible | pass | A 3px :focus-visible outline everywhere; timeline marks and the holder chart's segment links get an outline and a blue stroke on focus; the holder index buttons use the default outline. |
+| 2.4.7 Focus visible | fail | Every link, button and summary shows a 3px #4b64ff :focus-visible outline, except the PDF <iframe> on read.html (added since the last run): its :focus/:focus-within outline never applies, because browsers do not match those selectors on a frame once focus is inside it. |
 | 2.4.11 Focus not obscured | pass | No sticky header; the sticky contents and side panel sit beside the story, not over it; the timeline tooltip sits above the focused mark, not on it. |
 | 2.5.8 Target size | pass | Checkboxes sit inside labels whose whole text is the target, well over 24 px wide and spaced apart. |
 | 2.2.2 Pause, stop, hide | n/a | Nothing moves. |
@@ -117,17 +125,21 @@ No open items.
 
 </details>
 
-<details><summary>Cleared on review (7)</summary>
+<details><summary>Cleared on review (11)</summary>
 
 | Id | Item | Where | Why cleared |
 |---|---|---|---|
-| `A-6c64c1` | Elements must meet minimum color contrast ratio thresholds | `/ color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
-| `A-693f1d` | Elements must meet minimum color contrast ratio thresholds | `/search.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
-| `A-804450` | Elements must meet minimum color contrast ratio thresholds | `/chapter-2-3.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
-| `A-fcf340` | Elements must meet minimum color contrast ratio thresholds | `/timeline.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
-| `A-9a4ed8` | Elements must meet minimum color contrast ratio thresholds | `/glossary.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
-| `A-2c8611` | Elements must meet minimum color contrast ratio thresholds | `/about.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
-| `A-2d464c` | Elements must meet minimum color contrast ratio thresholds | `/sources.html color-contrast` | The banner is a toned map image under a CSS gradient veil (#0c1f2e), which axe cannot resolve. Checked by calculation against the lightest pixel in img/banner-map.jpg, #e3e1ec: the veil is solid to 34% of the width, 0.88 at 48% and 0.8 by about 52%. All banner text (logos, kicker, title, lede, searc |
+| `A-6c64c1` | Elements must meet minimum color contrast ratio thresholds | `/ color-contrast` | Measured 2026-11-09 where axe could not determine the background: each page rendered in Chromium in light and dark scheme (CSP bypassed for the probe only), all text hidden including SVG text, and every visible text element compared with every background pixel under its box, closed <details> opened. |
+| `A-693f1d` | Elements must meet minimum color contrast ratio thresholds | `/search.html color-contrast` | Measured 2026-11-09 where axe could not determine the background: each page rendered in Chromium in light and dark scheme (CSP bypassed for the probe only), all text hidden including SVG text, and every visible text element compared with every background pixel under its box, closed <details> opened. |
+| `A-804450` | Elements must meet minimum color contrast ratio thresholds | `/chapter-2-3.html color-contrast` | Measured 2026-11-09 where axe could not determine the background: each page rendered in Chromium in light and dark scheme (CSP bypassed for the probe only), all text hidden including SVG text, and every visible text element compared with every background pixel under its box, closed <details> opened. |
+| `A-fcf340` | Elements must meet minimum color contrast ratio thresholds | `/timeline.html color-contrast` | Measured 2026-11-09 where axe could not determine the background: each page rendered in Chromium in light and dark scheme (CSP bypassed for the probe only), all text hidden including SVG text, and every visible text element compared with every background pixel under its box, closed <details> opened. |
+| `A-9a4ed8` | Elements must meet minimum color contrast ratio thresholds | `/glossary.html color-contrast` | Measured 2026-11-09 where axe could not determine the background: each page rendered in Chromium in light and dark scheme (CSP bypassed for the probe only), all text hidden including SVG text, and every visible text element compared with every background pixel under its box, closed <details> opened. |
+| `A-2c8611` | Elements must meet minimum color contrast ratio thresholds | `/about.html color-contrast` | Measured 2026-11-09 where axe could not determine the background: each page rendered in Chromium in light and dark scheme (CSP bypassed for the probe only), all text hidden including SVG text, and every visible text element compared with every background pixel under its box, closed <details> opened. |
+| `A-2d464c` | Elements must meet minimum color contrast ratio thresholds | `/sources.html color-contrast` | Measured 2026-11-09 where axe could not determine the background: each page rendered in Chromium in light and dark scheme (CSP bypassed for the probe only), all text hidden including SVG text, and every visible text element compared with every background pixel under its box, closed <details> opened. |
+| `A-5e3201` | Elements must meet minimum color contrast ratio thresholds | `/read.html color-contrast` | Measured 2026-11-09 where axe could not determine the background: each page rendered in Chromium in light and dark scheme (CSP bypassed for the probe only), all text hidden including SVG text, and every visible text element compared with every background pixel under its box, closed <details> opened. |
+| `A-8cf8fd` | Elements must meet minimum color contrast ratio thresholds | `/controversies.html color-contrast` | Measured 2026-11-09 where axe could not determine the background: each page rendered in Chromium in light and dark scheme (CSP bypassed for the probe only), all text hidden including SVG text, and every visible text element compared with every background pixel under its box, closed <details> opened. |
+| `A-5f06b7` | Elements must meet minimum color contrast ratio thresholds | `/television.html color-contrast` | Measured 2026-11-09 where axe could not determine the background: each page rendered in Chromium in light and dark scheme (CSP bypassed for the probe only), all text hidden including SVG text, and every visible text element compared with every background pixel under its box, closed <details> opened. |
+| `A-e14316` | Elements must meet minimum color contrast ratio thresholds | `/images.html color-contrast` | Measured 2026-11-09 where axe could not determine the background: each page rendered in Chromium in light and dark scheme (CSP bypassed for the probe only), all text hidden including SVG text, and every visible text element compared with every background pixel under its box, closed <details> opened. |
 
 </details>
 
@@ -139,4 +151,4 @@ Optional. These items never block a pass.
 |---|---|---|---|---|---|
 | `S-9a6baa` | security | No x-content-type-options header | `https://robin-ia.github.io/savannah-river-plant-explorer/` | A02:2025 · ASVS V3 | Set it; it stops browsers guessing content types. It has no <meta> form, so on a host that cannot set headers (GitHub Pages) it stays open; the explorer's owners decide whether that matters enough to change host. |
 
-<!-- explorer-checks:state {"passing": true, "date": "2026-11-07", "commit": "fb0dd9720ea484a298d0aabacdfbcbe424da7e24", "open": [], "titles": {}} -->
+<!-- explorer-checks:state {"passing": false, "date": "2026-11-09", "commit": "ce3cc5cf5eec1fe76dfda4406be16b9a61860b6c", "open": ["A-bf27cf"], "titles": {"A-bf27cf": "Focused elements look the same as unfocused ones"}} -->
