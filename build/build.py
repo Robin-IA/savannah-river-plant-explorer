@@ -696,7 +696,7 @@ def build_read():
 Open it in a new tab or download it instead. The same story, with links to every source, is in
 <a href="index.html">the chapters on this site</a>.</p>""" % (PDF_NAME, mb, PDF_NAME, PDF_NAME, html.escape(TITLE))
     page = head("Full Story (PDF) · " + TITLE, "read.html", "The Full Story", lede) + \
-        '<main id="main" class="wrap read-page">\n%s\n</main>\n' % body + foot()
+        '<main id="main" class="wrap read-page">\n%s\n</main>\n' % body + foot(["frame-focus.js"])
     write(ROOT / "read.html", page)
 
 
@@ -930,7 +930,7 @@ def build_timeline(tl, pages):
     return tl["events"]
 
 
-LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|TV|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|controversies|search|read|television|images|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(favicon\.svg|style\.css|print\.css|app\.js|search\.js|timeline\.js)(\?v=[0-9a-f]{8})?$|^atomic-history-savannah-river-plant\.pdf$|^img/[\w.-]+\.(png|jpg)$")
+LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|TV|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|controversies|search|read|television|images|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(favicon\.svg|style\.css|print\.css|app\.js|search\.js|timeline\.js|frame-focus\.js)(\?v=[0-9a-f]{8})?$|^atomic-history-savannah-river-plant\.pdf$|^img/[\w.-]+\.(png|jpg)$")
 IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
 
 
