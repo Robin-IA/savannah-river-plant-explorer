@@ -14,7 +14,7 @@ from playwright.sync_api import sync_playwright
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE = ROOT / "story-print.html"
-OUT = ROOT / "atomic-history-savannah-river-plant.pdf"
+OUT = ROOT / "books" / "atomic-history-savannah-river-plant.pdf"
 
 FOOTER = ('<div style="font: 8px Helvetica, Arial, sans-serif; color: #57595c; width: 100%; '
           'text-align: center;">Atomic History: The Savannah River Story · '
@@ -24,6 +24,7 @@ FOOTER = ('<div style="font: 8px Helvetica, Arial, sans-serif; color: #57595c; w
 
 
 def main():
+    OUT.parent.mkdir(exist_ok=True)
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page()
