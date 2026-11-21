@@ -45,10 +45,13 @@ logos:
   each linked to the story, and the places where the sources disagree.
 - **Search** (`search.html`, in the menu on every page): search the story,
   the timeline and the sources.
-- **Full Story (PDF)** (`read.html`, in the menu on every page): all four
-  chapters as one PDF (`atomic-history-savannah-river-plant.pdf`), with images
-  and citations, shown in the browser's own PDF viewer, with a link to download
-  it. The PDF is tagged for screen readers and has a bookmark outline.
+- **Ebook Download** (`read.html`, in the menu on every page): all four
+  chapters as one ebook, with images and citations, in two formats. The EPUB
+  (`atomic-history-savannah-river-plant.epub`) reflows to fit any screen and
+  adds the glossary and an index. The PDF
+  (`atomic-history-savannah-river-plant.pdf`) keeps the printed page layout,
+  is tagged for screen readers, has a bookmark outline and is also shown in
+  the browser's own PDF viewer.
 - **On Television** (`television.html`): broadcasts about the plant in the
   Internet Archive's TV News Archive, by chapter, each opening at the moment
   the plant comes up. The clips live in `content/television.json`, which also
@@ -84,10 +87,29 @@ python -m playwright install chromium
 python build/make_pdf.py
 ```
 
-**Every change to the story remakes the PDF in the same pull request.** The
-order is: edit `content/`, run `python build/build.py`, run
-`python build/make_pdf.py`, run the checks, then commit the pages and the
-PDF together, so the download never falls behind the website.
+### The EPUB
+
+`build/make_epub.py` turns the same `story-print.html` into
+`atomic-history-savannah-river-plant.epub` with pandoc 3, one file per
+chapter, and adds two parts as back matter: the Glossary, taken from
+`glossary.html`, and an Index. The index terms are kept in
+`build/epub_index_terms.py`, each with the patterns that find it; every entry
+links to the first paragraph in each section where the subject comes up, and
+to its glossary definition if it has one. The cover is `img/epub-cover.jpg`
+and the stylesheet is `build/epub.css`.
+
+```bash
+pip install -r requirements-pdf.txt   # Beautiful Soup
+# and pandoc 3: https://pandoc.org/installing.html
+python build/make_epub.py
+```
+
+**Every change to the story remakes both ebooks in the same pull request.**
+The order is: edit `content/`, run `python build/build.py`, run
+`python build/make_pdf.py` and `python build/make_epub.py`, run the checks,
+then commit the pages and both ebooks together, so the downloads never fall
+behind the website. Check a new EPUB with
+[EPUBCheck](https://www.w3.org/publishing/epubcheck/) before committing it.
 
 ### The research
 

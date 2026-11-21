@@ -168,7 +168,7 @@ def sources(path, act):
 
 PAGES = (("index.html", "Story"), ("timeline.html", "Timeline"),
          ("glossary.html", "Glossary"), ("controversies.html", "Controversies"), ("search.html", "Search"), ("television.html", "On Television"), ("about.html", "About"),
-         ("read.html", "Full Story"))
+         ("read.html", "Ebook Download"))
 ACT_SPANS = ((1, 1950, 1970, "Building the Bomb Plant"),
              (2, 1970, 1992.5, "The Reactors Under Scrutiny"),
              (3, 1992.5, 2020.5, "After the Bombs"),
@@ -204,7 +204,6 @@ def head(title, here, h1, lede, extra="", big=False):
         cur = ' aria-current="page"' if href == here else ""
         if href == "read.html":
             cur = (' class="nav-download" aria-current="page"' if href == here else ' class="nav-download"')
-            label += ' <span class="nav-size">(PDF)</span>'
         nav.append('<a href="%s"%s>%s</a>' % (href, cur, label))
     return """<!doctype html>
 <html lang="en">
@@ -400,7 +399,7 @@ def rail(items):
   %s
   <a class="card" href="timeline.html"><strong>Timeline</strong><span>Seventy-six years in one view: the reactors, the people moved, the oversight and the cleanup.</span></a>
   <a class="card" href="sources.html"><strong>All %d sources</strong><span>Filter by holder, chapter and word.</span></a>
-  <a class="card" href="read.html"><strong>The full story (PDF)</strong><span>All four chapters as one PDF, with images and citations.</span></a>
+  <a class="card" href="read.html"><strong>Ebook download</strong><span>All four chapters as an EPUB or a PDF, with images and citations.</span></a>
 </aside>""" % (holder_index(items), holder_chart(items), len(items))
 
 
@@ -536,6 +535,7 @@ def build_search(items):
 
 
 PDF_NAME = "atomic-history-savannah-river-plant.pdf"
+EPUB_NAME = "atomic-history-savannah-river-plant.epub"
 
 
 def build_print(items):
@@ -684,18 +684,24 @@ def site_search():
 
 
 def build_read():
-    """The PDF, shown in the browser's own viewer, with a download link."""
-    mb = (ROOT / PDF_NAME).stat().st_size / 1e6
-    lede = "All four chapters as one PDF, with images and citations, to read here or download."
+    """The ebook downloads: the EPUB (build/make_epub.py) and the PDF
+    (build/make_pdf.py), with the PDF shown in the browser's own viewer."""
+    pdf_mb = (ROOT / PDF_NAME).stat().st_size / 1e6
+    epub_mb = (ROOT / EPUB_NAME).stat().st_size / 1e6
+    lede = "All four chapters as one ebook, with images and citations, to download as an EPUB or a PDF."
     body = """<div class="read-actions">
+  <a class="read-btn" href="%s" download type="application/epub+zip">Download the EPUB <span>(%.0f MB)</span></a>
   <a class="read-btn" href="%s" download type="application/pdf">Download the PDF <span>(%.0f MB)</span></a>
-  <a href="%s" type="application/pdf" target="_blank" rel="noopener">Open it in a new tab</a>
 </div>
+<p class="read-note">The EPUB reflows to fit any screen and text size, and adds a glossary and an index.
+Open it in an ebook app such as Apple Books, Google Play Books, Kobo or Thorium Reader.
+The PDF keeps the printed page layout. It is shown below, or you can
+<a href="%s" type="application/pdf" target="_blank" rel="noopener">open the PDF in a new tab</a>.</p>
 <iframe class="pdf-frame" src="%s" title="%s, as a PDF"></iframe>
 <p class="read-note">If the PDF does not show above, your browser may not display PDFs inside a page.
 Open it in a new tab or download it instead. The same story, with links to every source, is in
-<a href="index.html">the chapters on this site</a>.</p>""" % (PDF_NAME, mb, PDF_NAME, PDF_NAME, html.escape(TITLE))
-    page = head("Full Story (PDF) · " + TITLE, "read.html", "The Full Story", lede) + \
+<a href="index.html">the chapters on this site</a>.</p>""" % (EPUB_NAME, epub_mb, PDF_NAME, pdf_mb, PDF_NAME, PDF_NAME, html.escape(TITLE))
+    page = head("Ebook Download · " + TITLE, "read.html", "Ebook Download", lede) + \
         '<main id="main" class="wrap read-page">\n%s\n</main>\n' % body + foot(["frame-focus.js"])
     write(ROOT / "read.html", page)
 
@@ -930,7 +936,7 @@ def build_timeline(tl, pages):
     return tl["events"]
 
 
-LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|TV|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|controversies|search|read|television|images|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(favicon\.svg|style\.css|print\.css|app\.js|search\.js|timeline\.js|frame-focus\.js)(\?v=[0-9a-f]{8})?$|^atomic-history-savannah-river-plant\.pdf$|^img/[\w.-]+\.(png|jpg)$")
+LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|TV|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|controversies|search|read|television|images|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(favicon\.svg|style\.css|print\.css|app\.js|search\.js|timeline\.js|frame-focus\.js)(\?v=[0-9a-f]{8})?$|^atomic-history-savannah-river-plant\.(pdf|epub)$|^img/[\w.-]+\.(png|jpg)$")
 IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
 
 

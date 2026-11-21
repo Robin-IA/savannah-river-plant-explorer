@@ -31,7 +31,7 @@
 
 <h3 id="how-it-was-built">How It Was Built</h3>
 <p>Researched from archive.org search and full-text search, the Wayback Machine's CDX server and the OSTI catalog. The story and the source lists are written in Markdown, and a short Python script turns them into these pages. The timeline is drawn from the same story, event by event.</p>
-<p>The downloadable PDF of the story is made from the same files, by printing the whole story to one document. Whenever the story changes, the PDF is remade in the same update, so the download always matches the website.</p>
+<p>The ebook downloads are made from the same files. The PDF prints the whole story to one document. The EPUB is built from the same page, adds the glossary and an index, and reflows to fit any screen. Whenever the story changes, both are remade in the same update, so the downloads always match the website.</p>
 <p>Made by Robin Fay, Democracy's Library, 2026.</p>
 
 <h3 id="what-is-left-out">What Is Left Out</h3>
