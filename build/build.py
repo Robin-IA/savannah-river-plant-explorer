@@ -534,8 +534,8 @@ def build_search(items):
     write(ROOT / "search.html", page)
 
 
-PDF_NAME = "atomic-history-savannah-river-plant.pdf"
-EPUB_NAME = "atomic-history-savannah-river-plant.epub"
+PDF_NAME = "books/atomic-history-savannah-river-plant.pdf"
+EPUB_NAME = "books/atomic-history-savannah-river-plant.epub"
 
 
 def build_print(items):
@@ -936,7 +936,7 @@ def build_timeline(tl, pages):
     return tl["events"]
 
 
-LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|TV|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|controversies|search|read|television|images|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(favicon\.svg|style\.css|print\.css|app\.js|search\.js|timeline\.js|frame-focus\.js)(\?v=[0-9a-f]{8})?$|^atomic-history-savannah-river-plant\.(pdf|epub)$|^img/[\w.-]+\.(png|jpg)$")
+LOCAL = re.compile(r"^sources\.html\?(chapter=[1-4]|tag=(DL|WB|IA|TV|OL|EXT)(&chapter=[1-4])?)$|^(index|sources|about|glossary|controversies|search|read|television|images|timeline|chapter-[1-4](-\d+)?)\.html(#[\w-]+)?$|^(favicon\.svg|style\.css|print\.css|app\.js|search\.js|timeline\.js|frame-focus\.js)(\?v=[0-9a-f]{8})?$|^books/atomic-history-savannah-river-plant\.(pdf|epub)$|^img/[\w.-]+\.(png|jpg)$")
 IDENT = re.compile(r"^https://archive\.org/details/[A-Za-z0-9][\w.-]*$")
 
 

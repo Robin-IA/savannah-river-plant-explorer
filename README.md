@@ -47,9 +47,9 @@ logos:
   the timeline and the sources.
 - **Ebook Download** (`read.html`, in the menu on every page): all four
   chapters as one ebook, with images and citations, in two formats. The EPUB
-  (`atomic-history-savannah-river-plant.epub`) reflows to fit any screen and
+  (`books/atomic-history-savannah-river-plant.epub`) reflows to fit any screen and
   adds the glossary and an index. The PDF
-  (`atomic-history-savannah-river-plant.pdf`) keeps the printed page layout,
+  (`books/atomic-history-savannah-river-plant.pdf`) keeps the printed page layout,
   is tagged for screen readers, has a bookmark outline and is also shown in
   the browser's own PDF viewer.
 - **On Television** (`television.html`): broadcasts about the plant in the
@@ -78,7 +78,7 @@ logos:
 ### The PDF
 
 `build/build.py` also writes `story-print.html`, the whole story on one page.
-`build/make_pdf.py` prints it to `atomic-history-savannah-river-plant.pdf`
+`build/make_pdf.py` prints it to `books/atomic-history-savannah-river-plant.pdf`
 with headless Chromium. Run it after every build that changes the story:
 
 ```bash
@@ -90,7 +90,7 @@ python build/make_pdf.py
 ### The EPUB
 
 `build/make_epub.py` turns the same `story-print.html` into
-`atomic-history-savannah-river-plant.epub` with pandoc 3, one file per
+`books/atomic-history-savannah-river-plant.epub` with pandoc 3, one file per
 chapter, and adds two parts as back matter: the Glossary, taken from
 `glossary.html`, and an Index. The index terms are kept in
 `build/epub_index_terms.py`, each with the patterns that find it; every entry

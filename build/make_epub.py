@@ -34,7 +34,7 @@ from epub_index_terms import TERMS, SEE  # noqa: E402
 
 STORY = ROOT / "story-print.html"
 GLOSSARY = ROOT / "glossary.html"
-OUT = ROOT / "atomic-history-savannah-river-plant.epub"
+OUT = ROOT / "books" / "atomic-history-savannah-river-plant.epub"
 SITE = "https://internetarchivecanada.github.io/Explorer-Atomic-History-SRS-Story/"
 MAX_LOCS, TOP_LOCS = 12, 5   # past MAX_LOCS sections, list the TOP_LOCS that discuss a subject most
 
@@ -229,6 +229,7 @@ def fix_opf(path):
 
 
 def main():
+    OUT.parent.mkdir(exist_ok=True)
     s = BeautifulSoup(STORY.read_text(encoding="utf-8"), "html.parser")
     for link in s.find_all("link"):
         link.decompose()
